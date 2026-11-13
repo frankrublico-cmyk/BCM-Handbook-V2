@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10: The Spirit of Moloch | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 10: THE SPIRIT OF MOLOCH</h1>
+            <p>"Breaking the Altar of Generational Sacrifice"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Levitico 20:2-5, Jeremias 32:35, ug Salmo 106:37-38<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Moloch sa spiritual realm karon—ang espiritu nga nag-lamoy sa sunod nga henerasyon ug sa pamilya alang sa garbo ug personal nga ambisyon—ug kon unsaon kini pagpukan pinaagi sa awtoridad ni Hesus ug pagpahiuli sa atong mga panimalay.</p>
+
+        <h2>Introduction: The God of the Fire Altar</h2>
+        <p>Sa atong pagtuon sa mga teritoryo ug mga kusog sa spiritual realm, atong masugatan ang usa sa pinaka-ngil-ad ug pinaka-malupigon nga espiritu sa kasaysayan sa Bibliya: si <strong>Moloch</strong> (o Molech). Si Moloch mao ang nasudnong dios-dios nga tumbaga sa mga Ammoninhon, nga duna kaniy ulo sa baka ug ang iyang mga kamot gina-extend paingon sa unahan.</p>
+        
+        <p>Aron simbahon si Moloch, magpadungog sila og dako kaayong kalayo sa sulod sa maong rebulto hangtod nga mo-pula kini sa kainit. Unya, ang mga magsisimba magdala sa ilang kaugalingong mga anak—mga masuso ug mga batan-on—ug i-butang kini sa nagakusog nga kainit sa kamot ni Moloch aron masunog hangtod mamatay. Magdala sila og mga tambol aron sabaan ang palibot ug dili madungog ang hilak sa mga bata. Ngano? Kay nagtuo sila nga kon i-sakripisyo nila ang ilang mga anak, hatagan sila ni Moloch og gahum, kadaugan sa gubat, ug proteksyon.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI PARA SA LIDER (THE VALLEY OF HINNOM)</span>
+            Ipasabut sa mga miyembro nga ang dapit diin ginasunog ang mga bata ngadto kay Moloch gitawag og **Tophet** nga anaa nahimutang sa **Valley of Hinnom** (Jeremias 7:31). Ang pulong nga "Tophet" nagagikan sa pulong nga nagpasabut og "tambol," tungod kay gina-sabaan man ang mga tambol aron tabunan ang hilak sa bata. Sa Bag-ong Tugon, ang pulong nga *Valley of Hinnom* nahimong **"Gehenna"** (Impiyerno). Kini nagpasabut nga ang pamilya nga nagasagop sa sistema ni Moloch nagatukod og "Gehenna" o impiyerno sa sulod sa ilang kaugalingong panimalay.
+        </div>
+        
+        <p>Sa spiritual realm, ang Spirit of Moloch naglihok gihapon sa atong modernong panahon. Kini ang espiritu nga nag-devour o nag-lamoy sa sunod nga henerasyon pinaagi sa pag-aghat sa mga ginikanan ug sa pamilya nga i-sakripisyo ang ilang pamilya ug ang kaugmaon sa ilang mga anak alang sa personal nga ambisyon, karera, ug modernong kultura sa kalibutan. Atong pukawa kini nga altar aron maluwas nato ang atong pamilya ug ang atong kaliwatan!</p>
+
+        <h2>I. Ang mga Kinaiya sa Spirit of Moloch sa Spiritual Realm</h2>
+        <p>Aron atong mailhan ang iyang mga atake, atong sabton kon unsa ang iyang pangunang tinguha sa spiritual realm:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">👶 1. It Targets the Children and the Future Generation (Target Niya ang Kabataan)</div>
+            <div class="verse-box">
+                <strong>Salmo 106:37-38</strong> - "Oo, ilang gipahalad ang ilang mga anak nga lalake ug mga anak nga babaye ngadto sa mga demonyo, Ug nag-ula sa dugo nga walay sala... nga ilang gipahalad ngadto sa mga dios-dios sa Canaan..."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Sa spiritual realm, si Satanas nahadlok sa sunod nga henerasyon kay basin duna silay mabuhat nga dako alang sa gingharian sa Dios. Mao nga gigamit niya si Moloch aron daoton ang huna-huna ug kinabuhi sa kabataan samtang bata pa sila pinaagi sa depresyon, adiksyon, ug rebelyon. Ang kaaway nangita og legal ground pinaagi sa pagpasagad sa panimalay aron gapuson ang kalag sa kabataan.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🛑 2. It Deceives Parents to Trade Relationship for Wealth (Pang-ilad sa mga Ginikanan)</div>
+            <div class="verse-box">
+                <strong>Levitico 20:2</strong> - "Sultihi ang mga Israelita nga... bisan kinsa kanila nga mohalad sa ilang mga kabataan ngadto kang Moloc kinahanglan nga patyon. Batoon siya sa mga tawo."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Ang Spirit of Moloch mobulong sa mga ginikanan karon: <em>"Trabaho lang og maayo, pasagdi lang una ang pag-disiplina ug pag-gabay sa imong mga anak sa Pulong, hatagi lang sila og gadgets ug kwarta."</em> Kini usa ka lit-ag! Iyang ipabaylo ang relationship ug spiritual guidance alang sa materyal nga mga butang hangtod nga ang mga anak ma-anod na sa kangitngit. Ang kaaway mogamit og tanyag sa pinansyal nga asenso aron kawatan ka og panahon sa pag-disipolo sa imong pamilya.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">⚰️ 3. It Promotes a Culture of Death and Disposability</div>
+            <p>Kini nga espiritu nag-ingon nga kon ang usa ka kinabuhi o responsibilidad "maka-babag" sa imong personal nga kalipay, karera, o ambisyon, pwede ra nimo kini i-sakripisyo o i-wagtang. Mao kini ang espiritu nga nagpaluyo sa <strong>abortion</strong> (pagpakuha sa bata) sa tibuok kalibutan, diin milyon-milyong mga masuso ang gi-sakripisyo sa altar sa "personal convenience." Nagdala usab kini og pagka-wala'y bili sa kinabuhi ug pagka-mabugnawon sa pagbati ngadto sa isig-katawo.</p>
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Moloch Karon? (The Modern Manifestations)</h2>
+        <p>Giunsa man nato pagkahibalo nga si Moloch naglihok na sa atong palibot sa spiritual realm? Atong bantayan kining tulo ka timailhan:</p>
+        <ul>
+            <li>🏠 <span class="highlight-text">The Disconnection Between Parents and Children (Pagkabungkag sa Panimalay):</span> Anaa ra mo sa sulod sa usa ka balay, apan walay komunikasyon. Ang mga anak anaa sa ilang kaugalingon nga kalibutan sa internet, ug ang mga ginikanan busy kaayo. Kung wala nay pagtinudloay sa Pulong sa Dios sa sulod sa panimalay, hinay-hinay nga gina-anod sa kaaway ang imong mga anak paingon sa kapildihan.</li>
+            <li>🔥 <span class="highlight-text">Exposing Children to the "Fire" of Worldly Culture:</span> Karon, ang "kalayo" ni Moloch mao ang mga dautang impluwensya sa internet, pornograpiya, ideolohiya sa kalibutan nga supak sa Bibliya, ug ang espiritu sa rebelyon. Kon pasagdan lang nato sila nga lamyon niini nga mga sistema nga walay paggiya, gina-surrender noto sila sa mga kamot sa kaaway nga andam molaglag sa ilang bokasyon.</li>
+            <li>📈 <span class="highlight-text">Sacrificing Family and Sanity for Ambition:</span> Kanang duna kay grabe nga drive nga mosaka sa posisyon o modako ang negosyo, apan ang presyo nga imong gibayad mao ang kalinaw sa imong kaminyoon ug ang espirituhanong kahimtang sa imong pamilya. If your success requires you to destroy your family, that success is from Moloch, not from God. Ang Dios dili mohatag og panalangin nga makaguba sa imong panimalay.</li>
+        </ul>
+
+        <h2>III. How to Overcome and Break the Spirit of Moloch (Kon Unsaon Kini Pagpukan)</h2>
+        <p>Dili kita mosugot nga ang atong pamilya ug ang atong sunod nga henerasyon lamyon sa kaaway! Ania ang atong mga spiritual warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⛪ 1. Reclaim Your Home as a Spiritual Sanctuary (Himoa ang Balay nga Simbahan)</div>
+            <div class="verse-box">
+                <strong>Deuteronomio 6:6-7</strong> - "Ug kining mga pulonga... itudlo mo kini sa tinuod gayud sa imong mga anak, ug isulti mo kini sa magalingkod ikaw sa imong balay, ug sa magalakaw ikaw sa dalan..."
+            </div>
+            <p><strong>Application:</strong> Dili igo nga sa simbahan lang makadungog og Pulong sa Dios ang imong pamilya. Kinahanglan nga sa sulod mismo sa imong panimalay duna kay altar sa pag-ampo ug pagbasa sa Pulong uban sa imong mga anak. Putla ang kabanha sa kalibutan (ang mga tambol ni Moloch) sa imong balay. I-off ang mga gadgets sa piho nga oras, luhod uban sa pamilya, ug i-pray ang proteksyon ug ugma sa imong mga anak upang mapatunhay ang balaang presensya.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🩸 2. Apply the Blood of Jesus to Cut Generational Curses</div>
+            <p><strong>Application:</strong> Kon sa imong kagahapon o sa imong pamilya duna kay nakita nga mga pattern diin ang kabataan sige rag ka-broken, ma-rebelde, o duna kay mga sala sa pamilya nga wala nadeklara sa kahayag—i-confess kini ug gamita ang gahum sa Dugo ni Hesus aron maputol ang legal ground ni Moloch sa imong kaliwatan. </p>
+            <p>Pag-ampo og sama niini: <em>"Sa ngalan ni Hesus, akong gina-confess ang matag kapakyasan ug sala sa akong pamilya. Akong ginasira ang pultahan batok sa Spirit of Moloch! Akong i-deklarar nga ang akong mga anak ug ang akong sunod nga henerasyon gipalit na sa Dugo ni Hesus ug dili sila ma-sakripisyo sa kangitngit! Ang matag generational curse sa pagkabungkag ug rebelyon putlon karon sa Ngalan ni Hesus!"</em></p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🛡️ 3. Stand as a Watchman (Pagbarug isip Tigbantay)</div>
+            <p><strong>Application:</strong> Ang mga ginikanan ug mga lider mao ang mga espirituhanong taming sa panimalay. Ayaw ka-passive o ka-huyang. Kinahanglan nimong hibaloan kon unsay gisudlan sa huna-huna sa imong mga anak, kinsa ilang mga kauban, ug unsay ilang mga giatubang nga kabalaka. Protect them through prophetic intercession! Ang pag-ampo sa usa ka matinud-anong ginikanan adunay dakong gahum sa pagpukan sa mga udyong sa kaaway.</p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO ALANG SA MINISTRATION / ALTAR CALL</span>
+            Lider, gamita kini nga deklarasyon uban ang balaang awtoridad sa altar: *“Sa Ngalan ni Hesus, ginaluwas namo ang inyong mga anak gikan sa kalayo sa kalibutan! Among ginabungkag ang matag altar ni Moloch nga nagdala og depresyon, rebelyon, ug adiksyon sa kabataan. Gideklara nako nga ang inyong panimalay mahimong taming sa Espiritu Santo. Ang inyong sunod nga kaliwatan mag-alagad sa Ginoo sa katarong ug kaisog!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: The Promise of Restoration</h2>
+        <div class="verse-box">
+            <strong>Malakias 4:6</strong> - "Ug iyang i-uli ang kasingkasing sa mga amahan ngadto sa mga anak, ug the kasingkasing sa mga anak ngadto sa ilang mga amahan..."
+        </div>
+        <p>Ang tumong sa Dios sa spiritual realm mao ang pagpahiuli <strong>(restoration)</strong>—pagkonektar sa kasingkasing sa mga ginikanan ngadto sa mga anak, ug mga anak ngadto sa ginikanan. Samtang ang tinguha ni Moloch mao ang pagkabahin-bahin ug pag-sakripisyo, ang tinguha sa Dios mao ang panaghiusa ug kinabuhi.</p>
+        
+        <p style="text-align: center; font-weight: bold; font-size: 1.25rem; color: #ffd700;">
+            ⚔️ "Apan alang kanako ug sa akong panimalay, kami mag-alagad sa Ginoo!" (Josue 24:15)
+        </p>
+        <p>Guboon noto ang matag altar sa pagpasagad ug kompromiso. Ibalik noto ang paghari sa Dios sa atong mga panimalay, ug i-proclaim noto nga ang atong sunod nga kaliwatan mamahimong mga gamhanang sundalo ni Kristo Hesus sa unahan! Dili nato itugot nga naay makabsan o mabilanggo sa gahum sa kangitngit.</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call:</h3>
+            <ul>
+                <li>Aduna ba kay kakulang sa paggabay o pag-ampo alang sa imong pamilya ug kabataan tungod sa kabusy sa kinabuhi? Gibati ba nimo nga ang imong mga anak gina-atake sa kaaway pinaagi sa rebelyon, depresyon, o dautang impluwensya?</li>
+                <li>Mag-ampo kita karon uban ang pagtoo, bungkagon noto ang matag kuta sa Spirit of Moloch, ug i-claim noto ang hingpit nga kaluwasan ug panalangin sa atong tibuok kaliwatan diha sa Ngalan ni Hesus! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

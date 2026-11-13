@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 18: The Spirit of Asherah | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="container-inner">
+            <div class="lesson-header">
+                <h1>LESSON 18: THE SPIRIT OF ASHERAH</h1>
+                <p>"Overcoming the Trap of False Comfort"</p>
+            </div>
+
+            <p><strong>Pangunang Bersikulo:</strong> Mga Hukom 6:25-26, 1 Hari 18:19, ug Isaias 55:1-2<br>
+            <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Asherah sa spiritual realm—ang espiritu nga nagtanyag og peke nga kaharuhay, emosyonal nga mga lit-ag, ug kalingawan aron ilisdan ang dapit sa Espiritu Santo—ug kon unsaon kini pagpukan pinaagi sa pagpangita sa tinuod nga katagbawan ug kalinaw diha sa presensya sa Dios.</p>
+
+            <h2>Introduction: The Battle for the Broken Heart</h2>
+            <p>Sa atong pagpadayon sa pagtuon sa mga pwersa sa spiritual realm, atong tukion ang usa ka espiritu nga kanunay kauban ug kapikas sa Spirit of Baal. Kon si Baal ang dios sa materyal nga kalampusan ug panalapi, si <strong>Asherah</strong> (o Astarte) mao ang Canaanhong dyosa sa emosyonal nga kaharuhay, kalipay sa unod, ug mapangdaotang kalingawan. Ang iyang mga altar kasagaran gihimo gikan sa pinutol nga kakahoyan o mga poste <em>(Asherah poles)</em> nga gitanom tupad sa altar ni Baal.</p>
+            
+            <p>Sa Daang Tugon, kon ang mga Israelinhon kapoyon gikan sa ilang adlaw-adlaw nga trabaho, ma-stress sa kakuwang sa panalapi, o mamingaw ang kasingkasing, modagan sila sa landong nga kakahoyan ni Asherah aron mangita og dali nga kalipay, emosyonal nga "release," ug kaharuhay sa unod. Sa spiritual realm, ang Spirit of Asherah naglihok gihapon karon pinaagi sa usa ka maalamon apan makahilo nga mekanismo: <span class="highlight-text">False Comfort (Peke nga Kaharuhay ug Pag-escape)</span>.</p>
+
+            <div class="leader-insight-box">
+                <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE REWARD TRAP)</span>
+                Lider, ipasabut pag-ayo sa mga gipang-cellgroupan nga si Asherah mosulod ingon usa ka "sutil nga magtatambag" sa mga panahon nga kita gikapuyan. Mogamit kini og huna-huna nga: *“Naningkamot ka og maayo karong semanaha sa imong trabaho o negosyo, reward man ni nimo sa imong kaugalingon, okay ra bisan kompromiso gamay.”* Ang iyang tumong mao ang pagpuli sa dapit sa Espiritu Santo pinaagi sa pagpakaon sa imong unod samtang gigutom ang imong espiritu.
+            </div>
+            
+            <p>Kini ang espiritu nga mosulod kon duna kay giatubang nga kaguol, ka-stress sa panimalay, o kamingaw sa kasingkasing. Imbes nga modagan ka sa Dios aron mo-pray, bulongan ka niini nga espiritu nga modagan sa mga peke nga solusyon sa kalibutan—sama sa bisyo, overspending (pataka og palit sa online shopping), adiksyon sa internet, o mga sayop nga relasyon—aron lang "malimtan" ang problema. Karong adlawa, atong pukanon kining maong espiritu!</p>
+
+            <h2>I. Ang mga Kinaiya sa Spirit of Asherah sa Kasulatan</h2>
+            <p>Aron atong mapukan kini, kinahanglan natong masabtan kon unsa ang iyang tinguha sa spiritual realm sumala sa Pulong sa Dios:</p>
+
+            <div class="manifest-box">
+                <div class="manifest-title">🎭 1. It Substitutes the Holy Spirit (Pagnakaw sa Papel sa Espiritu Santo)</div>
+                <p>Usa sa mga nag-unang ngalan sa Espiritu Santo mao ang <em>The Comforter</em> o ang Maghahupay <small>(Juan 14:26)</small>. Siya lang ang adunay katakus sa paghatag og tinuod nga kalinaw, kaayohan, ug kalipay sa nagdugo ug gikapuyan nga kasingkasing sa tawo.</p>
+                <p><strong>Spiritual Insight:</strong> Ang Spirit of Asherah naglihok isip usa ka peke nga maghahupay. Gusto niini nga kon ikaw ma-stress o masakitan, dili na ka magluhod ug mo-ampo. Gusto niya nga ang imong daganon mao ang kalingawan sa unod aron mahupay ang imong emosyon. It starves your spiritual life by injecting dopamine and temporary worldly pleasures into your flesh.</p>
+            </div>
+
+            <div class="manifest-box">
+                <div class="manifest-title">🌳 2. It Hides Behind Trees and Nature (Pagtakuban sa Luyo sa Kaharuhay)</div>
+                <p>Sa Bibliya, ang mga altar ni Asherah kanunay gihimo sa mga landong nga kakahoyan, hatag-as nga dapit, ug mga hardin <em>(high places and groves)</em> aron ang mga tawo mobati og karelax ug kalinaw sa kalibutanon nga paagi.</p>
+                <p><strong>Spiritual Insight:</strong> Nagpakita kini nga kini nga espiritu nagtakuban sa luyo sa mga butang nga "natural, hayahay, ug makalingaw." Moingon ang kaaway karon: <em>"Okay ra man na nga mag-relax ka gamay pinaagi sa bisyo o unodnong kalingawan, stress man ka sa kinabuhi."</em> Iyang gamiton ang imong natural nga kakapoy aron isulod ka sa lit-ag sa espirituhanong pagkatulog ug kompromiso.</p>
+            </div>
+
+            <h2>II. Unsaon Pag-manifest sa Spirit of Asherah Karon? (The Modern Manifestations)</h2>
+            <p>Giunsa man niini pag-atake ang atong generasyon karon sa spiritual realm? Atong bantayan kining tulo ka dagkong timailhan:</p>
+            
+            <div class="manifest-box">
+                <div class="manifest-title">🍷 1. Emotional Coping Mechanisms (Peke nga Tambal sa Stress)</div>
+                <p>Kini mao ang pagsalig sa mga bisyo (sama sa bino, sigarilyo, sugal, o uban pang unodnong kalingawan) sa matag higayon nga naay problema sa pamilya, stress sa trabaho, o kakulangan sa negosyo. Kon ang imong daganon aron makabaton og "peace of mind" mao ang mga unodnong butang sa kalibutan imbes nga ang altar sa pag-ampo, si Asherah ang naghupot sa imong emosyon.</p>
+            </div>
+
+            <div class="manifest-box">
+                <div class="manifest-title">🛍️ 2. Retail Therapy and Materialism Escapism (Gasto pinaagi sa Kamingaw)</div>
+                <p>Kini magsugod sa huna-huna kon mobati ka og kamingaw, ug imong pun-an ang maong haw-ang pinaagi sa pagsige og palit sa mga butang nga dili nimo kinahanglan, pagsige og scroll sa internet aron mangita og mapalit (adiksyon sa Shopee, Lazada, Temu), o paggasto sa kwarta aron lang makabaton og temporaryo nga excitement. It is a false satisfaction that drains your resources.</p>
+                <div class="verse-box">
+                    <strong>Isaias 55:2</strong> - "Nganong gastohon man ninyo ang inyong kuwarta nianang dili makaon? Ug nganong maghago man kamo nianang dili makabusog? Pamati kamo kanako ug makakaon kamog maayong pagkaon ug matagbaw kamo."
+                </div>
+            </div>
+
+            <div class="manifest-box">
+                <div class="manifest-title">📺 3. Entertainment and Escapism Addiction (Pag-ikyas sa Kamatuoran)</div>
+                <p>Kini mao ang paggugol og daghang oras sa mga serye sa salida, dula sa internet, o social media aron lang "maka-escape" sa tinuod nga mga responsibilidad, problema sa kaminyoon, ug gubat sa kinabuhi. Ang Spirit of Asherah naghatag kanag espirituhanong katulogon <em>(spiritual slumber)</em> aron mawad-an ka og kadasig sa pag-alagad, pag-ampo, ug pag-atend sa cellgroup.</p>
+            </div>
+
+            <div class="leader-insight-box">
+                <span class="leader-insight-title">🛑 TIMAILHAN SA CELLGROUP ATTACK (THE COMPROMISE SLIDE)</span>
+                Lider, bantayi sa cellgroup kon ang mga miyembro magsugod na gani og ingon: *“Wala ko ka-attend kay nag-relax ko, napuol ko sa sige og duso sa negosyo/trabaho.”* Kon ang kalingawan sa kalibutan mas dali na nilang daganon kaysa sa tiilan ni Hesus, si Asherah hinay-hinay nang nagputol sa ilang espirituhanong kahinam. Kinahanglan nato silang tabangan pinaagi sa pagbawi sa altar sa pag-ampo.
+            </div>
+
+            <h2>III. How to Destroy the Spirit of Asherah and Find True Comfort</h2>
+            <p>Ang Dios nagtawag kanato karon aron guboon kining maong peke nga mga altar sa atong kinabuhi ug panimalay, sama sa sugo sa Dios kang Gedeon:</p>
+            <div class="verse-box">
+                <strong>Mga Hukom 6:25</strong> - "...ug pukanon mo ang altar ni Baal... ug putlon mo ang Asherah (Asherah pole) nga anaa sa tupad niini."
+            </div>
+
+            <div class="counter-strategy">
+                <div class="counter-title">🪵 1. Identify and Tear Down the False Altars (Ilha ug Putla ang Peke nga Altar)</div>
+                <p><strong>Application:</strong> Aron mapukan ang Spirit of Asherah, kinahanglan natong saksihan ug i-confess ang mga butang nga atong gihimong "daganon" sa matag higayon nga kita ma-stress, mamingaw, o kapoyon. Desisyuni karon uban sa Holy Spirit: <em>"Lord, gihinulsulan nako ang akong pagdagan sa mga kalingawan sa kalibutan ug sa bisyo sa matag higayon nga ako kapoyon. Akong ginasira ang pultahan batok sa peke nga kaharuhay ni Asherah."</em> Putli ang imong huna-huna ug panimalay gikan sa mga butang nga nagdala og kompromiso.</p>
+            </div>
+
+            <div class="counter-strategy">
+                <div class="counter-title">🏃‍♂️ 2. Run to the True Comforter (Modagan sa Tinuod nga Maghahupay)</div>
+                <div class="verse-box">
+                    <strong>Mateo 11:28</strong> - "Duol kamo kanako, kamong tanan nga gikapuyan ug gibug-atan sa inyong gipas-an ug papahulayon ko kamo."
+                </div>
+                <p><strong>Application:</strong> Kon mobati ka og kakapoy, stress, o kamingaw, ayaw ablihi ang imong gadget o modagan sa kalibutan—panaog sa imong mga luhod ug adto sa presensya sa Dios. Himoa ang pag-ampo nga imong unang response, dili ang imong katapusang kapilian. Ang tinuod nga kalinaw nga molapas sa tanang pagsabot makuha ra diha sa tiilan ni Hesus <small>(Filipos 4:6-7)</small>.</p>
+            </div>
+
+            <div class="counter-strategy">
+                <div class="counter-title">⚔️ 3. Release Warfare Prayer for Pure Contentment (I-pray ang Katagbawan)</div>
+                <p><strong>Application:</strong> Gamita ang awtoridad sa ngalan ni Hesus aron badlongon ang espiritu sa peke nga kaharuhay ug emosyonal nga gapos sa imong panimalay ug huna-huna. Sa imong Warfare Prayer, i-proclaim kini uban ang kadasig: <strong>"Sa ngalan ni Hesus, akong gihinginlan ug ginabungkag ang matag Spirit of Asherah ug false comfort sa akong kinabuhi! Akong ginasalikway ang matag bisyo, adiksyon, ug peke nga kalingawan nga nag-ilis sa dapit sa Espiritu Santo. Akong i-proclaim nga ang Dios mao ang akong kalinaw, ang akong katagbawan, ug maglakaw ako sa dako nga breakthrough ug kalampusan nga gihan-ay sa Ginoo para kanato! Amen!"</strong></p>
+            </div>
+
+            <div class="leader-insight-box">
+                <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING COMFORT STRONGHOLDS)</span>
+                Lider, taposa ang inyong cellgroup pinaagi sa pag-ampo sa usag-usa uban ang balaang pag-mabinantayon: *“Magkupotay kita sa kamot. Sa Ngalan ni Hesus, among ginaputol ug ginapukan ang matag altar ni Asherah sa inyong mga kasingkasing! Among giguba ang matag kuta sa unodnong pag-escape, bisyo, ug peke nga kaharuhay gikan sa kalibutan. Dawata ang tinuod nga kalinaw ug ang presko nga duso sa Espiritu Santo karon! Gideklara nako ang supernatural nga katagbawan ug kusog sa inyong kinabuhi, pamilya, ug negosyo diha sa Ngalan ni Hesus! Amen!”*
+            </div>
+
+            <h2>Conclusion & Call to Action: The Well of Living Water</h2>
+            <div class="verse-box">
+                <strong>Juan 4:14</strong> - "...apan ang moinom sa tubig nga akong ihatag kaniya dili na gayod uhawon. Kay ang tubig nga akong ihatag mahimo diha kaniya nga usa ka tuboran nga mohatag ug buhing tubig ug kinabuhing walay kataposan."
+            </div>
+            <p>Ang kalibutan ug ang Spirit of Asherah nagtanyag og tubig nga makauhaw pag-usab. Ang mga kalingawan ug peke nga kaharuhay molungtad lang og kadiyot, apan mobilin kini og mas dako nga haw-ang, stress, ug kaguol sa imong kalag. Apan ang tubig nga gikan kang Hesus naghatag og tinuod ug supernatural nga katagbawan!</p>
+            <p>Ayaw na itugot nga ang imong huna-huna ug emosyon ma-manipulate sa kaaway pinaagi sa stress ug kamingaw. Kon ikaw kapoyon, barug, i-on ang imong pagdayeg, ug dagan sa presensya sa Ginoo. Isulob ang tibuok armor sa Dios, putla ang matag altar ni Asherah sa imong panimalay, ug i-proclaim nato ang hingpit nga kalampusan, kalinaw, ug kagawasan diha kay Kristo Hesus! Amen!</p>
+
+            <div class="questions-box">
+                <h3>❓ Reflection and Prayer Call (Cellgroup Discussion):</h3>
+                <ul>
+                    <li>Aduna ba kay dapit sa imong kinabuhi karon diin nagsugod ka na og dagan sa mga peke nga kaharuhay, overspending, o internet escapism tungod sa kabug-at sa mga pagsulay ug stress? Giunsa nimo pagbawi ang imong prayer altar?</li>
+                    <li>Mag-ampo kita karon alang sa usag-usa uban ang tinuod nga kasingkasing. Dugmokon nato ang matag kuta sa Spirit of Asherah, ug i-claim nato ang tinuod nga kalinaw, presko nga duso sa Holy Spirit, ug hingpit nga katagbawan gikan sa Ginoo! Amen!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8: The Marine Spirit (Sirina) | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY UTILITY NAV WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT ALIGNED FOR MOBILE */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 HAPSAY UG DILI-MAGSAPAW NGA TOP NAVIGATION BAR -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 8: THE MARINE SPIRIT: SIRINA</h1>
+            <p>"Unmasking the Marine Spirit: Breaking the Siren’s Song"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Pinadayag 17:1-2, Proverbio 7:21-23, ug Ezekiel 26:16<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang Marine Spirit nga naglihok isip "Serina" (Siren/Mermaid spirit) sa spiritual realm—ang espiritu sa seductions, malalangong panglimbong, ug espirituhanong pagkabuta—ug kon unsaon kini pagpukan pinaagi sa awtoridad ni Hesus.</p>
+
+        <h2>Introduction: The Myth vs. The Spiritual Reality</h2>
+        <p>Sa atong kultura, duna kitay mga nadunggan nga mga istorya bahin sa "Serina" o mga mermaids ug sirens—mga binuhat nga tunga sa tawo ug tunga sa isda nga nagpuyo sa lawom nga katubigan. Sa kalibutan sa salida, cartoons, ug mitolohiya, gipakita kini nga nindot, madanihon, ug usahay makaluluoy.</p>
+        
+        <p>Apan sa spiritual realm, kinahanglan natong ablihan ang atong mga mata: si Satanas walay bag-ong diskarte. Iyang gigamit ang mga butang nga madanihon sa physical realm aron itago ang peligroso nga demonyohanong gahum sa spiritual realm. Ang espiritu sa Serina usa ka <strong>highly deceptive marine stronghold</strong> nga naggamit og <span class="highlight-text">Seduction (Pangdani), Fantasy (Pantasya), ug Illusion (Panglimbong)</span> aron lamyon ug unlodon ang kapalaran sa usa ka tawo.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA ESTRATEHIYA PARA SA LIDER (BIBLICAL ROOT)</span>
+            Patin-aw sa mga miyembro nga ang Marine Spirit karaan na nga kaaway sa Bibliya. Diha sa Daang Tugon, ang mga Philistines nagsimba kang <strong>Dagon</strong> (1 Samuel 5:2-5), usa ka dios-dios nga ang ibabaw nga bahin tawo apan ang ubos nga bahin ikog sa isda. Kini nagpamatuod nga ang gingharian sa kadagatan dugay nang gigamit ni Satanas aron gapuson ang katawhan pinaagi sa imoralidad, idolatiya, ug pagkontrolar sa ekonomiya.
+        </div>
+        
+        <p>Sa karaang mga istorya, ang mga serina o sirens manglingkod sa mga batoon nga dapit sa dagat ug manganta og pwerte ka nindot nga huni (<em>Siren’s song</em>). Ang mga marinero nga makadungog niini, mabuta sa kaanyag sa tingog, ma-hypnotize, ug i-drive ilang barko paingon sa kabatoan hangtod nga mabungkag ug malumos sila. Karong adlawa, atong tun-an kon giunsa niini pagguba ang mga kinabuhi karon, ug kon unsaon noto kini pagpukan!</p>
+
+        <h2>I. Ang Kinaiya sa Serina Spirit sa Spiritual Realm (The Demonic Strategy)</h2>
+        <p>Aron dili kita malingla, atong sutaon kon unsa ang mga pangunang hinagiban niini nga espiritu sa spiritual realm aron ato kining mabuntog:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🧜‍♀️ 1. The Weapon of Seduction and Flattery (Pangdani ug Pag-ulog-ulog)</div>
+            <div class="verse-box">
+                <strong>Proverbio 7:21-22</strong> - "Busa natintal niya ang lalaki pinaagi sa iyang kamabihagon ug sa mga pulong nga matahom. Dihadiha mikuyog kaniya ang lalaki sama sa usa ka torong baka nga nagpadulong sa ihawan, sama sa lagsaw nga nagpadulong sa lit-ag..."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Kini nga espiritu wala nag-atake pinaagi sa kaisog o panatiko nga pagpanghasi. Nag-atake kini pinaagi sa mga butang nga "lami, nindot, ug makapaukyab" sa unod. Iyang agnihon ang huna-huna sa tawo pinaagi sa mga madanihong tanyag sa kalibutan hangtod nga ang tawo makalimot nga ang dapit nga iyang giadtoan mao na diay ang iyang kalaglagan. Ginalihok niini ang hilom nga pagpang-ulog-ulog (*flattery*) aron pakaunon ang garbo sa unod.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🔮 2. The Illusion of Fantasy (Ang Lit-ag sa Pantasya)</div>
+            <p>Tungod kay ang Serina katunga man nga tawo ug katunga isda, sa spiritual realm nagrepresentar kini sa usa ka <strong>illusion</strong> o peke nga realidad. Gusto niini nga ang tawo magpuyo sa kalibutan sa pantasya aron malimot sa kamatuoran.</p>
+            <p><strong>Spiritual Insight:</strong> Mao kini ang nagpaluyo sa grabe nga pagka-adik sa pornograpiya, virtual nga mga relasyon, ug mga ngil-ad nga pantasya sa huna-huna diin ang tawo dili na makontento sa kamatuoran ug sa kung unsay gihatag sa Dios kanila. Ang tawo mahimong "binihag" sa usa ka kalibutan nga dili tinuod, hangtod nga maguba ang iyang tinuod nga kaminyoon o bokasyon.</p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">👁️ ESPIRITUHANONG PAGTUKI PARA SA LIDER</span>
+            Ipasabut nga kining espirituha maoy master sa paghimo og <strong>"False Comfort"</strong>. Maghimo kini og mga sitwasyon diin ang usa ka tawo nga naay kamingaw o problema sa pamilya makakaplag og tawo nga "maminaw" kaniya sa sekreto nga paagi (pananglitan sa chat o trabaho), apan ang tinuod, hinagiban kadto sa Serina spirit aron bungkagon ang balaang panimalay.
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Serina Spirit Karon? (The Modern Manifestations)</h2>
+        <p>Giunsa man niini pag-atake ang atong generasyon karon sa spiritual realm? Atong bantayan kining tulo ka dagkong timailhan sa atong palibot:</p>
+
+        <ul>
+            <li>📱 <span class="highlight-text">Ang "Siren Song" sa Modernong Kultura ug Teknolohiya:</span> Karon, the Siren's song anaa na sa atong mga gadgets ug social media applications. Ang mga algorithms sa internet gidesinyo aron i-hook ug i-seduce ang imong huna-huna. Ang sige og scroll sa mga law-ay nga video ug paggugol og daghang oras sa mga butang nga nagpukaw sa kaulag mao ang modernong kanta sa Serina. Ilong ginakawat ang imong bililhong oras nga para unta sa Dios ug sa pamilya.</li>
+            <li>💔 <span class="highlight-text">Emotional and Sexual Captivity (Pagka-gapos sa Pagbati ug Kaulag):</span> Kini nga espiritu nag-atake sa mga relasyon. Magdala kini og mga <strong>"soul ties"</strong> o lawom nga emosyonal nga gapos ngadto sa sayop nga tawo. Kanang kabalo na ka nga dautan ang maong relasyon o sekreto nga pakighilawas, apan duna kay pilit nga pagbati nga dili nimo mabiyaan kay na-hypnotize na ang imong emosyon.</li>
+            <li>🌊 <span class="highlight-text">Spiritual Blindness and Deep Slumber (Espirituhanong Pagkabuta):</span> Kon ang tawo madani na sa marine spirit, magsubsob ang espirituhanong pagkabuta. Dili na ka ganahan mag-ampo, mabasag Biblia, o mosimba. Kung mosimba man gani, lutaw ang imong huna-huna ug sige rag duka. Iyang gi-unlod ang imong espirituhanong kadasig ngadto sa lawom nga katulogon (*spiritual slumber*).</li>
+        </ul>
+
+        <h2>III. How to Break the Siren's Song (Kon Unsaon Kini Pagpukan sa Spiritual Realm)</h2>
+        <p>Bisan unsa pa ka dako ang panglimbong sa kaaway, ang Pulong sa Dios mao ang tinuod nga Kahayag nga nagabungkag sa matag illusion. Ania ang atong mga warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">💡 1. Expose the Lie with the Truth (I-expose ang Bakak pinaagi sa Kamatuoran)</div>
+            <p>Ang gahum sa Serina anaa sa iyang pagtakuban nga nindot ug madanihon. Apan kon imong ablihan ang Pulong sa Dios, imong makita ang tinuod nga hitsura sa kaaway—kini usa ka dautang mananap nga nangita og malaglag <small class="highlight-text">(1 Pedro 5:8)</small>. Pukawa ang mga pantasya sa imong huna-huna. Kon moingon ang kaaway nga, <em>"Okay ra na, sekreto bitaw,"</em> tubaga kini sa Pulong: <strong>"Nahisulat na, walay tinagoan nga dili mabutyag sa kahayag sa Dios!"</strong> <small class="highlight-text">(Lucas 12:2)</small>.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🪓 2. Break the Soul Ties and Demonic Altars (Putla ang mga Gapos sa Kagahapon)</div>
+            <div class="verse-box">
+                <strong>1 Corinto 6:18</strong> - "Likayi ninyo ang pakighilawas... Ang tawo nga nagahimo sa pakighilawas nagapakasala batok sa iyang kaugalingong lawas."
+            </div>
+            <p><strong>Application:</strong> Kon duna kay mga nangaging sala sa imoralidad, gigamit kini ni Serina isip legal ground sa pag-guba kanimo. Sa imong Warfare Prayer, isulti kini: <em>"Sa ngalan ni Hesus, akong gina-confess ug ginahinulsulan ang akong mga sala sa kaulag ug imoralidad. Akong gina-guba ug ginaputol ang matag unodnon ug demonyohanong sulog o soul tie sa Serina spirit sa akong kinabuhi pinaagi sa Dugo ni Hesus!"</em></p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🪖 3. Put on the Helmet of Salvation to Guard Your Mind</div>
+            <p>Tungod kay the kanta sa Serina nag-atake man sa imong mga dunggan ug huna-huna aron magdala og hallucination o sayop nga mga tinguha, kinahanglan nimo ang proteksyon sa imong huna-huna. Suota ang imong Helmet of Salvation (Efeso 6:17). I-filter ang imong mga makita ug madungog. Ayaw paminaw o tan-aw sa mga butang nga nahibaloan nimo nga makapabugnaw sa imong relasyon sa Ginoo. Stay alert and sober! Pukawa ang imong huna-huna pinaagi sa pag-focus sa mga butang nga balaan.</p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ WARFARE COMMAND PARA SA ALTAR CALL / MINISTRATION</span>
+            Inig-ampo ninyo batok niining espirituha, mandua kini gamit ang awtoridad ni Hesus: *“Ikaw nga espiritu sa Serina, espiritu sa marine kingdom, nga nagkupot sa huna-huna ug emosyon niini nga tawo pinaagi sa pantasya ug imoralidad, gibadlong ka sa Ngalan ni Hesus! Buhii ang iyang huna-huna! Buhii ang iyang kadasig! Ang Dugo ni Hesus batok kanimo!”* Proclama ang hingpit nga pagkabugto sa mga *demonic altars* sa kadagatan.
+        </div>
+
+        <h2>Conclusion & Challenge: Stand on the Solid Rock</h2>
+        <p>Mga igsoon, ang mga serina sa mitolohiya manglingkod sa "bato" aron mangguba og barko. Apan kitang mga Kristohanon, dili kita angay nga magpalutaw-lutaw sa sulog sa kadagatan sa kalibutan. Kita gipahimutang sa Dios sa ibabaw sa usa ka mas lig-on nga Bato—ug kana nga Bato mao si Kristo Hesus!</p>
+        
+        <div class="verse-box">
+            <strong>Salmo 40:2</strong> - "Iyang gihaw-as ako gikan sa makalilisang nga gahong, gikan sa lapok nga yanang; ug gipatindog niya ang akong mga tiil sa ibabaw sa usa ka bato, ug gipahimutang ang akong mga lakang."
+        </div>
+        
+        <p>Kon gibati nimo karon nga ang imong kinabuhi, ang imong pamilya, o ang imong kaputli gi-anod ug gihulga sa malalangong kanta sa kaaway—karong gabii, panahon na nga mohaw-as ka gikan niana nga katubigan. Ayaw na kaminaw sa bakak ug pangdani sa Siren spirit. I-silence ang tingog sa kaaway pinaagi sa pagsugod og kanta og mga pagdayeg ngadto sa Ginoo. Barug sa kamatuoran, dawatg kagawasan, ug magmadasigon diha sa gahum ni Hesus!</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call:</h3>
+            <ul>
+                <li>Aduna ba kay mga sekreto nga pantasya o salaod nga dugay na nga nagkupot sa imong huna-huna? Gibati ba nimo nga morag na-hypnotize ang imong kadasig sa pag-alagad tungod sa mga pangdani sa kalibutan?</li>
+                <li>Mag-ampo kita karon uban ang pagtoo, bungkagon noto ang matag Siren/Serina stronghold, ug i-proclaim noto ang kaputli, kaisog, ug hingpit nga kagawasan diha sa Ngalan ni Hesus! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5: Demolishing the Lies of the Enemy | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Outfit', sans-serif; 
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed; 
+            background-size: cover; 
+            color: #f5f5f5; 
+            line-height: 1.8; 
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper { 
+            background: rgba(22, 16, 10, 0.95); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #d4af37; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+            box-sizing: border-box; 
+        }
+        #translate_wrapper span { 
+            color: #ffd700; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .container { 
+            max-width: 850px; 
+            margin: 30px auto; 
+            padding: 35px; 
+            background: rgba(15, 15, 15, 0.97); 
+            border-radius: 20px; 
+            border: 2px solid #ff4500; 
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45); 
+            backdrop-filter: blur(10px); 
+            box-sizing: border-box; 
+        }
+
+        .back-btn { 
+            color: #ffd700; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            background: rgba(255, 215, 0, 0.1); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #ffd700; 
+            transition: 0.3s; 
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center; 
+        }
+        .back-btn:hover { 
+            background: #ffd700; 
+            color: black; 
+            box-shadow: 0 0 10px #ffd700; 
+        }
+
+        .lesson-header { 
+            text-align: center; 
+            border-bottom: 2px dashed #ff4500; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .lesson-header h1 { 
+            color: #ff4500; 
+            font-size: 2rem; 
+            margin: 0 0 5px 0; 
+            text-transform: uppercase; 
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.5); 
+        }
+        .lesson-header p { 
+            font-size: 1.25rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin: 0; 
+            font-style: italic; 
+        }
+
+        h2 { 
+            color: #ffd700; 
+            font-size: 1.5rem; 
+            border-left: 4px solid #ff4500; 
+            padding-left: 12px; 
+            margin-top: 45px; 
+            text-transform: uppercase; 
+        }
+        p { 
+            font-size: 1.15rem; 
+            text-align: justify; 
+            color: #dfd3c3; 
+        }
+
+        .verse-box { 
+            background: rgba(255, 69, 0, 0.07); 
+            border: 1px solid #ff4500; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px 0; 
+            font-style: italic; 
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1); 
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+        
+        .lie-card { 
+            background: rgba(255, 0, 0, 0.03); 
+            border: 1px solid #ff3333; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.1); 
+        }
+        .lie-title { 
+            font-size: 1.3rem; 
+            color: #ff3333; 
+            font-weight: bold; 
+            margin-bottom: 12px; 
+            text-transform: uppercase; 
+        }
+        
+        .counter-attack { 
+            background: rgba(0, 255, 102, 0.04); 
+            border: 1px solid #00ff66; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin-top: 18px; 
+        }
+        .counter-title { 
+            color: #00ff66; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 1.1rem; 
+            margin-bottom: 8px; 
+        }
+        
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight { 
+            background: rgba(212, 175, 55, 0.05); 
+            border-left: 4px solid #d4af37; 
+            padding: 20px; 
+            margin: 25px 0; 
+            border-radius: 0 15px 15px 0; 
+            font-size: 1.1rem; 
+            color: #e0d8c3; 
+        }
+        .insight-label { 
+            color: #ffd700; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 0.95rem; 
+            display: block; 
+            margin-bottom: 8px; 
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text { color: #ffd700; font-weight: bold; }
+        .action-box { 
+            background: rgba(255, 215, 0, 0.04); 
+            border-left: 4px solid #ffd700; 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 0 12px 12px 0; 
+            font-size: 1.1rem;
+        }
+        
+        .questions-box { 
+            background: rgba(5, 5, 5, 0.85); 
+            border: 1px solid #ff4500; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin-top: 50px; 
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        .questions-box h3 { 
+            margin-top: 0; 
+            color: #ff4500; 
+            text-transform: uppercase; 
+        }
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) { 
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn { 
+                display: block; 
+                width: 100%; 
+                box-sizing: border-box; 
+            } 
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 5: DEMOLISHING THE LIES OF THE ENEMY</h1>
+            <p>"Pagpukan ug Pagpulbos sa mga Bakak sa Kaaway diha sa Huna-huna"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Juan 8:44 & 2 Corinto 10:4-5</p>
+        <p><strong>Katuyoan:</strong> Aron matabangan ang tibuok kongregasyon ug mga cellgroup nga mailhan ang mga tago ug malinglahong bakak ni Satanas diha sa ilang huna-huna, ug mahatagan sila og saktong espirituhanong hinagiban aron pukanon kini gamit ang kamatuoran sa Pulong sa Dios.</p>
+
+        <h2>Introduction: Ang Hinagiban sa Panglimbong (The Weapon of Deception)</h2>
+        <p>Sa usa ka unodnon ug pisikal nga gubat sa kalibutan, ang mga sundalo naggamit og mga materyal nga hinagiban sama sa pusil, tangke, bomba, ug mga kanyon. Apan sa espirituhanong gingharian, ang labing makamatay ug peligrosong hinagiban ni Satanas batok kanimo dili pisikal—kini mao ang **BAKAK o PANGLIMBONG (Deception)**.</p>
+        
+        <p>Nganong bakak man ang iyang gigamit? Tungod kay si Satanas gipildi, gihubaran, ug gi-disarm na sa hingpit ni Hesus didto sa Krus sa Kalbaryo! Wala na siyay legal nga gahum sa pag-pildi kanimo kon ikaw nagabarog sa kahayag. Busa, ang iyang bugtong nahabilin nga diskarte karon mao ang pag-ilad ug pagpamakak kanato. Ang yawa nahisama sa usa ka iro nga walay ngipon apan kusog kaayong mosiyagit pinaagi sa loudspeaker aron mahadlok ka. Kon ikaw motuo sa iyang mga bakak, gitalisdan ug gihalad nimo kaniya ang legal nga katungod ug gahum sa pagdumala sa imong kinabuhi. Ang iyang bakak mabuhi lamang kon imo kining tanyagan og pagtoo.</p>
+
+        <h2>Ang Tibuok Bersikulo gikan sa Kasulatan</h2>
+        <div class="verse-box">
+            <strong>Juan 8:44</strong>
+            "Mga anak kamo sa inyong amahan nga mao ang Yawa, ug buot kamo mosunod sa mga tinguha sa inyong amahan. Mamumuno siya sukad pa sa sinugdan. Wala gayod siya modapig sa kamatuoran kay wala man kaniya ang kamatuoran. Kon mamakak siya, natural lamang kana kaniya, kay bakakon man siya ug amahan sa tanang bakak."
+        </div>
+        <div class="verse-box">
+            <strong>2 Corinto 10:3-5</strong>
+            "3Tinuod nga nagpuyo kami sa kalibotan apan dili kami makig-away tungod sa kalibotanong tinguha. 4Ang mga hinagiban nga gigamit namo sa among pagpakig-away dili mga hinagiban sa kalibotan kondili gamhanang mga hinagiban sa Dios nga molumpag sa mga kota sa sayop nga mga pangatarongan. 5Gipukan namo ang tanang babag nga gigamit sa mapagarbohon batok sa kahibalo mahitungod sa Dios ug gibihag namo ang tanang hunahuna ug gipasunod kang Cristo. "
+        </div>
+
+        <h2>I. The Battleground of the Mind (Ang Panggubatan sa Huna-huna)</h2>
+        <p>Kinahanglan natong masabtan ingon nga mga tinuod nga disipulo nga ang espirituhanong gubat wala mahitabo sa gawas nga palibot; ang pangunang panggubatan sa kaaway anaa sa sulod sa imong **Huna-huna**. Si Satanas dili moadto sa imong tunga nga magpakita nga adunay sungay ug ikog aron pakuratan ka; hilom ug malinglahon niyang isulod ang iyang mga bakak pinaagi sa mga dautang sugyot, huna-huna, ug emosyon nga morag imo rang kaugalingong tingog.</p>
+        
+        <p>Kon dili ka mabinantayon, huna-hunaon nimo nga imo kadtong ideya, apan diay kadto usa na ka udyong sa bakak gikan sa gingharian sa kangitngit aron magdala og kalibog sa imong panimalay.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA LIDER (THE GREEK WORD: LOGISMOS):</span>
+            Lider, ipasabut kini og maayo sa grupo: Ang Griegong pulong alang sa "panghunahuna" o "arguments" sa 2 Corinto 10:5 mao ang **Logismos**. Kini nagpasabut og *mga pormulasyon sa huna-huna, pilosopiya, lohika, o unodnong rason*. Ang yawa mosulay sa pag-rationalize sa imong kalisod pinaagi sa unodnong lohika aron motoo ka nga wala nay kausaban ang imong kahimtang.
+            <br><br>
+            Pananglitan, moingon ang *Logismos* ni Satanas: *“Tan-awa, ang imong ginikanan nag-bulag, busa ang imong kaminyoon mag-bulag sad gayod tungod kay anaa na na sa inyong dugo.”* Kini usa ka kuta sa bakak! Ang atong trabaho isip maggugubat mao ang pag-demolish ug pagpulbos sa maong *logismos* gamit ang Espada sa Kamatuoran!
+        </div>
+
+        <h2>II. Ang 3 ka Pangunang Bakak sa Kaaway ug ang Ilang Pagkahugno</h2>
+        <p>Aron atong maguba ang mga kuta sa huna-huna, atong tukiubon ang tulo ka komon nga bakak nga gigamit ni Satanas matag adlaw ug kon unsaon kini pag-counter-attack gamit ang Bibliya:</p>
+
+        <div class="lie-card">
+            <div class="lie-title">👿 Bakak #1: "Gibiyaan, Gidulutan sa Gaba, ug Gisilotan ka sa Dios."</div>
+            <p>Kon ikaw makasugat og dako nga krisis sa panalapi o kaminyoon, o kon ikaw makasala, mo-bulong dayon ang kaaway sa imong huna-huna: <em>“Tan-awa, wala ka na gidungog sa Dios tungod sa imong mga miaging sayop. Gisilotan ka sa Iyang kasuko, ug gipasagdan ka na Niya nga mag-inusara.”</em> Nagpugas kini og kuta sa pagkondenar ug guilt.</p>
+            
+            <div class="counter-attack">
+                <div class="counter-title">⚔️ Ang Pagpukan ug Pagpulbos Niini:</div>
+                <p>Ayaw og hilom! Isulti sa kusog nga tingog ang tibuok bersikulo sa Kasulatan:</p>
+                <div class="verse-box">
+                    <strong>Roma 8:1</strong> - "Tungod niini, karon dili na hukman sa silot ang nahiusa kang Cristo Jesus."
+                </div>
+                <div class="verse-box">
+                    <strong>Hebreohanon 13:5b</strong> - "...kay nag-ingon ang Dios, “Dili ko gayod kamo biyaan o talikdan.'"
+                </div>
+            </div>
+        </div>
+
+        <div class="lie-card">
+            <div class="lie-title">👿 Bakak #2: "Wala kay pulos, Pakyas ka, ug wala kay maayong kahimtang sa unahan."</div>
+            <p>Ipasalida ug ipahinumdom ni Satanas sa imong huna-huna ang imong mga nangaging pildi, mga depekto sa karakter, ug ang mga pulong sa pagpakaubos sa ubang tawo aron ikaw mo-surrender na lang, mawad-an og kaisog sa pag-alagad, ug magpuyo sa depresyon ug anxiety.</p>
+            
+            <div class="counter-attack">
+                <div class="counter-title">⚔️ Ang Pagpukan ug Pagpulbos Niini:</div>
+                <p>I-isa ang imong Shield of Faith ug isulti ang tinuod nga plano sa Dios:</p>
+                <div class="verse-box">
+                    <strong>Jeremias 29:11</strong> - "Ako lamang ang nasayod sa akong mga laraw alang kaninyo: sa paghimo kaninyong mauswagon inay maalaot ug paghatag kaninyog kaugmaon nga inyong gipangandoy."
+                </div>
+            </div>
+        </div>
+
+        <div class="lie-card">
+            <div class="lie-title">👿 Bakak #3: "Imo rang unodnong kusog, diskarte, ug kabalaka ang makasulbad sa imong problema."</div>
+            <p>Gusto sa kaaway nga mosalig ka sa imong kaugalingong kaalam ug abilidad, aron ikaw mapuno sa stress, anxiety, ug makalimot ka sa pagluhod ug pag-pray. Gusto niya nga maputol ang imong linya sa komunikasyon sa Dios.</p>
+            
+            <div class="counter-attack">
+                <div class="counter-title">⚔️ Ang Pagpukan ug Pagpulbos Niini:</div>
+                <p>Bungkaga ang unodnong pagsalig pinaagi sa pag-deklarar niini:</p>
+                <div class="verse-box">
+                    <strong>Zacarias 4:6b</strong> - "...Dili pinaagi sa kusog, ni pinaagi sa gahum, kondili pinaagi sa Akong Espiritu, nagaingon ang Ginoo sa mga panon."
+                </div>
+            </div>
+        </div>
+
+        <h2>III. Saktong mga Lakang sa Pag-demolish sa mga Bakak</h2>
+        <p>Aron mapatunhay nato ang limpyo ug madaugon nga huna-huna, kinahanglan natong buhaton kining duha ka dinalian nga espirituhanong disiplina:</p>
+
+        <div class="action-box">
+            🧠 <span class="highlight-text">1. Take Every Thought Captive (Bihaga ang Matag Huna-huna):</span> Dili tanang ideya o tingog nga mosulod sa imong ulo naggikan sa Dios o sa imong kaugalingon. Ikaw ang magbalantay sa pultahan sa imong huna-huna. Kon adunay huna-huna nga nag-ingon, *“Maghikog na lang ko,” “Biya sa imong cellgroup,” o “Pagpakasala na lang kay wala bitaw nakakita,”* ayaw kana i-entertain! Bihaga kana dayon ug isalikway sa Ngalan ni Hesus!
+        </div>
+        <div class="action-card">
+            📢 <span class="highlight-text">2. Speak the Truth Out Loud (Isulti ang Kamatuoran sa Kusog nga Tingog):</span> Ang bakak sa kaaway anaa sa sulod sa imong huna-huna, ug dili kini madaog pinaagi sa hilom nga pag-huna-huna sad. Ang bakak mapukan lamang kon kini makasugat og **Tingog sa Kamatuoran**! Ingon ni Hesus sa Mateo 4:4, *“Nahisulat na...”* Itubag sa kusog nga tingog ang bersikulo sa Bibliya aron mupahawa ang espiritu sa kalibog!
+        </div>
+        <div class="action-box">
+            🛡️ <span class="highlight-text">3. Filter Your Mind with Filipos 4:8:</span> Bag-uha ang sulod sa imong huna-huna matag adlaw.
+            <br>
+            <small><strong>Filipos 4:8</strong> - "8Sa kataposan, mga igsoon, pun-a ang inyong hunahuna sa mga butang nga maayo ug angayng daygon, sa mga butang nga matuod, ligdong, matarong, putli, matahom ug halangdon."</small>
+        </div>
+
+        <h2>Conclusion & Challenge: Create Your War Room!</h2>
+        <p>Mga igsoon sa Ginoo, si Satanas walay bisan usa ka legal nga katungod nga moguba sa imong pamilya, kaminyoon, panalapi, o sa imong kaugalingon! Ang iyang gigamit mao lamang ang panit sa bakak aron ikaw mahadlok, maluya, ug mo-surrender. Apan karong gabhiona, ang gahum sa maong mga bakak ug kuta nabungkag ug napulbos na pinaagi sa Gamhanang Ngalan ni Hesus!</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING INTELLECTUAL STRONGHOLDS):</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa usa ka dinalian nga pag-purgar sa huna-huna. Pabaruga ang tibuok grupo, ipabutang ang ilang tuo nga kamot sa ilang agtang, ug i-mando kining pag-ampo sa deliverance:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa gahum sa Espiritu Santo, among gina-atake ug gipukan karong gabhiona ang matag kuta sa bakak ni Satanas sa inyong huna-huna! Akong gub-on ang matag unodnong pangatarungan ug Logismos nga nag-ingon nga ikaw pakyas, luoy, ug walay bili!*
+            <br><br>
+            *Sa Ngalan ni Hesus, ginasunog ko pinaagi sa kalayo sa Dios ang espiritu sa pagkandenar, guilt, depresyon, ug anxiety! Gideklara nako ang pag-abli sa mga bintana sa kamatuoran. Dawata ang Helmet sa Kaluwasan ug ang kalinaw ni Kristo Hesus nga molapas sa tanang pagsabot aron magbantay sa inyong huna-huna ug kasingkasing! Kamo gawasnon, limpyo, ug madaugon na diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Juan 8:44**, nganong gihulagway man si Satanas isip *“amohan sa mga bakak”* ug ngano nga ang bakak mao man ang iyang nag-unang hinagiban batok sa mga magtutuo karon?</li>
+                <li>Unsa man ang kahulugan sa Griegong pulong nga **Logismos** (unodnong rason o mindset) sumala sa *2 Corinto 10:4-5*? Aduna ka ba'y partikular nga bakak o mindset sa kakulang ug kapakyasan nga sige og bulong sa imong ulo nga kinahanglan nimong bungkagon karon?</li>
+                <li>Giunsa nimo pagsabot ang lakang nga *“pagbihag sa matag huna-huna”* ug ang pag-react gamit ang kusog nga tingog (*Speak the Truth out loud*) kon adunay mo-atake nga dautang ideya o sugyot sa kaaway sa imong adlaw-adlaw nga pagkinabuhi?</li>
+            </ol>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

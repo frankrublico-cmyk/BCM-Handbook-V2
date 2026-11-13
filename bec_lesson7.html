@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7: The Spirit of Leviathan | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Outfit', sans-serif; 
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed; 
+            background-size: cover; 
+            color: #f5f5f5; 
+            line-height: 1.8; 
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper { 
+            background: rgba(22, 16, 10, 0.95); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #d4af37; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+            box-sizing: border-box;
+        }
+        #translate_wrapper span { 
+            color: #ffd700; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn { 
+            color: #ffd700; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            background: rgba(255, 215, 0, 0.1); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #ffd700; 
+            transition: 0.3s; 
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover { 
+            background: #ffd700; 
+            color: black; 
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container { 
+            max-width: 850px; 
+            margin: 30px auto; 
+            padding: 35px; 
+            background: rgba(12, 12, 12, 0.97); 
+            border-radius: 20px; 
+            border: 2px solid #ff4500; 
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45); 
+            backdrop-filter: blur(10px); 
+            box-sizing: border-box;
+        }
+
+        .lesson-header { 
+            text-align: center; 
+            border-bottom: 2px dashed #ff4500; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .lesson-header h1 { 
+            color: #ff4500; 
+            font-size: 2rem; 
+            margin: 0 0 5px 0; 
+            text-transform: uppercase; 
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.4);
+        }
+        .lesson-header p { 
+            color: #ffd700; 
+            font-size: 1.2rem;
+            font-weight: bold; 
+            font-style: italic; 
+            margin: 0;
+        }
+
+        h2 { 
+            color: #ffd700; 
+            font-size: 1.5rem; 
+            border-left: 4px solid #ff4500; 
+            padding-left: 12px; 
+            margin-top: 45px; 
+            text-transform: uppercase; 
+        }
+        h3 {
+            color: #ff8c00;
+            font-size: 1.25rem;
+            margin-top: 25px;
+        }
+        p { 
+            font-size: 1.15rem; 
+            color: #dfd3c3; 
+            text-align: justify; 
+        }
+
+        .verse-box { 
+            background: rgba(255, 69, 0, 0.07); 
+            border: 1px solid #ff4500; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px 0; 
+            font-style: italic; 
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+        
+        .manifest-box { 
+            background: rgba(255, 0, 0, 0.03); 
+            border: 1px solid #ff3333; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.1);
+        }
+        .manifest-title { 
+            font-size: 1.3rem; 
+            color: #ff3333; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            margin-bottom: 10px; 
+        }
+        
+        .counter-strategy { 
+            background: rgba(0, 255, 102, 0.03); 
+            border: 1px solid #00ff66; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.1);
+        }
+        .counter-title { 
+            color: #00ff66; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 1.3rem; 
+            margin-bottom: 10px; 
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight { 
+            background: rgba(212, 175, 55, 0.05); 
+            border-left: 4px solid #d4af37; 
+            padding: 20px; 
+            margin: 30px 0; 
+            font-size: 1.1rem; 
+            color: #e0d8c3; 
+            border-radius: 0 15px 15px 0; 
+        }
+        .insight-label { 
+            color: #ffd700; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 0.95rem; 
+            display: block; 
+            margin-bottom: 8px; 
+            letter-spacing: 1px;
+        }
+
+        .highlight-text { color: #ffd700; font-weight: bold; }
+        
+        .questions-box { 
+            background: rgba(5, 5, 5, 0.85); 
+            border: 1px solid #ff4500; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin-top: 50px; 
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+        }
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 7: THE SPIRIT OF LEVIATHAN</h1>
+            <p>"Bungkagon ang Kuta sa Garbo, Katigahi sa Kasingkasing, ug Pagkabahin-bahin"</p>
+        </div>
+
+        <h2>Kahinungdanong mga Bersikulo sa Kasulatan</h2>
+        
+        <div class="verse-box">
+            <strong>Isaias 27:1</strong>
+           Niadtong adlawa silotan sa Ginoo pinaagi sa iyang gamhanang espada ang Lebiatan, ang nagtagotago ug nag-ikis-ikis nga higanteng halas, ug patyon niya kining maong mananap nga nagpuyo sa dagat.
+        </div>
+
+        <div class="verse-box">
+            <strong>Job 41:1-2, 15-17, 34</strong>
+            "¹Makuha ba nimo ang higanteng Lebiatan pinaagig pasol? O mabitik mo ba ang iyang dila pinaagi sa pisi?
+ ²Magawngan mo ba ang iyang simod,kakaw-itan mo ba ang iyang apapangig?
+ ¹⁵Ang iyang bukobuko daw mga taming nga naglaray,nga giusa pagpatapot ug ingon kagahi sa bato.
+ ¹⁶Ang matag usa maayong pagkatapot ug dili kalutsan bisan sa hangin.
+ ¹⁷Maayo gayod kining pagkatapot ug wala gayoy makalaksi niini.
+ ³⁴Kaminosan niya bisan ang labing garbosong mananap;siyay hari sa tanang ihalas nga mananap.
+
+
+        </div>
+
+        <div class="verse-box">
+            <strong>Salmo 74:14</strong>
+            Gidugmok mo gayod ang mga ulo sa Lebiatan ug gihatag mo ang lawas niini ingon nga kalan-on sa mga mananap sa kamingawan.
+        </div>
+
+        <h2>Introduction: Ang Mitago nga Mananap sa Kalawman</h2>
+        <p>Sa serye sa *Break Every Chain*, atong natuki ang daghang mga demonyohanong gapos, apan karon mosulod kita sa usa ka hilabihan ka seryoso ug tago nga principality: ang **Espiritu ni Leviathan**. Sa Bibliya, ilabi na sa basahon sa Job ug Isaias, ang Leviathan gihulagway isip usa ka dako, makisalaming mananap sa dagat nga adunay gahi nga mga himbis ug makaguba nga gahom. Apan sa espirituhanong gingharian, kini nagrepresentar sa usa ka gamhanan nga demonyohanong stronghold nga nag-unang nagpaluyo sa **Garbo (Pride), Bato nga Kasingkasing (Stubbornness), Bungol nga Espiritu, ug Pagkabahin-bahin (Division)**.</p>
+        
+        <p>Sa orihinal nga Hebreohanong pinulongan, ang pulong nga **Livyathan** nagpasabut og *"Twisted," "Coiled," o "Inagid-agid nga nagliko-liko."* Ingon niini mo-atake kini nga espiritu. Dili kini modirekta og pakig-away nga makita dayon; kini nagtago sa ilawom sa *emotional currents* sa tawo (sa kalawman sa tubig), ug hinay-hinay nga mamiliko sa kamatuoran aron guboon ang kaminyoon, pamilya, mga liderato, ug ang panaghiusa sa lokal nga simbahan.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER UG DELIVERANCE MINISTER:</span>
+            Lider, sabta kini pag-ayo: Ang Leviathan gitawag sa Job 41:34 nga **"Hari sa tanang mga anak sa kaisog o mapahitas-on"** *(King over all the children of pride)*. Kon ang usa ka tawo adunay bukas nga pultahan sa garbo, awtomatiko nga gihatagan niya si Leviathan ug legal nga katungod sa pagkahimong hari sa iyang huna-huna. Kini nga espiritu maoy naghimo sa tawo nga hilabihan ka *defensive*. Kon imong tanyagan og koreksyon o tambag, masuko dayon, mamiliko sa istorya, ug mo-atake sa nagtambag. Kon duna kay miyembro o cellgroup nga sige og panalipod sa ilang sayop ug dili gyud mopaubos, kana ang ilhanan nga ang Leviathan naglihok sa ilang kasingkasing.
+        </div>
+
+        <h2>I. Ang mga Kinaiya ug Manifestation ni Leviathan</h2>
+        <p>Aron atong mabungkag ang kadena ni Leviathan, kinahanglan natong masabtan kon giunsa niya pag-manipulate ang kinaiya sa tawo sumala sa gitudlo sa basahon sa Job kapitulong 41:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🛡️ 1. Hardened Scales of Pride (Ang Gahi ug Selyado nga mga Himbis sa Garbo)</div>
+            <p>Ang Job 41:15-17 nag-ingon nga ang mga himbis ni Leviathan duol kaayo sa usa ug usa, giselyohan pag-ayo, ug *“walay hangin nga makasulod sa taliwala kanila.”*</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Spiritual Blindness & Armor:</span> Ang hangin sa Bibliya nagrepresentar sa *Ruach* o sa Espiritu Santo. Kon ang tawo gigapos ni Leviathan, ang iyang garbo nahisama sa maong gahi nga himbis—magsira siya batok sa tingog sa Espiritu Santo ug sa koreksyon sa mga lider. Dili siya madutlan og wali, dili siya modawat og tambag, ug magtuo siya nga siya kanunay ang sakto ug ang uban kanunay ang sayop.</li>
+                <li>📌 <span class="highlight-text">The Unteachable Spirit:</span> Kini ang espiritu nga nag-ingon, *“Kabalo na ko ana,” “Ayaw ko tudlo-i,”* o *“Kinsa ka para mo-correct nako?”* Ginaselyohan ni Leviathan ang huna-huna sa tawo aron magpabilin siya sa kangitngit samtang nag-ingon nga siya anaa sa kahayag.
+                <br><small><strong>Proverbio 16:18</strong> - "Ang garbo nagauna sa kalaglagan, ug ang mapahitas-ong espiritu nagauna sa pagkapandol."</small></li>
+            </ul>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🌪️ 2. The Twisting Serpent: Miscommunication ug Pagpamiliko sa Kamatuoran</div>
+            <p>Tungod kay ang kahulugan sa Leviathan mao ang *"twisting"* (pagmamiliko), kini ang nag-unang demonyo nga nag-orkestra sa grabe nga depekto sa komunikasyon.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Twisting Your Words:</span> Nakasugat ka ba og kahimtang diin nag-istorya ka sa usa ka tawo uban ang tiunay ug maayong katuyoan, apan sa dihang nadunggan niya, lahi ang iyang pagsabot? Iyang gihuna-huna nga gi-atake o gipakaubos nimo siya. Kana si Leviathan—ginaliko niya ang pulong diha sa hangin sa dili pa kini mosulod sa dalunggan sa pikas tawo.</li>
+                <li>📌 <span class="highlight-text">The Spirit of Gossip & Rumor (Tilibok sa Tabi):</span> Gigamit ni Leviathan ang dila sa tawo aron magpugas og mga pagduhaduha, pagpamakak, ug tabi-tabi aron guboon ang reputasyon sa mga igsoon ug sa mga pastor.
+                <br><small><strong>Proverbio 6:16-19</strong> - "16Adunay pito ka butang nga gikasilagan sa Ginoo ug dili siya makatugot:
+17ang garbosong tinan-awan,ang bakakong dila,ang kamot nga mopatay ug inosenteng mga tawo, 18ang hunahuna nga maglarawg daotan,
+ang magdali pagbuhat ug daotan 19ang bakakong saksi ug ang tawo nga maghaling ug kasamok tali sa mga managhigala."</small></li>
+            </ul>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">💔 3. The Spirit of Division (Pagkabahin-bahin sa Komunidad)</div>
+            <p>Ang katuyoan ni Leviathan mao ang pagguba sa *Koinonia* (fellowship). Kon gitanom na niya ang garbo ug miscommunication, ang sunod nga lakang mao ang pagkabahin-bahin.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Tearing Down Corporate Anointing:</span> Kabalo ang kaaway nga kon magkahiusa ang mga magtutuo, duna silay supernatural nga awtoridad. Busa, magpugas si Leviathan ug espiritu sa *offense* (daling mahiubos), abugho, ug kompetisyon aron mabahin ang cellgroup ug magkatibulaag ang panon sa Dios.
+                <br><small><strong>Santiago 3:16</strong> - Diin anaa ang kasina ug ang pagpaninguha alang sa kaugalingong kaayohan lamang, anaa usab ang kasamok ug tanang matang sa daotang buhat. "</small></li>
+            </ul>
+        </div>
+
+        <h2>II. How to Crush and Break the Spirit of Leviathan</h2>
+        <p>Ang maayong balita mao nga ang Leviathan dili labaw sa gahom sa Dios! Sumala sa Salmo 74:14, gidugmok na ni Hesus ang mga ulo sa Leviathan didto sa Krus sa Kalbaryo. Ania ang mga langitnong estratehiya aron mapildi ug mapatalsik kini nga principality gikan sa imong kinabuhi ug pamilya:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🌱 1. Operate in Absolute and Radical Humility (Radikal nga Pagpaubos)</div>
+            <p>Ang pagpaubos mao ang labing makahilo ug makadugmok nga hinagiban batok ni Leviathan. Tungod kay si Leviathan mao ang Hari sa Garbo, dili siya makatindog kon ang usa ka disipulo magpaubos. Ang pagpaubos mobali sa iyang legal right.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Be Quick to Repent & Apologize:</span> Kon duna kay nasaypan, ayaw paghimo og mga rason o pasangil aron depensahan ang imong kaugalingon. Ang dinalian nga pag-ingon og, *“Sori, nasayop ko. Pasayloa ko,”* mao ang kusog nga kumo nga modugmok sa himbis ni Leviathan.</li>
+                <li>📌 <span class="highlight-text">Submit to Authority:</span> Ipasakop ang imong huna-huna ug kinabuhi ubos sa espirituhanong pagdumala sa imong mga pastor ug lider sa cellgroup. 
+                <br><small><strong>Santiago 4:6-7</strong> - "⁶Apan ang grasya nga gihatag sa Dios daghan pa. Sumala sa giingon sa kasulatan, “Kaaway sa Dios ang mga mapahitas-on, apan maghatag siyag grasya sa mga mapaubsanon.”' ⁷Busa pagmasinugtanon kamo sa Dios. Sukli ninyo ang Yawa ug modagan siya. "</small></li>
+            </ul>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🤐 2. Guard Your Tongue and Refuse Offense (Bantayi ang Imong Dila)</div>
+            <p>Ayaw tugoti nga ang imong dila mahimong instrumento sa pagpamiliko sa istorya o pagpugas ug tabi-tabi. Kon duna kay wala masabtan sa usa ka igsoon, ayaw kini i-gossip sa laing tawo; adtoa siya sa malumo nga pamaagi sumala sa Mateo 18:15.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Speak with Grace & Gentleness:</span> Ang malumo nga tubag makapalong sa kasuko ug makaguba sa lit-ag ni Leviathan.
+                <br><small><strong>Proverbio 15:1</strong> - Ang malumong tubag mohupay sa kasuko,apan ang sakit nga tinubagan mopasilaob niini."</small>
+                <br><small><strong>Efeso 4:3-4</strong> - " 3Paningkamoti aron motunhay ang inyong panaghiusa nga hinatag sa Espiritu diha sa panagdait nga nagbugkos kaninyo. 4May usa lamang ka lawas ug usa ka Espiritu ingon nga may usa lamang ka paglaom ug alang niini gitawag kamo sa Dios. "</small></li>
+            </ul>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Apply the Sword of the Lord (Ang Kusgan nga Espada sa Pulong)</div>
+            <p>Sumala sa Isaias 27:1, ang Leviathan mapukan lamang pinaagi sa *"malisod ug dako ug kusgan nga espada"* sa Ginoo, nga mao ang buhi nga Pulong sa Dios. Gamita ang imong awtoridad diha sa Ngalan ni Hesus aron i-command si Leviathan nga mobiya.</p>
+        </div>
+
+        <h2>Conclusion & Deliverance Call to Action</h2>
+        <p>Ang garbo ug katigahi sa kasingkasing dili lang usa ka unodnong depekto sa kinaiya—kini usa ka espirituhanong kadena ug lit-ag ni Satanas nga gitawag ug Leviathan! Kon pasagdan nimo kini, kini ang mokaon ug moguba sa imong pamilya, kaminyoon, panalapi, ug sa imong ministeryo. Apan karong gabhiona, ang Ngalan ni Hesus naghatag kanato ug hingpit nga kadaugan.</p>
+        
+        <p>Dili kita magpadepensa sa atong unod. Kon gihikap ka sa Espiritu Santo karon, bungkaga ang gahi nga himbis sa garbo. Luhod sa atubangan sa Ginoo, i-surrender ang matag *offense*, pangayo og pasaylo sa mga igsoon, ug bawi-on nato ang balaang panaghiusa ug kalinaw nga molapas sa tanang pagsabot diha kay Kristo Hesus! Amen!</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ DIREKTA NGA MANDATO ALANG SA DELIVERANCE MINISTRATION (CRUSHING LEVIATHAN):</span>
+            Lider, ayaw kini taposa sa istorya lang. Pabaruga ang tibuok grupo, maggunitay sa kamot isip simbolo sa panaghiusa, ug i-mando kining dinalian nga pag-ampo sa deliverance uban ang balaang kasuko:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa kusgan nga Espada sa Ginoo, among gina-atake ug gibungkag ang Espiritu ni Leviathan sa inyong kinabuhi karon! Akong ginaluka ang matag kuta sa garbo, katigahi sa kasingkasing, ug rebelyon. Sa Ngalan ni Hesus, akong gina-rebuke ang matag bungol nga espiritu ug ang espiritu sa miscommunication ug division! Ako ginasunog pinaagi sa kalayo sa Espiritu Santo ang matag unodnong pagpanalipod ug defensive attitude.*
+            <br><br>
+            *Gideklara nako ang pagkahugno sa mga himbis ni Leviathan! Dawata ang espiritu sa pagpaubos, kaputli, ug tinuod nga paghinulsol karon. Gideklara nako ang pagka-gawasnon sa inyong kaminyoon, pamilya, ug cellgroup gikan sa matag twisted nga bakak sa kaaway. Kamo gawasnon na ug nagkahiusa diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Job 41**, giunsa nimo pagsabot ang prinsipyo nga ang Leviathan naglihok pinaagi sa *"himbis sa garbo"* ug naghimo sa tawo nga hilabihan ka *defensive* kon badlongon? Nakasugat ka ba niini sa imong kaugalingon o sa palibot?</li>
+                <li>Ang Leviathan mao ang *"twisting serpent"* nga nagdala og miscommunication (pagpamiliko sa pulong). Sa unsang paagi nimo mapanalipdan ang imong dila ug dunggan karong semanaha batok sa tabi-tabi (*gossip*) ug daling pagka-mahiubos (*offense*)?</li>
+                <li>Ipaambit sa grupo: Aduna ba kay relasyon sa pamilya, higala, o kauban sa simbahan nga hapit o hingpit nga naguba sa una tungod sa garbo ug kakuwang sa pagpaubos? Unsa man ang praktikal nga lakang sa pagpaubos nga imong pagabuhaton sugod ugma aron ibubo ang kalinaw sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

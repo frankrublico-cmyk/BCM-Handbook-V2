@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction: The Call to Freedom | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 40px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2.5rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+            letter-spacing: 1px;
+        }
+
+        .lesson-header p {
+            font-size: 1.4rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        .welcome-text {
+            font-size: 1.4rem;
+            text-align: center;
+            color: #ffd700;
+            font-style: italic;
+            margin-bottom: 35px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+
+        .lang-section-title {
+            background: rgba(255, 69, 0, 0.15);
+            color: #ffd700;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 40px 0 20px 0;
+            border-left: 5px solid #ff4500;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.6rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        .briefing-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        @media(min-width: 768px) {
+            .briefing-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .briefing-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid #444;
+            border-radius: 12px;
+            padding: 22px;
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .briefing-card:hover {
+            border-color: #ff4500;
+            background: rgba(255, 69, 0, 0.04);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 69, 0, 0.15);
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 18px;
+            margin: 25px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .detailed-list {
+            padding-left: 20px;
+        }
+
+        .detailed-list li {
+            font-size: 1.15rem;
+            color: #dfd3c3;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .alert-zone {
+            background: rgba(255, 69, 0, 0.09);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 35px 0;
+            box-sizing: border-box;
+            box-shadow: inset 0 0 20px rgba(255, 69, 0, 0.15);
+        }
+
+        .pastor-box {
+            margin-top: 60px;
+            padding-top: 25px;
+            border-top: 1px solid #333;
+            text-align: right;
+        }
+
+        .pastor-name {
+            font-size: 1.4rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .pastor-title {
+            font-size: 1.05rem;
+            color: #a0a0a0;
+            font-style: italic;
+            margin: 0;
+        }
+
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 20px;
+            }
+            .lesson-header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 AUTOMATIC INTERNET TRANSLATION BAR HOLDER -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN / LANGUAGE:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+
+        <div class="lesson-header">
+            <h1>INTRODUCTION</h1>
+            <p>THE CALL TO FREEDOM</p>
+        </div>
+
+        <div class="welcome-text">"Welcome to a journey that will change your life forever."</div>
+
+        <!-- ==================== CEBUANO VERSION ==================== -->
+        <div class="lang-section-title">🇵🇭 BERSYON NGADTO SA BINISAYA (CEBUANO)</div>
+
+        <p>Kini nga handbook dili lang usa ka ordinaryo nga libro sa pagtulon-an o pundok sa mga pulong aron lang dugangan ang imong kahibalo sa Biblia. Kini usa ka <span class="highlight-text">Manual sa Pakiggubat (Warfare Manual)</span>. Sulod sa daghang katuigan, ang kaaway naglihok sa tago ug malinglahong pamaagi—nagguba sa mga pamilya, nagtangtang ug naghilo sa anointing sa mga lider, ug naggapos sa mga disciples pinaagi sa mga lamat, tago nga trauma, ug mga kuta sa hunahuna (strongholds) nga dugay nang nabaod sa atong mga kagahapon.</p>
+        
+        <p>Daghan sa mga magtutuo ang nagpabiling natancor sa kapakyasan dili tungod kay wala silay gugma sa Dios, kondili tungod kay wala nila mailhi ang legal nga katungod (legal grounds) nga gigamit sa kaaway aron padayon silang pasakitan. Kini nga manual gidisenyo aron gub-on kana nga kangitngit pinaagi sa silaw sa kamatuoran sa Pulong sa Dios.</p>
+
+        <p style="font-size: 1.3rem; text-align: center; font-weight: bold; color: #ff4500; margin: 30px 0; line-height: 1.6;">
+            💥 Ang tumong sa Breaking Chain Ministry yano ra apan lawom kaayo: Ang pagpagawas sa mga binihag ug pagbuka sa mga pultahan sa bilanggoan!
+        </p>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ Ang Kamatuoran Mahitungod sa Gubat:</span>
+            Ang <strong>Efeso 6:12</strong> nagpahinumdom kanato: <em>"Kay wala kita magpadumot batok sa mga binuhat nga unod ug dugo, kondili batok sa mga punoan, batok sa mga kagamhanan, batok sa mga magbubuot sa kalibutan niining kangitngit..."</em> Ang kaaway molihok lamang sa dapit nga mangitngit, tinago, ug walay mabasahong kamatuoran. Sa higayon nga i-expose nato ang iyang mga pamaagi pinaagi niining manual, mawad-an siya og legal nga katungod sa pagpabilin sa imong kinabuhi!
+        </div>
+
+        <h2>Unsay Sulod Niini nga Handbook?</h2>
+        <p>Sulod niining 20 ka leksyon, atong ablihan the mga tinagoan sa gingharian sa kangitngit aron dili ka na mailabtan o malimbongan pa sa kaaway. Atong tun-an pag-ayo ang mosunod:</p>
+
+        <div class="briefing-grid">
+            <div class="briefing-card">
+                <div>
+                    <div class="card-title">👁️ Spiritual Intelligence</div>
+                    <p style="margin: 0; font-size: 1.05rem;">Atong ilhon ang mga "High-Ranking Spirits" sama ni Jezebel (espiritu sa pagkontrolar ug pagmanipula), Leviathan (espiritu sa garbo ug pagkabungol sa kamatuoran), Baal (espiritu sa materyalismo ug peke nga pagsamba), ug Legion (espiritu sa pagkabahin-bahin ug grabeng depresyon). Atong sabton ang ilang mga stratehiya aron dili ka na mabiktima sa ilang lamat.</p>
+                </div>
+            </div>
+
+            <div class="briefing-card">
+                <div>
+                    <div class="card-title">🚪 Closing the Portals</div>
+                    <p style="margin: 0; font-size: 1.05rem;">Atong sutaon ang mga "pultahan" o portals sa imong kinabuhi—sama sa dili balaan nga paggamit sa social media, lawom nga trauma sa bata pa, ug mga sala sa kaliwat (generational curses)—diin ang kaaway naggamit sa pagsulod ug pagpangawat sa imong kalinaw ug tawag sa Dios.</p>
+                </div>
+            </div>
+
+            <div class="briefing-card">
+                <div>
+                    <div class="card-title">⚔️ Taking Authority</div>
+                    <p style="margin: 0; font-size: 1.05rem;">Makakat-on ka kon giunsa paggemit sa husto ug epektibo ang imong Otoridad nga gihatag na daan diha kang Kristo Hesus. Dili ka na biktima nga sige rag hilak sa suok; ikaw usa na ka madasigon ug mabarugon nga <strong>Warrior Disciple</strong>.</p>
+                </div>
+            </div>
+
+            <div class="briefing-card">
+                <div>
+                    <div class="card-title">🌊 The Overflow</div>
+                    <p style="margin: 0; font-size: 1.05rem;">Ang katapusang tumong sa tanan mao ang pagpabilin nga mapuspos sa Gahom sa Espiritu Santo. Dili lang kay maluwas ka gikan sa kadena, kondili mamahimo ka usab nga usa ka disciple nga andam mopagawas ug makapamunga pa gayod og daghan pang mga disciples sa gingharian sa Dios.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2>📜 Pito ka Kinahanglanon sa usa ka Warrior Disciple</h2>
+        <p>Aron makabaton og hingpit ug walay pagbalik nga kadaugan samtang nagbasa ug nagtuon niining manual, sunda kining pito ka balaan nga sumbanan:</p>
+        
+        <ol class="detailed-list">
+            <li><span class="highlight-text">Hingpit nga Kamatinud-anon (Absolute Honesty):</span> Ayaw pagtago og tinago nga sala, kaulaw, o trauma. Ang kaaway mabuhi sa tago; itugyan ang tanan sa kahayag sa Dios aron magsugod ang tinuod nga pagkaayo.</li>
+            <li><span class="highlight-text">Pagpasakop sa Awtoridad (Submission to Authority):</span> Ang espirituhanong awtoridad ug ang pagpasakop niini maoy nagsilbing taming ug panalipod batok sa bisan unsang resbak (counter-attack) sa kaaway. Ang rebelyon maoy pultahan sa demonyo.</li>
+            <li><span class="highlight-text">Inadlaw-adlaw nga Pag-ampo (Daily Intercession):</span> Kini nga manual dili makalihok pinaagi sa unodnon nga kaalam. Nagkinahanglan kini og dilaab ug dili mapalong nga altar sa personal nga pag-ampo adlaw-adlaw.</li>
+            <li><span class="highlight-text">Pagguba sa mga Peke nga Alyansa (Breaking Unholy Alliances):</span> Pagputol sa mga relasyon, kasabutan, ug mga koneksyon nga nagbira kanimo balik sa lapok sa sala. Dili ka makalupad kon gigapos ka sa mga tawo sa kagahapon.</li>
+            <li><span class="highlight-text">Gahom sa Pagpuasa (The Power of Fasting):</span> Adunay mga matang sa lig-on nga kuta ug mga kadena sa kaaway nga dili mabugto gawas kon ang imong pag-ampo ubanan sa tinuyong pagpuasa ug pagpaubos sa unod.</li>
+            <li><span class="highlight-text">Pagpabilin diha sa Pulong (Saturated in the Word):</span> Ang Pulong sa Dios mao ang imong depensa ug mao usab ang imong espada. Kinahanglan mas pamilyar ka sa giingon sa Dios kay sa gihunahuna sa imong emosyon.</li>
+            <li><span class="highlight-text">Disiplina sa Paglahutay (Endurance to Finish):</span> Ayaw paghunong sa tunga-tunga sa leksyon kon mobati ka og espirituhanong kalisod o pagpanggukod. Tiwasa, lahutay, ug tapusa kini hangtod sa kataposang Lesson 20.</li>
+        </ol>
+
+        <h2>Unsaon Paggamit Kini nga Manual?</h2>
+        <p>Ayaw lang kini basaha sama sa usa ka nobela; <strong>tun-i kini uban ang pag-ampo ug pag-analisar sa kaugalingon.</strong> Ang matag leksyon adunay mga Bible Verses nga magsilbing imong hait nga espada ug mga lakang sa pagpukan (action steps) nga kinahanglan nimong buhaton diha-diha dayon nga walay langan.</p>
+
+        <div class="alert-zone">
+            <p style="margin: 0; font-size: 1.15rem;">Igsoon, ang panahon sa pagduha-duha ug pagpabilin sa kamingaw nahuman na. Ang mga kadena nga naggapos sa imong potensyal, sa imong pamilya, ug sa imong ministeryo sa daghang katuigan, <strong>mabugto na karong adlawa pinaagi sa ngalan ni Hesus!</strong> </p>
+            <p style="margin: 15px 0 0 0; font-size: 1.15rem;">Sa imong pag-abli sa Lesson 1, pangayo sa Espiritu Santo og kaisog sa pag-atubang sa kamatuoran, tungod kay ang kamatuoran lamang nga imong nahibal-an ug gigakos mao ang mopagawas kanimo.</p>
+        </div>
+
+        <p style="text-align: center; font-weight: bold; font-size: 1.3rem; color: #ffd700; margin-top: 45px; letter-spacing: 1px;">
+            🛡️ Stand firm. Suit up. The battle belongs to the Lord, and the victory is already yours!
+        </p>
+
+        <div class="pastor-box">
+            <p class="pastor-name">Senior Pastor Frank Vicente Mabini Rublico</p>
+            <p class="pastor-title">Breaking Chain Ministry</p>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM CONFIG INTERFACE BLOCK -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

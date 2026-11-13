@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 13: The Spirit of Bathsheba | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 13: THE SPIRIT OF BATHSHEBA</h1>
+            <p>"Overcoming Sexual Weakness and Reclaiming Your Destiny"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 2 Samuel 11:1-5, 1 Corinto 6:18-20, ug Proverbio 4:23<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang mga lit-ag sa Spirit of Bathsheba (Espiritu sa Sexual Weakness, Kaulag, ug Secret Sin) sa spiritual realm, ug kon unsaon pagpukan niini aron maglakaw sa kaputli, kaisog, ug sa hingpit nga proteksyon sa Dios.</p>
+
+        <h2>Introduction: The Battle for the Pure Heart</h2>
+        <p>Sa atong pagpadayon sa pagtuon sa mga gubat sa spiritual realm, kinahanglan natong adtoan ang usa ka dapit diin dangan kaayong mga gamhanang sundalo sa Dios ang nangapukan. Kini mao ang battleground sa Sexual Purity o Kaputli sa Kinabuhi. Ug karong adlawa, atong tuki-on ang tinawag nga <strong>The Spirit of Bathsheba</strong>.</p>
+        
+        <p>Si David nailhan isip <em>"a man after God's own heart."</em> Siya ang mipatay kang Goliath, ang hari nga nagdala og dagkong kadaugan, ug usa ka madasigon nga magsisimba. Apan sa 2 Samuel 11, sa dihang si David nagpabilin sa iyang palasyo imbes nga moadto sa gubat, milingaw-lingaw siya sa atop sa iyang balay. Gikan didto, iyang nakita ang usa ka babaye nga naligo—si Bathsheba.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA ALAMAG ALANG SA CELLGROUP LEADER (THE ENVIRONMENT OF TEMPTATION)</span>
+            Lider, hatagi og gibug-aton nga si David napukan dili tungod kay nawad-an siya og gahum, kondili tungod kay mitalikod siya sa iyang assignment. Ang bersikulo nag-ingon nga kadto mao ang panahon nga ang mga hari *“mangadto sa gubat,”* apan si David nagpabilin ug nag-relax ra. Ang *Boredom* (kamingaw o walay gibuhang importante) ug ang pagka-passive mao ang paboritong pultahan nga gihulat sa Spirit of Bathsheba aron itanom ang lit-ag sa unod.
+        </div>
+        
+        <p>Sa spiritual realm, ang Spirit of Bathsheba nagrepresentar sa usa ka demonyohanong lit-ag nga nagpahimus sa kahuyang sa unod <strong>(sexual weakness)</strong>, kamingaw <strong>(boredom)</strong>, ug ang pagka-passive. Dili kini usa ka espiritu nga mo-atake pinaagi sa kusog; mo-atake kini pinaagi sa <span class="highlight-text">Visual Seduction (Pangdani sa Mata) ug Secret Compromise (Sekreto nga Kompromiso)</span> aron bungkagon ang imong espirituhanong proteksyon ug kawaton ang imong dako nga ugma. Atong unmask kining espirituha karon!</p>
+
+        <h2>I. Ang Anatomy sa Sexual Weakness sa Spiritual Realm</h2>
+        <p>Aron atong mapukan kini, kinahanglan natong masabtan kon giunsa niini pag-disenyo ang iyang mga lit-ag:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🦥 1. It Attacks During Spiritual Passivity (Sa Dapit nga Walay Pag-ampo)</div>
+            <div class="verse-box">
+                <strong>2 Samuel 11:1</strong> - "...sa panahon nga ang mga hari kasagaran mangadto sa gubat... apan si David nagpabilin didto sa Jerusalem."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Ang Spirit of Bathsheba talagsa ra mo-atake kon ikaw pwerte ka active sa pag-ampo, nag-fasting, ug busy sa ministeryo. Mo-atake kini kon ikaw "relax" ra kaayo, kon gilaayan ka, ug kon mitalikod ka sa dapit diin unta ka gipahimutang sa Dios. Passivity opens the door to sexual weakness. Kon mawala ang kadasig sa espiritu, daling mopuli ang kaulag sa unod.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">👁️ 2. The Gate of the Eyes (Ang Pultahan sa Mata)</div>
+            <div class="verse-box">
+                <strong>2 Samuel 11:2</strong> - "...ug gikan sa atop iyang nakita ang usa ka babaye nga nagaligo; ug ang babaye pwerte ka nindot tan-awon."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Sa spiritual realm, ang imong mata mao ang suga ug pultahan sa imong kalag <small class="highlight-text">(Mateo 6:22)</small>. Ang kaaway naggamit og mga visual triggers aron itanom ang liso sa kaulag. Ang usa ka sulyap nga wala nimo badlonga, mahimong pantasya sa huna-huna, ug sa madugay o sa madayag, mahimo kining sala sa physical realm. Ang mata mao ang agianan sa udyong sa kaaway.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🤫 3. The Illusion of Secrecy (Ang Bakak nga Walay Nakakita)</div>
+            <p>Si David naghunahuna nga tungod kay hari siya ug gabii kadto, walay makahibalo sa iyang gihimo uban kang Bathsheba. Apan sa spiritual realm, walay sekreto. Ang maong usa ka gabhiona nga sala nagdala og sunod-sunod nga trahedya—bakak, pagpatay kang Uriah, ug pagkabungkag sa pamilya.</p>
+            <p><strong>Spiritual Insight:</strong> Ang Spirit of Bathsheba mobulong sa imong huna-huna: <em>"Okay ra na, sa gadget ra man nimo gitan-aw,"</em> o <em>"Kini ra nga higayon, walay laing makahibalo."</em> Peke kini nga garantiya gikan sa yawa. Ang sekreto nga sala adunay gahum sa pag-gapos kanimo ug nagmugna og **Unholy Soul Ties** nga mokaon sa imong espirituhanong kaisog ug anointing.</p>
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Bathsheba Karon? (The Modern Manifestations)</h2>
+        <p>Giunsa man niini pag-atake ang atong generasyon karon? Atong bantayan kining tulo ka dagkong mga kuta:</p>
+        <ul>
+            <li>📱 <span class="highlight-text">The Stronghold of Pornography and Masturbation:</span> Kini ang modernong "atop sa palasyo" ni David. Karon, igo na lang i-unlock ang smartphone sa tunga sa kagabhion aron makakita og law-ay. Ang pagsige og tan-aw sa mga law-ay nga butang nag-programming sa imong huna-huna sa spiritual realm aron magpuyo sa kaulag, nga makaguba sa imong abilidad sa paghigugma, makabungkag sa kaminyoon, ug makapatay sa imong espirituhanong kadasig.</li>
+            <li>💬 <span class="highlight-text">Emotional Infidelity and Third Parties (Kompromiso sa Relasyon):</span> Kini magsugod sa simple nga chat, compliment, o pagpangita og simpatiya sa laing tawo nga dili nimo asawa o bana tungod kay "gilaayan" o "naay kulang" sa kaminyoon. Ang kaaway mogamit sa imong emosyon aron i-justify ang kompromiso hangtod mabungkag ang tinuod nga pamilya nga sagrado sa Dios.</li>
+            <li>⛓️ <span class="highlight-text">Deep Guilt and Spiritual Powerlessness (Kawalay Kusog):</span> Kon ang usa ka Kristohanon mahulog sa sala sa imoralidad, mawad-an dayon siya og kaisog sa pag-ampo, pagbasa sa Pulong, ug pag-alagad. Gusto sa kaaway nga magpabilin ka sa kaulaw, pagka-sad-an (*condemnation*), ug tago nga kinabuhi aron dili na nimo magamit ang imong espirituhanong awtoridad. Iyang kawaton ang imong anointing pinaagi sa kaulag.</li>
+        </ul>
+
+        <h2>III. How to Defeat and Break the Spirit of Bathsheba</h2>
+        <p>Mga igsoon, adunay paglaum ug adunay hingpit nga kadaugan! Si David naghinulsol sa tinuod nga kasingkasing <span class="highlight-text">(Salmo 51)</span>, ug gipasaylo ug gipahiuli siya sa Dios. Ania ang atong mga spiritual warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🏃‍♂️ 1. Flee: Run Away from the Trigger (Dagan sa Paspas nga Paagi)</div>
+            <div class="verse-box">
+                <strong>1 Corinto 6:18</strong> - "Likayi (Flee/Dagan gikan sa) ninyo ang pakighilawas..."
+            </div>
+            <p><strong>Application:</strong> Kon ang Bibliya maghisgot bahin sa yawa, nag-ingon kini: <em>"Sukli ang yawa ug modagan siya gikan kanimo."</em> Apan kon maghisgot na gani bahin sa imoralidad, ang sugo mausab—dili kini "sukli," kondili <strong>DAGAN!</strong> Sama sa gihimo ni Jose uban sa asawa ni Potiphar—mibiliway siya sa iyang sinina ug nidagan sa gawas! Ayaw pakig-debate sa tentasyon. Kon naay mosulod nga law-ay sa imong screen, i-off ug ilabay ang gadget dayon! Ayaw pagsalig sa imong unod.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">👓 2. Make a Covenant with Your Eyes (Paghimo og Kasabutan sa Imong Mata)</div>
+            <div class="verse-box">
+                <strong>Job 31:1</strong> - "Naghimo ako ug usa ka kasabotan uban sa akong mga mata; unsaon man diay nako sa pagtan-aw sa usa ka dalaga?"
+            </div>
+            <p><strong>Application:</strong> Paghimo og desisyon uban sa tabang sa Holy Spirit. I-pray kini: <em>"Lord, gina-consecrate nako ang akong mga mata karong adlawa. Dili nako tugotan ang akong mga mata nga mamahimong pultahan sa kaulag sa kaaway. Punuha ang akong huna-huna sa Imong kaputli."</em> Pagmabinantayon sa mga butang nga imong gina-stream, gina-scroll, ug ginalantaw sa social media.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🔥 3. Wash and Renew the Mind through Warfare Prayer and the Word</div>
+            <div class="verse-box">
+                <strong>Salmo 51:10</strong> - "Buhati ako ug usa ka putli nga kasingkasing, Oh Dios, ug bag-oha ang usa ka saktong espiritu sa sulod nako."
+            </div>
+            <p><strong>Application:</strong> Ang sala sa sexual weakness nagbilin og mga "pantasya o mental patterns" sa huna-huna. Kinahanglan kini sunogon ug papason pinaagi sa Pulong sa Dios ug sa Dugo ni Hesus. Sa imong Warfare Prayer, ingon: <strong>"Sa ngalan ni Hesus, akong ginaluka ug ginabungkag ang matag kuta sa kaulag, pornograpiya, ug sekreto nga sala sa akong huna-huna! Akong ginalansang ang akong unod sa krus! Akong i-proclaim nga ang akong lawas templo sa Espiritu Santo. Akong ginasupil ang matag huna-huna aron magmasugtanon kay Kristo!"</strong></p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (SAFE HAVEN PRAYER)</span>
+            Lider, ayaw pakaulawi ang mga miyembro. Ingon niini ang paggiya sa pag-ampo sa cellgroup: *“Mga igsoon, i-pikit ang inyong mga mata ug ibutang ang inyong kamot sa inyong kasingkasing. Walay magtan-aw sa usag-usa. Kon ikaw adunay pakigbisog sa sekreto nga sala o kaulag, i-surrender kana sa Ginoo sa hilom karon. Sa Ngalan ni Hesus, akong ginabungkag ang matag gapos sa Spirit of Bathsheba sa inyong kinabuhi! Akong giputol ang matag unholy soul tie ug gina-declare nako ang hingpit nga paghugas sa Dugo ni Hesus karon! Kamo gawasnon na ug putli sa Iyang atubangan!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: From Brokenness to Restoration</h2>
+        <p>Ang labing nindot nga balita sa spiritual realm mao kini: Ang grasya sa Dios mas gamhanan kaysa sa imong mga kapakyasan. Si David nahulog uban kang Bathsheba, apan sa dihang nagluhod siya ug naghinulsol, gihugasan siya sa Dios ug gipahiuli ang iyang dungog. Sa unahan, sa linya sa kaliwatan ni Hesus, gilakip gihapon sa Dios ang ngalan sa anak ni David ug Bathsheba—si Solomon—aron ipakita nga ang Dios makahimo og milagro gikan sa atong mga kagubot.</p>
+        
+        <p>Ayaw na itugot nga ang Spirit of Bathsheba mao ang mangawat sa dako nga anointing, pamilya, ug ugma nga giandam sa Dios para kanimo. Ayaw na pagpuyo sa sekreto nga kaulaw ug pagka-ulipon. Karong gabhiona, dinhi sa atong cellgroup, panaog sa imong mga luhod. I-expose ang matag kangitngit ngadto sa Kahayag sa Dios. Dawata ang Iyang kapasayloan, isulob ang imong Helmet of Salvation, ug lakaw diha sa kaisog, kaputli, ug hingpit nga kagawasan ni Kristo Hesus! Amen!</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call (Cellgroup Discussion):</h3>
+            <ul>
+                <li>Sa unsa nga mga higayon o sitwasyon (sama sa kamingaw, stress, o pagka-passive) nga bation nimo nga dali kaayong mosulod ang tentasyon sa imong huna-huna? Aduna ka ba'y mga visual triggers nga kinahanglan na nimong putlon sa imong smartphone karong adlawa?</li>
+                <li>Mag-ampo kita karon sa usag-usa uban ang kompidensyal ug tinuod nga kasingkasing, dugmokon nato ang matag kuta sa sexual weakness, ug i-claim nato ang supernatural nga kaputli, kalinaw, ug pagpahiuli ni Hesus sa matag usa kanato! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

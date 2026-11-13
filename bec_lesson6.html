@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6: The Spirit of Jezebel | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Outfit', sans-serif; 
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed; 
+            background-size: cover; 
+            color: #f5f5f5; 
+            line-height: 1.8; 
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper { 
+            background: rgba(22, 16, 10, 0.95); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #d4af37; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+            box-sizing: border-box; 
+        }
+        #translate_wrapper span { 
+            color: #ffd700; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .container { 
+            max-width: 850px; 
+            margin: 30px auto; 
+            padding: 35px; 
+            background: rgba(15, 15, 15, 0.97); 
+            border-radius: 20px; 
+            border: 2px solid #ff4500; 
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45); 
+            backdrop-filter: blur(10px); 
+            box-sizing: border-box; 
+        }
+
+        .back-btn { 
+            color: #ffd700; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            background: rgba(255, 215, 0, 0.1); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #ffd700; 
+            transition: 0.3s; 
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center; 
+        }
+        .back-btn:hover { 
+            background: #ffd700; 
+            color: black; 
+            box-shadow: 0 0 10px #ffd700; 
+        }
+
+        .lesson-header { 
+            text-align: center; 
+            border-bottom: 2px dashed #ff4500; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .lesson-header h1 { 
+            color: #ff4500; 
+            font-size: 2rem; 
+            margin: 0 0 5px 0; 
+            text-transform: uppercase; 
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.5); 
+        }
+        .lesson-header p { 
+            font-size: 1.25rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin: 0; 
+            font-style: italic; 
+        }
+
+        h2 { 
+            color: #ffd700; 
+            font-size: 1.5rem; 
+            border-left: 4px solid #ff4500; 
+            padding-left: 12px; 
+            margin-top: 45px; 
+            text-transform: uppercase; 
+        }
+        p { 
+            font-size: 1.15rem; 
+            text-align: justify; 
+            color: #dfd3c3; 
+        }
+
+        .verse-box { 
+            background: rgba(255, 69, 0, 0.07); 
+            border: 1px solid #ff4500; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px 0; 
+            font-style: italic; 
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1); 
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+        
+        .manifest-box { 
+            background: rgba(255, 0, 0, 0.03); 
+            border: 1px solid #ff3333; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.1); 
+        }
+        .manifest-title { 
+            font-size: 1.3rem; 
+            color: #ff3333; 
+            font-weight: bold; 
+            margin-bottom: 12px; 
+            text-transform: uppercase; 
+        }
+        
+        .counter-strategy { 
+            background: rgba(0, 255, 102, 0.03); 
+            border: 1px solid #00ff66; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.1); 
+        }
+        .counter-title { 
+            color: #00ff66; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 1.3rem; 
+            margin-bottom: 10px; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        }
+        
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight { 
+            background: rgba(212, 175, 55, 0.05); 
+            border-left: 4px solid #d4af37; 
+            padding: 20px; 
+            margin: 25px 0; 
+            border-radius: 0 15px 15px 0; 
+            font-size: 1.1rem; 
+            color: #e0d8c3; 
+        }
+        .insight-label { 
+            color: #ffd700; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 0.95rem; 
+            display: block; 
+            margin-bottom: 8px; 
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text { color: #ffd700; font-weight: bold; }
+        
+        .questions-box { 
+            background: rgba(5, 5, 5, 0.85); 
+            border: 1px solid #ff4500; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin-top: 50px; 
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        .questions-box h3 { 
+            margin-top: 0; 
+            color: #ff4500; 
+            text-transform: uppercase; 
+        }
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) { 
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn { 
+                display: block; 
+                width: 100%; 
+                box-sizing: border-box; 
+            } 
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 6: THE SPIRIT OF JEZEBEL</h1>
+            <p>"Pagbuntog ug Pagdugmok sa Espiritu sa Manipulasyon, Kontrol, ug Rebelyon"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 1 Hari 19:1-3 & Pinadayag 2:20-23</p>
+        <p><strong>Katuyoan:</strong> Aron i-expose ug mailhan sa tibuok kongregasyon ug mga cellgroup ang malinglahon ug delikado nga lihok sa *Spirit of Jezebel* (Espiritu sa Panglimbong, Witchcraft, Manipulation, ug Control) sa spiritual realm, ug kon unsaon kini pagguba ug pagpatalsik pinaagi sa awtoridad sa Ngalan ni Hesus.</p>
+
+        <h2>Introduction: Ang Tinago nga Impluwensya sa Panggubatan</h2>
+        <p>Sa atong pagpadayon sa pagtuon ug pagtuki sa *spiritual realm*, kinahanglan natong masabtan ingon nga mga maggugubat sa Dios nga ang kaaway naglihok pinaagi sa mga organisado nga sistema sa dautang espiritu. Usa sa labing delikado, labing malanganon, ug labing malinglahon nga principality nga nagaguba sa mga kaminyoon, nagpukan sa mga pamilya, ug nagabungkag sa panaghiusa sa mga simbahan mao ang tinawag nga **The Spirit of Jezebel**.</p>
+        
+        <p>Kini nga ngalan nagsumikad kang Reyna Jezebel sa Daang Tugon—usa ka pagano nga prinsesa nga nahimong asawa ni Haring Ahab sa Israel. Si Jezebel dili lang usa ka historikal nga reyna nga namatay na; sa espirituhanong gingharian, ang iyang gipakitang kinaiya, pamatasan, ug rebelyon nagrepresentar sa usa ka gamhanang demonyohanong stronghold nga naglihok ug naga-atake gihapon hangtod karon. Ang nag-unang motibo ug agenda niini nga espiritu? **Manipulation (Manipulasyon), Control (Pagkontrolar), ug Intimidation (Panghadlok)**. Gusto niini nga kontrolon ang matag sitwasyon, i-manipulate ang mga relasyon pinaagi sa emosyon, ug guboon ug hantakon ang mga balaang liderato ug awtoridad nga gipahimutang sa Dios.</p>
+
+        <h2>Ang mga Pundasyon nga Bersikulo gikan sa Kasulatan</h2>
+        <div class="verse-box">
+            <strong>1 Hari 16:30-31</strong>
+            "30 Si Ahab labaw pa kadaotan kay sa mga hari nga nahiuna kaniya. 31Gipakasayon lamang niya ang pagsunod sa mga buhat ni Jeroboam. Gipangasawa niya si Jezebel nga anak ni Etbaal nga hari sa Sidon ug miadto siya sa Sidon aron pag-alagad ug pagsimba kang Baal. "
+        </div>
+        <div class="verse-box">
+            <strong>1 Hari 19:1-3</strong>
+            "1Gisuginlan ni Ahab ang iyang asawa nga si Jezebel sa tanan nga nahimo ni Elias ug sa pagpamatay niini sa mga propeta ni Baal. 2Unya si Jezebel nagpadala ngadto kang Elias ug mensahe nga nag-ingon, “Patyon unta ako sa mga dios kon dili ko ikaw patyon sama sa gibuhat mo sa mga propeta.” 3Tungod niini nahadlok si Elias ug mikagiw siya..."
+        </div>
+        <div class="verse-box">
+            <strong>Pinadayag 2:20</strong>
+            " 20Apan ang ikasaway ko kanimo mao nga wala mo badlonga ang babaye nga si Jezebel nga nagpakapropeta sa Dios nga nagtudlo ug nagtukmod sa akong mga sulugoon aron sa pagbuhat ug salawayon nga pagpakighilawas ug pagkaon sa hinalad ngadto sa mga diosdios."
+        </div>
+
+        <h2>I. Ang mga Kinaiya ni Jezebel sa Daang Tugon</h2>
+        <p>Aron atong mabungkag kini nga gapos, kinahanglan una natong tun-an kon giunsa paglihok ni Jezebel sa kasaysayan, tungod kay mao gihapon kini ang iyang sundanan sa pag-atake karon:</p>
+        
+        <ul>
+            <li>⛓️ <span class="highlight-text">1. She Dominated Legal Authority (Gihabolan Niya ang Awtoridad):</span> Si Jezebel dili ang legal nga hari sa Israel—si Ahab ang hari. Apan pinaagi sa emosyonal nga manipulasyon, sexual nga pagguba, ug panghadlok, iyang gihimo nga "marionette" o itoy si Ahab. Sa dihang nagsubo si Ahab kay wa nakuha ang parasan ni Nabot, si Jezebel ang nikuha sa selyo sa hari, nagmando og patay, ug nagbuhat sa gusto niya <small>(1 Hari 21:7)</small>. Gidumtan niini nga espiritu ang saktong espirituhanong liderato.</li>
+            <li>🤫 <span class="highlight-text">2. She Silenced and Killed the Prophets (Iyang Gipahilom ang Katam-is sa Dios):</span> Gipamatay ni Jezebel ang mga tinuod nga propeta sa Ginoo aron ang iyang 450 ka bakak nga propeta ni Baal ug 400 ka propeta sa Ashera maoy paminawon sa katawhan. Ang tumong niini mao ang pagputol sa tinuod nga propetikanhong tingog ug wali sa kamatuoran.</li>
+            <li>🌪 <span class="highlight-text">3. She Brought Fear and Witchcraft Intimidation (Panghadlok ug Depresyon):</span> Si Propeta Elias bag-o lang nagpadilaab og kalayo gikan sa langit ug napatay ang mga propeta ni Baal sa Bukid sa Carmelo. Apan sa usa lang ka hulga ug mensahe gikan kang Jezebel, si Elias kalit nga gi-atake sa grabe nga kahadlok, depresyon, ug gusto na nga maghikog ug mamatay <small>(1 Hari 19:3-4)</small>. Luyo sa maong mensahe mao ang demonyohanong witchcraft ug panghadlok aron gubaon ang imong *momentum* sa pag-alagad.</li>
+        </ul>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER UG DELIVERANCE MINISTER:</span>
+            Lider, sabta kini pag-ayo: Ang *Spirit of Jezebel* dili magpaila nga dautan sa sinugdanan. Sa Bag-ong Tugon sumala sa Pinadayag 2:20, kini nagtakuban ug *“nagatawag sa iyang kaugalingon nga usa ka propetesa.”* Nagpasabut kini nga mosulod kini sa sulod sa simbahan ug cellgroup nga magtakuban nga hilabihan ka relihiyoso, suod kaayo sa Dios, ug adunay lawom nga spiritualidad. 
+            <br><br>
+            Apan ang iyang timailhan mao ang pagpangita og simpatiya, pagpugas ug pagkabahin-bahin, ug hilom nga pag-atake ug pag-insulto sa awtoridad sa Pastor o sa Cell Leader. Bantayi ang mga tawo nga naggamit og emotional blackmail o sige og drama nga sila ang "biktima" (*playing the victim*) aron makuha ang huna-huna sa grupo ug ma-manipulate ang desisyon sa liderato. Kana si Jezebel!
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Jezebel Karon?</h2>
+        <p>Kini nga principality naglihok pinaagi sa unod sa tawo (bisan lalaki o babaye) ug makita diha sa tulo ka dagkong operasyon:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🎭 1. Ang Dula sa Manipulasyon ug Emotional Blackmail</div>
+            <p>Mogamit kini og bakak nga mga luha, pagpakaaron-ingnon, ug pag-manipulate sa emosyon sa kaestorya aron makuha ang iyang kaugalingong tinguha. Kon dili masunod ang iyang gusto, ipabati niya kanimo nga ikaw ang sad-an, dautan, ug walay kasingkasing aron mapugos ka sa pagpaubos sa iyang kontrol.</p>
+        </div>
+        
+        <div class="manifest-box">
+            <div class="manifest-title">🕹️ 2. Ang Espiritu sa Pagkontrolar ug sa mga tabi (Gossip Division)</div>
+            <p>Kon kini nga espiritu makasugat og lider nga lig-on ug dili mapailalom sa iyang manipulasyon, magsugod kini sa paghimo og tago nga kagubot. Magpugas kini og tabi (*gossip*), sulti sa luyo, ug pagduhaduha ngadto sa ubang miyembro aron guboon ang reputasyon sa lider ug mabahin ang cellgroup.</p>
+        </div>
+        
+        <div class="manifest-box">
+            <div class="manifest-title">🦎 3. Sexual Immorality ug Seduction (Espiritu sa Garbo ug Tintal)</div>
+            <p>Sumala sa Pinadayag 2:20, gi-pauyonan ni Jezebel ang iyang mga sumusunod sa pagpakasala sa pakighilawas (*sexual immorality*). Naggamit kini og seduction (panga-atrat, lawasnong tintal, ug malinglahong kaanyag) aron pukanon ang pagkabalaan sa mga lider sa Dios ug makuha ang ilang espirituhanong proteksyon.</p>
+        </div>
+
+        <h2>III. How to Break and Defeat the Spirit of Jezebel</h2>
+        <p>Salamat sa Dios tungod kay ang gahum ni Jezebel nabungkag na pinaagi sa Kadaogan ni Hesus sa Krus! Ania ang tulo ka langitnong estratehiya sa pag-atake ug pagpukan niini nga kuta:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🛑 1. Do Not Tolerate It (Ayaw Gayod Pag-uyon o Pagpasobra)</div>
+            <p>Sa Pinadayag 2:20, ang badlong sa Ginoo sa simbahan sa Tiatira mao kini: *“tungod kay imo mang gipasagdan (tolerated) ang babaye nga si Jezebel.”* Ang kinadak-ang pagka-pildi batok ni Jezebel mao ang **pag-tolerate** o pagpakahilom tungod kay nahadlok ka nga naay masuko.</p>
+            <p>Ang pagpasakop sa kamatuoran nagkinahanglan og kaisog. Kinahanglan ang dinalian ug hait nga confrontation nga inubanan sa gugma ug Pulong sa Dios. Bungkaga ang matag compromise!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🪓 2. Break and Cast Out the Spirit of Ahab (Bungkaga ang Kaluya sa Liderato)</div>
+            <p>Ang Espiritu ni Jezebel dili makatindog ug makalihok kon walay **Passivity o Kaluya ni Ahab**. Si Ahab nagrepresentar sa mga lider, amahan, o pastor nga tapulan, mahadlokon, ug mibiya sa ilang saktong dapit sa responsibilidad ug awtoridad.</p>
+            <p>Mga kalalakin-an, mga amahan, ug mga lider sa simbahan—barog kamo sa dapit diin kamo gipahimutang sa Dios! Ayaw i-surrender ang inyong balaang katungod ug pagmando sa inyong panimalay.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Operate in the Jehu Anointing (Ang Dinihogan nga Paghukom)</div>
+            <p>Kinsay nipalagpot kang Jezebel? Si Haring Jehu! Sa dihang nakita ni Jehu si Jezebel nga nagpapintal sa iyang mga mata ug nanampaling sa bintana, wala siya nakig-istorya o nakig-compromise niini.</p>
+            <div class="verse-box">
+                <strong>2 Hari 9:32-33</strong>
+                "Mihangad si Jehu sa bintana ug miingon, “Kinsay modapig kanako?” Unya duha o tulo ka opisyales sa palasyo ang midungaw sa bintana. 33Siya miingon kanila, “Ihulog ninyo siya.” Busa ilang gihulog si Jezebel ug ang iyang dugo mituasik sa paril ug sa mga kabayo ug giyatakyatakan nila siya. "
+            </div>
+            <p>Kini ang **Jehu Anointing**—ang balaang kaisog ug pagkamalahutayon nga walay kompromiso sa sala ug rebelyon. Dili nato i-regalo ang atong cellgroup sa yawa. Gamiton nato ang atong Espada sa Espiritu ug ang Warfare Prayer aron ihulog ug pulpogon si Jezebel sa espiritu!</p>
+        </div>
+
+        <h2>Conclusion & Deliverance Call to Action</h2>
+        <p>Ang gingharian sa Dios dili gingharian sa manipulasyon, emosyon, ug kontrol; kini gingharian sa Gugma, Kamatuoran, ug hingpit nga Espirituhanong Kagawasan! Kon ang imong pamilya, kaminyoon, o huna-huna gigapos karon sa kahadlok, depresyon gikan sa pagpanghadlok, ug manipulasyon sa ubang tawo, karon ang adlaw sa imong dinalian nga kaluwasan!</p>
+        
+        <p>Bungkagon ug lagputon nato ang matag kuta sa Jezebel spirit karong gabhiona pinaagi sa gahum sa Dugo sa Kordero ug sa Ngalan ni Hesus! Amen!</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ MANDATO ALANG SA DELIVERANCE MINISTRATION (CASTING OUT JEZEBEL):</span>
+            Lider, barog uban ang kaisog ni Jehu. Pabaruga ang tibuok grupo, i-mando kining dinalian nga pag-ampo sa deliverance uban ang balaang awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa gahum sa Espiritu Santo, among gina-expose ug gina-atake karong gabhiona ang Espiritu ni Jezebel! Akong ginaluka ug gipukan ang matag kuta sa manipulasyon, kontrol, emotional blackmail, ug rebelyon sa inyong mga kinabuhi ug pamilya!*
+            <br><br>
+            *Sa Ngalan ni Hesus, akong gina-rebuke ug giputol ang matag udyong sa witchcraft, grabeng kahadlok, depresyon, ug tinguha sa pag-surrender nga gipadala gikan niini nga principality! Akong bungkagon ang kaluya ni Ahab sa matag amahan ug lider. Sa Ngalan ni Hesus, among ginalansar si Jezebel ngadto sa kaparotan ug kapukanan! Dawata ang espiritu sa kaisog, kaputli, ug saktong pagpasakop diha kang Kristo. Kamo gawasnon ug madaugon na sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **1 Hari 19:1-3**, giunsa man pag-atake ni Jezebel si Propeta Elias pinaagi sa emosyon (kahadlok ug depresyon) human sa iyang dakong kadaugan sa Bukid sa Carmelo? Nakasinati ka ba niini nga matang sa espirituhanong pag-atake?</li>
+                <li>Nganong giingon man nga ang Spirit of Jezebel dili makalihok kon walay **Passivity o Kaluya ni Ahab** diha sa pamilya o liderato? Unsa ang kamanduan sa Dios sa mga amahan ug lider karon base sa **Pinadayag 2:20**?</li>
+                <li>Unsa man ang kahulugan sa paglakat sa **Jehu Anointing** diha sa espiritu kon duna kay makita nga operasyon sa manipulasyon, tabi-tabi (*gossip*), o rebelyon nga misulay sa pagguba sa panaghiusa sa imong pamilya o cellgroup?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: The Power of Warfare Prayer | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Outfit', sans-serif; 
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed; 
+            background-size: cover; 
+            color: #f5f5f5; 
+            line-height: 1.8; 
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper { 
+            background: rgba(22, 16, 10, 0.95); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #d4af37; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+            box-sizing: border-box; 
+        }
+        #translate_wrapper span { 
+            color: #ffd700; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .container { 
+            max-width: 850px; 
+            margin: 30px auto; 
+            padding: 35px; 
+            background: rgba(15, 15, 15, 0.97); 
+            border-radius: 20px; 
+            border: 2px solid #ff4500; 
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45); 
+            backdrop-filter: blur(10px); 
+            box-sizing: border-box; 
+        }
+
+        .back-btn { 
+            color: #ffd700; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            background: rgba(255, 215, 0, 0.1); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #ffd700; 
+            transition: 0.3s; 
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center; 
+        }
+        .back-btn:hover { 
+            background: #ffd700; 
+            color: black; 
+            box-shadow: 0 0 10px #ffd700; 
+        }
+
+        .lesson-header { 
+            text-align: center; 
+            border-bottom: 2px dashed #ff4500; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .lesson-header h1 { 
+            color: #ff4500; 
+            font-size: 2rem; 
+            margin: 0 0 5px 0; 
+            text-transform: uppercase; 
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.5); 
+        }
+        .lesson-header p { 
+            font-size: 1.25rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin: 0; 
+            font-style: italic; 
+        }
+
+        h2 { 
+            color: #ffd700; 
+            font-size: 1.5rem; 
+            border-left: 4px solid #ff4500; 
+            padding-left: 12px; 
+            margin-top: 45px; 
+            text-transform: uppercase; 
+        }
+        p { 
+            font-size: 1.15rem; 
+            text-align: justify; 
+            color: #dfd3c3; 
+        }
+
+        .verse-box { 
+            background: rgba(255, 69, 0, 0.07); 
+            border: 1px solid #ff4500; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px 0; 
+            font-style: italic; 
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1); 
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+        
+        .strategy-card { 
+            background: rgba(255, 255, 255, 0.02); 
+            border: 1px solid #444; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+        .strategy-title { 
+            font-size: 1.3rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin-bottom: 12px; 
+            text-transform: uppercase; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        }
+        
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight { 
+            background: rgba(212, 175, 55, 0.05); 
+            border-left: 4px solid #d4af37; 
+            padding: 20px; 
+            margin: 25px 0; 
+            border-radius: 0 15px 15px 0; 
+            font-size: 1.1rem; 
+            color: #e0d8c3; 
+        }
+        .insight-label { 
+            color: #ffd700; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 0.95rem; 
+            display: block; 
+            margin-bottom: 8px; 
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text { color: #ffd700; font-weight: bold; }
+        .war-room-box { 
+            background: rgba(255, 69, 0, 0.08); 
+            border: 1px solid #ff4500; 
+            padding: 25px; 
+            border-radius: 12px; 
+            margin: 35px 0; 
+        }
+        
+        .questions-box { 
+            background: rgba(5, 5, 5, 0.85); 
+            border: 1px solid #ff4500; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin-top: 50px; 
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        .questions-box h3 { 
+            margin-top: 0; 
+            color: #ff4500; 
+            text-transform: uppercase; 
+        }
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) { 
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn { 
+                display: block; 
+                width: 100%; 
+                box-sizing: border-box; 
+            } 
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 4: THE POWER OF WARFARE PRAYER</h1>
+            <p>"Ang Gahom sa Pag-ampo nga Pang-gubat: Pagguba sa mga Kuta sa Kaaway"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 2 Corinto 10:3-5 & Efeso 6:18</p>
+        <p><strong>Katuyoan:</strong> Aron masabtan sa matag disipulo nga ang pag-ampo dili lang kay basta unodnong pagpangayo og mga personal nga panalangin, kondili kini usa ka espirituhanong *heavy artillery* ug labing mahait nga hinagiban sa pagguba ug pagluka sa mga kuta (*strongholds*) sa kaaway sa *spiritual realm*.</p>
+
+        <h2>Introduction: Shift gikan sa Maintenance Prayer padulong sa Warfare Prayer</h2>
+        <p>Kasagaran sa mga magtutuo karon nagpuyo sa gitawag nga **Maintenance Prayers**. Kini mao kadtong mga matang sa pag-ampo nga pang-mentinar lang sa atong kahimtang o sitwasyon aron mabuhi sa matag adlaw. Ang agid-agid niini mao ang: <em>“Lord, i-bless ko karong adlawa, hatagi intawon mig pagkaon, tabangi ko sa akong trabaho, i-bless akong pamilya, amen.”</em> Dili dautan kini nga pag-ampo tungod kay nagpakita kini sa atong pagsalig sa Dios, apan kon ikaw anaa sa taliwala sa usa ka dako ug bangis nga gubat, ang yano nga *maintenance prayer* dili igo aron panalipdan ang imong pamilya.</p>
+        
+        <p>Kon ang imong kaminyoon ginaguba sa kaaway pinaagi sa sige og away, kon ang imong panalapi kanunay ginasabotahe sa kakulang, ug kon ang imong huna-huna gina-atake sa depresyon, nanginahanglan ka ug **Warfare Prayer** o Pag-ampo nga Pang-gubat. Kita nagpuyo ug naglakat niining pisikal nga kalibutan, apan ang atong mga tinuod nga kalisod ug kapakyasan nagsumikad sa espirituhanong gingharian. Kon dili nato usbon ug isilsil ang atong estratehiya sa pag-ampo gikan sa pagpakilimos padulong sa pagmando, magpabilin kitang pildiro sa matag aspeto sa kinabuhi.</p>
+
+        <h2>Ang Tibuok Bersikulo gikan sa Kasulatan</h2>
+        <div class="verse-box">
+            <strong>2 Corinto 10:3-5</strong>
+            "Tinuod nga nagpuyo kami sa kalibotan apan dili kami makig-away tungod sa kalibotanong tinguha. 4Ang mga hinagiban nga gigamit namo sa among pagpakig-away dili mga hinagiban sa kalibotan kondili gamhanang mga hinagiban sa Dios nga molumpag sa mga kota sa sayop nga mga pangatarongan. 5Gipukan namo ang tanang babag nga gigamit sa mapagarbohon batok sa kahibalo mahitungod sa Dios ug gibihag namo ang tanang hunahuna ug gipasunod kang Cristo. "
+        </div>
+        <div class="verse-box">
+            <strong>Efeso 6:18</strong>
+            "Buhata kining tanan diha sa pag-ampo ug pangayo kamo kanunay pinaagi sa Espiritu. Tungod niini pagbantay kamo ug lahutay gayod. Pag-ampo kanunay alang sa tibuok balaang katawhan sa Dios "
+        </div>
+
+        <h2>I. Ang Pag-ampo Mao ang Atong Espirituhanong Heavy Artillery</h2>
+        <p>Sa pisikal nga panggubatan sa militar, adunay gitawag nga *infantry* o ang mga sundalo nga naglakat sa yuta nga nagdala ug riple, ug aduna poy gitawag nga **Artillery**—mga dagkong kanyon, tangke, o long-range missiles nga ginalansar gikan sa layo aron pulbura ug bungkagon ang mga pinarilan nga kuta ug base sa kaaway sa dili pa mosulod ang mga sundalo. Sa espirituhanong gingharian, ang imong **Warfare Prayer** mao ang imong *heavy artillery*.</p>
+        
+        <ul>
+            <li>🚀 <span class="highlight-text">It Penetrates the Invisible Realm (Nagasulod sa Dili Makuta nga Kalibutan):</span> Ang imong pisikal nga tiil o kusog dili makasulod sa kwarto sa imong mga kaaway, o sa dapit diin gi-orkestra ang dautang plano batok sa imong pamilya. Apan ang imong pag-ampo makasulod sa *spiritual realm* aron i-shake ug guboon ang mga sitwasyon nga dili nimo kontrolado sa unod!</li>
+            <li>🔥 <span class="highlight-text">It Releases Supernatural Angelic Activity (Nagpalihok sa mga Anghel):</span> Kon ang usa ka disipulo magluhod ug mag-ampo uban ang awtoridad sa yuta, adunay dinalian nga kalihokan ug gubat nga mahitabo sa langitnong dapit.</li>
+        </ul>
+
+        <div class="verse-box">
+            <strong>Daniel 10:12-13</strong>
+            "12Unya iya akong giingnan, “Daniel, ayaw kahadlok kay sukad gayod sa unang adlaw nga ikaw nagtinguha sa pagsabot sa kahulogan sa panan-awon ug nagpaubos atubangan sa Dios, gidungog sa Dios ang imong mga pangaliya ug ania ako karon tungod niini. 13Sulod sa 21 ka adlaw gibabagan ako sa anghel nga prinsipe sa gingharian sa Persia. Maayo gani kay mitabang kanako si Miguel nga usa sa mga dakudako sa mga anghel. Karon atua siya didto gibiyaan nako uban sa anghel sa prinsipe sa Persia. '"
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA LIDER (THE DANIEL PERSISTENCE FACTOR):</span>
+            Lider, tudlo-i ang cellgroup niini nga kamatuoran: Sa dihang nag-ampo ug nag-fasting si Daniel sa yuta, ang tubag gipadala ug gi-release dayon sa Dios sukad sa unang adlaw. Apan ang anghel nga nagdala sa tubag gi-harass ug gibabagan sa hangin pinaagi sa *Prince of Persia* (usa ka gamhanan nga demonyohanong principality nga nagdumala sa maong rehiyon). 
+            <br><br>
+            Nganong nadawat man ni Daniel ang kadaugan human sa 21 ka adlaw? Tungod kay si Daniel wala nihunong sa pag-ampo! Ang iyang pagkamalahutayon sa pag-ampo nagpadala og dugang reinforcement—si Anghel Michael—aron dugmokon ang kaaway. Ang imong pag-ampo dili lang basta yano nga tingog diha sa hangin; kini usa ka espirituhanong sugo ug missile nga nagpagawas ug nagpalihok sa hukbo sa mga anghel sa Dios!
+        </div>
+
+        <h2>II. Ang mga Kuta (Strongholds) nga Ginabungkag sa Pag-ampo</h2>
+        <p>Sa panahon sa Bibliya, ang usa ka kuta o *stronghold* mao ang usa ka dapit nga giputos sa hilabihan ka gahi, bagdok, ug taas nga mga paril sa bato diin magtago ang kaaway o ang hari aron dili sila ma-atake sa gawas. Sa espirituhanong gubat sumala sa 2 Corinto 10:4-5, ang kuta nagrepresentar sa **sayop nga mindset, pattern sa sala, unodnong pangatarungan, ug mga dautang impluwensya** nga gitanom ni Satanas sa huna-huna sa tawo aron mosukol sa Dios.</p>
+        
+        <ul>
+            <li>🧠 <span class="highlight-text">The Stronghold of Mindsets (Kuta sa Panghunahuna):</span> Kini mao ang mga kuta sa kakulang sa paglaum, depresyon, grabeng kahadlok, anxiety, ug ang bakak nga moingon, *“Ingon nani akong kinabuhi, dili na gyud ko mausab, pildi gyud ko.”* Kini nga mga kuta kinahanglan pulburahon pinaagi sa pag-ampo sa Pulong sa Dios.</li>
+            <li>⛓️ <span class="highlight-text">The Stronghold of Generational Curses (Kuta sa Kaliwat nga Gapos):</span> Mga pattern sa kailgisan ug sala nga sige rag balik-balik sa inyong kaliwat—sama sa broken family, pagka-palahubog, grabeng bisyo, o dinalian nga kamatayon. Ang pag-ampo nga pang-gubat mao ang magputol niini nga kadena pinaagi sa gahom sa Dugo ni Hesus!</li>
+        </ul>
+
+        <div class="verse-box">
+            <strong>Lucas 11:21-22</strong>
+            "21“Kon ang usa ka tawo nga kusgan ug sangkap sa tanang hinagiban magbantay sa iyang balay, dili gayod kahilabtan ang iyang mga butang. 22Apan kon may mas kusgan pa nga mosulong ug mobuntog sa maong tawo, ang labing kusgan moilog sa tanang hinagiban nga gisaligan niadtong tawhana ug bahinbahinon sa mas kusgan ang tinulis."
+        </div>
+        <p><strong>Spiritual Insight:</strong> Ang yawa mao ang "tawo nga kusgan" nga nagkupot ug nag-lock sa pamilya sa una, apan si Hesus mao ang **"Mas Kusgan"** (The Stronger Man). Pinaagi sa pag-ampo, gina-release nato ang awtoridad sa Mas Kusgan aron bungkagon ang tibuok armadura sa demonyo ug bawi-on ang tanan niyang gikawat sa imong panimalay!</p>
+
+        <h2>III. Ang mga Kinaiya ug Haligi sa Pag-ampo nga Pang-gubat</h2>
+        <p>Aron ang imong pag-ampo mahimong epektibo ug adunay ginalansar nga dako nga epekto sa spiritual realm, kinahanglan nga makita kining upat ka kinaiya:</p>
+
+        <div class="strategy-card">
+            <div class="strategy-title">📢 1. Pag-ampo nga Adunay Balaang Awtoridad (Decreeing and Commanding)</div>
+            <p>Dili kita mag-ampo sa atubangan sa yawa nga morag makaluluoy, nagpakilimos, o nahadlok. Mag-ampo kita isip mga anak sa Labing Halangdong Dios nga naglingkod sa dapit sa kadaugan uban kay Kristo Hesus. Ikaw adunay legal nga katungod sumala sa Mateo 18:18.</p>
+            <p><span class="highlight-text">Application:</span> Undangi ang pag-ingon og, <em>“Lord, luoya intawon nako, Lord pahawaa ang yawa...”</em> Imbes nga magmando ka sa Dios, gamita ang imong awtoridad ug isulti direkta sa kaaway: <strong>“Yawa, sa Gamhanang Ngalan ni Hesus, ginasugo ko ikaw, kuhaa ang imong kamot sa akong kaminyoon ug panalapi, ug pahawa karon gayod sa akong panimalay!”</strong></p>
+        </div>
+
+        <div class="strategy-card">
+            <div class="strategy-title">🔥 2. Pag-ampo Diha sa Espiritu Santo (Praying in the Spirit)</div>
+            <p>Ang Efeso 6:18 nag-ingon, *“mag-ampo kamo sa tanang panahon diha sa Espiritu.”* Kini nagpasabut nga ang imong pag-ampo dili naggikan sa imong unodnon nga tinguha, emosyon, o personal nga kasuko. Ikaw gigiyahan sa Espiritu Santo, ug nagdeklarar ka sa mga saad sa Bibliya ug nag-ampo gamit ang mga espirituhanong dila aron ma-release ang hingpit nga misteryo sa Dios batok sa kaaway.</p>
+        </div>
+
+        <div class="strategy-card">
+            <div class="strategy-title">⏳ 3. Pag-ampo nga Adunay Mapadayunon nga Pagkamalahutayon (Persistence)</div>
+            <p>Ang espirituhanong gubat dili madaog sa usa lang ka duso o usa ka mubo nga pag-pray sa gabii. Kinahanglan ang pagkamalahutayon ug determinasyon hangtod nga makita ang pisikal nga manifestation sa kadaugan. Padayon sa pag-ampo ug pag-fasting (pagpuasa) hangtod nga ang paril sa kuta ni Satanas hingpit nga mahugno ug mapulbos!</p>
+        </div>
+
+        <h2>Conclusion & Call to Action: Momata Kita nga mga Manggubatar!</h2>
+        <div class="war-room-box">
+            <p>Mga igsoon diha sa Ginoo, miabot na ang saktong panahon nga momata kita gikan sa atong espirituhanong katulog ug kaluya! Kung ang imong pamilya gubot, kung ang imong negosyo sige og ka-atake, ayaw na pakig-away sa pisikal nga paagi pinaagi sa pagsinggit, pag-away, o stress sa unod. Ipiko ang imong mga tuhod ug luhod! Sulod sa imong kwarto, isira ang pultahan, ug sugdi ang pagpaulan ug paglansar sa mga *spiritual missiles* ug *heavy artillery* pinaagi sa pag-ampo nga adunay kadasig ug awtoridad!</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP LEADER (THE WAR ROOM MINISTRATION):</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pagbura sa kaluya. Pabaruga ang tibuok grupo, ablihi ang ilang mga kamot, ug i-mando kining dinalian nga pag-ampo sa pagguba sa mga kuta:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus, among ginalansar karong gabhiona ang heavy artillery sa pag-ampo batok sa gingharian sa kangitngit! Sa Ngalan ni Hesus, among gina-bombard ug gipulbos ang matag demonyohanong kuta (stronghold) sa sakit, kakulang, ug kalibog sa inyong mga panimalay! Akong ginaluka ang matag kuta sa sayop nga mindset, depresyon, ug anxiety.*
+            <br><br>
+            *Giputol nako sa Ngalan ni Hesus ang matag kaliwat nga gapos (generational curse) nga nag-guba sa inyong pamilya. Among gina-release ang 'Mas Kusgan' nga si Hesus aron bawi-on ang tanang gikawat ni Satanas sa inyong kalinaw, negosyo, ug panglawas! Kamo gidihogan isip mga maggugubat sa Dios, madasigon, ug puno sa supernatural nga kadaugan sugod karong gabhiona! Amen, ug Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa imong personal nga kinabuhi, unsa man ang kalainan sa imong pagsabot tali sa usa ka **Maintenance Prayer** (pag-pray nga pang-mentinar) ug sa usa ka **Warfare Prayer** (pag-ampo nga pang-gubat)? Giunsa nimo kini pag-apply karon?</li>
+                <li>Sumala sa *2 Corinto 10:4-5*, ang mga kuta o *strongholds* nagrepresentar sa mga sayop nga mindset ug panghunahuna nga gitanom sa yawa. Aduna ka ba'y kuta sa huna-huna (sama sa kahadlok, anxiety, o pagbati nga pildiro ka) nga kinahanglan nimong pulburahon pinaagi sa pag-ampo karong semanaha?</li>
+                <li>Gamit ang ehemplo ni **Daniel** sa kapitulong 10, unsa ka importante ang pagkamalahutayon (*persistence*) sa pag-ampo kon duna kay gihulat nga dakong breakthrough gikan sa Dios apan duna pa'y espirituhanong babag sa kaaway?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

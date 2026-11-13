@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 15: The Spirit of Delilah | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 15: THE SPIRIT OF DELILAH</h1>
+            <p>"Overcoming the Soul Hunter"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Mga Hukom 16:4-6, 15-21, ug Proverbio 6:26<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Delilah sa spiritual realm—ang espiritu nga nangayam sa atong kalag ug anointing pinaagi sa kompromiso ug peke nga kaharuhay—ug kon unsaon kini pagpukan pinaagi sa pagpabilin sa atong espirituhanong sekreto ug kaputli diha sa Ginoo.</p>
+
+        <h2>Introduction: The Hunter of Anointing</h2>
+        <p>Sa atong pagpadayon sa pagtuon sa mga estratehiya sa spiritual realm, atong tukion ang usa ka espiritu nga wala nagtinguha sa pagguba lang sa imong kwarta o sa imong dungog sa gawas—ang iyang tuyo mao ang pagguba sa imong espirituhanong kusog ug anointing. Kini mao ang tinawag nga <strong>The Spirit of Delilah (The Soul Hunter)</strong>.</p>
+        
+        <p>Aron masabtan noto kini, atong tan-awon ang kasaysayan ni Samson sa Basahon sa mga Hukom. Si Samson gihatagan sa Dios og supernatural nga kusog aron luwason ang Israel. Walay kasundalohan nga makapildi kaniya, ug walay mga pisi nga makagapos kaniya. Apan sa dihang nahigugma siya kang Delilah, nausab ang dagan sa iyang kinabuhi. Si Delilah gibayaran sa mga kaaway ni Samson aron diskubrihan kon diin gikan ang iyang talagsaong kusog.</p>
+
+        <div class="verse-box">
+            <strong>Proverbio 6:26</strong> - "Kay tungod sa usa ka babaye nga dautan ang usa ka tawo madala ngadto sa usa ka hiwa nga pan; ug ang dautan nga babaye mangayam sa bililhong kalag (hunts for the precious life/soul hunter)."
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE VALUE OF THE COVENANT)</span>
+            Lider, ipasabut pag-ayo sa mga miyembro nga si Delilah wala makig-gubat kang Samson pinaagi sa espada. Iyang gigamit ang iyang sabakan aron molubog ug mopakatulog sa pagka-mabinantayon ni Samson. Ang pito ka rasta sa buhok ni Samson nagrepresentar sa iyang **Nazirite Vow**—usa ka kasabotan sa kaputli ug pagpiho alang sa Dios. Sa modernong cellgroup konteksto, si Delilah mao ang bisan unsang butang nga hinay-hinay nga nag-ulog-ulog kanimo aron imong i-kompromiso ang imong personal nga kasabotan sa Dios (sama sa pag-ampo, integridad, ug pagkamatinud-anon).
+        </div>
+        
+        <p>Sa spiritual realm, ang Spirit of Delilah nagrepresentar sa usa ka lit-ag sa emosyonal ug unodnon nga kompromiso. Dili kini mo-atake sama sa usa ka leon nga nagsinggit; mo-atake kini pinaagi sa pag-ulog-ulog, paghupay sa imong unod, ug pagpatulog kanimo sa iyang sabakan hangtod nga hinay-hinay nimong ma-surrender ang imong espirituhanong proteksyon. Atong i-expose kining maong soul hunter karon!</p>
+
+        <h2>I. Ang mga Diskarte sa Spirit of Delilah sa Spiritual Realm</h2>
+        <p>Aron atong mapukan kini, kinahanglan natong masabtan kon giunsa niini pag-disenyo ang iyang mga lit-ag batok sa mga anak sa Dios:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🔊 1. It Uses Persistent Emotional Pressure (Magsigi siya ug pa pressure ug mopaagni sa imong  Emosyon)</div>
+            <div class="verse-box">
+                <strong>Mga Hukom 16:16</strong> - "Ug nahitabo nga sa nagsige-sige siya pa pressure sa iyang mga pulong kada adlaw, ug naghibidhibid kaniya, ang kalag ni Samson nasubo ug gilaayan hangtod sa kamatayon."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Ang Spirit of Delilah naggamit og weariness sa imong emosyon. Sigehan ka niini og duso sa mga tentasyon ug mga huna-huna kada adlaw pinaagi sa pag-ulog-ulog ug pangluod (*"Kon nahigugma ka nako, isulti nimo ang imong sekreto"*). Buhaton niya kini hangtod nga kapoyon ka og balibad, maluya ang imong espirituhanong determinasyon, ug mo-surrender ka na lang sa sala.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🛌 2. It Puts the Spiritual Life to Sleep (Pagpatulog sa Espiritu)</div>
+            <div class="verse-box">
+                <strong>Mga Hukom 16:19</strong> - "Ug iyang gipatulog siya sa ibabaw sa iyang mga tuhod (sabakan); ug nagtawag siya ug usa ka tawo ug iyang gipaupawan ang pito ka rasta sa iyang ulo..."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Paborito ni Delilah ang maghatag og peke nga kaharuhay <em>(false comfort)</em>. Gusto niini nga mapatulog ang imong prayer life, mapatulog ang imong pagka-mabinantayon, ug mapatulog ang imong konsensya. Samtang ikaw natulog sa sabakan sa kompromiso o kalingawan sa kalibutan, hinay-hinay nga kuhaan ka sa kaaway sa imong balaang kusog ug proteksyon.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">✂️ 3. It Cuts Your Connection with God (Pagputol sa Kasabotan)</div>
+            <p>Ang buhok ni Samson dili magic, kini nagrepresentar sa iyang <strong>Kasabotan (Covenant)</strong> isip usa ka Nazareno sa Dios. Kon mupukan ka sa kaminyoon, sa kaputli, o sa integridad sa trabaho ug negosyo, imong ginasira ang pultahan sa proteksyon sa Dios. Sa dihang nipalayo si Samson sa iyang kasabotan, nibiya ang Ginoo kaniya ug nakuha siya sa mga kaaway, kinsa miluka sa iyang mga mata ug naggapos kaniya sa mga kadenang tumbaga aron maggaling sa prisohan.</p>
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Delilah Karon? (The Modern Manifestations)</h2>
+        <p>Atong bantayan kining tulo ka dagkong timailhan sa atong modernong kinabuhi:</p>
+        <ul>
+            <li>🕸️ <span class="highlight-text">Entrapment through "Soul Ties" and Wrong Relationships:</span> Kini nga espiritu naglihok pinaagi sa mga relasyon nga wala nahasubay sa kabubut-on sa Dios. Mopasulod kini og tawo o impluwensya sa imong kinabuhi nga pwerte ka madanihon, apan ang tinuod nga misyon niana mao ang pagpalayo kanimo sa imong cellgroup, sa imong pamilya, ug sa imong Ginoo.</li>
+            <li>🎭 <span class="highlight-text">Trading Spiritual Power for Temporary Pleasure (Kompromiso sa Unod):</span> Kini ang espiritu nga nag-ingon: <em>"Okay ra na mosulod sa gamay nga kompromiso, dili bitaw makita sa uban, basta malipay ka karon."</em> Iyang ipabaylo kanimo ang imong espirituhanong destiny ug dako nga panalangin alang lang sa temporaryo nga kahupayan sa unod.</li>
+            <li>⛓️ <span class="highlight-text">Spiritual Blindness and Captivity (Espirituhanong Pagkabuta):</span> Sa dihang nadakpan si Samson, ang unang gihimo sa mga Philistinhon mao ang pagluka sa iyang mga mata. Kon ang usa ka Kristohanon magpadala sa Spirit of Delilah, magsugod ang espirituhanong pagkabuta—dili na ka makakita sa kamatuoran, mawad-an ka og pag-ila sa husto ug sayop, ug makit-an na lang nimo ang imong kaugalingon nga ulipon na sa adiksyon o kapakyasan.</li>
+        </ul>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">🛑 TIMAILHAN SA CELLGROUP DISKUSYON (THE SILENT DRIFT)</span>
+            Lider, ipasabut nga ang atake ni Delilah hilom kaayo. Kon ang usa ka miyembro magsugod na gani og kawad-an og kadasig sa pag-ampo, magsugod og pabor sa mga butang sa kalibutan kaysa sa Pulong, ug modepensa sa iyang mga "gagmay nga kompromiso," natulog na siya sa sabakan ni Delilah. Kinahanglan nato siyang pukawon pinaagi sa gugma ug pag-ampo sa cellgroup.
+        </div>
+
+        <h2>III. How to Overcome the Soul Hunter (Kon Unsaon Kini Pagpukan)</h2>
+        <p>Bisan unsa pa ka dako ang kapakyasan ni Samson sa una, mitubo pag-usab ang iyang buhok, naghinulsol siya, nag-ampo, ug naghatag kaniya ang Dios og mas dako nga kadaugan sa katapusan. Ania ang atong mga spiritual warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🛡️ 1. Guard Your Spiritual Secret (Bantayi ang Imong Kasabotan)</div>
+            <div class="verse-box">
+                <strong>Proverbio 4:23</strong> - "Bantayi ang imong kasingkasing uban sa tibuok nga kalihokan; kay gikan niini nagagula ang mga tuburan sa kinabuhi."
+            </div>
+            <p><strong>Application:</strong> Ayaw i-surrender ang imong integridad ug ang imong relasyon sa Dios alang sa bisan kinsa o bisan unsa nga butang. Ang imong prayer life, pagkamatinud-anon sa pamilya, ug kaputli mao ang gamut sa imong balaang kusog. Ayaw itugot nga ang mga huni sa kalibutan maoy mo-dikta sa imong baruganan.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🚨 2. Wake Up from the Lap of False Comfort (Momata Gikan sa Pagkatulog)</div>
+            <div class="verse-box">
+                <strong>Efeso 5:14</strong> - "Tugod niini nag-ingon siya: ‘Momata ka, ikaw nga nagatolog, ug barug gikan sa mga patay, ug ang kahayag ni Kristo modan-ag kanimo.’"
+            </div>
+            <p><strong>Application:</strong> Kon imong namatikdan nga ang imong espirituhanong kinabuhi nagsugod na og kabugnaw tungod sa kompromiso o tungod kay na-busy sa mga lingaw-lingaw, momata ka karon! Ayaw paghulat nga lukaon sa kaaway ang imong mga espirituhanong mata ug guboon ang imong kaugmaon. Biya sa sabakan sa peke nga kaharuhay ug balik sa tiilan ni Hesus pinaagi sa tiunay nga paghinulsol.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release the Power of Cutting Prayers (I-proclaim ang Kagawasan)</div>
+            <p><strong>Application:</strong> Sa imong Warfare Prayer, gamita ang awtoridad ni Hesus aron putlon ang matag emosyonal ug unodnon nga gapos nga gitanom sa kaaway sa imong kalag. Pag-ampo uban ang kadasig karong gabhiona: <strong>"Sa ngalan ni Hesus, akong ginaluka ug ginabungkag ang matag Spirit of Delilah nga nangayam sa akong kalag ug sa akong anointing! Akong ginasalikway ang matag peke nga kaharuhay, matag dautang soul tie, ug matag kompromiso sa akong unod. Akong i-proclaim nga ang akong kusog ug ugma anaa sa Dios, ug maglakaw ako sa kaputli ug sa dako nga breakthrough nga giandam sa Ginoo para kanako! Amen!"</strong></p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (SAFE COVER OVER MY SOUL)</span>
+            Lider, pagkahuman sa pagbasa, giyahi ang imong grupo sa pag-ampo uban ang balaang kompidensyal: *“I-pikit ang inyong mga mata ug i-pray kini sa usag-usa. Sa Ngalan ni Hesus, among ginabungkag ang matag unholy soul tie ug matag lit-ag sa unodnong kompromiso nga nagpatulog sa inyong prayer life! Gideklara nako nga ang buhok sa inyong kasabotan ug dako nga kusog mitubo pag-usab karong gabhiona. Kamo gipukaw, gihinusan sa Dugo ni Hesus, ug gipahiuli sa inyong balaang bokasyon! Amen!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: Reclaiming Your Strength</h2>
+        <p>Mga igsoon sa Ginoo, ang tumong sa Spirit of Delilah mao ang paghime kanatong luya, buta, ug ulipon sa kaaway. Apan duna kitay maayong balita karong gabhiona didto sa atong grupo: Si Hesus mianhi aron maghatag kanato og kagawasan, pag-ayo sa mga buta, ug pagpagawas sa mga binihag! <span class="highlight-text">(Lucas 4:18)</span>.</p>
+        
+        <p>Kon duna kay mga bahin sa imong kinabuhi nga morag natulog ug hinay-hinay nga gikuhaan sa kaaway sa kusog tungod sa kompromiso—karong gabhiona mao ang adlaw sa hingpit nga pagpahiuli. Dili nato itugot nga ang atong pamilya, atong negosyo, ug atong ministeryo mabiktima sa mga lit-ag sa kaaway. Momata kita gikan sa espirituhanong pagkatulog. Isulob noto ang tibuok armor sa Dios, ug i-proclaim noto ang supernatural nga kalampusan ug kaputli diha kang Kristo Hesus! Amen!</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call (Cellgroup Discussion):</h3>
+            <ul>
+                <li>Aduna ba kay relasyon, batasan, o sekreto nga kompromiso karon nga nag-anam-anam og patay sa imong kadasig sa pag-alagad, pagbasa sa Pulong, ug pag-ampo sa cellgroup? Sa unsa nga paagi ka mahimong mas mabinantayon batok sa peke nga kaharuhay?</li>
+                <li>Mag-ampo kita karon alang sa usag-usa uban ang matinud-anong kasingkasing, bungkagon nato ang matag kuta sa Spirit of Delilah, ug i-claim nato ang presko nga duso sa kusog, kaputli, ug hingpit nga kagawasan diha sa Ngalan ni Hesus! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

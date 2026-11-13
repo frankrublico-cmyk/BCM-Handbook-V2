@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: Entering the Spiritual Realm | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper { 
+            background: rgba(22, 16, 10, 0.95); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #d4af37; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px; 
+            box-sizing: border-box; 
+        }
+        #translate_wrapper span { 
+            color: #ffd700; 
+            font-size: 0.85rem; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .container { 
+            max-width: 850px; 
+            margin: 30px auto; 
+            padding: 35px; 
+            background: rgba(15, 15, 15, 0.97); 
+            border-radius: 20px; 
+            border: 2px solid #ff4500; 
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45); 
+            backdrop-filter: blur(10px); 
+            box-sizing: border-box; 
+        }
+
+        .back-btn { 
+            color: #ffd700; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            background: rgba(255, 215, 0, 0.1); 
+            padding: 8px 15px; 
+            border-radius: 20px; 
+            border: 1px solid #ffd700; 
+            transition: 0.3s; 
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center; 
+        }
+        .back-btn:hover { 
+            background: #ffd700; 
+            color: black; 
+            box-shadow: 0 0 10px #ffd700; 
+        }
+
+        .lesson-header { 
+            text-align: center; 
+            border-bottom: 2px dashed #ff4500; 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+        }
+        .lesson-header h1 { 
+            color: #ff4500; 
+            font-size: 2rem; 
+            margin: 0 0 5px 0; 
+            text-transform: uppercase; 
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.5); 
+        }
+        .lesson-header p { 
+            font-size: 1.25rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin: 0; 
+            font-style: italic; 
+        }
+
+        h2 { 
+            color: #ffd700; 
+            font-size: 1.5rem; 
+            border-left: 4px solid #ff4500; 
+            padding-left: 12px; 
+            margin-top: 45px; 
+            text-transform: uppercase; 
+        }
+        p { 
+            font-size: 1.15rem; 
+            text-align: justify; 
+            color: #dfd3c3; 
+        }
+
+        .verse-box { 
+            background: rgba(255, 69, 0, 0.07); 
+            border: 1px solid #ff4500; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin: 20px 0; 
+            font-style: italic; 
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1); 
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+        
+        .armor-card { 
+            background: rgba(255, 255, 255, 0.02); 
+            border: 1px solid #444; 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin: 25px 0; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+        .armor-title { 
+            font-size: 1.35rem; 
+            color: #ffd700; 
+            font-weight: bold; 
+            margin-bottom: 12px; 
+            text-transform: uppercase; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+        }
+        
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight { 
+            background: rgba(212, 175, 55, 0.05); 
+            border-left: 4px solid #d4af37; 
+            padding: 20px; 
+            margin: 25px 0; 
+            border-radius: 0 15px 15px 0; 
+            font-size: 1.1rem; 
+            color: #e0d8c3; 
+        }
+        .insight-label { 
+            color: #ffd700; 
+            font-weight: bold; 
+            text-transform: uppercase; 
+            font-size: 0.95rem; 
+            display: block; 
+            margin-bottom: 8px; 
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text { color: #ffd700; font-weight: bold; }
+        .artillery-box { 
+            background: rgba(255, 69, 0, 0.08); 
+            border: 1px solid #ff4500; 
+            padding: 25px; 
+            border-radius: 12px; 
+            margin: 35px 0; 
+        }
+        
+        .questions-box { 
+            background: rgba(5, 5, 5, 0.85); 
+            border: 1px solid #ff4500; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin-top: 50px; 
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+        .questions-box h3 { 
+            margin-top: 0; 
+            color: #ff4500; 
+            text-transform: uppercase; 
+        }
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) { 
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn { 
+                display: block; 
+                width: 100%; 
+                box-sizing: border-box; 
+            } 
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 3: ENTERING THE SPIRITUAL REALM</h1>
+            <p>"The Whole Armor of God: Pagsulob sa Supernatural nga Sangkap sa Gubat"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Efeso 6:10-18</p>
+        <p><strong>Katuyoan:</strong> Aron ma-ablihan sa hingpit ang atong espirituhanong mga mata nga ang atong tinuod nga gubat wala diha sa pisikal, kondili anaa sa *spiritual realm*, ug gihatagan kita sa Dios sa kompleto nga supernatural equipment aron mobarog nga madaugon batok sa matag gapos sa kaaway.</p>
+
+        <h2>Introduction: Ang Kamatuoran sa Espirituhanong Gingharian</h2>
+        <p>Kitang mga tawo, naanad kita sa pagpuyo ug pagsalig lamang sa *physical realm*—ang kalibutan nga atong makita sa atong mga mata, matandog sa atong mga kamot, ug madungog sa atong dalunggan. Kon duna kitay problema sa kwarta, stress sa pamilya, away sa kaminyoon, o depekto sa panglawas, ang atong huna-huna awtomatiko nga mangita og solusyon nga pisikal ra gihapon (pamilyar nga rason, pag-away, o pagpaningkamot sa unod).</p>
+        
+        <p>Apan karong adlawa sa serye sa *Break Every Chain*, gipahinumdoman ug gipukaw kita ni Apostol Pablo nga luyo niining pisikal nga kalibutan, adunay mas dako, mas gamhanan, ug mas tinuod nga reyalidad: **The Spiritual Realm**. Ug ang kamatuoran mao kini: kitang tanan, ganahan man ta o sa dili, anaa sa tunga-tunga sa usa ka dako ug seryoso nga espirituhanong panggubatan (*spiritual warfare*). Kon dili nimo ablihan ang imong espirituhanong mga mata, padayon kang dula-dulaan ug guboon sa yawa.</p>
+
+        <h2>Ang Tibuok Bersikulo gikan sa Kasulatan</h2>
+        <div class="verse-box">
+            <strong>Efeso 6:10-13</strong>
+            10Sa kataposan, lig-ona ang inyong kaugalingon diha sa pagpakighiusa sa Ginoo pinaagi sa iyang dakong gahom. 11Isul-ob ninyo ang tanang kahimanan sa gubat nga gihatag sa Dios kaninyo aron makasukol kamo batok sa mga pagpanglimbong sa Yawa. 12Kay wala kita makig-away batok sa dugo ug unod, kondili batok sa mga daotang espirituhanong gahom diha sa kalangitan, sa mga pangulo, sa mga anaa sa gahom ug sa mga daotang gahom nga nagmando niining kalibotan sa kangitngit. 13Busa dad-a ang tanang kahimanan sa gubat nga gikan sa Dios! Ug inig-abot unya sa daotang adlaw, makasukol kamo sa inyong kaaway sa walay pagsibog o pag-undang hangtod sa kataposan.
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA LIDER (THE GREEK WORD: PALE):</span>
+            Lider, ipasabut kini og maayo sa grupo: Ang Griegong pulong nga gigamit ni Pablo alang sa "pakigbisog" o "wrestling" sa bersikulo 12 mao ang **Pale**. Sa karaang panahon sa Grecia, ang *Pale* usa ka matang sa dula sa combat diha sa arena diin ang duha ka magbubunog kinahanglan magdumog sa hilabihan ka sapa. Ang kondisyon niini: **kon kinsa kadtong mapukan sa yuta ug matunoban ang liog, kuhaan siya sa iyang mga mata ug butangan og selyo sa kaparotan.** 
+            <br><br>
+            Kini nagpasabut nga ang *spiritual warfare* dili layo, dili kini theoretical, ug dili kini dula-dula! Kini usa ka *hand-to-hand, skin-to-skin combat* nga personal ug dinalian sa imong kinabuhi. Dili ka pwedeng mo-neutral; kinahanglan nimo isulob ang tibuok Armor sa Dios aron dili ka malubag ug makuhaan sa imong espirituhanong panan-aw sa kaaway!
+        </div>
+
+        <h2>Ang Unom Ka Parte Sa Espirituhanong Armadura (Spiritual Gear)</h2>
+        <p>Aron kita makabarog ug makadugmok sa mga lit-ag ni Satanas, gihatagan kita sa Dios sa kompleto ug saktong Romanong militaristiko nga sangkap diha sa espiritu. Atong tukiubon ang unom ka parte sa detalyado nga pamaagi:</p>
+
+        <div class="armor-card">
+            <div class="armor-title">🥋 1. The Belt of Truth (Ang Bakos sa Kamatuoran)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:14a</strong> - Busa pangandam kamo: gamita ang kamatuoran ingon nga bakos..."
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Sa kultura sa Romanong sundalo, ang bakos mao ang labing importante nga unang sangkap. Gihimo kini aron magkupot sa tibuok armadura (lakip ang breastplate) ug dinhi ituslob ang espada aron dili kini matagak o malubay samtang nagdagan sa gubat. Kon walay bakos, mahulog ang tibuok armor ug daling mapandol ang sundalo.</p>
+            <p>Sa spiritual realm, ang nag-unang hinagiban ug kinaiya ni Satanas mao ang **Bakak, tago nga kompromiso, ug manipulasyon**. Ang kamatuoran nagpasabut og pagkinabuhi nga walay tago nga sala, walay maskara, ug adunay tiunay nga integridad. Kon nagpuyo ka sa sekreto nga sala, gibuksan ug gihubaran nimo ang imong kaugalingon sa atubangan sa kaaway. Ang pagkinabuhi sa kamatuoran sa Pulong sa Dios mao ang nagkupot sa imong structural integrity.</p>
+        </div>
+
+        <div class="armor-card">
+            <div class="armor-title">🛡️ 2. The Breastplate of Righteousness (Ang Taming sa Kasingkasing sa Katarong)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:14b</strong> - "...ang pagkamatarong ingon nga salipod sa inyong dughan "
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Ang *Breastplate* nagatabon sa tibuok dapit sa dughan sa sundalo—gikan sa liog hangtod sa hawak—aron panalipdan ang labing delikado nga mga organo sama sa kasingkasing ug baga gikan sa dinalian nga dunggab sa kaaway.</p>
+            <div class="verse-box">
+                <strong>Pinadayag 12:10</strong> - "...Kay ang tigsumbong nga nagbarog sa atubangan sa Dios ug nagsumbong sa atong kaigsoonan adlaw ug gabii gihinginlan na gikan sa langit.
+            </div>
+            <p>Si Satanas naglihok isip **The Accuser** (Ang Magsumbong). Sige siyag bulong sa imong huna-huna mahitungod sa imong mga miaging kapakyasan ug sala aron mawad-an ka og kaisog sa pag-ampo ug moingon nga *“dili ka takos.”* Kon mosalig ka sa imong kaugalingong kaayo, mabuslot ang imong panalipod. Ang tinuod nga *Breastplate of Righteousness* naggikan lamang sa katarong ni Kristo Hesus nga gihatag kanato pinaagi sa pagtoo! Kini ang nagasira sa pultahan batok sa guilt, pagkondenar, ug kaulaw.</p>
+        </div>
+
+        <div class="armor-card">
+            <div class="armor-title">🥾 3. The Shoes of the Gospel of Peace (Ang Sapatos sa Maayong Balita sa Kalinaw)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:15</strong> - "Ug ang kadasig sa pagsangyaw sa Maayong Balita sa pakigdait ingon nga inyong sapatos." 
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Ang sapatos sa Romanong sundalo (gitawag ug *Caliga*) dili ordinaryo nga sandalyas; kini adunay gahi nga panit ug nasilsilan og mga **puthaw nga spikes** sa ilawom. Gidisenyo kini aron maghatag ug dako nga *traction* o kalig-on aron ang sundalo dili madulas o mapukan kon makasinati ug grabe nga duso sa gubat, ug aron makalakat sa dapit nga adunay tunok o hait nga bato.</p>
+            <p>Ang *Gospel of Peace* naghatag kanato ug supernatural stability ug alignment. Bisan unsa pa ka gubot, kabalaka, ug krisis ang palibot sa kalibutan, ang imong kalag nagpabilin nga kalmado, lig-on, ug madasigon tungod kay nakabaton ka ug pakigdait sa Dios. Kini usab nagrepresentar sa "pagka-andam" sa usa ka disipulo sa paglakat ug pagdala sa ebanghelyo ngadto sa mga nawala.</p>
+        </div>
+
+        <div class="armor-card">
+            <div class="armor-title">🛡️ 4. The Shield of Faith (Ang Kalasag sa Pagtoo)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:16</strong> - "Dad-a kanunay ang inyong taming nga mao ang inyong pagtuo kay pinaagi niini makapalong kamo sa tanang nagsiga nga ipana kaninyo sa Yawa."
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Ang kalasag sa Romano (gitawag ug *Scutum*) dako kaayo, pormang rektanggulo, ug hinimo gikan sa bagtok nga kahoy nga giputos og panit sa mananap. Sa dili pa ang gubat, **itunlob ug ihumol gayod kini sa tubig**. Ngano man? Kay ang kaaway mamana man og mga pana nga adunay kalayo (*fiery darts*). Kon mo-igo ang nagasiga nga pana sa basa nga kalasag, dinalian kining mapalong ug dili makasunog sa sundalo.</p>
+            <p>Ang kaaway sige og pana kanato matag adlaw pinaagi sa *fiery darts*—mga kalit nga huna-huna sa grabeng kahadlok, grabe nga pagduhaduha sa mga saad sa Dios, kabalaka sa negosyo, ug dautang sugyot sa unod. Ang *Shield of Faith* mao ang imong dinalian nga pagsalig sa tinuod nga kinaiya, gahum, ug mga saad sa Dios. Ang pagtoo dili emosyon; kini usa ka kalasag nga nagpasalig nga ang Dios matinumanon sa Iyang pulong!</p>
+        </div>
+
+        <div class="armor-card">
+            <div class="armor-title">🪖 5. The Helmet of Salvation (Ang Helmet sa Kaluwasan)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:17a</strong> - Ug ikalo ninyo ang kaluwasan ingon nga panalipod sa ulo..."
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Ang helmet hinimo gikan sa gahi nga puthaw o tumbaga, ug kini nagaprotekta sa labing importanteng bahin sa sundalo: ang iyang **Ulo ug Huna-huna**. Kon masamdaman o mabuak ang ulo, patay o paralyzed ang tibuok lawas sa sundalo.</p>
+            <p>Ang imong huna-huna ug panan-aw mao ang nag-unang panggubatan (*primary battlefield*). Dinhi magtanom si Satanas og mga ideya sa kapakyasan, depresyon, ug mga bakak sama sa: *“Gibiyaan na ka sa Dios,” “Dili na ka maluwas,” o “iampon na lang ni imong kahimtang kay wala nay kausaban.”* Ang *Helmet of Salvation* nagaprotekta kanimo pinaagi sa dili matay-og nga kasiguruhan sa imong kaluwasan diha kang Kristo. Ikaw anak sa Dios, giluwas, gipalit, ug ang imong katapusan anaa sa kadaugan!</p>
+        </div>
+
+        <div class="armor-card">
+            <div class="armor-title">⚔️ 6. The Sword of the Spirit (Ang Espada sa Espiritu)</div>
+            <div class="verse-box">
+                <strong>Efeso 6:17b</strong> - "...ug gamita ang pulong sa Dios nga gihatag kaninyo sa Espiritu ingon nga espada."
+            </div>
+            <p><strong>Lawom nga Pagpasabot:</strong> Gikan sa unom ka parte, kini ra ang bugtong armas nga gigamit alang sa **pang-atake (offensive weapon)** aron samaran, putlan, ug palagputon ang kaaway. Ang Romanong espada (tinawag ug *Gladius*) mubo apan hilabihan kahait sa duha ka dapit, gidisenyo alang sa hait nga dunggab sa duol nga panggubatan.</p>
+            <div class="verse-box">
+                <strong>Hebreo 4:12</strong> - 12Kay ang pulong sa Dios buhi ug maabtik ug mas hait pa kay sa bisan unsang espada nga duhay sulab. Modulot kini hangtod sa kinahiladman sa kalag ug sa espiritu hangtod sa dapit diin nag-abot ang lutahan ug ang kauyokan. Nag-usisa kini sa mga tinguha ug hunahuna sa kasingkasing sa tawo...
+            </div>
+            <p>Giunsa man ni Hesus pagpildi ug pagpapahawa sa yawa sa dihang gitintal Siya sa dapit nga mamingaw? Wala Siya nakig-debate, ug wala Siya migamit sa unod. Gitubag ug giputlan Niya si Satanas pinaagi sa pag-ingon: **"It is written..."** <small>(Mateo 4:4)</small>. Ang Pulong sa Dios nga gilitok sa imong dila uban ang awtoridad mao ang pinakahait nga espada sa espiritu nga makaputol sa matag kadena!</p>
+        </div>
+
+        <h2>Conclusion: The Heavy Artillery of Prayer</h2>
+        <div class="artillery-box">
+            <div class="verse-box">
+                <strong>Efeso 6:18</strong>
+                 "Buhata kining tanan diha sa pag-ampo ug pangayo kamo kanunay pinaagi sa Espiritu. Tungod niini pagbantay kamo ug lahutay gayod. Pag-ampo kanunay alang sa tibuok balaang katawhan sa Dios."
+            </div>
+            <p>Ang pag-ampo diha sa Espiritu Santo mao ang atong **Heavy Artillery (Militaristikong Kanyon)**. Kini ang nagkonektar kanato sa *Heavenly Headquarters* ug nagaduso sa tibuok armadura. Ang usa ka Kristohanon nga kompleto kaayo sa unom ka gear sa armor apan walay buhi ug nagdilaab nga kinabuhi sa pag-ampo, nahisama sa usa ka sundalo nga nindot kaayo og uniporme ug armas apan walay bala ug walay komunikasyon sa iyang Heneral! Ang pag-ampo mao ang nagpa-andar sa supernatural nga gahum.</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP LEADER (THE ACTIVATION COMMAND):</span>
+            Lider, human sa diskusyon, pabaruga ang tibuok grupo. Ayaw kini taposa sa pagbasa lang. I-mando kining dinalian nga pag-ampo sa pag-activate aron bungkagon ang mga gapos sa kaaway:
+            <br><br>
+            *“I-pikit ang inyong mga mata. Sa Gamhanang Ngalan ni Hesus, atong ginasulob karong gabhiona ang tibuok Armadura sa Dios! Akong gideklara ang Bakos sa Kamatuoran sa inyong taliwala—bungkagon ang matag sekreto nga sala ug bakak! Ginasulob nato ang Breastplate of Righteousness batok sa guilt ug kaulaw sa kaaway. Ginasulob nato ang Sapatos sa Ebanghelyo para sa kalig-on sa inyong pamilya.*
+            <br><br>
+            *Iisa ang Kalasag sa Pagtoo karon aron mapalong ang tanang nagasiga nga pana sa kabalaka ug sakit gikan ni Satanas! Ibutang ang Helmet sa Kaluwasan alang sa proteksyon sa inyong huna-huna gikan sa depresyon. Ug kuhaa ang Espada sa Espiritu—isulti ang Pulong sa Ginoo! Sa Ngalan ni Hesus, ginaluka ug giputol nako ang matag gapos ug operasyon sa kangitngit sa inyong kinabuhi! Kamo gawasnon, madasigon, ug madaugon na diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa kahulugan sa Griegong pulong nga **Pale** (hand-to-hand wrestling), sa unsang paagi kini nga kamatuoran nag-usab sa imong panglantaw mahitungod sa espirituhanong gubat sa imong kinabuhi matag adlaw?</li>
+                <li>Hain sa unom ka parte sa *Spiritual Gear* (Truth, Righteousness, Peace, Faith, Salvation, Word) ang imong nabantayan nga kanunay kaayong gi-atake sa yawa karong panahona diha sa imong pamilya o huna-huna? Unsaon nimo kini pagpanalipod sugod ugma?</li>
+                <li>Nganong giingon man nga ang usa ka Kristohanon nga wala nag-ampo sa tanang panahon nahisama sa usa ka sundalo nga walay bala ug walay komunikasyon sa iyang Heneral? Unsaon nimo pag-ayo ang imong personal nga altar sa pag-ampo karong semanaha?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2: Ang Otoridad Sa Usa Ka Magtotoo | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.96)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.97);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.07);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+        .verse-box strong {
+            color: #ff4500;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .activation-box {
+            background: rgba(255, 215, 0, 0.03);
+            border: 1px solid #ffd700;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+        }
+        .activation-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .explanation-box {
+            background: rgba(255, 255, 255, 0.02);
+            border-left: 4px solid #ff4500;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .command-zone {
+            background: rgba(255, 69, 0, 0.08);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .prayer-box {
+            background: linear-gradient(135deg, rgba(255,69,0,0.2), rgba(255,215,0,0.2));
+            border: 2px solid #ffd700;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 50px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+        }
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+        }
+
+        ul, ol { font-size: 1.15rem; padding-left: 25px; }
+        li { margin-bottom: 14px; }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 2: ANG OTORIDAD SA USA KA MAGTOTOO</h1>
+            <p>"Paglakaw sa Gahum ni Jesus: Ang Gubat Batok sa Pagbati nga Walay Kusog ug Luoy"</p>
+        </div>
+
+        <h2>I. Ang Pasiuna (The Discipleship Foundation)</h2>
+        <p>Igsoon, hunahunaa ang usa ka sundalo nga gipadala ngadto sa labing grabe nga panggubatan. Gihatagan siya sa gobyerno og labing abante nga armas, kompleto nga bala, ug taming, apan wala siya masayod o wala siya nagatuo nga duna diay siyay armas. Kon moatake ang kaaway, mudagan siya, mohilak, ug magpakaluoy tungod sa grabe nga kahadlok. Kini nga sundalo dali ra kaayong mapukan, dili tungod kay wa siyay armas, kondili tungod kay wala niya mahibalo-i ug wala niya gigamit ang iyang armas.</p>
+        
+        <p>Kini mao ang saktong hulagway sa minilyon ka mga Kristohanon karon. Sila nagpuyo adlaw-adlaw nga murag "biktima" sa mga circumstansya, biktima sa sakit, biktima sa stress sa panalapi, ug biktima sa mga pagguba sa yawa sa ilang panimalay. Sila sige og hilak ug moingon, <em>“Luoy kaayo ko, ngano man nga giguba sa yawa akong kinabuhi?”</em> Apan sa kalibutan sa espiritu, ang dautang mga gahum dili motuman kanimo tungod kay maayo ka nga tawo, o tungod kay dugay na ka gasimba. Sila motuman lamang tungod sa **Otoridad ni Hesus** nga gipiyalan ug gi-delegate diha kanimo!</p>
+        
+        <p>Niini nga leksyon sa *Break Every Chain*, atong bungkagon ang unodnong bakak sa yawa nga nag-ingon nga ikaw luoy ug walay kusog, ug atong i-activate ang legal nga awtoridad nga gipahimutang sa Dios sa imong kinabuhi pinaagi sa Iyang Dugo ug Ngalan!</p>
+
+        <h2>II. Mga Pundasyon nga Bible Verses ug Pagpasabot</h2>
+        <p>Aron lig-on ug dili matay-og ang atong paglakaw sa awtoridad, atong tun-an ug basahon ang tibuok ug kompletong mga bersikulo sa Kasulatan:</p>
+        
+        <div class="verse-box">
+            <strong>Lucas 10:19</strong>
+            Pamati kamo! Gihatagan ko kamog gahom aron makahimo kamo pagyatak sa mga bitin ug sa mga tanga ug sa tanang gahom sa Yawa, ug walay makaunsa kaninyo.
+        </div>
+        <div class="explanation-box">
+            <strong>Eksakto nga Pagpasabot:</strong> Kini ang imong buhi nga "Mandate of Power." Sa orihinal nga pinulongan, adunay dakong kalainan ang duha ka pulong: ang Otoridad ug ang Kusog. Ang pulong nga gigamit ni Hesus alang sa otoridad mao ang **Exousia** (Delegated Power), samtang ang pulong alang sa kusog mao ang **Dunamis** (Militaristic Strength). 
+            <br><br>
+            Ang "bitin ug tanga" nga gihisgutan dinhi wala nagpasabut og unodnong mananap, kondili kini mao ang agid-agid ug hierarchy sa mga dautang espiritu, demonyo, ug mga kuta ni Satanas. Gihatagan ka ni Hesus sa legal nga katungod sa "pagtunob" o pagdumala ug pagmando kanila, ug duna kay supernatural nga proteksyon nga walay bisan unsa nga makadaut kanimo kon ikaw nagabarog niini nga mando.
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA LIDER (THE TRAFFIC ENFORCER METAPHOR):</span>
+            Lider, ipasabut kini pag-ayo sa mga miyembro gamit ang usa ka yano nga sitwasyon: Hunahunaa ang usa ka gamay nga traffic enforcer nga nagtindog sa tunga sa kalsada. Kon moabot ang usa ka dako, bug-at, ug kusog nga ten-wheeler truck, kon mosalig lang ang traffic enforcer sa iyang pisikal nga kusog, dinalian siyang malatayan ug mamatay tungod kay mas kusgan ang truck kaysa kaniya. Apan kon iisa sa traffic enforcer ang iyang usa ka kamot, ang maong dako nga truck mapugos sa pagpreno ug mohunong gayod! 
+            <br><br>
+            Ngano man? Dili tungod kay kusgan ang tawo, kondili tungod kay ang tibuok gobyerno ug militar sa nasud nagpaluyo kaniya! Ang iyang gikuptan mao ang **Exousia** (Otoridad). Ingon niana ang magtutuo—dili nato kinahanglan nga kita ang mamahimong kusgan batok sa mga principalities ni Satanas; kinahanglan lang nga kita ang saktong magrepresentar sa Ngalan ni Hesus, ug ang tibuok gahom sa Langit mo-back up kanato!
+        </div>
+
+        <div class="verse-box">
+            <strong>Mateo 18:18</strong>
+            “Ug busa sultihan ko kamong tanan: ang inyong idili dinhi sa yuta, idili usab didto sa langit ug ang inyong itugot dinhi sa yuta, itugot usab didto sa langit.
+        </div>
+        <div class="explanation-box">
+            <strong>Eksakto nga Pagpasabot:</strong> Kini naghisgot bahin sa imong **Heavenly Backing ug Legal Key**. Ingon nga usa ka disipulo, ikaw ang gihimong "gatekeeper" o magbalantay sa pultahan sa imong pamilya, negosyo, ug kaminyoon. Ang pulong nga "gapuson" *(binding)* nagpasabut og pag-bando, pag-lock, o pagpahunong sa legal nga pamaagi. Ang "loosan" *(loosing)* nagpasabut og pag-release, pag-abli, o pagtugot. 
+            <br><br>
+            Kon pasagdan nimo nga maghari ang kasuko, tabi, sakit, ug kalibog sa imong balay, ang Langit mag-ingon, *“Gi-tugotan man na nimo sa yuta, busa wala koy mahimo.”* Apan kon mobarog ka sa awtoridad ug imong gapuson ang maong demonyo, ang Langit mo-endorso sa imong desisyon ug ipadala ang kapukanan sa kaaway!
+        </div>
+
+        <h2>III. Mga Portal sa Pag-Activate sa Otoridad</h2>
+        <p>Ang awtoridad sa usa ka magtutuo dili awtomatiko nga molihok kon ang tawo nagpuyo sa kangitngit o kalibog. Kinahanglan natong masabtan ang tulo ka dagkong portal aron ma-release kini:</p>
+
+        <div class="activation-box">
+            <div class="activation-title">👑 1. Ang Portal sa Identity (Position: Pag-ila Kon Kinsa Ka)</div>
+            <div class="verse-box">
+                <strong>Efeso 1:20-21</strong>
+                Iyang gigamit sa pagbanhaw ug pagpalingkod kang Cristo sa iyang tuo didto sa langit.  Didto naghari si Cristo labaw sa tanang mga hari ug sa mga anaa sa gahom ug sa mga namunoan ingon man sa mga pangulo. Labaw gayod siya sa tanan dili lamang niining panahona kondili sa umaabot usab.
+            </div>
+            <p><strong>Spiritual Insight:</strong> Ang imong otoridad nag-agad sa imong **"Position."** Ang Efeso 2:6 Gibanhaw kita niya uban kang Cristo aron maghari uban kaniya didto sa kalangitan.  Kon ikaw makalimot sa imong tinuod nga identity ug magpuyo ka nga naay *orphan mentality* (gabaan, luoy, o walay bili), ginalubong nimo ang imong awtoridad. Dili ka mudaug sa kaaway tungod sa imong nindot nga performance, kondili tungod sa imong position diha kang Kristo Hesus!</p>
+        </div>
+
+        <div class="activation-box">
+            <div class="activation-title">⚔️ 2. Ang Portal sa Pagtoo sa Gahom sa Ngalan</div>
+            <div class="verse-box">
+                <strong>Filipos 2:9-11</strong>
+                9Tungod niini gituboy siya sa Dios ngadto sa kinatas-ang dapit sa kalangitan
+ug gihatagan siyag ngalan nga labaw sa tanang ngalan. 10Busa mangluhod ang tanang binuhat nga atua sa langit,
+sa ibabaw sa yuta ug sa ilalom sa yuta sa pagpasidungog sa ngalan ni Jesus. 11Ug ang tanan magsangyaw
+nga si Jesu-Cristo mao ang Ginoo, alang sa himaya sa Dios nga Amahan.
+            </div>
+            <p><strong>Spiritual Insight:</strong> Ang Ngalan ni Hesus mao ang pinaka-gamhanan nga *Power of Attorney* sa tibuok uniberso. Kon ang usa ka disipulo mogamit sa maong Ngalan uban ang pagtoo, ang tibuok gingharian sa kangitngit makakita nga murag si Hesus Mismo ang nagmando sa ilang atubangan. Ang Ngalan ni Hesus mao ang yawe sa matag gapos ug kadena!</p>
+        </div>
+
+        <div class="activation-box">
+            <div class="activation-title">🛡️ 3. Ang Portal sa Pagpasakop (The Law of Submission & Alignment)</div>
+            <div class="verse-box">
+                <strong>Santiago 4:7</strong>
+                "Pagpasakop kamo sa Dios; sukli ang yawa, ug siya modagan gikan kaninyo."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Kini usa ka espirituhanong balaod: **Ang tawo nga anaa sa ilawom sa saktong awtoridad, mao ra ang adunay awtoridad.** Kon ikaw nagpuyo sa rebelyon batok sa Dios, batok sa imong pamilya, o batok sa pagdumala sa imong mga pastor ug lider sa simbahan, wala kay espirituhanong katungod sa pagmando sa yawa. Ang imong gahom naggikan sa imong saktong pagpasakop ug alignment sa kabubut-on sa Dios.</p>
+        </div>
+
+        <h2>IV. Mga Praktikal nga Lakang sa Paggamit sa Imong Otoridad</h2>
+        <p>Lider ug miyembro, ayaw na itugot nga magpadayon ang kalingawan ug pagmaniobra sa yawa sa inyong palibot. I-apply kini nga upat ka saktong pamaagi karong semanaha:</p>
+        
+        <div class="command-zone">
+            <ul>
+                <li>📢 <span class="highlight-text">1. Stop Praying "Begging" Prayers (Undangi ang Pagpakilimos):</span> Daghang Kristohanon kon makasinati ug atake sa kaaway, mo-pray ug moingon, <em>“Oh Lord, palihug luwasa ko, Lord pahawaa intawon ang yawa...”</em> Kini usa ka sayop ug unodnong pag-pray tungod kay dugay na kining gibuhat ni Hesus sa Krus ug gihatag na Niya kanimo ang awtoridad! Imbes nga magmando ka sa Dios, gamita ang imong awtoridad ug isulti: <strong>“Yawa, sa Ngalan ni Hesus, ginasugo ko ikaw, kuhaa ang imong kamot sa akong pamilya ug pahawa karon!”</strong></li>
+                <li>⛰️ <span class="highlight-text">2. Speak Directly to the Mountain (I-release ang Imong Tingog):</span> Ingon si Hesus sa Marcos 11:23, kon ikaw moingon niining **bukid**, *“Mabalhin ka,”* ug dili ka magduhaduha, matuman kini. Ang awtoridad ma-release pinaagi sa paggamit sa imong **buhi nga tingog**. Ayaw paghuna-huna lang; isulti ang Kamatuoran ug ang Ngalan ni Hesus uban ang balaang kaisog!</li>
+                <li>📋 <span class="highlight-text">3. Audit and Align Your Words (Bantayi ang Imong Sulti):</span> Siguroha nga ang imong adlaw-adlaw nga sulti uyon sa imong awtoridad. Kon human nimo og pray ug gapos sa yawa, unya inig gawas nimo moingon ka og, <em>“Pildi gyud ko ani,” “Wala na tay pag-asa,” o “iampon na lang ni nato”</em>, imong gi-cancel ug giguba ang imong kaugalingong otoridad pinaagi sa unodnong pagduhaduha. Pabilin sa deklarasyon sa kadaugan!</li>
+            </ul>
+        </div>
+
+        <h2>V. The Disciple's Challenge: Barog sa Imong Katungod!</h2>
+        <p>Karon akong igsoon diha sa Ginoo, miabot na ang saktong oras aron i-activate ang imong tinagoan nga awtoridad! Ayaw na gayod pagdawat sa mga bakak, depresyon, ug hagpat sa kaaway nga nag-ingon nga ikaw luoy, biktima, o gabaan. Barog karong gabhiona isip usa ka tinuod nga anak sa Dios, gipalit sa Dugo sa Kordero, ug gihatagan og legal nga katungod sa pagtunob sa mga bitin ug tanga.</p>
+        
+        <p>Sa Ngalan ni Hesus, gub-on ug dugmokon nato ang matag kuta sa kaaway sa imong pamilya, trabaho, ug negosyo karong gabhiona! **Gamita ang imong tingog! Gamita ang selyo sa Dugo! Gamita ang Gamhanang Ngalan ni Hesus!**</p>
+
+        <div class="prayer-box">
+            <h3>🙏 BENEDICTION / DELIVERANCE CLOSING PRAYER</h3>
+            <p style="text-align: justify; font-style: italic; font-size: 1.2rem; margin: 0; color: #fff;">
+                "Ginoong Dios nga Labing Gamhanan, salamat sa tiunay ug dili mausab nga otoridad nga Imong gihatag kanamo pinaagi sa kamatayon ug pagkabanhaw ni Hesus! Sa Ngalan ni Hesus, ug pinaagi sa gahom sa Espiritu Santo, akong ginasugo ang matag espiritu sa kaluya, kahadlok, sakit, depresyon, ug unodnong kapakyasan sa pagbiya karon sa kinabuhi niining akong igsoon! Akong ginagapos ang matag operasyon sa kangitngit sa iyang panimalay. Gideklara nako nga sugod karong gabhiona, siya molakaw sa kaisog, gahum, kaputli, ug supernatural nga kadaugan diha kay Kristo Hesus! Amen, ug Amen!"
+            </p>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

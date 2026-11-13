@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 20: The Spirit of Legion vs. The Power to Multiply | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(255, 215, 0, 0.03);
+            border-left: 4px solid #ffd700;
+            padding: 20px;
+            margin: 22px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 20: THE SPIRIT OF LEGION VS. THE POWER TO MULTIPLY</h1>
+            <p>"Overcoming Mind Attacks and Stepping into Supernatural Increase"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Marcos 5:1-15, Lucas 9:12-17, ug Deuteronomio 32:30<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon kon giunsa paglihok sa Spirit of Legion sa spiritual realm aron guboon ang huna-huna ug pamilya sa tawo, ug kon unsaon kini pagpukan pinaagi sa pag-activate sa The Power to Multiply nga gikan sa presensya sa Dios alang sa atong kalampusan ug dako nga breakthrough.</p>
+
+        <h2>Introduction: The Battle Against the Crowd of Darkness</h2>
+        <p>Sa atong pagpadayon sa pagtuon sa mga teritoryo sa spiritual realm, atong makita nga ang kaaway dili lang nag-atake pinaagi sa usa ka yano nga huna-huna o usa ka hilit nga espiritu. Adunay mga higayon sa spiritual warfare diin ang kaaway nag-organisa og usa ka dakong pundok aron dungan nga mo-atake sa usa ka tawo, pamilya, o negosyo. Kini ang gipakita sa Bibliya nga tinawag nga <strong>The Spirit of Legion</strong>.</p>
+        
+        <p>Unsa man ang kahulugan sa pulong nga "Legion"? Sa kasundalohan sa mga Romano, ang usa ka legion gilangkuban sa upat ka libo hangtod sa unom ka libo (4,000 to 6,000) ka mga highly disciplined nga mga sundalo nga nagkahiusa ubos sa usa ka sentral nga command. Sa dihang gipangutana ni Hesus ang dautang espiritu sa sulod sa usa ka tawo didto sa teritoryo sa mga Gerasnon, ang tubag niini mao:</p>
+
+        <div class="verse-box">
+            <strong>Marcos 5:9</strong> - "Ug iyang gipangutana siya, ‘Kinsa man ang imong ngalan?’ Ug mitubag siya, nga nag-ingon, ‘Ang akong ngalan mao si Legion; kay daghan kami.’"
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE ARMY OF THE MIND)</span>
+            Lider, ipasabut pag-ayo sa mga miyembro nga ang Spirit of Legion mao ang pagpundok sa daghang mga managlahing dautang espiritu (sama sa kahadlok, depresyon, kasuko, kaulag, ug pagduda) aron dungan nga mo-atake sa huna-huna sa tawo hangtod nga ma-overwhelm siya. Ang iyang target mao ang paghimo og usa ka grabe nga *mental stronghold* diin ang tawo mobati nga wala nay ugma ug wala nay paglaum. Apan ipakita kanila nga sa presensya ni Hesus, ang tibuok pundok ni Legion kinahanglang moyukbo ug mangurog sa kahadlok!
+        </div>
+
+        <p>Kini nga tawo gigapos sa liboan ka mga dautang espiritu. Nagpuyo siya sa mga lubnganan, nagsige og shagit kada adlaw ug gabii, ug ginasamad ang iyang kaugalingon gamit ang mga hait nga bato <small>(Marcos 5:5)</small>. Walay kadena nga makapugong kaniya tungod sa supernatural nga unodnong gahum sa kaaway.</p>
+        
+        <p>Apan karong adlawa, duna kitay maayong balita sa spiritual realm: Bisan unsa pa kadaghan ang pundok sa kaaway, usa lang ka pulong gikan kay Hesus, nangatumba ug gihinginlan silang tanan! Atong tun-an kon unsaon pagpukan niini nga espiritu ug kon unsaon pag-activate sa <strong>The Power to Multiply</strong> (Ang Gahum sa Pagpadaghan) sa Dios sa atong kinabuhi!</p>
+
+        <h2>I. Ang Anatomy sa Spirit of Legion sa Spiritual Realm</h2>
+        <p>Aron atong mapukan kini, kinahanglan natong sutaon kon unsa ang iyang mga pamaagi sa pagguba sa kinabuhi sa tawo:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🏚️ 1. It Drives the Person to Isolation and the Graves (Pagpahilayo sa Lubnganan)</div>
+            <p>Kini nga tawo wala nagpuyo sa iyang balay uban sa pamilya o katilingban; nagpuyo siya sa mga tombs o lubnganan.</p>
+            <p><strong>Spiritual Insight:</strong> Ang Spirit of Legion naggamit og isolation. Iyang isulod sa imong huna-huna nga, <em>"Ipalayo imong kaugalingon, ayaw pag-apil-apil sa cellgroup, pag-inusara lang kay walay nakasabot nimo."</em> Gusto sa kaaway nga mopalayo ka sa pamilya, mopalayo sa simbahan, ug mopalayo sa mga tawo nga nagmahal nimo, tungod kay kabalo siya nga kon mag-inusara ka sa ngitngit, mas dali ka niyang malaglag ug makadulaan sa imong huna-huna.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🪨 2. The Cycle of Self-Destruction (Pagguba sa Kaugalingon)</div>
+            <p>Nagsige og samad ug paksit ang maong tawo sa iyang kaugalingong lawas gamit ang mga bato tungod sa hilabihan nga internal torment.</p>
+            <p><strong>Spiritual Insight:</strong> Kini ang espiritu nga nagpaluyo sa self-harm, depresyon, ug mga bisyo nga nag-anam-anam og patay sa imong panglawas, sa imong maayong pangisip, sa imong negosyo, ug sa imong kaminyoon. Ang kaaway mobulong sa imong huna-huna aron mag-overthink ka ug mohimo og mga unodnong desisyon nga makaguba ug mag-sabotahe sa imong kaugalingong kalamposan.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🌪️ 3. Overwhelming Chaos and Torment (Grabe nga Kagubot sa Huna-huna)</div>
+            <p>Kon duna kay liboan ka demonyo nga nagpadala og mensahe sa imong huna-huna, wala kay peace of mind. Grabe nga kalibog, grabe nga kahadlok, ug kaguol ang bation sa tawo kada adlaw. Kanang bation nimo nga morag dungan nga mi-atake ang tanang problema—problema sa kwarta, stress sa pamilya, ug sakit sa lawas—kini ang mekanismo ni Legion aron mo-surrender ka sa pagtuo ug moundang sa pagpangalagad.</p>
+        </div>
+
+        <h2>II. The Turning Point: Jesus Steps into the Realm</h2>
+        <p>Bisan unsa pa ka dako ang kuta ni Legion ug ka-wild sa maong tawo, sa dihang nakita niya si Hesus gikan sa layo, wala siya nakig-away—midagan siya, miyukbo, ug misimba sa tiilan ni Hesus! <small>(Marcos 5:6)</small>.</p>
+        
+        <div class="verse-box">
+            <strong>Marcos 5:15</strong> - "Miduol sila kang Jesus ug didto nakita nila nga naglingkod ang tawo nga kaniadto giyawaan. May sapot na siya ug gibalikan na sa maayong pangisip..."
+        </div>
+        
+        <p><strong>The Spiritual Truth:</strong> Ang tibuok gingharian sa kangitngit kinahanglan moyukbo sa ngalan ni Hesus! Gipapahawa ug gihinginlan ni Hesus ang tibuok pundok sa dautang espiritu ngadto sa mga baboy, ug ang tawo nakit-an sa unahan nga naglingkod, nagsulob og sinina, ug anaa sa saktong huna-huna <em>(sound mind)</em>. Ang Dios adunay gahum sa pag-ayo, pagluwas, ug pagpahiuli sa imong nagubot nga huna-huna karong gabhiona!</p>
+
+        <h2>III. The Counter-Attack: The Power to Multiply (Ang Gahum sa Pagpadaghan)</h2>
+        <p>Tungod kay ang kaaway naggamit man og Legion (multiplication of demons) aron mangguba, ang Dios naggamit usab og Supernatural Multiplication aron magdala og kalampusan, proteksyon, ug dako nga breakthrough sa Iyang mga anak!</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">👥 1. The Power to Multiply Your Strength in Unity (Panaghiusa sa Pag-ampo)</div>
+            <div class="verse-box">
+                <strong>Deuteronomio 32:30</strong> - "Unsaon man diay sa usa ka tawo sa paggukod sa usa ka libo (1,000), ug ang duha ka tawo mopa-atras sa napulo ka libo (10,000)?"
+            </div>
+            <p><strong>Spiritual Insight:</strong> Sa gubat sa espiritu, ang panaghiusa sa mga Kristohanon nag-multiply sa gahum sa atong pag-pray! Notice ang matematika sa Dios: Ang usa ka tawo makapildi og 1,000. Kon physical math pa, ang duha ka tawo makapildi lang og 2,000. Apan sa spiritual realm, kon magkahiusa ang duha ka tawo sa pag-ampo (sama sa cellgroup), ang ilang gahum ma-multiply ngadto sa 10,000! Mao kini ang rason ngano kinahanglan nimong bungkagon ang isolation. Pakig-uban sa imong cellgroup sa pag-ampo, ug tan-awa kon giunsa pagguba ni Hesus ang kuta ni Legion!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🍞 2. The Power to Multiply Your Resources (Pagpadaghan sa Panalangin)</div>
+            <div class="verse-box">
+                <strong>Lucas 9:16</strong> - "Unya gikuha niya ang lima ka pan ug ang duha ka isda, ug nagtan-aw sa langit, iyang gipanalanginan kini, ug gipikaspikas... ug silang tanan nangaon ug nangatagbaw..."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Kon ang imong gamay nga abilidad, gamay nga paningkamot, o gamay nga panalapi ihalad nimo sa mga kamot ni Hesus ug Iyang panalanginan, naay mahitabo nga supernatural multiplication! Bisan unsa pa kagamay sa imong gisugdan nga plano o negosyo karon, kon duna kay panalangin sa multiplication gikan sa Dios, kini modako, molambo, ug magdala og dako nga kalampusan nga molapas sa imong gihunahuna.</p>
+        </div>
+
+        <h2>IV. How to Defeat Legion and Activate the Multiplication of God</h2>
+        <p>Karon, unsaon man nato pag-angkon niini nga kadaugan sa matag adlaw nga pagkinabuhi sumala sa instruksyon sa Bibliya?</p>
+        
+        <div class="action-card">
+            🚫 <span class="highlight-text">Reject Isolation and Connect (Biya sa Lubnganan):</span> Ayaw na pagpuyo sa tago nga kaguol, tago nga sala, ug pag-inusara. Pag-abli sa imong kasingkasing sa imong mga spiritual leaders ug sa pamilya. Kon ikaw mobiya sa lubnganan sa isolation ug maglakaw sa kahayag sa komunyon, mawad-an og legal right ug gahum si Legion sa imong kinabuhi.
+        </div>
+
+        <div class="action-card">
+            ⚔️ <span class="highlight-text">Command the Crowd of Darkness to Leave (Gihinginlan ang Espiritu):</span> Gamita ang imong Sword of the Spirit (Pulong sa Dios) ug ang imong awtoridad sa ngalan ni Hesus aron badlongon ang pundok sa kaaway. 
+            <br><br>
+            <em>Application:</em> Sa imong Warfare Prayer, ingon ka: <strong>"Sa ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag Spirit of Legion nga nagdala og kalibog, depresyon, overthinking, ug kagubot sa akong huna-huna ug panimalay! Akong i-proclaim nga ang akong huna-huna protektado sa Helmet sa Kaluwasan. Akong gi-activate ang supernatural multiplication sa Dios sa akong negosyo, sa akong pamilya, ug sa akong kusog! Amen!"</strong>
+        </div>
+
+        <div class="action-card">
+            🖐️ <span class="highlight-text">Bring Your "Little" to Jesus (Ihalad ang Imong Kagamay):</span> Ayaw ka-insecure kon gamay pa ang imong nasugdan sa imong mga plano, panalapi, o negosyo karon. I-pray kini, ihalad sa Ginoo, ug sunda Iyang mga prinsipyo sa integridad sa Bibliya. Ang Dios nga mipakaon sa lima ka libo (5,000) ka tawo gamit ang kagamay, mao gihapon ang Dios nga magdala kanag dako nga breakthrough ug pag-uswag kanimo karon!
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING THE MIND FORTRESS)</span>
+            Lider, kini ang inyong panapos nga pag-ampo sa cellgroup: *“Ibutang ang inyong mga kamot sa inyong ulo. Sa Ngalan ni Hesus, among gibungkag ug ginaluka ang matag kuta ni Legion sa inyong huna-huna! Among gipapahawa ang espiritu sa depresyon, kabalaka, huna-huna sa kamatayon, ug pag-inusara. Gideklara nako ang Sound Mind, kalinaw, ug ang Gahum sa Pagpadaghan sa Dios sa inyong kusog, pamilya, ug negosyo! Kamo gawasnon na karon diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: Restored and Multiplied</h2>
+        <p>Mga igsoon sa Ginoo, tapuson nato kini pinaagi sa paghinumdom sa katapusang gibuhat sa tawo nga gihaloan ni Legion. Human siya giayo, gipistahan, ug gipahiuli sa saktong huna-huna ni Hesus, miadto siya sa Decapolis (nga nagpasabut nga "Napulo ka Syudad") ug iyang gipakaylap ang Maayong Balita kon unsa ka dako ang gihimo sa Ginoo kaniya! <span class="highlight-text">(Marcos 5:20)</span>.</p>
+        
+        <p>Look at the supernatural restoration: Ang tawo nga sa una gigapos sa liboan ka demonyo sa sulod sa usa ka lubnganan nga walay pulos, nahimo karon nga usa ka gamhanang misyonaryo nga nagdala og dako nga kalampusan ug kaluwasan sa napulo ka mga syudad! Gi-multiply sa Dios ang iyang impluwensya, ang iyang dungog, ug ang iyang dako nga katuyoan sa kinabuhi.</p>
+        
+        <p>Ayaw na itugot nga ang imong huna-huna dulaon sa kaaway pinaagi sa kabalaka, kakapoy, ug depresyon. Barug gikan sa imong mga kapakyasan karong gabhiona dinhi sa atong cellgroup. Isulob ang tibuok armor sa Dios, i-activate ang gahum sa panaghiusa sa pag-ampo, ug dawata ang supernatural nga pagpadaghan sa panalangin, breakthrough, ug hingpit nga kalinaw diha kay Kristo Hesus! Amen!</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call (Cellgroup Discussion):</h3>
+            <ul>
+                <li>Aduna ba kay grabe nga pag-atake karon sa imong huna-huna diin mobati ka og kalibog, kahadlok, o stress nga morag dungan nga midatong kanimo? Giunsa nimo pagpukan ang tinguha nga mag-inusara (*isolation*)?</li>
+                <li>Mag-ampo kita karon alang sa usag-usa uban ang hingpit ug lig-on nga pagtuo. Dugmokon nato ang matag kuta sa Spirit of Legion, ug i-claim nato ang supernatural nga kaputli, kalinaw, ug ang The Power to Multiply gikan sa Labing Halangdong Dios! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

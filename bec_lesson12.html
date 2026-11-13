@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12: The Spirit of Witchcraft | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 12: THE SPIRIT OF WITCHCRAFT</h1>
+            <p>"Exposing and Overcoming Spiritual Manipulation"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 1 Samuel 15:23, Galacia 3:1, ug 2 Hari 9:22<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Witchcraft sa spiritual realm karon—ang espiritu sa manipulasyon, panghadlok, ug kontrolar—ug kon unsaon pagpukan niini nga mga gapos pinaagi sa gahum sa Pulong sa Dios ug sa atong awtoridad kay Kristo.</p>
+
+        <h2>Introduction: The Rebellion in the Spiritual Realm</h2>
+        <p>Sa atong pagtuon sa mga pwersa sa spiritual realm, kasagaran sa mga tawo kon makadungog sa pulong nga "Witchcraft" o pangbabae/pangwika, ang mosulod dayon sa huna-huna mao ang mga unlo, aswang, mambabarang, o kadtong mga nagahimo og mga ritwal gamit ang mga kandila ug monyeka.</p>
+        
+        <p>Dili noto i-deny nga tinuod kana sa physical realm. Apan karong adlawa, atong ablihan ang atong espirituhanong mga mata aron masabtan ang mas lawom nga kamatuoran: <strong>Witchcraft is a spirit.</strong> Ug kini nga espiritu naglihok sa daghang dapit—bisan sa mga dapit nga wala nimo damha—pinaagi sa usa ka mekanismo nga gitawag og Demonic Manipulation, Control, and Intimidation.</p>
+
+        <div class="verse-box">
+            <strong>1 Samuel 15:23</strong> - "Kay ang rebelyon sama ra sa sala sa salamangka (witchcraft), ug ang pagkagahi og ulo sama sa sala sa idolatriya..."
+        </div>
+        <p>Sa spiritual realm, kon ang usa ka tawo mosulod sa rebelyon ug mogamit og manipulasyon aron pugson, kontrolon, o hadlokon ang laing tawo aron matuman ang iyang kaugalingong kabubut-on—kana naglihok na sa Spirit of Witchcraft. Karong adlawa, atong gubaon kining maong espiritu aron maglakaw kita sa tiunay nga kagawasan sa Ginoo!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA ESTRATEHIYA PARA SA CELLGROUP LEADER (THE WEAPON OF THE FLESH)</span>
+            Ipasabut sa mga miyembro sa cellgroup nga ang Witchcraft gilista sa Galacia 5:20 isip usa sa "mga buhat sa unod" (*works of the flesh*). Kini nagpasabut nga bisan kinsa nga mogamit og unodnong pamaagi aron diktahan, pugson, o kontrolon ang iyang isig-katawo (magtiayon, pamilya, o kaubang magtutuo) naglihok ilawom sa impluwensya niini nga espiritu. Ang tinuod nga liderato sa gingharian sa Dios naglihok pinaagi sa gugma ug paggiya sa Espiritu Santo, dili pinaagi sa unodnong pagpamugos.
+        </div>
+
+        <h2>I. Ang 3 ka Pangunang Haligi sa Spirit of Witchcraft (The Three Pillars)</h2>
+        <p>Aron dili kita malingla, atong sabton kon unsa ang tulo ka mga pamaagi niini nga espiritu sa spiritual realm aron gaposon ang kinabuhi sa usa ka tawo:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🎭 1. Manipulation (Malalangong Pagdumala)</div>
+            <p>Kini mao ang paggamit og mga emosyon, bakak, o mga sitwasyon aron i-drive ang usa ka tawo sa pagbuhat sa usa ka butang nga dili unta nila gusto, apan napugos sila tungod sa sitwasyon. Mogamit kini og <em>guilt-tripping</em> (<em>"Kon nahigugma mo nako, buhaton nimo ni..."</em>) o pagpakaaron-ingnon aron lang makuha ang personal nga tinguha. Ang manipulasyon mangita og paagi nga kontrolon ang imong emosyon aron ikaw moangkon sa sayop bisan wala kay sala.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">😰 2. Intimidation (Panghadlok ug Pagpahuyang)</div>
+            <p>Kini mao ang paggamit og kahadlok aron makuha ang kontrol. Sa spiritual realm, ang kaaway magpadala og mga mensahe, damgo, o mga pulong sa tawo aron puy-an sila sa grabeng anxiety ug kahadlok. Kon mahadlok na ang tawo, dali na lang kaayo silang diktahan sa kaaway. Ang panghadlok nagtinguha sa pagwagtang sa imong kaisog diha kang Kristo.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">⛓️ 3. Control (Pagkontrolar)</div>
+            <p>Mao kini ang pinaka-tumong sa witchcraft: ang pagpuli sa dapit sa Holy Spirit. Ang Espiritu Santo nagatultol kanato pinaagi sa kagawasan ug pagpili, apan ang Spirit of Witchcraft nangandoy og absolute control—gusto niini nga kawaton ang imong free will aron ikaw mahimong ulipon sa iyang sistema. Kini nga kontrol maggapos sa imong potensyal sa pag-alagad.</p>
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Witchcraft Karon? (The Modern Manifestations)</h2>
+        <p>Atong bantayan kining tulo ka dagkong timailhan sa atong palibot o sa atong huna-huna:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">👁️ 1. The Stronghold of "Spiritual Blindness" (Espirituhanong Pagkabuta)</div>
+            <div class="verse-box">
+                <strong>Galacia 3:1</strong> - "O kamong mga hungog nga taga-Galacia! Kinsa man ang nag-lumay (bewitched/witchcraft) kaninyo, nga sa atubangan sa inyong mga mata si Hesus Kristo gisaysayan na man kamo sa dayag gayod..."
+            </div>
+            <p><strong>The Manifestation:</strong> Kon ang usa ka Kristohanon kalit lang gani nga mabugnaw, malibog ang huna-huna, magsugod og duhaduha sa gugma sa Dios, ug morag naay "nagtabon" sa iyang pagsabot aron dili na makakita sa kamatuoran—kana usa ka espirituhanong pagpang-lumay sa kaaway aron bungkagon ang iyang pagtuo ug i-disconnect siya sa iyang cellgroup o simbahan.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🕊️ 2. Charismatic Witchcraft (Panglimbong diha sa Relasyon ug Ministeryo)</div>
+            <p>Mao kini ang pagpakaaron-ingnon pinaagi sa paggamit og mga "prophetic words" o relihiyosong mga pulong apan ang motibo diay kay ang pag-kontrolar sa laing tawo. Kon ang usa ka tawo mag-ampo batok sa laing tawo aron lang mapukan kini o aron masunod ang iyang personal nga agenda, kana gitawag og charismatic witchcraft sa spiritual realm. Dili kini gikan sa Dios ug nagdala og pagkabahin-bahin sa lawas ni Kristo.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🩸 3. Generational Witchcraft (Mga Altar ug Panyaga sa Kaliwatan)</div>
+            <p>Mao kini ang mga legal grounds nga nakuha sa kaaway tungod kay ang atong mga katigulangan sa una nalambigit sa mga mambabarang, panambal nga dili balaan, anting-anting, o mga panyaga. Kon kini dili maputol pinaagi sa Dugo ni Hesus, magpabilin nga naay ali sa panalangin, panglawas, ug pagkabuslot sa negosyo sa pamilya karon. Naghimo kini og balik-balik nga kapakyasan sa kaliwatan.</p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">🛑 WARNING SIGN ALANG SA MGA KRISTOHANON</span>
+            Kon makasinati ka ug kalit nga grabeng kalibog, kalit nga kapakyasan sa memorya kon mag-ampo, o emosyonal nga kabug-at nga walay rason sa matag higayon nga padulong ka mosimba o mo-attend og cellgroup, timailhan kana nga adunay *witchcraft arrows* o pagpang-atake sa huna-huna nga gipanghimo sa kaaway sa spiritual realm. Stay alert!
+        </div>
+
+        <h2>III. How to Break the Power of Witchcraft (Kon Unsaon Kini Pagpukan)</h2>
+        <div class="verse-box">
+            <strong>Numeros 23:23</strong> - "Kay sa pagkatinuod walay lilo (sorcery/witchcraft) batok kang Jacob, ni duna nindot nga tagna batok sa Israel..."
+        </div>
+        <p>Mga igsoon, dili kita angay nga mahadlok! Walay salamangka nga makabarog batok sa mga anak sa Dios. Ania ang atong mga spiritual weapons aron bungkagon kini sa hingpit:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🚪 1. Close Every Legal Door through Repentance (Isira ang mga Pultahan)</div>
+            <p><strong>Application:</strong> Kon duna kay mga anting-anting sa una, kon nagsalig ka sa mga horoscope, tarot cards, o duna kay mga gitagoan nga sekreto nga sala sa rebelyon, gihimo nimo kining pultahan sa kaaway. I-confess kini sa Ginoo. Isalikway ug sunoga ang matag pisikal nga butang nga konektado sa kangitngit. Ingon ka sa imong pag-ampo: <em>"Lord, gihinulsulan nako ang matag pagsalig sa laing gahum ug akong ginasalikway ang matag rebelyon. Akong ginasira ang pultahan sa akong huna-huna ug pamilya batok sa kaaway!"</em></p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 2. Break the Mind Control with the Sword of the Spirit (Bungkaga ang Kalibog)</div>
+            <p><strong>Application:</strong> Tungod kay ang witchcraft nag-atake man pinaagi sa kalibog ug depresyon aron i-cloud ang imong huna-huna, tubaga kini gamit ang Pulong sa Dios. Kon mobati ka og kalit nga kabug-at o kalibog nga walay rason, ayaw kahadlok. I-proclaim ang <strong>2 Timoteo 1:7</strong>: <em>"Kay ang Dios wala maghatag kanato og espiritu sa kahadlok, kondili sa gahum, sa gugma, ug sa maalamon nga huna-huna (sound mind)."</em> I-declare ang kamatuoran sa Pulong sa Dios sa makusog nga tingog!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🔥 3. Release the Fire of Warfare Prayer (I-proclaim ang Kadaugan)</div>
+            <div class="verse-box">
+                <strong>2 Hari 9:22</strong> - "Ug sa pagkakita ni Joram kang Jehu, siya miingon, ‘Kalinaw ba, Jehu?’ Ug siya mitubag, ‘Unsay kalinaw, samtang ang mga pakighilawas sa imong inahan nga si Jezebel ug ang iyang mga salamangka (witchcrafts) daghan kaayo?’"
+            </div>
+            <p><strong>Application:</strong> Ayaw pakig-compromise sa manipulasyon ug kahadlok. Sa imong Warfare Prayer, gamita ang awtoridad sa ngalan ni Hesus ug ingon: <strong>"Akong gihinginlan ug ginabungkag ang matag generational witchcraft, matag lumay, matag dautang pulong, ug matag manipulasyon nga gihigot batok sa akong panimalay ug negosyo! Sa ngalan ni Hesus ug pinaagi sa Iyang Dugo, gawasnon na ako ug giputol na ang matag udyong sa kangitngit!"</strong></p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA COMMAND ALANG SA CELLGROUP MINISTRATION</span>
+            Inig-ampo ninyo sa Altar Call o cellgroup, gamita kini nga deklarasyon uban ang balaang kaisog: *“Sa Ngalan ni Hesus, among ginabungkag ang matag kuta sa manipulasyon, kontrol, ug kahadlok sa inyong mga huna-huna! Giputol namo ang matag generational witchcraft tie ug matag dautang pulong nga gibuhian batok sa inyong panglawas ug negosyo. Pukawa ang inyong espiritu, kamo gawasnon na pinaagi sa Dugo ni Hesus! Amen!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: Stand Fast in Your Freedom</h2>
+        <div class="verse-box">
+            <strong>Galacia 5:1</strong> - "Alang sa kagawasan, giluwas kita ni Kristo; busa barug kamo nga lig-on, ug ayaw na kamo pagpasulod pag-usab sa yugo sa pagkaulipon."
+        </div>
+        <p>Ang Spirit of Witchcraft nangandoy nga gaposon ka sa kahadlok, sa kalibog, ug sa kontrolar sa uban. Apan karong gabhiona, ang maong yugo sa pagkaulipon nabungkag na! Gi-disarm na ni Hesus ang matag kuta sa kangitngit didto sa krus sa Kalbaryo. Walay gahum sa salamangka, walay dautang pulong, ug walay manipulasyon sa tawo ang makapugong sa plano sa Dios alang sa imong kinabuhi. Ang imong ugma anaa sa mga kamot sa Labing Halangdong Dios! Magmalig-on ug maglakaw kital diha sa hingpit nga kadaugan.</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call:</h3>
+            <ul>
+                <li>Aduna ba kay kalit nga kabug-at, kalibog, o grabe nga kahadlok nga sige og atake sa imong huna-huna karong mga adlawa? Aduna ba kay mga pattern sa pamilya nga morag naay nag-ali nga dili nimo masabtan?</li>
+                <li>Mag-ampo kita karon, dugmokon nato ang matag kuta sa Spirit of Witchcraft, ug i-proclaim noto ang supernatural nga kagawasan ug kalinaw ni Hesus sa matag usa kanato! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

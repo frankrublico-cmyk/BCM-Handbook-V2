@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9: The Spirit of Baal | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 9: THE SPIRIT OF BAAL</h1>
+            <p>"Overcoming the Spirit of Baal: Tearing Down the Altars of False Success"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 1 Hari 18:21, Mga Hukom 6:25-26, ug Hosea 2:8<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Baal sa spiritual realm karon—ang espiritu nga nagpuli sa dapit sa Dios pinaagi sa materyalismo, garbo, ug kompromiso—ug kon unsaon pagpukan niini nga mga dautang altar sa atong kinabuhi.</p>
+
+        <h2>Introduction: The Ancient God of Prosperity</h2>
+        <p>Sa Daang Tugon, ang usa sa pinaka-pribadong kaaway sa katawhan sa Dios mao ang dios-dios nga si Baal. Ang pulong nga <em>Baal</em> nagpasabut nga "ginoo," "tag-iya," o "master." Si Baal giila sa mga Canaanhon isip dios sa ulan, sa kilat, sa abot sa yuta, ug sa panalapi. Giisip siya nga dios sa prosperity ug kalampusan.</p>
+        
+        <p>Sa dihang ang mga Israelinhon mosulod sa kompromiso, dili man nila hingpit nga biyaan ang Ginoo. Ang ilang gihimo mao ang <strong>Syncretism</strong>—magsimba sila sa Ginoo sa adlaw nga Sabado, apan maghalad ug mag-ampo pud sila kang Baal sa adlaw nga ting-tanom aron lang masiguro nga naay ulan ug abot ang ilang panabuhi.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI PARA SA LIDER (SYNCRETISM IN THE CHURCH)</span>
+            Ipasabut sa mga miyembro nga ang *Syncretism* mao ang pinakadelikado nga lit-ag ni Baal karon. Kini mahitabo kon ang usa ka Kristohanon moingon: *“Mosimba ko sa Ginoo ug mag-tithing ko, apan mogamit gihapon ko og mga pamaagi sa kalibutan nga naay panglimbong aron molambo ang akong negosyo.”* Si Baal ganahan og tunga nga kasingkasing. Dili niya sulsulan ang tawo nga biyaan ang Ginoo sa hingpit; igo na kaniya nga naay laing altar nga nagdala sa imong pagsalig gawas sa Dios.
+        </div>
+        
+        <p>Sa spiritual realm, ang Spirit of Baal naglihok gihapon karon. Wala na kini nag-manifest pinaagi sa mga rebulto nga puthaw o kahoy; nag-manifest kini karon pinaagi sa usa ka sistema sa panghuna-huna nga nag-ingon nga ang imong kwarta, imong karera, ug imong negosyo mas importante kaysa imong relasyon sa Dios. Kini ang espiritu nga nagtintal kanato nga i-sakripisyo ang atong pamilya ug pagtuo alang lang sa materyal nga bentaha.</p>
+
+        <h2>I. Ang mga Kinaiya sa Spirit of Baal sa Spiritual Realm</h2>
+        <p>Aron dili kita malingla, atong sabton kon unsa ang mga pangunang diskarte niini nga espiritu batok sa mga Kristohanon:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🔥 1. It Demands Human Sacrifice (Nagkinahanglan og Grabe nga Sakripisyo)</div>
+            <div class="verse-box">
+                <strong>Jeremias 19:5</strong> - "Ug nagtukod sila sa mga hatagag dapit kang Baal, aron sa pagsunog sa ilang mga anak sa kalayo alang sa mga halad-nga-sunogon ngadto kang Baal, nga wala nako isugo, ni isulti nako, ni misulod kini sa akong hunahuna."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Karon, ang Spirit of Baal nag-demand gihapon og sakripisyo. Iyang pakuhaon sa tawo ang tanang oras alang sa trabaho ug negosyo hangtod nga ma-sakripisyo na ang pamilya, ma-sakripisyo ang kaminyoon, ug ma-sakripisyo ang espirituhanong kinabuhi sa mga anak. Iyang ipabayad kanimo ang imong kalag alang lang sa kwarta. Iyang pakulangan ang imong panahon sa pakig-uban sa Ginoo pinaagi sa pagduso og grabeng pressure sa unod.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🥩 2. It Operates through Carnal Control (Pag-ulog-ulog sa Unod)</div>
+            <p>Ang pagpasiugda sa kulto ni Baal kaayong inubanan sa mga law-ay nga sayaw ug imoralidad didto sa mga "high places."</p>
+            <p><strong>Spiritual Insight:</strong> Kini nga espiritu nag-ingon nga basta duna kay kwarta ug gahum, pwede na nimo buhaton ang tanang kalingawan sa unod nga walay pagka-sad-an. Iyang i-konektar ang kalampusan ngadto sa garbo ug kompromiso sa moralidad aron mawala ang balaang presensya sa Dios sa imong kinabuhi.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🪙 3. It Steals the Glory due to God (Pagnakaw sa Dungog sa Dios)</div>
+            <div class="verse-box">
+                <strong>Hosea 2:8</strong> - "Kay wala siya makaila nga ako mao ang naghatag kaniya sa trigo, ug sa bino, ug sa lana, ug nagpadaghan sa iyang salapi ug bulawan, nga ilang gigamit alang kang Baal."
+            </div>
+            <p><strong>Spiritual Insight:</strong> Paborito ni Baal ang mupakita nga ang imong kaalam, imong paningkamot, ug imong diskarte mao ang rason ngano adunahan ka, aron makalimot ka sa pagpasalamat ug paghatag og unsa ang para sa Ginoo. Iyang ginahimo ang tawo nga mapahitas-on aron dili na moangkon nga ang Dios mao ang tinubdan sa tanang butang.</p>
+        </div>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Baal Karon? (The Modern Manifestations)</h2>
+        <p>Giunsa man nato pagkahibalo nga si Baal nagsugod na og tukod og altar sa atong kasingkasing ug palibot sa spiritual realm? Atong bantayan kining tulo ka timailhan:</p>
+        <ul>
+            <li>💼 <span class="highlight-text">The Stronghold of "Workaholism" and Greed (Kahakog):</span> Kanang wala na kay panahon sa pag-ampo, wala na kay panahon sa pagbasa sa Pulong, ug dili na ka mosimba kay "busy kaayo sa pangita og kwarta." Kon ang imong trabaho mao na ang nagdikta sa imong eskedyul imbes nga ang Ginoo, si Baal na ang naglingkod isip master sa imong huna-huna.</li>
+            <li>⚖️ <span class="highlight-text">Compromising Integrity for Financial Gain (Kompromiso sa Negosyo):</span> Mogamit og bakak sa sticker o label, manglimbong sa timbangan, mangurakot sa opisina, o mosulod sa mga ilegal nga pamaagi aron lang dali nga modako ang kita. Ang Spirit of Baal mobulong: <em>"Okay ra na, basta modako ang kita."</em> Peke nga solusyon ug lit-ag ang iyang gihatag aron mababagan ang tinuod nga panalangin.</li>
+            <li>🥶 <span class="highlight-text">Spiritual Lukewarmness (Pagka-bugnaw):</span> Mao kini ang hagit ni Elias sa mga tawo didto sa Bukid sa Carmel:</li>
+        </ul>
+
+        <div class="verse-box">
+            <strong>1 Hari 18:21</strong> - "Ug si Elias miduol sa tanang katawhan ug miingon, 'Nganong dili man kamo makahukom? Kon si Yahweh mao ang Dios, simbaha siya! Apan kon si Baal maoy Dios, siyay simbaha!' Apan ang katawhan wala gayod motubag kaniya."
+        </div>
+        <p><strong>The Manifestation:</strong> Ang pagka-Kristohanon nga "kiang-kiang"—simba kon naay panahon, apan mosunod gihapon sa sistema sa kalibutan kon anaa na sa gawas. Gusto ni Baal nga dili ka hingpit nga mo-surrender sa Dios, ug magpabilin kang walay desisyon diha sa imong pagtuo.</p>
+
+        <h2>III. How to Tear Down the Altar of Baal (Kon Unsaon Kini Pagpukan sa Spiritual Realm)</h2>
+        <p>Ang Dios nagtawag kanato karon aron mahimo nga sama ni Gedeon, kinsa gisugo sa Dios sa pagsugod sa iyang ministeryo pinaagi sa pagguba sa altar ni Baal sa balay sa iyang amahan <span class="highlight-text">(Mga Hukom 6:25)</span>. Ania ang atong mga spiritual strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">💰 1. Tear Down the Altar of Greed through Giving (Bungkaga pinaagi sa Pagkamahinatagon)</div>
+            <div class="verse-box">
+                <strong>Mateo 6:24</strong> - "Dili mahimo nga ang usa ka tawo magpaulipon sa duha ka agalon... Dili kamo makapaulipon sa Dios ug sa salapi (Mammon/Baal)."
+            </div>
+            <p><strong>Application:</strong> Ibalik ang unsa ang iya sa Ginoo—ang imong mga ikapulo (tithes), mga halad, ug ang pagtabang sa nangailangan. Kon ikaw manghatag, imong gipamatud-an sa spiritual realm nga ang Dios mao ang imong Provider, dili ang imong kwarta. Ang pagkamahinatagon maoy makadugmok sa kuta sa kahakog. You starve the spirit of Baal!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🛐 2. Rebuild the Altar of Prayer and Worship (Ibalik ang Altar sa Pag-ampo)</div>
+            <div class="verse-box">
+                <strong>1 Hari 18:37-38</strong> - "Tubaga intawon ako, O Ginoo, aron masayod kining katawhan nga ikaw, mao ang Dios... Unya mikunsad ang kalayo sa Ginoo, ug giut-ot ang halad nga sunogonon..."
+            </div>
+            <p><strong>Application:</strong> Didto sa Bukid sa Carmel, wala nakig-away si Elias pinaagi sa pisikal nga hinagiban. Iyang gihusay ang guba nga altar sa Ginoo ug nag-ampog maayo. Sa imong panimalay, i-set up pag-usab ang altar sa pag-ampo sa pamilya. Kon naay kalayo sa presensya sa Dios sa imong balay ug negosyo, dili makatukod si Baal sa iyang kuta. Fire clears out the demonic atmosphere ug nagdala og pagpasig-uli!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Choose Bold Alignment (Himoa ang Imong Desisyon)</div>
+            <p>Ayaw na pagkiang-kiang taliwala sa duha ka opinyon. Paghimo og lig-on nga baruganan sa imong trabaho ug negosyo nga maglakaw ka sa katarong, unsa man ang isulti sa uban. I-proclaim kini sa imong Warfare Prayer: <em>"Sa ngalan ni Hesus, akong giguba ang matag altar ni Baal ug Mammon sa akong kasingkasing ug panimalay! Ang akong negosyo, akong trabaho, ug akong pamilya nasakop sa pagmando ni Kristo. Si Hesus ra ang akong Master ug akong tinuod nga Dangpanan!"</em></p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA COMMAND ALANG SA MINISTRATION / ALTAR CALL</span>
+            Lider, inig-ampo nimo sa katawhan, gamita kini nga deklarasyon uban ang balaang kaisog: *“Sa Ngalan ni Hesus, among ginaguba ang mga altar sa kabalaka, kakabos, ug kahakog sa inyong mga pamilya! Giputol namo ang kontrol sa Spirit of Baal sa inyong mga negosyo ug panabuhi! Gideklara nako nga ang kalayo sa Dios manaog karon aron motunaw sa matag kompromiso. Si Hesus mao ang Ginoo sa inyong panimalay!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: Who is Your Master?</h2>
+        <p>Mga igsoon, sa dihang nahulog ang kalayo sa Ginoo sa Bukid sa Carmel, ang tibuok lungsod natangtang ang espirituhanong pagkabuta, nanghapa sila, ug nisinggit: <em>"Ang Ginoo, siya mao ang Dios! Ang Ginoo, siya mao ang Dios!" (1 Hari 18:39)</em>.</p>
+        
+        <p>Karong adlawa, ang Dios nangutana kanimo: Kinsa man ang nagdala sa renda sa imong ugma? Ang imo bang mga kabalaka ug paningkamot sa unod, o ang gahum sa Labing Halangdong Dios? Ayaw na i-sakripisyo ang imong kalinaw, ang imong pamilya, ug ang imong kaputli alang sa peke nga mga saad sa kalampusan ni Baal. Ang Dios nga atong gialagaran mao ang tinuod nga nagkupot sa ulan ug sa abot sa imong kinabuhi. Siya ang mag-abli sa mga pultahan sa panalangin nga walay kaguol nga idugang niini <span class="highlight-text">(Proverbio 10:22)</span>.</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call:</h3>
+            <ul>
+                <li>Aduna ba kay dapit sa imong kinabuhi karon diin nagsugod ka na og kompromiso tungod sa kahadlok sa kakuwang o tungod sa tinguha nga ganahan kaayu nimong kab-uton dayon?</li>
+                <li>Mag-ampo kita karon, bungkagon nato ang matag kuta sa Spirit of Baal, ug i-proclaim nato nga si Hesus ra ang Master ug Provider sa atong tibuok kinabuhi! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

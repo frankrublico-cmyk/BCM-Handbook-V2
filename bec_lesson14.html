@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14: The Spirit of Python | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (DILI MAGSAPAW) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(15, 15, 15, 0.96);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 35px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e0e0e0;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+            font-size: 1.1rem;
+        }
+
+        .manifest-box {
+            background: rgba(255, 0, 0, 0.02);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.05);
+        }
+        .manifest-title {
+            font-size: 1.25rem;
+            color: #ff3333;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.05);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .questions-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
+        }
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 14: THE SPIRIT OF PYTHON</h1>
+            <p>"Overcoming Weariness and Confusion"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Buhat 16:16-19, Isaias 40:29-31, ug 2 Tesalonica 3:13<br>
+        <strong>Katuyoan:</strong> Aron i-expose ug mailhan sa kongregasyon ang lihok sa Spirit of Python sa spiritual realm—ang espiritu nga nagdala og espirituhanong kakapoy, kaguol, ug kalibog—ug kon unsaon kini pagpukan pinaagi sa gahum sa pagdayeg, Pulong sa Dios, ug sa atong awtoridad kay Kristo.</p>
+
+        <h2>Introduction: The Spirit that Squeezes the Life Out</h2>
+        <p>Sa atong pagpadayon sa pagtuon sa mga estratehiya sa spiritual realm, atong tuki-on ang usa ka espiritu nga maalamon kaayo apan makalilisang kon mosulod na sa kinabuhi sa usa ka Kristohanon. Kini mao ang tinawag sa spiritual warfare nga <strong>The Spirit of Python</strong>.</p>
+        
+        <p>Unsa man ang kinaiya sa usa ka bitin nga python sa physical realm? Ang python dili pareho sa kobra nga mopaak ug magpagawas og hilo aron mapatay dayon ang biktima. Dili! Ang python moadto sa biktima sa hilom nga paagi, mupilit niini, ug hinay-hinay nga muputos ug mupahuot <em>(squeeze)</em> sa lawas sa biktima. Sa matag higayon nga ang biktima gina-exhale ang iyang gininhawa, mupahuot pag-ayo ang python hangtod nga dili na makaginhawa. Mamatay ang biktima tungod sa kakulang sa hangin o suffocation.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA TUKI ALANG SA CELLGROUP LEADER (THE STRATEGY OF SUFFOCATION)</span>
+            Lider, ipasabut pag-ayo sa mga gipang-cellgroupan nga si Python talagsa ra moatake pinaagi sa dinagkong eskandalo o kalit nga pagpukan. Ang iyang nag-unang pamaagi mao ang **hinay-hinay nga pagpahuot**. Sa spiritual realm, ang imong "hangin" mao ang imong relasyon ug komunikasyon sa Dios. Kon mamatikdan sa kaaway nga sige ka og exhale (pag-atubang sa kalisod sa kinabuhi ug negosyo) apan wala ka nay panahon sa pag-inhale (pag-ampo ug pagpuno sa Espiritu Santo), dinha siya mopahuot og maayo hangtod nga mawad-an ka og kusog sa pagpadayon.
+        </div>
+        
+        <p>Sa spiritual realm, ang Spirit of Python naglihok sa samang pamaagi. Dili ka niini kalit nga pukanon. Ang iyang buhaton mao ang hinay-hinay nga pagpahuot sa imong kinabuhi, sa imong pamilya, ug sa imong negosyo pinaagi sa <span class="highlight-text">Weariness (Espirituhanong Kakapoy) ug Confusion (Kalibog)</span>. Gusto niini nga kawaton ang imong "hangin"—nga nagrepresentar sa imong pag-ampo ug sa presensya sa Holy Spirit—hangtod nga maluya ka ug mosurender sa pagtuo. Karong adlawa, atong dugmokon ang ulo niini nga bitin!</p>
+
+        <h2>I. Ang Pundasyon sa Spirit of Python sa Kasulatan</h2>
+        <p>Aron atong masabtan ang iyang lihok, atong tan-awon kon diin kini dapit gihisgutan sa Bag-ong Tugon:</p>
+
+        <div class="verse-box">
+            <strong>Buhat 16:16 (Sa Grego nga hubad)</strong> - "Ug nahitabo nga sa nagpadulong kami sa dapit sa pag-ampo, gitagbo kami sa usa ka dalaga nga sulugoon nga adunay espiritu sa pagpanagna (sa Grego: Pneuma Python / Spirit of Python)..."
+        </div>
+        <p><strong>The Biblical Context:</strong> Kining dalagaha nagsunod-sunod kang Apostol Pablo ug Silas sulod sa daghang mga adlaw, nagsinggit og mga pulong nga morag husto (<em>"Kining mga tawohana mga alagad sa Labing Halangdong Dios!"</em>). Morag maayo paminawon, apan ang motibo niini sa spiritual realm mao ang pag-ali, pagdala og kalibog, ug pagpahuyang sa atmospera sa pag-ampo. Si Python mogamit og relihiyoso nga mga pulong apan ang tumong kay ang pagdala og kalisod sa huna-huna sa mga alagad.</p>
+        <p><strong>The Reaction:</strong> Si Pablo, human nakamatikod sa maong espiritu sa spiritual realm, nalingi ug miingon sa espiritu: <em>"Ginasugo ko ikaw sa ngalan ni Hesus Kristo sa paggawas kaniya!"</em> Ug miguwas kini niadtong taknaa <small class="highlight-text">(Buhat 16:18)</small>.</p>
+
+        <h2>II. Unsaon Pag-manifest sa Spirit of Python Karon? (The Manifestations)</h2>
+        <p>Giunsa man sa kaaway paggamit ang Spirit of Python aron pahuotan ang imong kinabuhi karon? Atong bantayan kining tulo ka dagkong timailhan:</p>
+
+        <div class="manifest-box">
+            <div class="manifest-title">💤 1. The Atmosphere of Heavy Weariness (Grabe nga Kakapoy ug Katapul)</div>
+            <p>Namatikdan ba nimo ang mga panahon sa imong kinabuhi diin kalit lang ka nga makabati og grabe nga kakapoy sa espiritu? Kanang tapulan kaayo ka nga mo-ampo, bug-at kaayo para kanimo ang mo-abli sa Bibliya, ug mawad-an ka og kadasig sa pagsimba ug pag-attend sa cellgroup.</p>
+            <p><strong>The Strategy:</strong> Ginasqueeze sa kaaway ang imong prayer life. Kabalo si Python nga kon dili ka mo-ampo, wala kay espirituhanong hangin. Kon wala kay hangin, daling mapukan ang imong proteksyon, negosyo, ug pamilya. Iyang ipabati kanimo nga kapoy na kaayo ug walay kapuslanan ang imong pag-alagad.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">🌀 2. The Cloud of Confusion and Overthinking (Kalibog sa Huna-huna)</div>
+            <p>Ang usa ka tawo nga gi-atake niini nga espiritu kanunay nga puyoan sa kalibog. Magsugod ang overthinking (<em>"Husto ba kaha ni akong gihimo?" "Gidungog pa ba kaha ko sa Dios?" "Nganong sige man hinuon og kalisod bisan naningkamot ko sa katarong?"</em>). Iyang tuison ang imong pagsabot sa mga saad sa Dios hangtod nga malibog ka, mawad-an og focus, ug magsugod og duhaduha sa imong bokasyon.</p>
+        </div>
+
+        <div class="manifest-box">
+            <div class="manifest-title">⛓️ 3. Financial and Operational Suffocation (Pagkapatong sa Problema)</div>
+            <p>Mao kini ang bation nga morag ang mga problema sa kinabuhi—sa panalapi, sa pamilya, o sa negosyo—sige lang og tapok ug "nagpahuot" kanimo. Kanang human sa usa ka problema, naa na poy mosunod, hangtod nga mobati ka nga morag dili ka kaginhawa sa kaguol ug stress. Structural pressure kini sa kaaway sa spiritual realm aron moundang ka sa imong mga maayong sinugdanan.</p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">🛑 TIMAILHAN SA CELLGROUP ATTACK</span>
+            Lider, bantayi kon ang mga miyembro magsugod na gani og hilom, daling mapuol, sige og "overwhelm" sa mga problema sa unod, ug kalit lang mawad-an og gana nga makig-uban. Kana timailhan nga si Python naglibot na sa ilang kasingkasing aron pahuotan ang ilang espirituhanong pagtubo. Kinahanglan ninyo kining batokan pinaagi sa hiniusang pag-ampo.
+        </div>
+
+        <h2>III. How to Break and Crush the Spirit of Python</h2>
+        <div class="verse-box">
+            <strong>Lucas 10:19</strong> - "Tan-awa, gihatagan ko kamo ug awtoridad sa pagtunob sa mga bitin (serpents/python) ug mga bagon..."
+        </div>
+        <p>Bisan unsa pa ka hugot ang pagputos sa kaaway kanimo karon, si Hesus naghatag kanato og usa ka dako nga garantiya. Ania ang atong mga warfare strategies aron mabungkag kining maong pahuot:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🎵 1. Release the Sound of Praise and Worship (I-singgit ang Pagdayeg)</div>
+            <p>Unsa may gihimo ni Pablo ug Silas sa dihang gipriso sila human nila mapukan ang Spirit of Python? Gikadenahan sila, apan sa tungang gabii, nag-ampo ug nag-awit sila og mga pagdayeg ngadto sa Dios! <small class="highlight-text">(Buhat 16:25)</small>.</p>
+            <p><strong>Application:</strong> Kon mobati ka og kakapoy ug kalibog, ayaw paghilom o pag-inusara. Kana ang saktong panahon nga kinahanglan nimo i-on ang mga worship songs ug magsugod sa pagsinggit og pagdayeg sa Ginoo! Ang pagdayeg nagpalapad sa imong dughan ug nagpagawas sa espirituhanong hangin. Python cannot stand the atmosphere of pure worship—it breaks its grip! Dili makalahutay ang bitin kon ang palibot mapuno sa kalayo sa pagdayeg.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🛡️ 2. Stand Firm on the Word and Reject Weariness</div>
+            <div class="verse-box">
+                <strong>2 Tesalonica 3:13</strong> - "Apan kamo, mga igsoon, ayaw kamo kabalaka o kapuol sa pagbuhat ug maayo."<br><br>
+                <strong>Isaias 40:31</strong> - "Apan sila nga nagahulat sa Ginoo magabag-o sa ilang kusog; sila mosaka sa mga pako ingon sa mga agila..."
+            </div>
+            <p><strong>Application:</strong> Pukana ang kakapoy pinaagi sa pagdeklarar sa mga saad sa Ginoo. Ayaw itugot nga ang imong emosyon ang magbuot sa imong pagtuo. Kon muingon ang kaaway nga kapoy na ug wala nay padulngan, i-deklarar: <em>"Ang Ginoo mao ang akong kusog! Akong ginasalikway ang espiritu sa katapul ug kakapoy sa ngalan ni Hesus!"</em> Ang Pulong sa Dios mao ang hait nga espada nga muputol sa lawas sa bitin.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Command the Spirit to Loose Its Grip (Gamita ang Imong Awtoridad)</div>
+            <p><strong>Application:</strong> Sama sa gihimo ni Pablo, kinahanglan nimo nga direktahon ang espiritu gamit ang awtoridad sa Ngalan ni Hesus. Sa imong Warfare Prayer, i-proclaim kini uban ang kadasig: <strong>"Sa ngalan ni Hesus, akong gibadlong ang matag Spirit of Python nga nagpahuot sa akong huna-huna, sa akong pag-ampo, sa akong pamilya, ug sa akong negosyo! Akong gina-deklarar nga gawasnon ako sa pag-ampo, gawasnon ako sa pagdayeg, ug gawasnon ako sa paglakaw sa kalinaw sa Dios. Buhami ang akong kinabuhi karon dayon sa ngalan ni Hesus! Tapos na ang imong pahuot!"</strong></p>
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (THE BREAKTHROUGH PRAYER)</span>
+            Lider, giyahi ang imong cellgroup sa pagguba niini nga kuta karong gabhiona: *“Magkupotay kita sa kamot isip usa ka pamilya. Sa Ngalan ni Hesus, among ginasunog ug ginaputol ang matag gapos ni Python sa inyong mga kinabuhi! Among giguba ang espiritu sa kakapoy, katapul, ug ang cloud sa kalibog ug overthinking. Dawata ang presko nga hangin sa Espiritu Santo karon! Gideklara nako ang supernatural nga kalinaw ug kadaugan sa inyong panimalay ug panabuhi diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <h2>Conclusion & Call to Action: Inhale the Holy Spirit</h2>
+        <p>Mga igsoon, sa dihang nahitabo ang dako nga linog didto sa prisohan nila ni Pablo, ang tanang mga pultahan nangabuka ug ang mga kadena nangatangtang <span class="highlight-text">(Buhat 16:26)</span>. Ingon niana ka gamhanan ang mahitabo kon imong bungkagon ang Spirit of Python pinaagi sa pag-ampo ug pagdayeg—dili lang ikaw ang maluwas, kondili ma-shake ang tibuok nimong palibot paingon sa hingpit nga kadaugan ug kagawasan!</p>
+        
+        <p>Ayaw na itugot nga sigehan ka og squeeze sa kaaway sa kabalaka, kalibog, ug kakapoy. Ayaw na i-surrender ang imong prayer life o ang pagtambong sa cellgroup. Karong gabhiona, dinhi sa atong grupo, i-exhale o ipagawas ang tanang kaguol ug stress, ug i-inhale o dawata pag-usab ang presensya ug presko nga duso sa Espiritu Santo! Bungkagon noto ang matag pahuot sa kaaway. Barug sa gahum, sa gugma, ug sa maalamon nga huna-huna diha kang Kristo Hesus! Amen!</p>
+
+        <div class="questions-box">
+            <h3>❓ Reflection and Prayer Call (Cellgroup Discussion):</h3>
+            <ul>
+                <li>Nakasinate ka ba karong mga adlawa og kalit nga bug-at nga kakapoy sa pag-ampo o grabe nga kalibog sa huna-huna ug overthinking nga morag nagpahuot kanimo? Unsa man ang mga aspeto sa imong panabuhi o pamilya nga gibati nimo nga gi-pressure sa kaaway?</li>
+                <li>Mag-ampo kita karon alang sa usag-usa uban ang pagtoo. Bungkagon nato ang matag kuta sa Spirit of Python, ug i-claim nato ang supernatural nga kagawasan, kusog, ug kalinaw gikan sa Ginoo! Amen!</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: Ang Kinaiya Sa Spiritual Warfare | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 25px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.95);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 30px rgba(255, 69, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ff4500;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 69, 0, 0.6);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.4rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 40px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .portal-box {
+            background: rgba(255, 0, 0, 0.03);
+            border: 1px solid #ff3333;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(255, 51, 51, 0.1);
+        }
+
+        .portal-title {
+            font-size: 1.2rem;
+            color: #ff3333;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 18px;
+            margin: 25px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .prayer-box {
+            background: linear-gradient(135deg, rgba(255,69,0,0.15), rgba(255,215,0,0.15));
+            border: 2px solid #ffd700;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 20px;
+            }
+            .lesson-header h1 {
+                font-size: 1.65rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN / LANGUAGE:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="breakeverychain.html" class="back-btn">⬅️ Balik sa Listahan</a>
+
+        <div class="lesson-header">
+            <h1>LESSON 1: ANG KINAIYA SA SPIRITUAL WARFARE</h1>
+            <p>Parte 1: Pag-ila sa Panggubatan: Ang Gubat nga Dili Makita apan Tinuod</p>
+        </div>
+
+        <h2>Pasiuna: Ang Kamatuoran sa Dili Makita</h2>
+        <p>Mga igsoon diha sa Ginoo, maayong adlaw kaninyong tanan. Sa atong pagkinabuhi matag adlaw, duna kitay mga gubat ug kalisod nga kanunay natong giatubang. Makita nato ang mga problema sa kwarta, away sa pamilya, mga sakit nga kalit lang moabot, ug mga kabalaka sa unsa ang mahitabo sa atong ugma. Kining tanan atong makita ug mabati sa atong pisikal nga lawas. Apan karong adlawa, sa pagsugod niining atong diskurso, gusto nako nga ablihan nato ang atong mga mata sa usa ka mas dako nga kamatuoran sa unahan. Gawas sa mga butang nga atong nakita, nahikap, ug nadungog, duna akoy dako nga gubat nga nagakahitabo karon mismo sa atong palibut. Kini mao ang tinatawag nga Spiritual Warfare o ang espirituhanong gubat.</p>
+        
+        <p>Daghan sa mga tawo karon ang dili motuo niini tungod kay dili man kini makita. Apan pangutana: Dili ba diay tinuod ang usa ka butang tungod lang kay dili nato kini makita? Ang hangin dili nato makita, apan bation nato ang iyang kadasig ug kabugnaw, ug makita nato ang iyang epekto kung magpalihok kini sa mga kahoy. Ang kuryente dili nato makita, apan kabalo kita nga tinuod kini tungod kay nagsiga ang atong mga suga ug nag-andar ang atong mga appliances. Sa samang paagi, mga igsoon, ang espirituhanong gubat mahimong dili makita sa atong pisikal nga mga mata, apan tinuod kaayo ang epekto niini. Makita nimo ang iyang epekto sa naguba nga mga pamilya, sa kalit nga pagbuntog sa grabeng depresyon ug kabalaka, ug sa pagkupos sa paglaum sa usa ka Kristohanon.</p>
+        
+        <p>Dili kini istorya sa salida o fiction nga gihimo-himo lang; kini usa ka reyalidad nga angay natong masabtan aron dili kita magpuyo nga biktima sa kaaway. Sama sa giingon sa 1 Pedro 5:8:</p>
+
+        <div class="verse-box">
+            <strong>1 Pedro 5:8</strong> – "Pagmabinantayon kamo ug pagmata! Kay ang inyong kaaway nga mao ang Yawa naglibot-libot sama sa liyon nga naggahob, nangitag iyang malamoy."
+        </div>
+        
+        <p>Kini nagpasabot nga ang kaaway dili fictional. Siya tinuod, naglihok, ug nagpaabot lang ug higayon nga kita maluya.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+            Ang pulong nga "kaaway" sa 1 Pedro 5:8 gikan sa Gregong pulong nga **"Antidikos"**—nga ang buot ipasabot mao ang *usa ka opisyal nga kontra sa korte o balaod*. Si Satanas dili lang kay mangingilad sa dalan; siya usa ka legalistic nga mumbubutang (accuser) nga kanunay nangita og "legal nga lusot" sa atong kinabuhi pinaagi sa atong pagkatulog-tulog sa espiritu!
+        </div>
+
+        <h2>Ang Fundasyon nga Bersikulo (The Foundation Verse)</h2>
+        <p>Aron ang atong pagtulon-an magbarog sa lig-on nga kamatuoran, atong basahon ang pinakayano ug pinakagahom nga pulong sa Dios nga nahisulat sa Efeso 6:12:</p>
+
+        <div class="verse-box">
+            <strong>Efeso 6:12</strong> – "Kay ang atong pakigbisog dili batok sa unod ug dugo, kondili batok sa mga punoan, batok sa mga kagamhanan, batok sa mga nagmando niining kangitngit sa kalibotan, batok sa mga espirituhanong puwersa sa kadautan sa kalangitan."
+        </div>
+
+        <h2>I. Kinsa Man Gyud ang Atong Kaaway? (Pag-ila sa Tinuod nga Kontra)</h2>
+        <p>Ang unang dakong sayop natong mga Kristohanon mao ang <span class="highlight-text">wrong identification of the enemy</span>—o ang sayop nga pag-ila kung kinsa gyud ang atong kontra. Kon dili nato kaila ang kaaway, hurot-hurot lang ang atong kusog sa pakig-away apan pildi gihapon kita. Matikdi kung unsay sulti sa Bibliya: "Ang atong pakigbisog dili batok sa unod ug dugo." Ang pulong nga "unod ug dugo" nagpasabot sa tawo. Klaro kaayo: Dili tawo ang atong kaaway.</p>
+
+        <div class="portal-box">
+            <div class="portal-title">🏠 Sa Pamilya:</div>
+            <p>Kon mag-away mo sa imong bana, asawa, o mga anak, maghuna-huna ka dayon nga sila ang imong kaaway. Magdumot ka, makasulti ka ug mahait nga mga pulong, ug maguba ang inyong relasyon. Apan ang tinuod, ang tawo gigamit lang sa kaaway aron bungkagon ang inyong pamilya. Ang tinuod nga kontra mao ang espiritu sa pagkabahin-bahin.</p>
+        </div>
+
+        <div class="portal-box">
+            <div class="portal-title">💼 Sa Komunidad ug Trabaho:</div>
+            <p>Kon duna kay problema sa imong silingan, sa imong boss, o sa imong kauban sa trabaho nga sige ug saway o daut kanimo, dali ra kaayo kita mosukol pinaagi sa unodnon nga pamaagi. Mag-atabangay, mag-awayay, o mag-tsismisay. Mga igsoon, kinahanglan nato masabtan nga ang tawo biktima lang usab sa kaaway. Ang tinuod nga luyo niining tanan mao si Satanas ug ang iyang mga demonyo. Kon mag-focus ka sa pag-away sa tawo, mapildi ka sa espirituhanong gubat tungod kay nasuko ka sa galamiton, apan nakalimtan nimo ang nagkupot sa galamiton.</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+            Kon makig-away kita sa tawo, ginaapil kita sa kaaway sa gitawag nga **"Friendly Fire"** (pagsilot sa kaugalingong kauban sa rami). Ang tawo nga nagpasakit kanimo gigapos usab sa kaaway; busa ang imong tubag kinahanglan mao ang *paggubat sa espiritu nga naggapos kaniya*, samtang nagpakita og *kalouy ug grasya ngadto sa tawo*.
+        </div>
+
+        <h2>II. Ang Panggubatan sa Huna-huna (The Battlefield of the Mind)</h2>
+        <p>Kon kini nga gubat dili makita, asa man dapit kini nagakahitabo? Ang panggubatan sa espirituhanong gubat nahimutang sulod sa atong huna-huna. Ang imong huna-huna mao ang "ground zero" o ang sentro sa panggubatan. Dinhi ginalunsad sa kaaway ang iyang mga taktika ug pag-atake matag adlaw pinaagi sa tulo ka dagkong pamaagi:</p>
+
+        <p><span class="highlight-text">1. Pagpugas ug Pagduhaduha (Doubt):</span> Mao kini ang pinakabuwag nga taktika ni Satanas sukad pa sa una. Sa Tanaman sa Eden, giingnan niya si Eva, "Gidid-an ba gyud mo sa Dios?" Gi-usab niya the pulong sa Dios aron magduhaduha si Eva. Karon, sa imong huna-huna, magsige usab siyag pugas ug pagduhaduha: "Gihigugma ba gyud ka sa Dios? Kon gihigugma ka Niya, nganong gipasagdan man ka Niya nga mag-antos niining sakita? Nganong wala man gitubag ang imong mga pag-anko?"</p>
+
+        <p><span class="highlight-text">2. Pagpugas ug Kahadlok ug Kabalaka (Fear and Anxiety):</span> Ang kaaway ganahan kaayo mupakaon kanato ug mga negatibong "What if" o mga senaryo sa unahan nga wala pa gani nahitabo. "Unsaon na lang kon mawad-an kag trabaho? Unsaon na lang kon dili moasenso ang imong negosyo? Unsaon na lang kon dili ka maulian?" Kini nga mga kabalaka dili gikan sa Dios.</p>
+
+        <p><span class="highlight-text">3. Pagpugas ug Kasuko, Garbo, ug Pagdumot (Bitterness and Pride):</span> Mopasulod ang kaaway ug mga huna-huna nga nag-ingon: "Ayaw i-propagate ana niya, nakasala na siya nimo. Naa kay katungod nga masuko." Ang garbo ug dili pagpasaylo mao ang ganghaan nga giablihan sa tawo para makasulod ang kaaway. Aron madaog kini, atong hinumduman ang giingon sa 2 Corinto 10:4-5:</p>
+
+        <div class="verse-box">
+            <strong>2 Corinto 10:4-5</strong> – "Kay ang mga hinagiban sa atong pakigbisog dili iya sa kalibotan, kondili adunay diosnong gahom sa pagguba sa mga kuta. Ginapukan nato ang mga argumento ug ang matag garbo nga nagbabag batok sa kahibalo sa Dios, ug ginabihag nato ang matag huna-huna aron kini magmasulundon kang Kristo."
+        </div>
+
+        <p>Kinahanglan nato masabtan: Ang kadaogan o kapildihan sa usa ka Kristohanon magdepende kung unsang matanga sa huna-huna ang imong ginatugotan nga mosulod ug mopuyo sa imong ulo. Kung pildi ka sa imong huna-huna, pildi ka usab sa imong adlaw-adlaw nga pagkinabuhi.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+            Ang "kuta" o stronghold sa 2 Corinto 10:4 gikan sa Gregong pulong nga **"Ochuroma"**—nga sa karaang militar nagpasabot og *usa ka kinutaang kastilyo nga gipabaga aron dili masulod*. Ang kaaway magtukod og Ochuroma sa atong utok pinaagi sa balik-balik nga bakak hangtod nga motoo kita nga "ani gyud ko natawo, dili na ko mabag-o." Ang Pulong sa Dios ra ang dinamita nga makabangag ug makadugmo niini!
+        </div>
+
+        <h2>III. Giunsa Nato Pagpakig-away? (Ang Atong mga Espirituhanong Hinagiban)</h2>
+        <p>Tungod kay espirituhanon man kini nga gubat, dako kaayo nga kaboang kung awayon nato kini gamit ang pisikal nga pamaagi. Dili nimo pwedeng sumbagon, luthangon, o gamitan ug mahait nga pulong ang demonyo. Dili usab nimo kini madaog pinaagi sa taas nga edukasyon, talento, o kadako sa imong kwarta sa bangko. Unsa man kini nga mga hinagiban nga gihatag sa Dios kanato?</p>
+
+        <p><span class="highlight-text">1. Ang Pag-ampo ug Pagpuasa (Prayer and Fasting):</span> Ang pag-ampo mao ang atong pagkonektar sa tuburan sa tanang gahom—ang Labing Gamhanang Dios. Kon ang usa ka Kristohanon dili mag-ampo, nahisama siya sa usa ka sundalo nga miadto sa panggubatan nga walay dala nga bala ug proteksyon. Matikdi ang giingon sa Efeso 6:18:</p>
+
+        <div class="verse-box">
+            <strong>Efeso 6:18</strong> – "Pag-ampo kamo diha sa Espiritu sa tanang higayon, pinaagi sa tanang matang sa pag-ampo ug pangingalag... ug pagpadayon sa pag-ampo alang sa tanang mga balaan."
+        </div>
+
+        <p><span class="highlight-text">2. Ang Pulong sa Dios (The Word of God):</span> Kini ang gitinguha nga "Espada sa Espiritu." Giunsa man ni Hesus pagpildi si Satanas sa dihang gitintal Siya didto sa kamatandokan? Matag tentasyon ni Satanas, gitubag Niya kini pinaagi sa pag-ingon: "Nahisulat sa Kasulatan..." Mao usab kini ang atong buhaton. Kon moingon ang kaaway sa imong huna-huna nga "Pildi ka, wala kay pulos," tubaga siya sa Pulong sa Dios.</p>
+
+        <p><span class="highlight-text">3. Ang Pagkinabuhi nga Matinud-anon ug Balaan (Righteousness):</span> Ang pagkinabuhi nga duna kay integridad ug pagsunod sa kamatuoran maoy magsilbi nga taming o proteksyon sa atong kinabuhi.</p>
+
+        <div class="prayer-box">
+            <h3>🛡️ PANAPOS UG PANGHAGIT</h3>
+            <p style="text-align: center; font-style: italic; color: #fff; margin: 0;">
+                "Mga igsoon, samtang atong gitapos kining unang parte sa atong serye, gusto nako nga ibilin kining dakong pagdasig sa inyong mga kasingkasing: Dili kita angay mahadlok, magmaluyahon, o mabalaka. Tinuod ang atong titulo karong adlawa: 'Ang Gubat nga Dili Makita apan Tinuod.' Tinuod ang gubat, ug tinuod usab nga duna kitay kaaway nga naglibot-libot. Apan ang mas dako, mas sigurado, ug mas gamhanan nga kamatuoran mao ang nahisulat sa 1 Juan 4:4: 'Tugod kay Siya nga anaa kaninyo mas gamhanan kay kaniya nga anaa sa kalibotan.' Si Hesus nidaog na sa hingpit didto sa krus sa Kalbaryo! Busa, usba ang imong perspective ug isulob ang tibuok armadura sa Dios matag adlaw!"
+            </p>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM CONFIG INTERFACE BLOCK -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>
