@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 12: Legacy and Impact Beyond Generations | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(12, 18, 28, 0.94), rgba(18, 24, 38, 0.98)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 5;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 15px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 24, 40, 0.96);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 50px rgba(0, 170, 255, 0.15);
+            backdrop-filter: blur(12px);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* ⛓️ HYPER-REALISTIC BROKEN CHAIN POWER PARTICLES */
+        .chain-particle {
+            position: absolute;
+            background: linear-gradient(135deg, #757f9a 0%, #434343 100%);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 3px;
+            pointer-events: none;
+            mix-blend-mode: screen;
+            z-index: 1;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.15), inset 0 0 5px rgba(255,255,255,0.2);
+            animation: shatterFloat 22s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        .link-left { width: 14px; height: 6px; border-radius: 4px 0 0 4px; }
+        .link-right { width: 14px; height: 6px; border-radius: 0 4px 4px 0; }
+        .sparkle-core { width: 8px; height: 8px; border-radius: 50%; background: radial-gradient(circle, #fff 0%, rgba(255,215,0,0.8) 40%, transparent 100%); box-shadow: 0 0 20px #ffd700; }
+
+        @keyframes shatterFloat {
+            0% { transform: translate(0, 0) rotate(0deg) scale(0.9); opacity: 0; }
+            15% { opacity: 0.75; }
+            50% { transform: translate(280px, -150px) rotate(180deg) scale(1.2); opacity: 0.9; }
+            85% { opacity: 0.6; }
+            100% { transform: translate(450px, -300px) rotate(360deg) scale(0.9); opacity: 0; }
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 8px 0 0 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            position: relative;
+            z-index: 2;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.07);
+            border-left: 5px solid #ffd700;
+            padding: 22px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #ffffff;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+            border-radius: 0 12px 12px 0;
+            position: relative;
+            z-index: 2;
+        }
+        .verse-box strong {
+            color: #ffd700;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .gikinahanglan {
+            background: linear-gradient(120deg, rgba(0, 170, 255, 0.15) 0%, rgba(0, 170, 255, 0.05) 100%);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #00aaff;
+            font-weight: 500;
+            display: block;
+            margin: 20px 0;
+            text-align: justify;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            color: #00fff2;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .prayer-box {
+            background: linear-gradient(rgba(10, 20, 40, 0.6), rgba(5, 10, 25, 0.8));
+            border: 2px solid #00aaff;
+            padding: 35px;
+            border-radius: 15px;
+            margin-top: 50px;
+            box-shadow: 0 0 25px rgba(0, 170, 255, 0.2);
+            position: relative;
+            z-index: 3;
+            text-align: justify;
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="chain-particle link-left" style="top: 18%; left: 4%; animation-delay: 0s;"></div>
+        <div class="chain-particle link-right" style="top: 19%; left: 7%; animation-delay: 1s;"></div>
+        <div class="chain-particle sparkle-core" style="top: 18.5%; left: 6%; animation-delay: 0.5s;"></div>
+        
+        <div class="chain-particle link-left" style="top: 55%; left: 82%; animation-delay: 4s;"></div>
+        <div class="chain-particle link-right" style="top: 56%; left: 85%; animation-delay: 5s;"></div>
+        
+        <div class="chain-particle link-left" style="top: 72%; left: 10%; animation-delay: 2s;"></div>
+        <div class="chain-particle sparkle-core" style="top: 72.5%; left: 12%; animation-delay: 2.5s;"></div>
+
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 12: ANG KABILIN SA LIDER: LEGACY AND IMPACT BEYOND GENERATIONS</h1>
+            <p>"Serye sa Sermon: The Realm of the Leadership — Ang Pagpabilin og Bunga sa Tibuok Kaliwatan"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Mga Proverbio 13:22<br>
+        <strong>Kaubang mga Teksto:</strong> 1 Cronicas 22:5, 1 Cronicas 28:9, Hebreo 11:4, Mga Maghuhukom 2:10, ug 2 Timoteo 4:7-8<br>
+        <strong>Katuyoan:</strong> Ang katuyoan niini nga leksyon mao ang pagbalhin sa atong unodnong panglantaw gikan sa lumalabay nga *success* ngadto sa walay kataposang *legacy*, pagmando nga adunay estratehikong pagpaubos, ug pagtisok og moral ug espirituhanong sumbanan alang sa kalambuan sa sunod nga henerasyon sa panamalay, cell group, ug patigayon.</p>
+
+        <h2>Introduction: Ang Kalainan sa Kalampusan ug Kabilin (Success vs. Legacy)</h2>
+        <p>Sa structural nga aspeto sa **Realm of Leadership**, daghan kaayong mga lider sa kalibutan karon ang naggahin sa ilang tibuok kusog, oras, ug unodnong abilidad sa pagpangita lamang sa gitawag nga "Success" o Kalampusan. Sila nakatutok sa pagkab-ot sa mga mubu ug *short-term* nga mga tumong: mas taas nga kita sa patigayon, mas dako nga attendance sa organisasyon, o mas taas nga posisyon ug dungog sa katilingban. </p>
+        <p>Apan ang tinuod nga kalampusan alang lang sa kasamtangan; kini mahitungod sa kung unsa ang imong mabuhat para sa imong kaugalingon sa panahon nga ikaw buhi ug nagbarog pa ibabaw niining yuta.</p>
+        
+        <p>Apan ang mas lawom, mas hait, ug mas taas nga matang sa balaang pagpangulo mao ang pagtukod og **"Legacy" (Kabilin)**. Ang kabilin mao ang pagpangulo nga nakatutok sa *impact beyond generations*—kini mahitungod sa kung unsa ang nagpadayon sa pagpabili, pagpakaon, ug pagserbisyo sa uban bisan pa kon ikaw mawa na sa pwesto, mabiya, o mamiya na niining kalibutana! </p>
+        <p>Ang yano nga kalampusan mamatay dungan sa lider, apan ang balaang kabilin mabuhat ug madihogan aron mabuhi ug mosilaob sa tibuok kaliwatan sa unahan:</p>
+
+        <div class="verse-box">
+            <strong>Mga Proverbio 13:22</strong>
+            "Ang maayong tawo may bahanding ikabilin sa iyang mga apo; apan ang bahandi sa makasasala ginaandam alang sa matarong."
+        </div>
+        <p>Kini nga bersikulo gikan sa balaang kaalam ni Solomon nagpahinumdom kanato nga ang tinuod nga "maayong tawo" ug maalamong lider sa Dios adunay panan-awon nga moabot ngadto sa iyang mga apo ug sa unahan pa! Kung ikaw usa ka lider sa pamilya o cellgroup, ang imong adlaw-adlaw nga mga desisyon, ang imong mga gilitok nga pulong, ang imong pamaagi sa negosyo, ug ang imong pribadong karakter nagapintal na karon sa kabilin nga imong ibilin.</p>
+
+        <h2>I. Ang Pundasyon sa Kabilin: Pag-andam sa Sunod nga Mopas-an sa Bisyon</h2>
+        <p>Atong susihon ug tan-awon ang usa ka talagsaon ug structural nga transisyon sa pagpangulo diha sa Bibliya: ang pagpasa sa gingharian gikan kang Haring David ngadto sa iyang anak nga si Solomon. Si David usa ka gamhanang manggugubat ug dako nga lider, apan nahibal-an niya sa iyang espiritu nga ang iyang labing dako nga proyekto—ang pagtukod sa Templo sa Dios—dili siya ang makahuman sa unahan, kondili ang sunod nga henerasyon:</p>
+
+        <div class="verse-box">
+            <strong>1 Cronicas 22:5</strong>
+            "Matod ni David, “Ang akong anak nga si Solomon batan-on ug kulang pa sa kasinatian. Gikinahanglan nga ang Templo nga pagatukoron alang sa Ginoo dako kaayo ug dili hitupngan sa kabantog ug katahom sa tibuok kalibotan. Busa akoy mangandam alang niini.” Busa nagtigom si David ug daghan kaayong materyales sa wala pa siya mamatay.
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 1. Intentional Preparation (Pag-andam sa Dalan)</div>
+            <p style="margin: 0;">Matikdi kini pag-ayo,  wala lang pasagdi ni David si Solomon nga mag-inusara ug maglisud sa pagsugod human siya mamatay. Miingon ang kasulatan, *“si David nag-andam ug daku uyamot sa wala pa ang iyang kamatayon.”* Ang lider nga naghunahuna sa kabilin ug multiplication dili tapulan; nagtigom siya og materyales, nagtukod og mga sistema, nagwagtang sa mga babag, ug nag-andam sa dalan aron ang sunod nga henerasyon modagan nga adunay kadasig ug open heavens!</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 2. Pagtugot nga ang Uban ang Mohuman sa Proyekto</div>
+            <p style="margin: 0;">Kini nagkinahanglan og dako kaayong pagpaubos ug pagdugmok sa unod. Usahay, ang garbo ni Leviathan sa sulod sa usa ka lider gusto nga siya gayod kanunay ang makagunting sa ribbon sa inagurasyon sa kalampusan aron mabayaw ang iyang ngalan. Apan ang tinuod nga kabilin nagpasabut nga andam ka nga magpugas sa liso sa tago, andam ka mag-edit sa label ug layout, bisan pa kon nahibal-an nimo nga lahi nga batan-ong kamot ang moani ug modawat sa dungog sa gawas.</p>
+        </div>
+
+        <h2>II. Ang Kinauyokan sa Kabilin: Pagtisok og Espirituhanon ug Moral nga mga Sumbanan</h2>
+        <p>Kung maghisgot kita bahin sa kabilin, daghang tawo sa kalibutan ang maghunahuna dayon sa kwarta, yuta, o mga building sa gawas. Apan ang materyal nga mga butang dali rang mawala, maguba, o mausik kon ang makadawat niini walay sakto nga karakter sa sulod! Ang labing lig-on ug selyado nga kabilin nga mabilin sa usa ka lider mao ang iyang mga mithi, integridad, ug ang iyang relasyon sa Dios:</p>
+
+        <div class="verse-box">
+            <strong>1 Cronicas 28:9</strong>
+            "9Ug ngadto kang Solomon miingon siya, “Ug ikaw, Solomon, anak ko, tamda ang Dios sa imong amahan ug alagari siya sa bug-os mong kasingkasing ug hunahuna kay ang Ginoo nagsusi sa kasingkasing sa tanan ug nasayod siya sa tanang laraw ug hunahuna sa tawo. Kon pangitaon mo siya, imo siyang makaplagan. Apan kon siya isalikway mo, talikdan ka usab niya hangtod sa hangtod."
+        </div>
+
+        <span class="gikinahanglan">
+            🧠 CHARACTER OVER CURRENCY (Karakter Kay sa Kabilugan): Matikdi ang sugo ni David, wala niya ingna si Solomon nga “bantayan mo ang akong bulawan ug ang akong negosyo.” Ang iyang pinakaunang dinalian nga sugo mao ang: **“Kilalaha ug alagari ang Dios sa imong amahan!”** Kung imong ma-transfer ang imong maayong prinsipyo, integridad, ug kahadlok sa Dios ngadto sa imong pamilya ug cell members, imong gisiguro nga ang buluhaton magpabilin nga lig-on batok sa matag unos. Ang kwarta ug ang blue ink mahimong mahurot o madaot, apan ang karakter ug pagtuo makahimo og paagi aron makabawi, makatukod pag-usab, ug mo-multiply sa unahan!
+        </span>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE SHADOW EFFECT):</span>
+            Lider, itanum kini sa imong espiritu: Ang sunod nga henerasyon dili mosunod sa imong nindot nga mga sulti; mosunod sila sa imong **Agak ug Lihok**. Ang kabilin dili ang imong ginasulat sa papan sa cellgroup, kondili ang imong ginasilsil sa kasingkasing sa mga tawo pinaagi sa ehemplo sa imong tago nga kinabuhi!
+        </div>
+
+        <h2>III. Ang Impluwensya nga Molapas sa Kamatayon: Ang Tingog sa Ehemplo</h2>
+        <p>Bisan pa kon ang usa ka kingdom leader mabiya na o mamiya na niining kalibutana, ang iyang ehemplo ug ang iyang dinihogan nga kinabuhi magpadayon sa pagsulti ug sa pagbubo og kalayo diha sa spiritual realm. Gipakita kini kanato sa kasaysayan sa mga bayani sa pagtuo:</p>
+
+        <div class="verse-box">
+            <strong>Hebreo 11:4</strong>
+            "Tungod sa pagtuo naghalad si Abel ngadto sa Dios ug mas maayong halad kay sa kang Cain. Tungod sa iyang pagtuo gikahimut-an siya sa Dios ingon nga tawong matarong kay gidawat man sa Dios ang iyang mga halad. Patay na si Abel apan pinaagi sa iyang pagtuo nagsulti gihapon siya."
+        </div>
+        
+        <p><strong>1. He Still Speaks (Nagsulti Pa Gihapon Siya):</strong> Pagkahait ug pagkalawom niini nga pamahayag sa Bibliya—bisan patay na siya, nagsulti pa gihapon siya! Unsa man ang isulti, unsa man ang i-decree, ug unsa man ang mahimong bunga sa imong ngalan kon wala ka na sa imong posisyon karon? Ang imo bang agi magpabilin nga inspirasyon sa pagkamatinud-anon, pagpaubos, ug open heavens, o mamahimo kining usa ka pasidaan mahitungod sa garbo ug unodnong kapakyasan?</p>
+        <p><strong>2. Ang Paghimo og Marka sa Kasingkasing:</strong> Ang mga numero sa spreadsheet ug ang mga tarpaulin malimtan ug malubad ra sa paglabay sa mga katuigan. Apan ang paagi kon giunsa nimo pag-atiman, pagdasig, pag-pray sa tago, ug pagpataas sa dignidad sa usa ka disipulo, magpabilin sa ilang panumdoman sa tibuok nilang kinabuhi. Kana nga tawo mopasa usab sa maong kalayo ngadto sa uban, ug dinhi magsugod ang supernatural nga chain reaction sa *impact beyond generations*!</p>
+
+        <h2>IV. Ang Paglikay sa Lit-ag sa Pagka-Wala: Ang Panginahanglan sa Hustong Transisyon</h2>
+        <p>Adunay usa ka dako ug makapa-mata nga pasidaan sa kasaysayan sa Bibliya diin ang usa ka henerasyon sa maayong liderato nasundan sa usa ka dako ug makaluluoy nga kapakyasan tungod kay ang kabilin sa pagtuo ug anointing wala mapasa ug natisok sa husto nga pamaagi sa sunod nga kaliwatan:</p>
+
+        <div class="verse-box">
+            <strong>Mga Maghuhukom 2:10</strong>
+            "Kadtong tibuok nga kaliwatan nangamatay usab ug ang sunod nga kaliwatan wala makaila sa Ginoo o sa mga butang nga gibuhat niya alang sa Israel."
+        </div>
+        
+        <p><strong>Ang Trahedya sa Nawala nga Kabilin (The Generational Gap):</strong> Pagkahuman sa gamhanang pagpangulo ni Josue, misunod dinalian ang usa ka henerasyon nga *“wala makaila sa Ginoo.”* Napakyas ba si Josue ug ang iyang mga kaabag sa pag-pasa sa kabilin? </p>
+        <p>Kini nagpakita kanato uban ang kalayo sa Espiritu Santo nga ang kabilin ug multiplication nagkinahanglan og makanunayon, tinuyo, ug aktibo nga pagpasa sa tibuok adlaw-adlaw nga proseso sa cellgroup ug pamilya! Ingon nga usa ka lider sa patigayon, sa pamilya, o sa ministeryo, ayaw tugoti nga ang mga milagro ug ang kaalam nga gihimo sa Dios sa imong kinabuhi mawala lang uban kanimo. Isulti kini, isulat kini sa papan, ug itisok kini sa hunahuna sa umaabot nga henerasyon uban ang tinuod nga kadasig!</p>
+
+        <h2>V. Konklusyon: Ang Katapusan nga Pag-ihap (The Final Assessment)</h2>
+        <p>Sa katapusan, ang tinuod nga korona sa usa ka kingdom leader dili ang iyang gihuptan nga titulo o ang mga medalya nga iyang nadawat sa kalibutan. Ang tinuod nga korona mao ang pagtan-aw sa unahan ug pagkahibalo nga tungod kay misunod ka sa kabubut-on sa Dios, ang kalibutan ug ang simbahan nahimong mas maayong dapit alang sa sunod nga kaliwatan. Hinumdomi ang giingon ni Apostol Pablo sa dihang hapit na siya mabiya niining kalibutana:</p>
+
+        <div class="verse-box">
+            <strong>2 Timoteo 4:7-8</strong>
+            "Gihimo ko kutob sa akong maabot ang pagpakiglumba ug natapos ko gayod kini. Giampingan ko ang akong pagtuo. 8Ug karon gitagana alang kanako ang ganti sa kadaogan, ang purongpurong sa pagkamatarong nga niadto unyang adlawa iganti kanako sa Ginoo, ang matarong nga Maghuhukom. Ug kini dili kanako lamang kondili sa tanan gayod nga nagpaabot sa iyang pagpadayag."
+        </div>
+        <p>Si Pablo wala nagbilin og dako nga bulawan o yuta, apan nagbilin siya og mga disipulo, nagbilin siya ug mga tinun-an nga sama ni Timoteo ug Tito, ug nagbilin siya ug mga sulat nga hangtod karon—sa kasamtangang tuig sa **2026**—atong gihapon nga ginasulsihan, gibasihan, ug gikuhaan sa kalayo ug kusog! Kana mao ang kabilin nga molapas sa mga henerasyon!</p>
+
+        <span class="gikinahanglan">
+            📋 PANGUTANA SA ALTAR PARA SA IMONG KAUGALINGON SA PAGTAPOS NIINI NGA SERYE:<br><br>
+            1. Kung mawa ako sa akong dapit o mabiya karon, unsa nga mga espirituhanong struktura ang magpabilin nga nagbarog tungod sa akong pag-pray ug pag-mentor?<br>
+            2. Ang ako bang giandam ug gitisok sa akong mga anak ug sumusunod karakter ba, integridad, ug kahadlok sa Dios, o temporaryo ug lumalabay lang nga mga butang sa unod?<br>
+            3. Nagsilsil ba ako og mga mithi nga makatabang kanila sa pagpabilin nga matinud-anon ug aprobado sa Dios kon ako wala na sa ilang kiliran?
+        </span>
+        
+        <p style="text-align: center; font-weight: bold; margin-top: 20px; color: #ffd700; font-size: 1.2rem;">
+            Ayaw gayod pagkinabuhi alang lang sa "karon." Pagkinabuhi, pag-edit, ug pagpangulo alang sa "ugma" nga dili na nimo makit-an sa unahan!
+        </p>
+
+        <div class="prayer-box">
+            <h3>⚔️ DIREKTA NGA MANDATO UG PAG-AMPO PARA SA CELLGROUP MINISTRATION (RELEASING THE GENERATIONAL LEGACY)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug pagbubo sa anointing sa kabilin uban ang dako nga kaisog ug espirituhanong awtoridad alang sa tibuok grupo lakip na sa atong kaugalingon sa katapusan sa inyong pagtuon:
+            <br><br>
+            <p style="margin: 0; font-style: italic; line-height: 1.8;">
+            "Ginoong Hesus, Ikaw mao ang Dios sa mga henerasyon—ang Dios ni Abraham, ni Isaac, ug ni Jacob. Pinaagi sa gahum sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, gihinginlan namo ug gipalong karong adlawa ang matag kuta sa short-term nga panghunahuna, unodnong garbo, katapul, kahakog, ug ang espiritu sa kalangan sa among mga hunahuna, sa among mga kasingkasing, ug sa among tibuok pagkatawo! Gihinginlan namo ug gipapahawa ang matag udyong sa kaaway ug ang matag generational gap nga misulay sa pag-guba sa sunod nga henerasyon.
+            <br><br>
+            Pasayloa kami sa mga higayon nga kami nagkinabuhi alang lamang sa among kaugalingong dungog ug kaayohan karon. Hatagi kami og kasingkasing nga andam mo-invest, andam magpaubos, ug andam mag-andam sa dalan alang sa uban. Tabangi kami nga makatukod ug kabilin sa integridad, pagtuo, ug tinuod nga kahadlok Kanimo, aron ang sunod nga henerasyon makaila usab, mo-multiply, ug mag-alagad Kanimo uban ang mas dako nga kalampusan ug open heavens! Gideklara namo nga samtang among ginalumpag ang matag unodnong kuta, i-release nimo oDios ang supernatural nga panalangin, presko nga anointing, ug dako nga breakthrough sa atong panamalay, cell group, ug patigayon hangtod sa tibuok kaliwatan sa Ngalan ni Hesus! Amen, ug Amen!"
+            </p>
+        </div>
+
+        <div class="discussion-box" style="background: rgba(0,0,0,0.4); border: 1px solid #d4af37; padding: 25px; border-radius: 12px; margin-top: 40px;">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Mga Proverbio 13:22** ug **1 Cronicas 22:5**, unsa man ang saktong kalainan sa yano nga *Success* (kalampusan sa unod) batok sa walay kataposang *Legacy* (kabilin sa espiritu), ug unsaon man pag-apply ang pamaagi ni David sa tinuyoan nga pag-prepare para sa iyang sumusunod?</li>
+                <li>Susiha ang **1 Cronicas 28:9** ug **Mga Maghuhukom 2:10**. Ngano nga ang pagpasa man sa karakter, mithi, ug kahadlok sa Dios mas importante kaysa pagpasa lang og materyal nga kwarta, ug giunsa man pagka-guba sa sunod nga kaliwatan human sa pagpangulo ni Josue?</li>
+                <li>Ipaambit sa grupo uban ang lunsay ug mapainubsanong kasingkasing: Unsa nga konkreto ug malungtarong kabilin (sama sa *pag-train og kaabag, pagtisok og sumbanan sa integridad sa patigayon, o pagbilin og marka sa pag-pray sa panamalay*) ang imong ituyo nga i-execute ug i-pasa karong semanaha aron maseguro nga ang imong pagpangulo adunay dako nga impact ug open heavens lapas sa imong henerasyon?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

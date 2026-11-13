@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12: Pagka-Ginoo | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.1rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.35rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .highlight-box {
+            background: rgba(255, 215, 0, 0.03);
+            border: 1px solid #ffd700;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+        }
+
+        .aspeto-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+            margin: 25px 0;
+        }
+
+        .aspeto-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid #444;
+            border-radius: 12px;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .aspeto-card:hover {
+            border-color: #ff4500;
+            background: rgba(255, 69, 0, 0.03);
+        }
+
+        .aspeto-title {
+            font-size: 1.2rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.04);
+            border-left: 3px solid #d4af37;
+            padding: 12px 15px;
+            margin-top: 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.05rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .stats-box {
+            background: rgba(0, 0, 0, 0.4);
+            border-left: 4px solid #ffd700;
+            padding: 12px 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>PAGKA-GINOO</h1>
+            <p>(Cell Lesson Twelve)</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Filipos 2:11</strong> - "Ug ang tanan magsangyaw nga si Jesu Cristo mao ang Ginoo, alang sa himaya sa Dios nga Amahan."
+        </div>
+
+        <p>Ang <strong>“pagka-Ginoo”</strong> usa sa mga pinaka-importante nga pagtulon-an sa Biblia. Atong tan-awon ang kabug-aton niini sa tibuok Kasulatan:</p>
+        
+        <div class="stats-box">
+            📊 Ang pulong <strong>“Ginoo” (Lord)</strong> nasulat sa Biblia sa <span class="highlight-text">7,484 ka besis</span> (618 ka higayon sa Bag-ong Tugon). <br>
+            ⚠️ Ang pulong <strong>“Manluluwas” (Savior)</strong> nasulat lang sa <span class="highlight-text">55 ka besis</span>.
+        </div>
+
+        <p>Ang gitagaan ug dakong kabug-aton sa Biblia mao gayod ang Pagka-Ginoo. Ang pulong Ginoo nagpasabot ug <strong>“Agalon,”</strong> diin Siya ang magbuot, ug maghimo ug desisyon sa atong kinabuhi.</p>
+
+        <!-- SECTION 1 -->
+        <h2>Ang Pagka-Ginoo Importante sa Kaluwasan</h2>
+        <p>Ang sinugdanan sa kaluwasan mao ang pag-ila nga si Cristo mao ang Ginoo. Ang pagkompisal nga si Jesus Ginoo nagpasabot nga ikaw mitugyan Kaniya ug imo Siyang gitugotan nga mahimong Ginoo (magbuot) sa tanang aspeto sa imong kinabuhi.</p>
+        <p>Kung si Jesus dili Ginoo sa tibuok nimong kinabuhi, dili Siya imong Ginoo. Dili mahimo nga ato lang Siyang dawaton nga “manluluwas” ug dili Ginoo. Maluwas ka kon imong dawaton si Jesus nga Ginoo.</p>
+        
+        <div class="verse-box">
+            <strong>Roma 10:9</strong> - "Maluwas ka kon ipahayag mo nga si Jesus mao ang Ginoo, ug kinasingkasing mutoo ka nga gibanhaw siya sa Dios."
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+            Sa unang siglo, ang deklarasyon nga **"Jesus is Lord" (Iesous Kyrios)** usa ka kuyaw kaayo nga pamahayag tungod kay ang emperador sa Roma nagmando nga ang tanan mosulti ug "Caesar is Lord." Ang pag-ingon nga si Jesus Ginoo nagpasabot nga gibalhin na nimo ang imong tibuok loyalty ug pagsunod gikan sa kalibutan ngadto sa trono ni Cristo.
+        </div>
+
+        <!-- SECTION 2 -->
+        <h2>Ang Pagka-Ginoo Nagkinahanglan ug Pagtuman</h2>
+        <p>Kinsa kadtong moangkon nga si Cristo iyang Ginoo, kinahanglan motuman unsay Iyang isulti ug imando. Ang pagtuo sa hunahuna ug ang taphaw nga pagkompisal dili igo. Kung moingon kita nga si Cristo atong Ginoo, kinahanglan makita kini sa atong kinabuhi nga matinumanon.</p>
+        <div class="verse-box">
+            <strong>Lukas 6:46</strong> - "Nganong nagtawag man kamo kanako, 'Ginoo, Ginoo' nga dili man kamo mobuhat sa akong gisugo kaninyo?"<br><br>
+            <strong>Mateo 7:21</strong> - "Dili ang tanan nga magtawag kanako 'Ginoo, Ginoo,' makasulod sa Gingharian sa Langit kondili kadto lamang nagtuman sa kabubut-on sa akong Amahan..."
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+            Si Jesus nagpahayag dinhi nga ang tinuod nga pagkatinun-an dili masukod sa emosyon o sa bokabularyo ("magtawag 'Ginoo, Ginoo'"), kondili masukod kini sa **OBEDIENCE**. Ang pagka-Ginoo usa ka action word—nagpasabot kini og hingpit nga pag-uyon ug pagbuhat sa kabubut-on sa Dios bisan pa man kung kini sukwahi sa atong gusto.
+        </div>
+
+        <!-- SECTION 3 -->
+        <h2>Ang Pagka-Ginoo Magsugod sa Kasingkasing</h2>
+        <p>Ang pagsabmitar sa pagka-Ginoo ni Jesu-Cristo dili pagsunod ug mga relihiyuso nga balaod o pagtuman ug mga tradisyon. Hinuon, ang pagka-Ginoo ni Jesus nganhi sa atong kinabuhi magsugod nganhi sa atong kasingkasing. Magsugod kini sa usa ka <strong>“masinugtanon nga kasingkasing” (yielded heart)</strong>. Kung tinuod kini nga pagsabmitar, makita kini diha sa gawas nga binuhatan. Dili igo nga atong baba modeklarar nga si Jesus Ginoo, kinahanglan nga Siya gayud ang tag-iya sa atong kasingkasing!</p>
+        <div class="verse-box">
+            <strong>1 Pedro 3:15</strong> - "Hinuon pasidunggi ninyo si Cristo diha sa inyong kasingkasing, ug himoa siya nga inyong Ginoo."
+        </div>
+
+        <!-- SECTION 4 -->
+        <h2>Ang Pagka-Ginoo Kinahanglan Makanunayon</h2>
+        <p>Nagsugod ang atong Cristohanon nga kinabuhi pinaagi sa pag-ila nga si Jesu-Cristo Ginoo. Magpadayan kita pagkinabuhi ilalom sa Iyang pagbulot-an hangtod sa tibuok natong kinabuhi. Ang pag-ila sa pagka-Ginoo ni Jesus dili makausa lang nga kasinatian, kondili adlaw-adlaw kinahanglan makanunayon ang pagpalalom sa atong relasyon Kaniya. Sa magkalalom ang atong pag-ila Kaniya, mosamot kita ka masinugtanon Kaniya <span class="highlight-text">(Colosas 2:6-7)</span>.</p>
+
+        <!-- SECTION 5 (ASPETO GRID) -->
+        <h2>Ang Pagka-Ginoo Alang sa Tanang Aspeto sa Kinabuhi</h2>
+        <p>Kinahanglan Ginoo si Jesus sa atong mga:</p>
+
+        <div class="aspeto-grid">
+            <!-- RELASYON -->
+            <div class="aspeto-card">
+                <div class="aspeto-title">👥 1. Relasyon</div>
+                <p>Ang atong pagtahod Kaniya mas labaw kay sa bisan kinsa nga tawo, bisan pa gani sa mga miyembro sa atong pamilya. Mas tumanon natto Siya kay kang bisan kinsa. Nag-ingon si Jesus nga kung atong ikompara ang atong paghigugma Kaniya ngadto sa atong mga minahal sa kinabuhi, mura nalang kini ug pagdumot.</p>
+                <div class="verse-box" style="margin-bottom: 0;">
+                    <strong>Lukas 14:26</strong> - "Kinsa kadtong moari kanako nga dili magdumot sa iyang amahan ug inahan, sa iyang asawa ug mga anak... dili mahimong akong tinun-an..."
+                </div>
+                <div class="leader-insight">
+                    <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                    Ang pulong nga "magdumot" (hate) nga gigamit ni Jesus usa ka Semitic idiom nga nagpasabot ug "to love less" (paghigugma og mubo o kubos). Wala magmando si Jesus nga magdumot kita sa pamilya, apan nagkanayon Siya nga ang atong gugma Kaniya kinahanglan nga dako ug dilaab kaayo nga kon ikompara sa atong gugma sa pamilya, mora na kini og pagdumot.
+                </div>
+            </div>
+
+            <!-- KAUGALINGON -->
+            <div class="aspeto-card">
+                <div class="aspeto-title">👤 2. Kaugalingon</div>
+                <p>Kinahanglan mas higugmaon nato si Ginoo labaw kay sa atong kaugalingon. Dili na kita ang matuman kondili Siya na. Dili na kita maghimo ug mga desisyon nga supak sa Iyang kabubut-on. Ang ato nang ambisyon mao ang paglakaw sa Iyang plano ug sa katuyoan.</p>
+                <div class="verse-box" style="margin-bottom: 0;">
+                    "...sa iyang kaugalingon, dili mahimong akong tinun-an. Ug kinsa kadtong dili mopas-an sa iyang Cross ug mosunod kanako, dili mahimo nga akong tinun-an."
+                </div>
+                <div class="leader-insight">
+                    <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                    Ang pagpas-an sa krus sa unang siglo nagpasabot og usa ka butang lamang: **Kamatayon**. Ang pagka-Ginoo nagtawag kanato sa pagpalansang sa atong garbo, sa atong "rights," ug sa atong kinaugalingong agenda, aron ang kabubut-on ni Cristo mao ang hingpit nga matuman karong adlawa.
+                </div>
+            </div>
+
+            <!-- PANALAPI -->
+            <div class="aspeto-card">
+                <div class="aspeto-title">💰 3. Panalapi</div>
+                <p>Mas higugmaon nato si Jesus kay sa mga butang niining kalibutana. Daghang mga Christohanon ang nahulog sa paghigugma sa salapi, mao nga nawala sila sa ilang pag-alagad sa Dios ug nahiagom sa daghang mga kagul-anan <span class="highlight-text">(1 Timoteo 6:10)</span>.</p>
+                <div class="verse-box" style="margin-bottom: 0;">
+                    <strong>Lukas 14:33</strong> - "Sa samang pagkaagi, walay bisan kinsa kaninyo nga mahimong akong tinun-an gawas kon iyang biyaan ang tanan niyang katigayonan."
+                </div>
+                <div class="leader-insight">
+                    <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                    Ang pagbiya sa katigayonan nagpasabot og **Ownership Transfer**. Dili kini buot ipasabot nga i-habwa nimo ang tanan mong kwarta, kondili usbon nimo ang imong mentalidad: dili na ikaw ang "tag-iya" sa imong kwarta o negosyo, kondili si Jesus na ang tag-iya, ug ikaw nahimo na lamang nga usa ka masaligan nga tinugyanan (steward) Kaniya.
+                </div>
+            </div>
+        </div>
+
+        <!-- HIGHLIGHT BOX GALACIA -->
+        <div class="highlight-box">
+            <p style="margin: 0;">Ang tinuod nga magtutuo nagadumili na sa ilang kaugalingon aron si Cristo na ang mahimong Ginoo sa ilang kinabuhi. Si Apostol Pablo nagkinabuhi niini nga kamatuoran:</p>
+            <div class="verse-box" style="border-color: #ffd700; margin: 15px 0 0 0;">
+                <strong>Galacia 2:20</strong> - "Gilansang ako uban kang Cristo didto sa Cross, busa dili na ako ang nabuhi kondili si Cristo na nga ania kanako. Ug kining kinabuhi ko karon akong gikinabuhi diha sa pagtuo ko sa Anak sa Dios nga nahigugma kanako ug nagpakamatay alang kanako."
+            </div>
+        </div>
+
+        <!-- QUESTIONS BOX -->
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar nga Pangutana:</h3>
+            <ul>
+                <li>Unsay aspeto sa atong kinabuhi nga si Kristo dili pa hingpit ang nagbuot (relasyon, panalapi, panahon, o kaugalingon)? Andam ka ba motugyan niini Kaniya karon?</li>
+                <li>Unsay mahitabo ug kausaban sa imong pamilya ug ministeryo kung si Jesus na ang tinuod nga nagdumala sa tibuok nimong kinabuhi <span class="highlight-text">(Galacia 2:20)</span>?</li>
+                <li>Unsaon nimo pagkahibalo o unsa ang mga timaan nga ang salapi o materyal nga butang na ang imong agalon ug dili na si Jesu-Cristo? (I-share ang inyong panahom)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

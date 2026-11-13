@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 1: Ang Unang Dominyo | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(212, 175, 55, 0.03);
+            border: 1px solid #d4af37;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.05);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 1: THE LAW OF THE FIRST DOMAIN</h1>
+            <p>"Ang Unang Dominyo: Pagdumala ug Pagbuntog sa Kaugalingon"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Proverbio 16:32, Proverbio 25:28, ug 1 Corinto 9:25-27<br>
+        <strong>Katuyoan:</strong> Aron masabtan sa matag lider ug magtutuo nga ang tinuod nga pagpangulo sa Gingharian sa Dios magsugod sa pagdumala sa kaugalingong unod, huna-huna, dila, ug emosyon, ug aron ma-armasan sila sa prinsipyo sa Core Discipline para sa malungtarong kalampusan ug dako nga breakthrough sa pamilya, trabaho, ug negosyo.</p>
+
+        <h2>Introduction: Ang Balaod sa Unang Teritoryo</h2>
+        <p>Karon, atong sugdan ang pormal nga unang leksyon niining lawom nga serye sa pagdumala sa *Spiritual Realm*: ang **Law of the First Domain**. Daghang mga Kristohanon karon ang dinalian nga nangandoy nga mamahimong dakong lider—gusto silang manguna sa usa ka dakong negosyo, madasigon nga mag-lider sa opisina, o mogunit og dakong posisyon sa ministeryo sa simbahan. Apan sa structural nga sistema sa Gingharian sa Dios, adunay usa ka lig-on, hait, ug dili mabalhin nga balaod: <span class="highlight-text">You cannot govern others if you cannot govern yourself.</span> (Dili ka makadumala o makamando sa ubang tawo kon dili ka makahimo sa pagmando ug pagdumala sa imong kaugalingong pagkatawo).</p>
+        
+        <p>Mao kini ang atong gitawag nga **Ang Unang Dominyo: Pagdumala sa Kaugalingon (Self-Government and Core Discipline)**. Sa dihang gicreate sa Dios ang tawo, Iyang gitugyan kanila ang mandato sa pagmando ibabaw sa tibuok kalibutan. Apan sa spiritual realm, ang unang dapit diin unta sila nagmando mao ang ilang kaugalingong tinguha, emosyon, ug pagkamasugtanon sa Pulong sa Dios. Sa dihang napakyas si Adan ug Eva sa pagdumala sa ilang unod batok sa sugyot sa bitin, dinalian nga nawala kanila ang legal nga katungod ug dominyo ibabaw sa tibuok yuta. Ang kapildihan sa gawas naggikan sa kapildihan sa sulod.</p>
+        
+        <p>Gipasabut ni Hari Salomon kon unsa ka gamhanan, kadungganan, ug anointing ang usa ka tawo nga nakabaton niining balaang disiplina sa iyang espiritu:</p>
+
+        <div class="verse-box">
+            <strong>Proverbio 16:32</strong>
+            "Ang tawo nga mapailubon mas maayo kaysa gamhanan; ug ang nagadumala sa iyang kaugalingong espiritu (huna-huna, dila, ug emosyon) mas maayo kaysa kaniya nga nagakuha sa usa ka syudad."
+        </div>
+        <p>Sa spiritual realm, ang kaaway (si Satanas) wala nahadlok sa kadako sa imong unodnong titulo, sa imong sikat sa gawas, o sa imong posisyon; siya nahadlok sa imong **Core Discipline** diha sa tago. Kon ikaw makamao mobalibad sa imong unod, ikaw adunay legal nga awtoridad batok sa kangitngit. Karong adlawa, atong i-reclaim ang atong unang dominyo aron si Kristo Hesus mao ang maghari sa trono sa atong tibuok nga pagkatawo!</p>
+
+        <h2>I. Ang Anatomy sa Lider nga Walay Self-Government (The Defenseless Wall)</h2>
+        <p>Aron atong masabtan sa espiritu kon unsa ka delikado ug ka risgo kon mawad-an kita og disiplina sa atong kaugalingon, atong puy-an ug tun-an kining hait ug makapa-mata nga paghulagway gikan sa Basahon sa Proverbio:</p>
+        
+        <div class="verse-box">
+            <strong>Proverbio 25:28</strong>
+            "Kon dili ka makapugong sa imong kasuko, mahisama ka sa usa ka siyudad nga walay paril ug sayon rang atakihon.(defenseless city)."
+        </div>
+        
+        <p>Sa karaang panahon, ang usa ka syudad nga naguba ug walay mga pader o bongbong (*defenseless city*) dali ra kaayong sudlon, kawataron, ug guboon sa mga bandido ug sa kasundalohan sa kaaway sa bisan unsang oras sa kagabhion tungod kay wala man kiniy proteksyon. </p>
+        <p>Sa samang pamaagi, kon ang usa ka lider o magtutuo walay *self-government*, ang iyang kinabuhi ug pamilya walay espirituhanong proteksyon o *shield*. Siya mamahimong biktima sa mga pag-atake sa yawa. Atong bantayan kining tulo ka delikado nga mga pultahan nga maablihan sa kaaway kon kita walay disiplina:</p>
+
+        <div class="point-box">
+            <div class="point-title">🔥 1. The Gate of Ungoverned Emotions (Emosyon nga Walay Disiplina ug Pader)</div>
+            <p>Kini mao ang saktong hulagway sa usa ka lider nga dali kaayong mapuno sa kalit nga kasuko, daling ma-offend, daling magpadala sa kahiubos, ug sige og *overthink* sa matag higayon nga adunay dili masabtan sa iyang pamilya, trabaho, o negosyo. Kon ang imong emosyon ug ang imong unod maoy magbuot sa imong mga desisyon ug sulti, ang kaaway (*Spirit of Discord*) mogamit kanimo isip usa ka dula-dulaan aron magdala og bungkag sa imong panimalay ug sa imong team.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🥩 2. The Gate of Ungoverned Appetite (Unod ug Tinguha nga Walay Disiplina)</div>
+            <p>Mao kini ang makalilisang nga trahedya nga nahitabo kang Esau sa Daang Tugon. Tungod lamang sa dinalian nga kagutom sa iyang unod ug sa paggukod sa peke nga kaharuhay, iyang gibaligya ang iyang dako nga katungod isip kamagwangan alang lamang sa usa ka panaksan nga sabaw nga lumalabay lang.</p>
+            <div class="verse-box">
+                <strong>Hebreohanon 12:16-17</strong>
+                "16 Matngoni usab ninyo nga dili kamo mahimong imoral o mahimong dili espirituhanon sama kang Esau nga nagbaligya sa iyang katungod sa pagkapanganay nga anak tungod lamang sa usa ka pagkaon. 17Nasayod kamo nga sa nangayo na siya sa panalangin nga iyang mapanunod sa iyang amahan, gisalikway siya kay dili na man niya mabakwi ang iyang gibuhat bisan pag naghilak siya ug nagpakiluoy pag-ayo."
+            </div>
+            <p style="margin: 0;">Kon ang usa ka lider walay disiplina sa iyang mata diha sa screen sa iyang gadget (*Digital Altars*), walay disiplina sa iyang panalapi, o magpadala sa unodnong kahweak sa sekso (*Spirit of Bathsheba*), iyang gi-sabotahe ug gi-disqualify ang iyang kaugalingon sa dako nga anointing ug destiny nga giandam sa Dios.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🐍 3. The Gate of Spiritual Lazivity (Katapol ug Kakapoy sa Espiritu)</div>
+            <p style="margin: 0;">Kini magsugod kon ang usa ka magtutuo mapuno sa unodnong kakapoy ug katapolan na nga mo-ampo sa tago, tapulan na nga mag-fasting, ug wala nay disiplina sa pagbasa sa Bibliya. Ang *Spirit of Python* mosulod sa hilom kaayo nga pamaagi aron pahuotan ang imong dila sa pag-ampo ug prayer life hangtod nga mawad-an ka og espirituhanong kusog, kalayo, ug balaang anointing. Ang katapol mao ang lubnganan sa maayong potensyal.</p>
+        </div>
+
+        <h2>II. Ang mga Pundasyon sa Core Discipline diha sa Leadership Realm</h2>
+        <p>Karon, unsaon man nato pagmando, pag-atake, ug pag-guba niining unodnong katapolan aron mabarog ang atong mga pader? Gihatagan kita ni Apostol Pablo og klaro ug militaristiko nga ehemplo sa usa ka atleta ug sundalo sa spiritual realm:</p>
+        
+        <div class="verse-box">
+            <strong>1 Corinto 9:25-27</strong>
+            "²⁵Ug ang matag tawo nga nakigbisog sa lumba nagabansay sa pagpugong sa kaugalingon (self-control) sa tanang mga butang. Karon ilang ginabuhat kini aron makadawat sa usa ka purongpurong nga madunot; apan kita usa ka purongpurong nga dili madunot... ²⁷Apan akong ginadisiplina ang akong lawas (buffet my body) ug gihimo kini nga akong ulipon: basin unya nga human nako ug wali sa uban, ako mismong kaugalingon ma-disqualify."
+        </div>
+        
+        <p>Atong puy-an, i-activate, ug barogan kining tulo ka dagkong pundasyon sa tinuod nga Self-Government:</p>
+        <ul>
+            <li>🧠 <span class="highlight-text">1. Disiplina sa Huna-huna (Mental Discipline):</span> Dili nimo mapugngan ang mga dautang sugyot, kabalaka, o unodnong huna-huna nga ilabay sa kaaway sa imong ulo, apan pwedeng-pwede nimo **dumilian nga dili kini pakan-on, puy-an, o handurawon**. Ang lider nga adunay disiplina kabalo mo-execute og *swift retreat* batok sa mga dautang pantasya pinaagi sa pagsupil ug pag-guba sa matag bakak ngadto sa pagkamasugtanon kay Kristo.
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>2 Corinto 10:4-5</strong> - "⁴Kay ang mga hinagiban sa atong panggubatan dili unodnon, kondili gamhanan pinaagi sa Dios ngadto sa paglumpag sa mga kuta; ⁵Ngalumpag sa mga pangatarungan, ug sa matag taas nga butang nga nagatuboy sa iyang kaugalingon batok sa kahibalo sa Dios, ug nagasupil sa matag hunahuna ngadto sa pagkamasugtanon kay Kristo."
+                </div>
+            </li>
+            <li>🗣️ <span class="highlight-text">2. Disiplina sa Dila ug Sulti (Tongue Discipline):</span> Ang tinuod nga lider kabalo mopogong ug moforce sa iyang dila nga dili mosulod sa mga tabi, libak, tsismis, o pagsaway sa laing tawo ug liderato. Kabalo siya nga ang iyang dila adunay gahum sa pag-create og open heavens o pagdala og kalayo sa kapildihan. He speaks words of life, structure, alignment, and vision!
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Santiago 3:2</strong> - "2Kitang tanan masayop. Ang tawo nga dili masayop sa iyang pagpanulti hingpit ug makahimo sa pagpugong sa iyang kaugalingon. "
+                </div>
+            </li>
+            <li>⏰ <span class="highlight-text">3. Disiplina sa Oras ug sa Altar (Time and Altar Discipline):</span> Kini mao ang tinuyoan nga paggahin ug saktong oras alang sa Dios labaw sa tanan. Ang lider nga adunay *self-government* mag-una ug magluhod gayod sa pag-ampo sa buntag sa dili pa niya gunitan, i-on, o tan-awon ang iyang cellphone. Iyang gihimo ang iyang lawas nga ulipon sa espiritu aron mosunod sa balaang prinsipyo, dili sa kapritso sa unod.</li>
+        </ul>
+
+        <h2>III. How to Establish Self-Government (Ang mga Leadership Strategies)</h2>
+        <p>Kinahanglan natong mahibaloan nga ang disiplina sa kaugalingon dili makuha pinaagi lamang sa tawhanong paningkamot o kusog sa unod; kini usa ka dako nga **Bunga sa Espiritu Santo (Fruit of the Spirit)**. Aron atong ma-activate kini, ania ang atong tulo ka mga warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">📝 1. Establish Rigid Rules for Your Flesh (Butangi og Prisohan ug Limitasyon ang Unod)</div>
+            <p>Ayaw gayod salig sa emosyon sa imong unod, kay ang unod malinglahon kaayo. Paghimo og konkreto ug tinuyoan nga mga balaod sa imong kinabuhi uban ang tabang sa Espiritu Santo. </p>
+            <p>Pananglitan, mag-set ka og lig-on nga balaod sa pamilya: **"No Bible, No Breakfast"** (walay kaon kon dili makabasa sa Pulong), o walay pag-atubang sa social media kon wala pa nahuman ang saktong oras sa Warfare Prayer. Kon imo kining buhaton, ginasugdan nimo og sunog ang kuta sa katapol ug gipapahawa nimo ang peke nga kaharuhay sa yawa!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🧎‍♂️ 2. Practice Daily Exposure and Surrender (Ang Paglimpyo Matag Gabii sa Altar)</div>
+            <p>Sa dili pa ka matulog sa gabii, ayaw lang direkta og higda uban ang kakapoy. Gahini og lima ka minuto ang pagluhod sa tiilan ni Hesus. I-expose ang imong kasingkasing ug pangutana sa tago: *“Lord, naa ba koy nasulti nga dili saktong pulong karong adlawa? Naa ba koy nasulod nga garbo o kompromiso sa akong huna-huna samtang nagtrabaho o nag-negosyo?”* </p>
+            <p>I-confess dinalian ug gihugasi kini sa Dugo ni Hesus aron hingeslan ang matag liso sa kaaway sa dili pa kini makagamot ug makaguba sa imong anointing.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release Warfare Prayer to Destroy Self-Government Killers (Gihinginlan ang Katapol)</div>
+            <p>Gamita ang balaan ug legal nga awtoridad nga gihatag ni Kristo kanimo isip usa ka royal priesthood aron hinginlan ang matag espiritu sa rebelyon, katapul, ug kawalay pagpugong sa kaugalingon sa imong panimalay. </p>
+            <p>Sa imong Warfare Prayer, i-proclaim kini uban ang kalayo ug kadasig: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan, gipapahawa, ug ginasunog ang matag operasyon sa Spirit of Rebellion, katapul, imoralidad, ug overthinking sa akong lawas ug huna-huna! Akong gina-deklarar karong gabhiona nga ang akong unod ulipon sa Espiritu Santo. Ako adunay pader, ug ako adunay balaang gahum sa pagpugong sa kaugalingon! Akong i-claim ang supernatural nga kaisog, lunsay nga integridad, ug dako nga Breakthrough sa akong pagpangulo karong semanaha! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: Ang Hingpit nga Panig-ingnan</h2>
+        <p>Mga igsoon diha sa Ginoo, tapuson natong tibuok cellgroup kini pinaagi sa pagtan-aw sa unahan—didto sa dapit diin si Hesus nagpuyo isip ang hingpit nga panig-ingnan sa usa ka Lider. Sulod sa 40 ka adlaw ug gabii didto sa kamingawan, sa dihang gi-atake Siya sa yawa sa panahon nga Siya gigutom ug gikapoy, gibalibaran, gipukan, ug gidumala Niya ang matag tinguha sa unod, sa mata, ug ang garbo sa kinabuhi pinaagi sa Pulong sa Dios! Ug tungod kay nadaug ug nadumala Niya ang Iyang Kaugalingon batok sa tentasyon, gihatagan Siya sa Dios og dako nga awtoridad ug ganti nga magmando ibabaw sa tanang kuta sa kangitngit!</p>
+        
+        <p>Ang imong dako nga kalampusan sa dagan sa imong patigayon, ang kalinaw sa sulod sa imong panimalay, ug ang open heavens sa imong cellgroup nagdepende gayod kon unsa ka ka-matinud-anon sa **Ang Unang Dominyo**. Ayaw na gayod ihalad ang imong huna-huna ug ang imong bulawanong oras sa altar sa katapul ug sa kalingawan sa kalibutan karon. Momata kita gikan sa espirituhanong pagkatulog ug pagkahuyang! Isulob ang tibuok Armor sa Dios, puy-i ang Core Discipline, dumala-a ang imong kaugalingon uban ang kaputli, ug i-proclaim nato ang supernatural nga kalampusan, kadaugan, ug tinuod nga kagawasan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card" style="background: rgba(212, 175, 55, 0.2); border-left: 4px solid #d4af37;">
+            <h3>⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP ACTIVATION (BUILDING THE WALLS OF DISCIPLINE)</h3>
+            Lider, hangyoa ang tibuok grupo sa katapusan. Ipandong ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining dinalian nga decree sa deliverance ug pag-rebuke sa unod uban ang kaisog ug awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among gihinginlan , gipukan, ug ginasunog ang matag kuta sa katapol, kalubagon sa emosyon, daling masuko, ug kawalay disiplina sa among mga kinabuhi! Akong gina-rebuke ang matag demonyohanong udyong sa yawa nga misulay sa pagguba sa among mga pader.*
+            <br><br>
+            *Sa Ngalan ni Hesus, bungkagon ko ang matag Digital Altar ug unodnong tinguha ni Esau sa among huna-huna! Ginoo, ibubo ang presko nga dihug sa Holy Spirit ug ang grasya sa pagpugong sa kaugalingon sa matag lider karon. Gideklara namo nga sugod karon, ang among lawas ug dila nahimong ulipon na sa Espiritu Santo, ug ang among panimalay ug negosyo mapanalipdan gikan sa mga kawatan sa kangitngit! Kami mga lig-on, approved, ug nagbarog nga adunay pader sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Proverbio 16:32**, nganong giingon man sa Dios nga ang tawo nga makamao modumala sa iyang kaugalingong espiritu (emosyon, dila, ug huna-huna) mas maayo ug mas gamhanan kaysa sa usa ka heneral nga nakakuha og usa ka dako nga syudad?</li>
+                <li>Susiha ang **Proverbio 25:28** ug ang metafor sa usa ka *syudad nga walay bongbong (defenseless city)*. Unsa nga mga piho nga pultahan (sama sa *Gate of Ungoverned Emotions* o *Digital Altars* sa gadget) ang sige og atake sa kaaway sa imong kinabuhi kon ikaw makuwangan sa disiplina, ug unsa ang mamahimong epekto niini sa imong pamilya ug grupo?</li>
+                <li>Ipaambit sa grupo sa tinud-anay nga pamaagi: Unsa nga konkreto ug praktikal nga limitasyon o balaod (sama sa *No Bible, No Breakfast*, pag-ampo sa buntag sa dili pa gunitan ang phone, o pag-disiplina sa dila gikan sa tabi) ang imong pagatuyoon nga i-execute sugod ugma aron ma-activate ang *First Domain*?</li>
+            </ol>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10: Paglakaw Uban Sa Dios | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.1rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.35rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .comparison-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .comp-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid #444;
+            padding: 18px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .comp-box:hover {
+            border-color: #ffd700;
+            background: rgba(255, 215, 0, 0.03);
+        }
+
+        .comp-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.04);
+            border-left: 3px solid #d4af37;
+            padding: 12px 15px;
+            margin-top: 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.05rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .bunga-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .bunga-item {
+            background: rgba(255, 215, 0, 0.05);
+            border-left: 3px solid #ffd700;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .comparison-container, .bunga-grid {
+                grid-template-columns: 1fr;
+            }
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>PAGLAKAW UBAN SA DIOS</h1>
+            <p>(Cell Lesson Ten)</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Genesis 5:21-24</strong> - "Sa 65 na ang panuigon ni Enoc, may anak siyang lalaki nga si Matusalem. Human matawo si Matusalem, si Enoc nagkinabuhi nga matinumanon sa Dios sa laing 300 ka tuig... Nagmatinumanon siya sa Dios sa tibuok niyang kinabuhi, ug wala na siya igkita kay gikuha man siya sa Dios."
+        </div>
+
+        <h2>Ang Kalahian sa “Nagkinabuhi Lang” ug sa “Naglakaw Uban sa Dios”</h2>
+        
+        <div class="comparison-container">
+            <div class="comp-box">
+                <h3>⏳ Nagpuyo Lang</h3>
+                <p style="font-size: 0.98rem; margin: 0;">Mao kadtong tawo nga nagkinabuhi nga kinaugalingon lang. Wala siya nanginlabot sa Dios ug ang Dios wala nanginlabot kaniya. Nagkinabuhi siya nga minandoan sa iyang mga tawhanong tinguha ug kailibgon.</p>
+            </div>
+            <div class="comp-box" style="border-color: #ff4500; background: rgba(255,69,0,0.02);">
+                <h3>👣 Naglakaw Uban sa Dios</h3>
+                <p style="font-size: 0.98rem; margin: 0;">Mao kadtong tawo nga nahiusa sa Dios. Naglakaw siya uban sa “presensya”, “pabor” ug “panalangin” sa Dios. Nahilambigit siya sa Dios ug ang Dios kaniya. Madunggan niya ang tingog sa Dios ug buhi kaayo ang iyang relasyon.</p>
+            </div>
+        </div>
+
+        <h2>Gikan sa Paglakaw nga Kinaugalingon Ngadto sa Paglakaw Uban sa Dios</h2>
+        <p>Si Enoc nagkinabuhi nga nag-iya-iya lang apan sa pag-edad niya ug 65, nagsugod siya pagkinabuhi uban sa Dios sulod sa 300 ka tuig.</p>
+        <p>Mao gihapon kita, wala kita natawo nga naglakaw na dayon uban sa Ginoo. Adunay sinugdanan ang atong paglakaw uban sa Dios: <strong>Sa dihang atong gitugyan ang atong kinabuhi kang Cristo.</strong> Sa atong pagtuo kang Jesus, napasaylo ang atong mga sala ug nahiusa kita sa Dios <span class="highlight-text">(2 Corinto 5:18-19)</span>. Si Kristo lang ang makahiusa kanato ngadto sa Dios <span class="highlight-text">(Juan 14:6, 1 Timoteo 2:5)</span>.</p>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT ON ENRECHED CONTEXT -->
+        <div class="leader-insight">
+            <span class="insight-label">💡 Espirituhanong Insight Alang sa Lider:</span>
+            Matikdi nga nagsugod ang paglakaw ni Enoc uban sa Dios human matawo ang iyang anak nga si Matusalem (nga ang pasabot sa ngalan kay: "Inigkatigulang o inigkamatay niya, moabot ang baha"). Ang pagkahimong amahan ug ang pagbutyag sa Dios kaniya mahitungod sa umaabot nga paghukom mao ang nagdala og balaang kahadlok ug nakapausab sa dagan sa kinabuhi ni Enoc gikan sa pagkalinglahon ngadto sa paglakaw uban sa Iyang Presensya.
+        </div>
+
+        <h2>Ang Pasabot sa Paglakaw Uban sa Dios</h2>
+        
+        <ol>
+            <li>
+                <strong class="highlight-text">Lalom ug buhi ang atong Relasyon sa Dios (Marcos 12:28-30)</strong>
+                <p style="margin-top: 5px;">Ang atong relasyon sa Dios usa ka Amahan ngadto sa Anak nga relasyon <em>(intimacy)</em>. Ang una natong tawag <em>(calling)</em> mao ang paglakaw uban kaniya ug dili ang “pagtrabaho” uban kaniya. Usahay daghan kaayo kita ug ginabuhat para kaniya nga wala na kitay panahon kaniya sama ni Marta ngadto kang Jesus <span class="highlight-text">(Lukas 10:38-42)</span>. Dili nato undangan ang pagpangita sa Iyang nawong nga mao ang Iyang Buhi nga Presensya <span class="highlight-text">(Salmo 119:135)</span> ug dili nato walaon ang atong init nga gugma <span class="highlight-text">(Gipadayag 2:1-5)</span>.</p>
+            </li>
+            <li>
+                <strong class="highlight-text">Maayo ang atong relasyon sa Dios ug walay babag (Hebreo 11:5)</strong>
+                <p style="margin-top: 5px;">Ang mga Kristohanon nga nagpuyo pa gihapon sa sala ug nagpauyon pa sa kalibotan ginatawag sa Dios ug mga “mananapaw” <span class="highlight-text">(Santiago 4:4)</span>. Apan bisan pa niini, ang Dios nahigugma gihapon kanila ug nagatawag nga sila mobiya na sa ilang mga sala ug mobalik Kaniya <span class="highlight-text">(Oseas 3:1-3)</span>. Ang paglakaw uban sa Dios nagpasabot nga kita naglakaw nga balaan sama Kaniya.</p>
+            </li>
+            <li>
+                <strong class="highlight-text">Anaa kita sa hingpit nga kabubut-on sa Dios (Buhat 16:6-10)</strong>
+                <p style="margin-top: 5px;">Ang Cristohanon nga naglakaw uban sa Dios anaa sa saktong lugar, uban sa saktong mga tawo ug nagbuhat sa saktong mga butang (trabaho, simbahan, ug ministeryo). Naglakaw sila sibo sa panahon <em>(timing)</em> sa Ginoo.</p>
+            </li>
+        </ol>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT ON INTENSE WALK -->
+        <div class="leader-insight">
+            <span class="insight-label">💡 Espirituhanong Insight Alang sa Lider:</span>
+            Ang Amos 3:3 nag-ingon, "Makalakaw ba ang duha ka tawo sa usa ka dalan gawas kon magkasabot sila?" Ang paglakaw uban sa Dios nagpasabot nga aduna kitay **PAGKASABOT** sa Dios—uyon kita sa Iyang Pulong, uyon kita sa Iyang direksyon, ug andam kitang mosubay sa Iyang gikusgon (pace) ug dalan, bisan pa ug sukwahi kini sa dagan sa kalibutan.
+        </div>
+
+        <h2>Mga Bunga sa Atong Paglakaw Uban sa Dios</h2>
+        <div class="bunga-grid">
+            <div class="bunga-item">💎 <strong class="highlight-text">Bili (Worth)</strong> — <small>Mateo 7:21-23</small></div>
+            <div class="bunga-item">🍇 <strong class="highlight-text">Pagpangalagad (Ministry)</strong> — <small>Juan 15:5, 16</small></div>
+            <div class="bunga-item">📈 <strong class="highlight-text">Pag-uswag ug Kalamposan</strong> — <small>Deut. 28:2</small></div>
+            <div class="bunga-item">🤝 <strong class="highlight-text">Maayong Relasyon sa Uban</strong> — <small>Marcos 12:30-31</small></div>
+        </div>
+
+        <h2>Paglakaw Uban sa Dios Hangtod Kuhaon Ka Niya</h2>
+        <p>Si Enoc naglakaw uban sa Dios hangtod nga siya gikuha na sa Dios <span class="highlight-text">(Genesis 5:24)</span>. Ang importante dili lang ang maayo nga pagsugod, kondili ang maayo nga paghuman. Adunay mga Cristohanon nga maayo ang pagsugod pero dili maayo ang pagtapos. Kinahanglan molahotay kita hangtod sa kahangtoran <span class="highlight-text">(Mateo 24:12-13)</span>. Ayaw tugoti nga adunay tawo, panulay, o mga problema nga mopatay sa atong maayong relasyon sa Dios.</p>
+
+        <h2>Ang Kalahian sa “Namatay” ug sa “Gikuha sa Dios”</h2>
+        <p>Daghan sa mga tawo namatay sa dili pa ang panahon tungod kay nagkinabuhi sila sa ila lang kaugalingon ug wala naglakaw uban sa Dios. Namatay sila tungod sa ilang binuhatan o tungod sa atake sa panulay, kay wala man sila nailalom sa panalipod sa Dios. Ang kamatayon sa tawo nga wala naglakaw sa Dios makasubo kaayo tungod kay ang padulngan mao man ang <em>“linaw nga kalayo”</em> <span class="highlight-text">(Gipadayag 20:15)</span>.</p>
+        
+        <p>Bisan ug naglakaw kita uban sa Dios, aduna gyuy panahon nga kuhaon na kita sa Dios aron mauban Kaniya. Si Enoc wala moagi ug pisikal nga kamatayon, gikuha lang siya dayon. Pero kadaghanan kanato, kung dili nato maabtan ang pagbalik sa Ginoo, moagi gayod ug pisikal nga kamatayon <span class="highlight-text">(Hebreo 9:27)</span>.</p>
+        <p>Kini nga kamatayon dili kapildihan kondili kaayohan tungod kay gikuha na kita sa Dios aron mag-uban Kaniya hangtod sa kahangtoran <span class="highlight-text">(Juan 11:25-26, Filipos 1:21)</span>. Ang kamatayon sa anaa kang Cristo pultahan ngadto sa mas maayo pa nga lugar <span class="highlight-text">(Lucas 16:22; Filipos 1:23)</span>.</p>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT ON ENDURING TO THE END -->
+        <div class="leader-insight" style="border-color: #ff4500;">
+            <span class="insight-label">💡 Espirituhanong Insight Alang sa Lider:</span>
+            Ang Hebreo 11:5 naghatag kanato og dugang katin-awan mahitungod kang Enoc: "Sa wala pa siya kuhaa, nakadawat na siya og pagpamatuod nga nakapahimutang siya sa Dios." Kini ang pinal nga tumong sa atong paglakaw sa pagtuo—nga sa matag adlaw, ang atong kinabuhi naghatag og kahumot ug kalipay sa kasingkasing sa Amahan hangtod sa takna nga Iyang isulti, "Dali, uban na Kanako sa hingpit."
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar sa Kaugalingon:</h3>
+            <ul>
+                <li>Andam na ba kita motugyan sa atong kinabuhi ngadto kang Kristo Jesus?</li>
+                <li>Unsay mga rason nganong ang uban wala makapadayon sa ilang paglakaw sa Dios?</li>
+                <li>Makasulti ba kita sa kinasingkasing nga buhi ug lalom ang atong relasyon sa Dios karon?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

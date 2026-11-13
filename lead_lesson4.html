@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 4: Ang Gubat sa Hunahuna | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(212, 175, 55, 0.03);
+            border: 1px solid #d4af37;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.05);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 4: ANG GUBAT SA HUNAHUNA UG KASINGKASING</h1>
+            <p>"Serye: The Leadership Blueprint — Ang Paglumpag sa mga Kuta sa Kaaway"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 2 Corinto 10:3-5<br>
+        <strong>Kaubang mga Teksto:</strong> 2 Timoteo 1:7, Galacia 6:9, Galacia 1:10, Filipos 4:8, 1 Corinto 2:16, Filipos 4:6-7, ug Proverbio 4:23<br>
+        <strong>Katuyoan:</strong> Aron masabtan ug ma-armasan ang matag usa kanato sa mga espirituhanong estratehiya kon unsaon pagbihag sa matag huna-huna ngadto sa pagkamasugtanon kay Kristo, paglumpag sa mga kuta sa bakak, ug pagpabilin nga madasigon, mapagbaon, ug puno sa pagtuo diha sa atong pagkapangulo sa pamilya, trabaho, ug negosyo.</p>
+
+        <h2>Introduction: Ang Dili Makita nga Panggubatan</h2>
+        <p>Sa structural nga aspeto sa **Realm of Leadership**, ang pinakadako, pinakahait, ug pinakadelikado nga gubat dili mahitabo sa mga pisikal nga boardroom, sa suga sa entablado sa altar, o sa mga meeting sa organisasyon. Ang pinakadako nga gubat diha sa spiritual realm mahitabo sa tago sulod sa hunahuna ug kasingkasing sa lider! </p>
+        <p>Daghan kaayong mga lider ug magtutuo ang kalit lang nangapukan, nangaluya, ug mibiya sa ilang balaang destiny; wala kini mahitabo tungod kay kulang sila sa abilidad, talento, o grasya, kondili tungod kay napildi, nadala, ug naulipon sila sa "gubat sa hunahuna." Ang kalibutan o ang mga tawo sa gawas mahimong moila ug modayeg kanimo nga usa ka madasigon ug malampuson nga lider, apan kon ang imong hunahuna napuno sa mga sekreto nga bakak, kahadlok, depresyon, ug kawalay pagtuo, ang imong pagpangulo mahimong huyang, walay anointing, ug walay klaro nga direksyon.</p>
+
+        <div class="verse-box">
+            <strong>2 Corinto 10:3-5</strong>
+            "3Tinuod nga nagpuyo kami sa kalibotan apan dili kami makig-away tungod sa kalibotanong tinguha. 4Ang mga hinagiban nga gigamit namo sa among pagpakig-away dili mga hinagiban sa kalibotan kondili gamhanang mga hinagiban sa Dios nga molumpag sa mga kota sa sayop nga mga pangatarongan. 5Gipukan namo ang tanang babag nga gigamit sa mapagarbohon batok sa kahibalo mahitungod sa Dios ug gibihag namo ang tanang hunahuna ug gipasunod kang Cristo. 
+        </div>
+        <p>Kini nga kamatuoran nagpakita nga ang kaaway naggamit og mga **"Kuta" (Strongholds)**—nga nagpasabot og mga demonyohanong network sa mga bakak, sipyat nga pangatarungan, ug unodnong pilosopiya nga gitisok sa huna-huna aron bilanggoon ang imong potensyal. Kon dili nato kini lumnagon ug polbuhon pinaagi sa Pulong sa Dios, kini magsilbi nga prisohan sa atong anointing.</p>
+
+        <h2>I. Ang Tulo ka Pangunang Kaaway ug Kuta sa Hunahuna sa Usa ka Lider</h2>
+        <p>Aron kita makadaog sa hingpit sa panggubatan sa atong huna-huna, kinahanglan natong mailhan dinalian ang tulo ka dagkong demonyohanong network nga gigamit sa yawa aron atakehon ang atong leadership realm:</p>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ 1. Ang Espiritu sa Kahadlok ug Pagduda (Inferiority Complex)</div>
+            <p>Mao kini ang sige og udyong sa bakak sa imong ulo: *“Dili ka angayan,” “Mapakyas ra ka sa imong negosyo,” “Biyaan ra ka sa imong mga cell members,”* o *“Dili tinuod ang giingon sa Dios nga mabuak ang open heavens kanimo.”* Ang kahadlok usa ka peke nga pader nga gihimo sa yawa aron paralisahon ang imong kaisog sa pag-abante.</p>
+            <div class="verse-box">
+                <strong>2 Timoteo 1:7</strong>
+                "Kay ang Dios wala maghatag kanato sa espiritu sa kahadlok; kondili sa espiritu sa gahum, ug sa gugma, ug sa maayong panghunahuna (sound mind)."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🐍 2. Ang Espiritu sa Kaguol, Burnout, ug Pagbagulbol (Python Spirit)</div>
+            <p>Kini mosulod pinaagi sa unodnong kakapoy kon mobati ka nga bug-at na ang buluhaton, hinay ang multiplication, o naay problema sa label sa negosyo ug panalapi. Ang *Python Spirit* mosulay sa pag-ut-ot ug pagpuga sa imong espirituhanong kadasig pinaagi sa pagduso kanimo sa pagsige og bagulbol, pagkomparar sa imong kaugalingon sa uban, ug sa paghuna-huna sa pag-backout. Kinahanglan natong bungkagon kining kuta sa kakapoy.</p>
+            <div class="verse-box">
+                <strong>Galacia 6:9</strong>
+                "Busa dili kita magtinapulan sa pagbuhat ug maayo kay kon magmadasigon kita moabot ang panahon nga makaani gayod kita sa bunga niini. (faint)."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 3. Ang Espiritu sa Garbo, Rehiyon, ug Pagkasensitibo (Overthinking & People-Pleaser)</div>
+            <p>Kini mao ang lider nga ang huna-huna kanunayng gikulong sa gihunahuna sa ubang tawo (*“Unsa kahay ilang isulti nako?”*, *“Gi-offend ko nila,”* *“Wala ko gihatagan og importansya sa akong pastor”*). Kini nga kuta nagpakaon sa imong unodnong garbo (*Spirit of Leviathan*) ug naghimo kanimo nga sensitibo kaayo ug daling ma-offend, nga maoy hinungdan sa daling pagkaguba sa panaghiusa sa team.</p>
+            <div class="verse-box">
+                <strong>Galacia 1:10</strong>
+                "Nagpasabot ba kini nga naninguha ako nga kahimut-an sa mga tawo? Wala! Gusto ako nga kahimut-an sa Dios! Naningkamot ba ako aron mahimong inila? Kon naninguha pa gihapon ako niini, dili unta ako mahimong sulugoon ni Cristo."
+            </div>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE GATEKEEPER MATRIX):</span>
+            Lider, ipasabut kini nga hait nga kamatuoran sa grupo: Ang atong huna-huna sama sa usa ka **Siyudad nga adunay Pultahan**. Dili nimo mapugngan ang mga langgam (mga dautang sugyot ug udyong sa bakak gikan sa yawa) sa paglupad sa ibabaw sa imong ulo. Apan pwedeng-pwede nimo **dumilian ug pugngan nga dili sila makahimo og Akad o Pugad** sa sulod sa imong buhok o huna-huna! 
+            <br><br>
+            Ikaw ang *Gatekeeper* (Tigbantay sa Pultahan). Ang matag negatibong huna-huna nga mosulod kinahanglan dinalian nga i-audit ug bihagón subay sa Pulong sa Dios sa wala pa kini makasulod ug makahilo sa imong kasingkasing!
+        </div>
+
+        <h2>II. Ang "Mental Fortitude Matrix": Stratehiya sa Pagbihag sa Hunahuna</h2>
+        <p>Aron kita makatindog nga dili matay-og ug adunay dako nga kalamposan, kinahanglan natong puy-an ug i-execute kining tulo ka balaang estratehiya sa espiritu:</p>
+
+        <div class="point-box">
+            <div class="point-title">🧠 1. Ang Pag-Filter sa mga Hunahuna (The Quality Control Shield)</div>
+            <p>Ayaw tugoti ang imong huna-huna nga mahimong basurahan sa mga negatibong istorya, tabi, ug kabalaka sa kalibutan. I-filter ang matag input gamit kining balaan nga sumbanan gikan sa Pulong sa Dios:</p>
+            <div class="verse-box">
+                <strong>Filipos 4:8</strong>
+                "Sa kataposan, mga igsoon, pun-a ang inyong hunahuna sa mga butang nga maayo ug angayng daygon, sa mga butang nga matuod, ligdong, matarong, putli, matahom ug halangdon."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🦅 2. Ang Pag-angkon ug Paggamit sa "Mind of Christ"</div>
+            <p>Sa matag higayon nga moabot ang krisis sa panalapi o pamilya, ayaw motan-aw gamit ang unodnong lohika. Pangutana dinalian sa espiritu: *“Unsa man ang pagtan-aw ug pagbuntog ni Hesus niini nga sitwasyon?”* Kita adunay katungod sa paghuna-huna sumala sa Iyang kaalam ug pagwagtang sa kapildihan.</p>
+            <div class="verse-box">
+                <strong>1 Corinto 2:16</strong>
+                "Sumala sa gisulti sa kasulatan,
+“Kinsay nahibalo sa hunahuna sa Ginoo? Kinsay makatambag kaniya?”
+Apan nabatonan nato ang salabotan ni Cristo. (mind of Christ)."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ 3. Ang Pag-ampo nga "Garrison" sa Kasingkasing ug Hunahuna</div>
+            <p>Kung moabot ang pag-atake sa overthinking ug kabalaka, ang warfare prayer ug pagpasalamat mao ang mag-activate sa kalinaw sa Dios aron magsilbi nga militaristiko nga bodyguard o *garrison* nga mag-gwardiya sa imong pultahan:</p>
+            <div class="verse-box">
+                <strong>Filipos 4:6-7</strong>
+                ". 6Ayaw kamo kabalaka sa bisan unsa kondili pangayoa sa Dios ang inyong gikinahanglan uban ang pagpasalamat sa tanan ninyong pag-ampo. 7Ug ang kalinaw sa Dios nga dili matugkad sa tawo, manalipod sa inyong kasingkasing ug hunahuna diha sa inyong pagkahiusa kang Cristo Jesus."
+            </div>
+        </div>
+
+        <h2>III. Praktikal nga Leadership Strategies (Application)</h2>
+        <p>I-execute ug puy-i kining tulo ka praktikal nga aplikasyon sa sulod niining semanaha uban ang kadasig:</p>
+
+        <div class="action-card">
+            📌 <span class="highlight-text">1. I-execute ang "Captive Thought" Warfare Exercise:</span> Sa matag higayon nga duna kay mamatikdan nga negatibong hunahuna (kahadlok, pagduda, kasuko, o burnout), ayaw kini pakan-on o puy-an. Isulti dinalian sa imong kaugalingon uban ang balaang awtoridad: *“Gipukan ug ginasupil ko kini nga hunahuna sa kakapoy ug kahadlok diha sa Gamhanang Ngalan ni Hesus! Wala kiniy luna sa akong espiritu!”*
+        </div>
+        
+        <div class="action-card">
+            📖 <span class="highlight-text">2. Paghimo ug Pagbasa sa Imong "Truth List":</span> Isulat sa papel ang mga bakak nga kanunayng ilabay sa yawa sa imong ulo (pananglitan: *“Dili molambo ang imong cell group o negosyo”*). I-partner ug tabuni kini dinalian sa tibuok bersikulo sa Bibliya nga nagtuis niini (pananglitan: *Lucas 16:10 / 1 Corinto 15:58*). Basaha kini sa makaluluha ug madasigon nga pamaagi kada buntag sa dili pa magsugod ang imong adlaw.
+        </div>
+
+        <div class="action-card">
+            🧼 <span class="highlight-text">3. Protektahi Radically ang Imong "Spiritual Input":</span> Susiha pag-ayo ang imong mga gipaminaw, gitan-aw, ug gibasa diha sa imong gadget. Ang usa ka lider nga nangandoy og lig-on, dinihogan, ug hait nga huna-huna dili mahimong pun-on ang iyang huna-huna sa mga unodnong salida, tsismis, ug sekular nga kaguol nga makapahuyang ug mangawat sa iyang kalayo. Gutoma ang unod, pakaona ang Espiritu!
+        </div>
+
+        <h2>Conclusion & Warfare Decree: Ang Pader sa Kalinaw</h2>
+        <p>Lider ug magtutuo sa Dios, ang gubat sa imong hunahuna dili usa ka yano nga laro sa lohika; kini usa ka seryoso ug dinalian nga warfare alang sa imong balaang kapalaran ug anointing! Ang imong kasingkasing ug huna-huna mao ang nag-unang tuburan sa imong tibuok kinabuhi, pamilya, ug patigayon:</p>
+        
+        <div class="verse-box">
+            <strong>Proverbio 4:23</strong>
+            "Ang imong mga hunahuna maoy tinubdan sa kinabuhi busa bantayi sila ingon nga labing bililhon mong bahandi. "
+        </div>
+        <p>Kon atong mabantayan ang pultahan sa atong huna-huna ug mapuno kini sa tibuok Pulong sa Dios, walay bisan unsang espirituhanong kuta sa Python, depresyon, o kakapoy ang makapugong kanato sa pag-abante ug pagpanganak og mas daghan pang disipulo ug lider! Sukli ang yawa, ipasupil ang huna-huna, ug dagan uban ang dako nga kadaugan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card" style="background: rgba(212, 175, 55, 0.2); border-left: 4px solid #d4af37;">
+            <h3>⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (DESTROYING MENTAL STRONGHOLDS)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug paglumpag sa mga kuta sa huna-huna uban ang dako nga kaisog ug espirituhanong awtoridad alang sa tibuok grupo lakip na sa atong kaugalingon sa katapusan sa inyong pagtuon:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among gihinginlan, gipukan, ug gipalong karong adlawa ang matag kuta sa kahadlok, depresyon, pagbagulbol, burnout, ug overthinking sa among mga hunahuna ug sa among mga kasingkasing! Akong gina-rebuke ug gipapahawa ang matag demonyohanong udyong sa bakak nga gilabay sa yawa sa atong pamilya, patigayon, ug ministeryo.*
+            <br><br>
+            *Sa Ngalan ni Hesus, among ginalumpag ang matag kuta sa Python ug Leviathan nga misulay sa pagpuga sa among kadasig ug kalayo sa pag-alagad! Ginoo, ibubo ang maayong panghunahuna ug ihatod kami sa kalinaw nga labaw sa tanang pagsabot. Gideklara namo nga ang among huna-huna selyado sa 'Mind of Christ,' ug ang among mga kasingkasing mapuno sa supernatural nga pagtuo, kaisog, katin-awan, ug dako nga breakthrough! Kami nagabarog nga madaugon, gawasnon, ug dinihogan sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **2 Corinto 10:3-5**, unsa man ang gipasabot sa **"Kuta" (Stronghold)** diha sa huna-huna sa usa ka lider, ug unsaon man kini paglumpag pinaagi sa mga hinagiban sa Dios?</li>
+                <li>Susiha ang **Proverbio 4:23** ug ang tulo ka kaaway sa huna-huna (*Kahadlok, Pagbagulbol, ug Pagkasensitibo*). Hain niining tulo ang kanunayng gisulti sa yawa sa imong huna-huna aron pahinayon ang imong dagan sa cellgroup ug patigayon, ug unsaon nimo kini pag-filter gamit ang **Filipos 4:8**?</li>
+                <li>Ipaambit sa grupo uban ang tiunay nga kasingkasing: Unsa nga konkreto ug praktikal nga kausaban (sama sa *Captive Thought exercise, pagbasa sa Truth List, o pag-purgar sa mga unodnong input sa gadget*) ang imong ituyo nga i-execute sugod karon aron maangkon ang balaang kalinaw ug open heavens?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

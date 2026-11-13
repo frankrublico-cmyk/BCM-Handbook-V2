@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 8: Ang Tingog sa Lider | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* ✨ HYPER-REALISTIC SPIRITUAL ENERGY PARTICLES */
+        .firefly {
+            position: absolute;
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            pointer-events: none;
+            background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%);
+            mix-blend-mode: screen;
+            filter: blur(2px);
+            z-index: 1;
+            animation: drift 15s infinite cubic-bezier(0.45, 0.05, 0.55, 0.95);
+        }
+        .ff-1 { background: radial-gradient(circle, #fff700 0%, #ffaa00 50%, transparent 80%); box-shadow: 0 0 20px #ffd700; }
+        .ff-2 { background: radial-gradient(circle, #00fff2 0%, #00aaff 50%, transparent 80%); box-shadow: 0 0 20px #00aaff; }
+        .ff-3 { background: radial-gradient(circle, #ff0077 0%, #ff0000 50%, transparent 80%); box-shadow: 0 0 20px #ff0077; }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0) scale(1); opacity: 0; }
+            50% { transform: translate(300px, -200px) scale(1.5); opacity: 0.8; }
+            100% { transform: translate(600px, 0) scale(1); opacity: 0; }
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-left: 5px solid #ffd700;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .gikinahanglan {
+            background: linear-gradient(120deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+            font-weight: 600;
+            display: block;
+            margin: 15px 0;
+            color: #fff700;
+            font-size: 1.1rem;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .prayer-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+            text-align: justify;
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="firefly ff-1" style="top: 10%; left: 5%;"></div>
+        <div class="firefly ff-2" style="top: 30%; left: 80%;"></div>
+        <div class="firefly ff-3" style="top: 70%; left: 20%;"></div>
+
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 8: ANG TINGOG SA LIDER</h1>
+            <p>"Komunikasyon, Impluwensya, ug ang Tawag sa Pag-alagad pinaagi sa Pulong"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Proverbio 18:21<br>
+        <strong>Kaubang mga Teksto:</strong> 1 Corinto 14:8, Efeso 4:29, Efeso 4:15, Santiago 1:19, ug Lucas 6:45<br>
+        <strong>Katuyoan:</strong> Ang katuyoan niini nga leksyon mao ang pag-activate sa husto ug dinihogan nga komunikasyon sa matag usa kanato, pagpabili sa gahum sa atong mga pulong sa pagtukod ug dili sa pagguba, ug pagmando uban ang katin-awan sa tingog alang sa supernatural nga multiplication sa panimalay, cell group, ug patigayon.</p>
+
+        <h2>Introduction: Ang Gahum sa Pulong sa Lider</h2>
+        <p>Sa structural nga aspeto sa **Realm of Leadership**, ang usa ka kingdom leader wala mailhi o tagda tungod lang sa iyang unodnong titulo o posisyon sa gawas, kondili tungod sa espirituhanong gibug-aton ug kalayo sa iyang **Tingog**. Ang atong mga pulong dili lang basta yano nga tunog o dagan sa hangin nga mogawas sa atong baba; kini mga espirituhanong liso nga adunay legal nga awtoridad sa pag-release og bukas nga open heavens o sa pag-abli sa pultahan sa kapildihan ug tunglo sa panamalay ug ministeryo.</p>
+        
+        <p>Ang matag pulong nga isulti sa usa ka cell leader o ginikanan adunay dako kaayong epekto diha sa spiritual realm. Aduna kiniy supernatural nga gahum sa pag-ayo, pag-alsa, ug pagbuak sa kuta, o sa pikas nga bahin, sa pagpanakit, pagpukan, ug pagpatay sa kadasig sa mga tawo nga naminaw kanato:</p>
+
+        <div class="verse-box">
+            <strong>Proverbio 18:21</strong>
+            "Ang imong isulti makaluwas o molaglag sa kinabuhi,
+busa kinahanglan nga dawaton mo ang sangpotanan sa imong gipanulti."
+        </div>
+        <p>Kini nga kamatuoran nagpakita nga ang matag pulong nga mogawas sa imong dila adunay bunga nga imong kan-on sa unahan. Kon ang imong tingog kanunayng nagpagawas og pagbagulbol, tsismis, o negatibong sugyot, gidapit nimo ang kamatayon sa imong cellgroup ug patigayon. Apan kon ang imong tingog selyado sa kamatuoran ug pagtuo, i-release sa Dios ang kinabuhi ug kalamposan!</p>
+
+        <h2>I. Ang Tingog sa Tin-aw nga Bisyon (The Clarity Sound)</h2>
+        <p>Ang usa ka lider sa Dios nga walay tin-aw, determinado, ug madasigon nga tingog sa komunikasyon sama sa usa ka trumpeta sa gubat nga nagpagawas og gubot ug dili masabtan nga tunog. Kon gubot ang tunog sa imong tingog, malingla ug malibog ang imong mga sumusunod:</p>
+
+        <div class="verse-box">
+            <strong>1 Corinto 14:8</strong>
+            "Ug kon ang pagpatingog sa trumpeta dili klaro, kinsa may mangandam alang sa gubat? "
+        </div>
+        <span class="gikinahanglan">🛠️ BALAANG GIKINAHANGLAN: Ang matag usa kanato kinahanglan nga mag-articulate ug magpatin-aw sa panan-awon, label, ug blueprint sa Dios uban ang dako nga katin-awan (clarity). Ang katin-awan sa imong tingog mao ang pinakaunang lakang aron ang imong pamilya ug cell members mosunod ug modagan nga adunay kalayo ug panaghiusa sa espiritu!</span>
+
+        <h2>II. Ang Tingog nga Makapadasig ug Nagatukod (The Edification Command)</h2>
+        <p>Sa structural matrix sa Gingharian sa Dios, ang atong komunikasyon gipili ug gitakda aron magsilbi nga usa ka "tambal" nga makapabalik sa kusog, anointing, ug kaisog sa mga naluya ug nabug-atan. Gidid-an kita sa Dios sa paggamit sa atong tingog alang sa unodnong kasuko ug pagguba:</p>
+
+        <div class="verse-box">
+            <strong>Efeso 4:29</strong>
+            "Ayaw kamo paggamit ug daotang mga pulong kondili ang makatabang lamang ug makaayo sa mamati kaninyo. "
+        </div>
+        
+        <p>Ang usa ka impluwensyal nga Servant Leader nagagamit sa iyang tingog aron mag-instill og pagtuo. Likayan nato ang paggamit sa mapintas, mapahitas-on, ug makapasakit nga mga pulong nga makaguba sa personal nga pagkatawo sa atong pamilya o cell members. Bansayon nato ang atong dunggan sa dili pa nato gamiton ang atong dila:</p>
+
+        <span class="gikinahanglan">🛠️ BALAANG GIKINAHANGLAN: Ang tinuod ug lunsay nga pagpaminaw usa ka aktibong pagpakita sa harianong gugma sa Dios! Hinumdomi ug puy-i kanunay kining balaang balaod: "Busa, akong mga hinigugmang igsoon, ang matag tawo kinahanglan nga dali sa pagpamati, hinay sa pagsulti, hinay sa kasuko." (Santiago 1:19)</span>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE HEART CORRELATION):</span>
+            Lider, itanum kini og maayo sa imong huna-huna: Ang imong tingog ug ang mga pulong nga imong ginabuhian matag adlaw mao ang saktong *X-ray* o salamin sa kahimtang sa imong espiritu didto sa tago nga dapit! Giklaro kini sa atong Ginoong Hesus sa Lucas 6:45:
+            <br><br>
+            *“Ang maayong tawo gikan sa maayong bahandi sa iyang kasingkasing nagapagawas nianang maayo; ug ang dautang tawo gikan sa dautang bahandi sa iyang kasingkasing nagapagawas nianang dautan: kay gikan sa kadagaya sa kasingkasing ang iyang baba nagasulti.”*
+            <br><br>
+            Kon ang imong baba puno sa pagsaway, pagbagulbol, ug pagkasensitibo, kini nagpasabot nga adunay liki ug kakuwang sa imong kasingkasing! Purgeha ang tinubdan sa altar karon aron ang imong tingog magdala og presko nga anointing ug open heavens.
+        </div>
+
+        <h2>III. Ang Tingog sa Kamatuoran ug Integridad (Truth in Love Matrix)</h2>
+        <p>Ang usa ka kingdom leader kinahanglan magpadayon, magbarog, ug magmando diha sa kamatuoran sa tanang higayon, bisan kon kini lisud, huot, o dili pabor sa iyang unod karon. Ang pagkamatinud-anon nga gidumala sa balaang gugma mao ang nag-unang timailhan sa usa ka lider nga mahadlokon sa Dios:</p>
+
+        <div class="verse-box">
+            <strong>Efeso 4:15</strong>
+            "Kinahanglan hinuong motubo kita sa tanang paagi ngadto kang Cristo nga mao ang ulo pinaagi sa pagsulti sa kamatuoran uban ang gugma."
+        </div>
+        
+        <p>Ang atong mga pulong kinahanglang magtakdo sa atong tinuod nga gibuhat sa tago nga dapit. Walay legal nga anointing ang imong tingog kon aduna kay fractures sa integridad.</p>
+        <span class="gikinahanglan">🛠️ BALAANG GIKINAHANGLAN: Ang imong tingog, imong sermon, ug imong pag-pray walay bisan usa ka gamay nga bili sa spiritual realm, kon ang imong tinuod nga pagkinabuhi ug paggasto sa kwarta sa Dios wala nahiuyon sa imong ginasulti sa entablado ug cellgroup! Ang integridad mao ang naghatag og volume ug selyado nga awtoridad sa imong tingog.</span>
+
+        <h2>IV. Praktikal nga Leadership Strategies (Application)</h2>
+        <p>Aron atong mapukan ang matag espiritu sa dautang komunikasyon, i-execute kining tulo ka praktikal nga aplikasyon sa sulod niining semanaha uban ang kadasig:</p>
+
+        <div class="action-card">
+            🗣️ <span class="highlight-text">1. I-execute ang "Life-Giving Speech" Audit:</span> Karong semanaha, paghimo og tinuyong desisyon nga dili ka magpagawas og bisan usa ka pulong sa pagbagulbol, pagsaway, o negatibong komentaryo sa imong panimalay, cellgroup, o patigayon. Sa matag higayon nga moabot ang tentasyon sa pagsulti og bungkag, ilisdi kini dinalian sa pulong sa pagtuo, pagpasalamat, ug pag-alsa sa uban!
+        </div>
+
+        <div class="action-card">
+            📋 <span class="highlight-text">2. Pagmando og "Clear Vision Script" sa Imong Grupo:</span> Sa dili pa nimo sugdan ang imong cellgroup meeting, isulti sa tinawag ug simple nga pamaagi ang target ug direksyon sa inyong grupo (pananglitan: *“Magkauban kita sa pag-pray ug pagserbisyo aron karong bulana mo-multiply kini nga cellgroup ngadto sa duha ka madasigong grupo alang sa himaya sa Dios!”*). Hatagi sila og saktong katin-awan aron makadagan sila sa gubat.
+        </div>
+
+        <div class="action-card">
+            🧼 <span class="highlight-text">3. Limpyohi ang Imong "Digital and Conversational Inputs":</span> Ang dila mosulti lamang sa kon unsa ang kanunayng unod ug kadagaya sa kasingkasing ug huna-huna. Kung ang imong sige og paminaw ug tan-aw sa screen sa gadget mga tabi, sekular nga kaguol, ug imoral nga dagan, mao usab kana ang mogawas sa imong baba. Gutoma ang tabi, pakaona ang Espiritu sa Pulong sa Dios!
+        </div>
+
+        <h2>Conclusion & Warfare Decree: Ang Tingog nga Adunay Anointing</h2>
+        <p>Lider ug magtutuo sa Dios, ang imong tingog isip alagad usa ka dako ug harianong gasa gikan sa Trono sa Dios! Kini adunay balaang potensyal nga makapabag-o sa kinabuhi sa mga naluya, makapahiusa sa usa ka pamilya, ug makadala sa imong tibuok dominyo ngadto sa gipangandoy nga kalampusan ug open heavens sa Dios. </p>
+        <p>Ayaw gayod tugoti nga ang imong dila mahimong instrumento sa kaaway aron magsabwag og bungkag, kalibog, ug pagkasensitibo. Isulob ang tibuok Armor sa Dios, protektahi ang imong integridad, ug gamita ang imong tingog aron i-decree ang supernatural nga kadaugan ug multiplication diha sa atong Ginoong Hesus Kristo! Amen!</p>
+
+        <div class="prayer-box">
+            <h3>⚔️ DIREKTA NGA MANDATO UG PAG-AMPO PARA SA CELLGROUP MINISTRATION (RELEASING THE ANOINTED VOICE)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug pagbubo sa anointing sa tingog uban ang dako nga kaisog ug espirituhanong awtoridad alang sa tibuok grupo lakip na sa atong kaugalingon sa katapusan sa inyong pagtuon:
+            <br><br>
+            <p style="text-align: justify; font-style: italic; margin: 0;">
+            "Ginoong Hesus, salamat sa gasa sa komunikasyon, anointing, ug sa Imong Pulong nga adunay kinabuhi. Pinaagi sa gahum sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, gihinginlan namo ug gipalong karong adlawa ang matag kuta sa pagbagulbol, dautang sulti, tabi, kasuko, pagkasensitibo, ug bakak sa among mga hunahuna, sa among mga kasingkasing, ug sa among tibuok pagkatawo! Gihinginlan namo ug gipapahawa ang matag operasyon sa Python ug Leviathan nga misulay sa pag-guba sa panaghiusa pinaagi sa mapait nga mga pulong.
+            <br><br>
+            Pasayloa kami sa mga higayon nga gigamit namo ang among dila aron magsabwag og kaguol o pagpukan sa kadasig sa uban. Ginoo, ibubo kanamo ang presko nga kalayo sa Imong Espiritu, ug kunsari kami sa grasya sa pagpaubos ug pagtuo. Gideklara namo nga ang among mga pulong magtukod, magmando uban ang katin-awan, ug magahatag ug grasya sa matag magbabasa ug maminaw. Samtang among gihinginlan ang matag unodnong kuta, i-release nimo o Dios ang open heavens, supernatural nga multiplication, ug dako nga breakthrough sa among panamalay, cell group, ug patigayon! Ania kami karon nga  nagabarog nga adunay tingog sa kalayo  na diha sa Ngalan ni Hesus! Amen, ug Amen!"
+            </p>
+        </div>
+
+        <div class="discussion-box" style="background: rgba(0,0,0,0.4); border: 1px solid #d4af37; padding: 25px; border-radius: 12px; margin-top: 40px;">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Proverbio 18:21**, unsa man ang gipasabot sa dinalian nga aspeto nga ang *kamatayon ug kinabuhi* anaa sa gahum sa dila, ug giunsa man pag-atake sa yawa ang usa ka cellgroup pinaagi sa tingog sa pagbagulbol?</li>
+                <li>Susiha ang **1 Corinto 14:8** ug ang **Lucas 6:45**. Nganong ang katin-awan (*clarity*) sa tingog sa usa ka lider maoy maghatag og kaisog sa iyang team sa pagdagan sa gubat, ug unsaon man pag-purgar sa tinubdan sa atong mga pulong diha sa altar?</li>
+                <li>Ipaambit sa grupo uban ang tiunay ug mapainubsanong kasingkasing: Unsa nga konkreto ug praktikal nga kausaban (sama sa *pag-execute sa Life-Giving Speech audit, pagwagtang sa unodnong pagkasensitibo, o pagpaminaw sa tago uban ang gugma*) ang imong ituyo nga i-execute karong semanaha aron maseguro nga ang imong tingog adunay dako nga anointing ug open heavens sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

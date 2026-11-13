@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Oversight Blueprint: Introduction | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(212, 175, 55, 0.03);
+            border: 1px solid #d4af37;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.05);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #d4af37;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LEADERSHIP BLUEPRINT: PASIUNA</h1>
+            <p>"Ang Kamahinungdanon sa Realm of Leadership ug ang Balaang Pundasyon sa Pagmando"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Pangunang Teksto: Genesis 1:26-28 & 1 Pedro 2:9</strong>
+            "²⁶Ug ang Dios miingon, 'Buhaton nato ang tawo sumala sa atong dagway, ingon sa atong panakasama: ug papilsila sila ug pagmando (dominion) sa ibabaw sa mga isda sa dagat, ug sa ibabaw sa mga langgam sa kalangitan, ug sa ibabaw sa mga kahayopan, ug sa ibabaw sa tibuok yuta, ug sa ibabaw sa matag masiot nga nagakamang sa ibabaw sa yuta.' ²⁷Busa gilalang sa Dios ang tawo sumala sa Iyang kaugalingong dagway, sa dagway sa Dios gilalang Niya siya; lalaki ug babaye gilalang Niya sila. ²⁸Ug sila gipanalanginan sa Dios, ug ang Dios miingon kanila, 'Sumpay kamo, ug managpadaghan, ug pun-a ang yuta, ug pukanon ninyo kini: ug pagmando kamo...'" (Genesis 1:26-28)
+            <br><br>
+            "Apan kamo mga kaliwatan nga pinili, mga harianong saserdote (royal priesthood), nasod nga balaan, katawhan nga gipanag-iya sa Dios; aron inyong ikapahayag ang mga pagdayeg Kaniya nga nagtawag kaninyo gikan sa kangitngit ngadto sa Iyang katingalahang kahayag." (1 Pedro 2:9)
+        </div>
+
+        <h2>I. Pasiuna: Unsa ang "Realm" sa Pagpangulo?</h2>
+        <p>Sa sekular o kalibutanon nga kahulugan, ang *realm* o dominyo nagpasabot ug pisikal nga teritoryo, gingharian, o dapit diin ang usa ka tawo adunay gahum, kontrol, ug unodnong pagdumala. Apan sa Gingharian sa Dios, ang **Realm of Leadership** dili bahin sa yutang nasakopan o posisyon sa unodnong gahum; kini usa ka lawom nga espirituhanong responsibilidad, pagkatinugyanan (*stewardship*), ug balaang awtoridad nga gihatag sa Dios sa Iyang mga anak aron magdala ug kahusay, kalinaw, panalangin, ug pagmando sumala sa Iyang kabubut-on.</p>
+        
+        <p>Daghan kaayong mga Kristohanon karon ang naghunahuna nga ang pagpangulo para lamang sa mga dunay pormal nga posisyon o katungdanan. Apan sa spiritual realm, ang matag usa kanato gilalang ug gipalit sa Dugo ni Hesus aron manguna ug modumala sa atong mga tagsa-tagsa ka dominyo. Atong tukiubon ang duha ka dakong disenyo gikan sa Pulong sa Dios:</p>
+
+        <ul>
+            <li>🌱 <span class="highlight-text">1. Ang Disenyo sa Sinugdanan (The Original Dominion Mandate - Genesis 1:26):</span> Sa wala pa mosulod ang sala sa kalibutan, ang pinakaunang mandato sa Dios sa tawo mao ang **pagmando (dominion)**. Wala kita lilanga sa Dios aron magpaubos o magpa-ulipon sa dautang impluwensya sa kalibutan, sa kakabos, o sa mga atake sa kangitngit. Kita gilalang aron mangulo ug magdumala sa tibuok yuta pinaagi sa Iyang kaalam ug gahum.</li>
+            <li>👑 <span class="highlight-text">2. Ang Tawag sa Pagka-Hari ug Saserdote (The Royal Priesthood - 1 Pedro 2:9):</span> Ubos sa Bag-ong Kasabutan pinaagi sa sakripisyo ni Kristo, gipahiuli sa Dios ang atong harianong katungdanan. Ang matag magtutuo gitawag nga mamunuan—dili aron maghari-hari, kondili aron magsilbi nga tulunduman ug magdala og open heavens sa iyang pamilya, trabaho, negosyo, ug komunidad.</li>
+        </ul>
+
+        <h2>II. Ang Tulo ka Haligi sa Balaang Pagpangulo (Kingdom Leadership Matrix)</h2>
+        <p>Aron kita makatindog sa husto ug dinihogan nga pundasyon sulod niini nga serye, kinahanglan natong masabtan ug itanum sa atong espiritu kining tulo ka importanteng kamatuoran:</p>
+
+        <div class="point-box">
+            <div class="point-title">👑 A. Ang Dios ang Labaw nga Tag-iya (The Sovereign Ruler)</div>
+            <div class="verse-box">
+                <strong>Salmo 24:1</strong>
+                "Ang yuta iya sa Ginoo, ug ang tibuok nga kabalayan niini; ang kalibutan, ug kadtong nagapuyo sa sulod nini."
+            </div>
+            <p style="margin: 0;">Ang tinuod ug epektibo nga lider nasayod sa iyang huna-huna nga siya **tigdumala lamang (steward)** ug dili mao ang tag-iya sa realm. Ang tinuod nga tag-iya sa imong pamilya, sa imong cell group, ug sa imong negosyo mao ang Dios. Kung dili ka makat-on sa pagpasakop ug pagluhod dinalian ubos sa awtoridad sa Dios, wala kay espirituhanong katungdoc o anointing nga mangulo sa ubang tawo. Ang pagsugot sa Dios mao ang tuburan sa imong awtoridad.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🎯 B. Pagpangulo nga Adunay Katuyoan (Purpose-Driven Leadership)</div>
+            <p style="margin: 0;">Dili kita mangulo para sa atong personal nga dungog, sikat, o unodnong interes. Kita mangulo aron ituboy ang Gingharian sa Dios, aron bungkagon ang kuta ni Satanas, ug magdala ug supernatural nga kaayohan, kaluwasan, ug breakthrough sa katawhan. Ang motibo sa usa ka balaang lider mao ang paghimaya sa Dios ug ang pagpanganak ug mas daghan pang mga disipulo ug lider.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ C. Espirituhanong Awtoridad Batok sa Pisikal nga Gahum (Servant Authority)</div>
+            <div class="verse-box">
+                <strong>Lucas 22:25-26</strong>
+                "²⁵Ug miingon si Jesus kanila, “Ang mga hari niining kalibotana nagmando sa ilang mga ginsakopan, ug ang mga namunoan gitawag ug ‘Mga Dangpanan sa mga Tawo.’ 26Apan ayaw ninyo kini buhata. Hinuon, ang labing dako kaninyo kinahanglan magpakasama sa kinamanghoran ug ang pangulo kinahanglan magpakasama sa sulugoon." 
+            </div>
+            <p style="margin: 0;">Ang sekular nga lider mogamit ug unodnong pwersa, manipulasyon, ug posisyon aron lamang mosunod ang tawo kaniya. Apan ang balaang lider nga giyahan sa Espiritu Santo mogamit ug pagpaubos, pag-ampo, integridad, ug buhi nga ehemplo. Ang atong awtoridad sa spiritual realm dili makita sa unsa ka kusog atong singgit, kondili sa unsa ka dugmok atong kasingkasing sa atubangan sa Trono sa Dios.</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE STEWARD BLUEPRINT):</span>
+            Lider, ipasabut kini og maayo sa grupo: Sa panahon sa Bibliya, ang usa ka tigtugyan (*steward*) mao ang gitugyanan sa tibuok yawe sa palasyo sa iyang agalon. Siya ang mag-buot sa pagkaon, sa panalapi, ug sa sulod. Apan wala siyay gipanag-iya bisan usa ka sentabo. 
+            <br><br>
+            Kini nagpasabut nga ang Dios nagsalig kanimo! Iyang gitugyan kanimo ang Iyang mga anak (cellgroup, pamilya). Kon unsaon nimo pag-atiman ang yawe nga gihatag kanimo karon, mao nay mag-determinar kon i-release ba sa Dios ang mas dako nga anointing ug breakthrough sa imong patigayon ug ministeryo!
+        </div>
+
+        <h2>III. Nganong Mahinungdanon Kini nga 12-Lesson Leadership Series?</h2>
+        <p>Kini nga serye sa *Oversight Blueprint* gihimo ug giputli dili lang para sa mga pastor o opisyal sa simbahan, kondili para sa matag usa kanato tungod sa tulo ka dinalian nga rason sa espiritu:</p>
+        
+        <ol>
+            <li>⚠️ <span class="highlight-text">1. Adunay Krisis sa Integrity ug Pagpangulo sa Kalibutan:</span> Karon, ang kalibutan napuno sa mga lider nga hawod sa charisma apan sipyat sa karakter, puno sa bakak ug garbo. Ang simbahan kinahanglang mopatungha ug mga lider nga lahi sa pamaagi sa kalibutan—mga tawo nga mobarog sa kamatuoran bisan kon walay nakakita.
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Proverbio 29:2</strong> - 2Kon matarong ang nangulo, magmalipayon ang mga tawo. Apan kon daotan ang namunoan, mag-antos ang katawhan."
+                </div>
+            </li>
+            <li>📈 <span class="highlight-text">2. Giandam Kita sa Dios para sa Mas Dakong Abanteng Buluhaton ug Multiplication:</span> Kon unsaon nimo pagdumala, pag-atiman, ug pag-giyos sa gamay nga *realm* nga gihatag kanimo karon (sama sa imong pamilya o gamay nga grupo), mao nay basehan sa Dios sa paghatag kanimo ug mas dako nga responsibilidad ug kadungganan.
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Lucas 16:10</strong> - "10Kinsa kadtong kasaligan sa gagmayng butang, kasaligan usab sa dagko. Ug kinsa kadtong limbongan sa gagmayng mga butang, limbongan usab sa dagko."
+                </div>
+            </li>
+            <li>⚔️ <span class="highlight-text">3. Aron Mabuntog ug Hinginlan ang Kaaway sa Atong Kaugalingong Dominyo:</span> Kon dili nato sudlon, seryosohon, ug i-activate ang atong *realm of leadership*, ang kaaway (si Satanas ug ang espiritu sa Python ug Asherah) maoy manguha ug mo-manipula sa atong teritoryo—sa atong panimalay, sa hunahuna sa atong mga anak, sa atong panalapi, ug sa komunidad. Kita kinahanglan mosulod sa *Kingdom Offense*!</li>
+        </ol>
+
+        <h2>IV. Praktikal nga Discipleship Strategies (Application)</h2>
+        <p>Aron atong mapuy-an kini uban ang kalayo sa Espiritu, i-execute kining tulo ka praktikal nga aplikasyon sulod niining semanaha:</p>
+
+        <div class="action-card">
+            📌 <span class="highlight-text">1. I-define ang Imong Balaang Realm:</span> Isulat sa papel karong gabhiona: Unsa man ang mga piho nga dapit, relasyon, o patigayon nga gitugyan sa Dios kanako karon nga kinahanglan nako dinalian nga dumalahon uban ang integridad? (Pananglitan: Akong pamilya, akong negosyo o trabahoan, akong cell group, o bisan ang akong personal nga *prayer life* ug lawas). Pag-pray uban ang kadasig nga hatagan ka sa Dios ug kaalam sa pagdumala niini.
+        </div>
+        
+        <div class="action-card">
+            🔍 <span class="highlight-text">2. Susiha ug Purghaha ang Imong Motibo:</span> Pangutan-a ang imong kaugalingon sa tago: Nganong gusto man nako mangulo, mag-cellgroup, o magpadako sa akong negosyo? Para ba sa akong unodnong garbo, o para sa tinuod nga himaya sa Dios ug pagka-panalangin sa uban? Gutoma ang matag unodnong motibo!
+        </div>
+
+        <div class="action-card">
+            🧎‍♂️ <span class="highlight-text">3. I-surrender ang Trono sa Imong Adlaw:</span> Sa dili pa magsugod ang imong adlaw o trabaho, i-luhod kini sa pag-ampo ug ingna: *“Lord, Ikaw ang tag-iya niini nga realm. Akong gina-surrender ang trono sa akong kinabuhi Kanimo karong adlawa aron ang akong pagpangulo ug paglihok magsubay sa Imong balaang direksyon.”*
+        </div>
+
+        <h2>Konklusyon & Warfare Decree: The Call to Reign</h2>
+        <p>Ang **Realm of Leadership** usa ka balaan, dinihogan, ug dili mabalhin nga katungdanan gikan sa Langit. Samtang magsugod kita niini nga panaw sa 12 ka lawom nga leksyon sa *Oversight Blueprint*, ablihan nato ang atong kasingkasing aron bag-ohon sa Dios ang atong pamaagi sa paghuna-huna, paglihok, ug pagpangalagad. </p>
+        <p>Undangi na ang pagpuyo nga morag biktima sa sitwasyon; kita mga harianong lungsod ug saserdote! Panahon na nga maghari kita uban kang Kristo Hesus diha sa gugma, hustisya, gahum, ug lunsay nga integridad! Amen!</p>
+
+        <div class="action-card" style="background: rgba(212, 175, 55, 0.2); border-left: 4px solid #d4af37;">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (ACTIVATING THE DOMINION MANDATE)</h3>
+            Lider, sa katapusan sa inyong unang panag-abot sa Leadership series. Ipa-piyong ang ilang mga mata, ipapandong ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining dinalian nga decree sa deliverance ug anointing uban ang apostolikanhong awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa gahum sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among gihinginlan ug gipukan karon ang matag espiritu sa passivity, kahadlok, inferiority complex, ug kapakyasan sa among mga kasingkasing! among gina-rebuke ang matag atake sa kaaway nga misulay sa pag-agaw sa among pamilya, hunahuna, ug dominyo.*
+            <br><br>
+            *Sa Ngalan ni Hesus, bungkagon namo ang matag kuta sa kalibutanong motibo ug garbo! Ginoo, ibubo ang tinuod nga 'Steward Heart' ug ang kalayo sa harianong pagmando sa matag lider karon. Gideklara nako nga samtang kami nagapasakop ubos sa awtoridad sa Dios, i-release sa Dios ang open heavens, supernatural nga kaalam, ug dako nga multiplication sa among panimalay, cell group, ug patigayon! Kami mga dinihogan, approved, ug andam na nga magmando alang sa Imog himaya diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Genesis 1:26-28**, unsa man ang orihinal nga disenyo ug mandato sa Dios sa dihang gilalang Niya ang tawo? Nganong giingon man nga ang matag magtutuo gitawag sa *pagmando* (*dominion*) ug dili para magpa-ulipon sa problema?</li>
+                <li>Susiha ang **Salmo 24:1** ug ang prinsipyo sa **Stewardship** (pagkatinugyanan). Nganong ang pagsabot nga ang Dios mao ang tinuod nga tag-iya sa imong pamilya, cellgroup, ug negosyo maoy maghatag kanimo og saktong *Spiritual Authority* ug magpahilayo kanimo sa unodnong garbo?</li>
+                <li>Ipaambit sa grupo uban ang kadasig ug kamatinud-anon: Unsa man ang piho nga *realm* o dominyo (pamilya, grupo, o negosyo) ang gitugyan sa Dios kanimo karon? Unsa nga praktikal nga kausaban sa motibo ug pag-ampo ang imong i-execute sugod ugma aron makasugod ka sa pagmando uban ang kalayo sa Espiritu Santo?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

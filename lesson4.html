@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: Usa Lang Ang Dalan | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.5rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.4rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .highlight-box {
+            background: rgba(255, 215, 0, 0.03);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            padding: 18px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>USA LANG ANG DALAN</h1>
+            <p>(Cell Lesson Four)</p>
+        </div>
+
+        <h3>Introduksyon: Ang Kamatuoran sa Luyo sa mga Opinyon sa Kalibotan</h3>
+        <p>Kasagaran kaayo natong madungog sa atong katilingban ang panultion nga nag-ingon, "Daghan ang dalan paingon sa langit pero mosangko ra gihapon kini ngadto sa usa ka Dios." O kaha duna poy moingon, "Usa ra ka Dios ang atong ginasimba pero lainlain lang ang mga pamaagi sa atong pagduol ngadto kaniya." Kini nga mga pulong paminawon nga makiangayon ug madanihon sa dunggan sa tawo, apan ang dakong pangutana mao kini: Sibo ba kini nga pagtulon-an sa Balaang Kasulatan?</p>
+        <p>Kon atong ablihan ug susihon pag-ayo ang Pulong sa Dios, atong madiskobrehan nga ang kamatuoran lahi sa gihunahuna sa kalibotan. Sumala sa gipakita sa image_a1dd84.jpg, duna lay usa ka kamatuoran nga gitudlo ang Biblia mahitungod sa dalan sa kaluwasan.</p>
+
+        <h2>Lima ka Mahinungdanong Kamatuoran Mahitungod Kang Jesus</h2>
+        <p>Ania ang lima ka haligi nga nagpadayag kon ngano nga si Jesu-Cristo lamang ang bugtong pamaagi:</p>
+
+        <h3>1. Si Jesus lang ang 'dalan' padulong sa Amahan nga langitnon</h3>
+        <p>Dili usa sa mga dalan si Jesus, kondili Siya Mismo ang Dalan. Diha sa Buhat ug sa Iyang kaugalingong mga pulong sa Juan 14:6, Siya mitubag:</p>
+        <div class="verse-box">
+            "Ako ang dalan, ang kamatuoran, ug ang kinabuhi; walay makaadto sa Amahan kon dili moagi kanako."
+        </div>
+        <p>Kini nagpasabot nga gawas kang Jesus, ang tanang uban pang paningkamot sa tawo—bisan unsa pa kini ka relihiyoso o ka maayo—mosangko sa kapakyasan kay Siya ra ang nagdala sa tawo ngadto sa presensya sa Amahan.</p>
+
+        <h3>2. Si Jesus lang ang 'tigpatunga' taliwala sa Dios ug sa tawo</h3>
+        <p>Tugod sa sala, nabugto ang relasyon sa tawo ngadto sa Dios. Gikinahanglan ang usa ka tigpatunga o tulay nga magpapahiuli niini. Sumala sa 1 Temoteo 2:5-6:</p>
+        <div class="verse-box">
+            "...kay may usa lamang ka Dios ug usa lamang ang naghiusa sa Dios ug sa mga tawo, ang tawo nga si Cristo Jesus, nga mitugyan sa iyang kaugalingon aron pagluwas sa tanang tawo. Kini ang kamatuoran nga luwason sa Dios ang tanang mga tawo sa gitagal nga panahon."
+        </div>
+        <p>Si Jesus lang ang nakahimo niini tungod kay Siya hingpit nga Dios ug hingpit usab nga Tawo.</p>
+
+        <h3>3. Si Jesus lang ang 'pultahan' diin ang mga tawo makasulod ug maluwas</h3>
+        <p>Diha sa Juan 10:9, si Jesus nagkanayon:</p>
+        <div class="verse-box">
+            "Ako ang 'pultahan' ang mosulod agi kanako maluwas; mosulod siya ug mogula ug makakaplag siya ug mosibsib."
+        </div>
+        <p>Ang pultahan nagrepresentar sa seguridad ug pagsulod sa gingharian sa Dios. Walay laing lutsanan o kaikyasan gikan sa silot sa sala kondili ang pag-agi lamang kaniya.</p>
+
+        <h3>4. Ang "pangalan Jesus" lang ang gihatag sa Dios aron ang tanang tawo maluwas</h3>
+        <p>Dili ang atong mga organisasyon, dili ang atong mga maayong binuhatan, ug dili ang bisan kinsang tawo ang makaluwas kanato. Diha sa Buhat 4:12 tinuyong gipahayag:</p>
+        <div class="verse-box">
+            "Ang kaluwasan makaplagan lamang diha kaniya, kay wala nay laing ngalan sa tibuok kalibotan nga gihatag sa Dios ngadto sa katawahan nga makaluwas kanato."
+        </div>
+        <p>Kini nagpakita sa pagkatalagsaon ug pagka-eksklusibo sa Iyang ngalan.</p>
+
+        <h3>5. Si Jesus lang ang gipadala sa Amahan aron ang tawo makabaton ug kinabuhing walay kataposan</h3>
+        <p>Ang kinatibuk-ang gugma sa Dios gipadayag pinaagi sa pagpadala sa Iyang Anak. Sumala sa labing nailang bersikulo sa Juan 3:16:</p>
+        <div class="verse-box">
+            "Kay gihigugma pag-ayo sa Dios ang kalibotan ug tungod niini gihatag niya ang iyang bugtong Anak, aron ang tanan nga motuo kaniya dili mamatay, kondili makabaton hinuon sa kinabuhing dayon."
+        </div>
+
+        <h3>Ang Konklusyon sa Unang Bahin</h3>
+        <p>Sama sa gilagda diha sa ubos nga bahin sa image_a1dd84.jpg, ang Biblia klarong nagtudlo nga si Jesus lang ang dalan, ang pultahan, ug ang tulay paingon sa Amahan. Walay bisan kinsa nga makadto o mahiusa sa Dios gawas kon moagi kaniya. Walay kaluwasan gawas kang Jesu-Cristo! Siya lang ang nagpakamatay sa Krus aron tubagon ug bayran ang sala sa tanang tawo sa kalibotan. Dili tinuod ang opinyon sa uban nga daghan ang dalan paingon sa Dios. Usa lang ang dalan, ug kana mao si JESUS. Bisan tuod og bug-at ug usahay lisod dawaton sa kalibotan kini nga pagtulon-an, mao kini ang tiunay nga kamatuoran nga gitudlo sa Biblia.</p>
+
+        <h2>LIMA KA LAKANG ARON MAKABATON KA UG KALUWASAN</h2>
+        <p>Aron kini nga kamatuoran mahimong buhi sa imong kinabuhi, ang image_a1dddc.jpg naglatid og lima ka importanteng lakang nga kinahanglan nimong buhaton:</p>
+
+        <h3>1. Angkona nga ikaw usa ka makasasala (Pagpaubos)</h3>
+        <p>Ang unang lakang paingon sa kaluwasan mao ang pag-ila nga ikaw nanginahanglan og Manluluwas. Dili nato madawat ang kaluwasan kon magpabilin kitang garboso ug maghunahuna nga kita walay sala. Sumala sa 1 Juan 1:8,10:</p>
+        <div class="verse-box">
+            "Kon moingon kita nga wala kitay sala, gilimbongan nato ang atong kaugalingon ug wala kanato ang kamatuoran. Kon moingon kita nga wala kita makasala, gipabakakon nato ang Dios ug wala nato dawata ang iyang pulong."
+        </div>
+
+        <h3>2. Pangayo ug pasaylo sa imong mga sala ngadto sa Dios (Pagkompisal)</h3>
+        <p>Human nato iadmitir ang atong pagkakasasala, kinahanglan nato kining isugid ug itug-an Kaniya uban ang matinud-anong kasingkasing. Diha sa 1 Juan 1:9, nagsaad ang Dios:</p>
+        <div class="verse-box">
+            "Apan kon isugid nato sa Dios ang atong mga sala, tumanon niya ang iyang saad ug buhaton ang matarong ug mopasaylo gayod sa tanan tang mga sala ug mahinlo sa tanan tang mga kalapasan."
+        </div>
+
+        <h3>3. Isalikway ang imong mga sala (Paghinulsol)</h3>
+        <p>Ang tinuod nga paghinulsol dili lang pagpangayo og pasaylo kondili ang pagbiya ug pagtalikod sa daotang binuhatan ug hunahuna. Sumala sa Isaias 55:7:</p>
+        <div class="verse-box">
+            "...pabiyaa ang mga daotan sa ilang sala ug ipasalikway sa mga makasasala ang ilang daotang hunahuna. Pabalika sila sa Ginoo aron kaloy-an sila, pabalika sa atong Dios, kay andam siya sa pagpasaylo."
+        </div>
+
+        <h3>4. Tuohi nga ang Dios moluwas kanimo pinaagi sa iyang grasya (Pagtuo)</h3>
+        <p>Kinahanglan natong saligan ang grasya sa Dios ug dili ang atong kaugalingong kusog. Sumala sa Tito 2:11:</p>
+        <div class="verse-box">
+            "Kay nagpadayag ang Dios sa iyang grasya alang sa kaluwasan sa tanang mga tawo."
+        </div>
+
+        <div class="highlight-box">
+            <span class="highlight-text">Unsa man ang kahulogan sa "Grasya"?</span><br>
+            <p>An pasabot sa grasya mao nga “nakadawat kita ug pabor nga dili angayan moabot kanato.” Kamatayon ug silot ang angay kanato tungod sa atong mga sala, apan imbis silotan, gihatagan kita sa Dios og libre nga gasa sa kaluwasan diha ni Cristo Jesus. Atong nadawat ang hingpit nga kabaliktaran sa atong angay nga madawat. Kini ang grasya! Ang kaluwasan naggikan sa Dios ug wala gayod naggikan sa tawo. Sumala sa Efeso 2:5, "Naluwas kamo tungod sa grasya sa Dios." Kinahanglan tuohan ug dawaton kining pamaagi sa pagluwas.</p>
+        </div>
+
+        <h3>5. Dawata si Cristo nga Ginoo nganha sa imong kasingkasing (Pagtugyan)</h3>
+        <p>Ang kataposang lakang mao ang personal nga pagdapit ug pagtugyan sa imong tibuok kinabuhi ngadto Kaniya. Sumala sa Colosas 2:6:</p>
+        <div class="verse-box">
+            "Sanglit gidawat na man ninyo nga Ginoo si Cristo Jesus, pagkinabuhi kamo nga hiniusa kaniya."
+        </div>
+        <p>Kinahanglan gayod nga dawaton nato si Jesu-Cristo ingon nga atong personal nga Ginoo ug Manluluwas sulod sa atong kasingkasing. Sa dili pa kita makalakaw kauban Kaniya, kinahanglan una nato Siyang papuy-on sa atong kinabuhi. Mosulod si Cristo pinaagi sa Iyang Balaang Espiritu kon atong imbitaron pinaagi sa pag-ampo nga inubanan sa pagtuo. Sama sa giingon sa 2 Corinto 6:2:</p>
+        <div class="verse-box">
+            "Mao kini ang takna sa pagdawat sa kaluoy sa Dios; karon mao ang adlaw sa kaluwasan!"
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar sa Kaugalingon</h3>
+            <p>Human nimo mapalandong kining mga pulong ug kamatuoran gikan sa image_a1dd84.jpg ug image_a1dddc.jpg, ania ang mga pangutana nga kinahanglan nimong tubagon sa imong kasingkasing karong adlawa:</p>
+            <ul>
+                <li>Andam ka na ba nga motugyan sa imong kinabuhi ngadto Kaniya?</li>
+                <li>Andam ka na ba nga maghinulsol ug modawat sa Iyang grasya ug sa Iyang libre nga kaluwasan?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

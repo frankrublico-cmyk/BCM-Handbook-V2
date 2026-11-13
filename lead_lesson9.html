@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 9: Delegasyon: Ang Kaalam ni Moises | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* ✨ HYPER-REALISTIC SPIRITUAL ENERGY PARTICLES */
+        .firefly {
+            position: absolute;
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            pointer-events: none;
+            background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%);
+            mix-blend-mode: screen;
+            filter: blur(2px);
+            z-index: 1;
+            animation: drift 15s infinite cubic-bezier(0.45, 0.05, 0.55, 0.95);
+        }
+        .ff-1 { background: radial-gradient(circle, #fff700 0%, #ffaa00 50%, transparent 80%); box-shadow: 0 0 20px #ffd700; }
+        .ff-2 { background: radial-gradient(circle, #00fff2 0%, #00aaff 50%, transparent 80%); box-shadow: 0 0 20px #00aaff; }
+        .ff-3 { background: radial-gradient(circle, #ff0077 0%, #ff0000 50%, transparent 80%); box-shadow: 0 0 20px #ff0077; }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0) scale(1); opacity: 0; }
+            50% { transform: translate(300px, -200px) scale(1.5); opacity: 0.8; }
+            100% { transform: translate(600px, 0) scale(1); opacity: 0; }
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-left: 5px solid #ffd700;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+            position: relative;
+        }
+        .verse-box::after { content: '✨'; position: absolute; top: 10px; right: 10px; animation: twinkle 2s infinite; }
+        
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .gikinahanglan {
+            background: linear-gradient(120deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+            font-weight: 600;
+            display: block;
+            margin: 15px 0;
+            color: #fff700;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .prayer-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+            text-align: justify;
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        @keyframes twinkle { 0%, 100% { opacity: 0.3; transform: scale(1); } 50% { opacity: 1; transform: scale(1.3); } }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="firefly ff-1" style="top: 15%; left: 8%;"></div>
+        <div class="firefly ff-2" style="top: 45%; left: 85%;"></div>
+        <div class="firefly ff-3" style="top: 75%; left: 15%;"></div>
+
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 9: DELEGASYON: ANG KAALAM NI MOISES</h1>
+            <p>"Jethro's Principle of Multiplying Oversight — Ang Pagpasan sa Buluhaton Uban ang Kaalam"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Exodo 18:17-18<br>
+        <strong>Kaubang mga Teksto:</strong> Exodo 18:13, Exodo 18:20, Exodo 18:21, Exodo 18:22, Exodo 18:23, ug Roma 15:2<br>
+        <strong>Katuyoan:</strong> Ang katuyoan niini nga leksyon mao ang pagguba sa unodnong kuta sa *micromanagement* ug ang garbo sa pag-inusara, ug ma-armasan ang matag usa kanato sa estratehiya sa delegasyon ug pagpalambo og bag-ong mga lider alang sa malungtarong kalampusan ug dako nga breakthrough sa pamilya, cellgroup, ug patigayon.</p>
+
+        <h2>Introduction: Ang Lit-ag sa "Ako Lang Tanan" (The Solitary Leader Trap)</h2>
+        <p>Usa sa labing dako, pinakahait, ug pinakadelikado nga sayop sa usa ka lider sa espiritu mao ang unodnong paghunahuna nga kinahanglan siya gayod ang mobuhat sa tanang yano ug dako nga butang aron kini mahimo nga husto ug hingpit. Sa kalibutan sa modernong pagpangulo, kini gitawag ug *micromanagement* o ang lit-ag sa **"Solitary Leadership"** (ang mapahitas-on nga pagpangulo nga nag-inusara). Kon ang usa ka lider dili makamao o mahadlok modeposito sa iyang pagsalig ug awtoridad ngadto sa uban, iyang ginaguba sa hilom ang iyang kaugalingong panglawas, ug iyang ginasabotahe ang tibuok kalambuan sa organisasyon, pamilya, o ministeryo nga iyang gipamunuan.</p>
+        
+        <p>Atong sulsihan ug tun-an ang kinabuhi sa usa sa labing gamhanan, dinihogan, ug bantogang lider sa Bibliya—si Moises. Si Moises mao ang tawo nga talagsaon nga gigamit sa Dios sa pagpagawas sa minilyon ka mga Israelita gikan sa mapig-oton nga kabilanggoan sa Ehipto. Nakasaksi siya sa mga dagkong milagro sa Pulang Dagat, nakigsulti siya sa Labing Halangdong Dios nangatubang nawong sa nawong, ug duna siyay dako ug lunsay nga kasingkasing alang sa katawhan. Apan bisan pa sa iyang dako nga dapit ug anointing sa espirituhanong realm, si Moises nahulog sa lit-ag sa grabeng kakapoy ug *burnout* tungod kay gipas-an niya ang tibuok sistema ug problema sa nasud nga nag-inusara sa unahan. Dinhi mientra ang iyang ugangan nga si Jethro, nga nagdala sa gitawag nato karon ug **"Jethro’s Principle of Multiplying Oversight"**:</p>
+
+        <div class="verse-box">
+            <strong>Exodo 18:17-18</strong>
+            "Unya si Jetro miingon kaniya, “Dili husto ang imong gibuhat. 18Maugtas ka ug ang mga tawo kay bug-at ra kini kaayo alang kanimo. "
+        </div>
+        <p>Kini nga teksto nagpadayag kanato uban ang kalayo sa Espiritu nga ang delegasyon dili lang usa ka ordinaryo nga estratehiya sa sekular nga pagpadagan sa trabaho; kini usa ka dinalian nga sugo sa balaang kaalam aron mapreserbar ang kinabuhi sa lider, mapanalipdan ang iyang anointing, ug maseguro ang kahapsay ug kalinaw sa tibuok katawhan!</p>
+
+        <h2>I. Ang Kamatuoran sa Burnout sa Pagpangulo (The Reality of Leadership Exhaustion)</h2>
+        <p>Aron atong masabtan sa espiritu ang grabeng sitwasyon ni Moises, atong puy-an ug tan-awon ang structural nga problema sa iyang adlaw-adlaw nga pamaagi sa wala pa mosulod ang pagkorehir sa kaalam:</p>
+        
+        <div class="verse-box">
+            <strong>Exodo 18:13</strong>
+            "Pagkasunod adlaw naghusay si Moises sa mga tawo nga nagkabingkil ug milungtad kini gikan sa buntag hangtod sa gabii. "
+        </div>
+        <p>Hunahunaa ug handurawa kini pag-ayo: Usa ka nag-inusarang lider, naglingkod sulod sa tibuok adlaw gikan sa sayong buntag hangtod sa pagsalop sa adlaw, namati ug naghusay sa matag yano, gamay, ug komplikado nga reklamo ug problema sa minilyon ka mga tawo! Si Moises hilabihan ka matinud-anon ug madasigon sa unod, apan ang iyang sistema sipyat ug walay kaalam.</p>
+
+        <span class="gikinahanglan">
+            ⚠️ ANG KAKUYAW SA BURNOUT UG EXHAUSTION: Kon ang usa ka lider mosulay sa paghimo ug pagkontrol sa tanan (sa printing, sa layout, sa follow-up, sa pag-pray, sa pag-set up), makabsan ug mahubasán siya sa pisikal ug espirituhanong kusog. Ang grabe nga kakapoy sa lawas dinalian nga mosangpot sa kakapoy sa huna-huna ug espiritu. Ang usa ka lider nga gikapoy daling mawad-an og anointing, daling ma-offend, ug daling masayop sa paghimo og mga desisyon sa pamilya ug negosyo.<br><br>
+            ⚠️ ANG PAGHUOT SA SISTEMA (The Bottleneck Effect): Kung ang tanang gagmayng desisyon ug lihok kinahanglan gayod moagi ug mag-agad sa usa ra ka tawo, ang tibuok kalambuan sa cellgroup o patigayon mohunong ug malangan! Ang katawhan ni Moises nag-antos ug nagtindog sa tibuok adlaw tungod sa kalangan. Ang dili maayong delegasyon nagpahinabog kahasol, kaluha, ug kaguol dili lang sa lider kondili sa tibuok katawhan nga iyang gipamunuan.
+        </span>
+
+        <h2>II. Ang Kaalam ni Jethro: Pagtudlo sa Balaod Una pa ang Pag-apod-apod</h2>
+        <p>Gipakita kanato ni Jethro nga ang epektibo ug dinihogan nga delegasyon dili lang basta dinalian nga paglabay sa trabaho ngadto sa uban tungod kay gikapoy ka. Adunay structural nga pamaagi sa espiritu. Sa wala pa giingnan ni Jethro si Moises nga ihatag ang responsibilidad, gihatagan una niya kini og estratehiya sa pag-edukar ug pag-train sa katawhan:</p>
+
+        <div class="verse-box">
+            <strong>Exodo 18:20</strong>
+            "Kinahanglan imo silang tudloan sa tanang mga balaod ug ipasabot kanila kon unsaon nila pagkinabuhi ug unsay angay nilang buhaton."
+        </div>
+        <p><strong>1. Pagtukod og Sumbanan (Setting the Structural Standard):</strong> Ang saktong delegasyon magsugod kanunay sa klaro, simple, ug tinawag nga pagtudlo. Dili nimo pwedeng mahatag ug mabasol ang responsibilidad ngadto sa usa ka miyembro o cell leader kon wala nimo sila mapakita sa "dalan nga pagalaktan" ug sa "buhat nga pagabuhaton." Kinahanglan duna silay kopya ug giya.</p>
+        <p><strong>2. Empowerment pinaagi sa Pagtudlo (Training Matrix):</strong> Ang usa ka maalamon nga kingdom leader naggahin gayod og saktong oras ug sakripisyo sa pag-train sa iyang mga sakop diha sa altar. Ang pag-train mao ang nag-unang pundasyon sa tinuod nga pagsalig. Kon nahibal-an ug nakita nimo nga nasabtan na nila ang sistema ug ang label sa buluhaton, dili na ka mahadlok nga itugyan ug i-release kanila ang maong awtoridad.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE REPLICATION PRINCIPLE):</span>
+            Lider, itanum kini sa imong huna-huna: Ang tinuod nga kalamposan sa imong pagpangulo ug ang open heavens sa imong patigayon dili masukod kon unsa ka ka-busy o kon unsa ka ka-importante nga ikaw ra ang mobuhat sa tanan. 
+            <br><br>
+            Ang tinuod nga kalamposan masukod kon pila ka lider ang imong **Na-train, Na-replicate, ug Na-empower** aron mobuhat sa buluhaton nga adunay parehas nga kalayo ug anointing gikan sa Dios! Ang kalibutan nagpundok og sumusunod, apan ang Gingharian nag-multiply og mga Lider!
+        </div>
+
+        <h2>III. Ang Kinaiya sa mga Pagapilion: Ang Sukdanan sa Integridad</h2>
+        <p>Ang Prinsipyo ni Jethro ug ang matrix sa Gingharian sa Dios wala nag-ingon nga ihatag ang responsibilidad o i-deploy ang buluhaton ngadto sa bisan kinsa na lang nga unodnong mitungha. Adunay estrikto, hait, ug dili mabalhin nga sukdanan sa karakter kon kinsa ang angayan nga hatagan sa maong gahum ug pagsalig:</p>
+
+        <div class="verse-box">
+            <strong>Exodo 18:21</strong>
+            "Apan pagpilig mga tawo nga may katakos; kanang may kahadlok sa Dios, kasaligan ug dili kasubornohan. Unya himoa silang mga pangulo sa tag-1000, tag-100, tag-50 ug tag-10 ka mga tawo."
+        </div>
+        
+        <p>Gitudlo sa Espiritu Santo pinaagi kay Jethro ang upat ka importanteng haligi sa kinaiya sa usa ka tawo nga mahimong kapikas ug kaabag sa pag-multiply sa pagpangulo:</p>
+        <ul>
+            <li>💪 <span class="highlight-text">1. Mga Tawo nga may Katakus (Capable Men/Women):</span> Sila kadtong adunay abilidad, kusog, kadasig, ug talento sa pagbuhat ug paghuman sa trabaho (sa pag-edit, sa follow-up, sa pag-lead).</li>
+            <li>🧎‍♂️ <span class="highlight-text">2. Nahadlok sa Dios (God-fearing):</span> Kini mao ang nag-unang espirituhanong angkla! Ang usa ka kaabag nga walay tinuod nga kahadlok sa Dios dali ra kaayong madala sa garbo ni Leviathan, daling ma-offend, ug daling moguba sa team alang sa personal nga interes.</li>
+            <li>👁️ <span class="highlight-text">3. Mga Tawo sa Kamatuoran (Trustworthy Matrix):</span> Sila kadtong masaligan, adunay lunsay nga integridad, ug matinud-anon sa tanang pamaagi—dili kay sa atubangan ra sa pastor maayo kondili bisan sa tago nga dapit uban sa ilang gadget ug pamilya.</li>
+            <li>🛑 <span class="highlight-text">4. Nagdumot sa Dautang Kinitaan (Hating Dishonest Gain):</span> Sila kadtong adunay kaputli sa panalapi, dili madala sa kompromiso, kurapsyon, o dautang tabi para sa kwarta. Ang ilang integridad dili mapalit sa pabor o unodnong bentaha.</li>
+        </ul>
+
+        <h2>IV. Ang Pag-apod-apod sa Awtoridad (Structure and Multiplied Oversight)</h2>
+        <p>Kinahanglan natong masabtan sa espiritu nga dili tanang tawo managsama og lebel sa kapasidad ug *anointing weight*. Ang kaalam ni Jethro nagpakita og usa ka hapsay, structural, ug epektibong estruktura sa pagdumala base sa gidak-on sa kapasidad sa tawo: mga lider sa liboan, gatosan, kalim-an, ug tinagpulo sumala sa ilang lebel:</p>
+
+        <div class="verse-box">
+            <strong>Exodo 18:22</strong>
+            "Mag-alagad sila ingon nga permanenteng maghuhukom sa katawhan. Isang-at nila kanimo ang lisod nga mga problema apan sila ray maghusay sa gagmayng mga bingkilbingkil. Niining paagiha mahimong sayon ang imong mga buluhaton kay makatabang man sila kanimo."
+        </div>
+        <p><strong>1. The Principle of Scalability:</strong> Adunay mga lider nga gihatagan sa Dios og grasya nga modumala og daghan, ug adunay mga kaabag nga mas epektibo, hait, ug madasigon sa gagmay nga pundok (tinagpulo o kalim-an). Ang usa ka maalamon nga lider makabalo ug mag-pray kon asa dapit i-pwesto ug i-deploy ang iyang mga tawo sumala sa ilang gasa, *graphic focus*, ug kapasidad.</p>
+        <p><strong>2. Pagsalig sa Ilang Desisyon ug Gahum:</strong> Ang delegasyon nagpasabut nga ihatag nimo ang responsibilidad lakip ang **legal nga awtoridad** sa paghimo og desisyon sa ilang lebel. Kon ihatag nimo ang buluhaton apan ikaw gihapon ang magsige og monitor, mag-overthink, ug mag-usab sa tanang desisyon, wala nimo gipalapdan ang imong pagdumala; ginasaligan nimo ang imong unod ug nagdugang ka lang sa kalangan sa sistema.</p>
+
+        <h2>V. Ang Resulta sa Maalamong Delegasyon: Kalinaw ug Kadugayon</h2>
+        <p>Unsa man ang dako ug mahimayaong garantiya kon ang usa ka lider ug magtutuo mosunod sa prinsipyo sa pag-multiply ug pagpasa sa iyang pagdumala sa uban? Gihatag ni Jethro ang selyado nga resulta sa bersikulo 23:</p>
+
+        <div class="verse-box">
+            <strong>Exodo 18:23</strong>
+            "Kon buhaton mo kini sumala sa gisugo sa Dios, dili ka maugtas ug kining tanang katawhan makapauli sa ila nga nahusay na ang ilang mga kasungian.”"
+        </div>
+        <ul>
+            <li>🔒 <span class="highlight-text">Ikaw makahimo sa pag-antus (Sustainability Matrix):</span> Ang delegasyon naghatag sa lider og pisikal ug espirituhanong kalig-on aron molungtad pa og dugay, mapanalipdan ang iyang pamilya, ug molungtad ang iyang negosyo ug ministeryo (*sustainability*). Kini ang makasumpo sa sayo nga pag-atras o pagkapukan tungod sa kakapoy ug unodnong pag-rebelde.</li>
+            <li>🕊️ <span class="highlight-text">Ang katawhan moadto sa ilang dapit sa kalinaw (Peace and Satisfaction):</span> Dili lang ang lider ang mabulahan sa anointing, kondili ang tibuok komunidad ug cellgroup! Kon paspas, hapsay, ug dinihogan ang pag-atiman sa mga panginahanglan sa matag lebel, adunay tinuod nga kalinaw, katagbawan, ug dako nga breakthrough sa tibuok organisasyon.</li>
+        </ul>
+
+        <h2>Conclusion & Warfare Decree: Gikan sa "Ako" Ngadto sa "Kita"</h2>
+        <p>Si Moises nagpaubos sa iyang espiritu. Bisan pa kon siya ang pinili, dinihogan, ug labing gamhanan nga lider sa Dios nga nakakita sa kalayo sa kamingawan, gilumpag ug gidugmok niya ang iyang unodnong garbo, naminaw siya sa badlong ug tambag sa iyang ugangan, ug iyang gidawat uban ang pagpaubos nga nagkinahanglan siya og tabang ug kaabag sa espiritu aron matuman ang mandato sa Dios!</p>
+
+        <div class="verse-box">
+            <strong>Roma 15:2</strong>
+            2Ang matag usa kanato angay hinuong magpahimuot sa atong isigkamagtutuo alang sa iyang kaayohan aron malig-on ang iyang pagtuo. "
+        </div>
+        <p>Ang pagpangulo sa Gingharian sa Dios dili gayod usa ka pasundayag sa usa ra ka hawod nga tawo (*one-man show*). Ang tinuod nga multiplication ug open heavens makita diha sa kon pila ka lider ang atong napatubo, na-train, ug nahatagan og gahum sa pag-alagad uban kanato! Ayaw na pas-ana ang tibuok kalibutan sa imong kaugalingong abaga. Sunda ang kaalam ni Moises, i-train ang mga tawo nga adunay integridad, ug i-proclaim nato ang supernatural nga kalampusan ug kagawasan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="prayer-box">
+            <h3>⚔️ DIREKTA NGA MANDATO UG PAG-AMPO PARA SA CELLGROUP MINISTRATION (MULTIPLYING OVERSIGHT ACTIVATION)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug pagbubo sa kaalam sa delegasyon uban ang dako nga kaisog ug espirituhanong awtoridad alang sa tibuok grupo lakip na sa atong kaugalingon sa katapusan sa inyong pagtuon:
+            <br><br>
+            <p style="text-align: justify; font-style: italic; margin: 0;">
+            "Ginoong Hesus, nagpaubos kami sa Imong atubangan ug among giila nga ang dako nga tawag sa pagpangulo ug multiplication labaw ka dako alang sa among kaugalingong unod ug kusog. Pinaagi sa gahum sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, gihinginlan namo ug gipalong karong adlawa ang matag kuta sa micromanagement, garbo sa pag-inusara, katapul, burnout, ug unodnong paggunit sa tanang butang sa atong mga hunahuna, sa atong mga kasingkasing, ug sa atong tibuok pagkatawo! Gihinginlan namo ug gipapahawa ang matag operasyon sa Python ug Leviathan nga misulay sa pagpuga sa among kusog pinaagi sa kakapoy.
+            <br><br>
+            Pasayloa kami sa mga higayon nga wala kami mosalig sa estruktura sa Gingharian ug misulay kami sa pagpasan sa buluhaton nga kami ra. Hatagi kami sa kaalam nga sama sa kang Jethro, ug sa kasingkasing nga mapaubanon ug daling makadawat og badlong sama sa kang Moises. Tabangi kami nga makakita, makabansay, ug makasalig sa mga tawo nga adunay katakus ug tinuod nga integridad nga Imong gipadala sa among palibot. Gideklara namo nga samtang among gi-train ug gi-empower ang uban, i-release nimo o Dios ang open heavens, supernatural nga provision, kalinaw, ug dako nga breakthrough sa atong panamalay, cell group, ug patigayon! Sugod karon kami  nagabarog na nga nagkahiusa ug nag-multiply sa Ngalan ni Hesus! Amen, ug Amen!"
+            </p>
+        </div>
+
+        <div class="discussion-box" style="background: rgba(0,0,0,0.4); border: 1px solid #d4af37; padding: 25px; border-radius: 12px; margin-top: 40px;">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Exodo 18:17-18**, nganong giingon man ni Jethro nga *“dili maayo”* ang pamaagi ni Moises nga siya ray naglingkod ug naghusay sa tanang problema gikan sa buntag hangtod sa hapon? Unsa ang makalilisang nga resulta sa *Solitary Leadership* (pag-inusara) sa lawas ug anointing sa usa ka lider?</li>
+                <li>Susiha ang **Exodo 18:20-21**. Unsa man ang upat ka estrikto ug hait nga hiyas sa karakter (*Katakus, Kahadlok sa Dios, Kamatuoran, ug Pagdumot sa dautang kinitaan*) nga kinahanglan natong tan-awon sa dili pa nato i-deploy ug itugyan ang responsibilidad ngadto sa usa ka kaabag, ug ngano nga ang *Training* man ang pundasyon sa pagsalig?</li>
+                <li>Ipaambit sa grupo uban ang lunsay ug mapainubsanong kasingkasing: Unsa nga mga buluhaton sa imong cellgroup, panamalay, o patigayon (sama sa *follow-up, pag-set up, o graphic alignment*) ang sige nimo og micromanage karon nga maoy hinungdan sa imong kakapoy, ug kinsa nga miyembro ang imong ituyo nga i-train ug hatagan og pagsalig karong semanaha aron ma-activate ang *Jethro's Principle* ug ang open heavens sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

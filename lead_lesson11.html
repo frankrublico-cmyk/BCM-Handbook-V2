@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 11: Mentorship & Spiritual Multiplication | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(12, 18, 28, 0.94), rgba(18, 24, 38, 0.98)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 5;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 15px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 24, 40, 0.96);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 50px rgba(0, 170, 255, 0.15);
+            backdrop-filter: blur(12px);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* ✨ HYPER-REALISTIC SPIRITUAL ENERGY PARTICLES */
+        .firefly {
+            position: absolute;
+            width: 14px; height: 14px;
+            border-radius: 50%;
+            pointer-events: none;
+            mix-blend-mode: screen;
+            filter: blur(3px);
+            z-index: 1;
+            animation: drift 18s infinite cubic-bezier(0.45, 0.05, 0.55, 0.95);
+        }
+        .ff-cyan { background: radial-gradient(circle, #00fff2 0%, #0066ff 60%, transparent 90%); box-shadow: 0 0 25px #00aaff; }
+        .ff-gold { background: radial-gradient(circle, #fff700 0%, #ff8800 60%, transparent 90%); box-shadow: 0 0 25px #ffd700; }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0) scale(0.8); opacity: 0; }
+            30% { opacity: 0.7; }
+            60% { transform: translate(250px, -180px) scale(1.4); opacity: 0.9; }
+            100% { transform: translate(500px, -50px) scale(0.8); opacity: 0; }
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 8px 0 0 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            position: relative;
+            z-index: 2;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.07);
+            border-left: 5px solid #ffd700;
+            padding: 22px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #ffffff;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+            border-radius: 0 12px 12px 0;
+            position: relative;
+            z-index: 2;
+        }
+        .verse-box strong {
+            color: #ffd700;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .gikinahanglan {
+            background: linear-gradient(120deg, rgba(0, 170, 255, 0.15) 0%, rgba(0, 170, 255, 0.05) 100%);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #00aaff;
+            font-weight: 500;
+            display: block;
+            margin: 20px 0;
+            text-align: justify;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            color: #00fff2;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .prayer-box {
+            background: linear-gradient(rgba(10, 20, 40, 0.6), rgba(5, 10, 25, 0.8));
+            border: 2px solid #00aaff;
+            padding: 35px;
+            border-radius: 15px;
+            margin-top: 50px;
+            box-shadow: 0 0 25px rgba(0, 170, 255, 0.2);
+            position: relative;
+            z-index: 3;
+            text-align: justify;
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+            text-align: justify;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="firefly ff-cyan" style="top: 15%; left: 5%;"></div>
+        <div class="firefly ff-gold" style="top: 40%; left: 80%;"></div>
+        <div class="firefly ff-cyan" style="top: 70%; left: 12%;"></div>
+        <div class="firefly ff-gold" style="top: 88%; left: 65%;"></div>
+
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 11: PAGPASANAY UG UBANG LIDER</h1>
+            <p>"Mentorship and Spiritual Multiplication — Ang Pagbilin og Kabilin nga Adunay Kalayo sa Dios"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 2 Timoteo 2:2<br>
+        <strong>Kaubang mga Teksto:</strong> 2 Timoteo 3:10, Tito 1:5, Juan 14:12, Buhat 6:7, ug Roma 15:2<br>
+        <strong>Katuyoan:</strong> Ang katuyoan niini nga leksyon mao ang pagguba sa unodnong kahakog sa posisyon ug ang pagbalhin gikan sa yano nga *addition* ngadto sa supernatural nga *spiritual multiplication*, aron ma-armasan ang matag usa kanato sa sistema sa mentorship nga magpatubo og bag-ong mga lider alang sa breakthrough sa pamilya, cell group, ug patigayon.</p>
+
+        <h2>Introduction: Ang Tinuod nga Kabilin sa Pagpangulo (The Ultimate Legacy)</h2>
+        <p>Sa structural nga dagan sa **Realm of Leadership**, ang labing dako, pinakahait, ug pinakamakalilisang nga trahedya mao ang usa ka lider nga hilabihan ka malampuson sa gawas, apan sa dihang mawa o mabiya na siya sa iyang pwesto, ang iyang tibuok organisasyon, cellgroup, negosyo, o ministeryo kalit lang nga mamatay ug madunot uban kaniya! Ang pagpangulo nga walay tinuyo, selyado, ug dinihogan nga plano sa pagsunod (*succession plan*) usa ka pagpangulo nga napakyas sa paglantaw sa unahan ug kulang sa balaang kaalam.</p>
+        
+        <p>Sa Gingharian sa Dios, kita wala gitawag aron lang magtukod og temporaryo nga mga monumento sa unod o mga dungog sa atong kaugalingong ngalan; gitawag kita aron magbilin og usa ka kabilin nga molungtad, mo-multiply, ug mosilaob sa tibuok mga henerasyon! Kini nagkinahanglan og estratehiko ug supernatural nga **Spiritual Multiplication pinaagi sa Mentorship**. </p>
+        <p>Ang tinuod nga mentorship dili lang basta yano nga pagpasa og impormasyon o mga lektyur; kini mao ang tinuyoan ug mapainubsanong pagbubo sa imong tinuod nga kinabuhi, karakter, kaalam, kalayo, ug pagtuo ngadto sa laing tawo aron sila usab makahimo sa pagbuhat ug pagpasanay sa ingon ngadto sa uban:</p>
+
+        <div class="verse-box">
+            <strong>2 Timoteo 2:2</strong>
+            "Itugyan sa mga tawo nga kasaligan ang imong madungog nga akong giwali atubangan sa kadaghanan aron kini itudlo usab nila sa uban.
+        </div>
+        <p>Kini nga bersikulo mao ang kasingkasing ug ang pinaka-matrix sa espirituhanong pagpasanay. Si Apostol Pablo nagsulat gikan sa kabilanggoan ngadto sa iyang pinalanggang *mentee* ug tinun-an nga si Timoteo. Matikdi kini pag-ayo: Dinhi makita nato ang upat ka henerasyon sa pagpangulo sa usa lang ka bersikulo: **(1) Si Pablo, (2) si Timoteo, (3) ang mga tawo nga kasaligan, ug (4) ang uban pa!** Ang maalamong lider sa Dios dili lang maghunahuna sa iyang kasamtangang kahayarray, kondili naghunahuna siya sa kaugmaon sa buluhaton nga dili na niya makit-an sa unahan.</p>
+
+        <h2>I. Ang Hunahuna sa Pagpasanay: Gikan sa Addition Ngadto sa Multiplication</h2>
+        <p>Daghan kaayong mga lider sa unod ang natanggong ug nabutang sa lebel sa "Addition" (Pagdugang). Sila naghunahuna sa ilang unod, *“Kon mangita pa ko ug dugang nga mga sumusunod, mga konsumidor sa dishwashing, o mga mamumuo, molambo ko.”* Apan ang usa ka dinihogan nga lider naghunahuna kanunay sa lebel sa "Multiplication" (Pagpasanay). Sila nagmando, *“Kon magbansay ug mag-mentor ko og mga lider nga makabansay ug makadala usab og laing lider, ang epekto niini dili matapos ug magdala og supernatural nga breakthrough!”*</p>
+
+        <span class="gikinahanglan">
+            ⚠️ ANG KULANGON SA LONE RANGER LEADERSHIP: Ang lider nga gusto nga siya ra kanunay ang bida, siya ra ang mag-preach, siya ra ang magdesisyon sa branding, ug siya ra ang modumala sa matag gamayng detalye sa cellgroup, naglimit sa gidak-on sa iyang organisasyon sa Dios! Kon ikaw lang ang dako nga kahoy sa palibot, walay laing tanom o bag-ong lider ang motubo sa ilawom sa imong landong tungod kay imo silang nahulogan og kangitngit ug kakulang sa pagsalig.<br><br>
+            👑 THE MASTER'S EXAMPLE: Si Hesus Mismo nagpakita niining saktong pamaagi. Wala Siya nagpabilin nga nag-inusara sa pagbuhat ug mga milagro gikan sa layo; nagpili Siya og napulo'g duha ka mga tinun-an, nagpuyo uban kanila, ug nagbubo sa Iyang kinabuhi kanila aron sa dihang mosaka na Siya sa Trono sa Langit, sila ang mopadayon sa pag-guba sa kuta sa kaaway uban ang dako nga kalayo!
+        </span>
+
+        <h2>II. Ang Proseso sa Mentorship: Ang Pagbubo sa Kinabuhi (Life-on-Life Investment)</h2>
+        <p>Ang tinuod nga mentorship dili gayod mahitabo sulod lang sa usa ka klasrom, layout, o seminar sa gawas. Kini usa ka balaan ug lunsay nga relasyon. Kinahanglan andam ang lider nga mag-abli sa iyang tinuod nga kinabuhi aron makita sa iyang mga tinun-an ang iyang kalampusan, iyang pag-pray, ug bisan ang iyang pamaagi sa pag-atubang sa krisis nga adunay pagpaubos:</p>
+
+        <div class="verse-box">
+            <strong>2 Timoteo 3:10</strong>
+            Apan walay natago gikan kanimo sa akong gitudlo, sa akong kagawian ug sa akong tumong sa kinabuhi. Nasayod ka sa akong pagtuo, pagpailob, paghigugma ug pagkamainantuson."
+        </div>
+        
+        <p><strong>1. Misunod sa Akong Paagi sa Kinabuhi:</strong> Matikdi nga wala lang miingon si Pablo nga *“misunod ka sa akong mga PowerPoint lecture.”* Miingon siya, **“misunod ka sa akong paagi sa kinabuhi.”** Ang pagpangulo ug ang anointing mas daling matakdan (*caught*) kaysa matudloan (*taught*)! Ang imong tinun-an nagtan-aw sa tago kon unsaon nimo pagtratar ang imong pamilya, kon unsaon nimo pagdumala ang imong panalapi, ug kon unsaon nimo pag-atubang ang mga tawo nga naghimo kanimog dautan taliwala sa presyur.</p>
+        <p><strong>2. Andam nga Mo-invest og Panahon:</strong> Walay *short-cut* sa pagpasanay ug lider, Pastor Frank. Nagkinahanglan kini og saktong panahon, pailub, ug sakripisyo sa altar. Kinahanglan andam ka nga maminaw sa ilang mga kakuwangon, mogiya kanila sa ilang mga kalibog, ug motul-id kanila uban ang gugma ug pagkorehir kung sila masayop aron maseguro ang ilang alignment.</p>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE POTTER'S HOUSE MATRIX):</span>
+            Sama sa dagan sa yutang kulonon sa kamot sa magbubuhat, ang mentorship nagkinahanglan og **pagkasikit**. Dili nimo maporma ang karakter sa usa ka bag-ong lider kon duna kay distansya kaniya. Ang relasyon ug ang pag-pray uban kanila mao ang naghatag og porma sa ilang anointing!
+        </div>
+
+        <h2>III. Ang Pagpili sa mga Pasanayon: Ang Sukdanan sa F.A.T. (Choosing the Right Soil)</h2>
+        <p>Sama sa Prinsipyo ni Jethro, dili tanang tawo andam alang sa lawom nga mentorship. Ang lider kinahanglan nga maalamon sa espiritu sa pagpili kon kinsa ang iyang ubanan, train-on, ug investan sa iyang panahon ug kusog. Sa modernong pagpangulo sa Gingharian, naggamit kita sa acronym nga **F.A.T.** base sa mga prinsipyo sa Bibliya:</p>
+        
+        <ul>
+            <li>💎 <span class="highlight-text">Faithful (Kasaligan Matrix):</span> Sila kadtong mga tawo nga bisan sa gagmay, yano, ug tago nga mga butang, matinud-anon ug adunay integridad. Ang 2 Timoteo 2:2 nag-ingon, *“itugyan kini ngadto sa mga tawo nga kasaligan.”* Kon ang usa ka tawo dili kasaligan sa iyang sulti o sa gamay nga buluhaton, dili nimo sila mapasanay isip dakong lider.</li>
+            <li>💎 <span class="highlight-text">Available (Andam Mohatag og Panahon):</span> Bisan unsa pa ka brayt, ka talentado, o ka maalamon ang usa ka tawo sa unod, kon wala siyay panahon nga makig-uban kanimo sa pag-pray ug pag-alagad, dili siya mapasanay. Ang mentorship nagkinahanglan og presensya ug saktong oras!</li>
+            <li>💎 <span class="highlight-text">Teachable (Mapaubsanon ug Andam Makat-on):</span> Kini ang labing importante sa tanan! Ang tawo nga naghunahuna nga *“kahibalo na ko sa tanan”* o dili madawat og pagkorehir ug badlong tungod sa unodnong pagkasensitibo, dili gayod molambo. Kinahanglan adunay mapaubsanon nga kasingkasing nga andam mosunod ug makat-on gikan sa anointing sa mentor.</li>
+        </ul>
+
+        <h2>IV. Ang Gradwasyon sa Mentorship: Ang Paghatag og Awtoridad ug Pagsalig</h2>
+        <p>Ang kinatibuk-ang katuyoan sa mentorship mao ang paghimo sa tinun-an nga makabarog na sa iyang kaugalingong mga tiil, ug makahimo na usab sa pagbunsod, pagpasanay, ug pagpadagan sa iyang kaugalingong cellgroup ug pagpangulo. Adunay mga lider nga maayo kaayo sa pag-train, apan mahadlok nga "mobalhin sa pwesto" o mohatag ug tinuod nga awtoridad tungod sa unodnong kahadlok nga mailusan, malabwan, o makuhaan sa dungog:</p>
+
+        <div class="verse-box">
+            <strong>Tito 1:5</strong>
+            "Gibilin ko ikaw sa Creta aron imong atimanon ang mga butang nga wala pa mahuman ug aron magtudlo kag mga pangulo sa simbahan sa matag lungsod sumala sa akong gisugo kanimo. "
+        </div>
+        
+        <p><strong>1. Gibilin Ko Ikaw (The Power of Releasing Matrix):</strong> Gibitawan ug gi-release ni Pablo si Tito didto sa Creta. Wala niya kini gipugngan o gi-micromanage gikan sa layo; gihatagan niya kini og tinuod nga responsibilidad, awtoridad, ug selyado nga pagsalig alang sa kalambuan sa dapit.</p>
+        <p><strong>2. Pagsalig sa Ilang Katakos ug Anointing:</strong> Ang tinuod nga mentor malipay ug mag-awit sa pagdayeg kon ang iyang tinun-an mas malampuson ug mas dako pa ang agi kaysa kaniya! Si Hesus Mismo nagpadayag niining harianong kasingkasing:</p>
+        <div class="verse-box" style="margin: 10px 0;">
+            <strong>Juan 14:12</strong> - "12Ang tinuod mao kini: ang motuo kanako magbuhat sa akong mga buhat ug magbuhat siyag labaw pa niini kay moadto man ako sa Amahan."
+        </div>
+
+        <h2>V. Ang Resulta sa Espirituhanong Pagpasanay: Walay Katapusan nga Impluwensya</h2>
+        <p>Kon ang usa ka pamilya, cellgroup, o patigayon mosunod niini nga prinsipyo sa pagbubo sa kinabuhi ngadto sa uban, makasinati kini og paglambo ug open heavens nga walay katapusan. Ang kakuwang sa mga lider dili na mahimong problema tungod ka ang sistema mismo nag-prodyus ug nag-multiply og bag-ong mga lider sa tanang panahon:</p>
+
+        <div class="verse-box">
+            <strong>Buhat 6:7</strong>
+            "Busa mipadayon pagkaylap ang pulong sa Dios. Ang mga tinun-an didto sa Jerusalem nag-anam kadaghan ug daghan kaayong mga pari nga midawat sa pagtuo."
+        </div>
+        <p>Sa Buhat kapitulo 6, sa dihang gi-delegate ug gi-pasa sa mga apostoles ang buluhaton ngadto sa pito ka mga pinalanding lider ug kaabag (sama ni Esteban ug Felipe), ang resulta mao ang paspas nga pagdaghan ug multiplication sa mga tinun-an! Ang pagpasanay ug lider moresulta sa pag-abli sa mga bag-ong pultahan alang sa kalamposan sa Dios.</p>
+
+        <h2>Conclusion & Warfare Decree: Kinsa ang Imong "Timoteo"?</h2>
+        <p>Sa katapusan, ang tinuod nga sukdanan sa imong pagpangulo sa Dios dili ang kung unsa kadako ang imong agi o sikat karong adlawa, kondili kon unsa ang mahitabo kon ikaw mawa na sa pwesto. Kung ang imong pamilya, cellgroup, o negosyo maguba ug mamatay pagkahuman nimo, nagpasabut nga gigamhan ka sa unod ug wala nimo gipuyo ang *Spiritual Multiplication Blueprint*:</p>
+
+        <div class="verse-box">
+            <strong>Roma 15:2</strong>
+            "Ang matag usa kanato angay hinuong magpahimuot sa atong isigkamagtutuo alang sa iyang kaayohan aron malig-on ang iyang pagtuo."
+        </div>
+        <p>Pangutan-a ang imong tinuod nga pagkatawo sa altar karon: *“Kinsa ang mga tawo nga akong ginalantaw, gina-pray, ug gina-train karon nga mamahimong sunod nga mga dinihogang lider? Giablihan ko ba ang akong kinabuhi aron sila makat-on kanako uban ang pagpaubos?”* </p>
+        <p>Ayaw gayod kahadlok nga mopatubo ug mas maalamon, mas batan-on, o mas abilikaran nga lider kay kanimo! Ang imong korona isip lider mao ang kalampusan sa mga tawo nga imong gibansay. Pasanaya ang imong pagdumala, i-invest ang imong kinabuhi sa uban, ug tan-awa kon giunsa sa Dios pagpadaghan ang bunga sa imong mga kahago ngadto sa mga henerasyon nga moabot! Amen!</p>
+
+        <div class="prayer-box">
+            <h3>⚔️ DIREKTA NGA MANDATO UG PAG-AMPO PARA SA CELLGROUP MINISTRATION (RELEASING THE SPIRIT OF MULTIPLICATION)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug pag-activate sa espiritu sa pagpasanay uban ang dako nga kaisog ug espirituhanong awtoridad alang sa tibuok grupo lakip na sa atong kaugalingon sa katapusan sa inyong pagtuon:
+            <br><br>
+            <p style="margin: 0; font-style: italic; line-height: 1.8;">
+            "Ginoong Hesus, nagpasalamat kami sa harianong pribilehiyo sa pagpangulo, anointing, ug multiplication. Pinaagi sa gahum sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, gihinginlan namo ug gipalong karong adlawa ang matag kuta sa kahakog sa posisyon, garbo, micromanagement, unodnong pagkasensitibo, ug ang espiritu sa lone ranger sa among mga hunahuna, sa among mga kasingkasing, ug sa among tibuok pagkatawo! Gihinginlan namo ug gipapahawa ang matag udyong sa kaaway nga misulay sa pagbuta sa sunod nga henerasyon.
+            <br><br>
+            Pasayloa kami sa mga higayon nga kami nahimong hakog sa among kahibalo, pamaagi, ug kaalam. Ginoo, hatagi kami og kasingkasing nga andam mo-mentor, mo-train, ug mobubo sa among kinabuhi ngadto sa uban. Pagdala ug mga 'Timoteo' sa among kinabuhi—mga tawo nga F.A.T. (Kasaligan, Andam mohatag og panahon, ug Mapasalamaton nga makat-on)—aron among mapasanay ang Imong buluhaton uban ang open heavens. Gideklara namo nga samtang among gi-empower ug gi-release ang uban, ang Dios mo-release og supernatural nga kalambuan, presko nga anointing, ug dako nga breakthrough sa among panamalay, cell group, ug patigayon! Akong gidiklara nga sugod karon kami nagabarog nga nag-multiply ug approved sa Ngalan ni Hesus! Amen, ug Amen!"
+            </p>
+        </div>
+
+        <div class="discussion-box" style="background: rgba(0,0,0,0.4); border: 1px solid #d4af37; padding: 25px; border-radius: 12px; margin-top: 40px;">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **2 Timoteo 2:2**, unsa man ang upat ka henerasyon sa pagpangulo nga gihulagway ni Pablo, ug ngano nga ang pagpangulo nga walay plano sa pagsunod (*succession plan*) giisip man nga usa ka kapakyasan?</li>
+                <li>Susiha ang **2 Timoteo 3:10** ug ang acronym nga **F.A.T.** Unsa ang kalainan sa pagdugang (*Addition*) batok sa pagpasanay (*Multiplication*), ug ngano nga ang karakter nga *Faithful, Available, ug Teachable* man ang labing importante nga yuta sa dili pa nato sugdan ang mentorship?</li>
+                <li>Ipaambit sa grupo uban ang lunsay ug mapainubsanong kasingkasing: Kinsa man ang saktong "Timoteo" o batan-ong lider nga gipadala sa Dios sa imong palibot karon nga imong ituyo nga i-train, i-pray uban, ug hatagan og pagsalig karong semanaha aron ma-activate ang *Spiritual Multiplication Blueprint* ug ang open heavens sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

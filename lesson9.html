@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9: Ang Plano sa Dios | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.1rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.35rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .highlight-box {
+            background: rgba(255, 215, 0, 0.03);
+            border: 1px solid #ffd700;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.04);
+            border-left: 3px solid #d4af37;
+            padding: 12px 15px;
+            margin-top: 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.05rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .consequence-list {
+            list-style-type: upper-roman;
+            padding-left: 20px;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>ANG PLANO SA DIOS</h1>
+            <p>(Cell Lesson Nine)</p>
+        </div>
+
+        <p>Ang atong pagahisgutan karon usa sa pinakaimportante kaayo nga pagtulon-an sa Biblia: <strong>“Nganong gibuhat kita sa Dios?”</strong> Unsay plano sa Dios ngadto sa tawo?</p>
+
+        <!-- SECTION 1 -->
+        <h2>1. Nganong Gibuhat sa Dios ang Tawo?</h2>
+        
+        <ul>
+            <li>
+                <span class="highlight-text">i) Relasyon ngadto Kaniya</span>
+                <div class="verse-box">
+                    <strong>Isaias 43:21</strong> - "...ang katawhan nga akong giumol alang sa akong kaugalingon..."
+                </div>
+                <p>Sa dihang gibuhat sa Dios ang mga anghel, mga hayop, mga isda, mga langgam, ug mga tanaman, maayo kini sila sibo sa ilang pagkamugna. Apan the tawo adunay hunahuna sa Dios, ug gihimo siya liwat kaayo sa Dios tungod kay ang Dios balaan man (pero dili siya Dios). Gituyo Niya kini aron makasabot gayod kaniya. <strong>“Relasyon”</strong> ang unang katuyoan nganong gibuhat sa Dios ang tawo <span class="highlight-text">(Marcos 12:28-30)</span>.</p>
+            </li>
+            <li>
+                <span class="highlight-text">ii) Magdumala sa Kalibotan</span>
+                <div class="verse-box">
+                    <strong>Genesis 1:26, 28</strong> - "Buhaton nato ang tawo sama sa atong dagway. Siya maoy magbuot sa mga isda, sa mga langgam, sa mga kahayopan, ug sa tanang ihalas nga mananap... Panganak kamog daghan aron malukop ang kalibotan sa inyong mga liwat ug sila maoy magbuot niini..."
+                </div>
+                <p>Ang tawo gihatagan ug awtoridad sa Dios aron maoy magdumala sa tanan Niyang gibuhat. Ang Dios dili makita tungod kay Siya Espiritu, pero pinaagi sa tawo nga Iyang gibuhat sumala sa Iyang panagway, makita Siya. Ang tawo maoy representante dinhi sa yuta sa Dios nga nagpuyo sa langit. Siya maoy “pisikal” nga nagrepresentante sa “espirituhanon” nga Dios. Gawas sa iyang relasyon sa Dios, gitahasan siya nga mag-atiman ug magdumala sa kalibotan.</p>
+            </li>
+        </ul>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR SECTION 1 -->
+        <div class="leader-insight">
+            <span class="insight-label">💡 Espirituhanong Katin-awan Alang sa Lider:</span>
+            Ang tawo wala buhata tungod kay nag-inusara o naglaay ang Dios, kondili gihimo kita gikan sa subra nga **GUGMA** sa Dios aron makigbahin sa Iyang pamilya. Ang pulong nga "dagway" (image) nagpasabot nga kita ang Iyang mga salamin (mirrors) dinhi sa yuta aron ipakita ang Iyang kinaiya, katarong, ug kagamhanan sa tibuok kalibutan.
+        </div>
+
+        <!-- SECTION 2 -->
+        <h2>2. Nganong Nawala ang Tawo sa Plano sa Dios?</h2>
+        <p>Ang Dios nagbutang ug duha ka kahoy taliwala sa tanaman sa Eden <span class="highlight-text">(Genesis 2:16-17)</span>. Ang Iyang katuyoan nganong nagbutang Siya niini nga kahoy mao ang pagsulay sa tawo kung siya motuman ba gayod Kaniya. Dili mapakita ang gugma kung walay kapilian. Kung adunay gugma, adunay pagtuman sa Iyang sugo <span class="highlight-text">(Juan 14:15)</span>. Gimandoan Niya ang tawo nga dili mokaon sa kahoy nga magdala ug kamatayon.</p>
+        
+        <p>Mao kini ang Iyang paagi mapakita sa tawo ang Iyang gugma apan nasayod kita nga mihimo ug desisyon si Adan pagsupil sa Dios. Wala siya mailad sa yawa, ang asawa ang nailad <span class="highlight-text">(1 Timoteo 2:14)</span>. Nakasala gayod si Adan sa Dios. Gihatagan ug tsansa ug panahon si Adan sa Dios nga maghinulsol apan imbis moangkon sa iyang sala, ang Dios ug ang babaye naman hinuon ang iyang gibasol ngano nakabuhat siya niini <span class="highlight-text">(Genesis 3:11-12)</span>.</p>
+        
+        <p>Tungod sa sala, gipapahawa sila sa Dios sa hardin sa Eden basin mokaon sila sa “kahoy sa kinabuhi” ug dili na gayod maulian sa ilang kahimtang nga “makasasala” <span class="highlight-text">(Genesis 3:22-24)</span>. Apan the Dios nagplano gihapon pagluwas sa tawo nga nahulog na sa sala <span class="highlight-text">(Genesis 3:15)</span>. Ang pagsupil sa Dios ug pagtuman unsay atong gusto makadaot kanato.</p>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR SECTION 2 -->
+        <div class="leader-insight">
+            <span class="insight-label">💡 Espirituhanong Katin-awan Alang sa Lider:</span>
+            Ang gamut sa sala ni Adan mao ang **KAGOMALMAN o PRIDE**—ang tinguha nga mahimong kaugalingong magbubuot ug dili na mag-agad sa Dios. Sa dihang gibasol ni Adan si Eva ug ang Dios ("ang babaye nga IMONG gihatag kanako"), iyang gipakita ang katig-a sa kasingkasing. Ang sala nag-guba sa vertical nga relasyon (tawo ngadto sa Dios) ug horizontal nga relasyon (tawo ngadto sa iyang isigkatawo).
+        </div>
+
+        <!-- SECTION 3 -->
+        <h2>3. Unsay Nahitabo sa Tawo Human Siya Nahulog sa Sala?</h2>
+        <ol class="consequence-list">
+            <li>
+                <strong class="highlight-text">Nawala ang Himaya sa Dios nga nagputos kanila.</strong> 
+                <p>Kaniadto wala nila batia ang kaulaw bisan ug hubo sila tungod sa langitnon nga himaya nga nagsinina kanila <span class="highlight-text">(Genesis 2:25)</span>. Sa dihang sila nakasala, nakita nila ang ilang pagkahubo kay ang ‘himaya’ mipahawa naman gikan kanila <span class="highlight-text">(Genesis 3:7)</span>. Ang himaya sa Dios nga nagdala ug kalinaw, katagbawan, ug kalipay nawala tungod sa sala ug mipuli ang kaulaw, kahadlok, ug kahaw-ang sa kinabuhi.</p>
+            </li>
+            <li>
+                <strong class="highlight-text">Aduna na silay kahadlok nga moduol sa Dios.</strong>
+                <p>Kaniadto sa wala pa sila makasala, maayo ug lalom ang ilang relasyon sa Dios pero karon mahadlok na sila moduol kaniya <span class="highlight-text">(Genesis 3:10)</span>.</p>
+            </li>
+            <li>
+                <strong class="highlight-text">Miabot ang tunglo sa ilang kinabuhi.</strong>
+                <p>Nahimong tinunglo ang ilang kinabuhi, relasyon, pangita, ug panuigon <span class="highlight-text">(Genesis 3:16-19)</span>. Nahimong “buwisit” ang kinabuhi sa tawo tungod sa sala. Ang sala nagdala ug dakong kasamok sa tawo.</p>
+            </li>
+        </ol>
+
+        <!-- SECTION 4 -->
+        <h2>4. Unsay Pamaagi sa Dios Aron Mabalik ang Tawo sa Iyang Katuyoan?</h2>
+        <div class="verse-box">
+            <strong>2 Corinto 5:18-19</strong> - "...siya usab nagpasig-uli kanato ngadto kaniya pinaagi kang Cristo... Maoy among mensahe nga ipasig-uli sa Dios ang tanang tawo ngadto kaniya pinaagi kang Cristo. Ang Dios wala na mag-isip sa ilang mga sala..."
+        </div>
+        <p style="text-align: center; font-weight: bold; font-size: 1.2rem;" class="highlight-text">🛡️ Si Cristo lang ang solusyon aron ang tawo mabalik ngadto sa plano sa Dios!</p>
+
+        <!-- SECTION 5 -->
+        <h2>5. Unsa bay Buhaton sa Tawo Aron Mahibalik Siya sa Plano sa Dios?</h2>
+        
+        <div class="highlight-box">
+            <h3 style="margin-top: 0; color: #ffd700;">🪵 Papuy-a si Cristo ug Paglakaw Uban Kaniya</h3>
+            <p style="margin-bottom: 0;">Dawaton nato si Cristo nganhi sa atong kasingkasing isip Ginoo ug magkinabuhi kita uban kaniya <span class="highlight-text">(Colosas 2:6-7)</span>. Dili igo nga kita naluwas sa atong mga sala, apan ang importante usab mopadayon kita pagpalalom sa atong pag-ila Kaniya. Mao kini ang unang katuyoan ngano gibuhat kita sa Dios: <strong>“Pakig-relasyon Kaniya.”</strong></p>
+        </div>
+
+        <div class="highlight-box" style="border-color: #ff4500;">
+            <h3 style="margin-top: 0; color: #ff4500;">👑 Pagdumala Uban ni Cristo</h3>
+            <p style="margin-bottom: 0;">Gamiton usab nato ang atong awtoridad batok sa sala, sakit, ug sa tanang buhat sa panulay. Hinumduman nato nga gibuhat kita para magdumala sa kalibotan, para magpuyo nga madaogon sa tanang lugar ug sa tanang panahon. Dinha kang Cristo, nahimo kitang mga representante sa Dios dinhi sa yuta aron Siya nga dili makita, makita pinaagi kanato.</p>
+        </div>
+
+        <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR SECTION 5 -->
+        <div class="leader-insight" style="border-color: #ff4500;">
+            <span class="insight-label">💡 Espirituhanong Katin-awan Alang sa Lider:</span>
+            Ang pagdumala uban ni Cristo nagpasabot nga ibalik nato ang **DOMINION** o awtoridad nga gihatag sa Eden apan gikawat sa yawa. Diha sa atong pamilya, panimalay, cell group, ug dapit-buhaton, duna kitay katungod pinaagi sa Ngalan ni Jesus sa pagpahunong sa mga plano sa kangitngit ug pag-establisar sa katarong, kalinaw, ug kalipay sa Espiritu Santo!
+        </div>
+
+        <!-- QUESTIONS BOX -->
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar sa Kaugalingon:</h3>
+            <ul>
+                <li>Importante ba nga ang katuyoan sa Dios nganhi kanato matuman? Ngano man?</li>
+                <li>Nadawat mo na ba si Cristo isip imong tinuod nga Ginoo ug Magbubuot? Kung wala pa, andam ka na ba karon?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7: Mga Pangutana Mahitungod sa Kaluwasan | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.1rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .qa-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid #444;
+            border-radius: 12px;
+            padding: 22px;
+            margin: 35px 0;
+            transition: 0.3s;
+        }
+
+        .qa-section:hover {
+            border-color: #ff4500;
+            background: rgba(255, 69, 0, 0.02);
+        }
+
+        .question-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ff4500;
+            padding-bottom: 5px;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .gift-box {
+            background: linear-gradient(135deg, rgba(20,20,20,0.95), rgba(255,215,0,0.08));
+            border: 2px solid #ffd700;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 35px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+
+        .gift-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.04);
+            border-left: 3px solid #d4af37;
+            padding: 12px 15px;
+            margin-top: 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.05rem;
+            color: #e0d8c3;
+        }
+
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            display: block;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>MGA PANGUTANA MAHITUNGOD SA KALUWASAN</h1>
+            <p>(Cell Lesson Seven)</p>
+        </div>
+
+        <!-- QUESTION 1 -->
+        <div class="qa-section">
+            <div class="question-title">1. Unsay atong gipasabot kung mosulti kita nga “luwas na kita”?</div>
+            <p>Tungod sa atong pagkahiusa kang Cristo:</p>
+            <ul>
+                <li><strong>i. Napasaylo na ang atong mga sala</strong> <span class="highlight-text">(Colosas 1:13-14)</span> ug nakabaton na kita sa pagkamatarong nga gikan sa Dios <span class="highlight-text">(2 Corinto 5:21; Roma 3:22)</span>.</li>
+                <li><strong>ii. Naluwas na kita sa impiyerno</strong> (ikaduhang kamatayon) ug duna na'y kasigurohan sa langit <span class="highlight-text">(Gipadayag 21:8; Juan 5:24; Juan 11:25-26; Filipos 2:20)</span>.</li>
+                <li><strong>iii. Naluwas na kita sa “makasasala nga kinaiya”</strong> ug nakabaton na sa “kinaiyahan sa Dios” <span class="highlight-text">(1 Juan 3:9; 2 Pedro 1:3-4)</span>. Bag-o na kitang binuhat <span class="highlight-text">(2 Corinto 5:17)</span>.</li>
+                <li><strong>iv. Naluwas na kita gikan sa kaulipnan ni Satanas</strong> ug parte na sa Gingharian ni Cristo <span class="highlight-text">(Colosas 1:13)</span>. Nahiusa na kita sa Dios nga atong Amahan <span class="highlight-text">(Juan 14:6; 1 Juan 2:23)</span>.</li>
+            </ul>
+            <p>Tungod sa sala, nahimulag kita sa Dios apan diha kang Cristo nakabaton na kita ug kapasayloan ug nahiusa na pag-usab Kaniya. Ang katuyoan sa kaluwasan dili lang para malikay kita sa ‘tunglo karon’ ug sa ‘silot sa impiyerno ugma’ apan ang <strong>pagbalik sa atong maayong relasyon ngadto sa Amahan karon</strong> <span class="highlight-text">(2 Corinto 5:18-19)</span>.</p>
+            
+            <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR Q1 -->
+            <div class="leader-insight">
+                <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                Daghan ang nagtuo nga ang kaluwasan mahitabo lamang inigkahuman sa kamatayon. Apan sumala sa Juan 5:24, ang pulong nga gigamit ni Jesus nag-ingon: "adunay kinabuhing dayon ug dili na kaniya pagahukman, kondili mibalhin na siya gikan sa kamatayon ngadto sa kinabuhi." Kini nagpasabot nga ang kaluwasan usa ka kasamtangang reyalidad (present possession) ug dili paabuton pa ugma.
+            </div>
+        </div>
+
+        <!-- QUESTION 2 -->
+        <div class="qa-section">
+            <div class="question-title">2. Makaluwas ba kanato ang atong mga maayong binuhatan?</div>
+            <div class="verse-box">
+                <strong>Efeso 2:8-9</strong> - "Kay pinaagi sa pagtuo naluwas kamo tungod sa grasya sa Dios. Dili kini inyong buhat kundili gasa sa Dios. Busa walay makapasigarbo niini sanglit dili man kini bunga sa inyong mga paningkamot."
+            </div>
+            <p>Adunay duha ka rason nganong dili makaluwas ang atong mga maayong binuhatan:</p>
+            <ul>
+                <li><strong>i.</strong> Ang kaluwasan gasa sa Dios ug madawat lang kini pinaagi sa pagtuo kang Ginoong Jesus ug dili pinaagi sa maayong binuhatan <span class="highlight-text">(Tito 3:4-5)</span>.</li>
+                <li><strong>ii.</strong> Aron walay magpasigarbo atubangan sa Dios ug sa bisan kinsa nga naluwas siya pinaagi sa iyang kaugalingon nga mga paningkamot. Si Jesus lang ang Manluluwas.</li>
+            </ul>
+            <p>Sa wala pa kita maluwas, ang atong maayong binuhatan mora lang ug <strong>“hugawng pahiran”</strong> atubangan sa Dios <span class="highlight-text">(Isaias 64:6)</span>. Bisag unsa pay atong buhaton nga maayo, makasasala pa gihapon kita. Walay makasasala nga makatandog sa iyang mga sala bisan ug mobuhat pa siya ug mga maayong binuhatan, ulipon siya sa iyang mga sala <span class="highlight-text">(Juan 8:34)</span>.</p>
+            <p>Si Cristo lang ang makaluwas kanato gikan sa sala <span class="highlight-text">(Mateo 1:21)</span>. Human kita maluwas, ang mga maayong binuhatan nga bunga sa Espiritu Santo ang kinahanglan makita nganhi kanato <span class="highlight-text">(Efeso 2:8-10; Galacia 5:22-23)</span>. Kini nga mga maayong binuhatan dili na hugaw nga trapo atubangan sa Dios kondili humot na nga mga halad nga makapahimuot kaniya <span class="highlight-text">(Hebreo 13:16)</span>.</p>
+
+            <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR Q2 -->
+            <div class="leader-insight">
+                <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                Atong timan-an ang saktong han-ay: Dili kita maluwas "tungod" sa maayong binuhatan, kondili naluwas kita "alang" sa maayong binuhatan (Efeso 2:10). Ang maayong binuhatan dili mao ang gamut (root) sa kaluwasan, kondili kini ang bunga (fruit) sa usa ka kasingkasing nga naluwas na sa hingpit.
+            </div>
+        </div>
+
+        <!-- QUESTION 3 -->
+        <div class="qa-section">
+            <div class="question-title">3. Sa unsa nga paagi maluwas ang usa ka tawo?</div>
+            <div class="verse-box">
+                <strong>Buhat 16:30-31</strong> - Ang tinugyanan sa karsel nangutana kang Pablo ug kang Silas “Sir, unsa may akong buhaton aron ako maluwas?” Sila mitubag, “Tuo kang Ginoong Jesus ug maluwas ka”...
+            </div>
+            <p>Tuo kang Ginoong Jesus ug maluwas ka! Unsay pasabot sa “pagtuo kang Ginoong Jesus”?</p>
+            <p>Kini nga klase sa pagtuo dili sa hunahuna lang o sa baba lang kondili kini nga pagtuo naglangkob ug <strong>“pagtugyan.”</strong> Nalambigit dinhi ang pagdumili sa kaugalingon ug pagdawat sa pagka-Ginoo ni Jesu-Cristo <span class="highlight-text">(Galacia 2:20)</span>. Ang “makaluwas nga pagtuo” naglangkob ug tinuod nga ‘pagsalig’ ug ‘pag-ila’ nga si Jesus na ang matuman sa iyang kinabuhi hangtod sa kahangtoran.</p>
+            <div class="verse-box">
+                <strong>2 Corinto 5:15</strong> - "Namatay siya alang sa tanang mga tawo aron ang mga buhi dili na magkinabuhi alang sa ilang kaugalingon, kon dili kaniya nga namatay ug gibanhaw tungod kanila."
+            </div>
+            <p>Kung imong itugyan ang imong kinabuhi ngadto kang Cristo ug mag-kinabuhi na uban kaniya ug dili na sa imong kaugalingon, maluwas ka <span class="highlight-text">(Filipos 1:21; Mateo 16:24-26; Roma 10:9-10)</span>.</p>
+
+            <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR Q3 -->
+            <div class="leader-insight">
+                <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                Ang pulong nga "Tuo" sa orihinal nga pinulongan sa Biblia mao ang <span class="highlight-text">"Pisteuo"</span>, nga nagpasabot ug labaw pa sa mental assent (pagtuo lang nga naay Dios sama sa mga demonyo sa Santiago 2:19). Nagpasabot kini og hingpit nga pagsalig ug pag-unong—sama sa usa ka tawo nga mosakay sa usa ka eroplano, gitugyan niya ang tibuok niyang gibug-aton ug kinabuhi sa maong sakyanan.
+            </div>
+        </div>
+
+        <!-- QUESTION 4 -->
+        <div class="qa-section">
+            <div class="question-title">4. Kanus-a man dapat maluwas ang tawo?</div>
+            <p><strong>Karon samtang buhi pa kita</strong>, dili ugma, dili kung patay na kita o kung atua na kita sa langit.</p>
+            <div class="verse-box">
+                <strong>2 Corinto 6:2</strong> - "Mao na kini ang takna sa pagdawat sa kaluoy sa Dios; karon mao ang adlaw sa kaluwasan!"
+            </div>
+            <p>Dili na kita maghulat ug ugma kay basin ulahi na ang tanan. Ang Dios nagatawag kanato karon, busa karon kita moduol kaniya. Itugyan ang imong kinabuhi kang Jesus kay karon ang adlaw sa imong kaluwasan!</p>
+
+            <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR Q4 -->
+            <div class="leader-insight">
+                <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                Adunay dako nga lit-ag ang kaaway nga gitawag ug "Procrastination" o ang pag-ingon nga "Ugma na lang." Ang Biblia nagpasidaan sa Proverbio 27:1 nga dili kita magpasigarbo sa adlaw nga ugma kay wala kita masayod unsay mahitabo niining adlawa. Ang takna sa grasya adunay utlanan, ug ang labing maalamon nga desisyon mao ang pagtubag sa tawag sa Dios KARON.
+            </div>
+        </div>
+
+        <!-- QUESTION 5 (GIFT BOX) -->
+        <div class="gift-box">
+            <h3>🎁 5. Unsay pasabot nga “gasa” ang kaluwasan?</h3>
+            <div class="verse-box" style="border-color: #ffd700;">
+                <strong>Roma 6:23</strong> - "...apan ang gasa sa Dios mao ang kinabuhing walay kataposan nga anaa kang Cristo Jesus nga atong Ginoo."
+            </div>
+            <p>Kung mosulti kita nga gasa ang usa ka butang, adunay tulo nga naglangkob niini:</p>
+            <ol>
+                <li><span class="highlight-text">i.</span> Kung gasa, nagpasabot nga duna gayoy naghatag niini (Ang Dios).</li>
+                <li><span class="highlight-text">ii.</span> Kung gasa, nagpasabot nga libre kini ug walay bayad.</li>
+                <li><span class="highlight-text">iii.</span> Kung gasa, kinahanglan dawaton gayod kini sa gigasahan aron kini mapuslan.</li>
+            </ol>
+            <p>Si Cristo ang gasa sa Dios nganhi kanato nga mga makasasala. Kinahanglan ato siyang dawton isip <strong>GINOO</strong> aron maluwas kita ug malipay ang naghatag, ang Dios nga Amahan.</p>
+
+            <!-- ➕ ADDED GIPATAS-AN INSIGHT FOR Q5 -->
+            <div class="leader-insight" style="border-color: #ffd700;">
+                <span class="insight-label">💡 Lawom nga Insight para sa Lider:</span>
+                Bisan unsa ka nindot ug ka mahal sa usa ka gasa, kung kini magpabilin lang nga giputos ug nakabutang sa lamesa, dili kini mapuslan ug dili makuha sa nakadawat ang iyang tag-iya. Ang kaluwasan nahimong epektibo lamang sa diha nga ablihan sa tawo ang iyang kasingkasing ug personal nga dawaton ug angkonon si Jesus.
+            </div>
+        </div>
+
+        <!-- QUESTIONS BOX -->
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar nga mga Pangutana:</h3>
+            <ul>
+                <li>Sigurado ka na ba nga luwas ka na? Nakadawat ka na ba sa libre nga kaluwasan sa Dios diha ni Cristo? Kung wala pa, andam ka ba modawat niini karon?</li>
+                <li>Nasabtan ba nato sa kinasingkasing nga gasa ug libre ang kaluwasan gikan sa Dios?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

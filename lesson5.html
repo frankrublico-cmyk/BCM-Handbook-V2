@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5: Pagkatawo Pag-usab | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.3rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.4rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 215, 0, 0.05);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 215, 0, 0.1);
+        }
+
+        .contrast-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .contrast-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .contrast-box:hover {
+            border-color: #ff4500;
+            background: rgba(255, 69, 0, 0.04);
+        }
+
+        .contrast-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+        }
+
+        .alert-box {
+            background: rgba(255, 69, 0, 0.08);
+            border: 1px solid #ff4500;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>PAGKATAWO PAG-USAB</h1>
+            <p>(Cell Lesson Five)</p>
+        </div>
+
+        <p>UNA sa tanan, ang <strong>“pagkatawo pag-usab”</strong> o <strong>“born again”</strong> dili grupo o sekta sa relihiyon nga puwede ka mobalhin para mahimong usa ka parti niini. Ang “born again” dili usab pagbag-o sa kaugalingon pinaagi sa tawhanong paningkamot.</p>
+
+        <h2>1. Unsa ang pagkatawo pag-usab (born again)?</h2>
+        <div class="verse-box">
+            <strong>Juan 1:13</strong> - "Wala sila mahimong mga anak sa Dios sa paagi nga tawhanon—wala sila mangatawo nga mga anak sa tawhanong amahan, ang Dios mismo mao ang ilang Amahan."
+        </div>
+        <p>Ang “pagkatawo pag-usab” usa ka kasinian diin ang usa ka tawo natawo ngadto sa pamilya sa Dios. Kini nga pagkatawo espirituhanon, minugna sa Espiritu sa Dios. Nag-ingon ang Ginoo, <em>“...ang gianak sa Espiritu, espiritu usab” (Juan 3:6)</em>.</p>
+        <p>Ang pagkatawo pag-usab dili sekta sa relihiyon, dili pagbag-o sa kaugalingon sa tawhanon nga pamaagi, o pagbautismo sa tubig kondili usa ka <strong>"espirituhanong kasinatian diin natawo ang usa ka tawo ngadto sa pamilya sa Dios."</strong></p>
+
+        <!-- 📖 GIPATAS-AN NGA DEEPER INSIGHT FOR LESSON 5 -->
+        <div class="alert-box" style="background: rgba(212,175,55,0.03); border-color: #d4af37;">
+            <span class="highlight-text">🔥 Lawom nga Kamatuoran Alang sa Lider:</span>
+            <p>Sa Juan 3:3, si Nicodemo, usa ka respetado nga lider sa relihiyon ug eskolar, natingala sa dihang giingnan siya ni Jesus nga kinahanglan siya matawo pag-usab. Kini nagpakita nga bisan unsa pa ka taas ang imong posisyon sa relihiyon, o unsa ka ka maayo sa pagpanalipod sa balaod, kung wala kay espirituhanong pagkatawo gikan sa Espiritu Santo, dili gihapon nimo masabtan o masulod ang Gingharian sa Dios.</p>
+        </div>
+
+        <h2>2. Nganong kinahanglan man kita matawo sa pamilya sa Dios?</h2>
+        <p>Dili ba diay mga anak sa Dios ang tanang tawo sa kalibotan? Atong tan-awon ang giingon sa Pulong sa Dios:</p>
+        <div class="verse-box">
+            <strong>1 Juan 3:10</strong> - "Ang kalahian sa mga anak sa Dios ug sa mga anak sa yawa mao kini: ang wala magbuhat sa matarong o wala mahigugma sa iyang isigkatawo, dili anak sa Dios."
+        </div>
+
+        <div class="contrast-container">
+            <div class="contrast-box">
+                <h3>👥 Duha ka Klase nga Tawo</h3>
+                <p>Tanang tawo binuhat sa Dios pero dili tanang tawo mga anak sa Dios. Adunay mga tawo nga anak sa Dios ug adunay mga tawo nga mga anak sa yawa. Duha lang ka klase ang mga tawo sa tibuok kalibotan.</p>
+            </div>
+            <div class="contrast-box">
+                <h3>👶 Duha ka Klase nga Pagkatawo</h3>
+                <p>Ang Biblia naghisgot ug duha ka pagkatawo: Ang tawhanon nga pagkatawo ug ang espirituhanon nga pagkatawo. <em>"Ang gianak sa tawo, tawo usab; ug ang gianak sa Espiritu, espiritu usab." (Juan 3:6)</em></p>
+            </div>
+        </div>
+
+        <p>Ang unang pagkatawo nahitabo sa dihang natawo kita sa tago-angkan sa atong inahan. Niining unang pagkatawo, natawo kita uban sa <span class="highlight-text">‘panulondon nga sala’ (Salmo 51:5)</span>. Ato kining napanunod kang Adan diin ang iyang sala ug pagkamakasasala napasa ngadto sa tanang kaliwatan <span class="highlight-text">(Roma 5:12)</span>. Tungod niini, ang kahimtang sa tanang tawo sa kalibotan makasasala ug:</p>
+
+        <ul>
+            <li><strong>i. Patay sila sa espiritu</strong> o nahimulag sa Dios <small style="color: #ff4500;">(Efeso 2:1; Roma 6:23)</small></li>
+            <li><strong>ii. Iya sila sa Yawa</strong> <small style="color: #ff4500;">(Efeso 2:2; 1 Juan 3:8)</small></li>
+            <li><strong>iii. Padulong sila sa impiyerno</strong> <small style="color: #ff4500;">(Mateo 25:41)</small></li>
+        </ul>
+
+        <div class="alert-box">
+            <p>Mao kini ang pinakarason ngano nga miingon si Jesus nga kinahanglan matawo kita pag-usab. Natawo ka nga patay sa espiritu, kinahanglan matawo ka pag-usab aron mabuhi sa espirituhanon nga bahin. Tungod sa sala iya ka sa yawa, mao nga kinahanglan ka matawo pag-usab aron mahimod ug mahiusa sa Amahan sa langit ug mahimong iyang mga anak. Natawo ka nga makasasala kinahanglan matawo ka pag-usab aron mahimong matarong. Tungod sa sala ang imong padulngan kalaglagan, mao nga kinahanglan ka matawo pag-usab aron makabaton ug kasigurohan sa Gingharian sa Dios <span class="highlight-text">(Juan 3:3)</span>.</p>
+        </div>
+
+        <h2>3. Unsaon nato para matawo kita pag-usab?</h2>
+        <p>Matawo ka pag-usab kung imong ibutang ang imong pagtuo ug pagsalig ngadto kang Jesus para sa kapasayloan sa imong mga sala ug sa kompleto nga pagkahiusa ngadto sa Dios nga Amahan.</p>
+        <p>Kung ang usa ka tawo motugyan sa iyang kinabuhi ngadto kang Jesus, matawo siya pag-usab ngadto sa pamilya sa Dios. Nag-ingon ang Biblia, <em>“Pinaagi sa pagtuo kamong tanan nahimong mga anak sa Dios sa pakigkahiusa ninyo kang Cristo Jesus” (Galacia 3:26)</em>. Pinaagi sa atong pagtuo kang Jesus, nahimo kitang mga anak sa Dios ug ang Dios nahimong ato nang Amahan!</p>
+
+        <!-- 📖 ADDITIONAL DETAILS ON STEP 3 -->
+        <div class="verse-box">
+            <strong>2 Corinto 5:17</strong> - "Busa kon ang tawo nahiusa kang Cristo, bag-o na siyang binuhat; ang daan miagi na ug miabot na ang bag-o."
+        </div>
+        <p>Kini nga bersikulo nag-ingon nga ang pagkatawo pag-usab nagdala og dako nga panag-ilis sa sulod sa kasingkasing sa tawo. Dili na siya sama sa una nga ulipon sa kangitngit ug sala, kondili duna na siyay bag-ong tinguha sa pagpahimutang ug pagpahimuot sa Dios.</p>
+
+        <h2>4. Unsa may mosunod human kita matawo sa pamilya sa Dios?</h2>
+        <p>Si Apostol Pablo mitawag sa mga Cristohanon sa Corinto nga mga bata pa diha ni Cristo <span class="highlight-text">(1 Corinto 3:1)</span>. Sa dihang natawo kita niining kalibotana, natawo kita nga mga bata ug dili mga hamtong na dayon. Mao gihapon sa espirituhanon nga bahin.</p>
+        <p>Sa dihang natawo kita ngadto sa pamilya sa Dios, natawo kita nga mga <strong>“bata pa sa Ginoo”</strong> ug dili mga “hamtong na sa Ginoo.” Busa human kita matawo ngadto sa pamilya sa Dios, kinahanglan motubo kita ug mohamtong diha ni Cristo. Ang kausaban kinahanglan mosunod human kita maluwas o matawo pag-usab.</p>
+
+        <!-- 📖 EXPANDED GROWTH GUIDE FOR STEP 4 -->
+        <div class="highlight-box">
+            <span class="highlight-text">🌱 Upat ka Kinahanglanon Aron Motubo ang Espirituhanong Bata:</span>
+            <ol style="margin-top: 10px;">
+                <li><strong>Gatas nga Espirituhanon (Pulong sa Dios)</strong> - Sama sa bata nga mangita og gatas, ang bag-ong natawo pag-usab kinahanglan mokaon sa Pulong sa Dios adlaw-adlaw aron motubo <small style="color: #ffd700;">(1 Pedro 2:2)</small>.</li>
+                <li><strong>Ginhawa (Pag-ampo)</strong> - Ang pag-ampo mao ang pagginhawa sa espiritu. Pakig-istorya sa Amahan sa kanunay.</li>
+                <li><strong>Panag-uban (Fellowship)</strong> - Ayaw pag-inusara. Kinahanglan ang pag-apil sa Cell Group ug panagtigum sa mga magtutuo aron makakuha og panalipod ug suporta.</li>
+                <li><strong>Paglihok (Pagtuman ug Pag-alagad)</strong> - Ikinabuhi ug buhata ang mga gitudlo ni Ginoong Jesus diha sa imong pamilya, trabaho, ug ministeryo.</li>
+            </ol>
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar nga mga Pangutana:</h3>
+            <ul>
+                <li>Sigurado ka na ba nga ikaw anak sa Dios? Ngano man? Kon dili pa, andam ka ba modawat kaniya isip Ginoo ug Manluluwas?</li>
+                <li>Unsay mga kalahian sa mga bata pa sa Ginoo ug niadtong mga hamtong na?</li>
+                <li>Unsay atong buhaton aron motubo ug mohamtong kita diha sa Ginoo?</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

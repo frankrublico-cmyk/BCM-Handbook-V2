@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6: Tulo Ka Aspeto Sa Kaluwasan | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.3rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.4rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        /* ASPECT TIMELINE BLOCKS */
+        .aspeto-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid #444;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 35px 0;
+            position: relative;
+            transition: 0.3s;
+        }
+
+        .aspeto-card:hover {
+            border-color: #ffd700;
+            background: rgba(255, 215, 0, 0.02);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.1);
+        }
+
+        .aspeto-badge {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #ff4500;
+            color: white;
+            padding: 4px 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+        }
+
+        .glorify-card {
+            background: linear-gradient(135deg, rgba(20,20,20,0.9), rgba(255,215,0,0.05));
+            border: 1px solid #ffd700;
+        }
+
+        .glorify-card .aspeto-badge {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .text-gold {
+            color: #ffd700;
+            font-style: italic;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>TULO KA ASPETO SA KALUWASAN</h1>
+            <p>(Cell Lesson Six)</p>
+        </div>
+
+        <p>Kadaghanan kanato, tungod sa atong kakulang ug kahibalo sa Biblia, nagtuo nga ang kaluwasan masiguro lang kung atua na kita sa langit. Kini nga panghunahuna anaa sa Biblia, pero usa lang kini sa tulo ka aspeto sa kaluwasan nga gihisgutan sa Pulong sa Dios. Atong hisgutan karon ang tulo ka aspeto sa kaluwasan nga ginatudlo sa Biblia.</p>
+
+        <!-- 🛡️ ASPETO 1: JUSTIFICATION -->
+        <div class="aspeto-card">
+            <div class="aspeto-badge">1. Gimatarong (Justification)</div>
+            <p style="margin-top: 15px;">Sumala sa kasulatan, <em>“wala gayoy tawo nga matarong...” (Roma 3:10)</em>; Nakasala ang tanan ug nahilayo sa Dios <span class="highlight-text">(Roma 3:23)</span>. Ang makasasala dili gyud makamatarong sa iyang kaugalingon pinaagi sa iyang mga relihiyoso ug mga maayong buhat.</p>
+            
+            <p>Misulat si Apostol Pablo sa <strong>Roma 10:2-4</strong> mahitungod sa mga Israelita nga dasig kaayo nangalagad sa Dios pero sa sayop nga paagi:</p>
+            <div class="verse-box">
+                "Kay saksi ako nga mainiton kaayo sila sa pag-alagad sa Dios. Apan ang ilang pag-alagad wala magsukad sa matuod nga kahibalo, kay wala man sila masayod sa paagi sa Dios sa pagmatarong sa tawo. Gigamit hinuon nila ang ilang kaugalingong paagi, ug busa wala sila mosunod sa paagi sa Dios pagmatarong sa tawo. Kay si Cristo mao ang kataposan sa Balaod, aron ang tawo himoong matarong sa Dios pinaagi sa pagtuo."
+            </div>
+
+            <p>Ang paagi sa Dios pagmatarong kanato diha lang sa atong pagtuo kang Cristo. Ang pagkamatarong gasa sa Dios nganhi kanato ug ato kining madawat pinaagi sa pagtuo.</p>
+            <div class="verse-box">
+                <strong>Roma 3:22</strong> - "Gihimo kitang matarong sa Dios ang mga tawo pinaagi sa ilang pagtuo kang Jesu Cristo..."<br><br>
+                <strong>Roma 5:1</strong> - "Sanglit gihimo na man kitang matarong sa Dios pinaagi sa pagtuo, may panagdaat na kita ug ang Dios pinaagi sa sa atong Ginoong Jesu Cristo."
+            </div>
+
+            <p>Kini ang unang aspeto sa kaluwasan. Kini nga aspeto <span class="highlight-text">“dihadiha” (instantaneous)</span>. Sa dihang atong gidawat si Jesus nganhi sa atong kasingkasing, dihadiha napasaylo kita, naluwas, ug nahiusa sa Dios 100%.</p>
+
+            <!-- ➕ GIPATAS-AN NGA EXPANDED EXPLANATION FOR JUSTIFICATION -->
+            <p class="text-gold">💡 Lawom nga Katin-awan (The Past Tense of Salvation):</p>
+            <p style="font-size: 1.05rem; font-style: italic; color: #b5c0d0;">Ang Justification nagpasabot nga "giluwas kita gikan sa SILOT sa sala (Penalty of Sin)." Sa korte sa langit, sa higayon nga mosalig ka kang Jesus, gibunalan na ang martilyo ug gideklara ka nga "WALAY SALA." Sa mata sa Dios, tungod sa dugo ni Jesus, ingon ka-limpyo sa usa ka tawo nga wala gayud makasala sukad sa iyang kinabuhi.</p>
+        </div>
+
+        <!-- 🛡️ ASPETO 2: SANCTIFICATION -->
+        <div class="aspeto-card">
+            <div class="aspeto-badge">2. Ginabag-o (Sanctification)</div>
+            <p style="margin-top: 15px;">Human sa imong kaluwasan, dunay proseso sa “kabag-ohan” nga mosunod. Usa kini ka proseso gikan sa sulod ngadto sa gawas. Kini nga panghitabo dili “dihadiha” kondili <span class="highlight-text">“hinay-hinay” (gradual)</span>.</p>
+            
+            <p>Tinuod naluwas na kita gikan sa panulondon nga sala, sa yawa, ug sa impiyerno, pero kinahanglan maluwas pa kita gikan sa mga binuhatan, mga sinultian, mga hunahuna, ug mga motibo nga daotan. Human kita naluwas gikan sa <em>“gahom sa sala”</em>, kinahanglan maluwas kita sa <em>“mga galamay sa sala”</em> (karaang kinaiya). <span class="highlight-text">Dali lang ang pagawas sa Egypt, apan dili dali ipagawas ang mga pagtulon-an sa Egypt gikan sa atong mga kinabuhi.</span></p>
+            
+            <p>Kining ikaduhang aspeto mao ang 'paghingpit sa atong kaluwasan.' Luwas na kita pero kinahanglan pa kita mahingpit o mahamtong sa kinaiya, kahibalo, ug katakos sa pagpangalagad.</p>
+            <div class="verse-box">
+                <strong>Filipos 2:12</strong> - "...padayon kamo pagpaningkamot uban sa kahadlok ug pagtahod aron paghingpit sa inyong kaluwasan..."<br><br>
+                <strong>Colosas 2:6-7</strong> - "Sanglit gidawat naman ninyo nga Ginoo si Cristo Jesus, pagkinabuhi kamo nga hiniusa kaniya. Ipatidlom pag-ayo diha kaniya ang inyong mga gamot, ug ipabarog ang inyong kinabuhi diha kaniya..."
+            </div>
+
+            <!-- ➕ GIPATAS-AN NGA EXPANDED EXPLANATION FOR SANCTIFICATION -->
+            <p class="text-gold">💡 Lawom nga Katin-awan (The Present Tense of Salvation):</p>
+            <p style="font-size: 1.05rem; font-style: italic; color: #b5c0d0;">Ang Sanctification nagpasabot nga "ginabaluwas kita gikan sa GAHOM sa sala karong adlawa (Power of Sin)." Kung sa Justification na-canseled ang silot, sa Sanctification gi-break o giputol ni Jesus ang paghari sa mga bisyo, karaan nga batasan, ug dautang tinguha sa atong unod. Kini usa ka inadlaw-adlaw nga paglakaw kauban ang Espiritu Santo hangtod nga mosama ang atong kinaiya kang Cristo.</p>
+        </div>
+
+        <!-- 🛡️ ASPETO 3: GLORIFICATION -->
+        <div class="aspeto-card glorify-card">
+            <div class="aspeto-badge">3. Pagabayawon (Glorification)</div>
+            <p style="margin-top: 15px;">Ang ikatulong aspeto sa kaluwasan mao ang kaluwasan sa atong lawas nga madunoton ug ang kompleto nga kalaglagan sa kamatayon. Kini mahitabo sa <span class="highlight-text">ikaduhang pagbalik ni Jesus</span> diin iya kitang kuhaon aron makig-uban kaniya hangtod sa kahangtoran.</p>
+            
+            <div class="verse-box" style="border-color: #ffd700;">
+                <strong>Filipos 3:20-21</strong> - "Apan kita mga lumulupyo sa langit, ug mahinangpon kitang nagpaabot sa pag-anhi sa atong Manunubos gikan sa langit - ang Ginoong Jesu-Cristo. Ilisan niya ang atong mga lawas nga may kamatayon sa lawas nga mahimayaon sama sa iyaha..."
+            </div>
+
+            <p>Ang mouban sa pagbalik ni Cristo kadto lang anaa kaniya, patay man o buhi:</p>
+            <div class="verse-box" style="border-color: #ffd700;">
+                <strong>1 Tesalonica 4:16-17</strong> - "...Maoy unang mabanhaw kadtong nangamatay nga nagtuo kang Cristo. Unya kita nga buhi niadtong adlawa, bayawon uban kanila didto sa panganod aron pagsugat sa Ginoo..."
+            </div>
+
+            <p>Kita nga naluwas na ug namatarong na diha ni Cristo, kinahanglan magpabilin nga putli aron makauban kita sa iyang ikaduhang pagbalik <span class="highlight-text">(Tito 2:11-13)</span>. Kay kung walay pagkabalaan, walay makakita sa Ginoo <span class="highlight-text">(Hebreo 12:14)</span>.</p>
+            <div class="verse-box" style="border-color: #ffd700;">
+                <strong>1 Juan 3:2-3</strong> - "...Ang nasayran nato mao nga inigpadayag na ni Cristo mahisama kita kaniya... Ug ang tanan nga nagbaton niining paglaoma diha kang Cristo nagputli sa ilang kaugalingon ingon nga putli si Cristo."
+            </div>
+
+            <!-- ➕ GIPATAS-AN NGA EXPANDED EXPLANATION FOR GLORIFICATION -->
+            <p class="text-gold">💡 Lawom nga Katin-awan (The Future Tense of Salvation):</p>
+            <p style="font-size: 1.05rem; font-style: italic; color: #b5c0d0;">Ang Glorification nagpasabot nga "pagabaluwasom kita gikan sa PRESENSYA sa sala (Presence of Sin)." Kini mao ang pinaka-kolminasyon o katapusan nga yugto sa atong kaluwasan. Wala na kitay sakit, wala nay luha, wala nay tentasyon, ug hatagan kita og bag-o ug mahimayaon nga lawas nga dili na madunot o matigulang hangtod sa kahangtoran.</p>
+        </div>
+
+        <!-- QUESTIONS BOX -->
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar nga mga Pangutana:</h3>
+            <ul>
+                <li>Nakasinati na ba kita sa unang aspeto sa kaluwasan diha ni Jesus (Justification)?</li>
+                <li>Kung luwas na kita (unang aspeto) apan dili gusto magbag-o (ikaduhang aspeto/Sanctification), madala ba kita inigbalik ni Cristo (ikatulong aspeto)? I-share ang inyong panahom.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

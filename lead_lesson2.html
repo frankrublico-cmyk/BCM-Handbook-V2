@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership Lesson 2: Servant Leadership | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(15, 10, 5, 0.94), rgba(25, 18, 8, 0.97)), 
+                        url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1374&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f7f3eb;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(25, 18, 10, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.08);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: #120c05;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .home-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(25, 18, 10, 0.97);
+            border-radius: 20px;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 35px rgba(212, 175, 55, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #d4af37;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #dfd3c3;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #d4af37;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #f7f3eb;
+        }
+
+        .verse-box {
+            background: rgba(212, 175, 55, 0.08);
+            border: 1px solid #d4af37;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(223, 211, 195, 0.2);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(212, 175, 55, 0.03);
+            border: 1px solid #d4af37;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.05);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(212, 175, 55, 0.12);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(10, 5, 2, 0.88);
+            border: 1px solid #d4af37;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="leadership.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 2: SERVANT LEADERSHIP</h1>
+            <p>"Ang Modelo sa Hari: Ang Paradox sa Balaang Pagpangulo"</p>
+        </div>
+
+        <p><strong>Pangunang Teksto:</strong> Mateo 20:25-28<br>
+        <strong>Kaubang mga Teksto:</strong> Juan 13:3-5, Juan 13:12-15, Filipos 2:5-8, Proverbio 25:6-7, ug Lucas 22:24-27<br>
+        <strong>Katuyoan:</strong> Aron bungkagon ang kalibutanon nga mentalidad sa pagpahawod-hawod, masabtan sa matag cell leader ang harianong paradox sa pag-alagad, ug ma-armasan ang kongregasyon sa kasingkasing nga mapausubanon aron magdala og supernatural nga multiplication ug kalamposan sa pamilya, trabaho, ug negosyo.</p>
+
+        <h2>Introduction: Ang Paradox sa Gingharian sa Dios</h2>
+        <p>Sa tibuok sekular nga kasaysayan ug sa modernong dagan sa atong katilingban karon, ang pagpangulo kanunayng gihubad ug gipakita pinaagi sa unodnong *pyramid of power* (piramide sa gahum). Diha sa pamaagi sa kalibutan, ang tawo nga anaa sa kinatas-ang tumoy mao ang giisip nga labing gamhanan, ang labing gisilbihan, ang labing unodnon og tingog, ug ang adunay katungod sa pagmando uban ang kabug-at. Alang sa sekular nga panghunahuna, ang tinuod nga kahulugan sa dungog ug kalamposan mao ang pagbaton og libu-libong mga sakop o ulipon nga naghapa sa ilang tiilan aron matuman ang ilang mga sugo.</p>
+        
+        <p>Apan sa dihang miabot ang atong Ginoong Hesus Kristo, nagdala Siya og usa ka radikal ug balaan nga *paradox*—usa ka kamatuoran sa espiritu nga daw supak ug katingad-an sa lohika sa tawo apan mao kini ang kinauyokan nga matrix sa tinuod nga awtoridad sa Dios. Diha sa **Realm of Leadership** sa Gingharian sa Dios, ang dalan pasaka mao ang pagkanaog, ang dalan sa pagdako mao ang pagpaubos, ug ang labing dako nga timaan sa kadaugan ug pagdihog mao ang pagserbisyo.</p>
+
+        <div class="verse-box">
+            <strong>Mateo 20:25-28</strong>
+            "²⁵Busa gitawag ni Jesus silang tanan ug giingnan, 'Nasayod kamo nga ang mga namunoan niining kalibotana nagpahawud-hawod ug ang mga kadagkoan hangol ug gahom. ²⁶Apan dili kini mao ang paagi nga angay ninyong sundon. Kon usa kaninyo gustong ilhon nga dako kinahanglan nga mag-alagad siya sa tanan. ²⁷Ug kon usa kaninyo gusto nga molabaw sa tanan kinahanglan nga magpaulipon siya kaninyo—²⁸sama sa Anak sa Tawo nga wala moanhi aron alagaran kondili sa pag-alagad ug paghatag sa iyang kinabuhi aron pagluwas sa daghang tawo.'"
+        </div>
+        <p>Kini nga mensahe ug sumbanan wala lang gihatag ni Hesus isip usa ka nindot nga pilosopiya o sugyot nga pwedeng ibaliwala. Gihatag Niya kini isip usa ka estrikto, dinalian, ug apostolikanhong mandato alang sa bisan kinsa nga magtutuo ug lider nga mosulod sa Iyang dominyo aron modumala. Kon walay pagkasi-sulugoon (*servanthood*), ang imong pagpangulo unodnon ug walay legal nga anointing sa spiritual realm.</p>
+
+        <h2>I. Ang Duha ka Pamaagi sa Pagmando (The Cultural Clash)</h2>
+        <p>Aron masabtan nato kon unsa ka hait ug ka seryoso ang Servant Leadership, kinahanglan natong sulsihan ug itandi ang duha ka nag-bangi nga mentalidad sa pagpangulo sumala sa Kasulatan:</p>
+
+        <div class="point-box">
+            <div class="point-title">⚔️ 1. Ang Pamaagi sa Kalibutan: Katakyrieuo (Ang Espiritu sa Paghari-hari)</div>
+            <p>Gihulagway ni Hesus ang pamaagi sa mga Hentil gamit ang orihinal nga pulong sa Grego nga **Katakyrieuo**, nga ang saktong translation mao ang paggamil og puwersa, manipulasyon, ug unodnong kontrol aron moforce sa uban nga mosunod kaniya. Kini naglihok pinaagi sa duha ka delikado nga mentalidad:</p>
+            <ul>
+                <li>⚠️ <span class="highlight-text">Ang Pagdepende sa Titulo ug Posisyon:</span> Ang sekular nga lider nanginahanglan gayod og dako nga posisyon ug pormal nga titulo aron lamang siya tahuron ug paminawon sa tawo. Kon kuhaan siya sa iyang titulo, dinalian nga mawad-an siya og espirituhanong gahum sa pagpalihok sa mga tawo.</li>
+                <li>⚠️ <span class="highlight-text">Ang Paggamit ug Pagpuga sa Katawhan:</span> Sa pamaagi sa kalibutan, ang mga tawo ug ang mga sakop gigamit lamang isip unodnong hagdanan aron ang lider makasaka sa tumoy sa iyang personal nga ambisyon ug garbo (*Spirit of Leviathan*).</li>
+            </ul>
+            <div class="verse-box">
+                <strong>Proverbio 25:6-7</strong>
+                "⁶Ayaw pagpasigarbo sa imong kaugalingon sa atubangan sa hari, ug ayaw pagtindog sa dapit sa mga bantogang tawo: ⁷Kay mas maayo pa nga ingnon ka, 'Saka ngari;' kay sa ipaubos ka sa atubangan sa prinsipe nga nakita sa imong mga mata."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 2. Ang Pamaagi sa Gingharian: Diyakoneo (Ang Espiritu sa Pag-alagad)</div>
+            <p>Sa dihang miingon si Hesus nga, *“Apan dili kini mao ang paagi nga angay ninyong sundon,”* Iyang giputli ug giputol ang kalibutanong sistema sa Iyang Simbahan. Iyang gipaila ang pulong nga **Diyakoneo**—nga nagpasabot nga ang tinuod nga lider naglihok isip usa ka magsisilbi o tig-atiman nga nagdala og solusyon. Kini naglihok pinaagi niining harianong sistema:</p>
+            <ul>
+                <li>🎯 <span class="highlight-text">Ang Balit-ad nga Piramide (The Inverted Pyramid):</span> Sa structural matrix sa Dios, ang lider wala maglingkod sa ibabaw sa ulo sa mga tawo aron puy-an sila; siya anaa sa ilawom, nag-alsa, nagsuporta, ug nag-ampo para sa iyang mga kauban ug miyembro aron sila ang molambo, ma-deliver, ug molabaw ngadto sa dako nga breakthrough.</li>
+            </ul>
+            <div class="verse-box">
+                <strong>Lucas 22:24-27</strong>
+                "²⁴Ug diha usab nay lalis sa taliwala nila, kon kinsa kanila ang isipon nga labing dako. ²⁵Ug Siya miingon kanila, 'Ang mga hari sa mga Hentil nagahari-hari sa ibabaw kanila; ug kadtong nagabuhat ug awtoridad sa ibabaw kanila ginatawag nga mga Magbubuhat sa maayo. ²⁶Apan kamo dili ingon niana: kondili ang labing dako kaninyo kinahanglan magpakasama sa kinamanghoran ug ang pangulo kinahanglan magpakasama sa sulugoon. ²⁷Kay kinsa man ang labaw, ang gisilbihan ba sa pagkaon o ang nagsilbi kaniya? Ang gisilbihan gayod! Apan ako ania nagsilbi kaninyo.'"
+            </div>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE TOWEL MATRIX):</span>
+            Lider, itanum kini og maayo sa imong huna-huna: Sa kultura sa taga-Oriente, ang paghugas sa tiil mao ang pinaka-ubos, pinaka-baho, ug pinaka-makauulaw nga buluhaton nga gigahin lamang para sa pinaka-ubos nga ulipon sa panimalay. 
+            <br><br>
+            Apan sa dihang gikuha ni Hesus ang tualya, Iyang gipakita nga ang tinuod nga awtoridad sa espiritu dili makita sa imong koronang bulawan, kondili diha sa imong **Tualya (Towel)** sa pagpaubos! Kon duna kay tualya sa pag-alagad sa tago, i-release sa Dios ang supernatural nga multiplication ug open heavens sa imong tibuok dominyo!
+        </div>
+
+        <h2>II. Ang Pundasyon sa Kasingkasing sa Alagad (The Core Identity Matrix)</h2>
+        <p>Kinahanglan natong masabtan sa espiritu nga dili ka makapanguna ug makaserbisyo isip tinuod nga alagad kon duna kay sulod nga kakuwang, *identity crisis*, o tago nga kahadlok sa imong karakter. Ang *Servant Leadership* wala nagkinahanglan og babaw nga pakunhod-kuno; kini nanginahanglan og lawom ug dili matay-og nga espirituhanong kasegurohan diha kay Kristo.</p>
+
+        <div class="point-box">
+            <div class="point-title">⚓ 1. Ang Kasegurohan diha sa Identity (Security in Christ over Title)</div>
+            <div class="verse-box">
+                <strong>Juan 13:3-5</strong>
+                "³Nasayod si Jesus nga gitugyan kaniya sa Amahan ang tanang gahom, ug nga Siya gikan sa Dios ug mobalik sa Dios. ⁴Busa mitindog si Jesus gikan sa panihapon, gihukas Niya ang Iyang sapaw ug nagbakos Siyag tualya. ⁵Human niini, mibubo Siyag tubig sa panggubatan nga planggana ug misugod paghugas sa mga tiil sa Iyang mga tinun-an ug gipahiran kini sa tualya nga Iyang gibakos."
+            </div>
+            <p>Nganong nakahimo man si Hesus sa paghugas sa hugaw, abog, ug baho nga tiil sa mga tawo (lakip na ang tiil ni Judas nga magluib Kaniya)? Tungod kay nasayod Siya sa Iyang huna-huna kon kinsa Siya sa Espiritu! Kahibalo Siya nga Siya gikan sa Dios, ang tanang gahum iyaha, ug Iyang destiny selyado sa Langit. Wala Siya mahadlok nga mawad-an og dungog tungod kay secure Siya sa Iyang Identity!</p>
+            <p style="margin-top: 10px;">⚠️ <span class="highlight-text">Ang Kakuyaw sa Insecure nga Lider:</span> Ang lider nga walay kasegurohan sa iyang relasyon sa Dios dali ra kaayong mainsultohan, daling ma-offend sa gamay nga sulti, daling masina sa kalampusan sa uban, ug kanunayng mahadlok nga duna nay mas molambo o mosikat kay kaniya sa grupo. Ang usa ka tinuod nga Servant Leader dili mahadlok mohunob sa ubos nga buluhaton o mo-empower sa uban tungod kay ang iyang bili wala man nag-agad sa pakpak o dungog sa tawo, kondili sa hingpit nga gugma sa Dios.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🧎‍♂️ 2. Ang Hingpit nga Paghukas sa Garbo ug Reputasyon (Kenosis Strategy)</div>
+            <p>Ang tinuod nga lider sa Dios andam nga magpabilin nga walay reputasyon basta mahimaya lamang ang Ngalan sa Dios ug mapanalanginan ang katawhan. Iyang gihaw-asan (*kenosis*) ang Iyang kaugalingon gikan sa unodnong bentaha:</p>
+            <div class="verse-box">
+                <strong>Filipos 2:5-8</strong>
+                "⁵Batoni ninyo kini nga huna-huna, nga diha usab kay Kristo Hesus: ⁶Kinsa, bisan Siya anaa sa dagway sa Dios, wala mag-isip nga usa ka butang nga pagakepotan ang pagka-tupong sa Dios: ⁷Hinuon gihimo Niya ang Iyang kaugalingon nga walay reputasyon, ug mikuha sa dagway sa usa ka ulipon, ug nahimo sumala sa panakasama sa mga tawo: ⁸Ug sa nakita Siya diha sa dagway sa usa ka tawo, nagpaubos Siya sa Iyang kaugalingon, ug nahimong masugtanon hangtod sa kamatayon, bisan pa ang kamatayon sa krus."
+            </div>
+        </div>
+
+        <h2>III. Ang mga Haligi ug Praktikal nga Kinaiya sa Servant Leader</h2>
+        <p>Aron kini nga leksyon mahimong buhi ug adunay dako nga epekto sa atong inadlaw-adlaw nga pagpangalagad, atong puy-an ug i-execute kining tulo ka importanteng aspeto sa espiritu:</p>
+        
+        <ul>
+            <li>🚀 <span class="highlight-text">1. Pagpataas ug Pag-empower sa Uban (Multiplication Focus):</span> Ang sekular nga lider nagtinguha kanunay nga siya lamang ang magpabilin nga pinakautokan ug pinakahawod sa sulod sa kwarto. Apan ang Servant Leader nagtinguha ug nag-ampo nga ang iyang mga sumusunod ug cell members mamahimo usab nga mas maalamon, mas dinihogan, ug mas epektibo kay sa iyang kaugalingon! Iyang gihubog ug gina-atiman ang ilang mga balaang potensyal uban ang kadasig.
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Juan 13:12-15</strong> - "¹²Busa sa nahuman Niya paghugas ang ilang mga tiil... miingon Siya, 'Nasayod ba kamo kon unsa ang akong gihimo kaninyo? ¹³Kamo nagatawag kanako nga Magtutudlo ug Ginoo: ug hapsay ang inyong sulti; kay Ako mao gayod. ¹⁴Kon Ako, nga inyong Ginoo ug Magtutudlo, nanghugas man sa inyong mga tiil; kamo usab kinahanglan manghugas sa mga tiil sa usa ug usa. ¹⁵Kay Akong gihatag kaninyo ang usa ka panig-ingnan (example), aron inyong buhaton sumala sa Akong gihimo kaninyo.'"
+                </div>
+            </li>
+            <li>🤝 <span class="highlight-text">2. Ang Pag-ka-Duol ug Pakigsandurot sa Katawhan (Proximity over Isolation):</span> Ang usa ka Servant Leader dili magpuyo sa usa ka unodnong tore nga garing (*ivory tower*) diin lisod ug pwerte ka huot siyang kab-oton sa mga ordinaryong tawo. Nasayod si Hesus sa baho, sa abog, sa kaguol, ug sa tinuod nga sitwasyon sa Iyang mga disipulo tungod kay naglakaw ug nangaon Siya uban kanila sa adlaw-adlaw. Andam ka maminaw sa mga mulo, sa mga hilak, ug sa mga sugyot sa imong team ug pamilya.</li>
+            <li>🛡️ <span class="highlight-text">3. Ang Pag-angkon sa Sayop ug Paghatag sa Dungog (Responsibility and Credit Shield):</span> Kini ang usa sa labing dako nga pagsulay sa tinuod nga liderato. Kon adunay kapakyasan, sipyat, o deperensya sa team o sa dagan sa ministeryo, ang Servant Leader dili mangita og basolon o itudlo; mosulod siya sa unahan ug moingon, *“Ako ang responsable niini isip lider.”* Apan kon adunay kalamposan, dako nga abot, ug breakthrough, itudlo niya ang iyang mga kauban ug moingon, *“Tungod kini sa ilang paningkamot ug sa dakong grasya sa Dios!”*</li>
+        </ul>
+
+        <h2>IV. Praktikal nga Leadership Strategies (Application)</h2>
+        <p>Aron atong mapukan ang matag espiritu sa garbo, i-execute kining tulo ka praktikal nga aplikasyon sa sulod niining semanaha:</p>
+
+        <div class="action-card">
+            🤫 <span class="highlight-text">1. Pagpangita og "Anonymous Service" sa Tago:</span> Pagpangita og usa ka buluhaton sa inyong simbahan, panimalay, o trabahoan nga kasagarang walay gusto mobuhat (pananglitan: pagpanghipos sa mga lingkuranan, pagpanglimpyo sa basura, o pag-atiman sa gubot nga dapit). Buhata kini nga walay bisan kinsa nga nakakita, nakahibalo, o nag-dayeg kanimo gawas sa Dios. Bansaya ang imong kasingkasing nga malipay sa pagserbisyo bisan walay pakpak sa tawo.
+        </div>
+
+        <div class="action-card">
+            🗣️ <span class="highlight-text">2. Usba ang Imong Bokabularyo sa Pagmando:</span> Inig balik nimo sa imong grupo, team, o panimalay, likayi ug hinginli ang mga pulong nga nagduso o nagmando nga mapahitas-on sama sa *“Buhata ninyo ni dinalian kay ako ang masunod ug ako ang lider diri.”* Siyensaha ug i-activate ang paggamit sa mga pulong nga maalagon: <strong>“Unsaon nako pagtabang, pag-pray, ug pag-abag kaninyo karon aron mas mapagaan ug mas nindot ang agi sa atong trabaho ug cellgroup?”</strong>
+        </div>
+
+        <div class="action-card">
+            📊 <span class="highlight-text">3. I-audit ang Imong Motibo sa Altar sa Pag-ampo:</span> Gahini og saktong panahon sa pag-ampo ug basaha ang tibuok Juan 13. Pangutan-a ang imong kaugalingon sa tinuoray: Kon kuhaan ko sa akong posisyon, sa akong titulo, o sa akong dungog sa gawas, andam ug madasigon pa ba gihapon ko mosilbi sa mga tawo ug sa Dios sa samang kalayo? Ang tubag niini maoy tinuod nga mosukod sa gilawmon sa imong anointing.
+        </div>
+
+        <h2>Conclusion & Warfare Decree: Ang Dalan sa Himaya</h2>
+        <p>Ang kinapuy-an sa **Realm of Leadership** sa Gingharian sa Dios wala magdala kanato ngadto sa usa ka unodnong trono sa bulawan alang sa personal nga kaharuhay, kondili nagdala kanato ngadto sa usa ka krus sa pagsakripisyo ug pagpaubos alang sa kaluwasan sa uban. Si Hesus mao ang labing gamhanan nga Hari, ang Magbubuhat sa tibuok uniberso, apan sa Iyang katapusang mga adlaw sa yuta, nagmando ug nagdaog Siya sa panggubatan nga nagsul-ob sa apribador sa usa ka alagad!</p>
+        
+        <p>Dili gayod nato mabag-o ang atong pamilya, ang atong komunidad, o ang atong ministeryo pinaagi sa paggamit sa mabug-at ug mapahitas-on nga kamot sa unodnong awtoridad. Mabag-o, ma-deliver, ug mapadaghan lamang nato kini kon andam kitang mohunob dinalian sa pag-alagad. </p>
+        <p>Isulob ang tibuok Armor sa Dios, puy-i ang kasingkasing ni Kristo, ug i-proclaim nato ang supernatural nga kalampusan, open heavens, ug kalinaw diha sa atong pagpangulo pinaagi sa gahum sa atong Ginoong Hesus Kristo! Amen!</p>
+
+        <div class="action-card" style="background: rgba(212, 175, 55, 0.2); border-left: 4px solid #d4af37;">
+            <h3>⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP ACTIVATION (THE SERVANT'S ANOINTING RELEASE)</h3>
+            Lider, i-mando kining dinalian nga decree sa deliverance ug pagbubo sa Servant Heart uban ang dako nga kaisog ug espirituhanong awtoridad sa katapusan sa inyong pagtuon:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa gahum sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, among ginaluka, gipukan, ug ginasunog ang matag kuta sa garbo, pagka-mapahitas-on, paggukod sa dungog, ug espiritu sa paghari-hari sa among mga kasingkasing! Akong gina-rebuke ang matag atake sa kaaway nga misulay sa pagdala og insecurity sa among huna-huna.*
+            <br><br>
+            *Sa Ngalan ni Hesus, guboon ko ang matag unodnong piramide sa gahum sa inyong kinabuhi! Ginoo, ibubo ang tinuod nga Identity ug ang kalayo sa harianong pag-alagad ni Hesus sa matag lider karon. Gideklara nako nga samtang kami nagabakos sa tualya sa pagpaubos, i-release nimo o Dios ang open heavens, supernatural nga kaalam, dako nga multiplication, ug dako nga breakthrough sa among panimalay, cell group, ug patigayon! Kami mga Ambasador nga adunay kasingkasing na sa  pag alagad Nimo sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Mateo 20:25-28**, unsa man ang dako nga structural nga kalainan sa pamaagi sa kalibutan (**Katakyrieuo** - paghari-hari) batok sa pamaagi sa Gingharian sa Dios (**Diyakoneo** - pag-alagad)?</li>
+                <li>Susiha ang **Juan 13:3-4**. Nganong ang hingpit nga pagsabot ug kasegurohan sa imong **Identity** kay Kristo (nga ikaw anak sa Dios ug gipalit sa Iyang Dugo) maoy maghatag kanimo og kaisog sa pag-alagad sa tago, ug ngano nga ang usa ka *insecure* nga lider dali man kaayong ma-offend ug masina?</li>
+                <li>Ipaambit sa grupo uban ang kamatinud-anon: Unsa nga konkreto ug praktikal nga buluhaton o pagbag-o sa sulti (sama sa *Anonymous Service* o pagpangutana kon unsaon nimo pag-atiman ang imong team) ang imong i-execute karong semanaha aron mapuy-an ang *Servant Leadership Matrix*?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

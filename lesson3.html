@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: Kaluwasan | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), 
+                        url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmN0Z3I3dDR0Y2htemZ4ZXB6amg0dHh0ZzByY2tzOHV2MWY1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72FkiKqmYXYEt7pK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
+            line-height: 1.8;
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE (DILI NA MAGSAPAW SA CELLPHONE) */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.9);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(15, 15, 15, 0.9);
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 0 25px rgba(255, 69, 0, 0.35);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #ff4500;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2.5rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .lesson-header p {
+            font-size: 1.2rem;
+            color: #ff4500;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.4rem;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin-top: 35px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #dfd3c3;
+        }
+
+        .verse-box {
+            background: rgba(255, 69, 0, 0.05);
+            border: 1px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.1);
+        }
+
+        .highlight-box {
+            background: rgba(255, 215, 0, 0.03);
+            border: 1px solid #ffd700;
+            border-radius: 10px;
+            padding: 18px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .prayer-box {
+            background: linear-gradient(135deg, rgba(255,69,0,0.15), rgba(255,215,0,0.15));
+            border: 2px solid #ffd700;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+        }
+
+        .prayer-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 1.4rem;
+        }
+
+        .prayer-text {
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .questions-box {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid #ff4500;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            box-shadow: 0 0 15px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 20px;
+            color: #dfd3c3;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* 📱 SMARTPHONE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            .back-btn {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- 🌐 MODERN RESPONSIVE LANG BAR (PINAKA-UNA ARON DILI MAGSAPAW) -->
+        <div id="translate_wrapper">
+            <span>🌐 PINULONGAN:</span>
+            <div id="google_translate_element"></div>
+        </div>
+
+        <a href="cellexplosion.html" class="back-btn">⬅️ Balik sa Mga Leksyon</a>
+
+        <div class="lesson-header">
+            <h1>KALUWASAN</h1>
+            <p>(Cell Lesson Three)</p>
+        </div>
+
+        <p>Nganong kinahanglan man gayod kita maluwas? Unsay ba ang sayop kanato? Nganong motuo man kita kang Cristo aron maluwas? Ato kining tubagon karon nga mga pangutana.</p>
+
+        <h2>Adunay Babag nga Nagseparar sa Dios ug sa Tawo</h2>
+        <p>Imo bang nabati nga ang Dios morag layo kaayo sa imong kinabuhi? Kitang tanan gibati ug sama niini. Ang pagbasi nga ang Dios layo kaayo gibati sa tanan, tungod niini daghan ang nagtuo nga pinaagi sa relihiyon ug sa mga maayong buhat sila miduol sa Dios.</p>
+        <p>Pero tungod kay ang atong pagseparar sa Dios dili pisikal—walay tawhanong binuhatan ang makapaduol kanato ngadto kaniya. Unsay hinungdan nga ang tawo nahimulag sa Dios?</p>
+
+        <div class="verse-box">
+            <strong>Isaias 59:2</strong> - "...ang inyo hinuong kalapasan maoy nag-ulang kaninyo ug sa inyong Dios; ang inyong sala maoy hinungdan sa iyang pagkahilayo kaninyo aron dili siya makadungog kaninyo."
+        </div>
+
+        <h2>Ang Sala Maoy Nagpahimulag sa Tawo Gikan sa Dios</h2>
+        <p>Ang pagseparar sa Dios ug sa tawo klaro kaayo sa Biblia. <span class="highlight-text">Ang Dios balaan; ang tawo makasasala. Ang Dios maayo; ang tawo daotan.</span></p>
+        <p>Nag-ingon ang pulong sa Dios nga <em>“Nakasala ang tanan ug nahilayo sa Dios”</em> <span class="highlight-text">(Roma 3:23)</span>. Kamatayon o pagkahimulag sa presensya sa Dios ang bayad sa Sala <span class="highlight-text">(Roma 6:23)</span>.</p>
+
+        <h2>Ang Hustisya sa Dios Nagkinahanglan ug Sakripisyo Alang sa Sala</h2>
+        <p>Tungod kay ang Dios 'matarong ug hustisya,' dili niya matugotan ang sala nga dili masilotan. Tungod kay siya 'mahigugmaon ug mangiluy-on,' dili niya gusto nga ang tawo mahimulag kaniya.</p>
+        <p>Ang langitnon nga pagsulbad sa maong problema mao nga si Cristo Jesus, the Bugtong Anak sa Dios, maoy nahimong <strong>“sakripisyo para sa tanang sala sa tibuok kalibotan.”</strong> Nag-ingon ang Hebreo 9:28, <em>“Gihalad usab si Cristo sa makausa aron pagwagtang sa mga sala sa daghang mga tawo.”</em> Siya ang, <em>“...kordero sa Dios nga nagwagtang sa sala sa kalibotan"</em> (Juan 1:29).</p>
+
+        <div class="verse-box">
+            <strong>Roma 3:25-26</strong> - "Gihatag siya sa Dios aron pinaagi sa iyang kamatayon mapasaylo ang mga sala sa motuo kaniya. Niining paagiha gipakita sa Dios ang iyang hustisya bahin sa mga sala.... aron pagpakita nga siya matarong, ug himuon niyang matarong ang tanan nga motuo kang Jesus."
+        </div>
+
+        <h2>Si Jesus Ang Mibayad sa Silot sa Atong mga Sala</h2>
+        <p>Unsay nahitabo didto sa Krus? Si Jesus ang mipuli sa atong dapit ug sa atong silot. Adunay panagkambiyo nga nahitabo didto sa Krus, iyang giangkon ang atong tunglo ug kapobrehon aron makadawat kita sa iyang panalangin ug kadato <span class="highlight-text">(Galacia 3:13-14; 2 Corinto 8:9)</span>. Iyang giangkon ang atong mga sala aron makaambit kita sa iyang pagkamatarong <span class="highlight-text">(2 Corinto 5:21)</span>.</p>
+        
+        <p>Tungod sa iyang kinabuhi nga walay sala, siya lang ang angayan nga mobayad sa silot sa sala sa tawo ug mopatunga sa Dios ug sa tawo. Tungod niini ang atong kaluwasan nabasi sa gibuhat ni Jesus didto sa Krus ug dili unsay atong nabuhat para kaniya. Si Jesus lang ang nagbayad sa silot sa akong mga sala.</p>
+
+        <div class="highlight-box">
+            <strong>2 Corinto 5:21</strong> - "Walay sala si Cristo, apan gipaambit siya sa Dios sa atong sala aron kita sa atong pagkahiusa kaniya makaambit sa pagkamatarong sa Dios."
+        </div>
+
+        <h2>Maluwas Kita Kung Atong Talikdan ang Sala ug Mosalig Kang Cristo</h2>
+        <p>Kitang tanan nakasala batok sa balaan ug matarong nga Dios. Ang bayad sa sala mao ang pagkahimulag sa “buhi nga presensya sa Dios” ug ang pagsilot ngadto sa “impyerno”. Ang Dios ‘hustisya’ ug mosilot gayod sa sala. Siya usab ‘mahigugmaon’ ug dili gusto nga kita mahimulag kaniya ug moadto sa impyerno hangtod sa kahangtoran, mao nga iyang gipadala ang iyang bugtong anak nga si Jesu Cristo para pagbayad sa silot sa atong mga sala didto sa Krus <span class="highlight-text">(Roma 5:8)</span>. Tungod due sa iyang kinabuhi nga walay sala, ang kamatayon wala makapugong kaniya.</p>
+        
+        <p><strong>Nabanhaw siya gikan sa mga minatay sa ikatulo ka adlaw. Buhi si Jesus!</strong> Ania siya karon ug andam mohatag ug kapasayloan niadtong andam maghinulsol sa ilang mga sala. Andam siyang moluwas niadtong motugyan sa ilang mga kinabuhi ngadto kaniya.</p>
+
+        <p>Ang mensahe sa Maayong Balita mao nga, <em>“Diha ni Cristo dunay kaluwasan gikan sa sala ug pagpasig-uli ngadto sa Dios"</em> (2 Corinto 5:19). Madawat noto ang kaluwasan kon moundang kita sa pagsalig sa atong kaugalingon ug atong ibutang ang atong pagsalig sa gibuhat ni Cristo didto sa Krus para kanato.</p>
+
+        <div class="verse-box">
+            <strong>Roma 10:9-10</strong> - "Maluwas ka kon ipahayag mo nga si Jesus mao ang Ginoo ug sa kinasingkasing motuo ka nga gibanhaw siya sa Dios. Kay mituo man kita sa kinasingkasing gayod, gimatarong kita sa Dios; ug naluwas kita kay gipahayag man nato kini."
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Pag-aplikar nga mga Pangutana:</h3>
+            <ul>
+                <li>Andam ka na bang mobiya sa sala ug motugyan sa imong kinabuhi ngadto kang Jesus?</li>
+                <li>Andam ka ba mosunod ug motuman kaniya sa tibuok nimong kinabuhi?</li>
+                <li>Andam ka na bang moampo para madawat nimo ang kapasayloan ug kaluwasan?</li>
+            </ul>
+        </div>
+
+        <div class="prayer-box">
+            <h3>🙏 PAG-AMPO PARA SA KALUWASAN</h3>
+            <p class="prayer-text">
+                Ginoong Jesus, nagaduol ako kanimo uban sa pagtuo nga ikaw ang gipadala sa Amahan aron pagbayad sa silot sa akong mga sala. Mituo ako sa imong gibuhat didto sa krus... mituo usab ako nga nabanhaw ka gikan sa minatay...buhi ka.. ako kang dawaton karon isip Ginoo ug manluluwas sa akong kinabuhi .... <br><br>
+                Ginoo akong giangkon nga ako usa ka makasasala... pasayloa ako... hinloe ako... Ginoong Jesus, sulod sa akong kasingkasing pinaagi sa imong Espiritu... puy-i ako... sugod karon ikaw na ang akong tumanon ug alagaran... moundang na ako sa pagpakasala... Ginoo isulat ang akong pangalan sa libro sa kinabuhi. <br><br>
+                Salamat Ginoong Jesus... nga dinha kanimo ako luwas na... dinha kanimo ako napasaylo na... dinha kanimo ako anak na sa Dios ug ang Dios ako nang Amahan... dinha kanimo ako taga langit na ug wala nay labot sa impyerno. AMEN.
+            </p>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE SYSTEM ENGINE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

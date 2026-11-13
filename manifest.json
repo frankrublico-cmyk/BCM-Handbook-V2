@@ -1,0 +1,17 @@
+{
+  "name": "BCM Handbook",
+  "short_name": "BCM Handbook",
+  "description": "Breaking Chain Ministry - Equipping Center: Cell Explosion, Break Every Chain, Discipleship, Leadership ug Evangelism, uban ang Biblia.",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#06080c",
+  "theme_color": "#06080c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
