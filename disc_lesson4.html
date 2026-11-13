@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 4: Walking in Holiness | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 4: WALKING IN HOLINESS</h1>
+            <p>"Paglakaw sa Pagkabalaan ug Pagsunod sa Sukaranan sa Langit"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>1 Pedro 1:15-16</strong> - "¹⁵Pagkinabuhi hinuon kamo nga balaan sa tanan ninyong mga pamatasan, kay balaan man ang Dios nga nagtawag kaninyo. ¹⁶Kay ang Kasulatan nag-ingon, 'Pagbalaan kamo kay Ako balaan man.'"
+        </div>
+
+        <h2>Introduction: Ang Tinuod nga Kahulugan sa "Set Apart"</h2>
+        <p>Kon makadungog ang kadaghanan sa mga tawo sa pulong nga "Holy," "Balaan," o "Sanctified," dinalian nga mosulod sa ilang huna-huna ang usa ka taphaw nga relihiyosong hulagway—usa ka tawo nga perpekto, dili mokatawa, nagsul-ob ug karaan o talagsaong sanina, ug nagpuyo nga nahilit gikan sa katilingban. Apan ang Bibliya nagtudlo kanato nga ang tinuod nga pagkabalaan dili usa ka pakaaron-ingnon sa gawas, kondili usa ka radikal nga pag-align sa kinabuhi ngadto sa plano sa Dios.</p>
+        
+        <p>Sa orihinal nga Hebreohanong pinulongan, ang pulong nga "Balaan" mao ang <strong>Kadosh</strong>, ug sa Griegong pinulongan kini mao ang <strong>Hagios</strong>. Ang duha ka pulong nagpasabut og usa ka klaro nga kahulugan: <strong>"Set Apart," "Lain sa Uban," o "Gi-gawas para sa Espesyal nga Katuyoan."</strong> </p>
+        
+        <p>Aron masabtan nato kini, hunahunaa ang usa ka espesyal, mahalon, ug hamili nga sudlanan o plato diha sa sulod sa imong panimalay. Wala nimo kini gigamit sa pagpakaon sa mga binuhi nga mananap, ug wala nimo kini pasagdi nga magkatibulaag sa hugaw nga dapit. Gilain nimo kini, gipulido, ug gigahin lamang alang sa mga espesyal nga okasyon o alang sa dungganon nga bisita. Mao kana ang pagkabalaan—gipalit ka sa Dugo ni Hesus, gilain gikan sa sistema sa kalibutan, ug gigahin alang sa balaang paggamit sa Labing Halangdong Dios.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE STANDARD OF THE CRAFTSMAN)</span>
+            Lider, ipasabut pag-ayo sa grupo nga sa visual design o pag-print, kon adunay gamay nga abog o depekto sa color profile sa makina, ang tibuok agid-agid ug agpangan sa sticker o tarpaulin maguba ug dili magmalampuson ang disenyo. Ingon niana ang pagkabalaan sa espiritu: ang Dios usa ka hingpit nga Magbubuhat (*Master Designer*). Iyang gilain ang atong kinabuhi gikan sa mga "abog" ug hugaw sa kalibutan aron ang Iyang hingpit nga hulagway ug himaya ma-print ug makita kanato sa hapsay nga pamaagi. Ang pagkabalaan dili limitasyon; kini mao ang pagpreserba sa imong structural integrity ug espirituhanong kalidad!
+        </div>
+
+        <p>Atong tukiubon karon ang tulo ka dagkong kamatuoran kon unsaon paglakaw sa tinuod ug epektibo nga pagkabalaan matag adlaw:</p>
+
+        <h2>I. Ang mga Haligi sa Paglakaw sa Pagkabalaan</h2>
+
+        <div class="point-box">
+            <div class="point-title">⚖️ 1. Ang Sukaranan sa Pagkabalaan: Ang Kinaiya sa Dios</div>
+            <p>Daghan ang nag-atubang ug kapakyasan sa pagkabalaan tungod kay sayop ang ilang gigamit nga sukaranan (*standard*). Ang 1 Pedro 1:15-16 nag-ingon: *“Pagbalaan kamo kay Ako balaan man.”* Ang atong sukaranan dili mausab:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Reject Horizontal Comparison:</span> Sayop ang pagtan-aw sa imong silingan, sa imong mga kauban sa trabaho, o bisan sa mga taphaw nga miyembro sa simbahan aron ingnon nga "maayo" o "limpyo" na ka. Kon ang imong sukaranan horizontal (tawo sa tawo), dali ra ka mahulog sa garbo o kompromiso pinaagi sa pag-ingon, *“Mas maayo pa man ko kay nila, panagsa ra man ko makasala.”*</li>
+                <li>📌 <span class="highlight-text">The Vertical Standard:</span> Si Jesus Kristo mao ra ang atong bugtong nga sukaranan. Ingon sa usa ka salamin, ang tinuod nga disipulo nagatutok sa Iyang pulong aron maseguro nga ang iyang pamatasan, ang iyang huna-huna, ug ang iyang mga pulong nag-reflect sa tiunay nga kasingkasing sa Iyang Agalon.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🧠 2. Holiness is an Inside-Out Process (Magsugod sa Kahiladman)</div>
+            <p>Ang relihiyon kanunay nga nag-una sa pag-usab sa gawas (unsay suoton, unsay kan-on, unsay pormas sa lawas), apan si Hesus kanunay nga nag-una sa sulod sa kasingkasing. Ang tinuod nga pagkabalaan usa ka proseso nga gikan sa sulod padulong sa gawas:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Engine of the Heart:</span> Ang Proverbio 4:23 nagpasidaan kanato: *“Bantayi ang imong kasingkasing uban sa tibuok nga kalihokan; kay gikan niini nagagula ang mga tuburan sa kinabuhi.”* Ang sala dili dinalian nga mo-atake sa gawas nga aksyon; kini magsugod ingon nga usa ka liso sa huna-huna. Sa dili pa ang tawo manglimbong sa panalapi, manlibak, o makapanapaw, iya na una kini nga gidula-dulaan ug gi-entertain sa altar sa iyang huna-huna.</li>
+                <li>📌 <span class="highlight-text">The Holy Spirit as the Driver:</span> Dili nimo kayang magpakabalaan pinaagi lamang sa imong unodnong kusog o determinasyon (*willpower*). Kon mosalig ka sa imong kaugalingon, mapakyas ka ug mahimo kang legalistiko sama sa mga Pariseo. Gihatagan kita sa Dios sa **Espiritu Santo**. Siya ang nagahatag kanato ug dinalian nga signal, kusog, ug kaisog sa pag-ingon og **"DILI"** sa tintasyon, ug sa pagpili sa katarong. It is a Spirit-led transformation.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ 3. Pagsunog sa Kuta sa Kompromiso (The Trap of "Puwede na na")</div>
+            <p>Sa atong adlaw-adlaw nga paglakaw, ang pinakadako nga kaaway sa pagkabalaan dili ang grabe nga dautan nga sala nga makita sa tanan; kini mao ang **Kompromiso (Compromise)**—kanang mga tago nga higayon diin ang unod mo-bulong ug moingon: *“Gamay ra man ni nga sala,” “Wala bitaw nakakita,”* o *“Puwede na na, gibuhat man sad na sa uban.”*</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Principle of Leaven:</span> Ang 1 Corinto 5:6 nagpasidaan kanato: *“Wala ba kamo mahibalo nga ang gamayng patubo makatubo sa tibuok nga minasa?”* Ang usa ka gamay nga kompromiso sa integridad (sama sa tago nga pagpamakak, pagtan-aw og hugaw sa internet, o pagpanikas sa oras sa trabaho) daw walay epekto sa sugod, apan kini mokaon sa imong espirituhanong awtoridad hangtod nga maguba ang imong kaminyoon, pamilya, ug ministeryo.</li>
+                <li>📌 <span class="highlight-text">The Power of Fast Repentance:</span> Unsa man ang buhaton kon kita makasala o mapakyas? Ang 1 Juan 1:9 naghatag kanato sa balaang giya: *“Kon ipahayag (confess) nato ang atong mga sala, Siya matinumanon ug matarong nga mopasaylo ug molimpyo kanato gikan sa tanang kaluyahon.”* Ang usa ka balaan nga disipulo wala nagpasabut nga wala nay gubat o dili gayod masayop; kini nagpasabut nga kon siya matandog sa sala, dili siya mopuyo sa lapok—dinalian siya nga modagan balik sa Dios, mag-confess, ug mobiya sa maong dalan.</li>
+            </ul>
+        </div>
+
+        <h2>II. Practical Application: Pagbalaan sa Matag Bahin sa Kinabuhi</h2>
+        <p>Aron ang pagkabalaan dili magpabilin nga usa ka teolohiya lamang, kinahanglan nato kini i-apply sa upat ka mahinungdanong aspeto karong semanaha:</p>
+
+        <div class="action-card">
+            📺 <span class="highlight-text">1. Sanctify Your Gates (Ang mga Pultahan sa Huna-huna):</span> Bantayi ang imong **Eye Gate** (unsay imong gitan-aw sa internet ug social media) ug ang imong **Ear Gate** (unsay mga kanta o tambag nga imong gipamati). Kon nagsige ka og pasulod og hugaw, kabalaka, ug unodnong mensahe, dili ka magmalampuson sa pagpakabalaan. I-filter ang imong digital environment.
+        </div>
+        <div class="action-card">
+            🗣️ <span class="highlight-text">2. Sanctify Your Speech (Ang Gahom sa Imong mga Pulong):</span> Sa sulod sa imong panimalay, eskwelahan, o dapit sa trabaho, susiha ang kalidad sa imong dila. Likayi ang pagpanglibak, mga malisisyosong komedya, ug mga pulong nga nagdala og kagubot. Gamita ang imong dila sa pag-ampo (*iampo ang usag-usa*), pagdasig, ug pagbubo og grasya sa mga makadungog kanimo.
+        </div>
+        <div class="action-card">
+            🤝 <span class="highlight-text">3. Sanctify Your Marketplace (Integridad sa Trabaho ug Negosyo):</span> Pakitaa ang kalibutan og lahi nga kalidad. Ayaw pag-apil sa mga unodnong pamaagi sa pagpanikas, pagpamakak sa kustomer, o pag-sabotahe sa uban aron lang molambo. Ang Dios nga nagmando sa pagkabalaan mao ang Dios nga magdala kanag supernatural nga panalangin ug kalamposan tungod sa imong katarong.
+        </div>
+        <div class="action-card">
+            🔥 <span class="highlight-text">4. Walk with an Accountability Partner (Pakig-abin sa Kahayag):</span> Bungkaga ang isolation. Pangita og usa ka kasaligan nga igsoon o lider sa cellgroup ug isulti kaniya ang imong mga pakigbisog aron kamo magtinabangay ug mag-inampoonay diha sa kahayag.
+        </div>
+
+        <h2>Conclusion & Call to Action: The Path to Real Freedom</h2>
+        <p>Mga igsoon sa Ginoo, ang pagkabalaan dili usa ka bug-at nga lulan o palas-anon nga nagkawat sa kalipay sa tawo; ang pagkabalaan mao ang bugtong dalan padulong sa **Tinuod nga Kagawasan ug Espirituhanong Gahom**! Kon ikaw gawasnon na gikan sa kadena ug legal right sa sala, makabaton ka ug tiunay nga kalinaw, limpyo nga huna-huna, ug dako nga pagsalig sa pagsulod sa presensya sa Dios.</p>
+        
+        <p>Ayaw na itugot nga ang imong kinabuhi madula-dulaan ni Satanas pinaagi sa mga tago nga sala ug kompromiso. Biya sa lapok sa kalibutan. Barug gikan sa imong mga kapakyasan karong gabhiona dinhi sa atong cellgroup. Isulob ang Helmet sa Kaluwasan, salig sa gahom sa Espiritu Santo, ug dawatang hingpit ang Iyang grasya alang sa usa ka dili matay-og ug bulahan nga pagkinabuhi! Amen!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING UNHOLY COVENANTS)</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa usa ka lawom nga ministration alang sa paghinulsol ug pagpurgar: *“I-pikit ang inyong mga mata ug ablihi ang inyong mga kamot. Sa Ngalan ni Hesus, among gibungkag ug ginaluka ang matag kuta sa kompromiso, tago nga sala, ug hugaw nga batasan sa inyong kinabuhi! Among ginasirad-an ang matag pultahan nga gihatag ninyo sa kaaway pinaagi sa sayop nga gitan-aw ug gihuna-huna. Gideklara nako ang dinalian nga paglimpyo pinaagi sa Dugo ni Hesus. Dawata ang presko nga kalayo sa Espiritu Santo karon aron maglakaw kamo sa tinuod nga kaputli, integridad, ug supernatural nga gahum sa pagkabalaan sa inyong pamilya ug negosyo! Kamo gawasnon ug balaan na diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa imong matinud-anong pagsusi sa imong adlaw-adlaw nga pagkinabuhi, unsa ang pinakadako nga **"compromise" (kompromiso o gamay nga sala)** nga kanunay nimong ginatugotan sa imong kaugalingon nga maoy nagakawat sa imong espirituhanong kadasig ug awtoridad?</li>
+                <li>Giunsa nimo pagsabot ang prinsipyo nga ang pagkabalaan magsugod sa sulod (*Inside-Out process*) kaysa sa gawas? Sa unsang paagi makatabang ang Espiritu Santo kanimo karon sa pag-guard sa pultahan sa imong huna-huna?</li>
+                <li>Unsa man ang usa ka konkretong desisyon o kausaban nga imong pagabuhaton karong semanaha sa imong *entertainment* (gitan-aw/gipamati) o sa imong mga pulong aron masiguro nga ikaw nagasunod sa balaang standard sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 5: The Fellowship of the Believers | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 5: THE FELLOWSHIP OF THE BELIEVERS</h1>
+            <p>"Koinonia: Ang Gahom ug Kamahinungdanon sa Espirituhanong Komunidad"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Buhat 2:42-47</strong> - "⁴²Ug sila nagpadayon sa pagkamaunongon sa gitudlo sa mga apostoles ug sa panag-uban (fellowship), sa pagpikas-pikas sa pan, ug sa mga pag-ampo... ⁴⁴Ug ang tanang nagtuo naghiusa ug nag-ambitay sa tanang mga butang... ⁴⁶Kada adlaw nagpadayon sila sa panagtagbo sa Templo uban ang usa ka huna-huna, ug nagpikas-pikas sa pan sa ilang mga balay..."
+        </div>
+
+        <h2>Introduction: Dili Kita Gidisenyo nga Mahimong "Lone Ranger"</h2>
+        <p>Sa modernong kultura karon sa tuig 2026, kaylap kaayo ang sekular nga pilosopiya sa "Extreme Individualism" o ang gitawag nato ug *Independent Christian*. Kini mao kadtong mga tawo nga mo-bulong ug moingon, <em>“Okay ra man nako nga mag-ampo ug magbasa ra og Bibliya sa akong balay, duna man koy personal nga relasyon sa Dios, dili na nako kinahanglan nga moapil pa og cellgroup o mosimba ug makig-uban sa uban nga magtutuo.”</em></p>
+        
+        <p>Apan sumala sa structural pattern sa Bibliya, kini usa ka dako ug delikado nga unodnong limbong. Ang kinabuhing Kristiyano wala gayod gidisenyo sa Dios nga mabuhi nga nag-inusara. Ang tinuod nga pagka-disipulo nagkinahanglan ug **Komunidad**. Ang atong pagtuo dili lang usa ka "ako ug ang Dios" *(horizontal matrix)*; kini usa ka **"kita ug ang Dios"** *(vertical community)*. Ang liso dili motubo kon dili kini itanom sa yuta uban sa laing mga tanom.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE GREEK WORD: KOINONIA)</span>
+            Lider, ipasabut og maayo sa mga miyembro nga ang pulong nga "panag-uban" sa Buhat 2:42 sa orihinal nga Griegong pinulongan mao ang **Koinonia**. Kini nga pulong milapas sa taphaw nga kahulugan sa "socialization" o "tapok-tapok." Ang *Koinonia* nagpasabut og **"shared life," "partnership," o "covenant fellowship."** Nagpasabut kini nga ang duha ka tawo nagbugkos sa ilang kinabuhi, diin ang kapakyasan sa usa, kapakyasan sa tanan, ug ang panalangin sa usa, panalangin sa tanan. Kini mao ang espirituhanong pamilya nga gipalit sa Dugo ni Kristo!
+        </div>
+
+        <p>Sa Buhat 2:42-47, atong makita ang hingpit nga hulagway sa unang simbahan ubos sa duso sa Espiritu Santo. Atong sutaon ang tulo ka dagkong kamatuoran kon ngano kinahanglan nato ang tinuod nga Koinonia:</p>
+
+        <h2>I. Ang mga Haligi sa Buhing Komunidad</h2>
+
+        <div class="point-box">
+            <div class="point-title">🤝 1. Devotion to Community (Ang Sakripisyo sa Pagkamakanunayon)</div>
+            <p>Ang bersikulo 42 nag-ingon: <em>“Ug sila nagpadayon sa pagkamaunongon...”</em> Ang orihinal nga pulong nagrepresentar sa usa ka dinalian ug walay paghunong nga determinasyon.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">It is a Devotion, Not a Hobby:</span> Sila wala naga-fellowship kon kanus-a lang sila libre, kon hayahay ang panahon, o kon gusto lang sa ilang emosyon. Gi-commit ug gi-devote gayod nila ang ilang oras, balay, ug kusog alang sa komunidad.</li>
+                <li>📌 <span class="highlight-text">The Four Unshakable Pillars:</span> Ang ilang hiniusang pagkinabuhi gitukod sa upat ka dagkong pundasyon:
+                    <ul style="margin: 8px 0 0 0; padding-left: 20px;">
+                        <li><strong>Apostles' Teaching:</strong> Ang hiniusang pagtuon sa Pulong sa Dios (sama sa cellgroup).</li>
+                        <li><strong>Fellowship (Koinonia):</strong> Ang pag-ambitay sa tinuod nga kahimtang sa kinabuhi.</li>
+                        <li><strong>Breaking of Bread:</strong> Ang pagkaon nga magkauban ug ang pagsaulog sa Holy Communion.</li>
+                        <li><strong>Prayer:</strong> Ang pag-guba sa mga kuta sa kaaway pinaagi sa hiniusang pag-ampo.</li>
+                    </ul>
+                </li>
+                <li>📌 <span class="highlight-text">The Threat of Isolation:</span> Nganong importante man kini? Tungod kay kabalo si Satanas nga kon makit-an ka niya nga nag-inusara ug layo sa panon sa mga magtutuo, mas dali ka niyang malaglag, dulaan ang imong huna-huna, ug ubanan sa depresyon. Apan kon ikaw anaa sa sulod sa cellgroup, duna kay proteksyon ug tabang.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">⚔️ 2. Accountability: Ang Kaayohan sa mga "Iron Sharpeners"</div>
+            <p>Ang tinuod nga fellowship naghatag kanato ug pultahan alang sa espirituhanong pagkahait pinaagi sa pagka-akawntable sa usag-usa.</p>
+            <div class="verse-box">
+                <strong>Proverbio 27:17</strong> - "Ingon nga ang puthaw makapahait sa puthaw, sa samang paagi ang usa ka tawo makapahait sa iyang isigkatawo."
+            </div>
+            <ul>
+                <li>📌 <span class="highlight-text">Growth through Friction (Paglambo sa Kuskos):</span> Ang puthaw dili gayod mahait kon dili kini makasinati ug kusog nga kuskos gikan sa laing puthaw. Sa samang paagi, ang atong pagkatawo ug karakter dili molambo kon mag-inusara kita. Usahay, ang laing igsoon sa cellgroup maoy gamiton sa Dios aron mo-correct, mo-badlong, o mopakita sa atong garbo. Dili kini komportable sa unod, apan kini kinahanglan aron ikaw mamahimong mahait ug mapuslanon sa Gingharian sa Dios.</li>
+                <li>📌 <span class="highlight-text">The Safety Net of Accountability:</span> Ang tawo nga nagpuyo nga walay accountability partner o small group leader, daling mahulog sa mga tago nga sala ug kompromiso. Apan kon duna kay matinud-anong igsoon sa Ginoo nga andam mangutana: <em>“Kumusta man ang imong kasingkasing?”, “Giunsa nimo pagdala imong pamilya?”, “Kumusta ang imong kaputli?”</em>, mahimo kang mabinantayon ug mapanalipdan ka sa lit-ag sa kaaway.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🤲 3. Radical Generosity and Witness (Pag-ambitay ug Pagbubo sa Gugma)</div>
+            <p>Ang Buhat 2:44-45 nag-ingon nga ang tanang nagtuo nagkahiusa ug nag-ambitay sa tanan nilang mga butang, ug namaligya pa gani sa ilang mga kabtangan aron itabang sa nanginahanglan.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Caring over Chatting:</span> Ang tinuod nga Koinonia milapas sa sige lang og istorya; kini nagtandog sa pisikal ug materyal nga panginahanglan sa matag usa. Kini ang pagbubo sa tinuod nga gugma—gugma nga andam mosakripisyo alang sa kaayohan sa igsoon.</li>
+                <li>📌 <span class="highlight-text">A Powerful Witness to the World:</span> Ang bersikulo 47 nag-ingon nga sila nakadawat og pag-uyon sa tanang tawo, <em>“...ug ang Ginoo nagdugang sa ilang gidaghanon adlaw-adlaw niadtong mga naluwas.”</em> Ang kalibutan sa gawas dili madani sa atong nindot nga building o sermon; sila madani kon makita nila ang usa ka komunidad sa mga Kristiyano nga naghigugmaay ug nag-atiman sa usag-usa sa tinuod nga pamaagi!</li>
+            </ul>
+        </div>
+
+        <h2>II. Practical Application: Unsaon Pagbuhat og Tinuod nga Koinonia?</h2>
+        <p>Aron dili lang kini magpabilin nga usa ka istorya sa unang siglo, kinahanglan natong i-apply kini nga mga estratehiya karong semanaha:</p>
+
+        <div class="action-card">
+            🔥 <span class="highlight-text">1. Plant Yourself Intentionally in a Cell Group (Pag-apil sa Small Group):</span> Ayaw lang pagpabilin nga tigtambong sa Sunday Service. Pag-commit nga mamahimong aktibong miyembro sa usa ka Cell Group. Dinhi nimo masugdan ang pagbura sa "Lone Ranger" mentality ug ang pagpatubo sa imong espirituhanong gamot uban sa uban.
+        </div>
+        <div class="action-card">
+            🔓 <span class="highlight-text">2. Cultivate Vulnerability and Drop the Mask (Biya sa Pakaaron-ingnon):</span> Ang cellgroup dili dapit alang sa mga perpekto nga tawo; kini usa ka ospital alang sa mga nanginahanglan sa Grasya sa Dios. Ayaw kahadlok sa pag-abli sa imong mga ginantus, mga problema sa panalapi, o mga pagsulay sa panimalay. Kon maglakaw ka sa kahayag ug vulnerability, mahanaw ang gahum sa kaaway sa imong kinabuhi.
+        </div>
+        <div class="action-card">
+            ❤️ <span class="highlight-text">3. Practice the "One Another" Commands (Pagserbisyo sa Usag-usa):</span> Pangita og piho nga paagi aron makatabang sa imong igsoon karong semanaha. Iampo si Brother o Sister, paminawa ang iyang kasingkasing, ug kon adunay panginahanglan nga kaya nimong tabangan, ayaw pagduha-duha sa pagpabunok sa panalangin sa Dios kaniya.
+        </div>
+
+        <h2>Conclusion & Call to Action: Stronger Together in Christ</h2>
+        <p>Mga igsoon sa Ginoo, ang pag-apil ug pagkamaunongon sa fellowship sa mga magtutuo dili usa ka kapilian o *option*—kini mao ang dinalian nga **Sumbanan sa Kaluwasan ug Espirituhanong Kalig-on**! Kon mag-inusara ka, dali ra kaayong mapalong ang imong kalayo; apan kon ang mga uling magkauban ug magpundok, magpadayon ang dako ug nagdilaab nga kalayo sa Espiritu Santo.</p>
+        
+        <p>Ayaw na itugot nga ang espiritu sa isolation, katapol, o kaulaw maoy magpalayo kanimo sa imong espirituhanong pamilya. Barug gikan sa imong mga kapakyasan ug mga pasangil karong gabhiona dinhi sa atong cellgroup. I-commit ang imong kinabuhi sa tinuod nga Koinonia, dawata ang pagpahait sa imong karakter, ug i-proclaim nato ang supernatural nga pag-uswag, proteksyon, ug multiplication diha kay Kristo Hesus! Amen!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING ISOLATION强)</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pagguba sa kuta sa isolation ug pag-activate sa hiniusang kalayo: *“Maggunitay kita sa kamot isip usa ka pamilya. Sa Ngalan ni Hesus, among gibungkag ug ginaluka ang matag espiritu sa isolation, pag-inusara, depresyon, ug kaulaw sa inyong kinabuhi! Akong gina-rebuke ang matag kuta sa kaaway nga nagbulag kaninyo sa panon sa Dios. Gideklara nako ang presko nga kalayo sa Koinonia sa matag kasingkasing. Dawata ang espiritu sa pagkamaunongon, kaisog sa pag-abli sa kasingkasing, ug ang supernatural nga panalangin ug proteksyon sa Dios tungod sa inyong panaghiusa! Kamo lig-on, hait, ug madasigon na karon diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa imong personal nga kasinatian, unsa man ang pinakadako nga **babag, kahadlok, o kabalaka (hindrances)** ngano nga ang usa ka tawo magduha-duha o magdumili sa pag-abli sa iyang tinuod nga kinabuhi ug pakig-akawntable sa sulod sa cellgroup? Unsaon kini pagbuntog?</li>
+                <li>Giunsa nimo pagsabot ang prinsipyo sa *Proverbio 27:17* nga ang puthaw makapahait sa isigka-puthaw? Nakasugat ka na ba og "espirituhanong kuskos" (*friction*) sa laing igsoon nga sa sugod sakit apan nakatabang dako sa pagbag-o sa imong karakter alang sa Dios?</li>
+                <li>Unsa man ang usa ka praktikal ug tinuyoan (*intentional*) nga lakang nga imong pagabuhaton karong semanaha aron maseguro nga ikaw nagapadayon sa pagkamaunongon sa fellowship ug nagapakita og tinuod nga pagpakabana sa imong mga igsoon sa Ginoo?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

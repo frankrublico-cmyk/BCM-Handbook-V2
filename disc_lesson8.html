@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 8: Character Over Charisma | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(46, 125, 50, 0.04);
+            border: 1px solid #2e7d32;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(46, 125, 50, 0.1);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 8: CHARACTER OVER CHARISMA</h1>
+            <p>"Pagtukod sa Kristohanong Kinaiya Labaw sa Gawas nga Gasa ug Abilidad"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Mateo 7:21-23, Galacia 5:22-23, ug 1 Samuel 16:7<br>
+        <strong>Katuyoan:</strong> Aron masabtan sa matag disipulo nga sa *Realm of Discipleship*, ang Dios mas naghatag og dako nga importansya sa atong Kristohanong kinaiya (*character*) kaysa sa atong gawas nga abilidad, talento, o espirituhanong mga gasa (*charisma*), ug aron ma-armasan sila sa prinsipyo sa pagtukod og lig-on nga pundasyon alang sa malungtarong kalampusan ug dako nga breakthrough.</p>
+
+        <h2>Introduction: Ang Kapeligrohan sa mga "Gasa nga Adunay Guba"</h2>
+        <p>Sa atong pagsulod niini nga bahin sa serye sa pagka-disipulo, kinahanglan natong atubangon ang usa ka radikal ug dinalian nga kamatuoran sa espirituhanong panggubatan: <span class="highlight-text">Charisma can take you to the top, but only Character can keep you there.</span> (Ang imong talento, kaalam, o gahum makadala kanimo ngadto sa ibabaw, apan ang imong balaan nga kinaiya lamang ang adunay kalig-on sa pagpabilin kanimo didto).</p>
+        
+        <p>Aron masabtan sa tibuok cellgroup, atong klaruhon ang structural nga kalainan niining duha ka aspeto:</p>
+        <ul>
+            <li><strong>Charisma (Ganti/Gahom/Talento):</strong> Kini mao ang imong gipanghatag nga espirituhanong mga gasa (*spiritual gifts*), talento sa pag-print o disenyo, abilidad sa pag-awit sa praise and worship, kahanas sa pagdumala, ug pagkamaayo mosulti sa atubangan. Kini ang "gawas" nga bahin nga daling makita, makapadani, ug ma-impress ang mga tawo.</li>
+            <li><strong>Character (Kristohanong Kinaiya):</strong> Kini mao ang kon kinsa ka sa tinuod nga pamaagi kon ikaw ra usa sa kangitngit, kon walay laing tawo nga nakakita kanimo gawas sa Dios. Kini naglangkob sa imong integridad, kaputli sa huna-huna, pagpaubos, ug pagkamasugtanon sa tago. Kini ang "sulod" nga bahin nga gitan-aw ug gisusi sa Ginoo matag adlaw.</li>
+        </ul>
+
+        <div class="verse-box">
+            <strong>1 Samuel 16:7b</strong>
+            " ...“Ayaw pagtan-aw sa iyang panagway o sa iyang pamarog kay dili siya maoy akong gipili. Ang akong paghukom dili sama sa paghukom sa tawo kay ang tan-awon sa tawo mao ang panagway apan ang tan-awon sa Ginoo mao ang kasingkasing.”"
+        </div>
+        <p>Sa modernong kultura sa kalibutan karon, ug bisan pa sa sulod sa daghang mga simbahan, dali ra kaayo kitang ma-hypnotize o malingla sa mga tawo nga adunay dako nga *charisma*—mga sikat, maayo mosulti, ug gamhanan sa ilang agi. Apan sa dapit sa matuod nga discipleship, gipahinumdoman kita ni Hesus: Ang kalampusan ug awtoridad sa usa ka disipulo wala ginasukod sa kon unsa ka dako ang iyang gawas nga display, kondili sa kon unsa ka dako ang iyang pagkasama kang Kristo Hesus kon anaa sa tago!</p>
+
+        <h2>I. Ang Anatomy sa Charisma Without Character (Ang Lit-ag ni Lucifer)</h2>
+        <p>Sa spiritual realm, ang *Spirit of Lucifer* naglihok sa matag higayon nga ang usa ka disipulo o lider mag-focus lamang sa iyang abilidad ug magpasigarbo sa iyang agi samtang gubot ang iyang personal nga kinabuhi. Kon duna kay talento apan walay integridad, nagtukod ka og usa ka dako nga balay nga dali ra kaayong bungkagon ug lumpagon sa kaaway. Atong tan-awon ang tulo ka dagkong kapeligrohan niini:</p>
+
+        <div class="point-box">
+            <div class="point-title">🚨 1. It Deceives the Person (Ang Panglimbong sa Kaugalingon)</div>
+            <p>Naggamit si Satanas og peke nga kaharuhay pinaagi sa iyang mga bakak aron bulongan ang imong huna-huna nga: *“Okay ra na nga naay kompromiso ang imong kinabuhi, okay ra na nga naay sekreto nga sala sa imong gadget (Digital Altars), gigamit man gihapon ka sa Dios sa cellgroup ug gi-bless man gihapon imong negosyo.”* </p>
+            <p>Kini usa ka dako ug makamatay nga bakak! Ang panalangin sa Dios ug ang pag-andar sa Iyang mga gasa naggikan sa Iyang grasya ug tungod sa Iyang Ngalan, dili tungod kay uyon Siya sa imong kompromiso ug tago nga sala. Ang charisma nga walay character naghimo sa tawo nga buta sa iyang kaugalingong kapildihan.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🔥 2. The Tragedy of Matthew 7 (Ang Makalilisang nga Kamatuoran sa Adlaw sa Paghukom)</div>
+            <p>Pait ug makalilisang kaayo nga ang usa ka tawo makahimo og dako nga agi, makahimo og milagro, apan sa katapusan isalikway sa Labing Halangdong Dios tungod sa kakuwang sa kinaiya:</p>
+            <div class="verse-box" style="margin: 10px 0;">
+                <strong>Mateo 7:21-23</strong> - "²¹Dili ang matag usa nga nagaingon kanako, 'Ginoo, Ginoo,' makasulod sa gingharian sa langit; kondili kadto lamang nagabuhat sa kabubut-on sa akong Amahan nga anaa sa langit. ²²Daghan ang moingon kanako niadtong adlawa, 'Ginoo, Ginoo, wala ba kami magtagna sa imong ngalan, ug sa imong ngalan nanghinginlan ug mga demonyo, ug sa imong ngalan nagbuhat ug daghang gamhanang mga milagro?' ²³Ug unya i-proclaim ko kanila sa hayag, 'Wala gayud ako makaila kaninyo; pahawa kanako, kamong mga mambubuhat sa kadautan (workers of lawlessness)!'"
+            </div>
+            <p style="margin: 0;"><strong>Spiritual Insight:</strong> Ang Dios dili gayod ma-impress sa kadako sa imong agi sa gawas kon ang sulod sa imong kasingkasing puno sa rebelyon, katigahi, ug sekreto nga sala. Ang Iyang kasingkasing nangita og pagkamasugtanon, dili lang pasigarbo.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">⛓️ 3. It Ruins Your Destiny and Anointing (Ang Kaparotan ni Samson)</div>
+            <p>Mao kini ang saktong hulagway sa nahitabo kang Samson sa Daang Tugon sa dihang nasakop siya sa *Spirit of Delilah*. Pwerte ka dako sa iyang charisma—aduna siyay supernatural nga kusog gikan sa Espiritu Santo! Apan luya ug dugmok kaayo ang iyang personal nga *character*.</p>
+            <p>Wala siya nag-disiplina sa iyang unod, nagpuyo siya sa sexual weakness ug kompromiso, ug sa katapusan, nakuha siya sa kaaway, niluka ang iyang mga mata, ug namatay siya nga ulipon ug dula-dulaan sa mga kaaway. Ang charisma nga walay character usa ka dinalian nga shortcut padulong sa self-destruction.</p>
+        </div>
+
+        <h2>II. Ang mga Timailhan sa Tinuod nga Character sa Discipleship</h2>
+        <p>Giunsa man nato pagkahibalo nga ang usa ka disipulo nagatukod og tinuod nga Kristohanong kinaiya? Kini makita pinaagi sa pagbunga sa Espiritu Santo:</p>
+        
+        <div class="verse-box">
+            <strong>Galacia 5:22-23</strong>
+            "²²Apan ang bunga sa Espiritu mao ang gugma, kalipay, kalinaw, pagkamapailubon, kalumo, kaayo, pagkamatinumanon, ²³pagkamapaubsanon, pagpugong sa kaugalingon: batok niining mga butanga walay balaod."
+        </div>
+        
+        <p>Atong bantayan kining tulo ka dagkong pundasyon sa karakter nga kinahanglan ma-activate kanato:</p>
+        <ul>
+            <li>🛡️ <span class="highlight-text">1. Integrity in the Dark (Integridad sa Kangitngit):</span> Kini mao ang pagka-matinud-anon sa imong trabaho, sa label sa imong mga produkto, ug sa panalapi bisan kon walay laing tawo o pastor nga nakatan-aw kanimo. Kon dili ka mangurakot sa opisina, ug kon limpyo ug putli ang imong ginatan-aw sa screen sa imong cellphone sa tunga sa kagabhion, nagsuot ka sa saktong *Breastplate of Righteousness*.</li>
+            <li>🌾 <span class="highlight-text">2. Absolute Humility (Pagpaubos ug Teachability):</span> Kini mao ang kaandam sa kasingkasing nga pabadlong, padisipulo, ug modawat og saktong correction gikan sa imong mga spiritual authorities (mga pastor ug cell leaders). Ang tawo nga adunay tinuod nga karakter dinalian nga mangayo og pasaylo kon siya nasayop, ug dili niya pakaonon ang garbo ni Leviathan sa iyang dughan.</li>
+            <li>🤝 <span class="highlight-text">3. Submission Over Rebellion (Pagkamasugtanon):</span> Ang kaaway nahigugma sa rebelyon, apan sa dapit sa discipleship, ang tinuod nga karakter naglihok pinaagi sa pagkamasugtanon sa Pulong sa Dios, bisan pa kon kini sukwahi sa isulti sa imong unod o sa kultura sa kalibutan karon.</li>
+        </ul>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE FRUIT VS. THE GIFT):</span>
+            Lider, ipasabut kini nga lawom nga matrix sa grupo: Ang **Ganti (Gift)** nahisama sa mga dayan-dayan nga gibitay sa usa ka Christmas tree—gitaod kini sa kalit ug walay kalihokan sa kinabuhi sa kahoy. Apan ang **Bunga (Fruit/Character)** naggikan sa sulod, nagkinahanglan og panahon, pagpakaon sa gamot, pagpul-ong, ug pag-antos sa unos aron motubo. Ang Dios nagasusi sa atong fruit, dili sa atong artificial decorations!
+        </div>
+
+        <h2>III. How to Develop Character Over Charisma (Ang Espirituhanong Pagbansay)</h2>
+        <p>Aron kita makalikay sa lit-ag sa kapundolan ug makatukod og balay nga dili matay-og, atong i-apply kining tulo ka balaang estratehiya matag adlaw:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🪵 1. Allow the Holy Spirit to Prune You (Ipasagdan ang Balaang Pagpul-ong)</div>
+            <div class="verse-box">
+                <strong>Juan 15:1-2</strong> - "1“Ako ang matuod nga punoan sa paras, ug ang akong Amahan mao ang tig-atiman. 2Putlon niya ang tanan kong sanga nga dili mamunga ug pul-ongan niya ang tanang sanga nga mamunga aron kini mahinlo ug mamungag daghan." 
+            </div>
+            <p><strong>Application:</strong> Ang talento o charisma pwedeng ihatag sa Dios sa usa lang ka segundo, apan ang karakter nagkinahanglan og Panahon, Proseso, ug Pag-antos. Kon duna kay giatubang nga mga kalingawan, kaguol, o krisis sa panalapi karon, ayaw kaguol o pagreklamo. Kana ang pamaagi sa Dios aron pul-ongan ug papahawaon ang matag garbo, kasuko, ug unodnong unod sa imong kasingkasing. Ipasagdan ang Dios sa pag-process sa imong kinaiya!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🤫 2. Fast from Seeking Human Recognition (Starve Your Ego sa Tago)</div>
+            <div class="verse-box">
+                <strong>Mateo 6:5-6</strong> - "5“Ug kon mag-ampo ka, ayaw buhata ang gihimo sa mga tigpakaaron-ingnon. Gusto silang mag-ampo nga magtindog sulod sa mga sinagoga ug diha sa mga eskina sa kadalanan aron makita sila sa mga tawo. Sultihan ko kamo nga nakadawat na sila sa ilang ganti. 6Apan kon mag-ampo ka, sulod ngadto sa imong kuwarto unya sirhi ang pultahan ug pag-ampo ngadto sa imong Amahan nga dili makita. Ug gantihan ka sa imong Amahan nga nagtan-aw sa imong gibuhat sa tago."
+            </div>
+            <p><strong>Application:</strong> Gutoma ang imong unodnong garbo! Ayaw na pagkinabuhi aron lang pabilibon o dayegon sa mga tawo sa social media o sa sulod sa simbahan. Himoa ang imong maayong binuhatan sa tago nga dapit. Pag-ampo sa sulod sa imong kwarto nga walay nakahibalo. Kon imo kining buhaton, imong ginasunog ang espiritu sa garbo ug gina-activate nimo ang tinuod nga panalangin sa Dios!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release Warfare Prayer for a Pure Heart (Gihinginlan ang Bakak ni Leviathan)</div>
+            <p><strong>Application:</strong> Sa imong Warfare Prayer karong gabhiona, gamita ang imong tingog ug i-proclaim kini uban ang kadasig sa espiritu: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag Espiritu sa Garbo, Leviathan, pagpakaaron-ingnon, ug sekreto nga sala sa akong kinabuhi! Akong ginasira ang akong kasingkasing batok sa mga bakak sa kaaway. Akong i-proclaim nga ang akong kinaiya nasakop sa kalumo, integridad, ug kaputli ni Hesus. Maglakaw ako isip tinuod nga disipulo sa tago ug sa hayag, ug akong i-activate ang supernatural ug malungtarong breakthrough sa akong kaliwatan! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: The House Built on the Rock</h2>
+        <p>Mga igsoon diha sa Ginoo, tapuson natong tanan kini nga leksyon pinaagi sa paghinumdom sa labing hait nga pagtulon-an ni Hesus bahin sa duha ka matang sa tawo nga nagtukod og balay:</p>
+        
+        <div class="verse-box">
+            <strong>Mateo 7:24-27</strong>
+            "24“Busa ang tanan nga nakadungog sa akong gisulti ug nagtuman niini mahisama sa usa ka maalamong tawo nga nagtukod sa iyang balay diha sa bato. 25Sa dihang mibundak ang ulan ug mibaha ang mga suba ug ang hangin mihapak ug mikusokuso niadtong balaya, wala kini matumba kay natukod man diha sa bato.
+26“Apan ang tanan nga nakadungog sa akong gisulti ug dili motuman niini, mahisama sa usa ka tawong buangbuang nga nagtukod sa iyang balay diha sa balas. 27Sa dihang mibundak ang ulan ug mibaha ug ang hangin mihapak ug mikusokuso niadtong balaya, natumba kini ug nagun-ob!"
+        </div>
+        
+        <p>Ang tawo nga nagsalig lamang sa iyang *charisma* apan walay *character*, nahisama sa boang nga nagtukod sa iyang balay sa ibabaw sa **Balas**. Pwerte ka nindot, dako, ug hayag tan-awon sa balay sa gawas, apan sa dihang miabot ang unos sa krisis, ang baha sa tentasyon, ug ang hangin sa pag-atake sa yawa, kalit lang nga nahugno ang tibuok balay ug dako kaayo ang iyang pagkapukan! </p>
+        
+        <p>Apan ang tawo nga nagtukod sa iyang *character* pinaagi sa pagpaminaw ug dinalian nga **pagtuman** sa Pulong sa Dios diha sa tago, nahisama sa maalamon nga nagtukod sa iyang balay sa ibabaw sa **Bato**. Miabot ang unos sa kalisod, miatake ang mga demonyo, apan nagpabilin nga lig-on ug nagbarog ang iyang kinabuhi ug pamilya, tungod kay ang iyang pundasyon nakasuksok sa Bato nga mao si Kristo Hesus!</p>
+        
+        <p>Ayaw na gayod i-sakripisyo ang imong integridad, imong kaminyoon, ug ang panalangin sa imong pamilya alang lamang sa temporaryo nga dungog o unodnong pasigarbo sa kalibutan. Momata kita gikan sa espirituhanong katulog. Unaha ang pagtukod sa imong kasingkasing diha sa kaputli, ug i-proclaim nato ang supernatural ug malungtarong kalampusan diha sa inyong tibuok kaliwatan! Amen!</p>
+
+        <div class="action-card" style="background: rgba(46, 125, 50, 0.2); border-left: 4px solid #2e7d32;">
+            <h3>⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP ACTIVATION (THE ALTAR OF INTEGRITY)</h3>
+            Lider, pabaruga ang tibuok grupo. Ipapilit ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining pag-ampo sa deliverance ug pag-purgar sa kinaiya uban ang kaisog:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa gahum sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among ginaluka ug gipukan karong gabhiona ang matag kuta sa pagpakaaron-ingnon, garbo, ug sekreto nga sala sa inyong mga kasingkasing! Akong gina-rebuke ang matag operasyon sa espiritu ni Lucifer ug Leviathan nga misulay sa pagpabuta kaninyo pinaagi sa unodnong pasigarbo.*
+            <br><br>
+            *Sa Ngalan ni Hesus, bungkagon ko ang matag Digital Altar ug kompromiso sa kangitngit! Ginoo, ibubo ang presko nga duso sa Holy Spirit ug ang kaalam sa pagtukod og kinaiya diha sa Bato. Gideklara nako nga ang inyong pamilya, kaminyoon, ug cellgroup magpabilin nga nagbarog, putli, ug puno sa supernatural nga integridad nga molungtad hangtod sa kahangturan! Kamo mga aprobado nga disipulo ug maggugubat sa Dios diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Mateo 7:21-23**, unsa man ang kalainan sa pagsabot tali sa usa ka tawo nga *adunay dako nga charisma ug milagro sa gawas* kaysa sa usa ka tawo nga *adunay tinuod nga relasyon ug pagkamasugtanon sa Dios diha sa tago*?</li>
+                <li>Ipaambit sa grupo sa tiunay nga pamaagi: Unsa man ang kahulugan alang kanimo sa **Integrity in the Dark** (integridad sa kangitngit)? Nganong giingon man nga si Samson napukan ug nadismis ang iyang destiny dili tungod sa kakuwang sa gahum, kondili tungod sa kakuwang sa iyang personal nga *character*?</li>
+                <li>Susiha ang kahulugan sa **Bato ug Balas** diha sa *Mateo 7:24-27*. Unsa nga partikular nga aspeto sa imong Kristohanong kinaiya (sama sa *pagpaubos, pagpugong sa kaugalingon, o pagka-matinud-anon*) ang kinahanglan nimong ipasagdan nga pul-ongan (*prune*) sa Dios sugod ugma alang sa malungtarong breakthrough?</li>
+            </ol>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

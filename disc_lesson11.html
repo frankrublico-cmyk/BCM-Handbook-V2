@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 11: The Great Commission | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(46, 125, 50, 0.04);
+            border: 1px solid #2e7d32;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(46, 125, 50, 0.1);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 11: THE GREAT COMMISSION</h1>
+            <p>"Ang Dakong Sugo: From Spiritual Defense to Kingdom Offense"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Mateo 28:18-20, Buhat 1:8, ug 2 Corinto 5:19-20<br>
+        <strong>Katuyoan:</strong> Aron pukawon ang tibuok kongregasyon gikan sa pagka-pasibo (*spiritual passivity*), masabtan nga ang matag luwas nga Kristohanon gipadala aron mag-disipulo sa uban, ug ma-armasan sila sa awtoridad sa Dios sa pagdala og kaluwasan ug supernatural nga breakthrough sa ilang mga pamilya, trabahoan, negosyo, ug komunidad.</p>
+
+        <h2>Introduction: Ang mga Mandato sa Paglihok sa Atong Hari (Marching Orders)</h2>
+        <p>Sa bisan unsang kasundalohan sa kalibutan, kon ang *Supreme Commander* o ang kinatas-ang heneral magpagawas na gani og tinuyoan nga **"Marching Orders"** (ang katapusang mando sa dili pa siya mobiya), ang tanang sundalo mohunong sa ilang ginabuhat, motindog nga mabinantayon, ug maminaw sa matag pulong. Dili kini usa ka sugyot nga pwedeng balibaran; kini usa ka mando nga dinalian nga pagatumanon uban ang kadasig.</p>
+        
+        <p>Sa dihang hapit na mosaka si Hesus sa Langit human sa Iyang pagkabanhaw, Iyang gitapok ang Iyang mga disipulo didto sa bukid sa Galilea. Wala Niya sila giingnan nga mag-relax, mag-hayahay, o magpahulay na lang samtang naghulat sa Iyang pagbalik. Dili! Ang Iyang katapusang biniyaan nga pulong mao ang **The Great Commission (Ang Dakong Sugo)**:</p>
+
+        <div class="verse-box">
+            <strong>Mateo 28:18-20</strong>
+            "¹⁸Miduol si Jesus ug miingon kanila, 'Gihatag kanako ang tanang gahom sa langit ug sa yuta. ¹⁹Tungod niini, sa inyong pagpanglakaw himoa nga akong mga tinun-an ang tanang katawhan sa tibuok kalibotan. Bunyagi sila sa ngalan sa Amahan, sa Anak ug sa Espiritu Santo ²⁰ug tudloi sila pagtuman sa tanan nga akong gisugo kaninyo. Ug hinumdomi! Ako mag-uban kaninyo sa kanunay hangtod sa kataposan sa kalibotan.'"
+        </div>
+        <p>Sa spiritual realm, kini nga sugo mao ang kinadak-ang *nightmare* o kalisang ni Satanas ug sa iyang mga demonyo. Kabalo ang kaaway nga kon ang Simbahan ug ang mga magtutuo magpabilin lamang nga komportable sa sulod sa upat ka bongbong sa building, luwas ang iyang gingharian sa kangitngit. Apan kon ang matag disipulo makasabot nga sila gipadala isip mga *missionaries* sa ilang kaugalingong pamilya, dapit, ug patigayon, mabungkag ug mapolbos ang kuta sa impiyerno! </p>
+        <p>Daghan kaayong mga Kristohanon karon ang naghimo sa *Great Commission* nga "Great Suggestion" (Dakong Hangyo/Sugyot) lang. Apan karong adlawa, sa dapit sa discipleship, atong i-reclaim ang atong pagka-sundalo sa Espiritu ug tumanon nato ang Dakong Sugo sa atong Hari!</p>
+
+        <h2>I. Ang Tulo ka Haligi sa Dakong Sugo sa Spiritual Realm</h2>
+        <p>Aron kita makasulod sa panggubatan ug makalarga uban ang kaisog, kinahanglan natong masabtan ang legal nga pundasyon sa atong misyon sumala sa Mateo 28:</p>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ 1. The Foundation of Supreme Authority (Ang Pundasyon sa Awtoridad - v.18)</div>
+            <p>Si Hesus nag-una sa pag-ingon: *“Gihatag kanako ang tanang gahom (authority) sa langit ug sa yuta.”* Ug tungod kay Iyang gihawiran ang tanang legal nga gahum, Siya nag-ingon: *“Tungod niini, lakaw kamo...”* </p>
+            <p><strong>Spiritual Insight:</strong> Sa spiritual warfare, dili ka pwedeng moadto sa pagpangdaog og kalag gamit ang imong kaugalingong kusog, sulti, o kahibalo. Kon moadto ka sa usa ka tawo aron i-share ang Gospel o mag-cellgroup, wala nimo gi-representar ang imong kaugalingon—gi-representar nimo ang Hari sa tibuok uniberso! Kon muingon ang yawa sa imong huna-huna nga, *“Kinsa man ka aron mangdaog og kalag ug mag-ampog tawo?”*, tubaga siya sa espiritu: *“Ako sa akong kaugalingon walay gahum, apan ang Ngalan ni Hesus nga akong gidala mao ang nagkupot sa tanang awtoridad sa langit ug sa yuta! Pahawa!”*</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🏃‍♂️ 2. The Lifestyle Mandate: "As You Go" (Ang Sugo sa Paglihok sa Adlaw-adlaw - v.19)</div>
+            <p>Sa orihinal nga Grego nga pagkasulat sa Bibliya, ang pulong nga "Go" gikan sa pulong nga **Poreuthentes**, nga ang saktong translation mao kini: **"As you are going..."** (Sa inyong pagpanglakaw-lakaw o sa inyong adlaw-adlaw nga pagkinabuhi).</p>
+            <p><strong>Spiritual Insight:</strong> Ang Dakong Sugo dili lang diay para sa mga pinili nga pastor o kadtong milarga sa laing nasud isip misyonaryo. Kini nagpasabut: Sa imong pag-adto sa opisina—*make disciples*. Sa imong pag-atubang sa imong negosyo, pag-print, ug pakig-atubang sa mga customer—*make disciples*. Sa imong pag-skwela—*make disciples*. Sa imong pag-post sa social media—*make disciples*! Kini usa ka misyon nga kauban sa matag adlaw nimo nga pagginhawa.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👥 3. The Ultimate Goal: Make Disciples, Not Just Converts (Pagbuhat og Disipulo)</div>
+            <p>Wala miingon si Hesus nga *“Himoa silang mga miyembro lamang sa simbahan o taga-lingkod kada Dominggo.”* Miingon Siya sa tinun-an: *“Himoa silang akong mga disipulo.”*</p>
+            <p><strong>Spiritual Insight:</strong> Ang *convert* mao ang tawo nga mituo lang kay Hesus aron dili moadto sa impiyerno, apan nagpuyo gihapon sa iyang karaan nga kinaiya, bisyo, ug tago nga kompromiso. Apan ang *disipulo* mao ang tawo nga mituo kay Hesus, nagpaubos sa correction, nag-develop sa iyang *Character over Charisma*, ug andam usab nga mo-bira, mo-atiman, ug modisipulo og laing tawo paingon sa Kahayag! </p>
+            <p>Ang kalampusan sa usa ka lokal nga simbahan wala ginasukod sa iyang *seating capacity* (kon pila ang nangalingkod ug nagtan-aw), kondili sa iyang **sending capacity** (kon pila ka mga disipulo ug cell leaders ang gipang-sugo sa gawas sa pagmando sa Gingharian sa Dios)!</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE POWERSHIFT MATRIX):</span>
+            Lider, ipasabut kini og maayo sa grupo gikan sa **Buhat 1:8**. Sa Daang Tugon, ang mga tawo kinahanglan moadto sa Templo aron makasugat sa Presensya sa Dios. Apan sa Bag-ong Tugon, human nanaog ang **Espiritu Santo**, ikaw na ang nahimong Templo sa Dios! 
+            <br><br>
+            Ang Presensya sa Dios wala na magpuyo sa bato nga building; nagpuyo na kini sa sulod nimo! Busa kon ikaw mogawas sa gawas sa simbahan, gidala nimo ang kalayo, ang anointing, ug ang solusyon sa Dios ngadto sa mga tawo nga giguba ni Satanas. Ikaw ang tig-abli sa open heavens sa gawas!
+        </div>
+
+        <div class="verse-box">
+            <strong>Buhat 1:8</strong>
+            "Apan makadawat kamo og gahom (dunamis) sa diha nga ang Espiritu Santo moabut na sa ibabaw kaninyo: ug kamo mamahimong akong mga saksi didto sa Jerusalem, ug sa tibuok Judea, ug sa Samaria, ug hangtod sa kinatumyan nga bahin sa yuta."
+        </div>
+
+        <h2>II. Ang mga Ilit-ag sa Kaaway Batok sa Dakong Sugo</h2>
+        <p>Nganong daghan man kaayong mga magtutuo karon ang dugay na kaayo sa pagtuo, apan wala pa gayuy nadala bisan usa ka kalag ngadto sa Ginoo o wala pa nakapanganak og disipulo? Atong bantayan kining tulo ka dagkong lit-ag ni Satanas:</p>
+        
+        <ul>
+            <li>🏠 <span class="highlight-text">1. The Trap of the "Holy Huddle" (Ang Lit-ag sa Ka-komportable sa Sulod):</span> Mao kini ang mentalidad diin ang mga Kristohanon ganahan na lang mag-pundok-pundok sa sulod, mag-enjoy sa nindot nga worship ug grasya—apan wala nay labot o pagpakabana sa mga tawo sa gawas nga nag-antus sa sala. Gusto sa *Spirit of Asherah* nga magpuyo kita sa peke nga kaharuhay, nga makalimot kita nga sa gawas, adunay liboan ka mga kalag nga padulong sa kapildihan ug nagkinahanglan og deliverance.</li>
+            <li>🗣️ <span class="highlight-text">2. The Stronghold of the Fear of Man (Kahadlok ug Kauwaw sa Tawo):</span> Kini ang numero unong kuta nga mobabag sa dila sa usa ka disipulo tungod sa *overthinking* nga basin kataw-an ka, ingnon nga holy-holy, o masuko ang imong mga kaila ug barkada. 
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Proverbio 29:25</strong> - "Ang kahadlok sa tawo nagdalag lit-ag: apan kadtong mosalig sa Ginoo mapanalipdan."
+                </div>
+                Ang kaaway naggamit sa intimidation aron pahilumon ang imong dila kay kabalo siya nga ang imong pagpamatuod adunay gahum sa pagguba sa iyang imperyo!
+            </li>
+            <li>📺 <span class="highlight-text">3. Secular Distraction and the "Busy-ness" Trap (Ang Katapolan ug Kakuwang sa Oras):</span> Kini mao ang pagka-puno sa huna-huna sa mga butang sa kalibutan—pagpaburot sa negosyo, paggukod sa promotion, ug pagsige og atubang sa gadgets—nga hurot na ang kusog sa unod ug wala nay nahabilin nga enerhiya, oras, ug kadasig alang sa buluhaton sa Gingharian sa Dios.</li>
+        </ul>
+
+        <h2>III. How to Execute the Great Commission (Ang mga Action Steps sa Espiritu)</h2>
+        <p>Mga igsoon diha sa Ginoo, dili kita makahimo sa Dakong Sugo kon maghulat kita nga mahimong "perpekto" ang atong kahibalo o teolohiya. Ang Dios wala nangita og *ability* (tawhanong abilidad), nangita Siya og *availability* (kaandam sa paggamit)! Ania ang atong mga dinalian nga estratehiya:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">👑 1. Shift Your Identity: From Consumer to Contributor (Usba ang Imong Motibo)</div>
+            <p>Undangi na ang pagsimba ug pag-attend og cellgroup nga ang motibo kay: *“Unsa may akong madawat ug unsa may i-bless sa Dios nako karon?”* Usba kini dinalian ngadto sa: *“Lord, kinsa man ang Imong ipa-bless, ipa-luwas, ug ipa-deliver pinaagi kanako karong semanaha?”*</p>
+            <div class="verse-box">
+                <strong>2 Corinto 5:17-20</strong>
+                "17Kay bisan kinsa nga nahiusa kang Cristo, bag-o na siyang binuhat. Ang daan miagi na ug ang bag-o miabot na. 18Gibuhat sa Dios kining tanan ug siya usab ang nagpasig-uli kanato ngadto kaniya pinaagi kang Cristo ug gihatagan kita niya sa buluhaton sa pagpasig-uli sa uban ngadto kaniya. 19Maoy among mensahe nga ang Dios pinaagi kang Cristo nagpasig-uli sa tanang tawo ngadto sa iyang kaugalingon. Ang Dios wala na mag-isip sa ilang mga sala, ug gihatagan kami niya sa mensahe unsaon niya pagpasig-uli kanila ngadto kaniya.
+20Busa ania kami gipadala ni Cristo ug sama ra nga ang Dios gayod ang nangaliyupo kaninyo pinaagi kanamo. Sa ngalan ni Cristo, naghangyo kami kaninyo nga makig-uli kamo sa Dios.
+            </div>
+            <p><strong>Application:</strong> Ikaw ang dila sa Dios, ikaw ang kamot sa Dios sa imong pamilya, trabahoan, ug negosyo. Lakad ug lihok isip usa ka legal nga Ambasador sa Langit!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🗣️ 2. Open Your Mouth and Proclaim the Testimony (I-share ang Maayong Balita)</div>
+            <p>Ang kaluwasan dili moabot kon walay mosulti ug mag-wali sa Pulong sa Dios:</p>
+            <div class="verse-box">
+                <strong>Roma 10:13-15</strong>
+                "13Sumala sa Kasulatan, “Ang tanan nga magsangpit sa ngalan sa Ginoo maluwas.”
+14Apan unsaon man nila pagsangpit kaniya kon wala sila motuo? Ug unsaon man nila pagtuo kon wala sila makadungog sa mensahe? Ug unsaon man nila pagkadungog kon walay magwali niini? 15Ug unsaon man pagwali sa mensahe kon walay gipadala nga magwawali? Sumala sa Kasulatan, “Pagkatahom sa mga tiil niadtong nagwali sa Maayong Balita!”
+            </div>
+            <p><strong>Application:</strong> Isulti dinalian ang gihimo ni Hesus sa imong kinabuhi. I-share kon giunsa ka Niya pagluwas, pag-ayo, ug paghatag og breakthrough. Ang Pulong sa Dios nga mogawas sa imong dila adunay supernatural nga anointing nga mag-abli sa kasingkasing sa mga tawo nga naminaw.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Step Out in Faith and Demonstrate the Power (Pagmando sa Gahum ni Hesus)</div>
+            <p>Ang Dakong Sugo giubanan sa supernatural nga mga timailhan alang sa matag disipulo nga mosalig ug moadto sa gawas:</p>
+            <div class="verse-box">
+                <strong>Marcos 16:15-18</strong>
+                "15Miingon siya kanila, “Panglakaw kamo sa tibuok kalibotan ug isangyaw kining Maayong Balita ngadto sa tanang mga tawo. 16Ang motuo ug magpabunyag maluwas, apan ang dili motuo, silotan. 17Ug mao kini ang mga timaan nga mabatonan sa mga motuo: sa akong ngalan maghingilin silag mga yawa ug manulti silag lainlaing mga sinultihan. 18Makakupot silag mga halas ug kon makainom silag hilo, dili sila maunsa. Itapion nila ang ilang mga kamot sa mga masakiton ug mangaayo sila.”
+            </div>
+            <p><strong>Application:</strong> Kon duna kay masugatan nga kaila, kustomer, o paryente nga masakiton o giguba sa kaaway, ayaw kaulaw! Ingna sila uban ang kaisog: *“Pwedeng i-pray nako ka sa Ngalan ni Hesus?”* Ipandong ang imong kamot, hingesli ang espiritu sa sakit, ug i-proclaim ang pagpang-ayo sa Dios! Let the signs follow your obedience!</p>
+        </div>
+
+        <h2>Conclusion & Call to Action: From Defense to Kingdom Offense</h2>
+        <p>Mga igsoon diha sa Ginoo, sa katapusang bahin niining atong serye sa pagka-disipulo, kinahanglan natong usbon ang atong spiritual strategy. Undangi na ang pagpuyo sa *Spiritual Defense*—diin sige lang ka og dagan, sige lang kag hilak, ug sige lang kag tago gikan sa mga atake sa yawa. Momata kita gikan sa espirituhanong katulog ug isulod ang atong tibuok kinabuhi ngadto sa **Kingdom Offense**!</p>
+        
+        <p>Pinaagi sa awtoridad sa Ngalan ni Hesus, kita mao ang moatake sa kuta sa kaaway aron bungkagon ang iyang mga lit-ag sa atong mga pamilya ug dapit! Ayaw na i-sakripisyo ang imong oras alang lang sa temporaryo nga mga kalingawan sa kalibutan. Isulob ang tibuok Armor sa Dios, barug isip usa ka madasigon ug aprobado nga disipulo, open your mouth, and make disciples! Ang Ginoo Mismo nag-ingon: *“Ako mag-uban kaninyo sa kanunay hangtod sa kataposan sa kalibotan!”* Amen!</p>
+
+        <div class="action-card" style="background: rgba(46, 125, 50, 0.2); border-left: 4px solid #2e7d32;">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (THE MISSIONARY DEPLOYMENT ACTIVATION)</h3>
+            Lider, pabaruga ang tibuok grupo sa katapusan. Ipa-gunitay ang ilang mga kamot o ipandong ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining pag-ampo sa deliverance ug apostolic deployment uban ang dako nga kaisog:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, among gihinginlan ug gipukan karong gabhiona ang matag kuta sa katapolan, kahadlok sa tawo, kauwaw, ug spiritual passivity sa atong mga kinabuhi! Akong gina-rebuke ang matag espiritu sa intimidation nga nagsira sa atong mga dila.*
+            <br><br>
+            *Sa Ngalan ni Hesus, dawata ang presko nga dihug ug ang kalayo sa Holy Spirit! Gideklara nako nga sugod karon, ako dili na usa ka consumer, kondili usa na ko contributor ug tinuod nga Ambasador ni Kristo! Naglakaw uban ang supernatural nga awtoridad sa akong pamilya, trabahoan, ug negosyo. Mangasira ang kuta sa impiyerno ug mangabli ang open heavens samtang ako nangabig og kalag ug nagahimo og mga disipulo! Dawata ang anointing sa paglihok diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Mateo 28:19** ug sa Grego nga pulong nga *Poreuthentes* ("As you are going"), unsaon nimo pag-apply ang Dakong Sugo sa sulod sa imong adlaw-adlaw nga trabaho, eskwelahan, o dagan sa imong negosyo karong semanaha?</li>
+                <li>Susiha ang **Roma 10:14-15** ug ang **Trap of the Fear of Man** (kahadlok sa tawo). Unsa nga mga overthinking o babag ang kasagaran nga gigamit ni Satanas aron pahilumon ang imong dila sa pag-share sa Gospel, ug unsaon nimo kini pagbuntog dinalian pinaagi sa pagsalig sa Dios?</li>
+                <li>Ipaambit sa grupo: Pila ka buok kalag (paryente, higala, o kustomer) ang imong tuyoon nga i-pray, bisitahan, ug i-share-an sa Maayong Balita karong semanaha aron ma-execute ang imong pagka-Ambasador? Mag-ampo kita alang sa usag usa alang sa supernatural nga kaisog ug mga milagro!</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

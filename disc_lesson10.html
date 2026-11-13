@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 10: Handling Trials & Suffering | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(46, 125, 50, 0.04);
+            border: 1px solid #2e7d32;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(46, 125, 50, 0.1);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 10: HANDLING TRIALS & SUFFERING</h1>
+            <p>"Pagbuntog sa mga Unos sa Kinabuhi ug Pagsaka ngadto sa Dako nga Himaya"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Santiago 1:2-4, 1 Pedro 1:6-7, ug Roma 8:18<br>
+        <strong>Katuyoan:</strong> Aron masabtan sa kongregasyon ug sa matag cellgroup nga ang mga pagsulay ug pag-antos kabahin sa proseso sa pagka-disipulo aron maputli ang atong pagtuo, ug aron ma-armasan sila sa mga hait nga prinsipyo sa Espiritu kon unsaon pag-atubang niini uban ang kaisog, kadasig, ug hingpit nga pagsalig alang sa supernatural nga kalampusan ug dako nga breakthrough.</p>
+
+        <h2>Introduction: Ang Dili Malikayan nga Dalan sa Pagka-Disipulo</h2>
+        <p>Sa atong pagsulod niini nga bahin sa *Realm of Discipleship*, kinahanglan natong saksihan, sabton, ug atubangon ang usa ka dako nga kamatuoran sa espiritu nga kasagaran dili gusto paminawon sa unod: Ang pagsunod ug pagka-disipulo ni Hesus wala nagpasabut nga wala na kitay masugatan nga mga problema o unos sa kinabuhi.</p>
+        
+        <p>Daghan kaayong mga modernong doktrina ug babaw nga pagtulon-an karon ang nagaingon nga kon Kristohanon ka, kinahanglan hamis, hayahay, ug walay bisan gamay nga kakulian ang imong kinabuhi. Apan sa spiritual realm, kini usa ka dakong bakak ug peke nga kaharuhay (*Spirit of Asherah*). Si Hesus Mismo naghatag og klaro nga pasidaan sa Iyang mga disipulo sa wala pa Siya moadto sa krus:</p>
+
+        <div class="verse-box">
+            <strong>Juan 16:33</strong>
+            "Kini nga mga butang akong gisulti kaninyo, aron nga dinhi kanako makabaton kamo og kalinaw. Dinhi sa kalibutan makasinati kamo ug mga kasakitan (tribulation) ug pagsulay: apan pagmadasigon kamo; gipildi ko na ang kalibutan!"
+        </div>
+        <p>Sa dapit sa tinuod nga discipleship, ang mga **Trials & Suffering (Mga Pagsulay ug Pag-antos)** dili mga silot o timaan nga gikasuk-an ka sa Dios. Kini mga *spiritual classrooms* o mga balaang lawak-tulun-an diin gina-train sa Dios ang atong karakter, ginalimpyohan ang atong motibo, ug ginabag-o ang atong pagsalig Kaniya. Ang kalampusan ug kalig-on sa usa ka disipulo dili ginasukod kon unsa ka nindot iyang kanta kon hayahay ang panahon, kondili kon unsa ka lig-on, madasigon, ug kamatinumanon sa taliwala sa kusog nga unos sa kinabuhi.</p>
+
+        <h2>I. Ang Katuyoan sa Pagsulay sa Spiritual Realm (Why God Allows Suffering)</h2>
+        <p>Aron dili kita dinalian nga mo-surrender, maluya, o mapuno sa grabeng kalibog gikan sa kaaway (*Spirit of Python*), kinahanglan natong masabtan ang balaang operasyon sa Dios sa sulod sa atong espiritu sa matag higayon nga adunay krisis:</p>
+
+        <div class="point-box">
+            <div class="point-title">🔥 1. It Purifies Your Faith (Ang Pag-purgar ug Paglimpyo sa Atong Pagtuo)</div>
+            <p>Ang bulawan kon makuha gikan sa lawom nga yuta, duna pa kiniy sagol nga mga sagbot, bato, ug lapok. Aron makuha ang lunsay ug mahal nga bulawan, kinahanglan kini isulod sa nagadilaab nga kalayo sa hurno aron matunaw ug mabulag ang hugaw. Sa samang pamaagi, gitugotan sa Dios ang mga pagsulay sa panalapi, sa pamilya, o sa negosyo aron gihinginlan ug gipapahawa ang matag sagol sa garbo, pagpakaaron-ingnon, ug pagka-unodnon sa atong kasingkasing.</p>
+            <div class="verse-box">
+                <strong>1 Pedro 1:6-7</strong>
+                "6Busa angay ninyo kining ikalipay bisan tuod ug sa pagkakaron kinahanglan tingali nga mag-antos kamo sa mubong panahon tungod sa daghang mga pagsulay kaninyo. 7Ang tuyo niini mao ang pagsulay kon tinuod ba gayod ang inyong pagtuo kay bisan gani ang bulawan nga lumalabay lamang sulayan man pinaagi sa kalayo. Ang inyong pagtuo nga bililhon pa kay sa bulawan sulayan gayod usab. Tungod niini madawat ninyo ang mga pagdayeg, himaya ug dungog sa Adlaw nga ipadayag na si Jesu-Cristo."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🏋️‍♂️ 2. It Produces Spiritual Maturity and Endurance (Pagpatubo sa Supernatural nga Kalilahutayon)</div>
+            <p>Ang kaaway naggamit sa pagsulay ug kasakit aron magdala og *weariness* o grabe nga kakapoy sa emosyon aron ka mo-backout sa cellgroup ug mo-compromise sa negosyo. Apan ang Dios naggamit sa maong sitwasyon isip usa ka *spiritual gym*. Kon mag-alsa ka og bug-at nga barbell sa gym, masakit ug magisi ang imong kaunoran, apan human sa maong proseso sa kasakit, mosamot ka og kadako ug kalig-on! Ang pagsulay nagapatubo sa usa ka dako nga espiritu sa usa ka disipulo.</p>
+            <div class="verse-box">
+                <strong>Santiago 1:2-4</strong>
+                "²2Mga igsoon, isipa nga bulahan kamo kon ang tanang matang sa pagsulay moabot kaninyo 3kay nasayod kamo nga ang inyong pagtuo gisulayan lamang aron kamo mahimong malahutayon. 4Paniguroa nga ang inyong pagkamalahutayon mahingpit aron mahingpit gayod kamo ug dili makulangan sa bisan unsa."
+            </div>
+        </div>
+
+        <h2>II. Ang mga Sayop nga Batasan sa Sulod sa Pagsulay (The Danger Zones)</h2>
+        <p>Giunsa man pag-atake ug pag-manipula sa kaaway ang usa ka disipulo kon anaa siya sa taliwala sa kalisod ug pag-antos? Atong bantayan kining tulo ka malalangong mga lit-ag sa kangitngit:</p>
+        
+        <ul>
+            <li>🗣️ <span class="highlight-text">1. The Spirit of Murmuring and Complaint (Ang Sala sa Pagbagutbot):</span> Mao kini ang saktong nahitabo sa mga Israelinhon didto sa kamingawan. Sa matag higayon nga makasugat sila og kanihit sa tubig o pagkaon, magsugod dayon sila og bagutbot ug pagsaway batok kang Moises ug batok sa Dios. Ang pagbagutbot nagapalugway sa imong kamingawan ug nagasira sa pultahan sa panalangin, ug nag-abli sa pultahan sa kapildihan.</li>
+            <li>🛍️ <span class="highlight-text">2. Seeking Worldly Escapism (Ang Peke nga Kaharuhay sa Unod):</span> Kon mosulod ang grabeng stress ug kaguol sa pamilya o sa dagan sa patigayon, ang *Spirit of Asherah* mosulod pinaagi sa pagbulong: *“I-on imong gadget, tan-aw og mga law-ay (Digital Altars), o pag-gasto sa online shopping, o balik sa bisyo aron makalimot ka sa problema.”* Kini usa ka delikado nga kompromiso nga nag-uga sa imong anointing ug nag-ali sa tubag sa Dios.</li>
+            <li>💥 <span class="highlight-text">3. The Stronghold of Bitterness and Offense (Kasuko sa Dios ug sa Tawo):</span> Kini magsugod kon mosulod ang *Identity Crisis* ug mag-overthink ka sa tago: *“Nganong ako man ang nag-antos? Nag-cellgroup man ko, nag-tithing man ko, nganong duna may problema sa akong negosyo? Wala man koy sala.”* Kon pasagdan mo kining maong panghunahuna, mahimo kining gamut sa kapaitan nga mobabag sa imong supernatural nga kalampusan ug momugna og rebelyon.</li>
+        </ul>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE REFINER'S FIRE MATRIX):</span>
+            Lider, tudlo-i ang tibuok grupo niining talagsaong kamatuoran: Sa karaan nga pamaagi, ang tiglimpyo og bulawan (*refiner*) maglingkod sa atubangan sa kalayo ug magtan-aw sa natunaw nga bulawan. Giunsa man niya pagkahibalo nga lunsay na kini ug wala naay hugaw? 
+            <br><br>
+            Kon makita na niya ang iyang kaugalingong **Reflection (Nawong)** diha sa ibabaw sa natunaw nga likido nga bulawan! Sa samang pamaagi, ang Dios dili mobiya kanimo sa kalayo; nagalingkod Siya nagtan-aw kanimo hangtod nga ang Iyang kinaiya, Iyang kalumo, ug Iyang nawong makita diha sa imong kinabuhi pinaagi sa pagsulay!
+        </div>
+
+        <h2>III. How to Handle and Overcome Trials (Ang mga Discipleship Strategies)</h2>
+        <p>Aron kita makabarog nga madasigon ug maguba ang matag plano sa kaaway, atong i-execute kining tulo ka balaan ug hait nga estratehiya sa espiritu:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🎯 1. Change Your Perspective: Count It All Joy (Usba ang Imong Tinan-awan sa Espiritu)</div>
+            <p>Ayaw gayod tan-awa ang pagsulay isip katapusan o lubnganan sa imong kinabuhi ug negosyo. Tan-awa kini pinaagi sa mga mata sa pagtuo isip usa ka balaang *setup* alang sa imong sunod nga lebel sa promotion ug pagdihog! </p>
+            <p>Imbes nga moingon ka uban ang kaguol, *“Lord, nganong nahitabo man ni nako?”*, usba ang imong pag-ampo ug ingna uban ang kaisog: *“Lord, salamat kay nasayod ko nga kini nga sitwasyon nag-process sa akong kalig-on. Unsa man ang Imong gustong makat-unan nako niini? Akong gina-claim ug i-proclaim nga kini magdala kanag dako nga supernatural nga kalampusan sa unahan!”*</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🙌 2. Stand on the Altar of Continuous Praise and Worship (I-on ang Pagdayeg sa Taliwala sa Unos)</div>
+            <p>Sama sa gihimo ni Job sa dihang nawala ang tanan kaniya—iyang mga anak, iyang kabtangan, ug iyang maayong dagan sa pangabuhi sulod lang sa usa ka adlaw—wala siya nagbagutbot; miluhod siya, miyukbo, ug miproklamar sa pagkamatinumanon sa Dios:</p>
+            <div class="verse-box">
+                <strong>Job 1:21</strong> - "...Hukas ako nga miguha gikan sa tagoangkan sa akong amahan, ug hukas usab ako nga mobalik didto: ang Ginoo naghatag, ug ang Ginoo nagkuha; Halangdon ang Ngalan sa Ginoo."
+            </div>
+            <p><strong>Application:</strong> Kon pahuotan ka sa kaguol o krisis, ayaw paghilom ug ayaw pag-isolate sa imong kaugalingon. I-on ang imong pagdayeg, i-singgit ang Iyang mga saad, ug simbaha ang Dios bisan pa kon nagdugo ang imong kasingkasing. Ang tinuod nga pagsimba sa taliwala sa kasakit mao ang pinakahait nga hinagiban nga nagbungkag sa kuta sa kaaway ug nagapapahawa kang Legion ug Python!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release Warfare Prayer to Cast Out Fear and Despair (Gihinginlan ang Kaguol sa Kaaway)</div>
+            <div class="verse-box">
+                <strong>2 Corinto 4:16-17</strong>
+                "16Tungod niini wala gayod kami kawad-ig kadasig. Bisag nag-anam nag kahugo ang among lawas, ang among espiritu gilig-on adlaw-adlaw. 17Ug kining gamay ug lumalabay nga kalisdanan nga among giantos naghatag kanamog labihan kadako ug walay kataposang himaya nga labaw kaayo kay sa mga kalisdanan. "
+            </div>
+            <p><strong>Application:</strong> Gamita ang balaan nga awtoridad nga gihatag ni Kristo kanimo isip Iyang disipulo aron hingeslan ang matag espiritu sa kapakyasan sa imong huna-huna. Sa imong Warfare Prayer karong gabhiona, i-proclaim kini uban ang kadasig sa espiritu: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag espiritu sa depresyon, kabalaka, kakapoy, ug kapaitan sa akong huna-huna! Akong ginasira ang akong kasingkasing batok sa mga bakak sa yawa. Akong i-proclaim nga kini nga pagsulay dili makaguba kanako o sa akong pamilya; kini nag-andam ug nag-purgar kanako para sa dako nga breakthrough ug supernatural multiplication! Ang akong ugma ug ang akong negosyo anaa sa mga kamot sa Dios! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: The Weight of Glory (Ang Kabug-at sa Himaya)</h2>
+        <p>Mga igsoon diha sa Ginoo, tapuson natong tibuok cellgroup kini pinaagi sa paghinumdom sa labing nindot ug dako nga pasalig sa Pulong sa Dios:</p>
+        
+        <div class="verse-box">
+            <strong>Roma 8:18</strong>
+            "Kay akong giisip nga ang mga pag-antos niining panahona karon dili gayod ikatandi sa himaya (glory) nga ipadayag unya kanato."
+        </div>
+        
+        <div class="verse-box">
+            <strong>2 Corinto 4:18</strong>
+            "Samtang kita nagatan-aw dili sa mga butang nga makita, kondili sa mga butang nga dili makita: kay ang mga butang nga makita lumalabay lamang; apan ang mga butang nga dili makita walay katapusan."
+        </div>
+        
+        <p>Bisan unsa pa ka dako, ka bug-at, o kalisod sa imong giatubang nga pagsulay karon—bisan sa imong panimalay, sa imong panalapi, o sa dagan sa imong negosyo—hinumdomi kini: **Kini temporaryo lamang, lumalabay lang, ug adunay pultahan sa kainggasan!** Apan ang himaya, ang karakter, ang pagdihog, ug ang supernatural nga kalampusan nga gina-process ug giandam sa Dios para kanimo molungtad sa kahangturan!</p>
+        
+        <p>Ayaw na gayod pagbagutbot, ayaw na pagreklamo, ug ayaw na pagpadala sa mga peke nga kaharuhay sa kalibutan. Momata kita gikan sa espirituhanong katulog ug pagkahuyang. Isulob ang tibuok Armor sa Dios, barug nga adunay kaisog ug pagsalig isip usa ka aprobahan ug madasigon nga disipulo ni Hesus, ug i-proclaim nato ang supernatural nga kalampusan, kalinaw, ug hingpit nga kagawasan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card" style="background: rgba(46, 125, 50, 0.2); border-left: 4px solid #2e7d32;">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (ACTIVATING THE ENDURANCE ANOINTING)</h3>
+            Lider, pabaruga ang tibuok grupo sa katapusan. Ipapandong ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining pag-ampo sa deliverance ug pagbubo sa supernatural nga kalig-on uban ang kaisog ug awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa gahum sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among ginaluka ug gipukan karong gabhiona ang matag kuta sa depresyon, kabalaka, kakapoy, ug espiritu sa pagbagutbot sa inyong mga kasingkasing! Akong gina-rebuke ang matag demonyohanong udyong sa kaaway nga misulay sa pag-guba sa inyong pagtuo ug prayer life pinaagi sa krisis.*
+            <br><br>
+            *Sa Ngalan ni Hesus, ginasunog ko ang matag kuta sa kapaitan ug kapakyasan! Ginoo, ibubo ang tinuod nga 'Endurance Anointing' ug ang kalayo sa pagkamalahutayon sa matag disipulo karon. Gideklara nako nga kini nga pagsulay dili inyong lubnganan—kini mao ang inyong hagdanan padulong sa mas dako nga himaya, supernatural nga panalangin, ug dako nga breakthrough sa inyong pamilya ug patigayon! Kamo mga madasigon, approved, ug nagbarog nga lig-on sa ibabaw sa Bato diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Juan 16:33** ug **Santiago 1:2-3**, nganong giingon man nga ang mga pagsulay ug pag-antos dili timailhan sa kasuko sa Dios, kondili usa ka *spiritual classroom* sa pagpino sa atong karakter? Unsa ang dako nga kalainan sa imong pagsabot niini?</li>
+                <li>Susiha ang **Trap of Murmuring and Complaint** (ang sala sa pagbagutbot). Giunsa man sa pagbagutbot pag-abli sa pultahan sa kapildihan sa kamingawan? Nganong ang pagdayeg sa taliwala sa kasakit sama sa gihimo ni Job ug sa 2 Corinto 4:17 maoy tinuod nga hinagiban sa pagguba sa kuta sa yawa?</li>
+                <li>Ipaambit sa grupo sa tinud-anay nga pamaagi: Unsa man ang piho nga pagsulay (panalapi, pamilya, stress, o negosyo) ang imong giatubang karon? Unsa nga praktikal nga pagbalhin sa tinan-awan (*Perspective Shift*) ug warfare prayer ang imong i-activate ug pagabuhaton sugod ugma aron makasaka ngadto sa dako nga breakthrough?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

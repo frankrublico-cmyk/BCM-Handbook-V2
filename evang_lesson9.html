@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9: Ang Dinalian nga Tawag ug Paghukom | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #030201;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            user-select: none;
+        }
+
+        /* 🎮 INTERACTIVE GAMING GRAPHIC BG ENGINE */
+        #fantasy_space {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(0, 255, 102, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(255, 69, 0, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, #0c0805 0%, #010100 100%);
+            z-index: -2;
+        }
+
+        #aninipot_container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .aninipot {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            animation: riseAndTwinkle 14s infinite ease-in-out;
+        }
+
+        .aninipot.gold {
+            background: radial-gradient(circle, #fff700 0%, #ff8c00 70%);
+            box-shadow: 0 0 15px #ffd700, 0 0 30px #ff8c00;
+        }
+
+        .aninipot.cyan {
+            background: radial-gradient(circle, #00fff2 0%, #0055ff 70%);
+            box-shadow: 0 0 15px #00fff2, 0 0 30px #0055ff;
+        }
+
+        @keyframes riseAndTwinkle {
+            0% { transform: translateY(105vh) scale(0.6); opacity: 0; }
+            20% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+            80% { opacity: 0.9; }
+            100% { transform: translateY(-10vh) scale(1.3); opacity: 0; }
+        }
+
+        /* 💥 REAL-TIME SHOCKWAVE BOMB PARTICLES STYLING */
+        .shockwave {
+            position: absolute;
+            border: 4px solid #00ff66;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            animation: blowShockwave 0.5s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+        }
+
+        .shockwave.super {
+            border-width: 6px;
+            animation: blowSuperShockwave 0.6s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+        }
+
+        .spark-particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9998;
+            transform: translate(-50%, -50%);
+            animation: sparkFly 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        @keyframes blowShockwave {
+            0% { width: 0px; height: 0px; opacity: 1; box-shadow: 0 0 20px #00ff66; border-color: #00ff66; }
+            50% { border-color: #ffd700; box-shadow: 0 0 40px #ff4500; }
+            100% { width: 320px; height: 320px; opacity: 0; border-color: #ff4500; }
+        }
+
+        @keyframes blowSuperShockwave {
+            0% { width: 0px; height: 0px; opacity: 1; box-shadow: 0 0 40px #ff0055; border-color: #ff0055; }
+            50% { border-color: #ffd700; box-shadow: 0 0 80px #ffea00; }
+            100% { width: 600px; height: 600px; opacity: 0; border-color: #00fff2; }
+        }
+
+        @keyframes sparkFly {
+            0% { transform: translate(-50%, -50%) translate(0, 0) scale(1); opacity: 1; }
+            100% { transform: translate(-50%, -50%) translate(var(--mx), var(--my)) scale(0); opacity: 0; }
+        }
+
+        /* 🌐 GOOGLE TRANSLATE STREAMLINED HUD BAR */
+        #translate_wrapper {
+            background: rgba(18, 12, 8, 0.96);
+            padding: 10px 15px;
+            border-radius: 12px;
+            border: 2px solid #ffd700;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 25px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .goog-te-combo {
+            background: #000;
+            color: #fff;
+            border: 1px solid #00ff66;
+            padding: 5px;
+            border-radius: 6px;
+            font-family: 'Outfit', sans-serif;
+            outline: none;
+        }
+        body { top: 0px !important; }
+
+        /* 🕹️ HIGH-PERFORMANCE INTERACTIVE GAMING BUTTONS */
+        .back-btn, .action-node-trigger {
+            color: #050402;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: linear-gradient(135deg, #00ff66 0%, #00bc43 100%);
+            padding: 12px 24px;
+            border-radius: 8px;
+            border: 2px solid #ffffff;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.4);
+        }
+
+        .back-btn:hover, .action-node-trigger:hover {
+            background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+            box-shadow: 0 0 30px #ffd700;
+            transform: scale(1.08);
+            border-color: #050402;
+        }
+
+        h1 {
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 20px rgba(0, 255, 102, 0.5), 0 0 40px rgba(255, 215, 0, 0.3);
+            font-size: 2.4rem;
+            margin-top: 10px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .scripture-meta {
+            font-size: 1.2rem;
+            color: #00ff66;
+            margin-bottom: 45px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 12px rgba(0, 255, 102, 0.4);
+        }
+
+        /* ARTICLE PANEL MECHANICS (GAMING RADIAL DECK UI) */
+        .article-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            background: linear-gradient(180deg, rgba(16, 22, 18, 0.97) 0%, rgba(8, 10, 9, 0.99) 100%);
+            padding: 50px 45px;
+            border-radius: 24px;
+            border: 2px solid #00ff66;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.9), 0 0 30px rgba(0, 255, 102, 0.2);
+            backdrop-filter: blur(15px);
+            line-height: 1.85;
+            font-size: 1.15rem;
+            color: #e5dfd5;
+            position: relative;
+        }
+
+        .glowing-panel-header {
+            border: 2px solid #ffd700;
+            border-radius: 14px;
+            padding: 20px;
+            background: rgba(255, 215, 0, 0.03);
+            box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.05);
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 45px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px dashed rgba(0, 255, 102, 0.3);
+            font-weight: 700;
+            text-shadow: 0 0 10px rgba(255,215,0,0.2);
+        }
+
+        h3 {
+            color: #ff4500;
+            font-size: 1.35rem;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        blockquote {
+            background: rgba(0, 0, 0, 0.4);
+            border-left: 5px solid #00ff66;
+            padding: 18px 22px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #ffffff;
+            border-radius: 6px;
+            box-shadow: inset 0 0 15px rgba(0,0,0,0.6);
+        }
+
+        .nested-verse {
+            background: rgba(0, 255, 102, 0.03);
+            border-left: 4px solid #ffd700;
+            padding: 14px 20px;
+            margin: 18px 0;
+            font-size: 1.1rem;
+            color: #d8f3e0;
+            border-radius: 4px;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        strong {
+            color: #ffd700;
+        }
+
+        /* GAMING STYLED HUD DATA TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 35px 0;
+            font-size: 1.05rem;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.6);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid rgba(0, 255, 102, 0.2);
+        }
+
+        thead tr {
+            background: linear-gradient(90deg, #00ff66 0%, #009933 100%);
+            color: #000000;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        th, td {
+            padding: 16px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        tbody tr {
+            background-color: rgba(15, 20, 17, 0.6);
+            transition: 0.2s;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: rgba(8, 12, 10, 0.7);
+        }
+
+        tbody tr:hover {
+            background-color: rgba(0, 255, 102, 0.07);
+        }
+
+        /* HUB QUEST CONTAINER DESIGN */
+        .discussion-box {
+            background: linear-gradient(135deg, rgba(16, 28, 20, 0.95) 0%, rgba(4, 10, 6, 0.98) 100%);
+            border: 2px solid #ffd700;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 50px;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.1);
+        }
+        .discussion-box h2 {
+            margin-top: 0;
+            color: #ffd700;
+            border-bottom: 2px solid #ffd700;
+            text-shadow: 0 0 10px rgba(255,215,0,0.3);
+        }
+
+        /* 📱 MOBILE RESPONSIVE TUNING */
+        @media (max-width: 768px) {
+            body { padding: 20px 10px; }
+            h1 { font-size: 1.65rem; }
+            .scripture-meta { font-size: 1.05rem; margin-bottom: 25px; }
+            .article-content { padding: 25px 20px; font-size: 1rem; }
+            h2 { font-size: 1.35rem; }
+            h3 { font-size: 1.2rem; }
+            table { font-size: 0.95rem; display: block; overflow-x: auto; }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <!-- VISUAL SPACE ENGINE CORE -->
+    <div id="fantasy_space"></div>
+    <div id="aninipot_container"></div>
+
+    <!-- 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR -->
+    <div id="translate_wrapper">
+        <span>🌐 PINULONGAN / LANGUAGE:</span>
+        <div id="google_translate_element"></div>
+    </div>
+
+    <button class="back-btn" data-url="evangelism.html">⬅️ BALIK SA LISTAHAN SA LESSON</button>
+    <h1>Lesson 9: Ang Dinalian nga Tawag ug Paghukom (The Urgent Call and Decision)</h1>
+    <div class="scripture-meta">📖 Teksto sa Kasulatan: 2 Corinto 6:2</div>
+    
+    <div class="article-content">
+
+        <div class="glowing-panel-header">
+            <blockquote>
+                "Kay nag-ingon ang Dios, “Gidungog ko kamo sa takna nga akong gikahimut-an, ug gitabangan ko kamo sa adlaw sa kaluwasan.” Mao na kini ang takna sa pagdawat sa kaluoy sa Dios. Karon mao ang adlaw sa kaluwasan!" (2 Corinto 6:2)
+            </blockquote>
+        </div>
+
+        <h2>INTRODUKSYON: Ang Peligro sa Paglangan-langan</h2>
+        <p>Nakaagi na ba kamo sa sitwasyon diin hapit kamo mabyai sa barko, eroplano, o kaha sa bus? Unsa man ang inyong bation sa sulod sa inyong kaugalingon? Sigurado nga magdali kita, daganon natog maayo ang terminal uban ang tibuok kusog, ug dili nato usikan ang bisan unsang minuto o segundo tungod kay nasayod kita nga delikado, kritikal, ug dinalian (urgent) ang sitwasyon sa unahan.</p>
+        <p>Sa miaging leksyon, atong natun-an ang kinauyokan nga mensahe sa kaluwasan—ang upat ka yano nga mga punto (Gugma sa Dios, Sala, Hesus, ug ang Atong Tubag). Karon, niining ika-siyam nga leksyon, mosulod kita sa pinaka-kritikal ug pinaka-importanteng aspeto sa pag-evangelism: Ang pagtawag alang sa usa ka dinalian nga desisyon.</p>
+        <p>Daghan sa mga tawo nga atong ma-istoryahan o ma-share-an sa gawas moingon kanato:</p>
+        <ul>
+            <li><em>"Nindot man na, apan sunod na lang ko mag-seryoso sa Dios kon tinuod na kong tinuog o andam na ang akong huna-huna."</em></li>
+            <li><em>"Batan-on pa ko karon, maglingaw-lingaw usa ko sa kalibutan, unya na ko mag-simba ug mag-ampo kon tigulang na ko."</em></li>
+            <li><em>"Gusto ko mag-bag-o ug mosunod, apan dili pa karon nga takna kay busy pa ko."</em></li>
+        </ul>
+        <p>Isip mga magtutuong gibansay sa pagpanaksi para sa gingharian sa Dios, kinahanglan natong masabtan sa klaro nga ang evangelism dili lang kay basta paghatag og impormasyon o pagtudlo og teolohiya aron sila mahasayod. Ang tinuod nga evangelism nagkinahanglan og dinalian nga desisyon sa unahan. Ang kaluwasan sa kalag usa ka dinalian nga butang tungod kay walay bisan kinsa nga tawo sa yuta ang nakahibalo kon unsay mahitabo ugma sa iyang kinabuhi. Sa atong leksyon karon, atong sutaon kon nganong dinalian kini nga tawag ug kon unsaon nato paggiya ang tawo sa paghimo og saktong paghukom alang sa iyang walay kataposang kalag.</p>
+
+        <h2>I. NGANONG DINALIAN MAN ANG DESISYON SA KALUWASAN? (Why is it Urgent?)</h2>
+        <p>Nganong dili man nato angay pasagdan o tugotan nga maglangan-langan ang tawo kon kaluwasan sa kalag na ang gihisgutan? Ang Balaang Kasulatan naghatag kanatog tulo ka dagkong rason:</p>
+
+        <h3>A. Walay Nakahibalo sa Atong Kaugmaon ug Sunod nga Adlaw</h3>
+        <p>Ang kinabuhi sa tawo mubo ra kaayo ug daling mawa sama sa aso o gabon sa kabuntagon. Walay tawo, dato man o mubo, nga adunay kontrol sa iyang sunod nga gininhawa. Atong paminawon ang giingon sa Proverbio:</p>
+        <div class="nested-verse">
+            <strong>Proverbio 27:1</strong> - "Ayaw ipaniguro ang bahin sa ugma kay wala ka masayod unsay mahitabo gikan karon hangtod ugma."
+        </div>
+        <p>Gipalig-on usab kini ni apostol Santiago sa iyang sulat:</p>
+        <div class="nested-verse">
+            <strong>Santiago 4:14</strong> - "wala kamo masayod kon unsay mahitabo kaninyo ugma! Sama kamo sa gabon nga makita sa makadiyot ug unya mahanaw."
+        </div>
+        <p>Kung atong tugotan ang atong higala o pamilya nga moingon ug "ugma na lang ko modawat o mag-cell group," basin kana nga ugma dili na moabot kaniya tungod sa kalit nga aksidente o kamatayon. Ang pag-share sa Maayong Balita kinahanglan adunay balaang pagka-apurado (sense of urgency).</p>
+
+        <h3>B. Ang Sala Makapamig-ot ug Makapatig-a sa Kasingkasing (Hardening of the Heart)</h3>
+        <p>Kon mas magdugay ang tawo sa pagbalibad ug pag-postpone sa pagdawat sa Dios, mas mosamot kagahi, kapintas, ug kabikil ang iyang kasingkasing ngadto sa Pulong sa Dios. Giingon sa Hebreohanon:</p>
+        <div class="nested-verse">
+            <strong>Hebreohanon 3:15</strong> - "Sumala sa giingon sa Kasulatan: “Kon makadungog kamo sa tingog sa Dios karong adlawa, ayaw pagahia ang inyong kasingkasing sama sa pagsukol sa inyong katigulangan batok sa Dios.”"
+        </div>
+        <p>Kung ang usa ka tawo sige og balibad sa agahat sa Espiritu Santo, moabot ang panahon nga dili na niya bation ang pagka-makasasala. Ang iyang konsensya maora nag napandawan ug natusok sa puthaw nga mainit, ug mawad-an na siya sa hingpit og tinguha nga maluwas.</p>
+
+        <h3>C. Si Hesus Moabot sa Dili Paandamon nga Takna</h3>
+        <p>Ang laing dako nga rason sa kadinalian mao ang kalit nga pagbalik sa atong Ginoong Hesu-Kristo alang sa Iyang Simbahan aron paghukom. Selyado ang Iyang pulong sa Mateo:</p>
+        <div class="nested-verse">
+            <strong>Mateo 24:44</strong> - "Busa, kamo usab kinahanglan nga mag-andam, kay ang Anak sa Tawo moabot sa takna nga wala ninyo paabuta."
+        </div>
+
+        <h2>II. ANG PAGDUMILI SA PAGDESISYON MAO ANG PAGDESISYON SA PAGBALIBAD (No Decision is a Negative Decision)</h2>
+        <p>Usa ka dako ug seryoso nga kamatuoran nga angay natong ipasabut sa mga tawo mao kini: Ang dili pagpili o pagdumili kang Hesus, usa na ka awtomatikong pagpili sa pagsalikway Kaniya. Walay tinawag nga "tunga-tunga" o neutral ground diha sa gingharian sa Dios. Klaro ug hait ang ginasulti ni Hesus:</p>
+        <div class="nested-verse">
+            <strong>Mateo 12:30</strong> - "Ang dili dapig kanako, batok gayod kanako. Ug ang dili motabang kanako pagtigom, nagpatibulaag lang."
+        </div>
+        <p>Kon ang usa ka tawo moingon, <em>"Dili lang usa ko mo-oo, dili lang sad ko mobalibad, ania lang ko sa tunga,"</em> sa mga mata sa Dios, mibalibad na siya. Kon duna kay luwasonon nga tawo sa sulod sa nasunog nga balay, ug moingon siya kanimo, <em>"Maghunahuna pa ko kon mogawas ba ko o dili,"</em> ang iyang paglangan nagpasabot lang nga mipili siya nga masunog ug mamatay sulod sa balay. Ang paglangan-langan mao ang pinakakuyaw nga lit-ag sa kaaway aron laglagon ang kalag.</p>
+
+        <h2>III. MGA PRAKTIKAL NGA PAMAA-GI ARON MAGIYAHAN ANG TAWO SA PAGHUKOM (How to Challenge for a Decision)</h2>
+        <p>Kon nahuman na nimo og share ug pagdrowing ang upat ka punto sa kaluwasan ug ang ilustrasyon sa tulay, unsaon man nimo pag-aghat ug pagbiyahe sa tawo sa paghimo og desisyon nga dili siya mapugos, mapungot, o malain? Ania ang upat ka yano, selyado, ug direktang mga lakang ug pangutana nga mahimo nimo nga gamiton karon:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Lakang sa Pag-aghat</th>
+                    <th>Estratehiya ug Saktong Pangutana nga Isulti</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Lakang 1: Susiha ang Iyang Panabot (Check Understanding)</strong></td>
+                    <td>Pangutana: <em>"Nasabtan ba nimo kining upat ka kamatuoran sa kaluwasan nga akong gi-share nimo karon?"</em> Siguroha nga wala siyay kalibog, bikil, o malisod nga pangutana sa iyang huna-huna sa wala pa ang sunod nga ang-ang.</td>
+                </tr>
+                <tr>
+                    <td><strong>Lakang 2: Pangutan-a ang Iyang Kahimtang (Check Position)</strong></td>
+                    <td>Pangutana: <em>"Kon huna-hunaon ug drowingon nato ang tulay sa krus ni Kristo, asa man dapit sa imong tan-aw ang imong kinabuhi karon? Naa ba ka sa bahin sa tawo nga nahisalaag ug bulag sa Dios tungod sa sala, o naa na ka sa bahin sa Dios tungod kay gidawat na nimo si Hesus sa tinuod?"</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Lakang 3: Ipakita ang Iyang Panginahanglan (Challenge the Will)</strong></td>
+                    <td>Pangutana: <em>"Gusto ba nimo nga mobalhin gikan sa bahin sa sala ug kangitngit padulong sa bahin sa Dios karong adlawa pinaagi sa pagdawat ug pagsalig kay Hesus?"</em></td>
+                </tr>
+                <tr>
+                    <td><strong>Lakang 4: Giyahe sa Pag-ampo (Lead to Action)</strong></td>
+                    <td>Kon moingon siya og "Oo", giyahe dayon siya sa Pag-ampo sa Pagdawat (Sinner's Prayer) uban ang kadasig. Ayaw na paghulat og sunod semana, ugma, o laing adlaw. Ang saktong higayon mao ang karon.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>IV. PAG-ATUBANG SA MGA BALIBAD UBAN SA KAALAM (Handling Objections Wisely)</h2>
+        <p>Unsa man ang atong isulti o itubag uban sa gugma ug kalumo kon ang tawo mohatag og mga rason o balibad samtang giatubang nato sila sa paghukom? Atong tun-an kining tulo ka ehemplo sa kaalam:</p>
+
+        <h3>A. Ang Balibad: "Daghan pa kog bisyo karon, mag-tarong usa ko sa akong kinabuhi una ko mosulod sa simbahan."</h3>
+        <p><strong>Ang Saktong Tubag sa Kaalam ug Gugma:</strong> Isulti kini uban ang mapahisayong pahiyom: <em>"Nakasabot ko nimo, amigo. Apan hinumdomi nga ang simbahan dili usa ka exhibition para sa mga tawo nga tarong na, kondili usa kini ka ospital para sa mga nasakitan, naguba, ug makasasala. Dili ka mamahimong mag-tarong sa imong kaugalingong kusog; si Hesus ang mag-tarong ug mobungkag sa imong mga bisyo kon moduol ug mosalig ka Kaniya karon mismo."</em></p>
+
+        <h3>B. Ang Balibad: "Dili pa ko andam karon, sunod na lang nga higayon o sa laing adlaw."</h3>
+        <p><strong>Ang Saktong Tubag sa Kaalam ug Gugma:</strong> Isulti kini uban ang pagpabili: <em>"Nakasabot ko sa imong gibati. Apan hinumdomi nato nga walay bisan kinsa kanato ang nakahibalo sa atong ugma o sunod adlaw. Ang Dios nagtanyag kanatog grasya karon, nganong i-delay man nimo ang usa ka butang nga makahatag nimo ug sa imong tibuok pamilya og kasiguruhan, kalinaw, ug kinabuhing dayon?"</em></p>
+
+        <h3>C. Ang Balibad: "Daghan kaayong mga hipokrito ug mag-away sa sulod sa simbahan."</h3>
+        <p><strong>Ang Saktong Tubag sa Kaalam ug Gugma:</strong> Isulti kini: <em>"Tinuod na, duna gayoy mga tawo nga mapakyas ug makasakit kanato tungod kay tawo ra man kita ug dili hingpit sa adlaw-adlaw. Apan hinumdomi nga dili ang mga tawo sa simbahan ang namatay sa krus ug nagbubo sa dugo alang nimo, kondili si Hesus ra gayod. Tan-awa ug sunda si Hesus, ayaw ang tawo."</em> Gisaad ni Hesus ang kaluwasan sa tanang mosalig:</p>
+        <div class="goog-te-combo-holder" style="display:none;"></div>
+        <div class="nested-verse">
+            <strong>Juan 1:12</strong> - "Apan ang tanan nga midawat kaniya, nga misalig sa iyang ngalan, gihatagan niya og katungod nga mahimong mga anak sa Dios."
+        </div>
+
+        <div class="discussion-box">
+            <h2>Application & Challenge</h2>
+            <p>Mga igsoon ko sa cell group, ang tawag sa evangelism usa ka <strong>Urgent Call</strong> (Dinalian nga Tawag). Human niining tibuok nga serye sa atong Evangelism Equipping, nasayod na kita sa Dakong Sugo, sa gahom sa Espiritu Santo, sa pagbuntog sa kahadlok, sa pamaagi sa pagpakighigala, sa estilo sa kinabuhi, sa pag-share sa testimony, ug sa upat ka punto sa kaluwasan. Karon, ania kita sa konklusyon sa tibuok serye: Ang pag-ani sa mga kalag para sa gingharian sa Dios.</p>
+            <p>Dili kita mahadlok o magpanuko nga mangutana alang sa usa ka desisyon sa kaluwasan. Kon duna kay tinuod nga kasingkasing nga nahigugma sa imong isigka-tawo ug silingan, dili gayod nimo tugotan nga molakaw siya nga walay kasiguruhan ang iyang walay kataposang kalag.</p>
+            <p>Kini ang hagit kanato karong semanaha:</p>
+            <ol>
+                <li><strong>Puy-i ang Pagka-Apurado:</strong> Ayaw pagpanuko o pagduha-duha. Kon hatagan ka sa Dios og higayon sa pag-share niini nga semana, dad-a ang tawo ngadto sa desisyon ug pag-ampo sa pagdawat uban ang kadasig.</li>
+                <li><strong>I-commit ang Imong Cell Group sa Pag-ani:</strong> Himoa nga kini nga cell group dili lang usa ka ordinaryo nga pundok sa mga sige og tuon sa leksyon, kondili pundok sa mga madasigon nga mag-aani nga nagdala og mga kalag ngadto sa tiilan ni Hesu-Kristo matag semana.</li>
+            </ol>
+
+            <h2 style="color: #ffd700; border-bottom: 2px solid #ffd700; margin-top: 25px;">Mga Pangutana para sa Diskasyon sa Cell Group:</h2>
+            <ol style="margin-top: 15px;">
+                <li>Nganong dako man ug kapeligrohan sa espirituhanong aspeto kon tugotan o pasagdan lang nato ang usa ka tawo nga moingon ug "sunod na lang ko modawat sa Ginoo"?</li>
+                <li>Hain man sa mga balibad sa unahan (mag-tarong usa, daghang hipokrito, sunod na lang) ang kanunay nimong madungog sa imong mga higala, kauban, o silingan? Unsaon nimo kini pagtubag karon gamit ang kaalam ug gugma nga atong natun-an?</li>
+                <li><strong>Praktikal nga Workshop (Ang Kataposang Pagpraktis):</strong> Magpares-pares (by pairs) ang matag usa karon. I-praktis ang pagpangutana sa upat ka lakang alang sa desisyon (Check Understanding -> Check Position -> Challenge the Will -> Lead to Prayer). Hatagi ang matag usa og 2 ka minuto sa pagpraktis aron mahanas ang inyong dila sa pag-aghat sa tawo sa paghimo og desisyon alang kay Hesus.</li>
+            </ol>
+
+            <p style="margin-top: 25px; font-weight: bold; color: #00ff66; text-transform: uppercase;">Pangamuyo/Pag-ampo sa Pagtapos:</p>
+            <p style="font-style: italic; text-align: justify;">I-ampo ang tibuok cell group alang sa pagtapos niining serye sa Evangelism Equipping. I-ampo nga ang Dios maghatag kanila og mga "bunga" o mga kalag nga mangaluwas pinaagi sa ilang kinabuhi. I-ampo nga mapuno ang matag usa sa balaang kaisog ug dinalian nga tinguha sa pagluwas sa mga nangawala niini nga semana. Sa ngalan ni Jesus, Amen!</p>
+        </div>
+
+        <div style="margin-top: 40px; text-align: center;">
+            <button class="action-node-trigger" onclick="triggerSuperExplosion(event)">💥 ACTIVATE HOLY FIRE SUPERNOVA EXPLOSION</button>
+        </div>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <button class="back-btn" data-url="evangelism.html">⬅️ BALIK SA LISTAHAN SA LESSON</button>
+        </div>
+
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        /* 🌌 AUTOMATIC MULTI-COLORED ANINIPOT DRIFT SPATIAL ENGINE */
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("aninipot_container");
+            const particleCount = 45; 
+            const colors = ['gold', 'cyan'];
+
+            for (let i = 0; i < particleCount; i++) {
+                let particle = document.createElement("div");
+                let randomColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                particle.className = `aninipot ${randomColor}`;
+                
+                let size = Math.random() * 6 + 4; 
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+                particle.style.top = `${Math.random() * 100}vh`;
+                
+                particle.style.animationDelay = `${Math.random() * 14}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`; 
+                
+                container.appendChild(particle);
+            }
+        });
+
+        /* 💥 DYNAMIC SHOCKWAVE BOMB MULTIPLEX ENGINE */
+        function executeExplosion(posX, posY, isSupercharged) {
+            const shockwave = document.createElement('div');
+            shockwave.className = isSupercharged ? 'shockwave super' : 'shockwave';
+            shockwave.style.left = posX + 'px';
+            shockwave.style.top = posY + 'px';
+            document.body.appendChild(shockwave);
+
+            const particleCount = isSupercharged ? 45 : 15;
+            const velocityRange = isSupercharged ? 260 : 120;
+            const minVelocity = isSupercharged ? 80 : 40;
+            const colors = isSupercharged ? ['#ff0055', '#ffea00', '#00fff2', '#ff4500'] : ['#00ff66', '#ff4500', '#ffd700', '#00fff2'];
+            
+            for(let i = 0; i < particleCount; i++) {
+                const spark = document.createElement('div');
+                spark.className = 'spark-particle';
+                
+                const angle = Math.random() * Math.PI * 2;
+                const distance = Math.random() * velocityRange + minVelocity;
+                const mx = Math.cos(angle) * distance + 'px';
+                const my = Math.sin(angle) * distance + 'px';
+                
+                spark.style.setProperty('--mx', mx);
+                spark.style.setProperty('--my', my);
+                
+                const size = isSupercharged ? (Math.random() * 12 + 6) : (Math.random() * 8 + 4);
+                spark.style.width = size + 'px';
+                spark.style.height = size + 'px';
+                spark.style.background = colors[Math.floor(Math.random() * colors.length)];
+                spark.style.boxShadow = `0 0 ${size}px ${spark.style.background}, 0 0 ${size*2}px ${spark.style.background}`;
+                
+                spark.style.left = posX + 'px';
+                spark.style.top = posY + 'px';
+                
+                document.body.appendChild(spark);
+                
+                setTimeout(() => { spark.remove(); }, 600);
+            }
+
+            setTimeout(() => { shockwave.remove(); }, 600);
+        }
+
+        // Global viewport normal touch trigger
+        document.addEventListener('click', function(e) {
+            if(e.target.tagName === 'BUTTON' || e.target.classList.contains('back-btn') || e.target.classList.contains('action-node-trigger')) {
+                return;
+            }
+            executeExplosion(e.pageX, e.pageY, false);
+        });
+
+        // Supercharged button trigger execution
+        function triggerSuperExplosion(e) {
+            e.stopPropagation(); 
+            executeExplosion(e.pageX, e.pageY, true);
+        }
+
+        // Connect back buttons dynamic supercharge wrapper
+        const navBtns = document.querySelectorAll('.back-btn');
+        navBtns.forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                executeExplosion(e.pageX, e.pageY, true);
+                const targetUrl = this.getAttribute('data-url');
+                setTimeout(() => { window.location.href = targetUrl; }, 350);
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var googCombo = document.querySelector('.goog-te-combo');
+            if(googCombo) {
+                googCombo.addEventListener('change', function() {
+                    setTimeout(function(){ window.location.reload(); }, 300);
+                });
+            }
+        });
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

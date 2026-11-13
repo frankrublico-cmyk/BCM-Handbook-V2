@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 6: Heart of Stewardship | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skipping { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 6: HEART OF STEWARDSHIP</h1>
+            <p>"Oikonomos: Ang Kasingkasing sa Pagkamasandiganon ug Pagtugyan sa Gingharian"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Mateo 6:19-21, 24</strong> - "¹⁹Ayaw kamo pagtigom ug mga bahandi alang sa inyong kaugalingon dinhi sa yuta... ²⁰Apan pagtigom kamo ug mga bahandi alang sa inyong kaugalingon didto sa langit... ²¹Kay kon diin gani ang inyong bahandi, moadto usab didto ang inyong kasingkasing... ²⁴Walay usa nga makasugod sa pag-alagad sa duha ka agalon... Dili kamo makasugod sa pag-alagad sa Dios ug sa bahandi (Mammon)."
+        </div>
+
+        <h2>Introduction: Kinsa ba Gayod ang Tinuod nga Tag-iya?</h2>
+        <p>Sa unodnong panglantaw sa kalibutan, normal kaayo ang huna-huna nga moingon: <em>“Ang akong kwarta, ang akong oras, ang akong talento, ug ang akong negosyo kay akoa kini. Ako ang naghago, ako ang nagbuntaog sa singot, ug ako ang nag-trabaho niini aron makuha kini.”</em> Apan kon kita mosulod sa gingharian sa Dios isip mga tinuod nga disipulo, gidala kita sa Bibliya ngadto sa usa ka radikal ug sukwahi nga kamatuoran: **Kita dili tag-iya (owners), kita mga magbabalantay lamang (stewards).**</p>
+        
+        <p>Ang pulong nga *Stewardship* nagpasabut og pagdumala, pag-atiman, ug pagpanalipod sa mga kabtangan nga dili imo, kondili iya sa laing tawo. Sa ato pa, ang tanan nga anaa kanimo karon—ang imong gininhawa, ang imong pisikal nga kusog, ang imong mga abilidad sa disenyo o pag-print, ang imong pamilya, ug ang imong panalapi—gipiyal ug gisalig lamang sa Dios kanimo. Isip mga disipulo, duna kitay dako nga tulubagon sa adlaw sa paghukom kon giunsa nato pagdumala kining mga balaang gasa.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE GREEK WORD: OIKONOMOS)</span>
+            Lider, ipasabut sa grupo nga sa Bag-ong Tugon, ang pulong nga gigamit alang sa magbabalantay o steward mao ang **Oikonomos**. Kini gilangkuban sa duha ka pulong: **Oikos** (balay o panimalay) ug **Nomos** (balaod o pagdumala). Ang usa ka *Oikonomos* mao ang labing sinaligan nga sulogoon sa usa ka dako nga panimalay. Siya ang naay yawe sa panalapi, pagkaon, ug mga kabtangan sa iyang Agalon. Wala siyay gipanag-iya nga iyaha, apan siya ang naay awtoridad sa pagdumala niini sumala sa gusto sa tag-iya. Ang gipangayo sa Dios kanato dili ang pagka-milyonaryo, kondili ang **pagkamasandiganon ug pagkamatinumanon** (1 Corinto 4:2).
+        </div>
+
+        <p>Atong tukiubon karon ang tulo ka dagkong mga prinsipyo aron ma-activate ang kasingkasing sa usa ka tinuod nga steward diha sa gingharian sa Dios:</p>
+
+        <h2>I. Ang mga Kamatuoran sa Gingharianong Pagdumala</h2>
+
+        <div class="point-box">
+            <div class="point-title">💎 1. Ang Balaod sa Priyoridad: Ang Bahandi ug Kasingkasing (Mateo 6:19-21)</div>
+            <p>Si Hesus wala nag-ingon nga sala ang pagbaton ug kwarta o materyal nga mga butang. Ang tinuod nga depekto ug kuta sa kaaway magsugod kon ang kwarta o ang bahandi mao na ang nagdumala ug naglingkod sa trono sa imong kasingkasing:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Heart Follows the Treasure:</span> Ingon si Hesus, *“Kay kon diin gani ang inyong bahandi, moadto usab didto ang inyong kasingkasing.”* Kon imong ibubo ang tinuod mong focus, kusog, ug panalapi sa mga temporaryong butang sa yuta (mga digital gadgets, unodnong kalingawan, o materyal nga garbo), ang imong kasingkasing awtomatiko nga mabugnaw sa mga espirituhanong butang. Apan kon ikaw mupuhunan alang sa Gingharian (pagsuporta sa ministeryo, pag-atiman sa cellgroup, pagtabang sa nanginahanglan), ang imong kasingkasing magpabilin nga nagdilaab alang sa Dios.</li>
+                <li>📌 <span class="highlight-text">The Eternal Perspective:</span> Ang tanang bahandi sa yuta temporaryo ug madunot ra—kawat-kawaton sa kawatan, malunod sa inflation, o mabiyaan kon kita mamatay. Apan ang bahandi didto sa Langit permanente ug nagdala og supernatural nga dibidendo hangtod sa kahangturan.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 2. Ang Gubat sa Duha ka Agalon (Mateo 6:24)</div>
+            <p>Si Hesus miingon nga dili kita makasugod sa pag-alagad sa duha ka agalon: sa Dios ug sa Bahandi. Sa orihinal nga pinulongan, ang pulong nga gigamit alang sa bahandi mao ang <strong>Mammon</strong>.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Spirit of Mammon:</span> Ang *Mammon* dili lang basta sensilyo o papel nga kwarta. Kini usa ka unodnong ug yawan-ong espiritu nga nagdala ug pilosopiya sa garbo, kahadlok sa kakulang, ug pagtuo nga ang kwarta mao ang makaluwas ug makahatag og tinuod nga kalipay sa tawo. Kon ikaw sige ug kabalaka, sige ug panikas, o mosabotahe sa imong integridad ug Small Group attendance tungod lang kay naggukod ka sa kwarta, nan ang espiritu ni *Mammon* mao ang imong agalon.</li>
+                <li>📌 <span class="highlight-text">Money as a Tool, Not a Master:</span> Sa kinabuhi sa usa ka tinuod nga disipulo, ang kwarta ginasunog ug gina-demote gikan sa pagka-agalon ug gihimo kini nga **sulogoon o himan (tool)**. Imong gigamit ang kwarta aron mapalambo ang maayong buhat, aron madala ang ebanghelyo sa mga nawala, ug aron matukod ang Simbahan. Ang Dios mao ang atong Source, ug ang kwarta mao lang ang Iyang instrumento.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛠️ 3. Ang Tulo ka Aspekto sa Stewardship (The 3 T's)</div>
+            <p>Ang pagkamasandiganon sa Dios kinahanglan nga mag-manifest sa tulo ka dagkong bahin sa imong adlaw-adlaw nga pagkinabuhi:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">A. Time (Oras):</span> Ang panahon mao ang pinakamahal nga panalapi tungod kay dili na kini mabalik ug dili mapalit pag-usab. Giunsa nimo paggasto ang imong 24-oras kada adlaw? Ang usa ka disipulo naghatag ug unang bahin sa iyang oras sa matag buntag alang sa pag-atubang sa Ginoo pinaagi sa pag-ampo ug pagbasa sa Pulong sa Dios, ug wala siya nagasimba kon duna na lay sobra nga oras.</li>
+                <li>📌 <span class="highlight-text">B. Talents (Gasa ug Abilidad):</span> Unsa man ang mga talento ug kahanas nga gihatag sa Dios kanimo? Maayo ka ba sa pag-organisa, sa visual graphics, sa pagmando, sa pag-awit, o sa pagpaminaw ug pag-atiman sa mga gisakitan? Kini nga mga abilidad wala gihatag aron lang ka mo-sikat o aron lang ka makasapi; gihatag kini aron itukod ug i-invest sa pagpalambo sa Iyang Simbahan ug mga cellgroup. Ayaw ilubong ang imong talento!</li>
+                <li>📌 <span class="highlight-text">C. Treasures (Panalapi ug Ikapulo):</span> Ang paghatag sa atong **Tithe (Ikapulo - 10%) ug Offerings** dili usa ka buhis para sa simbahan, ug dili kini bayad sa pastor. Kini usa ka sagrado nga *act of worship* ug pag-deklarar sa gawas nga ang Dios mao ang Tag-iya sa 100% sa imong panalapi. Kon ihatag nimo ang ikapulo, gipanalipdan ug ginasirad-an sa Dios ang pultahan batok sa espiritu sa tigtunglo ug talamak (Malakias 3:10-11).</li>
+            </ul>
+        </div>
+
+        <h2>II. Practical Strategies: Unsaon Pagbalhin gikan sa Kaugalingon padulong sa Gingharian?</h2>
+        <p>Aron kita makasinati sa dako nga breakthrough ug Supernatural Open Heavens, ania ang mga praktikal nga lakang sa pagdumala karong semanaha:</p>
+
+        <div class="action-card">
+            📊 <span class="highlight-text">1. Conduct a Financial Heart Audit (Susiha ang Imong Budget):</span> Tan-awa ang agid-agid sa imong gasto sa miaging bulan. Asa man napadulong ang dako nga bahin sa imong kwarta? Nakita ba diha ang prioridad alang sa Ginoo ug sa Iyang buhat, o napuno ba kini sa temporaryong unodnong kaayohan? Ayuhon nato ang atong pagkamasandiganon.
+        </div>
+        <div class="action-card">
+            ⏰ <span class="highlight-text">2. Block a Sacred Time Management Plan (I-iskedyul ang Dios):</span> Pag-set og piho ug dili matandog nga oras alang sa imong personal nga pagluhod, pamilya, ug pagkamaunongon sa cellgroup. Ayaw tugoti nga ang kabusy sa trabaho o stickers printing machine maoy molunod sa imong espirituhanong awtoridad. Kon unahon nimo ang Dios, Iyang hapsayon ang imong oras!
+        </div>
+        <div class="action-card">
+            🤲 <span class="highlight-text">3. Cultivate Radically Generous Habits (I-demote si Mammon):</span> Paghimo ug desisyon nga dili ka mahimong hakog. Pangita og oportunidad karong semanaha nga makahatag og grasya sa uban—bisan pa og gamay lang nga tabang sa nanginahanglan, pag-abag sa panagkaon sa cellgroup, o pag-bless sa usa ka igsoon diha sa Ginoo.
+        </div>
+
+        <h2>Conclusion & Call to Action: The Faithful Steward's Reward</h2>
+        <p>Mga igsoon sa Ginoo, ang tinuod nga kadatu ug supernatural nga panalangin sa tawo wala makita sa gidaghanon sa iyang gipanag-iya dinhi sa yuta, kondili diha sa iyang pagkamasandiganon ug pagkamatinumanon sa pagdumala sa mga butang nga gipiyal sa Dios kaniya. Ang Ginoo dili gayod makig-kompetensya sa imong panalapi o negosyo; gusto lang Niya nga Siya ra ang magpabilin nga **LORD ug HARI** sa matag bahin sa imong kinabuhi!</p>
+        
+        <p>Biya sa kuta sa kabalaka, kakot, ug pagpakasala batok sa ikapulo. Barug karong gabhiona dinhi sa atong cellgroup, i-surrender ang manubela sa imong panalapi ug mga talento ngadto sa Iyang tiulan, ug i-proclaim nato ang dako nga breakthrough, supernatural multiplication, ug ang balaang deklarasyon gikan sa Agalon: *“Maayong pagkabuhata, maayo ug matinumanon nga sulogoon!”* <small>(Mateo 25:21)</small>. Amen!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (BREAKING THE CURSE OF MAMMON)</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pagguba sa kuta sa kakulang ug pagbubo sa espiritu sa pagka-steward: *“I-pikit ang inyong mga mata ug ablihi ang inyong mga kamot. Sa Ngalan ni Hesus, among gibungkag ug ginaluka ang matag espiritu ug kuta ni Mammon sa inyong kinabuhi! Akong gina-rebuke ang espiritu sa kabalaka, stress, kakabos, ug pagka-hakog. Gideklara nako ang pag-abli sa mga bintana sa Langit sa inyong mga panimalay, trabaho, ug negosyo. Dawata ang presko nga kaalam sa usa ka tinuod nga Oikonomos—aron kamo magmabinantayon, magmasandiganon, ug magmaburungahon alang sa Gingharian sa Dios! Ang inyong mga pamilya mapuno sa supernatural nga kadaugan diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa upat ka dagkong bahin sa stewardship nga atong gihisgutan—**Panahon (Time), Talento (Talent), o Bahandi (Treasure)**—hain niini ang imong nabantayan nga pinaka-lisod nimo i-surrender o i-steward sumala sa kabubut-on sa Dios? Ngano man?</li>
+                <li>Unsa man ang kahulugan alang kanimo sa prinsipyo nga *“Dili kita tag-iya (owners), kondili magbabalantay lamang (stewards)”*? Sa unsang paagi kini nga kamatuoran makapabag-o sa imong paagi sa pagdumala sa imong trabaho, panalapi, ug negosyo sugod ugma?</li>
+                <li>Ipaambit sa grupo: Nakasubay ka ba ug nakasinati na og usa ka partikular nga milagro o breakthrough sa panalapi gikan sa Dios tungod kay ikaw nagpabilin nga matinumanon sa paghatag sa imong ikapulo (*tithes*) ug offerings uban ang malipayong kasingkasing?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

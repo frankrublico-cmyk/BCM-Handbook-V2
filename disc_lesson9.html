@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 9: The Servant Heart | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(46, 125, 50, 0.04);
+            border: 1px solid #2e7d32;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(46, 125, 50, 0.1);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 9: THE SERVANT HEART</h1>
+            <p>"Ang Kasingkasing sa Usa ka Alagad ug ang Dalan sa Tinuod nga Kadungganan"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Marcos 10:42-45, Juan 13:3-15, ug Filipos 2:5-7<br>
+        <strong>Katuyoan:</strong> Aron masabtan sa tibuok kongregasyon ug mga cellgroup nga sa *Realm of Discipleship*, ang kinatas-ang dapit sa espirituhanong kalampusan, awtoridad, ug anointing dili makab-ot pinaagi sa unodnong paghari-hari o pagmando-mando, kondili pinaagi sa pagka-alagad, ug aron ma-armasan sila sa saktong kasingkasing nga magdala og supernatural nga breakthrough sa ilang pamilya, trabaho, negosyo, ug ministeryo.</p>
+
+        <h2>Introduction: Ang Balit-ad nga Gingharian (The Upside-Down Kingdom)</h2>
+        <p>Sa atong padayon nga pagsubay ug pagtuon sa *Realm of Discipleship*, kinahanglan natong masabtan sa espiritu nga ang Gingharian sa Dios usa ka **Balit-ad nga Gingharian (The Upside-Down Kingdom)**—nagpasabut nga ang sistema, lohika, ug pamaagi sa Dios sukwahi ug balit-ad sa sistema sa kalibutan karon.</p>
+        
+        <p>Sa kalibutan, kon ikaw sikat, adunahan, adunay posisyon, ug gamhanan, ang sukdanan sa imong kalampusan mao ang kon unsa kadaghan ang tawo nga nagluhod, nag-atiman, ug nag-alagad kanimo. Apan sa espirituhanong gingharian, gibali ug giusab ni Hesus ang tibuok nga pamaagi sa dihang gipakita Niya ang sukdanan sa tinuod nga kadako:</p>
+
+        <div class="verse-box">
+            <strong>Marcos 10:42-45</strong>
+            "42Tungod niini, gipaduol ni Jesus silang tanan ug giingnan, “Nasayod kamo nga ang mga namunoan sa mga tawo naghari kanila ug ang mga pangulo nagmando kanila. 43Apan dili kini mao ang paagi nga angay kaninyo. Kon usa kaninyo buot mahimong labing dako kinahanglan nga mag-alagad siya sa tanan. 44Ug ang buot nga mahimong labaw sa tanan kinahanglan nga siya magpaulipon sa tanan. 45Kay bisan gani ang Anak sa Tawo wala man moanhi aron alagaran kondili sa pag-alagad ug paghatag sa iyang kinabuhi aron pagtubos sa daghang mga tawo.”"
+        </div>
+        <p>Sa dapit sa matuod nga discipleship, ang pinaka-unang ginasusi ug ginasala sa Dios mao ang **The Servant Heart (Ang Kasingkasing sa Alagad)**. Sa sistema sa Dios, dili ka mamahimong usa ka maayong lider kon dili ka una makat-on sa pagkahimong usa ka maayo ug matinud-anon nga alagad. Ang kasingkasing sa alagad mao ang yawi sa Espiritu Santo nga mag-abli sa mga supernatural nga pultahan sa promotion ug panalangin.</p>
+
+        <h2>I. Ang Anatomy sa Servant Heart sa Spiritual Realm (Juan 13)</h2>
+        <p>Aron atong mapukan ang matag bakak sa kaaway ug makuha ang saktong kinaiya ni Kristo, atong bungkagon ug tukiubon ang ehemplo sa paghugas ni Hesus sa tiil sa Iyang mga disipulo:</p>
+
+        <div class="point-box">
+            <div class="point-title">⚓ 1. It Originates from Spiritual Security (Kasiguruhan sa Imong Balaang Identity)</div>
+            <div class="verse-box">
+                <strong>Juan 13:3</strong>
+                " 3Nasayod si Jesus nga gitugyan kaniya sa Amahan ang tanang gahom ug nga siya gikan sa Dios ug moadto sa Dios."
+            </div>
+            <p style="margin: 0;"><strong>Spiritual Insight:</strong> Nakahimo si Hesus sa pagluhod ug pag-alagad tungod kay kompleto ug porsyento ang Iyang kasiguruhan sa Iyang Balaang *Identity*. Kon ang usa ka disipulo magpuyo sa *Identity Crisis* ug grabe nga kakulang sa pagsalig sa kaugalingon (*insecurity*), dili siya makahimo sa pag-alagad tungod kay sige siyay kabalaka kon unsay isulti sa ubang tawo, nahadlok siya nga ma-ubosan, ug dali kaayo siyang ma-offend. Ang kasingkasing sa alagad nagagikan sa usa ka huna-huna nga nasayod nga siya pinatubigan ug pinasiguro sa gugma sa Dios.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ 2. It Requires Laying Down Your Status (Ang Pagtuyo og Hukas sa Garbo)</div>
+            <div class="verse-box">
+                <strong>Juan 13:4-5</strong>
+                "Busa mitindog si Jesus, gihukas niya ang iyang sapaw ug nagbakos siyag tualya. 5Unya naghuwad siyag tubig sa planggana ug gihugasan niya ang mga tiil sa mga tinun-an ug gipahiran sa tualya nga iyang gibakos." 
+            </div>
+            <p style="margin: 0;"><strong>Spiritual Insight:</strong> Aron makaluhod ang Hari sa mga Hari sa paghugas sa hugaw, abugon, ug napanas nga tiil sa Iyang mga sumusunod, gikinahanglan Niya nga **ihukas ang Iyang gawas nga sinina**—nga nagrepresentar sa Iyang katungod, Iyang posisyon, Iyang dungog, ug Iyang sikat sa gawas. Ang kasingkasing sa alagad andam nga mobiya sa iyang unodnong garbo ug katungod aron lamang matubag ang espirituhanong pangihanglan ug pagpalig-on sa uban.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🌊 3. It is Expressed through Action, Not Just Words (Buhat, Dili Lang Sulti)</div>
+            <p>Wala lang naghatag si Hesus ug nindot nga lecture o sermon mahitungod sa pagkamapaubsanon; Miluhod Siya, nagbuhat, ug migamit og planggana. Iyang gihugasan bisan ang tiil ni Judas Iscariote nga nasayod Siya nga magluib Kaniya sa pipila ka oras. </p>
+            <p>Sa spiritual realm, ang matuod nga karakter sa alagad makita sa buhat kon walay nakakita ug kon walay mo-apreciate sa imong agi. Ang tinuod nga alagad andam mo-alagad bisan sa mga tawo nga lisod kaatubangon, lisod higugmaon, ug kadtong dili makabayad o makabalos sa iyang kaayo.</p>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE TOWEL INTERPRETATION):</span>
+            Lider, ipasabut kini og maayo sa grupo: Sa panahon sa Bibliya, ang paghugas sa tiil mao ang trabaho sa labing ubos nga ulipon sa panimalay. Sa dihang gibakus ni Hesus ang tualya, Iyang gipulihan ang dapit sa ulipon. 
+            <br><br>
+            Karon, daghang Kristohanon ang nangita og **Crown (Korona)** apan naglikay sa **Towel (Tualya)**. Gusto madasigon sa unahan sa entablado apan tapulan kaayo manglimpyo sa lingkuranan o mag-atiman sa usa ka bag-ong kalag nga gubot og kinabuhi. Ang pamaagi sa Dios mao kini: Kon dili nimo madawat ang tualya sa pag-alagad, dili nimo madawat ang korona sa Iyang pagdihog!
+        </div>
+
+        <h2>II. Ang mga Kaatbang sa Servant Heart (Modern Traps of the Enemy)</h2>
+        <p>Giunsa man sa kaaway pag-atake ang usa ka disipulo sa spiritual realm aron sabotaheon ug kuhaan siya sa kasingkasing sa alagad? Atong bantayan kining tulo ka dagkong kuta sa kangitngit:</p>
+        
+        <ul>
+            <li>🛑 <span class="highlight-text">1. The Spirit of Entitlement (Huna-huna nga Utangan ang Tanan Kanako):</span> Kini magsugod kon ang usa ka magtutuo mobati nga tungod kay dugay na siya, o dako siyag natabang sa panalapi, o maayo siya sa negosyo, kinahanglan respetohon siya kanunay, tagaan og special treatment, ug unahon siya sa tanan. Ang *entitlement* nagguba sa kalinaw, nagpugas ug kasuko, ug nagdala og dako nga pagkabahin-bahin.</li>
+            <li>📺 <span class="highlight-text">2. Serving for Attention and Validation (Motive sa Pasigarbo):</span> Kini mao ang paggamit sa mga buluhaton aron lang makita sa mga tawo, aron dayegon sa Pastor, o aron i-post sa social media nga "active" kaayo siya. Kon ikaw mo-alagad alang lamang sa dungog gikan sa tawo, imong gitalisdan ang motibo ni Kristo ug gisunod nimo ang garbo ni Lucifer. Ang Dios nagatan-aw sa motibo, dili sa gawas nga salida.</li>
+            <li>💤 <span class="highlight-text">3. The Stronghold of Passivity and Spiritual Laziness (Katapol sa Unod):</span> Kini ang unodnong kuta nga nagaingon: *“Pasagdi lang na sila mo-alagad diha sa simbahan ug sa cellgroup, kapoy man, mo-attend ra ko aron modawat ug magpapray.”* Ang pagsige og dawat nga walay paghatag ug pag-alagad nagdala kanag espirituhanong pag-uga, katulogon, ug pagka-niwang sa imong espiritu.</li>
+        </ul>
+
+        <h2>III. How to Activate and Walk in the Servant Heart</h2>
+        <p>Aron atong mapatunhay ang madaugon ug dinihogan nga kinabuhi, ania ang tulo ka mga discipleship warfare strategies:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🧠 1. Adopt the Mindset of Christ Jesus (Sunda ang Huna-huna ni Hesus)</div>
+            <div class="verse-box">
+                <strong>Filipos 2:5-8</strong>
+                "5Angay ninyong batonan ang hunahuna nga gibatonan ni Cristo Jesus nga mao kini:
+6Bisan siya Dios,
+wala siya mamugos nga magpabiling tupong sa Dios.
+7Hinuon, sa iyang kaugalingong kabubut-on,
+gibiyaan niya kining iyang kautungod
+ug nahumong usa ka ulipon.
+Natawo siya sama sa kasagarang tawo;
+8Nagpaubos siya ug nagmasinugtanon hangtod sa kamatayon—
+bisan sa iyang kamatayon sa krus."
+            </div>
+            <p><strong>Application:</strong> Sa sulod sa imong panimalay, biya sa espiritu sa pagmando-mando. Pangutana sa imong pamilya ug asawa: *“Unsa may akong mabuhat aron makatabang ug maka-serbisyo kaninyo karon?”* Sa sulod sa imong negosyo o trabaho, ayaw lang pangita og ganansya; pangita og pamaagi kon unsaon nimo pagka-panalangin ug pag-alagad sa kaayohan sa imong mga customer ug kauban.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🧼 2. Serve with Faithfulness in the Small and Hidden Things (Matinumanon sa Gamay)</div>
+            <div class="verse-box">
+                <strong>Lucas 16:10</strong>
+                "Kinsa kadtong kasaligan sa gagmayng butang, kasaligan usab sa dagko. Ug kinsa kadtong limbongan sa gagmayng mga butang, limbongan usab sa dagko."
+            </div>
+            <p><strong>Application:</strong> Ayaw paghulat nga tagaan ka og dako nga entablado o posisyon sa dili pa ka mo-alagad sa Dios. Gutoma ang imong unodnong garbo! Paghugas og plato sa balay uban ang kadasig. Pag-pick up og basura sa simbahan, o pag-atiman sa usa ka bag-ong miyembro sa cellgroup nga walay nakakita. Ang pagkamatinumanon sa tago ug sa gagmay nga mga butang mao ang mag-disiplina sa unod ug mag-andam kanimo para sa supernatural nga promotion ug panalangin sa Dios.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release Warfare Prayer to Cast Out the Spirit of Pride (Gihinginlan ang Garbo)</div>
+            <p><strong>Application:</strong> Gamita ang imong balaang awtoridad ug ang Ngalan ni Hesus aron bungkagon ang matag unodnong kuta. Sa imong Warfare Prayer karong gabhiona, i-proclaim kini uban ang kalayo sa espiritu: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag Spirit of Pride, entitlement, paghari-hari, ug katapol sa akong kasingkasing! Akong ginasira ang matag pultahan sa akong huna-huna batok sa mga bakak sa kaaway. Akong i-proclaim nga ang akong kinabuhi gigahin sa pag-alagad uban ang tiunay nga gugma, kaputli, ug pagpaubos. Ako disipulo ni Hesus, ug gina-activate nako ang supernatural nga kalampusan, open heavens, ug dako nga breakthrough sa akong tibuok pamilya ug kaliwatan! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: The Path to True Greatness</h2>
+        <p>Mga igsoon diha sa Ginoo, tapuson natong tibuok cellgroup kini pinaagi sa paghinumdom sa unahan nga saad sa atong Ginoo:</p>
+        
+        <div class="verse-box">
+            <strong>Juan 13:14-17</strong>
+            " 14Kon ako nga inyong Ginoo ug Magtutudlo naghugas sa inyong mga tiil, kinahanglan nga maghinugasay usab kamo sa inyong mga tiil. 15Naghatag ako kaninyog panig-ingnan aron inyong buhaton ang gibuhat ko kaninyo. 16Sultihan ko kamo: walay ulipon nga labaw sa iyang agalon ug walay sinugo nga labaw sa nagsugo kaniya. 17Karon nga nasayod na kamo sa maong kamatuoran, bulahan kamo kon inyo kining buhaton!"
+        </div>
+        
+        <p>Ang dalan sa Dios paingon sa unahan ug sa dako nga anointing magsugod kanunay pinaagi sa pagluhod sa pag-alagad. Si Hesus mipaubos sa Iyang Kaugalingon hangtod sa dapit sa kamatayon sa krus, ug tungod niana, tan-awa ang nahitabo sa **Filipos 2:9**: *“Tungod niana, gipataas Siya sa Dios sa kinatas-ang dapit, ug gihatagan Siya og Ngalan nga labaw sa tanang ngalan!”* </p>
+        
+        <p>Ayaw na gayod i-sakripisyo ang anointing sa imong kinabuhi ug ang kalinaw sa imong panimalay tungod sa paggukod sa garbo, dungog, ug unodnong posisyon sa kalibutan. Momata kita gikan sa espirituhanong katulog. Isulob ang tibuok Armor sa Dios, puy-i ug pamania ang kasingkasing sa usa ka alagad sa imong trabaho ug negosyo, ug i-proclaim nato ang supernatural nga kalampusan, kadaugan, ug hingpit nga kagawasan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card" style="background: rgba(46, 125, 50, 0.2); border-left: 4px solid #2e7d32;">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (ACTIVATING THE SERVANT ANOINTING)</h3>
+            Lider, pabaruga ang tibuok grupo sa katapusan. Ipapilit ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining pag-ampo sa deliverance ug pag-purgar uban ang awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo ni Hesus ug sa kalayo sa Espiritu Santo, among ginaluka ug gipukan karong gabhiona ang matag kuta sa garbo, entitlement, ug rebelyon sa inyong mga kasingkasing! Akong gina-rebuke ang matag operasyon sa kaaway nga nagdala og katapol ug kaulaw sa pag-alagad.*
+            <br><br>
+            *Sa Ngalan ni Hesus, bungkagon ko ang matag unodnong tinguha sa paghari-hari! Ginoo, ibubo ang tinuod nga 'Servant Heart' sa matag disipulo karon. Gideklara nako nga samtang kamo nagapaubos ug nagakuha sa tualya sa pag-alagad sa inyong panimalay, cellgroup, ug trabaho, i-release sa Dios ang Iyang dako nga promotion, supernatural nga panalangin, ug open heavens sa inyong unahan! Kamo gawasnon, aprobado, ug madasigon na sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Marcos 10:42-45**, unsa man ang dakong kalainan sa sukdanan sa kalampusan tali sa *sistema sa kalibutan* kaysa sa *sistema sa Gingharian sa Dios*? Nganong giingon man nga ang Gingharian sa Dios usa ka *Upside-Down Kingdom*?</li>
+                <li>Susiha ang **Juan 13:3**. Nganong ang tinuod nga kasingkasing sa alagad nagkinahanglan man og saktong *Spiritual Security* (kasiguruhan sa imong identity diha sa Dios)? Unsa ang mahitabo kon ang usa ka tawo mosulay sa pag-alagad samtang aduna siyay *insecurity* ug garbo?</li>
+                <li>Ipaambit sa grupo: Unsa nga praktikal ug tago nga butang (sama sa *paghugas og plato sa balay uban ang kalipay, pag-atiman sa bag-ong kalag, o pagka-matinumanon sa gagmay nga buluhaton*) ang imong pagatuyoon nga buhaton sugod ugma aron ma-disiplina ang unod ug ma-activate ang *Servant Heart*?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

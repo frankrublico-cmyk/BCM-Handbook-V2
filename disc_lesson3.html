@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 3: The Power of Prayer | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 3: THE POWER OF PRAYER</h1>
+            <p>"Ang Gahom sa Pagtukod og Altar sa Pakigkomunyon sa Dios"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Mateo 6:9-13</strong> (Ang Pag-ampo sa Ginoo) & <strong>Filipos 4:6-7</strong>
+        </div>
+
+        <h2>Introduction: Ang Gininhawa ug Altar sa Kalag</h2>
+        <p>Kon atong sabton nga ang pagbasa ug pagpamalandong sa Pulong sa Dios mao ang espirituhanong pagpakaon sa atong kalag, ang pag-ampo mao gayod ang atong dinalian nga gininhawa. Sa pisikal nga kinabuhi, dili kita makalahutay og pipila ka minutos kon wala kitay gininhawa. Sa samang paagi, ang atong espirituhanong kinabuhi daling mamatay, malaya, ug mabugnaw kon wala kitay aktibo nga prayer life. Dili molambo ang imong relasyon sa Dios kon wala kay komunikasyon Kaniya.</p>
+        
+        <p>Daghan kaayong mga Kristohanon karon ang nagtuo nga ang pag-ampo kay usa lang ka listahan sa mga gipangayo o *grocery list* nga atong i-presentar sa Ginoo kon kita nanginahanglan na lang. Apan ang tinuod nga pagka-disipulo nagtudlo kanato nga ang pag-ampo usa ka **Relasyon ug Altar sa Pakigkomunyon**. Kini ang dapit diin ang imong unodnong kasingkasing ug huna-huna mo-align ug mosunod sa balaang kasingkasing sa Dios.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE GREEK PRAYER WORDS)</span>
+            Lider, ipasabut sa grupo nga sa Bag-ong Tugon, adunay duha ka mahinungdanong Griegong pulong alang sa pag-ampo:
+            <br>1. **Proseuche:** Kini nagpasabut og pag-ampo nga adunay pagsimba, pakigkomunyon, ug pag-atubang sa presensya sa Dios (*altar of worship and intimacy*). Gigamit kini kon atong ihalad ang atong kasingkasing Kaniya.
+            <br>2. **Deesis:** Kini nagpasabut og dinalian nga pangamuyo, paghangyo, o petisyon tungod sa usa ka piho nga panginahanglan (*supplication*).
+            <br>Ipasabut nga daghang tawo ang sige lang og *Deesis* (pangayo), apan walay *Proseuche* (pagsimba ug relasyon). Ang usa ka tinuod nga disipulo nag-una sa relasyon kaysa sa pangayo!
+        </div>
+
+        <p>Sa atong leksyon karon, atong tukiubon kon unsaon pag-activate sa tinuod nga gahom sa pag-ampo sa atong adlaw-adlaw nga pagkinabuhi:</p>
+
+        <h2>I. Ang Balaang Pattern sa Pag-ampo (Mateo 6:9-13)</h2>
+        <p>Sa dihang gipangutana si Hesus sa Iyang mga disipulo kon unsaon pag-ampo, Iyang gihatag ang gitawag nato og *The Lord's Prayer*. Dili kini usa ka script nga kinahanglan natong litukon word-for-word nga walay pagsabot (*vain repetitions*), kondili usa ka hingpit nga **Pattern o Sumbanan** sa pag-ampo:</p>
+
+        <div class="point-box">
+            <div class="point-title">👑 A. Adoration & Worship (Pagsugod sa Pagdayeg)</div>
+            <p><em>"Our Father in heaven, hallowed be your name." (Amahan namo nga anaa sa langit, pagasambahon ang Imong ngalan.)</em></p>
+            <p><strong>Spiritual Insight:</strong> Ang pag-ampo kinahanglan magsugod sa pag-ila kon kinsa ang Dios ug kon unsa ang imong posisyon Kaniya. Siya ang atong "Abba" Amahan—nagpasabut nga duna kitay legal nga katungod sa pagsulod sa Iyang presensya tungod sa Dugo ni Hesus. Ang "hallowed" nagpasabut nga atong ginalain, gina-worship, ug gina-ila ang Iyang pagkabalaan kaysa sa atong mga problema. Dili kita mosulod sa pag-ampo aron moreklamo, mosulod kita aron mopasidungog Kaniya.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🎯 B. Alignment & Surrender (Pagpaubos sa Kalooban)</div>
+            <p><em>"Your kingdom come, your will be done, on earth as it is in heaven." (Moabot ang Imong gingharian, matuman ang Imong kabubut-on dinhi sa yuta maingon sa langit.)</em></p>
+            <p><strong>Spiritual Insight:</strong> Dinhi nato gina-surrender ang atong kaugalingong mga plano, ambisyon, ug garbo. Ang tinuod nga pag-ampo dili mahitungod sa pag-pugos o pag-manipulate sa Dios nga mosunod sa atong gusto; kini mahitungod sa pagtugot nga ang Iyang balaang kabubut-on ug pagmando maoy matuman sa atong kinabuhi, pamilya, ug negosyo.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🍞 C. Supplication & Trust (Pagpangayo sa Kinahanglanon)</div>
+            <p><em>"Give us today our daily bread." (Ihatag kanamo karong adlawa ang among unodnong kinahanglanon.)</em></p>
+            <p><strong>Spiritual Insight:</strong> Ang Dios usa ka mahigugmaong Amahan nga nagpakabana sa imong adlaw-adlaw nga panginahanglan—bisan ang pinakasimple nga pagkaon, bayranan, o proteksyon sa negosyo ug trabaho. Apan bantayi ang pulong nga **"daily"**—nagpasabut kini nga gusto sa Dios nga magdepende kita Kaniya adlaw-adlaw, dili lang kausa sa usa ka bulan. Nagtukod kini og pagsalig.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🛡️ D. Confession & Spiritual Warfare (Kapaspas sa Paglimpyo ug Proteksyon)</div>
+            <p><em>"And forgive us our debts, as we also have forgiven our debtors... And lead us not into temptation, but deliver us from the evil one." (Ug pasayloa kami sa among mga sala... ug ayaw kami itugyan sa pagsulay, kondili luwasa kami gikan sa dautan.)</em></p>
+            <p><strong>Spiritual Insight:</strong> Ang pag-ampo mao ang dapit diin ang atong konsensya ginalimpyohan pinaagi sa pag-confess sa atong mga sayop. Giila nato nga nagkinahanglan kita sa Iyang grasya, ug ginasirad-an nato ang pultahan sa kaaway pinaagi sa pagpasaylo sa mga nakasala kanato (breaking unholy offenses). Kini usab usa ka deklarasyon sa *spiritual warfare* batok sa mga lit-ag ni Satanas.</p>
+        </div>
+
+        <h2>II. Ang Pag-ilis sa Kabalaka ngadto sa Kalinaw (Filipos 4:6-7)</h2>
+        <p>Usa sa pinakadako nga manifestation sa atake sa kaaway sa huna-huna karon mao ang kabalaka, stress, ug *anxiety*. Apan gihatagan kita ni apostol Pablo og supernatural nga estratehiya sa pagbuntog niini:</p>
+        
+        <div class="verse-box">
+            <strong>Filipos 4:6-7</strong> - "Ayaw kamo kabalaka sa bisan unsa, kondili sa tanang butang pinaagi sa pag-ampo ug sa pangamuyo uban ang pagpasalamat, ipahibalo ang inyong mga hangyo ngadto sa Dios. Ug ang kalinaw sa Dios, nga labaw sa tanang pagsabot, magabantay sa inyong mga kasingkasing ug sa inyong mga huna-huna diha kang Kristo Hesus."
+        </div>
+        
+        <ul>
+            <li>📌 <span class="highlight-text">Anxiety is a Misdirected Prayer:</span> Ang kabalaka mao ang pagsige og pamalandong ug pag-meditate sa mga dautang plano sa kaaway nga mahitabo sa imong ugma. Kon magpabilin ka sa kabalaka, naghatag ka og legal right sa espiritu sa kahadlok. Ang tinuod nga disipulo mokuha sa maong kabalaka, ug iyang ginalabay ngadto sa kamot sa Dios pinaagi sa pag-pray uban ang pagpasalamat.</li>
+            <li>📌 <span class="highlight-text">The Peace That Acts as a Soldier:</span> Ang bersikulo 7 nag-ingon nga ang kalinaw sa Dios **"magabantay"** (*shall guard*). Ang orihinal nga pulong nga gigamit dinhi nagrepresentar sa usa ka sundalo o gwardiya sa militar nga nagpatrolya sa pultahan sa kuta. Kon ikaw mag-pray, ang kalinaw sa Dios maoy mahimong sundalo nga mobantay sa imong kasingkasing ug huna-huna batok sa mga udyong ni Legion ug Python.</li>
+        </ul>
+
+        <h2>III. Paghimo og "Prayer Lifestyle" (1 Tesalonica 5:17)</h2>
+        <p>Ang pag-ampo dili lang usa ka dinalian nga aksyon kon duna kay emergency, o usa ka kalihokan nga buhaton lang sulod sa simbahan. Si Pablo nagmando kanato: <span class="highlight-text">"Pray continually" (Pag-ampo sa walay paghunong)</span>.</p>
+        
+        <p>Unsaon man nato pag-pray sa walay paghunong samtang kita busy sa atong pamilya, trabaho, o pagdumala sa negosyo ug stickers printing? Nagpasabut kini nga ang imong espirituhanong kasingkasing **kanunay nakakonektar sa network sa Langit**. Samtang naglakaw ka, samtang nagtrabaho ka, o samtang nag-drive ka, pwede nimo kaistoryahon ang Dios sa sulod sa imong huna-huna: *“Ginoo, salamat sa Imong tabang karon. Hatagi ko og kaalam niini nga desisyon.”* Nagpuyo ka nga mabinantayon.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">🪵 TEARING DOWN THE ALTAR OF SLOTH (KATAPOL)</span>
+            Lider, ipasabut nga ang pinakadako nga kaaway sa pag-ampo mao ang **Katapol (Sloth/Spiritual Slumber)** ug ang mga **Distractions** (pagsige og scroll sa digital altars sa dili pa mo-pray). Kon dili nimo planohon ang imong oras sa pag-ampo, kawaton kini sa kaaway. Ang pag-ampo nagkinahanglan og sakripisyo ug tinuyo nga pag-gahin og panahon.
+        </div>
+
+        <h2>Application: Practical Steps to Build Your Altar</h2>
+        <p>Aron mapatunhay nato kining talagsaong gahom, ania ang mga praktikal nga lakang nga kinahanglan natong buhaton sugod karong gabhiona:</p>
+
+        <div class="action-card">
+            ⏰ <span class="highlight-text">1. Appoint a Sacred Time and Place (Piho nga Oras ug Dapit):</span> Pag-set og piho nga oras kada buntag ug gabii diin walay makabalda kanimo. Ingon si Hesus sa Mateo 6:6, *“Sulod sa imong kwarto, isira ang pultahan, ug pag-ampo sa imong Amahan.”* Isira ang imong mga gadgets ug social media portals niini nga higayon.
+        </div>
+        <div class="action-card">
+            📊 <span class="highlight-text">2. Practice the A.C.T.S. Structural Pattern:</span> Kon mag-pray ka, sunda kini aron mahimong balanse ang imong pagkomunyon:
+            <br>• <strong>A - Adoration:</strong> Dayega ang Dios sa Iyang pagkamaayo, pagkagamhanan, ug pagkabalaan.
+            <br>• <strong>C - Confession:</strong> I-confess ang mga tago nga sala, kasuko, o sayop nga huna-huna ug dawata ang pagpasaylo.
+            <br>• <strong>T - Thanksgiving:</strong> Pagpasalamat sa tanang nangaging tubag, sa pamilya, sa panalapi, ug sa Iyang proteksyon.
+            <br>• <strong>S - Supplication:</strong> Ipresentar ang imong mga hangyo, i-pray ang imong cellgroup, ang simbahan, ug ang imong mga plano.
+        </div>
+        <div class="action-card">
+            📝 <span class="highlight-text">3. Maintain a Prayer Journal (Pagsulat sa Petisyon):</span> Isulat ang imong mga gipangayo ug ang mga petsa kon kanus-a ka nagsugod og duso niini. Kon tubagon na kini sa Dios, butangi og timaan nga *“Answered by God!”* Kini makapadako sa imong pagtuo sa mga panahon nga ikaw makasugat og pagduhaduha.
+        </div>
+
+        <h2>Conclusion & Call to Action: Your First Line of Defense</h2>
+        <p>Mga igsoon sa Ginoo, ang pag-ampo dili mao ang atong *last resort* kon wala na kitay mahimo; ang pag-ampo mao ang atong **First Line of Defense** ug ang atong labing gamhanan nga hinagiban sa spiritual warfare! Pinaagi sa pag-ampo, gibuksan nato ang pultahan sa Langit aron ang supernatural nga interbensyon sa Dios mosulod sa atong unodnong kahimtang.</p>
+        
+        <p>Ayaw na itugot nga molabay ang usa ka adlaw nga wala ka nakigkomunyon sa imong Langitnong Amahan. Biya sa lubnganan sa kabalaka ug katapol. Barug karong gabhiona dinhi sa atong cellgroup, bawi-on nato ang kontrol sa atong huna-huna ug pamilya pinaagi sa pag-ampo, ug i-proclaim nato ang supernatural nga kalampusan, kalinaw, ug dako nga breakthrough diha kay Kristo Hesus! Amen!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA HINIUSANG PAG-AMPO SA CELLGROUP</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pagdakop sa mga kabalaka ug pagbubo og presko nga prayer fire: *“Maggunitay kita sa kamot. Sa Ngalan ni Hesus, among gibungkag ang espiritu sa kabalaka, stress, ug katapol sa pag-ampo! Akong ginasunog ang matag kuta sa kaaway nga nagdala og kalibog sa inyong huna-huna. Gideklara nako ang pag-abli sa Altar sa Pag-ampo sa matag panimalay. Dawata ang presko nga duso ug kalayo sa Espiritu Santo karon aron maglakaw kamo sa kalinaw nga molapas sa tanang pagsabot ug sa supernatural nga kadaugan diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa upat ka parte sa **A.C.T.S.** pattern (Adoration, Confession, Thanksgiving, Supplication), hain niini ang imong nabantayan nga pinaka-nakalimtan o pinaka-lisod nimo buhaton sa imong daily prayer life? Ngano man?</li>
+                <li>Unsa man ang mga nag-unang **distractions o kuta sa katapol** nga sige og kawat sa imong oras ug focus kon ikaw andam na nga magluhod ug mag-pray? Unsaon nimo kini pagbuntog sugod ugma?</li>
+                <li>Ipaambit sa grupo: Aduna ba kay usa ka partikular nga kasinatian dihi sa imong kinabuhi diin nakita ug nasaksihan nimo ang supernatural nga tubag ug gahom sa Dios tungod kay ikaw nagmakanunayon sa pag-ampo?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

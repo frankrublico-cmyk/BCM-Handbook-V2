@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Evangelism Series | BCM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght=700;900&family=Outfit:wght=300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #06080c;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        /* --- FIXED & LOCKED: HIGH-IMPACT CYBER-CINEMATIC TANTRA BACKGROUND --- */
+        .bg-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                rgba(6, 8, 12, 0.45) 0%, 
+                rgba(6, 8, 12, 0.60) 50%, 
+                rgba(6, 8, 12, 0.85) 100%
+            ), url('tantra.png?v=2') no-repeat center center;
+            background-size: cover;
+            filter: contrast(1.22) brightness(0.92) saturate(1.15);
+            z-index: -2;
+            pointer-events: none;
+        }
+
+        /* ✨ REAL-TIME GLOBAL ANINIPOT CONTAINER LAYOUT */
+        #aninipot_container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .aninipot {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            animation: riseAndTwinkle 14s infinite ease-in-out;
+        }
+
+        .aninipot.gold {
+            background: radial-gradient(circle, #fff700 0%, #ff8c00 70%);
+            box-shadow: 0 0 15px #ffd700, 0 0 30px #ff8c00;
+        }
+
+        .aninipot.cyan {
+            background: radial-gradient(circle, #00fff2 0%, #0055ff 70%);
+            box-shadow: 0 0 15px #00fff2, 0 0 30px #0055ff;
+        }
+
+        @keyframes riseAndTwinkle {
+            0% { transform: translateY(105vh) scale(0.6); opacity: 0; }
+            20% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+            80% { opacity: 0.9; }
+            100% { transform: translateY(-10vh) scale(1.3); opacity: 0; }
+        }
+
+        /* 💥 DYNAMIC INTERACTIVE PARTICLES/EXPLOSION ENGINE */
+        .explosion-particle {
+            position: absolute;
+            pointer-events: none;
+            z-index: 2000;
+            border-radius: 50%;
+            background: transparent;
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        
+        .explosion-particle.ring-1 {
+            border: 3px solid #00ff66;
+            box-shadow: 0 0 18px #00ff66, inset 0 0 12px #00ff66;
+            animation: particleBurst 0.55s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+        }
+        .explosion-particle.ring-2 {
+            border: 2px solid #ffd700;
+            box-shadow: 0 0 22px #ffd700;
+            animation: particleBurst 0.4s cubic-bezier(0.1, 0.6, 0.2, 1) forwards;
+        }
+        .explosion-particle.ring-3 {
+            border: 2px solid #00fff2;
+            box-shadow: 0 0 14px #00fff2, inset 0 0 6px #00fff2;
+            animation: particleBurst 0.65s cubic-bezier(0.1, 0.9, 0.4, 1) forwards;
+        }
+
+        @keyframes particleBurst {
+            0% { width: 10px; height: 10px; opacity: 1; }
+            100% { width: 130px; height: 130px; opacity: 0; transform: translate(-50%, -50%) scale(1.6); }
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE */
+        #translate_wrapper {
+            background: rgba(13, 17, 26, 0.95);
+            padding: 10px 20px;
+            border-radius: 15px;
+            border: 2px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 25px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .goog-te-combo {
+            background: #070a10;
+            color: #fff;
+            border: 2px solid #d4af37;
+            padding: 6px;
+            border-radius: 6px;
+            font-family: 'Outfit', sans-serif;
+            outline: none;
+        }
+        body { top: 0px !important; }
+
+        /* 🕹️ CHROMATIC INTERACTIVE NAV/BACK LINK BUTTON WITH FLARE */
+        .back-btn {
+            color: #d4af37;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 900;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            background: #0d111a;
+            padding: 12px 26px;
+            border-radius: 25px;
+            border: 2px solid rgba(212, 175, 55, 0.45);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        /* High-Impact Laser Flare Shimmer Engine */
+        .back-btn::before, .open-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -150%;
+            width: 80px; 
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.9) 50%, 
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: skewX(-35deg); 
+            animation: lightGlint 3s infinite ease-in-out;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        @keyframes lightGlint {
+            0% { left: -150%; }
+            35% { left: 150%; }
+            100% { left: 150%; }
+        }
+
+        .back-btn:hover {
+            color: #ffffff;
+            background: #141b29;
+            border-color: #ff4d4d;
+            text-shadow: 0 0 10px #ff4d4d;
+            box-shadow: 0 0 20px rgba(255, 77, 77, 0.6);
+            transform: translateY(-3px);
+        }
+        .back-btn:hover::before {
+            animation: lightGlint 1s infinite linear;
+        }
+
+        @keyframes gamingRGB {
+            0% { color: #ff3333; filter: drop-shadow(0 0 8px rgba(255, 51, 51, 0.6)); }
+            20% { color: #33ff33; filter: drop-shadow(0 0 8px rgba(51, 255, 51, 0.6)); }
+            40% { color: #3333ff; filter: drop-shadow(0 0 8px rgba(51, 51, 255, 0.6)); }
+            60% { color: #cc33ff; filter: drop-shadow(0 0 8px rgba(204, 51, 255, 0.6)); }
+            80% { color: #ffff33; filter: drop-shadow(0 0 8px rgba(255, 255, 51, 0.6)); }
+            100% { color: #ff3333; filter: drop-shadow(0 0 8px rgba(255, 51, 51, 0.6)); }
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(26px, 5vw, 42px);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 900;
+            margin-top: 10px;
+            animation: gamingRGB 8s infinite linear;
+        }
+
+        .subtitle {
+            font-size: clamp(14px, 3.5vw, 20px);
+            color: #00ff66;
+            font-style: italic;
+            margin-bottom: 40px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 10px rgba(0, 255, 102, 0.4);
+        }
+
+        /* MAIN DASHBOARD BLOCK TERMINAL MODULE CONTAINER */
+        .evangelism-container {
+            max-width: 850px;
+            margin: 0 auto;
+            text-align: left;
+            background: rgba(11, 15, 23, 0.92);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 255, 102, 0.25);
+            border-left: 5px solid #00ff66;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+            backdrop-filter: blur(12px);
+            position: relative;
+            z-index: 1;
+        }
+
+        .phase-header {
+            color: #ffd700;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 35px 0 10px 0;
+            padding-bottom: 6px;
+            border-bottom: 2px dashed rgba(212, 175, 55, 0.3);
+            font-weight: 900;
+        }
+        .phase-header:first-child {
+            margin-top: 5px;
+        }
+
+        .phase-desc {
+            color: #dfd3c3;
+            font-size: 1rem;
+            font-style: italic;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            opacity: 0.85;
+        }
+
+        .lesson-item {
+            padding: 16px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .lesson-item:hover {
+            background: rgba(0, 255, 102, 0.03);
+            transform: translateX(4px);
+        }
+
+        .lesson-item:last-child {
+            border-bottom: none;
+        }
+
+        .lesson-item span {
+            font-size: clamp(14px, 3.5vw, 18px);
+            color: #f1ebd9;
+            font-weight: 600;
+            transition: 0.3s;
+            line-height: 1.4;
+        }
+        .lesson-item:hover span {
+            color: #ffd700;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+        }
+
+        /* 🕹️ SOLID GLOWING TACTICAL ANCHOR ACTION BUTTON */
+        .open-link {
+            color: #000000;
+            text-decoration: none;
+            background: linear-gradient(135deg, #d4af37 0%, #b8901c 100%);
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px solid #d4af37;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .open-link:hover {
+            background: linear-gradient(135deg, #fff 0%, #d4af37 100%);
+            color: #000000;
+            border-color: #ff4d4d;
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 0 25px rgba(0, 255, 102, 0.6), 0 0 10px #00ff66;
+        }
+        .open-link:hover::before {
+            animation: lightGlint 1s infinite linear;
+        }
+
+        /* 📱 MOBILE RESPONSIVE TUNING */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+            .subtitle {
+                margin-bottom: 25px;
+            }
+            .evangelism-container {
+                padding: 20px 12px;
+            }
+            .lesson-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 14px;
+                padding: 20px 8px;
+            }
+            .open-link {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                padding: 14px;
+                font-size: 13px;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body id="main-body">
+
+    <div class="bg-overlay"></div>
+    <div id="aninipot_container"></div>
+
+    <div id="translate_wrapper">
+        <span>🌐 PINULONGAN / LANGUAGE:</span>
+        <div id="google_translate_element"></div>
+    </div>
+
+    <a href="index.html" class="back-btn">⬅ Balik Sa Home</a>
+    <h1>Evangelism Series</h1>
+    <div class="subtitle">📢 Soul Winning & Witnessing Training Center 🤝</div>
+    
+    <div class="evangelism-container">
+
+        <div class="phase-header">✨ STAGE I: PAG-ANDAM SA KASINGKASING</div>
+        <div class="phase-desc">Kini nga hugna nakapukong sa pag-andam sa espirituhanong sukaranan, pagtangtang sa kahadlok, ug pagpauyon sa atong kasingkasing ngadto sa kasingkasing sa Dios.</div>
+        
+        <div class="lesson-item">
+            <span>Lesson 1: Ang Kasingkasing sa Amahan ug Ang Balaang Kabug-aton (The Divine Burden)</span>
+            <a href="evang_lesson1.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 2: Ang Dakong Sugo – Usa ka Mandato Gikan sa Labing Gamhanan (The Great Commission)</span>
+            <a href="evang_lesson2.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 3: Ang Gahom sa Espiritu Santo – Ang Atong Katakus sa Pagpanaksi (The Empowered Witness)</span>
+            <a href="evang_lesson3.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 4: Pagbuntog sa mga Babag ug Kahadlok sa Pagpahayag (Overcoming Fear and Rejection)</span>
+            <a href="evang_lesson4.html" class="open-link">📢 Open Lesson</a>
+        </div>
+
+        <div class="phase-header">🛡️ STAGE II: ANG ESTRATEHIYA SA RELASYON</div>
+        <div class="phase-desc">Kini nga hugna nagtudlo sa praktikal nga mga paagi sa pagtukod og tulay padulong sa kasingkasing sa mga tawo sa atong palibot.</div>
+        
+        <div class="lesson-item">
+            <span>Lesson 5: Friendship Evangelism – Ang Pag-imbitar ug Pagtukod og Tulay (Relational Strategy)</span>
+            <a href="evang_lesson5.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 6: Lifestyle Evangelism – Ang Atong Kinabuhi isip Buhing Bibliya (The Living Witness)</span>
+            <a href="evang_lesson6.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 7: Ang Gahom sa Imong Sugilanon – Pagpaambit sa Imong Pamatuod (Your Personal Testimony)</span>
+            <a href="evang_lesson7.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 8: Ang Kinauyokan nga Mensahe – Ang Simple nga Agos sa Kaluwasan (The Gospel Core Message)</span>
+            <a href="evang_lesson8.html" class="open-link">📢 Open Lesson</a>
+        </div>
+
+        <div class="phase-header">⛓️ STAGE III: ANG PAG-ANI UG PAG-ALIMA</div>
+        <div class="phase-desc">Kini nga hugna mao ang aktwal nga paghimo og desisyon, pagdawat sa mga bag-ong kalag, ug pag-gabay kanila ngadto sa pagkahamtong.</div>
+        
+        <div class="lesson-item">
+            <span>Lesson 9: Ang Kadinalian sa Panahon – Ang Pagdapit Ngadto sa Kaluwasan (The Urgent Call and Decision)</span>
+            <a href="evang_lesson9.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 10: Operation Harvest – Ang Pagsaulog sa Pamilya sa Cell Group (The Cell Group Guest Celebration)</span>
+            <a href="evang_lesson10.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 11: Discipleship – Pag-atiman ug Pagpatubo sa Espirituhanong Masuso (Follow-up and Spiritual Care)</span>
+            <a href="evang_lesson11.html" class="open-link">📢 Open Lesson</a>
+        </div>
+        <div class="lesson-item">
+            <span>Lesson 12: Ang Ganti sa Mag-aani – Pagpabilin Diha sa Misyon (The Kingdom Multipliers)</span>
+            <a href="evang_lesson12.html" class="open-link">📢 Open Lesson</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        /* 🌌 AUTOMATIC MULTI-COLORED ANINIPOT GENERATOR ENGINE */
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("aninipot_container");
+            const particleCount = 40; 
+            const colors = ['gold', 'cyan'];
+
+            for (let i = 0; i < particleCount; i++) {
+                let particle = document.createElement("div");
+                let randomColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                particle.className = `aninipot ${randomColor}`;
+                
+                let size = Math.random() * 6 + 4; 
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+                particle.style.top = `${Math.random() * 100}vh`;
+                
+                particle.style.animationDelay = `${Math.random() * 14}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`; 
+                
+                container.appendChild(particle);
+            }
+        });
+
+        // 🧠 AUTOMATIC pinulongan sync handler
+        document.addEventListener('DOMContentLoaded', function() {
+            var googCombo = document.querySelector('.goog-te-combo');
+            if(googCombo) {
+                googCombo.addEventListener('change', function() {
+                    setTimeout(function(){ window.location.reload(); }, 300);
+                });
+            }
+        });
+
+        // --- JavaScript Particle Explosion Generator Node Engine ---
+        const bodyElement = document.getElementById('main-body');
+
+        function triggerExplosionBurst(e) {
+            // Siguroha nga dili moboto og kaduha sa interactive controls
+            if (e.target.tagName === 'A' || e.target.classList.contains('back-btn') || e.target.classList.contains('open-link')) {
+                return;
+            }
+
+            let clickX, clickY;
+            if (e.type === 'touchstart') {
+                clickX = e.touches[0].pageX;
+                clickY = e.touches[0].pageY;
+            } else {
+                clickX = e.pageX;
+                clickY = e.pageY;
+            }
+
+            // Mo-spawn og upat ka rings nga magkalahi og class para sa multi-layered explosion pattern
+            const classes = ['ring-1', 'ring-2', 'ring-3'];
+            
+            classes.forEach((particleClass) => {
+                const particle = document.createElement('div');
+                particle.className = `explosion-particle ${particleClass}`;
+                particle.style.left = clickX + 'px';
+                particle.style.top = clickY + 'px';
+                
+                bodyElement.appendChild(particle);
+
+                // Awtomatikong tangtangon ang node sa DOM human sa animation loop runtime path
+                particle.addEventListener('animationend', () => {
+                    particle.remove();
+                });
+            });
+        }
+
+        bodyElement.addEventListener('click', triggerExplosionBurst);
+        bodyElement.addEventListener('touchstart', triggerExplosionBurst, {passive: true});
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 7: Overcoming Temptation | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(46, 125, 50, 0.04);
+            border: 1px solid #2e7d32;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(46, 125, 50, 0.1);
+        }
+        .counter-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+        }
+
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 7: OVERCOMING TEMPTATION</h1>
+            <p>"Pagbuntog sa Panulay ug Pagsaka ngadto sa Supernatural nga Anointing"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> Lucas 22:31-32, Mateo 16:24, ug Lucas 4:13-14<br>
+        <strong>Katuyoan:</strong> Aron masabtan sa matag disipulo nga ang pagbuntog sa tentasyon usa ka seryoso ug dinalian nga bahin sa proseso sa pagka-disipulo ni Kristo, ug aron ma-armasan sila sa mga hait nga prinsipyo sa Espiritu aron mobarog nga madasigon ug mosaka gikan sa dapit sa pagsulay paingon sa dako nga anointing ug breakthrough.</p>
+
+        <h2>Introduction: Ang Discipleship Isip Usa Ka Dapit sa Pagbansay (Training Ground)</h2>
+        <p>Sa atong pagsulod sa *Realm of Discipleship*, kinahanglan natong usbon ang atong unodnong mindset mahitungod sa pagkahimong Kristohanon. Ang pagka-disipulo (*discipleship*) dili lang kay basta mo-attend sa Sunday Service kada Dominggo, molingkod, ug mamahimong miyembro lamang; kini usa ka **Dapit sa Pagbansay (Training Ground)** sa atong espiritu aron kita mahisama sa kinaiya ug pamatasan ni Kristo Hesus. Ug sa matag training ground sa militar o sa atleta, aduna gayoy lisod nga mga *tests* o pagsulay aron masukod ang kalig-on.</p>
+        
+        <p>Sa espirituhanong gingharian, usa sa pinaka-seryoso, unibersal, ug kanunay nga pagsulay nga gi-agian sa matag usa nga nagapahayag nga mosunod sa Ginoo mao ang **Temptation o Panulay**. Ang panulay dili timailhan nga ikaw dautan; kini timailhan nga buhi ang imong espiritu ug gikahadlokan ka sa yawa. Apan kon unsaon nimo pag-atubang ug pagbuntog niini, maoy magdetermina sa imong dako nga destiny.</p>
+
+        <div class="verse-box">
+            <strong>Mateo 16:24</strong>
+            "Unya miingon si Hesus sa Iyang mga disipulo, 'Kon ang bisan kinsa ninyo gustong mosunod kanako, kinahanglan iyang ilimod ang iyang kaugalingon, ug pas-anon ang iyang krus, ug mosunod kanako.'"
+        </div>
+        <p>Ang pulong nga **"ilimod ang kaugalingon" (deny himself)** nagpasabut nga sa dapit sa discipleship, ikaw makasugat gayod og mga higayon diin ang imong unod adunay dako nga tinguha (mga tentasyon), apan tuyoon nimo ang pagpili sa kabubut-on sa Dios labaw sa imong unod. Ang tentasyon mao ang nagasaku sa tinuod nga sukat kon kinsa gayod ang tinuod nga *Master* o tag-iya sa imong kinabuhi—ang imo bang unod ug ang kaaway, o si Hesus?</p>
+
+        <h2>I. Ang Katuyoan sa Tentasyon: Ang Kaaway vs. Ang Ginoo</h2>
+        <p>Kinahanglan natong masabtan sa espiritu nga ang usa ka tentasyon adunay duha ka magkalahi nga katuyoan sa spiritual realm, depende kon kinsang gingharian ang nagatutok sa maong sitwasyon:</p>
+
+        <div class="point-box">
+            <div class="point-title">😈 1. Ang Katuyoan sa Kaaway: Destruction and Disqualification (Pag-guba ug Pag-disqualify)</div>
+            <p>Gusto ni Satanas nga ikaw matumba, mouyon, ug magpadala sa tentasyon aron guboon ang imong relasyon sa Dios, bungkagon ang kadasig sa imong pamilya, sabotaheon ang imong negosyo, ug labaw sa tanan, **i-disqualify ka** sa dako nga plano ug anointing nga gilaan sa Dios alang sa imong unahan. Iyang gamiton ang unodnong kahuyang sa sekso (*sexual immorality*), garbo sa kinabuhi, ug dinalian nga kahakog sa kwarta aron kawatan ka sa imong espirituhanong kusog ug legal nga awtoridad.</p>
+            <div class="verse-box">
+                <strong>Santiago 1:14-15</strong>
+                "14Apan moabot ang tintasyon kon ang tawo hayluon ug danihon sa daotan niyang tinguha. 15Unya ang iyang daotang tinguha manamkon ug manganak ug sala ug inigkahingkod na sa sala, magdala kinig kamatayon."
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👑 2. Ang Katuyoan sa Dios: Development, Maturity, and Promotion (Pagpa-asenso ug Pagdihog)</div>
+            <p>Ang Bibliya nag-ingon nga dili ang Dios ang nagatental kanato sa pagbuhat og dautan. Apan sa laing bahin, Iyang **gitugotan** ang tentasyon aron mapalambo (*develop*) ug mapatunhay ang imong espirituhanong karakter. Ang matag disipulo nga mobalibad sa sala ug modumili sa kompromiso, nagka-mature, nagka-lig-on, ug nagka-dinihogan ang espiritu. Ang tentasyon mao ang pasulit sa dili pa i-release ang langitnong promotion!</p>
+            <div class="verse-box">
+                <strong>Lucas 4:13-14</strong>
+                "13Human si Jesus tintala sa Yawa sa tanang paagi, mibiya una kaniya ang Yawa. Misugod si Jesus sa Iyang Buluhaton didto sa Galilea
+                 14Unya mipauli si Jesus sa Galilea ug diha kaniya ang gahom sa Espiritu Santo. Mikaylap sa tanang kasikbit nga dapit ang balita mahitungod kaniya. "
+            </div>
+            <p><strong>Spiritual Insight:</strong> Sa dihang gibuntog ni Hesus ang tulo ka grabe nga tentasyon sa yawa didto sa kamingawan, wala Siya miguha nga maluyohon; mibalik Siya diha sa **Gahum ug Dihog sa Espiritu Santo**! Ang pagbuntog sa tentasyon mao ang saktong pultahan aron ma-activate ang mas dako nga anointing, awtoridad, ug supernatural breakthrough sa kinabuhi sa usa ka tinuod nga disipulo.</p>
+            <div class="verse-box">
+                <strong>Santiago 1:12</strong>
+                "Bulahan ang tawo nga mobarog taliwala sa mga pagtintal kay sa iyang pagdaog makadawat siya sa kinabuhi, ang ganti nga gisaad sa Dios alang niadtong mga nahigugma kaniya."
+            </div>
+        </div>
+
+        <h2>II. Ang mga Ilit-ag ni Satanas sa mga Disipulo (The Discipleship Traps)</h2>
+        <p>Giunsa man pag-target ug pag-atake sa kaaway ang usa ka disipulo nga nagasugod na og kadasig sa pag-alagad sa Dios? Naggamit siya og tulo ka malalangon ug dinalian nga mga lit-ag:</p>
+        
+        <ul>
+            <li>🌪️ <span class="highlight-text">The Trap of "The Sifting" (Ang Pag-alig-ig sa Huna-huna):</span> 
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Lucas 22:31</strong> - "Ug ang Ginoo miingon, 'Simon, Simon, tan-awa, si Satanas nangayo ug pagtugot sa pagbaton kaninyo, aron kamo iyang alig-igon (sift) sama sa trigo.'"
+                </div>
+                Ang kaaway magdala og kalit nga kalibog, grabe nga overthinking, ug hilabihan nga kakapoy sa emosyon aron mapuno ka sa pagduhaduha kon tinuod ba ka nga gidawat o gipasaylo sa Dios. Gusto niya nga i-alig-ig ang imong pagtoo aron ka mobiya.
+            </li>
+            <li>📱 <span class="highlight-text">The Trap of Hidden Compromise (Sekreto nga Kompromiso sa Kangitngit):</span> Kini mao ang lit-ag sa unod diin ang kaaway mobulong sa imong huna-huna: *“Okay ra na mag-cellgroup ka, okay ra busy ka sa pag-alagad, basta itago lang gihapon ni nga sekreto nga sala sa imong gadget o sa kangitngit kay wala bitaw nakakita.”* Kini nagrepresentar sa mga bakak nga altars. Ang kompromiso mao ang hilom nga hilo nga nag-anam-anam og patay sa imong espirituhanong kadasig, dila sa pag-ampo, ug awtoridad batok sa yawa.</li>
+            <li>🛑 <span class="highlight-text">The Trap of Offense and Rebellion (Daling Masuko ug Rebelyon):</span> Kini ang dinalian nga tentasyon nga daling ma-offend o masuko sa laing igsoon diha sa pagtoo, o ang dili pagpailalom sa espirituhanong awtoridad nga gipahimutang sa Ginoo sa imong ibabaw. Gusto sa kaaway nga ikaw ma-offend ug mapuno sa garbo aron ikaw **mobiya sa dapit sa discipleship ug mag-inusara**. Kay kon ang usa ka disipulo mag-inusara ug mobiya sa grupo, mas dali ug paspas kaayo siyang mapukan ug mapolbos ni Satanas.</li>
+        </ul>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE NATURE OF THE WEAPON):</span>
+            Lider, tudlo-i ang grupo niini nga kamatuoran: Ang tentasyon dili sala; ang **pag-uyon** ug ang **pagpakasala** sa tentasyon mao ang sala. Si Satanas mogamit sa mga dapit nga ikaw maluya (gutom, kakapoy, kamingaw, o stress) aron ilansar ang iyang mga sugyot. 
+            <br><br>
+            Apan ang Dios naghatag kanato og dako nga kasiguruhan diha sa **1 Corinto 10:13**. Ang Dios matinumanon, ug dili Niya itugot nga kamo matental labaw sa inyong madala, kondili maghimo gayod Siya og **pultahan sa kainggasan (way of escape)** aron kamo makabarog! Ang matag tentasyon adunay pultahan sa gawas, kinahanglan lang nimo kini pilion pinaagi sa pagdumili sa unod.
+        </div>
+
+        <h2>III. Ang mga Espirituhanong Estratehiya sa Pagbuntog sa Panulay</h2>
+        <p>Aron atong mapukan ug maguba kining mga lit-ag ni Satanas sa atong adlaw-adlaw nga paglakat, kinahanglan natong i-execute kining upat ka langitnong estratehiya:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🙏 1. Build a Shield of Intercession and Accountability (Ang Pag-ampo ug Pagka-Abli)</div>
+            <div class="verse-box">
+                <strong>Lucas 22:32</strong> - "Apan Ako nag-ampo alang kanimo, aron ang imong pagtuo dili mapakyas: ug kon ikaw makabalik na, palig-ona ang imong mga igsoon."
+            </div>
+            <p><strong>Application:</strong> Sa Realm of Discipleship, gidisenyo kita sa Dios nga maglakat sa pamilya, dili sa pagka-tinago. Kon ikaw gi-atake sa grabe nga tentasyon o sala, **ayaw kini itago sa kangitngit**! Ang sala mabuhi sa tago, apan mamatay kon madala sa kahayag. Pangita og usa ka matinud-anon, maamgong lider o disipulo, i-confess ang imong pakigbisog, ug pag-ampo kamo alang sa usa'g usa aron ma-multiply ang inyong supernatural nga kusog batok sa kaaway.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">📖 2. Feed the Spirit and Starve the Flesh (Pakan-a ang Espiritu, Gutoma ang Unod)</div>
+            <p> Ang tentasyon ug ang unod mokuha lamang og dako nga gahum sa imong kinabuhi kon ang imong unod pwerte ka dako ug tambok tungod sa sige og pakaon sa kalibutanon nga butang, samtang ang imong espiritu pwerte ka niwang ug luya tungod sa kakulang sa pagkaon sa Pulong sa Dios.</p>
+            <p><strong>Application:</strong> Pakan-a ang imong espiritu matag buntag ug gabii pinaagi sa pag-gahin ug tinuyoan nga oras sa pagbasa sa Bibliya, pag-ampo sa espiritu, ug pag-fasting. Kon ang imong kasingkasing puno ug nagdilaab sa Pulong sa Dios, ang mga tentasyon sa gawas mawad-an og dapit ug lami sa imong panan-aw tungod kay natagbawan na ka sa presensya sa Ginoo!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🏃‍♂️ 3. Guard the Eye Gate and Execute a Swift Retreat (Dagan ug Likay sa Paspas nga Paagi)</div>
+            <p>Ayaw gayod pakig-nego sa tentasyon. Ayaw paghulat kon kanus-a ka maluya. Kon ang usa ka chat, usa ka video sa social media, usa ka dapit, o usa ka unodnong barkada nagdala kanimo ngadto sa kompromiso sa imong pagkabalaan, suda ang gihimo ni Jose sa Daang Tugon sa dihang gitental siya sa asawa ni Potipar—**Nidagan siya sa gawas sa paspas nga paagi!**</p>
+            <p><strong>Application:</strong> I-off ang screen sa cellphone, isira ang pultahan sa imong mga mata gikan sa mga malas-aw nga hulagway, ug ayaw pakaon sa peke nga kaharuhay sa kaaway. Ang pagdagan gikan sa tentasyon dili kaluya; kini usa ka tinuod nga timaan sa espirituhanong kaalam ug kaisog.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 4. Speak with Authority and Draw from the Throne of Grace</div>
+            <p>Gamita ang balaang awtoridad nga gihatag ni Kristo kanimo isip Iyang dinihogan nga disipulo. Sa imong Warfare Prayer, ayaw pagpakaluy-oy o pagpabilin nga biktima sa sala.</p>
+            <div class="verse-box">
+                <strong>Hebreohanon 4:16</strong> - "Busa dili kita magpanuko sa pagduol sa trono sa Dios diin anaa ang grasya. Dinha madawat nato ang kaluoy ug ang grasya nga atong gikinahanglan."
+            </div>
+            <p><strong>Application:</strong> Isulti sa kusog nga tingog ang pulong sa awtoridad: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag espiritu sa kaulag, kalibog, ug rebelyon nga nag-atake sa akong huna-huna! Akong gina-guba ang matag kuta sa panulay sa akong kinabuhi pinaagi sa Dugo ni Hesus. Ako usa ka disipulo sa Labing Halangdong Dios, ug maglakaw ako sa kaputli, integridad, ug sa dako nga supernatural nga anointing! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: Gikan sa Pagka-Alig-ig ngadto sa Pagpalig-on</h2>
+        <p>Mga igsoon diha sa Ginoo, sa dihang natapos ang pagsulay ug pagka-alig-ig ni Satanas kang Pedro, ug sa dihang napasaylo ug napahiuli siya human sa iyang pagbuntog, unsa man ang dinalian nga giingon ni Hesus kaniya? *“Ug kon ikaw makabalik na, palig-ona ang imong mga igsoon.”*</p>
+        
+        <p>Kini nagpasabut nga ang imong personal nga kadaugan batok sa tentasyon karon dili lang alang sa imong kaugalingon; kini gikinahanglan ug pagagamiton sa Dios aron sa unahan, ikaw na usab ang adunay legal nga katungod, kaisog, ug dinihogan nga kasaysayan sa **paggabay, pagdisipulo, ug pagpalig-on** sa ubang mga igsoon nga gi-atake usab sa mga udyong sa kaaway! Ayaw na gayod itugot nga ang imong dako nga destiny, ang kaminyoon sa imong pamilya, ug ang kalampusan sa imong negosyo maguba ug mapandol tungod lamang sa temporaryo ug mubo nga lami sa sala. Biya sa sabakan sa kompromiso!</p>
+        
+        <p>Momata kita gikan sa espirituhanong katulog. Isulob ang tibuok Armor sa Dios, barug isip usa ka matinud-anon ug approved nga disipulo, ug i-proclaim nato ang supernatural nga kalampusan, kaputli, ug hingpit nga kagawasan diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card" style="background: rgba(212, 175, 55, 0.06); border-left: 4px solid #d4af37;">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP MINISTRATION (THE ACTIVATION OF PURITY)</h3>
+            Lider, pabaruga ang tibuok grupo sa katapusan. Ipapilit ang ilang tuo nga kamot sa ilang kasingkasing ug i-mando kining dinalian nga pag-ampo sa deliverance ug pagbubo sa grasya:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa gahum sa Dugo sa Kordero, among ginaluka ug gipukan karong gabhiona ang matag kuta sa tentasyon, sekreto nga sala, ug kompromiso sa inyong mga kinabuhi! Akong gina-rebuke ang matag demonyohanong udyong nga nagpugas og kaulag, depresyon, ug unodnong kahakog.*
+            <br><br>
+            *Gideklara nako ang pag-abli sa 'pultahan sa kainggasan' sa inyong mga sitwasyon. Sa Ngalan ni Hesus, dawata ang presko nga duso sa Holy Spirit ug ang kalayo sa kaputli! Bungkagon nako ang espiritu sa kaulaw ug kapakyasan—ikaw approved nga disipulo, gihugasan, ug gilig-on aron sa unahan, ikaw na usab ang mopalig-on ug modisipulo sa uban! Lakad sa dako nga anointing ug supernatural nga kadaugan sugod karon! Amen, ug Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **Lucas 4:13-14**, unsa man ang kalainan sa kahimtang ni Hesus *sa dili pa* Siya mosulod sa tentasyon ug *human* Niya mabuntog ang yawa? Giunsa niini pag-usab ang imong panglantaw mahitungod sa katuyoan sa pagsulay sa imong kinabuhi?</li>
+                <li>Ipaambit sa grupo sa tinud-anay nga pamaagi: Unsa man ang imong pagsabot sa **Trap of Hidden Compromise** (sekreto nga sala sa gadget o kangitngit)? Nganong giingon man nga ang pagdala sa sala ngadto sa kahayag pinaagi sa *Accountability* uban sa imong lider maoy dinalian nga magputol sa gahum ni Legion?</li>
+                <li>Unsa nga praktikal nga lakang sa pag-buntog sa panulay (sama sa *Guarding the Eye Gate*, pagkaon sa espiritu pinaagi sa Bibliya, o pagdagan sama ni Jose) ang kinahanglan nimong i-activate ug kusganong buhaton sugod ugma aron mapanalipdan ang imong espirituhanong kadasig?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

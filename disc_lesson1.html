@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 1: The Call to Follow | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #a4c2b0;
+            font-size: 1.2rem;
+            margin-top: 25px;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 1: THE CALL TO FOLLOW</h1>
+            <p>"Ang Panawagan sa Pagsubay ug Radikal nga Pagka-disipulo"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Lucas 9:23</strong> - "Unya miingon si Jesus kanilang tanan, 'Bisan kinsa nga buot mosunod kanako, kinahanglan magsalikway sa iyang kaugalingon ug magpas-an sa iyang krus matag adlaw ug mosunod kanako.'"
+        </div>
+
+        <h2>Introduction: Ang "Follow" Culture vs. Ang Sumbanan sa Bibliya</h2>
+        <p>Sa atong henerasyon karon, pamilyar kaayo kita sa pulong nga "follow." Sa Facebook, Instagram, TikTok, ug uban pang plataporma, makuha ra nato ang pagka-follower pinaagi sa usa ka yano nga pislit sa screen. Kung dili na nato gusto ang atong gi-follow, i-pislit lang nato ang "Unfollow" button. Kini nga kultura nagmugna og usa ka sayop nga pagsabot sa atong espirituhanong kinabuhi.</p>
+        
+        <p>Daghan ang nagtuo nga ang pagka-Kristiyano kay "click-to-follow" lang—nga kung nakadungog na ka ni Jesus, nag-atend og worship service, o niuyon sa Iyang mga gitudlo, okay na ang tanan. Apan ang Pulong sa Dios nag-ingon nga ang tinuod nga pagka-disipulo dili lang basta pag-uyon sa huna-huna. Kini usa ka <span class="highlight-text">lifetime covenant commitment</span> ug usa ka <span class="highlight-text">radical transformation</span> nga nagtandog sa tibuok nimong pagkatawo—sa imong pamilya, sa imong panalapi, sa imong mga plano, ug sa imong negosyo o trabaho.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE FIRST-CENTURY TALMID)</span>
+            Lider, ipasabut pag-ayo sa grupo nga sa unang siglo sa Israel, ang usa ka disipulo gitawag ug **"Talmid"**. Ang tumong sa usa ka Talmid dili lang ang makat-on og impormasyon gikan sa iyang Rabi, kondili ang **mahimong sama gayod sa iyang Rabi** sa tanang pamaagi sa pagkinabuhi. Adunay usa ka karaan nga panultihon sa mga Judio: *“Hinaot nga maputos ka sa abog sa mga tiil sa imong Rabi.”* Nagpasabut kini nga mosunod ka sa Iyang luyo nga pwerte ka duol hangtod nga ang abog nga mapalpor sa Iyang mga sandalyas motugpa sa imong kaugalingong lawas. Kana ang tinuod nga gilawmon sa pagka-follower nga gipangayo ni Hesus.
+        </div>
+
+        <p>Sa atong teksto sa Lucas 9:23, gihatag ni Jesus ang tulo ka mga dili mausab nga kondisyon para sa tinuod nga disipulo. Dili kini mga sugyot o *options*, kondili mga mandato alang sa tanan nga nagtinguha sa supernatural nga breakthrough ug tinuod nga pagkinabuhi diha Kaniya:</p>
+
+        <h2>I. Ang Tulo ka Haligi sa Tinuod nga Pagka-disipulo</h2>
+
+        <div class="point-box">
+            <div class="point-title">🌱 1. "Deny Yourself" (Isalikway ang Kaugalingon)</div>
+            <p>Sa atong kalibutan karon, ang kusog nga mensahe mao ang: *“higugmaa ang imong kaugalingon,” “i-prioritize ang imong gibati,”* ug *“buhata kung unsa ang makapalipay kanimo.”* Apan si Jesus nagdala og sukwahi nga prinsipyo. Ang "deny yourself" wala magpasabot nga wad-an nimo og bili ang imong kaugalingon o magpuyo ka sa kalisod nga walay hinungdan. Ang tinuod nga kahulugan sa pag-deny sa kaugalingon mao ang <strong>Surrender of Sovereignty/Authority</strong>:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Change of Command:</span> Sa wala pa ka nakahimamat kang Hesus, ikaw ang "Boss" ug ang naglingkod sa trono sa imong kinabuhi. Ikaw ang nagbuot sa imong mga desisyon, sa imong oras, sa imong lawas, ug sa imong kwarta. Apan kung mosulod ka sa pagka-disipulo, i-surrender nimo ang manubela ngadto Kaniya ug moingon: *“Lord, dili na ako ang magbuot, Kamo na ang Hari sa akong kinabuhi. Your will, not mine.”*</li>
+                <li>📌 <span class="highlight-text">The Internal Conflict:</span> Dinhi magsugod ang gubat sa spiritual realm tungod kay ang atong unod kanunay man nga gusto nga kita ang masunod. Apan ang disipulo nga andam mo-deny sa kaugalingon, andam nga mosunod sa prinsipyo sa Dios bisan pa kung kini supak sa iyang personal nga kasingkasing o unodnong kaayohan.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">✝️ 2. "Take Up Your Cross Daily" (Pas-ana ang Krus Matag Adlaw)</div>
+            <p>Karon, atong makita ang krus isip dekorasyon sa simbahan o alahas sa liog. Apan sa panahon sa mga Romano, ang krus usa ka bangis ug makauulaw nga instrumento sa silot sa kamatayon. Kung ang usa ka tawo makita sa publiko nga nagpas-an og krus, nagpasabut kana nga ang iyang sentensya dili na mausab, ug padulong na siya sa dapit sa pagpatay aron mamatay.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">It is a Daily Crucifixion:</span> Wa moingon si Hesus nga pas-anon lang ang krus kung adunay grabe nga problema, o kung Dominggo lang samtang nag-worship. Siya miingon: <strong>daily (matag adlaw)</strong>. Matag buntag inig mata nimo, duna kay krus nga pas-anon—kini mao ang oportunidad sa pagpatay sa imong garbo, pagpatay sa imong kasuko, pagdumili sa mga dautang bisyo, ug pagpili sa pagpasaylo kaysa sa pagdumot.</li>
+                <li>📌 <span class="highlight-text">The Element of Sacrifice:</span> Ang pagpas-an sa krus nagpasabut nga andam ka nga mosunod kang Hesus bisan kung naay kaulaw, paggukod, o sakripisyo nga imong ma-atubang gikan sa imong mga barkada, trabaho, o pamilya. The cross is choosing obedience over convenience. Dili kini sayon nga dalan, apan kini ra ang bugtong dalan padulong sa supernatural nga pagkabanhaw ug breakthrough!</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">👣 3. "And Follow Me" (Ug Subaya Ako)</div>
+            <p>Ang pagsubay kang Hesus nagkinahanglan og lihok ug paglihok. Dili kini static nga kahimtang.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">Not Just Information, but Imitation:</span> Ang yawa nahibalo sa mga impormasyon ug kasaysayan bahin kang Hesus, apan dili siya disipulo. Ang tinuod nga pagsubay nagpasabut nga imong usbon ang imong pamatasan aron mosubay sa Iyang mga tunob. Kung si Hesus mapinasayloon, andam ka ba usab nga mupasaylo? Kung Siya nagkinabuhi sa kaputli ug integridad, andam ka ba usab nga maglakaw sa katarong sa imong negosyo ug pamilya?</li>
+                <li>📌 <span class="highlight-text">The Guarantee of Presence:</span> Ang nindot nga balita mao nga sa atong pagsubay Kaniya, wala kita gipabiya nga mag-inusara. Siya ang nag-una kanato sa dalan. Naagian na Niya ang tanang kalisod, pagsulay, ug kamingaw nga imong giatubang karon. Busa, ang pag-follow Kaniya nagpasabut nga nagsalig ka nga ang Iyang tiulan maoy mag-giya kanimo padulong sa dako nga kadaugan.</li>
+            </ul>
+        </div>
+
+        <h2>II. The Cost of Discipleship (Ang Gasto sa Pagka-disipulo)</h2>
+        <p>Si Hesus wala gayod nagtago sa kamatuoran nga ang pagka-disipulo adunay gasto. Sa **Lucas 14:27-30**, Iyang gihatag ang ehemplo sa usa ka tawo nga nagtukod og tore—kinahanglan usa niyang puy-an ug kwentahon ang gasto aron maseguro nga duna siyay igong ikahuman niini. </p>
+        <p>Ang **Salvation (Kaluwasan)** kay libre ug gasa gikan sa Dios pinaagi sa pagtuo, apan ang **Discipleship (Pagka-disipulo)** mokuha sa tibuok nimong kinabuhi. Dili ka pwedeng magpabilin nga usa ka disipulo kung itago nimo ang pipila ka sekreto nga bahin sa imong kinabuhi gikan sa Iyang pagmando.</p>
+
+        <h2>Application: Are you a Fan or a Follower?</h2>
+        <p>Sa atong pagpalalim niini nga leksyon dinhi sa atong cellgroup, kinahanglan natong atubangon ang usa ka seryoso nga pagsusi sa kaugalingon. Sa Iyang ministeryo sa yuta, liboan ka mga tawo ang nagpundok sa luyo ni Hesus tungod kay nangaon sila sa milagro sa pan ug isda, ug nalingaw sila sa mga milagro. Sila kadto ang mga **"Fans"**. Apan sa dihang nagsugod na si Hesus og sulti sa lawom ug bug-at nga kamatuoran sa pagka-disipulo, daghan ang mibiya Kaniya (Juan 6:66). Ang nahabilin mao ra ang tinuod nga mga **"Followers"**.</p>
+        
+        <p>Ang usa ka *fan* ganahan sa nindot nga musika, sa emosyonal nga sermon, ug sa mga panalangin sa Dios, apan kung duna nay gipangayo si Hesus nga sakripisyo, dali ra siyang mo-unfollow. Ang usa ka *follower* andam nga mounong bisan sa panahon sa kalisod, andam mo-deny sa iyang unod, andam mopas-an sa iyang krus, ug andam nga mosunod bisan asa Siya mopaingon.</p>
+
+        <div class="action-card">
+            🙌 <span class="highlight-text">1. Radical Surrender (Ang Hingpit nga Pagtugyan):</span> Susiha ang imong kasingkasing karon. Unsa ang usa ka butang, relasyon, batasan, o plano nga dugay na nimong gigunitan ug wala pa nimo andam i-surrender sa tiilan sa Ginoo? I-pray kini ug itugyan Kaniya karong gabhiona.
+        </div>
+        <div class="action-card">
+            🎯 <span class="highlight-text">2. Daily Commitment (Kada-Adlaw nga Baruganan):</span> Paghimo og usa ka lig-on nga desisyon nga sa matag buntag, sa dili pa nimo gunitan ang imong cellphone o digital altars, i-deklarar nimo: *“Lord Hesus, karong adlawa, ang Imong kabubut-on maoy matuman sa akong kinabuhi, dili ang akong gusto.”*
+        </div>
+        <div class="action-card">
+            ⚡ <span class="highlight-text">3. Kingdom Action (Lihok sa Pagka-disipulo):</span> Sa unsang paagi nimo mapakita ang pagka-follower karong semanaha? Tingali magsugod kini sa pagpakita og integridad sa imong trabaho, pagbuntog sa tago nga kasuko sa pamilya, o pag-imbita ug pag-disipolo sa laing tawo padulong sa cellgroup.
+        </div>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO ALANG SA CELLGROUP LEADER MINISTRATION</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pag-ampo sa matag usa. Hangyoa sila sa pag-abli sa ilang mga kamot isip timaan sa pagtugyan: *“Sa Ngalan ni Hesus, among ginabungkag ang espiritu sa taphaw nga pagka-Kristiyano! Gideklara nako ang kaluwasan ug kaisog sa matag usa nga mobiya sa lubnganan sa unod ug kompromiso. Dawata ang presko nga kalayo sa Espiritu Santo aron maglakaw kamo isip mga tinuod nga Talmidim—mga disipulo nga nagdala sa abog ug dako nga kahumot ni Kristo sa inyong panimalay, negosyo, ug ministeryo! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa imong personal nga kinabuhi karon (sa pamilya, trabaho, o personal nga desisyon), unsa ang pinakalisod nga dapit o bahin sa pag-deny sa imong kaugalingon (*deny yourself*)? Ngano man?</li>
+                <li>Unsa man ang kahulugan sa "pagpas-an sa krus matag adlaw" (*take up your cross daily*) diha sa imong adlaw-adlaw nga sitwasyon? Paghatag og usa ka konkretong ehemplo diin ikaw andam mamatay sa imong unodnong garbo o tinguha alang sa Ginoo.</li>
+                <li>Sa unsa nga paagi nga makatabang ang atong cellgroup kanimo aron ikaw magpabilin nga lig-on nga nagsunod ug wala nag-inusara niini nga panaw sa pagka-disipulo?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

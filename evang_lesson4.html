@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: Overcoming Fear and Rejection | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #050402;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+            user-select: none;
+        }
+
+        /* ✨ REAL-TIME FANTASY GLOW ENGINE BACKGROUND & ANINIPOT STYLING */
+        #fantasy_space {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle at 50% 50%, #110b04 0%, #030201 100%);
+            z-index: -2;
+        }
+
+        #aninipot_container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .aninipot {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            animation: riseAndTwinkle 14s infinite ease-in-out;
+        }
+
+        .aninipot.gold {
+            background: radial-gradient(circle, #fff700 0%, #ff8c00 70%);
+            box-shadow: 0 0 15px #ffd700, 0 0 30px #ff8c00;
+        }
+
+        .aninipot.cyan {
+            background: radial-gradient(circle, #00fff2 0%, #0055ff 70%);
+            box-shadow: 0 0 15px #00fff2, 0 0 30px #0055ff;
+        }
+
+        @keyframes riseAndTwinkle {
+            0% { transform: translateY(105vh) scale(0.6); opacity: 0; }
+            20% { opacity: 0.8; }
+            50% { opacity: 0.4; }
+            80% { opacity: 0.9; }
+            100% { transform: translateY(-10vh) scale(1.3); opacity: 0; }
+        }
+
+        /* 💥 EXPLOSION POWER ENGINE EFFECT STYLING */
+        .shockwave {
+            position: absolute;
+            border: 4px solid #ff4500;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+            animation: blowShockwave 0.5s cubic-bezier(0.1, 0.8, 0.3, 1) forwards;
+        }
+
+        .spark-particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9998;
+            transform: translate(-50%, -50%);
+            animation: sparkFly 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+        }
+
+        @keyframes blowShockwave {
+            0% { width: 0px; height: 0px; opacity: 1; box-shadow: 0 0 20px #ff4500; border-color: #ff4500; }
+            50% { border-color: #ffd700; box-shadow: 0 0 40px #fff700; }
+            100% { width: 350px; height: 350px; opacity: 0; border-color: #00ff66; }
+        }
+
+        @keyframes sparkFly {
+            0% { transform: translate(-50%, -50%) translate(0, 0) scale(1); opacity: 1; }
+            100% { transform: translate(-50%, -50%) translate(var(--mx), var(--my)) scale(0); opacity: 0; }
+        }
+
+        /* 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR STYLE */
+        #translate_wrapper {
+            background: rgba(22, 16, 10, 0.95);
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid #d4af37;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 25px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-combo {
+            background: #000;
+            color: #fff;
+            border: 1px solid #d4af37;
+            padding: 4px;
+            border-radius: 6px;
+            font-family: 'Outfit', sans-serif;
+        }
+        body { top: 0px !important; }
+
+        /* 🕹️ GAMING STYLE BACK BUTTON */
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.05);
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 215, 0, 0.4);
+            transition: 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 20px #ffd700;
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 0 0 20px rgba(255, 69, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.2);
+            font-size: 2.3rem;
+            margin-top: 10px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .scripture-meta {
+            font-size: 1.15rem;
+            color: #00ff66;
+            margin-bottom: 40px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+        }
+
+        /* ARTICLE PANEL CONTENT ENGINE */
+        .article-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: left;
+            background: linear-gradient(135deg, rgba(20, 14, 8, 0.97) 0%, rgba(10, 7, 4, 0.99) 100%);
+            padding: 45px 40px;
+            border-radius: 20px;
+            border: 2px solid #ff4500;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.8), 0 0 25px rgba(255, 69, 0, 0.15);
+            backdrop-filter: blur(12px);
+            line-height: 1.85;
+            font-size: 1.15rem;
+            color: #e2dcd0;
+            position: relative;
+        }
+
+        .glowing-panel-header {
+            border: 2px solid #ffd700;
+            border-radius: 12px;
+            padding: 15px 20px;
+            background: rgba(255, 215, 0, 0.03);
+            box-shadow: inset 0 0 15px rgba(255, 215, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 45px 0 20px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px dashed rgba(255, 215, 0, 0.25);
+            font-weight: 700;
+        }
+
+        h3 {
+            color: #ff4500;
+            font-size: 1.35rem;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        blockquote {
+            background: rgba(255, 255, 255, 0.03);
+            border-left: 4px solid #ff4500;
+            padding: 15px 20px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #ffffff;
+            border-radius: 4px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .nested-verse {
+            background: rgba(255, 69, 0, 0.02);
+            border-left: 4px solid #ff4500;
+            padding: 12px 18px;
+            margin: 15px 0;
+            font-size: 1.05rem;
+            color: #f7d1d1;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 30px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        strong {
+            color: #ffd700;
+        }
+
+        .discussion-box {
+            background: linear-gradient(135deg, rgba(30, 15, 10, 0.9) 0%, rgba(15, 5, 3, 0.95) 100%);
+            border: 2px solid #ff4500;
+            padding: 25px;
+            border-radius: 14px;
+            margin-top: 40px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.1);
+        }
+        .discussion-box h2 {
+            margin-top: 0;
+            color: #ff4500;
+            border-bottom: 2px solid #ff4500;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 20px 10px; }
+            h1 { font-size: 1.6rem; }
+            .scripture-meta { font-size: 1rem; margin-bottom: 25px; }
+            .article-content { padding: 25px 20px; font-size: 1rem; }
+            h2 { font-size: 1.3rem; }
+            h3 { font-size: 1.15rem; }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <!-- VISUAL SPACE ENGINE CORE -->
+    <div id="fantasy_space"></div>
+    <div id="aninipot_container"></div>
+
+    <!-- 🌐 RESPONSIVE GOOGLE TRANSLATE FIX BAR -->
+    <div id="translate_wrapper">
+        <span>🌐 PINULONGAN / LANGUAGE:</span>
+        <div id="google_translate_element"></div>
+    </div>
+
+    <button class="back-btn" onclick="window.location.href='evangelism.html'">⬅️ Balik sa Listahan</button>
+    <h1>Lesson 4: Pagbuntog sa mga Babag ug Kahadlok sa Pagpahayag (Overcoming Fear and Rejection)</h1>
+    <div class="scripture-meta">📖 Teksto sa Kasulatan: 2 Timoteo 1:7</div>
+    
+    <div class="article-content">
+
+        <div class="glowing-panel-header">
+            <blockquote>
+                "Kay ang Espiritu nga gihatag sa Dios kanato wala maghimo kanato nga mga talawan, kondili naghatag kanato og gahom, gugma, ug maayong panghunahuna." (2 Timoteo 1:7)
+            </blockquote>
+        </div>
+
+        <h2>Introduksyon: Ang Kamatuoran Bahin sa Kahadlok ug ang mga Illusyon sa Kaaway</h2>
+        <p>Sa miaging mga leksyon, atong natun-an ang Dakong Sugo ug ang Gahom sa Espiritu Santo. Nasayod na kita ug nakaselyo na sa atong huna-huna nga duna kitay balaan nga mandato ug duna kitay supernatural nga katakus gikan sa Dios aron mag-evangelize. Apan ngano man nga sa higayon nga anha na kita sa tinuod nga sitwasyon—naa sa atubangan sa atong silingan, higala, o kauban sa lavoro—mikalbaba bigla ang atong kasingkasing? Nganong motungha man gihapon ang grabeng kakulba ug kalisang?</p>
+        <p>Dili ikalimod sa reyalidad sa ministeryo nga ang kahadlok ug ang kakulang sa kaisog mao ang labing dako nga babag nga gigamit sa kaaway (si Satanas) aron pahilumon ang pagpanaksi sa mga magtutuo. Daghan kanato ang nagpabilin nga sirado ang baba tungod kay nahadlok kita nga tingali isalikway kita (rejection), tingali dili na kita tagdon, likayan, o biaybiayon sa atong mga kaila, ug tingali tawgon kita og "sobra ka balaan", "pala-simba", o "mga katingad-an nga tawo" sa katilingban.</p>
+        <p>Kon mibati ka niini, angay nimo masayran nga bisan ang bantogang mga sulugoon sa Dios sa Bibliya nakasugat usab niini nga hagit sa ilang kapanahonan ug adlaw-adlaw nga paglakaw. Apan ang nindot nga balita mao nga ang Dios nag-andam ug nagtagana na og pamaagi aron atong mabuntog kini nga mga babag pinaagi sa Iyang grasya. Sa atong leksyon karon, atong sutaon sa tibuok ug kompletong detalye kon unsaon nato pagbuntog ang kahadlok ug unsaon pag-atubang ang pagsalikway uban ang hingpit nga kadaogan diha kang Kristo.</p>
+
+        <h2>I. ANG MGA MATANG SA KAHADLOK UG GIUNSA KINI PAGBUNTOG (Understanding and Overcoming Fear)</h2>
+        <p>Aron mapilde ug madugmok nato ang plano sa atong kaaway, kinahanglan natong masabtan sa klaro kon unsa kini ug diha asa kini naggikan sa atong huna-huna ug emosyon. Unsa man ang kasagaran natong gikahadlokan kon mag-evangelism kita?</p>
+
+        <h3>A. Kahadlok nga "Wala koy Mahisgotan" o "Dili ko Maayo Mosulti"</h3>
+        <p>Daghan ang maghuna-huna nga kinahanglan mahimo silang usa ka batid nga "magwawali" o edukado nga "pastor" aron makasulti bahin kang Hesus. Nahadlok sila nga magkabidbado, sipyat ang ilang masulti, o dili plastado ang agi sa ilang mga pulong. Atong tan-awon ang kamatuoran gikan sa Pulong sa Dios: Si Moises nahadlok usab niini nga aspeto kaniadto sa dihang gitawag siya sa Dios:</p>
+        <div class="nested-verse">
+            <strong>Exodo 4:10</strong> - "Si Moises miingon sa Ginoo, “Apan Ginoo, dili ako maayong mosulti sukad pa kaniadto. Yungit ako ug magkangakanga nga mosulti.”"
+        </div>
+        <p>Apan atong tan-awon ang gamhanan nga tubag sa Dios kaniya nga naghatag kanatog kaisog ug kasegurohan karon:</p>
+        <div class="nested-verse">
+            <strong>Exodo 4:12</strong> - "Busa lakaw kay tabangan ko ikaw pagsulti ug tudloan ko ikaw sa imong isulti.”"
+        </div>
+        <p><strong>Unsaon pagbuntog:</strong> Hinumdomi kanunay nga dili ang imong nindot nga agi sa istorya o pagkabatid sa tawhanong pagsulti ang makatandog ug mobungkag sa kasingkasing sa tawo, kondili ang buhing kamatuoran sa imong ginasulti ug ang paglihok sa Espiritu Santo. Salig nga ang Dios maoy mag-uban ug maghatag kanimo og saktong pulong sa saktong higayon.</p>
+
+        <h3>B. Kahadlok sa Kakulang sa Kahibalo sa Bibliya</h3>
+        <p>Mahadlok kita nga basin pangutan-on kita sa mga tawo og mga lisod nga bersikulo, lawom nga teolohiya, o mga misteryo sa kasaysayan, ug unsaon na lang kon dili nato matubag ug kita mapakaulawan sa ilang atubangan.</p>
+        <p><strong>Unsaon pagbuntog:</strong> Dili kinahanglan nga mahibal-an o ma-memorize nimo ang tubag sa tanang misteryo sa tibuok kalibutan sa usa ka pamilok. Kon duna silay ipangutana nga dili nimo matubag, isulti lang ang tinuod uban ang kaaghup ug pagpaubos: <em>"Nindot ug lawom na nga pangutana. Tugoti ko nga mangutana sa akong cell group leader o pastor, ug balikan ko ikaw sa tubag sa sunod nato nga pagkita."</em> Ang mga tawo sa kalibutan mas makagusto ug mas mosalig sa usa ka tawo nga matinudenon kay sa tawo nga magpaaron-ingnon nga nahibalo sa tanan apan bakak ang ginasulti.</p>
+
+        <h2>II. ANG KAMATUORAN BAHIN SA PAGSALIKWAY (The Reality of Rejection)</h2>
+        <p>Usa sa labing dako nga gikahadlokan sa kinaiya sa tawo mao ang rejection o ang dili pagdawat sa uban. Gusto sa atong unod nga dawaton ug pakpakan kita sa katilingban kanunay sa matag lihok. Apan sa pag-evangelism ug pagsangyaw, ang pagsalikway usa ka reyalidad nga usahay mahitabo gayod. Atong paminawon ang giingon ni Hesus:</p>
+        <div class="nested-verse">
+            <strong>Juan 15:18</strong> - "“Kon nasilag kaninyo ang kalibotan, hinumdomi nga akoy unang gikasilagan niini.”"
+        </div>
+        <p>Unsaon man nato kini pagtan-aw sa saktong pamaagi aron dili kita maluya ug dili kita moundang sa pagsangyaw?</p>
+
+        <h3>A. Dili Ikaw ang Ilang Gisalikway, Kondili si Hesus</h3>
+        <p>Kung mag-share ka sa Maayong Balita ug unya balibaran ka, dulaan, o kataw-an, ayaw kini dad-a isip personal nga kaulaw o kapakyasan sa imong pagkatawo. Atong tan-awon ang kasaysayan sa dihang gisalikway sa mga tawo ang pagmando sa Dios pinaagi sa propeta Samuel:</p>
+        <div class="nested-verse">
+            <strong>1 Samuel 8:7</strong> - "Ang Ginoo miingon kaniya, “Tumana ang tanan nga gihangyo sa katawhan kanimo kay dili man ikaw ang ilang gisalikway kondili ako. Dili sila buot nga ako maoy maghari kanila.”"
+        </div>
+        <p>Kon dili sila maminaw kanimo, ayaw kaguol o kahigawad. Ang ilang gibalibaran mao ang tanyag sa kaluwasan gikan sa Dios, dili ang imong personal nga pagkatawo.</p>
+
+        <h3>B. Si Hesus Mismo Nakaagi Na Nianang Grabe nga Pagsalikway</h3>
+        <p>Ang atong Ginoo nakaagi na sa tanang matang sa kasub-anan ug pagbiaybiay sa tawo nga Iyang gipangbubuhat og maayo. Sumala sa gipahayag sa propeta Isaias:</p>
+        <div class="nested-verse">
+            <strong>Isaias 53:3</strong> - "Gitamay nato siya ug gisalikway; nakasinati siyag mga kagul-anan ug mga pag-antos; gani walay motan-aw kaniya; wala nato siya tagda ug gipakawalay bili lamang."
+        </div>
+        <p>Si Hesus nga hingpit, balaan, ug walay bisan unsa nga sala gisalikway man gani sa Iyang kaugalingong lungsod ug mga kabanay. Busa, kon makasugat kitag pagdumili sa pagpanaksi, nahisama lamang kita sa atong Ginoo. Giambitan ug gilaktan nato ang Iyang mga tunob.</p>
+
+        <h2>III. MGA PRAKTIKAL NGA LAKANG SA PAGBUNTOG SA KAHADLOK (Practical Steps to Victory)</h2>
+        <p>Dili plano sa Dios nga kita magpabilin nga gapos ug bihag sa kahadlok. Unsa man ang mga selyado, epektibo, ug praktikal nga buhaton aron makabaton og kaisog sa pagpangani ug pagpanaksi?</p>
+        
+        <ol>
+            <li>
+                <strong>I-ampo ug Itugyan ang Imong Kahadlok:</strong>
+                Itugyan sa Dios ang imong kabalaka matag adlaw sa dili pa ka mogawas sa balay. Atong basahon ang gipahayag sa Salmo:
+                <div class="nested-verse">
+                    <strong>Salmo 34:4</strong> - "Nag-ampo ako sa Ginoo, ug gitubag niya ako ug giwagtang niya ang tanan kong kahadlok."
+                </div>
+                Isulti sa Dios sa tago nga dapit kung asa ug ngano ka nahadlok, ug Iyang tunawon kana pinaagi sa Iyang presensya.
+            </li>
+            <li>
+                <strong>Pangayo og Balaang Kaisog (Boldness):</strong>
+                Sama sa unang mga Kristohanon sa Buhat, sa dihang nakasugat sila og hulga ug paglutos, wala sila nag-ampo nga mawala ang mga kaaway, kondili nag-ampo sila alang sa kaisog:
+                <div class="nested-verse">
+                    <strong>Buhat 4:29</strong> - "Ug karon, Ginoo, tan-awa kining mga pagpanghulga nga ilang gibuhat ug hatagig kaisog kaming imong mga sulugoon sa pagsulti sa imong mensahe."
+                </div>
+            </li>
+            <li>
+                <strong>Hinumdomi ang Bili sa Usa ka Kalag:</strong>
+                Kon mas dako ang imong gugma ug kaluoy sa tawo kaysa sa imong kahadlok, madasig ka sa pagsulti. Gipasabut kini ni apostol Juan:
+                <div class="nested-verse">
+                    <strong>1 Juan 4:18</strong> - "Walay kahadlok diha sa gugma; kondili ang hingpit nga gugma nagahingilin sa kahadlok..."
+                </div>
+                Ang kaluwasan sa imong higala gikan sa kalayo sa impieryno mas importante kaayo kaysa sa imong temporaryo nga kaulaw o kakulba sa yuta.
+            </li>
+            <li>
+                <strong>Sugdi sa Ginagmay nga Lakang:</strong>
+                Dili kinahanglan nga mag-wali ka dayon sa tunga sa dako nga kadalanan o tiyangge. Sugdi pinaagi sa pag-share sa imong personal nga testimony ngadto sa usa ka amigo, o pag-imbita kaniya nga mokaon uban kanimo samtang nangutana ka bahin sa iyang kahimtang ug nag-ampo alang sa iyang mga suliran ug pamilya.
+            </li>
+        </ol>
+
+        <h2>IV. ANG MGA GANTI UG KADAOGAN SA MGA NAGPADAYON (The Reward of Overcoming)</h2>
+        <p>Unsa man ang mahitabo sa espirituhanon ug langitnong aspeto kon atong mabuntog ang kahadlok ug mosulti kita alang sa Iyang Ngalan?</p>
+
+        <h3>A. Adunay Dakong Kalipay sa Langit ug sa Yuta</h3>
+        <p>Ang matag kalag nga makabalik sa Dios nagdala og dakong kapistahan sa gingharian sa langit. Sumala sa gipahayag ni Jesus:</p>
+        <div class="nested-verse">
+            <strong>Lucas 15:7</strong> - "Sultihan ko kamo nga ingon usab niini ang mahitabo: mas dako ang kalipay didto sa langit tungod sa usa ka makasasala nga naghinulsol kay sa 99 ka tawo nga matarong nga wala magkinahanglan sa paghinulsol."
+        </div>
+        <p>Walay labaw nga kalipay sa kinabuhi sa usa ka Kristohanon kay sa makakita sa usa ka tawo nga mudawat kang Hesus ug magbag-o ang kinabuhi ug pamilya tungod kay ikaw naggahin og kaisog nga mahimong instrumento sa Dios.</p>
+
+        <h3>B. Ang Dios Magpabili ug Mobarog Kanimo</h3>
+        <p>Adunay selyado nga saad si Hesus alang sa mga tawo nga dili maulaw sa Iyang Ebanghelyo sa yuta:</p>
+        <div class="nested-verse">
+            <strong>Mateo 10:32</strong> - "Busa, ang matag usa nga magapahayag kanako sa atubangan sa mga tawo, ipahayag ko usab siya sa atubangan sa akong Amahan nga anaa sa mga langit."
+        </div>
+        <p>Kon mobarog kita alang kang Hesus dinhi sa yuta, Siya usab mobarog ug magpasalamat alang kanato didto sa trono sa Amahan. Pagkanindot nga dunggon gikan sa Ginoo sa kataposang adlaw ang mga pulong nga: <em>"Maayong pagkabuhata, maayo ug matinumanon nga sulugoon!"</em></p>
+
+        <div class="discussion-box">
+            <h2>Application & Challenge</h2>
+            <p>Mga igsoon ko sa cell group, ang kahadlok usa ka bakak ug ilusyon nga gitanom sa kaaway (si Satanas) aron mahilom, mabugnaw, ug mapatong ang Simbahan. Nahibal-an pag-ayo sa kaaway nga kon ikaw mosulti sa Pulong, adunay mga kadena sa sala ug demonyo nga mangabugto ug adunay mga pamilya nga mangaluwas. Mao nga hadlokon ka niya sa imong huna-huna aron magpabilin kang magbuka lang ang mata apan sirado ug amang ang baba.</p>
+            <p>Apan hinumdomi kanunay ang atong nag-unang teksto: <em>"Ang Espiritu nga gihatag sa Dios kanato wala maghimo kanato nga mga talawan..."</em></p>
+            <p>Kini ang hagit kanato:</p>
+            <ol>
+                <li><strong>Atubanga ang Kahadlok uban ang Pagtuo:</strong> Sa sunod higayon nga mobati ka og kakulba sa pag-share, ayaw pag-atras o pagdagan. Lakang sa unahan uban ang pagtuo, kay ang Espiritu Santo mag-uban ug maghatag kanimog kusog.</li>
+                <li><strong>Ayaw Kahadlok sa Balibad:</strong> Ang balibad kabahin sa proseso sa pagpanaksi. Padayon lang ug ayaw kaundang, kay alang sa usa ka tawo nga mosalikway kanimo, adunay laing usa ka tawo nga giandam na sa Dios kansang kasingkasing andam nang maminaw, mohunong, ug maluwas.</li>
+            </ol>
+
+            <h2 style="color: #ff4500; border-bottom: 2px solid #ff4500; margin-top: 25px;">Mga Pangutana para sa Diskasyon sa Cell Group:</h2>
+            <ol style="margin-top: 15px;">
+                <li>Hain man sa mga kahadlok nga gihisgutan sa unahan (kahadlok nga dili maayo mosulti, kahadlok nga masalikway, o kahadlok sa lisod nga pangutana) ang labing dako nimo nga personal nga hagit sa pagpanaksi sa matag adlaw? Ngano man?</li>
+                <li>Sa unsa nga paagi nga makatabang kanimo ang pagkahibalo nga si Hesus mismo nakaagi usab og grabeng pagsalikway sa mga tawo aron mas mudako ang imong kaisog ug determinasyon karon?</li>
+                <li>Magtinabangay kita pinaagi sa buhat: Mag-uban kita sa pag-pray karon. Isulat sa usa ka gamay nga papel ang ngalan sa usa ka tawo (paryente, amigo, o silingan) nga dugay na nimo gustong storyahan bahin sa Ginoo apan gipugngan ka sa kahadlok. I-ampo nato nga bungkagon sa Dios kana nga kahadlok ug hatagan ka Niya og balaang kahigayonan karon nga semana.</li>
+            </ol>
+
+            <p style="margin-top: 25px; font-weight: bold; color: #ffd700;">Pangamuyo/Pag-ampo sa Pagtapos:</p>
+            <p style="font-style: italic; text-align: center;">I-ampo nga dungan ang tibuok grupo. I-renounce o isalikway sa tibuok kasingkasing ang espiritu sa kahadlok, kaulaw, ug katapulan sa pagpanaksi. Pangayoon ang grasya sa Dios nga maghari ang balaang kaisog (boldness), ug ang matag usa magmabungahon sa pagbuntog sa mga babag alang sa pagpalapad sa Iyang gingharian. Sa ngalan ni Jesus, Amen!</p>
+        </div>
+
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb', 
+                includedLanguages: 'en,tl,ceb', 
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        /* 🌌 AUTOMATIC MULTI-COLORED ANINIPOT GENERATOR ENGINE */
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById("aninipot_container");
+            const particleCount = 45; 
+            const colors = ['gold', 'cyan'];
+
+            for (let i = 0; i < particleCount; i++) {
+                let particle = document.createElement("div");
+                let randomColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                particle.className = `aninipot ${randomColor}`;
+                
+                let size = Math.random() * 6 + 4; 
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                particle.style.left = `${Math.random() * 100}vw`;
+                particle.style.top = `${Math.random() * 100}vh`;
+                
+                particle.style.animationDelay = `${Math.random() * 14}s`;
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`; 
+                
+                container.appendChild(particle);
+            }
+        });
+
+        /* 💥 REAL-TIME TOUCH & CLICK BOMB EXPLOSION CORE ENGINE */
+        document.addEventListener('click', function(e) {
+            if(e.target.tagName === 'BUTTON' || e.target.classList.contains('back-btn')) {
+                return;
+            }
+
+            const shockwave = document.createElement('div');
+            shockwave.className = 'shockwave';
+            shockwave.style.left = e.pageX + 'px';
+            shockwave.style.top = e.pageY + 'px';
+            document.body.appendChild(shockwave);
+
+            const particleCount = 15;
+            const colors = ['#ff4500', '#ffd700', '#00ff66', '#00fff2'];
+            
+            for(let i=0; i<particleCount; i++) {
+                const spark = document.createElement('div');
+                spark.className = 'spark-particle';
+                
+                const angle = Math.random() * Math.PI * 2;
+                const distance = Math.random() * 120 + 40;
+                const mx = Math.cos(angle) * distance + 'px';
+                const my = Math.sin(angle) * distance + 'px';
+                
+                spark.style.setProperty('--mx', mx);
+                spark.style.setProperty('--my', my);
+                
+                const size = Math.random() * 8 + 4;
+                spark.style.width = size + 'px';
+                spark.style.height = size + 'px';
+                spark.style.background = colors[Math.floor(Math.random() * colors.length)];
+                spark.style.boxShadow = `0 0 10px ${spark.style.background}, 0 0 20px ${spark.style.background}`;
+                
+                spark.style.left = e.pageX + 'px';
+                spark.style.top = e.pageY + 'px';
+                
+                document.body.appendChild(spark);
+                
+                setTimeout(() => { spark.remove(); }, 600);
+            }
+
+            setTimeout(() => { shockwave.remove(); }, 500);
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var googCombo = document.querySelector('.goog-te-combo');
+            if(googCombo) {
+                googCombo.addEventListener('change', function() {
+                    setTimeout(function(){ window.location.reload(); }, 300);
+                });
+            }
+        });
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

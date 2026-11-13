@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 12: Finishing Well | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.93), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .nav-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-sizing: border-box;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn, .home-btn {
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .back-btn {
+            color: #ffd700;
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .home-btn {
+            color: #ffffff;
+            background: rgba(46, 125, 50, 0.2);
+            border: 1px solid #2e7d32;
+        }
+        .home-btn:hover {
+            background: #2e7d32;
+            color: white;
+            box-shadow: 0 0 10px #2e7d32;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.45);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #f0e6d2;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+        }
+        .verse-box strong {
+            color: #ffd700;
+            display: block;
+            margin-bottom: 5px;
+            font-style: normal;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .counter-strategy {
+            background: rgba(0, 255, 102, 0.02);
+            border: 1px solid #00ff66;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 255, 102, 0.08);
+        }
+        .counter-title {
+            color: #00ff66;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN BLOCK */
+        .leader-insight {
+            background: rgba(212, 175, 55, 0.05);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 15px 15px 0;
+            font-size: 1.1rem;
+            color: #e0d8c3;
+        }
+        .insight-label {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(255, 69, 0, 0.1);
+            border-left: 4px solid #ff4500;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .questions-box {
+            background: rgba(5, 5, 5, 0.85);
+            border: 1px solid #ff4500;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.2);
+        }
+
+        .questions-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-group {
+                justify-content: space-between;
+                width: 100%;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn, .home-btn {
+                text-align: center;
+                flex: 1;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <div class="nav-group">
+                <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+                <a href="index.html" class="home-btn">🏠 Home Menu</a>
+            </div>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 12: FINISHING WELL</h1>
+            <p>"Paghuman nga Madungganon ug ang Pagtugyan sa Korona sa Kadaogan"</p>
+        </div>
+
+        <p><strong>Pangunang Bersikulo:</strong> 2 Timoteo 4:6-8, 1 Corinto 9:24-27, ug Hebreohanon 12:1-2<br>
+        <strong>Katuyoan:</strong> Aron ma-armasan ug mapukaw ang tibuok kongregasyon ug mga cellgroup sa mga espirituhanong prinsipyo kon unsaon pagpabilin nga madasigon, matinumanon, ug putli hangtod sa katapusang metros sa ilang kinabuhi, ug aron madaog ang lumba sa pagka-disipulo uban ang dako nga kalampusan ug walay kataposang dungog gikan sa Dios.</p>
+
+        <h2>Introduction: Ang Gubat Diha sa Finish Line</h2>
+        <p>Sa tibuok natong pagsubay niini nga serye sa *Realm of Discipleship*, nakat-on kita kon unsaon pagdawat sa anointing sa Dios, kon unsaon pagbuntog sa panulay, ug kon unsaon pag-prioritize sa *Character over Charisma*. Apan karong adlawa, sa pagtapos niini nga serye, atong atubangon ang labing dinalian ug labing importanteng hagit sa unahan: Kanus-a man nato mahibaloan nga kita nagmalampuson gayod isip mga disipulo ug lider?</p>
+        
+        <p>Sa spiritual realm, ang tinuod nga kalampusan sa Gingharian sa Dios dili makita o ginasukod kon unsa ka nindot, ka sikat, o ka madasigon ang imong sinugdanan (**the starting line**). Ang matuod nga kalampusan masuta ug maselyohan lamang sa kon unsaon nimo pag-atubang ug pagtapos ang lumba (**the finish line**)!</p>
+        
+        <p>Daghan kaayong mga tawo sa Bibliya ug sa modernong kasaysayan karon ang pwerte ka dako, ka madasigon, ug ka nindot sa ilang sinugdanan—mga abtik mag-alagad, dako og agi sa pag-share, ug madasigon kaayo—apan sa tunga-tunga o sa katapusang bahin sa ilang dagan, nahulog sa sekreto nga kompromiso, natigahom ang kasingkasing, ug mi-surrender sa pagtuo. </p>
+        
+        <p>Si Haring Salomon nagsugod uban ang talagsaon ug supernatural nga kaalam gikan sa Dios, apan sa iyang katigulangan, ang iyang kasingkasing gipalayo sa mga peke nga kaharuhay sa kalibutan (*Spirit of Asherah*) ug namatay siya nga nagsimba sa mga dios-dios sa kangitngit. Apan si Apostol Pablo nagpakita kanato sa saktong sumbanan sa usa ka disipulo nga nakahuman nga adunay dako nga kalampusan ug dungog sa Espiritu:</p>
+
+        <div class="verse-box">
+            <strong>2 Timoteo 4:6-8</strong>
+            "6Kon itudlo mo kini sa mga kaigsoonan, mahimo kang maayong sulugoon ni Cristo Jesus. Makita nila nga ikaw namatuto sa mga pulong sa pagtuo ug sa matuod nga pagtulon-an nga imong gisunod. 7Apan likayi ang mga hinimu-himong sugilanon nga dili angay isugilon. Hinunoa, bansaya ang imong kaugalingon sa kinabuhing diosnon. 8May kapuslanan ang pagpaugnat sa lawas. Apan ang espirituhanong pagpaugnat mapuslanon alang sa tanang butang kay makahatag man kini kanatog kinabuhi karon ug sa umaabot."
+        </div>
+        <p>Sa spiritual realm, gitinguha ug ginatuyo ni Satanas nga i-disqualify ka sa katapusang metros sa imong lumba pinaagi sa unodnong lit-ag. Apan karong adlawa, atong gubaon ug polbuhon ang matag kuta sa kapakyasan aron kita makahuman nga madungganon ug dinihogan!</p>
+
+        <h2>I. Ang 3 ka Estratehiya sa Pagka-Disipulo aron Makahuman nga Madungganon</h2>
+        <p>Aron atong masabtan kon unsaon pag-atubang ug pagbuntog ang marathon sa spiritual realm, gihatagan kita sa Basahon sa Hebreohanon og tulo ka saktong pamaagi sa pagdagan:</p>
+
+        <div class="verse-box">
+            <strong>Hebreohanon 12:1</strong>
+            "1Busa, kay gilibotan man kita niining dakong pundok sa mga saksi, isalikway ta ang tanan nga nakababag kanato ug ang sala nga naghawid kanato pag-ayo. Daganon ta nga matinud-anon ang lumba nga atong gisalmotan."
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">📦 1. Strip Off the Weights (Isalikway ang mga Kabug-at sa Espiritu)</div>
+            <p>Ang Pulong sa Dios nag-ingon nga adunay duha ka butang nga kinahanglan natong biyaan dinalian: ang Sala (*Sin*) ug ang Kabug-at (*Weights*). Ang kabug-at pwedeng dili sala sa iyang kaugalingon, apan kini mga butang nga nag-okupah sa imong huna-huna ug nagpahinay sa imong dagan sa espiritu. </p>
+            <p>Ang mga modernong kabug-at mao ang *overthinking*, grabeng kabalaka sa kwarta, kakulang sa pagsalig, o ang adiksyon sa screen ug social media (*Digital Altars*) nga mangawat sa imong oras para sa Warfare Prayer ug pagbasa sa Pulong. Kinahanglan nimong ihukas ug ibubo ang mga butang nga nagpaluya sa imong espiritu.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">⛓️ 2. Entangle Not with Persistent Sin (Guboon ang Sala nga Daling Mupilit)</div>
+            <p>Mao kini ang mga sekreto, tago, ug paborito nga kompromiso sa unod nga sige og balik-balik sa imong kinabuhi—sama sa sexual weakness (*Spirit of Bathsheba*), bakak ug pagpanglimbong sa label o panalapi sa negosyo, o ang pagdumot sa kasingkasing. </p>
+            <p>Kon dili nimo kini hinginlan ug bungkagon karong gabhiona, kini nga sala mahimong usa ka pisi sa kaaway nga mogapos ug moforce kanimo nga mapukan sa dili pa ka kaabot sa *finish line*. Ang kaputli sa tago mao ang mag-activate sa open heavens.</p>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🏃‍♂️ 3. Run with Endurance (Dagan uban ang Pagkamapailubon ug Disiplina)</div>
+            <p>Ang pagka-disipulo ug ang pag-alagad dili usa ka *sprint* (paspasay nga dagan sa mubo nga distansya); kini usa ka *marathon* (layog dagan nga nanginahanglan og pailob, disiplina, ug saktong pacing). Dili kini mahitungod sa kon kinsa ang pinaka-bida o pinaka-sikat karong semanaha, kondili mahitungod kini sa kon kinsa ang magpabilin nga nagbarug, putli, ug madasigon human sa napulo, kaluhaan, o kalim-an ka tuig!</p>
+            <div class="verse-box" style="margin: 10px 0;">
+                <strong>1 Corinto 9:24-25</strong> - "²⁴Wala ba kamo mahibalo nga kadtong nagadagan sa usa ka lumba nagadagan silang tanan, apan usa lamang ang makadawat sa ganti? Dagan kamo sa ingon nga pamaagi aron inyo kining maangkon. ²⁵Ug ang matag tawo nga nakigbisog alang sa kadaogan nagapugong sa kaugalingon sa tanang butang. Karon ilang ginabuhat kini aron makadawat sa usa ka purongpurong nga madunot; apan kita usa ka purongpurong nga dili madunot."
+            </div>
+        </div>
+
+        <div class="leader-insight">
+            <span class="insight-label">💡 LAWOM NGA INSIGHT PARA SA CELLGROUP LEADER (THE GREEK RUNNER MATRIX):</span>
+            Lider, ipasabut kini nga hait nga illustrasyon sa grupo: Sa karaan nga mga dula sa Grego, ang mananaog sa lumba dili lang kadto kasing-paspas nga nakaunang miabot sa finish line. Kadto lang **Runner** ang tagaan sa korona kansang **Torch (Sulo/Kalayo)** nagpabilin nga **Nagdilaab ug Siga** sa iyang pag-abot sa finish line! 
+            <br><br>
+            Kon nakauna ka sa finish line apan napalong ang imong kalayo sa dalan tungod sa kasuko o kompromiso, diskuwalipikado ka! Ang Dios wala lang nagtan-aw kon nakaabot ka—nagtan-aw Siya kon nagdilaab ba gihapon ang imong kalayo sa pagka-alagad ug paghigugma Kaniya hangtod sa katapusan!
+        </div>
+
+        <h2>II. Ang mga Kaatbang sa "Finishing Well" (The Finish Line Killers)</h2>
+        <p>Giunsa man sa kaaway pag-atake ang usa ka disipulo sa katapusang bahin sa iyang lumba aron kawaton ang iyang ganti? Atong bantayan kining tulo ka makamatay nga lit-ag:</p>
+        
+        <ul>
+            <li>🐍 <span class="highlight-text">1. The Spirit of Weariness and Burnout (Espiritu sa Kakapoy ug Katapolan - Python):</span> Kini mosulod sa emosyon kon mobati ka nga dugay na ka nag-alagad, dugay na ka nag-cellgroup, ug dugay na ka nag-ampo para sa breakthrough sa panalapi ug pamilya, apan morag hinay ang kausaban. Ang *Spirit of Python* mosulod pinaagi sa kakapoy aron pahuotan ang imong pagtuo hangtod nga mo-surrender ka ug mo-backout.
+                <div class="verse-box" style="margin: 10px 0;">
+                    <strong>Galacia 6:9</strong> - "Ug dili kita magtinapulan sa pagbuhat ug maayo: kay sa saktong panahon kita makaani gayod, kon kita dili magmaluyohon (faint)."
+                </div>
+            </li>
+            <li>💥 <span class="highlight-text">2. The Trap of Unforgiveness and Past Offenses (Kasuko ug Kapaitan sa Kagahapon):</span> Kini mao ang pagsige og karga ug bagotbot sa mga sakit, kahiubos, ug diskordya nga gihimo sa ubang tawo o kauban kanimo (*Spirit of Discord*). Ang kasuko ug kapaitan sama sa hilo nga imong gi-inom sa tago, apan naglaum ka nga ang laing tawo ang mamatay. Kon dili nimo kini hingeslan, kini ang mangawat sa imong anointing ug mag-disqualify kanimo.</li>
+            <li>👑 <span class="highlight-text">3. The Arrogance of "I Have Arrived" (Ang Garbo ni Leviathan):</span> Kini magsugod kon ang usa ka disipulo mag-focus na lang sa iyang mga agi sa una, ug mobati siya nga dugay na siya busa dili na niya kinahanglan magpa-tul-id, magpadisipulo, o maminaw sa iyang mga spiritual authorities. Ang garbo ni Leviathan maoy hinungdan ngano daghang mga gamhanang lider ang nahulog sa kaulaw sa katapusang bahin sa ilang dagan.</li>
+        </ul>
+
+        <h2>III. How to Ensure You Finish Well (Ang mga Discipleship Warfare Strategies)</h2>
+        <p>Aron kita makahuman nga madungganon ug maangkon ang tinuod nga kadaugan, ania ang tulo ka mga estratehiya gikan sa Pulong sa Dios:</p>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🎯 1. Fix Your Eyes Radically on Jesus (Itutok ang Imong Tan-aw sa Atong Haligi)</div>
+            <div class="verse-box">
+                <strong>Hebreohanon 12:2</strong>
+                "Itutok ta ang atong mga mata ngadto kang Jesus nga maoy gisandigan sa atong pagtuo ug tighingpit (finisher) niini. Wala Siya mosibog bisan pa sa Iyang pag-antos sa krus, ug wala Niya panumbalinga ang kaulaw niini, ug karon naglingkod Siya sa tuo sa trono sa Dios."
+            </div>
+            <p><strong>Application:</strong> Ayaw gayod itugot nga ang imong dagan matintal o mabag-o tungod sa isulti, sa gihimo, o sa kapakyasan sa laing tawo. Kon magtan-aw ka sa tawo, pwedeng mapakyas, madaot, o ma-offend ka. Si Hesus mao ang imong sumbanan, ug Siya ang naghulat kanimo sa *finish line* uban ang ganti. Kon mobati ka og kakapoy o kalibog, lingi pag-usab sa Iyang krus, ug padayon sa pagdagan uban ang kaisog!</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">🧼 2. Keep a Teachable and Submissive Heart (Pabilin nga Mapaubanon ug Alagad)</div>
+            <p><strong>Application:</strong> Bisan unsa ka dako sa imong kalampusan sa negosyo, o unsa ka taas ang imong agi ug posisyon sa ministeryo, pabilin nga usa ka disipulo nga adunay *teachability*. Pabilin nga andam maminaw, andam mo-alagad uban ang *Servant Heart*, ug andam magpatulod ug dinalian nga magmasugtanon sa Pulong sa Dios. Ang tinuod nga pagpaubos ug pagka-alagad mao ang labing lig-on nga taming batok sa matag unodnong lit-ag ni Satanas.</p>
+        </div>
+
+        <div class="counter-strategy">
+            <div class="counter-title">⚔️ 3. Release Daily Warfare Prayer for Spiritual Stamina (Gihinginlan ang Katapul ug Weariness)</div>
+            <div class="verse-box">
+                <strong>1 Corinto 15:58</strong>
+                "Busa, mga hinugugma kong mga igsoon, magpabilin kamo nga lig-on, dili matay-og, sa kanunay magmadagayaon sa buhat sa Ginoo, kamo nasayod nga ang inyong paghago diha sa Ginoo dili kawang (not in vain)."
+            </div>
+            <p><strong>Application:</strong> Gamita ang balaan nga awtoridad sa Ngalan ni Hesus aron hinginlan ang matag espiritu sa katapul, kakapoy, ug pag-surrender sa imong panamalay ug huna-huna. Sa imong Warfare Prayer karong gabhiona, i-proclaim kini uban ang kalayo sa Espiritu Santo: <strong>"Sa Gamhanang Ngalan ni Hesus, akong gihinginlan ug gipapahawa ang matag Spirit of Python, weariness, depresyon, ug kapakyasan sa akong kinabuhi! Akong ginasira ang akong kasingkasing batok sa mga kapaitan sa kagahapon. Akong i-proclaim nga daganon nako kining lumba uban ang kalayo sa Holy Spirit hangtod sa katapusan! Makahuman ako nga madungganon, ug maangkon nako ang dako nga Breakthrough ug korona sa kaluwasan nga giandam sa Ginoo para kanako! Amen!"</strong></p>
+        </div>
+
+        <h2>Conclusion & Call to Action: The Crown of Righteousness</h2>
+        <p>Mga igsoon diha sa Ginoo, kini ang tinuod ug malungtarong kalampusan! Walay mas nindot, mas tam-is, ug mas gamhanan pa paminawon sa tibuok spiritual realm kon sa imong pag-abot sa tiilan sa Dios, madungog nimo ang Iyang tingog nga nagaingon: **“Well done, my good and faithful servant!”** (Maayong pagkahimo, akong maayo ug matinumanon nga alagad!).</p>
+        
+        <p>Ayaw na gayod itugot nga ang imong pamilya, imong negosyo, ug ang dako nga anointing sa imong kinabuhi maguba o mapalong sa mga lit-ag sa unod ug sa kaaway sa tunga-tunga sa dalan. Ayaw na pagpadala sa kakapoy o sa kaguol karong semanaha. Momata kita gikan sa espirituhanong pagkatulog ug pagkahuyang. </p>
+        <p>Isulob ang tibuok Armor sa Dios, barug nga adunay kaisog ug kaputli hangtod sa katapusan, dagan uban ang kalayo, ug i-proclaim nato ang supernatural nga kalampusan, open heavens, kalinaw, ug hingpit nga dungog diha kay Kristo Hesus! Amen!</p>
+
+        <div class="action-card">
+            <h3>⚔️ DIREKTA NGA MANDATO ALANG SA KATAPUSANG CELLGROUP MINISTRATION (ACTIVATING THE FINISHER'S ANOINTING)</h3>
+            Lider, hangyua ang tibuok grupo. Ipa-piyong ang ilang mga mata, ipapandong ang ilang tuo nga kamot sa ilang kasingkasing, ug i-mando kining pag-ampo sa deliverance ug selyo sa Espiritu uban ang dako nga kaisog ug apostolikanhong awtoridad:
+            <br><br>
+            *“Sa Gamhanang Ngalan ni Hesus! Pinaagi sa awtoridad sa Dugo sa Kordero ug sa kalayo sa Espiritu Santo, among gihinginlan, gipukan, ug gipolbos karong gabhiona ang matag kuta sa weariness, burnout, kapaitan, ug ang huna-huna sa pag-surrender sa inyong mga kasingkasing! Akong gina-rebuke ang matag operasyon sa espiritu sa Python ug Leviathan nga misulay sa pagpalong sa inyong kalayo ug pag-disqualify kaninyo sa lumba.*
+            <br><br>
+            *Sa Ngalan ni Hesus, ginaselyohan ko ang inyong pagtuo, inyong kaminyoon, inyong cellgroup, ug inyong negosyo! Ginoo, ibubo ang tinuod nga 'Finisher's Anointing'—ang balaang stamina ug kalayo nga dili mapalong sa unos. Gideklara nako nga kamo makahuman nga madungganon, dinihogan, ug magmadaugon uban ang dako nga breakthrough ug maangkon ninyo ang korona sa pagkamatarong! Kamo mga selyado, aprobado, ug madasigong magmadaugon hangtod sa katapusan diha sa Ngalan ni Hesus! Amen, ug Amen!”*
+        </div>
+
+        <div class="questions-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Base sa atong natun-an gikan sa **2 Timoteo 4:7-8**, nganong giingon man nga ang tinuod nga kalampusan sa usa ka disipulo ug lider wala ginasukod sa iyang sinugdanan (*starting line*), kondili sa iyang pagpabilin nga putli ug matinumanon didto sa *finish line*? Unsa ang imong personal nga pagsabot niini?</li>
+                <li>Susiha ang **Hebreohanon 12:1**. Unsa man ang dako nga structural nga kalainan sa usa ka **Sala (Sin)** batok sa usa ka **Kabug-at (Weight)**? Unsa nga mga modernong *kabug-at* (sama sa *overthinking, kabalaka sa kwarta, o gadgets*) ang kinahanglan nimong ihukas sugod ugma aron dili mapahinay ang imong dagan sa espiritu?</li>
+                <li>Ipaambit sa grupo uban ang tiunay nga kasingkasing: Aduna ba kay dapit sa imong kinabuhi karon diin mibati ka og kakapoy (*weariness*) o mga kahiubos sa kagahapon nga misulay sa pagpalong sa imong kalayo? Unsa nga praktikal nga warfare strategy ug warfare prayer ang imong i-execute dinalian karong semanaha aron maseguro nga makahuman ka uban ang dako nga dungog?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>

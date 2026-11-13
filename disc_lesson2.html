@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ceb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discipleship Lesson 2: Rooted in the Word | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght=300;400;600;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background: linear-gradient(rgba(10, 25, 15, 0.92), rgba(5, 15, 10, 0.96)), 
+                        url('https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?q=80&w=1470&auto=format&fit=crop') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f5f2;
+            line-height: 1.8;
+        }
+
+        /* 🌐 MOBILE-FRIENDLY NAVIGATION WRAPPER (PREVENTS OVERLAPPING) */
+        .utility-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(46, 125, 50, 0.3);
+            padding-bottom: 20px;
+        }
+
+        #translate_wrapper {
+            background: rgba(16, 35, 24, 0.9);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #translate_wrapper span {
+            color: #ffd700;
+            font-size: 0.85rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+
+        .back-btn {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            border: 1px solid #ffd700;
+            transition: 0.3s;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        .back-btn:hover {
+            background: #ffd700;
+            color: black;
+            box-shadow: 0 0 10px #ffd700;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(16, 35, 24, 0.97);
+            border-radius: 20px;
+            border: 2px solid #2e7d32;
+            box-shadow: 0 0 35px rgba(46, 125, 50, 0.4);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+        }
+
+        .lesson-header {
+            text-align: center;
+            border-bottom: 2px dashed #2e7d32;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .lesson-header h1 {
+            color: #ffd700;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+        }
+        .lesson-header p {
+            font-size: 1.25rem;
+            color: #a4c2b0;
+            font-weight: bold;
+            margin: 0;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-size: 1.5rem;
+            border-left: 4px solid #2e7d32;
+            padding-left: 12px;
+            margin-top: 45px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.15rem;
+            text-align: justify;
+            color: #e2e8e4;
+        }
+
+        .verse-box {
+            background: rgba(46, 125, 50, 0.12);
+            border: 1px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            font-style: italic;
+            box-shadow: inset 0 0 10px rgba(46, 125, 50, 0.2);
+            font-size: 1.15rem;
+        }
+
+        .point-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(164, 194, 176, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .point-title {
+            font-size: 1.3rem;
+            color: #ffd700;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* 💡 LEADER INSIGHT DESIGN */
+        .leader-insight-box {
+            background: rgba(212, 175, 55, 0.06);
+            border-left: 4px solid #d4af37;
+            padding: 20px;
+            border-radius: 0 15px 15px 0;
+            margin: 25px 0;
+        }
+        .leader-insight-title {
+            color: #ffd700;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .highlight-text {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .action-card {
+            background: rgba(46, 125, 50, 0.18);
+            border-left: 4px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 1.1rem;
+        }
+
+        .discussion-box {
+            background: rgba(10, 20, 15, 0.85);
+            border: 1px solid #ffd700;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .discussion-box h3 {
+            margin-top: 0;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        ul, ol {
+            font-size: 1.15rem;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 14px;
+        }
+
+        /* 📱 RESPONSIVE ADJUSTMENT FOR MOBILE DEVICES */
+        @media (max-width: 600px) {
+            .utility-nav {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            #translate_wrapper {
+                justify-content: space-between;
+                width: 100%;
+            }
+            .back-btn {
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 15px;
+                margin: 10px auto;
+                border-radius: 10px;
+            }
+            .lesson-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    <!-- BCM Handbook App Icon / Install -->
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#06080c">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="BCM Handbook">
+    <style>#translate_wrapper{box-sizing:border-box!important;max-width:100%!important}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🌐 UTILITY NAV WRAPPER (PREVENTS OVERLAPPING ON MOBILE) -->
+        <div class="utility-nav">
+            <div id="translate_wrapper">
+                <span>🌐 Wika:</span>
+                <div id="google_translate_element"></div>
+            </div>
+            <a href="discipleship.html" class="back-btn">⬅️ Balik sa Listahan</a>
+        </div>
+
+        <div class="lesson-header">
+            <h1>LESSON 2: ROOTED IN THE WORD</h1>
+            <p>"Nakagamut sa Pulong sa Dios Alang sa Dili Matay-og nga Pagtuo"</p>
+        </div>
+
+        <div class="verse-box">
+            <strong>Salmo 1:1-3</strong> - "¹Bulahan ang dili mamati sa tambag sa mga daotan, o mosunod sa gibuhat sa mga makasasala, o makig-abin kanila nga wala moila sa Dios. ²Maoy iyang kalipay ang pagtuman sa Balaod sa Ginoo, ug nagtuon (meditates) siya niini adlaw ug gabii. ³Sama siya sa kahoy nga nagtubo daplin sa usa ka sapa, ug mamunga sa tingbunga ug ang dahon niini dili malaya. Sa tanan niyang buhaton siya magmalampuson."
+        </div>
+
+        <h2>Introduction: Ang Importansya ug Sekreto sa Gamot</h2>
+        <p>Adunay mga higanteng kahoy nga bisan pa ug kusog ug mabangis kaayo ang moabot nga bagyo o hangin, magpabilin silang nagtindog ug dili gayod matumba. Unsa man ang ilang sekreto? Kini tungod kay ang ilang mga gamot <em>(roots)</em> lawom, lapad, ug lig-on kaayo nga naga-angkla sa kahiladman sa yuta. Sila nanguha og sustansya didto sa dapit nga dili makita sa gawas.</p>
+        
+        <p>Ingon usab niini ang usa ka magtutuo sa iyang Kristohanong panaw. Kon ang atong kinabuhi dili nakagamut sa Pulong sa Dios, dali ra kaayo kita matumba, malaya, ug ma-anod kon moabot ang mga bagyo sa krisis, heresiya, ug emosyonal nga pagsulay. Ang pagka-disipulo nagkinahanglan og lawom nga pundasyon.</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">💡 LAWOM NGA PAGTUKI ALANG SA CELLGROUP LEADER (THE HEBREW WORD: HAGAH)</span>
+            Lider, ipasabut pag-ayo sa mga miyembro nga sa bersikulo 2, ang orihinal nga Hebreohanong pulong alang sa "nagtuon" o "meditates" mao ang **Hagah**. Kini nga pulong wala nagpasabut og hilom nga pagwagtang sa huna-huna sama sa pamalandong sa Sidlakang bahin sa kalibutan (Eastern meditation). Ang kahulugan sa *Hagah* mao ang **pagmulo, pag-usap pag-balik-balik, o paghimo og hinay nga tingog sama sa usa ka leon nga naglingkod ibabaw sa iyang napatay nga binuhat**, o sama sa usa ka baka nga nag-usap pag-usab sa iyang kinaon (*rumination*). Nagpasabut kini nga imong ginalitok, ginahunahuna, ug ginaluom og balik-balik ang Pulong sa Dios hangtod nga kini mosulod sa imong tibuok dugo ug sistema sa huna-huna.
+        </div>
+
+        <p>Sa atong teksto karon sa Salmo 1, giingnan kita nga ang usa ka tawo nga tinud-anay nga malipayon, bulahan, ug madasigon mao kadtong nagapuyo ug nagatunong sa Iyang mga prinsipyo. Atong tukiubon karon ang tulo ka seryoso nga bahin sa pagkamakagamut sa Pulong:</p>
+
+        <h2>I. Ang mga Kamatuoran sa Espirituhanong Pagkamakagamut</h2>
+
+        <div class="point-box">
+            <div class="point-title">🚨 1. The Danger of Being "Unrooted" (Ang Kakuyaw sa Taphaw nga Pagtuo)</div>
+            <p>Unsa man ang mahitabo sa usa ka tanom o kahoy kon kini walay lawom nga gamot? Sa panahon sa adlaw ug hulaw, dinalian kini nga malaya ug mamatay. Sa atong personal nga pagkinabuhi, kon dili kita mapuno sa adlaw-adlaw nga pagbasa ug pagkaon sa Bibliya, dali ra kaayo kitang mabiktima sa mga mosunod:</p>
+            <ul>
+                <li>📌 <span class="highlight-text">The Seduction of the World’s Advice:</span> Ang bersikulo 1 nagpasidaan batok sa "tambag sa mga daotan." Karon sa tuig 2026, ang tambag sa kalibutan kusog kaayong nagbubo pinaagi sa digital altars, social media, mga kanta, ug sekular nga pilosopiya. Kon wala kay lawom nga gamut sa kamatuoran, dali ra nimo makonsiderar nga husto ang sayop, ug maminaw ka sa mga tambag nga makaguba sa imong kaminyoon, negosyo, o kaputli.</li>
+                <li>📌 <span class="highlight-text">The Starvation of the Spirit:</span> Ingon si Hesus sa <strong>Mateo 4:4</strong>, <em>"Dili lang sa unodnong pagkaon mabuhi ang tawo, kondili sa matag pulong nga mogula sa baba sa Dios."</em> Kon dili ka mokaon og pisikal nga pagkaon sulod sa pipila ka adlaw, ang imong lawas maluya ug daling takdan sa sakit. Ingon ana sab sa espiritu—kon wala kay Pulong sa Dios, ang imong pagtuo mahimong taspok, ug dili nimo kayang pukanon ang mga atake ni Satanas.</li>
+            </ul>
+            <div class="leader-insight-box">
+                <span class="leader-insight-title">🌾 ANG PARABLE OF THE SOWER CONTEXT</span>
+                Ipahinumdom sa grupo ang gitudlo ni Hesus sa **Marcos 4:16-17** bahin sa liso nga natugpa sa batoon nga yuta. Sila kadto ang mga tawo nga dali kaayong nakadawat sa Pulong uban ang kalipay, apan **tungod kay wala silay gamut sa ilang kaugalingon**, milungtad lang sila og kadiyot. Sa dihang miabot ang kalisod ug paggukod tungod sa Pulong, dinalian silang nangatumba. Dili nato gusto nga ingon niana ang kahimtang sa atong mga cellgroup.
+            </div>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">❤️ 2. Delight over Duty (Kalipay, Dili lang Obligasyon)</div>
+            <p>Ang bersikulo 2 nag-ingon, <em>"Maoy iyang kalipay (delight) ang pagtuman sa Balaod sa Ginoo."</em> Daghang mga Kristohanon ang nagbasa sa Bibliya tungod lang kay duna silay "religiouse duty" o obligasyon aron dili sila makonsensya o aron dili sila masuko ang Dios kanila. Apan ang tinuod nga disipulo milapas na niana—nakakaplag siya og tiunay nga kalipay sa Pulong.</p>
+            <ul>
+                <li>📌 <span class="highlight-text">A Love Letter from the Creator:</span> Hunahunaa ang Bibliya dili isip usa ka libro sa mga bug-at nga patakaran, kondili isip usa ka buhing sulat sa gugma gikan sa imong Langitnong Amahan. Kon duna kay nadawat nga sulat gikan sa tawo nga imong gimahal pag-ayo, basahon ug usapon gayod nimo kini og balik-balik uban ang pahiyom, kay gusto nimo mahibalag ang iyang huna-huna. Ingon niana ang relasyon sa disipulo ngadto sa Bibliya.</li>
+                <li>📌 <span class="highlight-text">The Process of Meditation:</span> Ang pag-meditate nagpasabut nga wala ka nagdali-dali og scan sa mga pulong aron lang maka-check sa imong daily reading tracker. Nag-reflect ka, nagluom ka, ug nangutana ka: <em>"Ginoo, unsa man ang Imong buot isulti kanako karong adlawa sa akong pamilya, sa akong mga desisyon, ug sa akong negosyo pinaagi niini nga bersikulo?"</em> Dinhi magsugod ang pagbalhin sa Pulong gikan sa imong utok padulong sa imong kasingkasing.</li>
+            </ul>
+        </div>
+
+        <div class="point-box">
+            <div class="point-title">🍇 3. The Structural Promise of Fruitfulness (Ang Saad sa Dili Matay-og nga Kalamposan)</div>
+            <p>Ang bersikulo 3 naghatag kanato og usa ka dako ug supernatural nga deklarasayon: <em>"Sama siya sa kahoy nga nagtubo daplin sa usa ka sapa, ug mamunga sa tingbunga ug ang dahon niini dili malaya..."</em></p>
+            <ul>
+                <li>📌 <span class="highlight-text">Immunity to the Seasons of Drought:</span> Ang kahoy nga gitanom daplin sa buhing sapa wala nagdepende sa ulan gikan sa gawas. Bisan kon moabot ang grabe nga ting-init o hulaw sa palibot, ang iyang mga gamot nagpadayon og sipsip og buhing tubig sa ilawom, mao nga ang iyang mga dahon magpabilin nga lunhaw ug presko. Kon ikaw nakagamut sa Pulong, bisan kon moabot ang kakuwang sa ekonomiya, stress sa trabaho, o gubat sa pamilya, magpabilin kang naay kalinaw ug kalipay tungod kay ang imong tinubdan sa kalig-on anaa sa Gawasnon nga Tubig ni Kristo.</li>
+                <li>📌 <span class="highlight-text">Whatever He Does Prospers:</span> Kini nga saad wala nagpasabut nga dili ka makasugat og problema, o mahimo kang milyonaryo nga walay paghago. Nagpasabut kini nga ang matag desisyon nga gigiyahan sa Pulong sa Dios magdala og kalamposan nga adunay kalidad sa Dios—kalamposan nga naay kalinaw, proteksyon, ug prutas nga magpadayon hangtod sa sunod nga henerasyon.</li>
+            </ul>
+        </div>
+
+        <h2>II. Practical Strategies: Unsaon Pag-ugmad sa Atong Gamot?</h2>
+        <p>Ang pagpatubo sa gamot dili mahitabo sulod sa usa ka gabii pinaagi sa milagro; nagkinahanglan kini og tinuyo nga disiplina ug pagkamakanunayon <em>(consistency)</em>. Ania ang mga pamaagi sa pag-ugmad niini:</p>
+
+        <div class="action-card">
+            📅 <span class="highlight-text">1. Establish a Sacred Daily Schedule (Paggahin og Oras):</span> Pag-set og piho nga oras kada adlaw (labing maayo inig mata sa buntag sa dili pa gunitan ang uban nga buluhaton). Sugdi bisan 15 ka minutos. Dili kinahanglan nga dako kaayo dayon, ang labing importante mao ang pagka-makanunayon **(consistency)**. Ayaw itugot nga kawaton sa digital altars ang imong unang priority.
+        </div>
+        <div class="action-card">
+            📖 <span class="highlight-text">2. Read with a Systematic Plan (Sistematikong Pagbasa):</span> Ayaw pagbasa pinaagi sa pataka og abli sa Bibliya (*magic-abli method*). Sugdi sa mga Ebanghelyo (Mateo, Marcos, Lucas, Juan) aron imong makita ug masabtan ang tunob ug pamatasan ni Hesus, o sundi ang usa ka saktong Chronological Bible Reading Plan.
+        </div>
+        <div class="action-card">
+            📝 <span class="highlight-text">3. Apply the S.O.A.P. Method (Pagsulat ug Pag-meditate):</span> Gamita kini nga pamaagi sa pagtuon:
+            <br>• <strong>S (Scripture):</strong> Isulat ang bersikulo nga natandog sa imong kasingkasing.
+            <br>• <strong>O (Observation):</strong> Unsa ang imong nakita nga tinuod sa maong bersikulo?
+            <br>• <strong>A (Application):</strong> Unsaon nimo kini pagtuman sa imong kinabuhi karong adlawa?
+            <br>• <strong>P (Prayer):</strong> I-pray sa Ginoo nga hatagan ka og kusog nga matuman kini.
+        </div>
+        <div class="action-card">
+            🌿 <span class="highlight-text">4. Stay Accountable in the Cellgroup (Panaghiusa):</span> Ayaw pag-inusara sa imong pagtuon. Sa atong cellgroup, mag-ambitay kita sa mga perlas sa kamatuoran nga atong nakit-an. Ang pagka-akawntable sa usag-usa maoy makatabang aron magpabilin kitang lunhaw ug nagdilaab ang kadasig.
+        </div>
+
+        <h2>Conclusion & Call to Action: The Unshakable Disciple</h2>
+        <p>Mga igsoon sa Ginoo, ang tawo nga nagatugot sa iyang kaugalingon nga malubong sa Pulong sa Dios, dili basta-basta mapukan sa kaaway. Sa dihang miatake si Satanas kang Hesus didto sa kapatagan sa pagsulay, wala nakig-debate si Hesus gamit ang Iyang unodnong huna-huna—Iyang gipukan ang kaaway pinaagi sa pag-ingon: <strong>“Gisulat sa Kasulatan...”</strong> <small>(Lucas 4:4)</small>. Ang Pulong maoy atong espada ug atong taming!</p>
+        
+        <p>Ayaw na itugot nga ang imong pagtuo magdepende lang sa imong emosyon o sa nindot nga dagan sa kahimtang sa gawas. Pilia nga mamahimong usa ka magtutuo nga nakagamut pag-ayo. Putla ang matag tapol sa pagbasa sa Pulong. Barug karong gabhiona dinhi sa atong cellgroup, i-angkla ang imong pamilya ug mga plano sa kamatuoran, ug i-proclaim nato ang supernatural nga kalampusan ug kalig-on diha kay Kristo Hesus! Amen!</p>
+
+        <div class="leader-insight-box">
+            <span class="leader-insight-title">⚔️ DIREKTA NGA MANDATO PARA SA CELLGROUP MINISTRATION (THE ROOT ACTIVATION)</span>
+            Lider, taposa ang inyong cellgroup pinaagi sa pag-ampo sa usag-usa. Ibutang ang mga kamot sa abaga sa imong tupad: *“Sa Ngalan ni Hesus, akong ginabungkag ang matag kuta sa katapol, kalibog, ug espirituhanong kagutom sa inyong kinabuhi! Akong gina-rebuke ang matag liso sa kaaway nga nagdala og taphaw nga pagtuo. Gideklara nako nga ang inyong mga kasingkasing mahimong maayong yuta, ang inyong mga espirituhanong gamot mabaon sa kahiladman sa Pulong sa Dios, ug magpabilin kamo nga lunhaw, madasigon, ug mapasalamaton bisan sa taliwala sa mga hagit! Kamo magmaburungahon ug magmalampuson sa tanang buhaton diha sa Ngalan ni Hesus! Amen!”*
+        </div>
+
+        <div class="discussion-box">
+            <h3>❓ Mga Pangutana alang sa Lawom nga Diskusyon:</h3>
+            <ol>
+                <li>Sa imong matinud-anong pagtan-aw sa imong adlaw-adlaw nga kinabuhi karon, unsa ang pinakadako nga **hindrance (babag o kawatan sa oras)** ngano nga dili ka makabasa o makapamalandong sa Biblia sa saktong pagkamakanunayon? Unsaon nimo kini pagbuntog sugod ugma?</li>
+                <li>Ipaambit sa grupo: Aduna ba kay usa ka partikular nga bersikulo o istorya sa Bibliya nga nahimong imong dako nga "anchor" o kusog sa dihang miagi ka sa usa ka bug-at nga pagsulay o hulaw sa kinabuhi?</li>
+                <li>Unsa man ang usa ka praktikal nga baruganan nga imong gisaad karong gabhiona diha sa Ginoo aron masiguro nga ang imong pamilya ug panimalay magkauban nga makagamut sa Pulong sa Dios?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 🚀 GOOGLE TRANSLATE ENGINE CORE INTERFACE -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ceb',
+                includedLanguages: 'en,tl,ceb',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="bcm-bible.js" defer></script>
+</body>
+</html>
