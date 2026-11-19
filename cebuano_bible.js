@@ -10,127 +10,127 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Sa sinugdan gibuhat sa Dios ang mga langit ug ang yuta."
+                            "text": "Sa pagsugod sa Dios pagbuhat sa kalibotan ug sa tanang butang sa kalangitan,"
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang yuta awa-aw ug walay sulod; ug ang kangitngit diha sa ibabaw sa nawong sa kahiladman; ug ang Espiritu sa Dios naglihok sa ibabaw sa nawong sa mga tubig."
+                            "text": "ang kalibotan haw-ang ug walay hitsura. Ang kadagatan gitabonan sa kangitngit ug ang Espiritu sa Dios naglihok ibabaw sa katubigan. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug miingon ang Dios: Mahimo ang kahayag: ug dina ang kahayag."
+                            "text": "Unya miingon ang Dios, “Motungha ang kahayag.” Ug mitungha ang kahayag. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug nakita sa Dios ang kahayag nga kini maayo; ug gilain sa Dios ang kahayag gikan sa kangitngit."
+                            "text": "Nahimuot ang Dios sa kahayag nga iyang nakita ug gilain niya kini gikan sa kangitngit. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug gihinganlan sa Dios ang kahayag nga Adlaw, ug ang kangitngit gihinganlan niya nga Gabii: ug dihay kahaponon ug dihay kabuntagon, usa ka adlaw."
+                            "text": "Ginganlan niyag “Adlaw” ang kahayag ug ang kangitngit ginganlan niyag “Gabii.” Milabay ang kagabhion ug miabot ang kabuntagon. Mao kadto ang unang adlaw."
                         },
                         {
                             "verse": 6,
-                            "text": "Ug miingon ang Dios: Mahimo ang usa ka hawan sa taliwala sa mga tubig, ug pagabahinon niini ang mga tubig gikan sa mga tubig."
+                            "text": "Unya miingon ang Dios, “Motungha ang usa ka wanang nga magbahin sa katubigan.” Ug nahimo kini. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug gibuhat sa Dios ang hawan ug gilain ang mga tubig nga diha sa ilalum sa hawan gikan sa mga tubig nga diha sa ibabaw sa hawan; ug nahimo kini."
+                            "text": "Pinaagi sa gibuhat niyang wanang, gilain sa Dios ang tubig nga didto sa ibabaw gikan sa tubig nga dinhi sa ubos ug nahimo kini. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ug gihinganlan sa Dios ang hawan nga Langit. Ug dihay kahaponon ug dihay kabuntagon, adlaw nga ikaduha."
+                            "text": "Ginganlan niyag “Langit” ang wanang. Milabay na usab ang kagabhion ug miabot ang kabuntagon. Mao kadto ang ikaduhang adlaw."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug miingon ang Dios: Matingub ang mga tubig nga anaa sa ilalum sa mga langit ngadto sa usa ka dapit ug tumungha ang yuta nga mamala: ug nahimo kini."
+                            "text": "Unya miingon ang Dios, “Matingob sa usa lamang ka dapit ang tubig ubos sa langit aron motungha ang yutang mala.” Ug nahimo kini. "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug ang mamala nga dapit gihinganlan sa Dios nga Yuta; ug ang katilingban sa mga tubig iyang gihinganlan nga mga Dagat: ug nakita sa Dios nga kini maayo."
+                            "text": "Ginganlan sa Dios ug “Yuta” ang mala ug ang tubig nga nalain ginganlan niyag “Dagat.” Nakita sa Dios nga maayo ang iyang gibuhat. "
                         },
                         {
                             "verse": 11,
-                            "text": "Ug miingon ang Dios: Magpaturok ang yuta ug balili, talamnon nga magahatag ug binhi; ug himunga nga mga kahoy nga magahatag ug bunga ingon sa ilang matang diin anaa kaniya ang iyang binhi sa ibabaw sa yuta: ug nahimo kini."
+                            "text": "Unya miingon siya, “Moturok sa yuta ang nagkalainlaing mga tanom: kadtong may binhi ug kadtong mga kahoy nga mamunga.” Ug nahimo kini. "
                         },
                         {
                             "verse": 12,
-                            "text": "Ug ang yuta nagpaturok ug balili, talamnon nga nagahatag ug binhi, ingon sa ilang matang; ug mga kahoy nga nagahatag ug bunga, nga maoy binhi niini, ingon sa ilang matang, ug nakita sa Dios nga kini maayo."
+                            "text": "Busa miturok sa yuta ang tanang matang sa tanom. Nakita sa Dios nga maayo ang iyang gibuhat. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug dihay kahaponon ug dihay kabuntagon, adlaw nga ikatolo."
+                            "text": "Milabay na usab ang kagabhion ug miabot ang kabuntagon. Kadto mao ang ikatulong adlaw."
                         },
                         {
                             "verse": 14,
-                            "text": "Ug miingon ang Dios: Mahimo ang mga kahayag sa hawan sa langit aron sa pagbulag sa adlaw gikan sa gabii; ug himoa sila nga alang sa mga ilhanan, ug alang sa mga panahon, ug alang sa mga adlaw ug sa mga katuigan;"
+                            "text": "Unya miingon na usab ang Dios, “Motungha ang mga iwag diha sa langit nga maoy magbulag sa adlaw gikan sa gabii ug magpaila sa pagsugod sa mga adlaw ug sa mga tuig ug sa mahinungdanong mga panahon."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug himoa sila nga mga kahayag sa hawan sa langit aron sa paghatag ug kahayag sa ibabaw sa yuta: ug nahimo kini."
+                            "text": "Modan-ag kini sila sa kalangitan aron paghatag ug kahayag sa kalibotan.” Ug nahimo kini. "
                         },
                         {
                             "verse": 16,
-                            "text": "Ug gibuhat sa Dios ang duruha ka dagkung mga kahayag: ang labing dakung kahayag sa paghari sa adlaw ug ang labing diyutay nga kahayag sa paghari sa gabii; gibuhat usab niya ang mga bitoon."
+                            "text": "Busa gibuhat sa Dios ang duha ka dagkong iwag: ang adlaw nga maoy maghatag ug kahayag sa panahon sa adlaw ug ang bulan sa panahon sa gabii. Gibuhat usab niya ang mga bituon."
                         },
                         {
                             "verse": 17,
-                            "text": "Ug gibutang sila sa Dios sa hawan sa langit, aron magaiwag sa ibabaw sa yuta,"
+                            "text": "Gipahimutang sa Dios ang mga iwag diha sa langit aron magdan-ag sa kalibotan "
                         },
                         {
                             "verse": 18,
-                            "text": "Ug aron sa paghari sa adlaw ug sa gabii, ug aron sa pagbulag sa kahayag gikan sa kangitngit: ug nakita sa Dios nga kini maayo."
+                            "text": "ug maghatag ug kahayag sa adlaw ug sa gabii ug maglain sa kahayag gikan sa kangitngit. Nakita sa Dios nga maayo ang iyang gibuhat. "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug dihay kahaponon ug dihay kabuntagon, adlaw nga ikaupat."
+                            "text": "Unya milabay na usab ang kagabhion ug miabot ang kabuntagon. Kadto mao ang ikaupat nga adlaw."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug miingon ang Dios: Dumagsang sa mga tubig ang duot sa mga binuhat nga buhi, ug manglupad ang mga langgam sa ibabaw sa yuta diha sa hawan sa langit."
+                            "text": "Miingon na usab ang Dios, “Mapuno ang katubigan sa nagkalainlaing mga buhing mananap ug mapuno usab sa mga langgam ang kahanginan.” Ug nahimo kini. "
                         },
                         {
                             "verse": 21,
-                            "text": "Ug gibuhat sa Dios ang dagkung mga mananap, ug ang tanang mga binuhat nga buhi nga nagalihok nga mitungha sa mga tubig, ingon sa ilang matang ug ang tagsatagsa ka langgam nga pak-an, ingon sa iyang matang: ug nakita sa Dios nga kini maayo."
+                            "text": "Busa gibuhat sa Dios ang mga dagkong mananap sa kadagatan ug ang tanang matang sa mananap sa katubigan ug ang tanang matang sa langgam. Nakita sa Dios nga maayo ang iyang gibuhat. "
                         },
                         {
                             "verse": 22,
-                            "text": "Ug gipanalanginan sila sa Dios, nga nagaingon: Sumanay ug dumaghan kamo, ug pun-on ninyo ang mga tubig sa mga dagat, ug padaghanon ang mga langgam sa yuta."
+                            "text": "Unya gipanalanginan sa Dios ang mga mananap sa kadagatan ug giingnan, “Sanay kamo ug lukpa ninyo ang kadagatan!” Ngadto sa mga langgam miingon siya, “Sanay kamo!” "
                         },
                         {
                             "verse": 23,
-                            "text": "Ug dihay kahaponon ug dihay kabuntagon, adlaw nga ikalima."
+                            "text": "Ug milabay ang kagabhion ug miabot ang kabuntagon. Kadto mao ang ikalimang adlaw."
                         },
                         {
                             "verse": 24,
-                            "text": "Ug miingon ang Dios: Magpatubo ang yuta ug mga binuhat nga buhi ingon sa ilang matang, mga kahayopan, ug mga butang nga nakagamang sa yuta, ug mga mananap sa yuta ingon sa ilang matang: ug nahimo kini."
+                            "text": "Unya miingon ang Dios, “Motungha sa kalibotan ang nagkalainlaing mga mananap: mga kahayopan ug tanang matang sa mga ihalas nga mananap.” Ug nahimo kini. "
                         },
                         {
                             "verse": 25,
-                            "text": "Ug gibuhat sa Dios ang mga mananap sa yuta ingon sa ilang matang, ug ang kahayopan ingon sa ilang matang, ug ngatanan nga mananap nga nagakamang sa ibabaw sa yuta ingon sa ilang matang: ug nakita sa Dios nga kini maayo."
+                            "text": "Busa gibuhat niya ang tanang matang sa mga kahayopan ug mga ihalas nga mananap. Nakita sa Dios nga maayo ang iyang gibuhat ug nalipay siya."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug miingon ang Dios: Buhaton nato ang tawo sumala sa atong dagway, ingon sa kasama nato; ug magabuot sila sa mga isda sa dagat, ug sa mga langgam sa kalangitan, ug sa mga kahayopan, ug sa tibook nga yuta, ug sa tanan nga nagakamang sa ibabaw sa yuta."
+                            "text": "Unya miingon na usab ang Dios, “Buhaton nato ang tawo sama sa atong dagway. Sila maoy magbuot sa mga isda, sa mga langgam, sa mga kahayopan ug sa tanang ihalas nga mananap.”"
                         },
                         {
                             "verse": 27,
-                            "text": "Ug gibuhat sa Dios ang tawo sa iyang kaugalingong dagway, sa dagway sa Dios gibuhat niya sila, lalake ug babaye iyang gibuhat sila."
+                            "text": "Busa gibuhat sa Dios ang tawo, lalaki ug babaye, sama sa iyang dagway. "
                         },
                         {
                             "verse": 28,
-                            "text": "Ug gipanalanginan sila sa Dios, ug miingon ang Dios kanila: Sumanay ug dumaghan kamo, ug pun-on ninyo ang yuta, ug magagahum kamo niini, ug magbaton kamo sa pagbulot-an sa ibabaw sa mga isda sa dagat, ug sa mga langgam sa kalangitan, ug ibabaw sa tanan nga binuhat nga buhi nga nagalihok sa ibabaw sa yuta."
+                            "text": "Ug gipanalanginan sila sa Dios nga nag-ingon, “Panganak kamog daghan ug lukpa ang kalibotan sa inyong mga liwat ug dumalaha ang kalibotan. Kamoy magbuot sa mga isda ug sa mga langgam ug sa tanang ihalas nga mananap.”"
                         },
                         {
                             "verse": 29,
-                            "text": "Ug miingon ang Dios: Tan-awa, gihatagan ko kamo sa tanan nga balili nga nagahatag ug binhi, nga anaa sa ibabaw sa nawong sa tibook nga yuta, ug sa tanan nga kahoy nga may bunga sa kahoy nga nagahatag ug binhi, aron alang kaninyo kini mahimong kalan-on;"
+                            "text": "Unya miingon ang Dios, “Gihatag ko kaninyo ang tanang matang sa tanom nga may binhi ug ang tanang bunga sa kahoy aron inyong kan-on. "
                         },
                         {
                             "verse": 30,
-                            "text": "Ug sa tanan nga mananap sa yuta, ug sa tanang langgam sa kalangitan, ug sa tanang butang nga nagakamang sa ibabaw sa yuta, nga adunay kinabuhi, gihatag ko ang tanan nga balili nga lunhaw, aron ilang kan-on: ug nahimo kini."
+                            "text": "Gihatag ko usab sa tanang ihalas nga mananap ug sa kalanggaman ang mga tanom nga lunhaw aron ilang kan-on.” Ug nahimo kini. "
                         },
                         {
                             "verse": 31,
-                            "text": "Ug nakita sa Dios ang tanang butang nga iyang gibuhat, ug tan-awa, kini maayo kaayo. Ug dihay kahaponon ug dihay kabuntagon, adlaw nga ikaunom."
+                            "text": "Nakita sa Dios nga maayo gayod ang tanan nga iyang gibuhat ug nalipay kaayo siya. Milabay na usab ang kagabhion ug miabot ang kabuntagon. Ug kadto mao ang ikaunom nga adlaw."
                         }
                     ]
                 },
@@ -139,103 +139,103 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug nahuman ang mga langit ug ang yuta ug ang tibook nga panon kanila."
+                            "text": "Nahuman pagbuhat ang langit ug ang yuta ug ang tanang butang nga anaa niini. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug sa adlaw nga ikapito natapus sa Dios ang buhat nga iyang gihimo; ug mipahulay siya sa adlaw nga ikapito gikan sa tanan niyang mga buhat nga iyang nahimo."
+                            "text": "Sa  ikapitong adlaw, nahuman sa Dios ang tanan niyang gibuhat ug mipahulay siya gikan sa tanan niyang gibuhat. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug gipanalanginan sa Dios ang adlaw nga ikapito, ug nagbalaan niini; tungod kay niini nagpahulay siya gikan sa tanan niyang buhat nga gibuhat ug nahimo sa Dios."
+                            "text": "Gipanalanginan sa Dios ang ikapitong adlaw ug gibalaan niya kini kay sa maong adlaw natapos niya ang iyang pagpamuhat ug mipahulay siya gikan sa tanan niyang gibuhat."
                         },
                         {
                             "verse": 4,
-                            "text": "Kini mao ang mga sinugdan sa mga langit ug sa yuta, sa pagbuhat kanila, sa adlaw nga si Jehova nga Dios naghimo sa yuta ug sa langit."
+                            "text": "Ingon niini ang pagbuhat sa kalibotan ug sa tanan nga anaa sa langit. Sa pagbuhat sa Ginoong  Dios sa kalibotan ug sa tanang butang sa kalangitan,"
                         },
                         {
                             "verse": 5,
-                            "text": "Ug wala pay tanum sa kapatagan nga diha sa ibabaw sa yuta, ug wala pay tanum sa kapatagan nga misugod sa pagturok, kay si Jehova nga Dios wala pa magpaulan sa ibabaw sa yuta, ug wala pay tawo nga makauma sa yuta."
+                            "text": "wala pay mga tanom nga mitubo ug mga binhi nga miturok sa yuta kay wala pa man niya kini paulani ug wala pa may tawo nga makauma niini. "
                         },
                         {
                             "verse": 6,
-                            "text": "Apan dihay misaka nga gabon gikan sa yuta nga nagbubo sa tibook nga nawong sa yuta."
+                            "text": "Apan bisag walay ulan, diha nay tubig nga mitungha gikan sa ilalom sa yuta ug mipatubig niini."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug giumol ni Jehova nga Dios ang tawo gikan sa abog sa yuta, ug gihuypan niya sa mga buho sa iyang ilong sa gininhawa sa kinabuhi, ug ang tawo nahimong kalag nga may kinabuhi."
+                            "text": "Unya mikuha ang Ginoong Dios ug yuta ug nagbuhat siyag tawo gikan niini. Gihuypan niya ang buho sa ilong sa tawo sa gininhawa nga naghatag ug kinabuhi ug ang tawo nakabaton ug kinabuhi."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug si Jehova nga Dios nagbuhat ng usa ka tanaman sa silangan sa Eden ug gibutang niya didto ang tawo nga iyang giumol."
+                            "text": "Unya naghimo ang Ginoong Dios ug tanaman didto sa Eden, sa silangan ug gibutang niya didto ang tawo nga iyang gibuhat."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug nagpaturok si Jehova nga Dios gikan sa yuta sa tanan nga kahoy nga makapahimuot sa igtatan-aw, ug maayo nga kalan-on: ug ang kahoy usab nga sa kinabuhi diha sa taliwala sa tanaman, ug ang kahoy sa pag-ila sa maayo ug sa dautan."
+                            "text": "Gipatubo sa Ginoong Dios ang tanang matang sa mga kahoy nga maanindot ug mamungag mga bunga nga maayong kan-on. Sa taliwala sa tanaman diha ang kahoy nga naghatag ug kinabuhi ug ang kahoy nga naghatag ug kahibalo unsay maayo ug unsay daotan."
                         },
                         {
                             "verse": 10,
-                            "text": "Ug migula gikan sa Eden ang usa ka suba sa pagtubig sa tanaman ug gikan didto nabahin kini ug nahimong upat ka mga sanga."
+                            "text": "Gikan sa Eden midagayday ang usa ka suba nga maoy mipatubig sa tanaman, ug sa nasaylo na kini sa tanaman, ang suba nabahin sa upat. "
                         },
                         {
                             "verse": 11,
-                            "text": "Ang ngalan sa usa Pison: Kini mao ang nagalikos sa tibook nga yuta sa Habila nga didto adunay bulawan."
+                            "text": "Ang unang suba ginganlag Pison ug midagayday kini libot sa kayutaan sa Habila. "
                         },
                         {
                             "verse": 12,
-                            "text": "Ug ang bulawan niadtong yutaa maayo: didto usab may bdelio ug onyx nga bato."
+                            "text": "Makaplagan niining dapita ang lunsayng bulawan ingon man ang mga bato nga bedelyo ug sardonika nga pula. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug ang ngalan sa ikaduha ka suba Gihon: kini mao ang nagalikos sa tibook nga yuta sa Etiopia."
+                            "text": "Ang ngalan sa ikaduhang suba Gihon ug midagayday kini libot sa kayutaan sa Cus. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug ang ngalan sa ikatolo ka suba Hidekel: kini mao ang nagapadulong ngadto sa atbang sa Asiria. Ug ang ikaupat ka suba mao ang Eufrates."
+                            "text": "Ang ikatulong suba mao ang Tigris nga nagdagayday sa silangan sa Asiria. Ang ikaupat nga suba mao ang Eufrates."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug gikuha ni jehova nga Dios ang tawo ug gibutang siya tanaman sa Eden, aron kini iyang atimanon ug bantayan."
+                            "text": "Unya gibutang sa Ginoong Dios ang tawo sa tanaman sa Eden aron maoy mag-atiman ug magbantay niini. "
                         },
                         {
                             "verse": 16,
-                            "text": "Ug si Jehova nga Dios nagsugo sa tawo nga nagaingon: Makakaon ka sa tanan nga kahoy sa tanaman:"
+                            "text": "Giingnan niya ang tawo, “Makahimo ka pagkaon sa mga bunga sa tanang kahoy sa tanaman "
                         },
                         {
                             "verse": 17,
-                            "text": "Apan sa kahoy nga sa pag-ila sa maayo ug sa dautan, dili ka magkaon niini; kay sa adlaw nga mokaon ka niini, mamatay ka gayud."
+                            "text": "gawas sa kahoy nga naghatag sa kahibalo unsay maayo ug unsay daotan. Kon mokaon ka niini, nianang adlawa mamatay ka gayod.”"
                         },
                         {
                             "verse": 18,
-                            "text": "Ug miingon si Jehova nga Dios: Dili maayo nga ang tawo mag-inusara; pagabuhatan ko siya ug katabang nga angay kaniya."
+                            "text": "Unya miingon ang Ginoong Dios, “Dili maayo nga mag-inusara ang tawo. Himoan ko siyag kauban ug katabang nga angay kaniya.” "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug giumol ni Jehova nga Dios gikan sa yuta ang tanang mga mananap sa kapatagan, ug ang tanan nga langgam sa kalangitan, ug sila gidala niya kang Adam aron makita niya kong unsaon niya paghingalan kanila: ug ang tanan nga gihinganlan ni Adam sa mga mananap nga buhi, kana mao ang ngalan niini."
+                            "text": "Busa giumol niya gikan sa yuta ang tanang mananap ug langgam ug gidala niya sila ngadto sa tawo aron iyang nganlan. Bisag unsa ang ingalan sa tawo sa matag usa kanila mao na ang ngalan niini. "
                         },
                         {
                             "verse": 20,
-                            "text": "Ug gihatagan ni Adam ug mga ngalan ang tanan nga kahayopan ug ang mga langgam sa kalangitan ug ang tanan nga mga mananap sa kapatagan; apan alang kang Adam walay hingkaplagan nga katabang nga angay kaniya."
+                            "text": "Busa ginganlan sa tawo ang tanang kahayopan ug ang mga langgam ingon man ang ihalas nga mga mananap. Apan wala siyay nakit-an nga angayng ikauban ug katabang."
                         },
                         {
                             "verse": 21,
-                            "text": "Ug gipahinanok ni Jehova nga Dios si Adam ug nahakatulog siya; unya mikuha siya ug usa sa iyang mga gusok ug gitakpan niya ang unod sa dapit niini."
+                            "text": "Unya gipakatulog sa Ginoong Dios ang tawo ug samtang nahinanok siya, gikuhaan siya sa Ginoong Dios ug gusok ug gihulipan niya kinig unod. "
                         },
                         {
                             "verse": 22,
-                            "text": "Ug ang gusok nga gikuha ni Jehova nga Dios gikan sa tawo gibuhat niya nga usa ka babaye, ug iyang gidala siya ngadto sa lalake."
+                            "text": "Ang maong gusok gihimo niya nga usa ka babaye, ug gidala niya ang babaye ngadto sa lalaki. "
                         },
                         {
                             "verse": 23,
-                            "text": "Ug miingon si Adam: Kini mao karon ang bukog sa akong mga bukog, ug unod sa akong unod; siya paganganlan nga Babaye, kay gikuha siya gikan sa Lalake."
+                            "text": "Ug miingon ang lalaki, “Ania ra gayod ang sama kanako— bukog gikan sa akong bukog ug unod gikan sa akong unod. ‘Babaye’ ang ngalan niya kay gikuha man siya gikan sa lalaki.”"
                         },
                         {
                             "verse": 24,
-                            "text": "Tungod niini, ang lalake magabiya sa iyang amahan ug sa iyang inahan, ug moipon siya sa iyang asawa, ug sila mahimong usa ka unod."
+                            "text": "Tungod niini ang lalaki mobiya sa iyang amahan ug inahan ug motipon sa iyang asawa ug mausa sila."
                         },
                         {
                             "verse": 25,
-                            "text": "Ug silang duruha mga hubo, si Adam ug ang iyang asawa, ug sila wala mangaulaw."
+                            "text": "Silang duha pulos hubo apan wala sila maulaw."
                         }
                     ]
                 },
@@ -244,99 +244,99 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Karon, ang bitin malalangon labi pa kay sa ngatanan nga mga mananap sa kapatagan nga gibuhat ni Jehova nga Dios. Ug nag-ingon siya sa babaye: Diay, nag-ingon ang Dios: Dili kamo makakaon sa tanan nga mga kahoy sa tanaman?"
+                            "text": "Sa tanang mananap nga gibuhat sa Ginoong Dios, ang bitin mao ang labing limbongan. Gipangutana sa bitin ang babaye, “Gidid-an ba diay kamo sa Dios pagkaon sa bunga sa tanang kahoy sa tanaman?”"
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang babaye mitubag sa bitin: Makakaon kami sa bunga sa mga kahoy sa tanaman:"
+                            "text": "Mitubag ang babaye, “Makakaon kami sa mga bunga sa tanang kahoy sa tanaman "
                         },
                         {
                             "verse": 3,
-                            "text": "Apan sa bunga sa kahoy nga anaa sa taliwala sa tanaman, miingon ang Dios; Dili kamo magkaon niana, bisan maghikap niana, aron kamo dili mamatay."
+                            "text": "gawas sa kahoy nga anaa sa taliwala niini. Gidid-an kami sa Dios sa pagkaon ug bisan gani sa paghikap nianang kahoya. Kon supakon namo kini, mamatay kami.”"
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ang bitin miingon sa babaye: Dili gayud kamo mamatay."
+                            "text": "Miingon ang bitin, “Dili tinuod nga mamatay kamo!"
                         },
                         {
                             "verse": 5,
-                            "text": "Kay hingbaloan sa Dios, nga sa adlaw nga kamo mokaon niini mangabuka ang inyong mga mata, ug mahimo kamo nga sama sa Dios, nga manghibalo sa maayo ug sa dautan."
+                            "text": "Gisulti kini sa Dios kaninyo kay nasayod man gud siya nga kon mokaon kamo niini, maabli ang inyong salabotan ug mahisama kamo kaniya nga nasayod unsay maayo ug unsay daotan.”"
                         },
                         {
                             "verse": 6,
-                            "text": "Ug sa nakita sa babaye nga ang kahoy maayo nga kan-on ug nga kini makalipay sa mga mata, ug nga ang kahoy takus tinguhaon aron makapahimong makinaadmanon sa tawo, mikuha siya sa bunga niini ug mikaon; ug gihatagan usab niya ang iyang bana, kauban niya, ug mikaon siya."
+                            "text": "Sa pagkakita sa babaye nga ang maong kahoy maanindot kaayo ug laming kan-on ang bunga niini ug makapahimo kaniyang maalamon, mikuha siyag bunga ug gikaon niya kini. Unya gihatagan niya ang iyang bana ug mikaon usab siya. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug nangabuka ang mga mata nilang duha, ug sila nanghibalo nga sila mga hubo; ug nanagtahi sila sa mga dahon sa higuera, ug nanagbuhat ug mga tapis alang sa ilang kaugalingon."
+                            "text": "Pagkahuman gayod nilag kaon, naabli ang ilang salabotan ug nakita nila nga hubo diay sila. Busa naghimo silag mga tapis gikan sa mga dahon sa kahoyng igera aron itabon sa ilang lawas."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug hingdunggan nila ang tingog ni Jehova nga Dios nga nagalakaw sa tanaman sa kabugnaw sa adlaw, ug nanagtago ang tawo ug ang iyang asawa gikan sa atubangan ni Jehova nga Dios, sa taliwala sa mga kakahoyan sa tanaman."
+                            "text": "Sa pagsalop na sa adlaw, nadungog nila ang Ginoong Dios nga naglakaw sa tanaman busa mitago sila sa kakahoyan. "
                         },
                         {
                             "verse": 9,
-                            "text": "Ug si Jehova nga Dios nagtawag sa tawo, ug nag-ingon kaniya: Hain ka?"
+                            "text": "Apan ang lalaki gitawag sa Ginoong Dios, “Hain ka ba?”"
                         },
                         {
                             "verse": 10,
-                            "text": "Ug mitubag siya: Hingdunggan ko ang imong tingog sa tanaman, ug nahadlok ako, kay hubo ako, ug mingtago ako."
+                            "text": "Ang lalaki mitubag, “Nadungog ko ang imong paglakaw sa tanaman ug giabot akog kahadlok ug mitago ako kay hubo man ako.”"
                         },
                         {
                             "verse": 11,
-                            "text": "Ug miingon siya: Kinsa ba ang nag-ingon kanimo nga hubo ikaw? Mikaon ka ba sa kahoy nga gisugo ko kanimo nga dili mo pagakan-on?"
+                            "text": "“Kinsay nagsulti kanimo nga hubo ka?” nangutana ang Dios. “Mikaon ka ba sa bunga sa kahoy nga gidili ko kanimo?”"
                         },
                         {
                             "verse": 12,
-                            "text": "Ug ang tawo miingon: Ang babaye nga gihatag mo kanako nga akong igauban, siya naghatag kanako sa kahoy, ug mikaon ako."
+                            "text": "Ang lalaki mitubag, “Ang babaye nga gihatag mo kanako maoy naghatag kanako sa bunga sa maong kahoy ug mikaon ako niini.”"
                         },
                         {
                             "verse": 13,
-                            "text": "Ug si Jehova nga Dios nag-ingon sa babaye: Unsa kining imong gibuhat? Ug nag-ingon ang babaye: Ang bitin naglimbong kanako, ug mikaon ako."
+                            "text": "Ang Ginoong Dios nangutana sa babaye, “Nganong gibuhat mo man kini?” Ang babaye mitubag, “Giilad ako sa bitin busa mikaon ako niini.”"
                         },
                         {
                             "verse": 14,
-                            "text": "Ug si Jehova nga Dios nag-ingon sa bitin: Tungod kay ikaw nagbuhat niini, tinunglo ikaw labi pa kay sa tanan nga mga kahayopan, ug labaw sa tanan nga mga mananap sa kapatagan; sa imong tiyan magakamang ka, ug magakaon ikaw sa abog sa tanan nga mga adlaw sa imong kinabuhi."
+                            "text": "Ug ang Ginoong Dios miingon sa bitin, “Tungod niini silotan ka; ikaw lamang sa tanang mananap ang mahiagom niining tungloha: sukad karon magkamang ka na pinaagi sa imong tiyan ug magkaon ka nag abog sa tanang adlaw sa imong kinabuhi."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug ibutang ko ang panagkaaway sa taliwala mo ug sa babaye, ug sa taliwala sa imong kaliwat ug sa iyang kaliwat; siya magasamad sa imong ulo, ug ikaw magasamad sa iyang tikod."
+                            "text": "Himoon kong magkaaway ikaw ug ang babaye; ug mahimong kaaway ang imong kaliwat ug ang iyang kaliwat. Dugmokon niya ang imong ulo ug paakon mo usab ang iyang tikod.”"
                         },
                         {
                             "verse": 16,
-                            "text": "Nag-ingon siya sa babaye: Pagadaghanon ko sa hilabihan gayud ang imong mga kasakit ug ang imong mga pagpanamkon; ug sa may kasakit ikaw magapanganak ug mga anak; ug ang imong tinguha mao ang pagpangandoy sa imong bana, ug siya magabuot kanimo."
+                            "text": "Ug miingon siya sa babaye, “Dugangan ko ang imong kalisdanan inigpanamkon mo ug ang kasakit nga imong bation inigpanganak nimo; apan bisan pa niini, mangandoy ka gihapon sa imong bana ug siya maoy magbuot kanimo.”"
                         },
                         {
                             "verse": 17,
-                            "text": "Ug miingon siya kang Adam: Tungod kay gipatalinghugan mo ang tingog sa imong asawa, ug nagkaon ka sa kahoy nga gisugo ko kanimo sa pag-ingon: Dili ka magkaon niini: tinunglo ang yuta tungod kanimo; pinaagi sa kahago magakaon ka gikan niini sa tanang mga adlaw sa imong kinabuhi;"
+                            "text": "Unya miingon siya sa lalaki, “Tungod kay nagpadani ka man sa imong asawa ug mikaon sa bunga sa kahoy nga gidili ko kanimo, mahimong tinunglo ang yuta tungod sa imong gibuhat. Maghago ka pag-ayo sa tibuok mong kinabuhi una pa kini mohatag ug igong abot alang kanimo."
                         },
                         {
                             "verse": 18,
-                            "text": "Kini magapaturok usab kanimo ug mga sampinit ug mga kadyapa; ug magakaon ka sa mga hilamon sa kapatagan."
+                            "text": "Moturok sa yuta ang mga sampinit ug mga sagbot alang kanimo ug magkaon ka sa mga bunga sa mga tanom sa kapatagan."
                         },
                         {
                             "verse": 19,
-                            "text": "Sa singot sa imong nawong magakaon ikaw sa tinapay, hangtud nga mopauli ka sa yuta; tungod kay gikan niini gikuha ikaw; kay abog ka, ug sa abog ikaw mopauli."
+                            "text": "Magpatulo ka sa imong singot ug maghago pag-ayo una pa mohatag kanimog abot ang yuta hangtod mobalik ka sa yuta nga imong gigikanan. Hinimo ka gikan sa yuta ug sa yuta ka mopauli.”"
                         },
                         {
                             "verse": 20,
-                            "text": "Ug gihinganlan sa tawo ang ngalan sa iyang asawa si Eva, tungod kay siya mao ang inahan sa ngatanan nga adunay kinabuhi."
+                            "text": "Ginganlan sa lalaki ang iyang asawa ug Eva kay siya man ang inahan sa tanang mga tawo. "
                         },
                         {
                             "verse": 21,
-                            "text": "Ug si Jehova nga Dios nagbuhat alang kang Adam ug sa iyang asawa mga sinina nga panit, ug iyang gibistihan sila."
+                            "text": "Ug nagbuhat ang Ginoong Dios alang kang Adan ug kang Eva ug mga sapot nga panit sa mga mananap ug gibistihan niya sila."
                         },
                         {
                             "verse": 22,
-                            "text": "Ug miingon si Jehova nga Dios, Ania karon, ang tawo nahimo nga ingon nga usa kanato, sa pagkahibalo sa maayo ug sa dautan; ug karon, tingali unya ituy-od niya ang iyang kamot ug mokuha usab sa kahoy sa kinabuhi, ug mokaon, ug mabuhi sa gihapon"
+                            "text": "Unya miingon ang Ginoong Dios, “Karon ang tawo nahisama na kanato ug nahibalo na siya unsay maayo ug unsay daotan. Kinahanglan dili siya tugotan pagkaon sa bunga sa kahoy nga naghatag ug kinabuhi aron dili siya magpabiling buhi hangtod sa kahangtoran.” "
                         },
                         {
                             "verse": 23,
-                            "text": "Tungod niini gihinginlan siya ni Jehova nga Dios gikan sa tanaman sa Eden, aron sa pag-uma sa yuta nga gikuhaan kaniya."
+                            "text": "Busa gihinginlan sa Ginoong Dios ang tawo gikan sa tanaman sa Eden ug gipaugmad sa yuta nga iyang gigikanan. "
                         },
                         {
                             "verse": 24,
-                            "text": "Busa gipapahawa niya ang tawo, ug gibutang niya sa may silangan sa tanaman sa Eden ang mga querubin, ug ang siga sa usa ka espada nga nagalisoliso, aron sa pagbantay sa dalan sa kahoy sa kinabuhi."
+                            "text": "Gipapahawa sa Dios ang tawo ug gibutangan niya ang silangan sa tanaman sa Eden ug mga kerubin ug usa ka espada nga nagdilaab ug nagtuyoktuyok aron walay makaduol sa kahoy nga naghatag ug kinabuhi."
                         }
                     ]
                 },
@@ -22145,95 +22145,95 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Sa katapusan sa matag-pito ka tuig magapasaylo ka."
+                            "text": "“Inigkatapos sa matag pito ka tuig, kinahanglan nga papason ang tanang utang. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug kini mao ang paagi sa pagpasaylo: Ang tagsatagsa ka hing-utangan magapasaylo sa nautang kaniya sa iyang silingan; dili na niya pagapaninglon kini sa iyang silingan ug sa iyang igsoon; tungod kay gimantala na ang pasaylo ni Jehova."
+                            "text": "Kinahanglan nga dili na gayod paninglon sa giutangan ang tanang utang sa iyang isigka-Israelita kay mao man kini ang sugo sa Ginoo. "
                         },
                         {
                             "verse": 3,
-                            "text": "Sa dumuloong magapabayad ikaw; apan sa bisan unsa nga imo nga anaa sa imong igsoon, pagapasayloon sa imong kamot."
+                            "text": "Mahimong pugson mo pagpabayad ang langyaw apan kinahanglang papason nimo ang utang sa imong isigka-Israelita."
                         },
                         {
                             "verse": 4,
-                            "text": "Bisan pa niini walay kabus uban kanimo (kay si Jehova nga imong Dios magapanalangin kanimo gayud sa yuta nga gihatag kanimo alang sa usa ka pagkapanulondon aron magpanag-iya ka niini),"
+                            "text": "“Walay pobre kaninyo kay panalanginan man kamo sa Ginoo didto sa yuta nga iyang ihatag kaninyo "
                         },
                         {
                             "verse": 5,
-                            "text": "Kong magapatalinghug ka lamang nga masingkamuton sa tingog ni Jehova nga imong Dios, aron sa pagbantay sa pagtuman niining tibook nga sugo nga akong ginasugo kanimo niining adlawa."
+                            "text": "kon motuman kamo kanunay sa mga pulong sa Ginoo nga inyong Dios ug sa mga kasugoan nga akong gihatag karon kaninyo."
                         },
                         {
                             "verse": 6,
-                            "text": "Kay si Jehova nga imong Dios magapanalangin kanimo, ingon sa iyang gisaad kanimo, ug magapahulam ka sa daghan nga mga nasud, apan dili ikaw magahulam; ug magaginoo ka sa daghang mga nasud, apan kanimo dili sila magaginoo."
+                            "text": "Panalanginan kamo sa Ginoo nga inyong Dios sumala sa gisaad niya kaninyo. Daghang mga nasod ang manghulam kaninyo apan kamo dili manghulam. Mandoan ninyo ang daghang mga nasod apan sila dili magmando kaninyo."
                         },
                         {
                             "verse": 7,
-                            "text": "Kong diha kanimo may tawong kabus, usa sa imong mga igsoon, sa sulod sa bisan unsa sa imong mga ganghaan diha sa imong yuta nga gihatag kanimo ni Jehova nga imong Dios, dili mo pagapagahion ang imong kasingkasing, kun pagakomkomon ang imong kamot gikan sa imong igsoon nga kabus;"
+                            "text": "“Kon sa bisan diing lungsod sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios adunay kabos nga Israelita, ayaw pagdumili sa pagtabang kaniya. "
                         },
                         {
                             "verse": 8,
-                            "text": "Hinonoa pagabuklaron mo kaniya ang imong kamot, ug magatabang ka kaniya sa igo sa iyang kinahanglan sa butang nga iyang gitinguha."
+                            "text": "Kaluy-i siya ug pahulama siyag igo sa iyang gikinahanglan. "
                         },
                         {
                             "verse": 9,
-                            "text": "Magbantay ka nga wala sa imong kasingkasing ang mangil-ad nga hunahuna, nga magaingon: Haduol na ang tuig nga ikapito, ang tuig sa pagpasaylo; ug ang imong mata magadautan batok sa imong igsoon nga kabus, ug dili ka maghatag kaniya bisan siya magatu-aw kang Jehova batok kanimo ug kini mahimong sala nimo."
+                            "text": "Ayaw kamo pagdumili sa pagpahulam kaniya tungod lamang kay nagkaduol na ang tuig nga tingpapas sa utang. Kon buhaton ninyo kini motuaw siya ngadto sa Ginoo batok kanimo ug ang imong gibuhat isipon nga sala nimo."
                         },
                         {
                             "verse": 10,
-                            "text": "Sa walay duhaduha magahatag ikaw kaniya, ug ang imong kasingkasing dili magasubo sa diha nga magahatag ka kaniya: tungod kay mahitungod niining buhata magapanalangin kanimo si Jehova nga imong Dios sa tanan mong buhat, ug sa tanan nga pagabutangan sa imong kamot."
+                            "text": "Hatagi siya sa walay daghang kutikuti ug sa walay pagbagulbol aron panalanginan sa Ginoo ang tanan ninyong paningkamot."
                         },
                         {
                             "verse": 11,
-                            "text": "Kay dili mawala ang mga kabus gikan sa yuta; tungod niana, nagasugo ako kanimo, nga nagaingon: Pagabuklaron mo ang imong kamot sa imong igsoon, sa nagkinahanglan kanimo, ug sa imong kabus, diha sa imong yuta."
+                            "text": "Sa inyong nasod kanunay kamong may mga tawo nga kabos. Tungod niini nagsugo ako kaninyo sa pagtabang sa inyong isigka-Israelita nga kabos ug nagkalisodlisod."
                         },
                         {
                             "verse": 12,
-                            "text": "Kong igabaligya kanimo ang imong igsoon, usa ka Hebreohanon nga lalake, kun usa ka Hebreohanon nga babaye, ug magaalagad kanimo ug unom ka tuig; unya sa ikapito ka tuig pagapagawason mo siya nga dili ulipon."
+                            "text": "Kon ang imong isigka-Israelita, lalaki man o babaye, gibaligya ingon nga ulipon nganha kanimo kinahanglan nga mag-alagad siya kanimog unom ka tuig, apan sa ikapitong tuig buhii siya."
                         },
                         {
                             "verse": 13,
-                            "text": "Ug sa diha nga pagapagawason mo siya gikan kanimo nga dili ulipon, dili mo siya papahawaon nga walay dala."
+                            "text": "Ayaw siya palakta nga walay kabuhian. "
                         },
                         {
                             "verse": 14,
-                            "text": "Pagahatagan mo siya nga madagayaon gikan sa imong mga carnero, ug gikan sa imong giokanan, ug gikan sa dapit nga pagapug-anan sa mga ubas; ingon sa pagpanalangin ni Jehova kanimo, pagahatagan mo siya."
+                            "text": "Pabaloni siyag karnero, trigo o bino. Ingon nga gipanalanginan ka sa Ginoo, hatagi usab siya. "
                         },
                         {
                             "verse": 15,
-                            "text": "Ug hinumduman mo nga naulipon ka didto sa yuta sa Egipto, ug si Jehova nga imong Dios naglukat kanimo: busa ginasugo ko kini kanimo niining adlawa."
+                            "text": "Hinumdomi nga ulipon kamo didto sa Ehipto ug giluwas kamo sa Ginoo nga inyong Dios. Busa gisugo ko kamo karon pagbuhat niini."
                         },
                         {
                             "verse": 16,
-                            "text": "Ug mahatabo nga kong siya magaingon kanimo: Dili ako mopahawa gikan kanimo: tungod kay nahigugma siya kanimo: ug sa imong balay, tungod kay maayo siya kanimo;"
+                            "text": "“Kon dili siya gustong mopauli sa ila kay nahigugma man siya kanimo ug sa imong banay ug kontento na siya sa iyang kahimtang,"
                         },
                         {
                             "verse": 17,
-                            "text": "Unya ikaw magakuha ug usa ka hilihod, ug ihilihod mo kini sa iyang dalunggan ngadto sa pultahan, ug siya maulipon nimo sa walay katapusan. Mao usab kini ang pagabuhaton nimo sa imong binatonan nga babaye."
+                            "text": "dad-a siya sa pultahan sa imong balay ug didto tusoki ang iyang dalunggan ug mahimo siya nga imong ulipon sa tibuok niyang kinabuhi. Ingon usab niini ang buhata ngadto sa imong ulipon nga babaye. "
                         },
                         {
                             "verse": 18,
-                            "text": "Dili kini malisud alang kanimo, sa diha nga magahatag ka kaniya sa iyang kagawasan gikan kanimo; kay sa duruha ka pilo sa suhol sa sinuholan siya nag-alagad kanimo ug unom ka tuig: ug si Jehova nga imong Dios magapanalangin kanimo sa tanan nga imong pagabuhaton."
+                            "text": "Dili kamo angay magpanuko sa paghatag kaniyag kagawasan kay siya nakaalagad man kaninyo sulod sa unom ka tuig ug nakagasto lamang kamo ug katunga sa angay nga isuhol sa usa ka sulugoon. Kon buhaton ninyo kini panalanginan sa Ginoo nga inyong Dios ang tanan ninyong buhaton."
                         },
                         {
                             "verse": 19,
-                            "text": "Pagabalaanon mo alang kang Jehova nga imong Dios ang tanan nga mga panganay nga lake sa imong mga vaca ug sa imong mga carnero; dili ka magabuhat uban sa mga panganay nga lake sa imong mga vaca, ni pagaguntingan mo ang panganay nga lake sa imong mga carnero."
+                            "text": "“Igahin ninyo sa Ginoo nga inyong Dios ang laking panganay sa inyong mga baka ug karnero. Ayaw ninyo kini tupihi o gamita sa pagtrabaho. "
                         },
                         {
                             "verse": 20,
-                            "text": "Magakaon ka niini sa atubangan ni Jehova nga imong Dios sa tuigtuig, sa dapit nga pagapilion ni Jehova, ikaw ug ang imong panimalay."
+                            "text": "Kamo ug ang sakop sa inyong panimalay mokaon niini matag tuig atubangan sa Ginoo nga inyong Dios sa dapit nga pilion niya. "
                         },
                         {
                             "verse": 21,
-                            "text": "Ug kong adunay ikasaway kaniya, ingon nga siya buta kun piang, kun bisan unsa nga kulang, dili mo siya pag-ihalad kang Jehova nga imong Dios."
+                            "text": "Apan ayaw ninyo kini ihalad sa Ginoo nga inyong Dios kon kini may tatsa: buta o piang o bisan unsang matang sa tatsa. "
                         },
                         {
                             "verse": 22,
-                            "text": "Magakaon ka niini sa sulod sa imong mga ganghaan: ang mahugaw ug ang mahinlo magakaon niini nga managsama ingon sa usa ka corzo ug ingon sa usa ka lagsaw."
+                            "text": "Mahimo ninyo kining kaonon didto sa inyong lungsod. Ang hinlo o ang hugaw pareho nga makakaon niini sama nga kini karne sa osa o lagsaw. "
                         },
                         {
                             "verse": 23,
-                            "text": "Mao lamang nga dili mo pagakan-on ang dugo niini; igayabo mo kini sa ibabaw sa yuta ingon sa tubig."
+                            "text": "Apan ayaw gayod ninyo kan-a ang dugo niini. Ibubo hinuon kini nga daw tubig ngadto sa yuta."
                         }
                     ]
                 },
@@ -22242,91 +22242,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Saulogon mo ang bulan sa Abib, ug bantayi ang pasko alang kang Jehova nga imong Dios: kay sa bulan sa Abib. gikuha ikaw ni Jehova nga imong Dios gikan sa Egipto sa gabii."
+                            "text": "“Himoa ninyo ang Kasaulogan sa Pagsaylo alang sa Ginoo nga inyong Dios sa bulan sa Abib kay sa usa niana ka gabii sa maong bulan gikuha kamo sa Ginoo nga inyong Dios gikan sa Ehipto. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug maghalad ka sa pasko kang Jehova nga imong Dios, gikan sa mga carnero ug gikan sa mga vaca; sa dapit nga pagapilion ni Jehova nga papuy-an sa iyang ngalan."
+                            "text": "Pag-ihaw kamog karnero o baka ingon nga pasidungog sa Ginoo nga inyong Dios aron kan-on sa panahon sa Kasaulogan sa Pagsaylo. Adto kini ihawa sa dapit nga ampoanan."
                         },
                         {
                             "verse": 3,
-                            "text": "Dili ka magkaon uban niini ug tinapay nga adunay levadura; sa pito ka adlaw magakaon ka uban kaniya ug tinapay nga walay levadura, bisan tinapay sa kaguol, kay sa madali migula ka gikan sa yuta sa Egipto, aron nga mahinumdum ka sa adlaw nga migula ka gikan sa yuta sa Egipto sa tanan nga mga adlaw sa imong kinabuhi."
+                            "text": "Kan-a ninyo kini uban sa pan nga walay patubo. Buhata ninyo kini sulod sa pito ka adlaw kay kini maoy simbolo sa inyong mga pag-antos kay midali man kamo pagbiya sa Ehipto. Kini magpahinumdom kaninyo sa tibuok ninyong kinabuhi sa adlaw nga maoy inyong pagbiya sa Ehipto. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug walay levadura nga hikit-an uban kanimo sa tibook mo nga utlanan sa pito ka adlaw; ni sa unod nga imong pagaihawon sa hapon sa nahaunang adlaw, nga igabilin sa tibook gabii hangtud sa pagkabuntag."
+                            "text": "Kinahanglan nga walay magbaton ug patubo sa tibuok nasod sulod sa pito ka adlaw ug kinahanglan nga walay pabuntagan nga karneng gihalad sa gabii sa unang adlaw."
                         },
                         {
                             "verse": 5,
-                            "text": "Dili ka makahalad sa pasko sa bisan diin sulod sa imong mga ganghaan nga gihatag kanimo ni Jehova nga imong Dios;"
+                            "text": "Ayaw ninyo ihawa ang hayop nga halad sa Kasaulogan sa Pagsaylo didto sa mga lungsod nga ihatag kaninyo sa Ginoo nga inyong Dios "
                         },
                         {
                             "verse": 6,
-                            "text": "Kondili sa dapit nga pagapilion ni Jehova nga imong Dios, aron pagapuy-an sa iyang ngalan, magahalad ka sa pasko sa hapon sa pagkatunod sa adlaw, sa panahon nga migula ka gikan sa Egipto."
+                            "text": "kondili sa dapit lamang nga iyang pilion ingon nga dapit nga ampoanan. Ihawa ug ihalad kini inigsalop sa adlaw nga maoy panahon sa pagbiya ninyo sa Ehipto. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug igasugba mo siya ug pagakan-on mo sa dapit nga pagapilion ni Jehova nga imong Dios: ug sa pagkabuntag bumalik ka ug pumauli sa imong mga balong-balong."
+                            "text": "Lutoa ug kan-a ninyo kini sa dapit nga pilion sa Ginoo nga inyong Dios ug sa pagkabuntag pamauli kamo sa inyo. "
                         },
                         {
                             "verse": 8,
-                            "text": "Sa unom ka adlaw magakaon ka ug mga tinapay nga walay levadura, ug sa ikapito ka adlaw mao ang balaan nga pagkatigum kang Jehova nga imong Dios: dili ka magbuhat ug bulohaton niana."
+                            "text": "Kinahanglan nga ang kan-on ninyo sulod sa unom ka adlaw mao ang pan nga walay patubo ug sa ikapitong adlaw panimba kamo sumala sa gisugo kaninyo sa Ginoo nga inyong Dios. Ayaw kamo pagtrabaho nianang adlawa."
                         },
                         {
                             "verse": 9,
-                            "text": "Pito ka semana pagaisipon mo alang kanimo: sukad nga magasugod ang paggalab sa mga uhay magasugod sa pag-isip sa pito ka semana."
+                            "text": "“Pag-ihap kamog pito ka semana sukad sa pagsugod sa pagpangani. "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug magabantay ka ug fiesta sa mga semana kang Jehova nga imong Dios uban ang halad-nga-kinabubut-on sa imong kamot nga imong igahatag, ingon sa gipanalangin kanimo ni Jehova nga imong Dios."
+                            "text": "Unya himoa ninyo ang Kasaulogan sa Pagpangani aron pagpasidungog sa Ginoo nga inyong Dios. Pagdala kamog mga halad nga kinabubut-on sumala sa panalangin nga inyong nadawat."
                         },
                         {
                             "verse": 11,
-                            "text": "Ug magakalipay ka sa atubangan ni Jehova nga imong Dios, ikaw, ug ang imong anak nga lalake, ug ang imong anak nga babaye, ug ang imong ulipon nga lalake, ug ang imong ulipon nga babaye, ug ang Levihanon nga anaa sa sulod sa imong mga ganghaan ug ang dumuloong, ug ang ilo sa amahan ug ang balo nga babaye, nga anaa sa taliwala mo, sa dapit nga pagapilion ni Jehova nga imong Dios aron pagapapuy-an sa iyang ngalan."
+                            "text": "Sa atubangan sa Ginoo pagmalipayon kamo ingon man ang tanang sakop sa inyong banay uban sa mga Levita nga anaa magpuyo sa inyong lungsod ug sa mga langyaw, mga ilo ug mga biyuda. Adto kini himoa sa dapit nga alampoanan."
                         },
                         {
                             "verse": 12,
-                            "text": "Ug hinumduman mo nga naulipon ka sa Egipto: ug magbantay ka ug pagatumanon mo kini nga kabalaoran."
+                            "text": "Hinumdomi nga naulipon kamo didto sa Ehipto busa tumana gayod kining mga sugoa."
                         },
                         {
                             "verse": 13,
-                            "text": "Magbantay ka sa fiesta sa mga tabernaculo sa pito ka adlaw, sa human mabuhat mo ang pag-ani sa imong panuig ug sa imong dapit nga pagapug-anan sa mga ubas."
+                            "text": "“Himoa ang Kasaulogan sa mga Balongbalong sulod sa pito ka adlaw human sa ting-ani. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug magakalipay ka sa imong fiesta, ikaw, ug ang imong anak nga lalake, ug ang imong anak nga babaye ug ang imong ulipon nga lalake, ug ang imong ulipon nga babaye, ug ang Levihanon, ug ang dumuloong, ug ang ilo sa amahan, ug ang balo nga babaye nga anaa sa sulod sa imong mga ganghaan."
+                            "text": "Kamo ug ang tanang sakop sa inyong banay lakip ang mga Levita ug ang mga langyaw, ang mga ilo ug ang mga biyuda nga anaa namuyo sa inyong lungsod kinahanglan nga malipayon nga magsaulog niini."
                         },
                         {
                             "verse": 15,
-                            "text": "Sulod sa pito ka adlaw pagabuhaton mo ang fiesta kang Jehova nga imong Dios sa dapit nga pagapilion ni Jehova; kay magapanalangin kanimo si Jehova nga imong Dios sa tanan mong mga abut ug sa tanan nga buhat sa imong mga kamot, ug magamalipayon ka gayud."
+                            "text": "Himoa ninyo ang maong kasaulogan pahinungod sa Ginoo nga inyong Dios sulod sa pito ka adlaw didto sa dapit nga ampoanan kay panalanginan man niya ang tanan ninyong paningkamot aron magmalipayon kamong tanan."
                         },
                         {
                             "verse": 16,
-                            "text": "Sa makatolo sa usa ka tuig ang tanan mong mga lalake magapakita sa atubangan ni Jehova nga imong Dios, sa dapit nga pagapilion niya; sa fiesta sa mga tinapay nga walay levadura ug sa fiesta sa mga semana, ug sa fiesta sa mga tabernaculo. Ug dili ka magapakita nga walay dala sa atubangan ni Jehova:"
+                            "text": "“Ang tanang lalaki ninyo kinahanglan nga moadto sa ampoanan aron pagsimba sa Ginoo katulo sa usa ka tuig: sa Kasaulogan sa Pagsaylo, sa Kasaulogan sa Pagpangani ug sa Kasaulogan sa mga Balongbalong. Kinahanglan nga dili sila moadto sa alampoanan kon wala silay dalang halad."
                         },
                         {
                             "verse": 17,
-                            "text": "Ang tagsatagsa ka tawo magahatag sa iyang hing-arangan, ingon sa panalangin ni Jehova nga imong Dios nga gihatag kanimo."
+                            "text": "Kinahanglan nga ang matag usa magdalag halad sumala sa panalangin nga iyang nadawat gikan sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 18,
-                            "text": "Mga maghuhukom ug mga punoan sa lungsod igabutang mo sa tanan mo nga mga ganghaan nga igahatag kanimo ni Jehova nga imong Dios, sumala sa imong mga banay; ug sila magahukom sa katawohan sa matarung nga paghukom."
+                            "text": "“Pagtudlo kamog mga maghuhukom ug mga opisyal gikan sa matag usa ninyo ka banay sa tanang lungsod nga ihatag kaninyo sa Ginoo nga inyong Dios. Ang ilang katungdanan mao ang paghatag ug hustisya ngadto sa katawhan. "
                         },
                         {
                             "verse": 19,
-                            "text": "Dili mo tuison ang katarungan; dili ka magpili ug mga tawo; dili ka usab magdawat ug hiphip; kay ang hiphip nagabuta sa mga mata sa mga makinaadmanon, ug nagabalit-ad sa mga pulong sa mga tawong matarung."
+                            "text": "Kinahanglan nga dili nila tuison ang hustisya o magpakitag pagdapig o modawat ug suborno kay ang suborno makabuta sa maalamon ug mohikaw sa katungod sa matarong. "
                         },
                         {
                             "verse": 20,
-                            "text": "Kadto lamang matarung ang imong pagsundon, aron mabuhi ka, ug magapanunod ka sa yuta nga ginahatag kanimo ni Jehova nga imong Dios."
+                            "text": "Busa ang hustisya lamang maoy sunda aron magpadayon kamo sa pagpanag-iya sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 21,
-                            "text": "Dili ka magtanum ug kakahoyan sa bisan unsa nga kahoy nga haligi tupad sa halaran ni Jehova nga imong Dios nga imong pagabuhaton alang kanimo."
+                            "text": "“Ayaw kamo pag-ugbok ug kahoy nga inyong simbahon tupad sa halaran nga gihimo ninyo alang sa Ginoo nga inyong Dios "
                         },
                         {
                             "verse": 22,
-                            "text": "Dili ka usab magpatindog ug larawan alang kanimo; nga ginadumtan ni Jehova nga imong Dios."
+                            "text": "o pagpatindog ug haliging bato kay kining mga butanga gikasilagan niya."
                         }
                     ]
                 },
@@ -22335,83 +22335,83 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Dili ka maghalad kang Jehova nga imong Dios ug vaca kun carnero, nga adunay ikasaway, kun bisan unsa nga dautan, kay kana butang nga dulumtanan kang Jehova nga imong Dios."
+                            "text": "“Ayaw kamo paghalad sa Ginoo nga inyong Dios ug baka ug karnero nga may tatsa kay dili siya gusto niini."
                         },
                         {
                             "verse": 2,
-                            "text": "Kong may hikaplagan sa taliwala mo sa sulod sa bisan unsa sa imong mga ganghaan nga ginahatag kanimo ni Jehova nga imong Dios, lalake kun babaye, nga nagabuhat sa dautan sa mga mata ni Jehova nga imong Dios, sa paglapas sa iyang tugon,"
+                            "text": "“Kon sa inyong lungsod may makasala sa Ginoo nga inyong Dios o maglapas sa kasabotan "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug miadto ug mialagad sa laing mga dios, ug misimba kanila, kun sa adlaw kun sa bulan, kun sa bisan unsa sa panon sa langit, nga wala ko isugo,"
+                            "text": "pinaagi sa pagsimba sa laing mga dios o sa adlaw o sa bulan o sa mga bituon, "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug igapahibalo kanimo, ug ikaw nakadungog niini; unya, magasusi ikaw nga masingkamuton, ug, ania karon, kong kini matuod, ug ang butang tinuod, nga ang maong dulumtanan ginabuhat diha sa Israel,"
+                            "text": "kinahanglan nga inyo kining susihon pag-ayo. Kon tinuod nga nahimo ang maong ngil-ad nga butang sa Israel, "
                         },
                         {
                             "verse": 5,
-                            "text": "Unya pagadad-on mo kanang lalake kun kanang babaye, nga nagbuhat niining dautan nga butang, ngadto sa imong mga ganghaan, ang lalake kun ang babaye, ug pagabun-on mo sila sa mga bato hangtud nga mamatay."
+                            "text": "dad-a ninyo sa gawas sa lungsod ang maong tawo ug batoa ninyo siya hangtod mamatay."
                         },
                         {
                             "verse": 6,
-                            "text": "Tungod sa pulong sa duruha ka mga saksi, kun sa totolo ka mga saksi, pagapatyon ang kinahanglan mamatay; dili siya mamatay tungod sa pulong sa usa lamang ka saksi."
+                            "text": "Mahimong patyon ang tawo human kapamatud-i nga sad-an siya pinaagi sa duha o tulo ka saksi apan dili siya mahimong patyon kon usa ray mosaksi batok kaniya. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ang mga kamot sa mga saksi mao ang una nga idapat kaniya sa pagpatay kaniya, ug sa human niini, ang mga kamot sa tanan nga katawohan. Busa pagakuhaon mo ang dautan sa taliwala mo."
+                            "text": "Ang mga saksi maoy mouna pagbato kaniya ug unya mosunod ang tibuok lungsod. Kinahanglan nga wagtangon ninyo ang daotan gikan sa inyong lungsod."
                         },
                         {
                             "verse": 8,
-                            "text": "Kong may moabut nga butang nga malisud kanimo sa paghukom, sa taliwala sa dugo ug dugo, sa taliwala sa hangyo ug hangyo, ug sa taliwala sa bunal ug bunal, sa mga butang sa pagkalalis sa sulod sa imong mga ganghaan, unya motindog ka, ug moadto ka sa dapit nga pagapilion ni Jehova nga imong Dios;"
+                            "text": "“Kon may kaso nga lisod hukman sa maghuhukom sa usa ka lungsod sama pananglit sa kaso nga may kalabotan sa pagpatay o sa pagparegla o sa katungod sa usa ka lumolupyo, pangadto kamo sa dapit nga ampoanan nga pilion sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug moadto ka sa mga sacerdote nga Levihanon, ug sa maghuhukom niadtong mga adlawa, ug magapangutana ka; ug ilang igatudlo kanimo ang sentencia sa paghukom."
+                            "text": "Pangadto kamo sa kaparian sa banay ni Levi ug sa maghuhukom nga atua didto ug adto kamo magpakisayod kanila. Sultihan kamo nila sa ilang hukom "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug pagabuhaton mo sumala sa hukom nga igatudlo nila kanimo nga gikan niadtong dapit nga pagapilion ni Jehova; ug pagamatngonan mo ang pagbuhat sumala sa tanan nga ilang igatudlo kanimo:"
+                            "text": "ug tumana ninyo ang ilang isulti. "
                         },
                         {
                             "verse": 11,
-                            "text": "Ingon sa kahulogan sa Kasugoan nga ilang igatudlo kanimo, ug ingon sa paghukom nga ilang igaingon kaninyo, pagabuhaton mo; dili ka motipas gikan sa hukom nga ilang igapahayag kanimo, bisan sa too, bisan sa wala."
+                            "text": "Buhata gayod ang tanan nilang ipabuhat kaninyo ug ang ilang hukom."
                         },
                         {
                             "verse": 12,
-                            "text": "Ug ang tawo nga palabilabihon, nga dili magatuman sa sacerdote nga anaa sa pag-alagad didto sa atubangan ni Jehova nga imong Dios, kun sa maghuhukom, bisan pa ang maong tawo mamatay: ug pagakuhaon mo ang dautan sa Israel."
+                            "text": "Kinsa kadtong dili motuman sa maghuhukom o sa pari nga atua didto, kinahanglang patyon. Kinahanglang limpyohan ninyo ang Israel sa daotan. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug ang tibook nga katawohan magapatalinghug, ug mahadlok ug dili na magapalabilabi."
+                            "text": "Inigkabalita sa tanan bahin niini, mangahadlok sila ug dili na gayod mousab sa pagsupil."
                         },
                         {
                             "verse": 14,
-                            "text": "Kong mahiabut ka na sa yuta nga gihatag kanimo ni Jehova nga imong Dios, ug magatag-iya niini ug magapuyo niini, ug moingon: Magabutang ako ug hari sa ibabaw nako, sama sa tanan nga mga nasud nga nagalibut kanako;"
+                            "text": "“Inig-abot ninyo sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios, panag-iyaha ninyo kini ug puyo kamo didto. Unya inigpili na ninyog hari aron mangulo kaninyo, sama sa gibuhat sa tanang nasod nga kasikbit ninyo, "
                         },
                         {
                             "verse": 15,
-                            "text": "Sa walay duhaduha igabutang mo nga hari sa ibabaw mo ang pagapilion ni Jehova nga imong Dios; usa gikan sa imong mga igsoon nga lalake maoy imong ibutang nga hari sa ibabaw mo: dili ka magbutang sa ibabaw mo ug tawo nga dumuloong, nga dili imong igsoon nga lalake."
+                            "text": "kinahanglan nga maoy inyong piliong hari ang tawo nga pilion sa Ginoo. Kinahanglan nga ang inyong pilion inyo rang kadugo. Ayaw gayod kamo pagpili ug dili Israelita. "
                         },
                         {
                             "verse": 16,
-                            "text": "Apan dili siya magapadaghan ug mga kabayo alang kaniya, ni pabalikon niya ang katawohan ngadto sa Egipto aron sa pagpadaghan ug mga kabayo; kay si Jehova nag-ingon kaninyo; Dili na kamo mobalik pag-usab nianang dalana."
+                            "text": "Kinahanglan nga dili niya dugangan ang iyang mga kabayo o magsugo siyag mga Israelita sa pagbalik sa Ehipto aron pagpalit ug mga kabayo kay gipasidan-an na kamo sa Ginoo nga dili na gayod mobalik didto. "
                         },
                         {
                             "verse": 17,
-                            "text": "Ni magadaghan siya ug mga asawa aron ang iyang kasingkasing dili mobulag: dili usab siya magapadaghan pag-ayo alang kaniya sa salapi ug bulawan."
+                            "text": "Kinahanglan nga dili siya mangasawag daghan aron dili mahimong daotan ang iyang panghunahuna. Kinahanglan nga dili siya magbaton ug daghang salapi ug bulawan."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug mahatabo, nga kong magalingkod siya sa trono sa iyang gingharian, nga magasulat siya alang kaniya ug usa ka hulad niini nga Kasugoan sa basahon, gikan sa nahimutangan sa atubangan sa mga sacerdote nga Levihanon:"
+                            "text": "“Inighari na niya, kinahanglan nga aduna siyay kopya sa balaod sa Dios nga gihuptan sa mga pari. "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug kini magauban kaniya ug magabasa siya niini sa tanan nga adlaw sa iyang kinabuhi; aron mahibalo siya sa pagkahadlok kang Jehova nga iyang Dios, aron sa pagbantay sa tanan nga mga pulong niining Kasugoan, ug niining kabalaoran aron sa pagbuhat kanila."
+                            "text": "Magpabilin kini kaniya aron iya kining basahon sa tibuok niyang kinabuhi aron makakat-on siya pagmahal sa Ginoo ug pagtuman sa tanang gimbut-an sa maong balaod. "
                         },
                         {
                             "verse": 20,
-                            "text": "Aron dili niya pagbayawon ang iyang kasingkasing sa ibabaw sa iyang mga igsoon, ug nga dili siya motipas sa sugo, ngadto sa too, bisan sa wala, sa tuyo nga pagapakahataason ang iyang mga adlaw sa iyang gingharian, siya ug iyang mga anak, sa taliwala sa Israel."
+                            "text": "Sa iyang pagtuman niini, dili niya isipon nga labaw siya sa iyang kadugo nga Israelita ug dili niya lapason ang balaod sa bisan unsang paagi. Kon tumanon niya kini, siya ug ang iyang mga kaliwat mohari gayod ug dugay sa Israel."
                         }
                     ]
                 },
@@ -22420,91 +22420,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang mga sacerdote nga Levihanon, ang tanan nga banay ni Levi, walay bahin bisan panulondon uban kang Israel: magakaon sila sa mga halad kang Jehova nga hinimo pinaagi sa kalayo, ug sa iyang panulondon."
+                            "text": "“Ang mga pari, sa ato pa, ang tibuok banay ni Levi dili bahinan ug yuta. Mabuhi sila pinaagi lamang sa mga gasa nga ihalad ngadto sa Ginoo ug sa mga bahin nga kinahanglan ninyong ihatag kanila."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug sila walay panulondon sa taliwala sa ilang mga igsoon; si Jehova mao ang ilang panulondon, ingon sa iyang gisulti kanila."
+                            "text": "Kay wala man silay mapanunod, ang Ginoo maoy silbi nilang bahin sumala sa iyang gisaad."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug kini mao ang bahin sa mga sacerdote gikan sa katawohan, gikan sa mga magahalad sa halad, bisan vaca kun carnero, nga igahatag nila sa sacerdote ang abaga, ug ang mga apapangig, ug ang tungol."
+                            "text": "“Kon maghalad ang katawhan ug baka, karnero o kanding, mao kini ang mga bahin nga kinahanglang ihatag nila sa mga pari: ang abaga, ang duha ka apapangig ug ang tiyan. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ang unang mga abut sa imong mga trigo, ug sa imong bag-ong vino, ug sa imong mga lana, ug ang una sa mga balhibo sa imong mga carnero igahatag mo kaniya:"
+                            "text": "Ihatag kanila ang una ninyong abot sa trigo, sa bino, sa lana sa olibo ug sa balhibo sa inyong mga karnero. "
                         },
                         {
                             "verse": 5,
-                            "text": "Kay gipili siya ni Jehova nga imong Dios gikan sa tanan mong mga banay aron nga magatindog kini sa pag-alagad sa ngalan ni Jehova, siya ug ang iyang mga anak nga lalake nga sa walay katapusan."
+                            "text": "Kay gipili sila sa Ginoo nga inyong Dios gikan sa tanang banay sa Israel aron nga sila ug ang ilang mga kaliwat mag-alagad kaniya hangtod sa kahangtoran."
                         },
                         {
                             "verse": 6,
-                            "text": "Ug kong ang Levihanon magagikan sa usa sa imong mga ganghaan sa tibook Israel, diin siya magalangyaw, ug moabut siya nga adunay bug-os nga tinguha sa iyang kalag ngadto sa dapit nga pagapilion ni Jehova;"
+                            "text": "“Ang usa ka Levita nga nagpuyo sa bisan diing lungsod sa Israel makahimo pag-adto, kon gusto niya, sa dapit nga pilion sa Ginoo nga Dios. "
                         },
                         {
                             "verse": 7,
-                            "text": "Unya magaalagad siya sa ngalan ni Jehova nga iyang Dios, ingon man ang tanan niyang mga igsoon nga lalake nga mga Levihanon nga nagatindog didto sa atubangan ni Jehova."
+                            "text": "Tugotan siya pag-alagad sa Ginoo sama sa iyang isigka-Levita nga atua didto mag-alagad "
                         },
                         {
                             "verse": 8,
-                            "text": "Magabaton sila ug samang bahin nga pagakan-on, labut sa gikan sa pagbaligya sa iyang katigayonan."
+                            "text": "ug makadawat siyag bahin sama sa ilang madawat, walay labot sa halin sa mga butang nga iyang mapanunod gikan sa iyang ginikanan."
                         },
                         {
                             "verse": 9,
-                            "text": "Sa makaabut ka na sa yuta nga gihatag kanimo ni Jehova nga imong Dios, dili ka magtoon sa pagbuhat ingon sa mga kangil-ad niadtong mga nasud."
+                            "text": "“Kon adto na kamo sa yuta nga gihatag kaninyo sa Ginoo nga inyong Dios, ayaw kamo pagsundog sa ngil-ad nga mga buhat sa mga lumolupyo sa ubang mga nasod. "
                         },
                         {
                             "verse": 10,
-                            "text": "Dili hikaplagan uban kanimo ang bisan kinsa nga magpaagi sa iyang anak nga lalake kun anak nga babaye sa kalayo, usa nga nagagamit sa pagtagna, usa nga nagapanghimalad, kun anting-antingan, kun diwatahan;"
+                            "text": "Ayaw ninyo ihalad ang inyong mga anak pinaagi sa pagsunog. Ayaw kamo pagsundog sa mga patuotuo o sa mga diwata o sa mga mananag-an o salamangkero "
                         },
                         {
                             "verse": 11,
-                            "text": "Kun magwiwili, kun magpapakitambag sa mga kailang espiritu, kun mag-iila nga malalangon, kun magpapangutana sa mga minatay."
+                            "text": "o modangop sa mga tigsangpit sa mga espiritu"
                         },
                         {
                             "verse": 12,
-                            "text": "Kay dulumtanan alang kang Jehova ang bisan kinsa nga magabuhat niining mga butanga: ug tungod niining mga dulumtanan gisalikway sila ni Jehova nga imong Dios sa imong atubangan."
+                            "text": "kay gikasilagan sa Ginoo ang tanang nagbuhat niining mga butanga. Tungod niini abugon sila sa Ginoo samtang magpadulong pa kamo kanila. "
                         },
                         {
                             "verse": 13,
-                            "text": "Magmahingpit ikaw uban kang Jehova nga imong Dios."
+                            "text": "Kinahanglan nga magmatinumanon kamo sa hingpit sa atubangan sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 14,
-                            "text": "Kay kining mga nasud, nga imong pagaagawon nagapatalinghug sa mga nanagpanagna ug sa mga diwatahan; apan mahitungod kanimo, si Jehova nga imong Dios wala magtugot kanimo sa pagbuhat niini."
+                            "text": "“Ang maong mga nasod nga inyong ilogan sa ilang yuta midangop sa mga mananag-an ug mga salamangkero apan ang Ginoo nga inyong Dios dili motugot nga buhaton ninyo kini."
                         },
                         {
                             "verse": 15,
-                            "text": "Si Jehova nga imong Dios magapatindog alang kanimo gikan sa imong taliwala, sa imong mga igsoon, usa ka manalagna nga sama kanako; kaniya magpatalinghug kamo;"
+                            "text": "Ang Ginoo nga inyong Dios magpadala ug propeta sama kanako gikan kaninyo ug kinahanglan motahod kamo kaniya."
                         },
                         {
                             "verse": 16,
-                            "text": "Sumala sa tanan nga imong gipangayo kang Jehova nga imong Dios sa Horeb sa sadlaw sa pagkatigum, nga nagaingon: Ayaw na ako pagpadungga sa tingog ni Jehova nga akong Dios, ayaw na usab ako pagpakitaa niining dakung kalayo, aron dili ako mamatay."
+                            "text": "Gihatag siya sa Ginoo kaninyo ingon nga tubag sa inyong hangyo sa dihang nagtigom kamo didto sa Bukid sa Sinai ug miingon kamo, ‘Ayaw na kami pabatia sa tingog sa Ginoo nga among Dios o pakitaa sa makalilisang nga kalayo aron dili kami mangamatay.’ "
                         },
                         {
                             "verse": 17,
-                            "text": "Ug si Jehova miingon kanako: Maayo ang ilang pagpanubag sa ilang gisulti."
+                            "text": "Niadtong higayona giingnan ako sa Ginoo nga husto ang inyong giingon busa miingon siya,"
                         },
                         {
                             "verse": 18,
-                            "text": "Magapatindog ako kanila sa taliwala sa ilang mga igsoon, usa ka manalagna nga sama kanimo; ug igabutang ko ang akong mga pulong sa iyang baba ug siya magasulti kanila sa tanan nga igasugo ko kaniya."
+                            "text": "‘Magpili akog propeta nga ila rang kadugo sama kanimo, Moises. Ihatag ko kaniya ang akong mensahe ug isulti niya ang bisan unsa nga akong isugo kaniya."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug mahitabo nga bisan kinsa nga dili magapatalinghug sa akong mga pulong nga iyang igasulti sa akong ngalan, akong pagapanilngon kini kaniya."
+                            "text": "Kinsa kadtong dili mamati sa mensahe nga akong ipasangyaw kaniya silotan ko gayod. "
                         },
                         {
                             "verse": 20,
-                            "text": "Apan ang manalagna nga magapangahas pagsulti ug pulong sa akong ngalan, nga wala ko pagasugoa sa pagsulti, kun magsulti sa ngalan sa uban nga mga dios, ang mao nga manalagna mamatay."
+                            "text": "Apan kon ang maong propeta mosultig mensahe nga wala ko ipasulti kaniya ug unya magpatuo nga gisugo ko siya o magsulti sa ngalan sa ubang dios, kinahanglang patyon siya.’"
                         },
                         {
                             "verse": 21,
-                            "text": "Ug kong mag-ingon ka sa imong kasingkasing: Unsaon namo pag-ila sa pulong nga wala igasulti ni Jehova?"
+                            "text": "“Apan tingali mangutana kamo, ‘Unsaon man namo pag-ila nga dili gikan sa Ginoo ang maong mensahe?’ "
                         },
                         {
                             "verse": 22,
-                            "text": "Sa magsulti ang usa ka manalagna sa ngalan ni Jehova, kong ang butang dili matuman ni mahitabo, mao kana ang butang nga wala isulti ni Jehova; ang manalagna nagapangahas sa pagsulti niini, dili ka mahadlok kaniya."
+                            "text": "Kon moangkon ang usa ka propeta nga gisugo siya sa Ginoo sa pagsulti sa usa ka mensahe ug unya wala kini matuman, kana nagmatuod nga wala siya sugoa sa Ginoo. Nagsulti siya sa iyang kaugalingong awtoridad busa ayaw kamo kahadlok kaniya."
                         }
                     ]
                 },
@@ -22513,87 +22513,87 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kong pagalaglagon ni Jehova nga imong Dios ang mga nasud, kang kansang yuta ginahatag kanimo ni Jehova nga imong Dios, ug ikaw magapanunod kanila, ug magapuyo ka sa ilang mga ciudad, ug sa ilang mga balay;"
+                            "text": "“Sa dihang pamatyon na sa Ginoo nga inyong Dios ang mga lumolupyo sa mga nasod nga iyang ihatag kaninyo ug unya mapanag-iya na ninyo kini ug magpuyo na kamo didto sa ilang mga lungsod ug kabalayan, "
                         },
                         {
                             "verse": 2,
-                            "text": "Magapinig ka ug totolo ka ciudad alang kanimo sa taliwala sa imong yuta nga ginahatag kanimo ni Jehova nga imong Dios aron sa pagpanag-iya kaniya."
+                            "text": "pagpili kamog tulo ka siyudad diha sa yuta nga gihatag sa Ginoo kaninyo. "
                         },
                         {
                             "verse": 3,
-                            "text": "Mag-andam ka alang kanimo sa dalan; ug pagabahinon mo sa totolo ka bahin ang mga utlanan sa imong yuta nga ipapanunod kanimo ni Jehova nga imong Dios, aron ang tanan nga makapatay ug tawo makakalagiw didto."
+                            "text": "Himoi kinig mga dalan ug bahina ang yuta sa tulo ka bahin. Unya ang tawo nga makapatay ug tawo makadangop ngadto sa usa niining mga siyudara aron siya kapanalipdan. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug kini mao ang kahimtang sa makapatay ug tawo nga magakalagiw didto, ug mabuhi: ang magapatay sa iyang isigkatawo sa dili tinuyo, ug wala magadumot kaniya sa miagi nga panahon:"
+                            "text": "Kon wala tuyoa sa usa ka tawo ang pagpatay sa iyang isigkatawo, makadangop siya didto aron maluwas siya."
                         },
                         {
                             "verse": 5,
-                            "text": "Maingon nga kong usa ka tawo moadto sa lasang uban sa iyang isigkatawo sa pagputol ug sugnod, ug sa magapangusog siya sa iyang kamot sa wasay aron sa pagputol sa kahoy, mahuso ang puthaw sa tumoy, ug makaigo sa iyang isigkatawo, ug mamatay kini; kadto siya mokalagiw padulong sa usa niining mga ciudara, ug mabuhi siya:"
+                            "text": "Pananglit may duha ka tawo nga namutol ug kahoy didto sa lasang. Samtang ang usa kanila nagputol ug kahoy, nahuso ang uhas sa atsa ug naigo ug namatay ang iyang kauban. Ang maong tawo makadangop bisag hain sa tulo ka siyudad ug maluwas siya."
                         },
                         {
                             "verse": 6,
-                            "text": "Aron ang magapanimalus sa dugo dili magapangita sa nakapatay, samtang magadaku sa kapungot ang iyang kasingkasing, ug hiabutan niya siya, tungod kay halayo ang dalan, ug iyang pagapatyon siya; bisan dili siya angay sa kamatayon, tungod kay wala siya magdumot kaniya sa miagi nga panahon."
+                            "text": "Kon dili ninyo kini buhaton o kon layo ang dalan, ang nakapatay mahimong gukdon sa buot manimalos kaniya tungod sa kasuko ug patyon siya. Dili unta siya angay nga patyon kay dili man tungod sa kasilag nga nakapatay siya. "
                         },
                         {
                             "verse": 7,
-                            "text": "Busa ako nagasugo kanimo nga nagaingon: Totolo ka ciudad pagalainon mo alang kanimo."
+                            "text": "Busa gisugo ko kamo sa paggahin ug tulo ka siyudad."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug kong pagapadak-on ni Jehova nga imong Dios ang imong utlanan ingon sa iyang gipanumpa sa imong mga amahan, ug igahatag niya kanimo ang tanan nga yuta nga gisaad niya sa imong mga amahan nga iyang igahatag;"
+                            "text": "“Unya sa diha nga dugangan sa Ginoo nga inyong Dios ang inyong kayutaan ug mainyo na ang tibuok nasod nga gisaad niya sa inyong katigulangan nga iyang ihatag kaninyo, "
                         },
                         {
                             "verse": 9,
-                            "text": "Kong pagabantayan mo kining tanan nga mga sugo nga ginatudlo ko kanimo niining adlawa, aron sa pagbuhat kanila, sa paghigugma kang Jehova nga imong Dios, ug sa paglakaw sa iyang mga dalan sa tanan nga adlaw; unya magadugang ka ug totolo ka ciudad alang kanimo, labut pa niining totolo:"
+                            "text": "dugangi ninyo paggahin ug laing tulo ka siyudad. Ihatag gayod niya kaninyo ang tibuok nasod kon tumanon ninyo kining sugo nga gihatag ko karon kaninyo ug higugmaon ninyo ang Ginoo nga inyong Dios ug magkinabuhi kamo sumala sa iyang kabubut-on. "
                         },
                         {
                             "verse": 10,
-                            "text": "Aron dili pagaulaan ug dugo sa walay sala ang taliwala sa imong yuta, nga ginahatag kanimo ni Jehova nga imong Dios tungod sa pagkapanulondon, ug ingon niana ang dugo anha sa ibabaw mo."
+                            "text": "Kon igahin ninyo kining mga siyudara ingon nga dalangpanan, walay dugo sa mga dili sad-an nga maula dinhi sa inyong nasod ug dili kamo pakasad-on sa sala sa pagpatay."
                         },
                         {
                             "verse": 11,
-                            "text": "Apan kong adunay tawo nga magadumot sa iyang isigkatawo, ug nagahupo kaniya, ug magatindog batok kaniya, ug magasamad kaniya sa kamatayon sa pagkaagi nga mamatay siya, ug kini mokalagiw padulong sa usa niining mga ciudad;"
+                            "text": "“Kon ang usa ka tawo may gikaaway ug unya gituyo niya pagdunggab ug tungod niana namatay ang iyang kontra, kon modangop siya bisag hain sa tulo ka siyudad, "
                         },
                         {
                             "verse": 12,
-                            "text": "Unya ang mga anciano sa iyang ciudad magasugo ug magapakuha kaniya gikan didto, ug magatugyan kaniya sa kamot sa magpapanimalus sa dugo aron mamatay siya,"
+                            "text": "kinahanglan nga ipakuha siya sa mga kadagkoan sa iyang siyudad ug itugyan siya ngadto sa buot manimalos kaniya aron patyon siya. "
                         },
                         {
                             "verse": 13,
-                            "text": "Dili magakalooy kaniya ang imong mata; kondili pagakuhaon mo sa Israel ang sala sa dugo nga walay sala, aron mamaayo kini alang kanimo."
+                            "text": "Ayaw ninyo siya kaluy-i. Kinahanglan nga limpyohan ninyo ang Israel sa sala sa pagpatay aron magmauswagon kamo."
                         },
                         {
                             "verse": 14,
-                            "text": "Dili mo pagbalhinon ang utlanan sa imong isigkatawo nga gibutang sa mga karaan, sa imong panulondon nga imong pagapanundon sa yuta nga ginahatag kanimo ni Jehova nga imong Dios, sa pagpanag-iya niini."
+                            "text": "“Unya sa inyong bahin sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios, ayaw ninyo balhina ang utlanan sa yuta sa inyong kasikbit nga dugay na kaayong gibutang."
                         },
                         {
                             "verse": 15,
-                            "text": "Dili magapulos ang usa ka saksi batok sa bisan unsa nga kadautan kun bisan unsa nga sala, sa bisan unsa nga sala nga mabuhat niya: sa pulong sa duruha ka saksi kun sa pulong sa totolo ka saksi magagikan ang husay."
+                            "text": "“Sa bisan unsang sala o sayop dili mahimo nga usa ray saksi kondili duha o tulo gayod aron paghusay ug paghukom niini."
                         },
                         {
                             "verse": 16,
-                            "text": "Kong ang usa ka saksi nga bakakon magatindog batok kang bisan kinsa nga tawo aron sa pagsaksi batok kaniya sa dautang buhat,"
+                            "text": "Kon may bakakong saksi nga mobarog sa hukmanan ug mopahayag nga sad-an ang usa ka tawo, "
                         },
                         {
                             "verse": 17,
-                            "text": "Unya ang duruha ka tawo nga magabatok mangatubang sa atubangan ni Jehova, sa atubangan sa mga sacerdote ug mga maghuhukom niadtong mga adlawa:"
+                            "text": "patindoga silang duha sa atubangan sa Ginoo, sa mga pari ug sa mga maghuhukom."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug ang mga maghuhukom magasukit ug maayo; ug, ania karon, kong makita nga bakakon kadtong saksiha, ug nagsaksi siya sa bakak gayud batok sa iyang igsoon;"
+                            "text": "Kinahanglan nga ang maong mga maghuhukom maghimo sa maukiton nga pakisusi kon dili ba bakak ang iyang sumbong. Kon namakak siya, "
                         },
                         {
                             "verse": 19,
-                            "text": "Pagabuhaton mo kaniya ingon sa iyang gihunahuna nga pagabuhaton niya sa iyang igsoon, ug ingon niini pagakuhaon mo ang dautan sa imong taliwala."
+                            "text": "pahamtangi siya sa silot nga buot unta niyang ipahiagom sa iyang gibutangbutangan. Sa ingon nga paagi malimpyohan ninyo ang inyong nasod sa daotan. "
                         },
                         {
                             "verse": 20,
-                            "text": "Ug ang mga mahabilin magapatalinghug, ug mangahadlok, ug gikan dinhi dili na sila magausab sa pagbuhat ug usa ka butang nga dautan nga ingon niini sa taliwala nimo."
+                            "text": "Inigkabalita niini sa uban, mahadlok sila ug wala nay bisan kinsa kaninyo nga magbuhat ug daotan. "
                         },
                         {
                             "verse": 21,
-                            "text": "Ug dili magakalooy ang imong mga mata; ang kinabuhi magabayad sa kinabuhi, ang mata sa mata, ang ngipon sa ngipon, ang kamot sa kamot, ang tiil sa tiil."
+                            "text": "Kinahanglan nga dili kamo magpakitag kaluoy: ang kinabuhi bayrag kinabuhi, mata bayrag mata, ngipon bayrag ngipon, kamot bayrag kamot ug ang tiil bayrag tiil."
                         }
                     ]
                 },
@@ -22602,83 +22602,83 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Sa diha nga moadto ka sa pagpanggubat batok sa imong mga kaaway, ug makakita ug mga kabayo, ug mga carro, ug usa ka katawohan nga labaw kay kanimo, dili ka mahadlok kanila; kay si Jehova nga imong Dios nagauban kanimo, ang nagkuha kanimo gikan sa yuta sa Egipto."
+                            "text": "“Kon makiggubat kamo ug makita ninyo nga mas daghan kay kaninyo ang inyong mga kaaway ingon man ang ilang mga kabayo ug mga karwahi, ayaw kamo kahadlok kay nag-uban kaninyo ang Ginoo nga inyong Dios nga nagkuha kaninyo gikan sa Ehipto. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug mahitabo, nga sa magakaduol kamo sa gubat, moabut ang sacerdote ug magasulti sa katawohan,"
+                            "text": "Sa dili pa kamo modasdas, ang pari motindog sa inyong atubangan ug moingon sa mga sundalo, "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug magaingon kanila: Patalinghug ka, Israel, kamo magatingub karon sa pagpanggubat batok sa inyong mga kaaway; dili pagpaluyahon ang inyong kasingkasing; dili kamo mahadlok, ni mangurog, ni mangalisang sa atubangan nila;"
+                            "text": "‘Pamati kamo, O katawhan sa Israel. Karong adlawa, moasdang kamo sa inyong mga kaaway. Ayaw kamo kabalaka o kahadlok kanila "
                         },
                         {
                             "verse": 4,
-                            "text": "Kay si Jehova nga inyong Dios magalakaw uban kaninyo sa pagpakig-away alang kaninyo batok sa inyong mga kaaway, aron sa pagluwas kaninyo."
+                            "text": "kay ang nag-uban kaninyo mao ang Ginoo nga inyong Dios ug siya maoy makig-away alang kaninyo ug maghatag kaninyo sa kadaogan.’"
                         },
                         {
                             "verse": 5,
-                            "text": "Ug ang mga punoan sa mga sundalo magasulti sa katawohan nga magaingon: Kinsa bang tawohana ang nakatukod ug balay nga bag-o, ug wala magpahanungod niini? Palakta siya ug papaulia sa iyang balay, tingali unya kong siya mamatay sa panggubatan, ug laing tawo ang magpahanungod niini."
+                            "text": "“Ang mga opisyal moingon usab ngadto sa mga sundalo, ‘Kon may usa kaninyo nga nagtukod ug balay apan wala pa niya kini ikahalad sa Ginoo, mahimong mopauli siya kay tingali unyag mamatay siya sa gubat ug lain nang tawo ang mohalad niini ngadto sa Ginoo. "
                         },
                         {
                             "verse": 6,
-                            "text": "Kinsa ba ang nakatanum ug usa ka parasan ug wala makapahimulos sa bunga niini? Palakta siya ug papaulia sa iyang balay, tingali unya kong siya mamatay sa panggubatan, ug laing tawo ang magapahimulos sa bunga niana."
+                            "text": "Ug kadtong may tinanom nga mga paras apan wala makapahimulos sa bunga niini, mahimong mopauli siya kay tingali unyag mamatay siya sa gubat ug lain nang tawo ang makapahimulos niini. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug kinsa ba ang nakapakasal sa usa ka babaye, ug wala siya makadawat kaniya? Palakta siya ug papaulia sa iyang balay, tingali unya kong siya mamatay sa panggubatan, ug laing tawo ang makadawat kaniya."
+                            "text": "Ug kinsa kadtong kaslonon, mahimong mopauli sa ila kay tingali unyag mamatay siya sa gubat ug lain nay makapangasawa sa iyang pangasaw-onon.’"
                         },
                         {
                             "verse": 8,
-                            "text": "Ug ang punoan sa mga sundalo managsulti pa sa katawohan, ug magaingon sila: Kinsa ba ang tawo nga mahadlokon ug maluya ug kasingkasing? Palakta siya ug papaulia sa iyang balay, tingali unya matunaw ang kasingkasing sa iyang mga igsoon ingon sa iyang kasingkasing."
+                            "text": "“Ang mga opisyal modugang sa pag-ingon sa katawhan, ‘Kinsa kadtong nahadlok o kulang sa kaisog, mahimong mopauli siya kay tingali unyag mahadlok na lang usab ang iyang mga kauban sama kaniya.’ "
                         },
                         {
                             "verse": 9,
-                            "text": "Ug mahitabo nga kong ang mga punoan sa mga sundalo makahuman na sa pagsulti sa katawohan, magabutang sila ug mga pangulo sa mga kasundalohan sa pagmando sa katawohan."
+                            "text": "Ug human ang mga opisyal makigsulti sa mga sundalo, kinahanglan nga magpili ug mga pangulo sa matag pundok."
                         },
                         {
                             "verse": 10,
-                            "text": "Sa diha nga magakahaduol ka sa usa ka ciudad aron sa pagpakig-away batok niini, unya igapahibalo mo ang pakigdait niini."
+                            "text": "“Kon sulongon ninyo ang usa ka siyudad, kinahanglan nga inyo kining tanyagag higayon sa pagtugyan sa ilang kaugalingon."
                         },
                         {
                             "verse": 11,
-                            "text": "Ug mahitabo nga kong kini motubag kanimo ug pakigdait, ug magaabli alang kanimo, ang tanan nga mga tawo nga hikaplagan sa sulod, mahimong mga sakup nimo, ug magaalagad kanimo."
+                            "text": "Kon modawat sila sa kalinaw ug moabli sa ganghaan ug pasudlon kamo, ang tanang lumolupyo niini pugson ninyo sa pagpatrabaho ug sa pag-alagad kaninyo. "
                         },
                         {
                             "verse": 12,
-                            "text": "Ug kong kini dili magahimo ug pakigdait kanimo, kondili magapakiggubat batok kanimo, unya pagalikosan mo kini."
+                            "text": "Apan kon dili sila motugyan sa ilang kaugalingon, paliboti ninyo kini sa inyong kasundalohan. "
                         },
                         {
                             "verse": 13,
-                            "text": "Unya kong si Jehova nga imong Dios magatugyan niini sa imong kamot, pagapatyon mo ang tagsatagsa ka lalake niya uban sa sulab sa pinuti:"
+                            "text": "Unya kon itugyan na sa Ginoo kaninyo ang maong siyudad, pamatya ang tanang lalaki didto. "
                         },
                         {
                             "verse": 14,
-                            "text": "Apan ang mga babaye, ug ang mga bata, ug ang kahayupan, ug ang tanan nga anaa sa ciudad, bisan ang tanan nga mga inagaw kanila, pagakuhaon mo nga alang kanimo: ug pagakan-on mo ang inagaw sa imong mga kaaway, nga gitugyan kanimo ni Jehova nga imong Dios."
+                            "text": "Apan pamihaga ninyo ang tanang babaye ug mga kabataan. Panad-a usab ninyo ang kahayopan ug ang tanang kabtangan. Pahimusli ninyo ang inyong mga inilog nga gitugyan kaninyo sa Ginoo."
                         },
                         {
                             "verse": 15,
-                            "text": "Mao kini ang pagabuhaton mo sa tanan nga mga ciudad nga atua sa labing halayo kanimo, nga dili mga ciudad niining mga nasud."
+                            "text": "Mao kini ang buhata sa tanang siyudad nga atua sa layo, dili sa mga nasod nga kasikbit ninyo."
                         },
                         {
                             "verse": 16,
-                            "text": "Apan sa mga ciudad niining mga katawohan nga gihatag kanimo ni Jehova nga imong Dios sa usa ka panulondon, walay pagapagawason mo nga buhi sa bisan unsang butanga nga nagaginhawa;"
+                            "text": "“Apan sa mga lumolupyo sa mga siyudad sa mga nasod nga ihatag kaninyo sa Ginoo nga inyong Dios, kinahanglan nga walay ibiling buhi: "
                         },
                         {
                             "verse": 17,
-                            "text": "Hinonoa pagalaglagon mo sila gayud: ang mga Hetehanon, ug ang mga Amorehanon, ug ang mga Canaanhon, ug ang mga Peresehanon, ug ang mga Hebehanon, ug ang mga Jebusehanon; ingon sa gisugo kanimo ni Jehova nga imong Dios;"
+                            "text": "ang mga Hitihanon, mga Amorihanon, mga Canaanhon, mga Perisihanon, mga Hibihanon ug mga Jebusihanon sumala sa mando sa Ginoo. "
                         },
                         {
                             "verse": 18,
-                            "text": "Aron sila dili makatudlo kaninyo sa pagbuhat sa ilang mga dulumtanan, nga ilang ginabuhat sa ilang mga dios, ug kamo makasala batok kang Jehova nga inyong Dios."
+                            "text": "Buhata kini aron dili kamo nila pahisalaagon sa pagsunod sa ngil-ad nga mga seremonyas nga gihimo nila alang sa ilang mga dios kay ang maong mga buhat sala batok sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 19,
-                            "text": "Sa diha nga magalikos ka sa usa ka ciudad sa hataas nga panahon sa pagpakig-away batok niini, aron sa pagkuha niini, dili mo pagputlon ang iyang kakahoyan pinaagi sa pagbakyaw kanila sa wasay; kay kanila makakaon ka, ug dili mo sila pagaputlon; kay ang kahoy sa kapatagan tawo ba aron pagalikosan?"
+                            "text": "“Kon palibutan ninyo ang usa ka siyudad sa taas nga panahon aron pagpugos sa katawhan sa pagtugyan sa ilang kaugalingon, ayaw ninyo pamutla ang mga kahoy nga anaa niini. Makahimo kamo pagkaon sa mga bunga niini. Ang mga kahoy dili tawo nga angay ninyo iapil sa pagpatay. "
                         },
                         {
                             "verse": 20,
-                            "text": "Ugaling ang mga kahoy nga imong hibaloan nga dili kahoy alang sa pagkaon, pagalaglagon ug pagaputlon mo sila; ug pagatukoron mo ang mga bantayanan batok sa ciudad nga magapakig-away batok kanimo, hangtud nga kini mapukan."
+                            "text": "Hinuon, mahimong pamutlon ninyo ang mga kahoy nga ang mga bunga dili makaon ug gamiton kini sa inyong pagsulong sa usa ka siyudad nga nakig-away kaninyo hangtod nga inyo kining mailog."
                         }
                     ]
                 },
@@ -22687,59 +22687,59 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kong adunay usa ka tawo nga hikaplagan nga gipatay didto sa yuta nga gihatag ni Jehova nga imong Dios kanimo sa pagpanag-iya niini, nga magahay-ad sa baul, ug wala hibaloi kong kinsa ang nagpatay kaniya;"
+                            "text": "“Kon didto sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios may makit-ang usa ka tawong patay sa usa ka hilit nga dapit apan wala mahibaloi kinsay nagpatay kaniya, "
                         },
                         {
                             "verse": 2,
-                            "text": "Unya ang imong mga anciano ug ang imong mga maghuhukom manggula, ug magasukod sila hangtud sa mga ciudad nga nagalibut kaniya nga gipatay;"
+                            "text": "kinahanglan nga ang inyong mga kadagkoan ug ang mga maghuhukom moadto ug sukdon nila ang gilay-on sa mga lungsod nga duol sa nahimutangan sa minatay. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug mamao kini nga ang ciudad nga labing haduol sa gipatay nga tawo bisan ang mga anciano niadtong ciudara nga labing haduol sa gipatay, magakuha gikan sa panon, ug usa ka vaca nga dumalaga nga wala pa magamit, ug wala masangoni ug yugo;"
+                            "text": "Ug ang mga kadagkoan sa lungsod nga labing duol niini magkuhag bata pa nga baka nga baye nga wala pa magamit sa pagtrabaho. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ang mga anciano niadtong ciudara magadala sa vaca nga dumalaga ngadto sa usa ka walog nga may nagaagay nga tubig, nga wala pa gayud madaro, ni hipugasi, ug ilang lunggoan sa liog ang vaca nga dumalaga didto sa walog."
+                            "text": "Unya dad-on nila kini didto sa patag nga wala umaha ug may mga nagdagayday nga sapa ug didto lubagon nila ang liog niini. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug managpanuol ang mga sacerdote, ang mga anak nga lalake ni Levi; kay kanila nagpili si Jehova nga imong Dios aron sila magaalagad kaniya, ug sa pagpanalangin sa ngalan ni Jehova; ug sumala sa ilang pulong pagahukman ang tagsatagsa ka paglalis ug ang tagsatagsa ka pagbunal."
+                            "text": "Kinahanglan nga motambong ang mga pari aron maoy mohusay sa tanang kaso kay gipili man sila sa Ginoo nga inyong Dios aron pag-alagad kaniya ug pagpanalangin sa katawhan sa ngalan sa Ginoo. "
                         },
                         {
                             "verse": 6,
-                            "text": "Ug ang tanan nga mga anciano niadtong ciudara nga labing haduol sa gipatay nga tawo, manghunaw sa ilang mga kamot sa ibabaw sa vaca nga dumalaga nga gilunggoan sa liog didto sa walog;"
+                            "text": "Unya ang tanang kadagkoan sa lungsod nga labing duol sa dapit diin nakita ang tawong gipatay kinahanglang manghunaw sa ibabaw sa bayeng baka nga gilubag ang liog didto sa sapa. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug magaasoy sila sa matuod ug magaingon: Ang among mga kamot wala mag-ula niining dugoa, ni ang among mga mata nakakita niana."
+                            "text": "Kinahanglang moingon sila, ‘Dili kami maoy nagpatay niining tawhana ug wala kami makakita sa nagpatay kaniya. "
                         },
                         {
                             "verse": 8,
-                            "text": "Pasayloa ang sala sa imong katawohan nga Israel, nga gitubos mo, Oh Jehova, ug dili mo pag-itugot ang dugo nga walay sala nga magapabilin sa taliwala sa imong katawohan nga Israel. Ug ang dugo pagapasayloon kanila."
+                            "text": "Busa pasayloa, O Ginoo, ang imong katawhan, ang Israel nga imong gikuha gikan sa Ehipto. Pasayloa kami ug ayaw intawon kami pakasad-a sa kamatayon sa tawong walay sala!’"
                         },
                         {
                             "verse": 9,
-                            "text": "Sa ingon niini ihiklin mo ang dugo nga walay sala gikan sa imong taliwala, kong magabuhat ka niadtong matarung sa mga mata ni Jehova."
+                            "text": "Mao kini ang paagi nga dili kamo silotan tungod sa kamatayon niadtong walay sala kon buhaton ninyo kini sumala sa sugo sa Ginoo."
                         },
                         {
                             "verse": 10,
-                            "text": "Sa diha nga moadto ka sa paggubat batok sa imong mga kaaway, ug si Jiehova nga imong Dios magatugyan kanila sa imong mga kamot, ug pagakuhaon mo sila nga binihag,"
+                            "text": "“Kon sa inyong pagsulong itugyan kaninyo sa Ginoo ang inyong mga kaaway ug mahimo ninyo silang mga bihag, "
                         },
                         {
                             "verse": 11,
-                            "text": "Ug makakita ka sa taliwala sa mga binihag ug usa ka babaye nga maanyag, ug maibug ka kaniya, ug magakuha ka kaniya aron pangasaw-on;"
+                            "text": "unya sa inyong mga binihag may babayeng guwapa nga inyong gikaibgan ug buot pangasaw-on, "
                         },
                         {
                             "verse": 12,
-                            "text": "Dad-on mo siya sa imong balay; ug siya magakiskis sa iyang ulo, ug pagaputlan niya ang iyang mga koko;"
+                            "text": "mahimong dad-on ninyo siya sa inyo ug pakiskisi niya ang iyang ulo ug paputli ang iyang mga kuko"
                         },
                         {
                             "verse": 13,
-                            "text": "Ug pagahuboon niya ang bisti sa iyang pagkabinihag, ug magapabilin siya sa imong balay; ug magabakho siya mahitungod sa iyang amahan ug sa iyang inahan sulod sa usa ka bulan: ug sa human niadto moduol ka kaniya, ug ikaw mahimong iyang bana, ug siya mahimo nga imong asawa."
+                            "text": "ug pahukasa sa iyang bisti sa pagkabinihag. Magpabilin siya didto sa inyo ug magbangotan tungod sa kamatayon sa iyang mga ginikanan sulod sa usa ka bulan. Human niana, mahimo na kamong magpuyo ingon nga magtiayon. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug mamao kini nga kong ikaw dili mahimuot kaniya, tugutan mo siya kong asa siya padulong; apan dili mo siya ibaligya tungod sa salapi, dili mo usab siya isipon nga ulipon kay gipakaulawan mo siya."
+                            "text": "Apan unya kon dili ka na makauyon kaniya, hatagi siya sa iyang kagawasan aron makalakaw na siya bisag asa. Ayaw siya ibaligya o ulipona kay imo na mang gipahimuslan ang iyang pagkababaye."
                         },
                         {
                             "verse": 15,
@@ -22747,35 +22747,35 @@ const myBibleData = {
                         },
                         {
                             "verse": 16,
-                            "text": "Unya mao kini nga sa adlaw nga pagabuhaton niya ang pagpapanunod sa iyang mga anak nga lalake sa iyang bahandi, dili niya ikahatag ang katarungan sa pagkapanganay sa mga anak nga lalake sa hinigugma sa pagkapinalabi sa anak nga lalake sa gidumtan nga mao ang panganay;"
+                            "text": "inigbahin na niya sa iyang katigayonan ngadto sa iyang mga anak, kinahanglan nga ang bahin nga maangkon sa usa ka panganay dili ihatag ngadto sa anak sa babaye nga iyang gihigugma kondili adto gayod kini ihatag sa panganay nga iya sa babaye nga wala niya higugmaa. "
                         },
                         {
                             "verse": 17,
-                            "text": "Kondili ang anak nga lalake sa gidumtan pagailhon niya nga panganay, pinaagi sa paghatag kaniya ug duruha ka bahin sa tanan nga hikaplagan nga iya: kay kadto mao ang sinugdan sa iyang kusog, ang katungod sa pagkapanganay iya man."
+                            "text": "Kinahanglan nga iyang ilhon ang panganay nga mao ang anak sa babaye nga wala niya higugmaa ug hatagan niyag dobleng bahin kay siya man ang una niyang anak busa may katungod siya sa pagdawat sa bahin sa panganay."
                         },
                         {
                             "verse": 18,
-                            "text": "Kong may tawo nga adunay anak nga lalake nga sukihan ug malalison, nga dili magatuman sa tingog sa iyang amahan, kun sa tingog sa iyang inahan, ug bisan ilang ginacastigo siya, dili siya magatuman kanila."
+                            "text": "“Kon may anak nga lalaki nga gahig ulo ug masupilon ug kanunay lang dili motuman sa iyang mga ginikanan ug dili lang gihapon mosugot bisan pag gisilotan siya, "
                         },
                         {
                             "verse": 19,
-                            "text": "Unya magakupot kaniya ang iyang amahan ug ang iyang inahan, ug magadala kaniya ngadto sa mga anciano sa iyang ciudad ug sa ganghaan sa iyang dapit;"
+                            "text": "ang iyang mga ginikanan may katungod sa pagdala kaniya ngadto sa hukmanan atubangan sa mga kadagkoan sa siyudad nga iyang gipuy-an."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug magaingon sila sa mga anciano sa ciudad: Kining among anak nga lalake sukihan ug malalison, dili siya buot magatuman sa among tingog; siya ulitan ug palahubog."
+                            "text": "Unya suginlan nila ang mga kadagkoan nga ang maong anak nila gahig ulo, masupilon, mausikon, palahubog ug dili mosugot kon sugoon."
                         },
                         {
                             "verse": 21,
-                            "text": "Ug ang tanan nga mga tawo sa iyang ciudad magabuno kaniya ug mga bato, ngadto sa kamatayon, niini pagakuhaon mo ang dautan gikan sa taliwala mo; ug ang tibook nga Israel magapatalinghug ug mahadlok."
+                            "text": "Unya batoon siya sa tanang lumolupyo sa siyudad hangtod nga mamatay siya. Sa ingon nga paagi malimpyohan ninyo ang inyong lungsod sa tanang pagkadaotan ug masayran kini sa tibuok Israel ug mahadlok na sila nga mobuhat ug daotan."
                         },
                         {
                             "verse": 22,
-                            "text": "Ug kong may tawo nga makasala ug usa ka sala nga angay sa kamatayon, ug nga siya pagapatyon, ug pagabitayon mo siya sa usa nga kahoy;"
+                            "text": "“Kon patyon ang usa ka tawo tungod sa kalapasan nga iyang nahimo ug gibitay ninyo sa kahoy ang patay niyang lawas,"
                         },
                         {
                             "verse": 23,
-                            "text": "Ang iyang lawas dili magapabilin sa kahoy sa tibook nga gabii, apan sa pagkatinuod gayud igalubong mo siya nianang maong adlaw; kay siya nga gibitay tinunglo sa Dios; aron nga dili mo paghugawan ang imong yuta nga gihatag kanimo ni Jehova nga imong Dios sa pagkapanulondon."
+                            "text": "kinahanglan nga dili kini magpabilin nga magbitay sa tibuok gabii. Kinahanglan nga ilubong ninyo siya sa maong adlaw kay kon dili ang patayng lawas nga gibitay magdala ug tunglo sa Dios ngadto sa katawhan. Kinahanglan nga dili ninyo paghugawan ang yuta nga ihatag kaninyo sa Ginoo nga inyong Dios."
                         }
                     ]
                 },
@@ -22784,123 +22784,123 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Dili mo pagtan-awon ang vaca sa imong igsoon kun ang iyang carnero nga mahisalaag, ug magalikay ikaw kanila; kinahanglan nga dad-on mo kini pagbalik ngadto sa imong igsoon."
+                            "text": "“Kon makabuhi ang baka o karnero sa inyong isigka-Israelita ug inyo kining hikit-an, ayaw kini pasagdi kondili ihatod kini sa tag-iya. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug kong ang imong igsoon dili haduol kanimo, kun wala ka makaila kaniya, pagadad-on mo ang nawala ngadto sa imong balay, ug diha kana kanimo hangtud nga ang imong igsoon magapangita niana, ug igauli mo kana kaniya."
+                            "text": "Kon layo ang iyang gipuy-an o wala ka makaila kaniya, dad-a ang hayop sa inyo aron magpabilin kini didto hangtod nga mahiadto sa inyo ang tag-iya niini. Unya iuli kini kaniya. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug mao kini ang pagabuhaton mo sa iyang asno; ug mao kini ang pagabuhaton mo sa iyang bisti; ug mao kini ang pagabuhaton mo sa tanang nangawala nga butang sa imong igsoon, nga nawala kaniya, nga imong hikaplagan: dili ka magalikay sa imong kaugalingon."
+                            "text": "Mao usab kini ang buhata sa iyang asno o bisti o bisan unsa nga iya sa imong isigka-Israelita. Ayaw kini pasagdi."
                         },
                         {
                             "verse": 4,
-                            "text": "Dili mo pagtan-awon ang asno sa imong igsoon kun ang iyang vaca nga mapukan sa dalan, ug maglikay ka gikan niini; tabangan mo gayud siya sa pagbangon niini."
+                            "text": "“Ug kon makita mo ang asno o ang baka sa laing tawo nga matumba sa dalan, ayaw kini pasagdi. Tabangi hinuon ang maong tawo sa pagpatindog niini."
                         },
                         {
                             "verse": 5,
-                            "text": "Ang babaye dili magsul-ob ug bisti nga iya sa lalake, ni ang lalake magsul-ob sa bisti nga iya sa babaye; kay bisan kinsa nga magabuhat niining mga butanga, dulumtanan kang Jehova nga imong Dios."
+                            "text": "“Ang babaye kinahanglan nga dili magbistig linalaki ug ang mga lalaki kinahanglan nga dili magbistig binabaye kay kasilagan sa Ginoo nga inyong Dios ang mga tawo nga magbuhat sa ingon."
                         },
                         {
                             "verse": 6,
-                            "text": "Kong makakaplag ka sa dalan, sa bisan unsang kahoya kun sa ibabaw sa yuta, usa ka salag sa langgam nga adunay kuyabog, kun sa mga itlog, ug ang inahan nagaloob sa ibabaw sa mga kuyabog kun sa ibabaw sa mga itlog, dili mo pagkuhaon ang inahan uban sa mga kuyabog:"
+                            "text": "“Kon makakita kamog salag sa langgam diha sa kahoy o sa yuta nga may mga piso o mga itlog nga gilumloman, ayaw iapil pagkuha ang inahan sa mga piso. "
                         },
                         {
                             "verse": 7,
-                            "text": "Paluparon mo gayud ang inahan, apan ang mga kuyabog mahimo nga pagakuhaon mo alang kanimo; aron magalakaw ug maayo kanimo, ug pahalugwayan ang imong mga adlaw."
+                            "text": "Buhii ang inahan apan mahimong dad-on ninyo ang mga piso. Kon buhaton ninyo kini, magmauswagon kamo ug mabuhig dugay."
                         },
                         {
                             "verse": 8,
-                            "text": "Kong magtukod ka ug balay nga bag-o, magbuhat ka ug sandigan sa imong azotea, aron ikaw dili magbutang ug dugo sa imong balay, kong gikan niini may mahulog nga tawo."
+                            "text": "“Kon magtukod kamog balay, kinahanglang butangan ninyog barandilya ang atop kay kon dili, lagmit nga may tawong mahulog niini ug kamoy pakasad-on sa kamatayon sa maong tawo."
                         },
                         {
                             "verse": 9,
-                            "text": "Dili ka magpugas sa imong parrasan sa duha ka nagakalainlain nga binhi, kay sa ingon niana madaut ang tibook nga abut, ang binhi nga imong gipugas, ug ang bunga sa parrasan."
+                            "text": "“Ayaw kamo pagpugas ug duha ka matang sa binhi diha sa inyong parasan kay kon buhaton ninyo kini, did-an kamo pagpahimulos sa bunga sa inyong ubas ug sa abot sa laing tanom."
                         },
                         {
                             "verse": 10,
-                            "text": "Dili ka magpaipon sa vaca ug sa asno sa pagdaro."
+                            "text": "“Ayaw lumponga pagsangon sa daro ang baka ug ang asno."
                         },
                         {
                             "verse": 11,
-                            "text": "Dili ka magbisti sa nagkasagol nga saput, sa balhibo ug sa lino."
+                            "text": "“Ayaw pagbistig panapton nga hinimo gikan sa balhibo ug sa lino nga giusa paghabol."
                         },
                         {
                             "verse": 12,
-                            "text": "Buhatan mo ug mga borlas ang upat ka sidsid sa imong kupo nga hataas nga igatabon mo sa imong kaugalingon."
+                            "text": "“Butangig borlas ang sidsid sa inyong kupo."
                         },
                         {
                             "verse": 13,
-                            "text": "Kong may tawo nga magapili ug asawa, ug moduol kaniya, ug unya magadumot kaniya,"
+                            "text": "“Kon ang usa ka tawo mangasawa, unya tapos sa iyang pagpakighilawas sa babayeng iyang gipangasawa moingon siya nga wala siya mahigugma kaniya "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug magabutangbutang kaniya ug maka-uulaw nga mga butang, ug magabutyag ug dautan nga ngalan kaniya, ug magaingon: Kini gipangasawa ko, ug miduol ako kaniya, ug wala ko hikaplagi kaniya ang mga ilhanan sa pagkaulay;"
+                            "text": "ug pakaulawan niya ang maong babaye pinaagi sa pag-ingon nga iyang nakita nga dili na diay siya ulay, "
                         },
                         {
                             "verse": 15,
-                            "text": "Unya ang amahan sa batan-on nga babaye ug ang iyang inahan magakuha ug magadala ug mga timaan sa pagkaulay sa dalaga ngadto sa mga anciano sa ciudad diha sa ganghaan."
+                            "text": "ang mga ginikanan sa babaye makahimo sa pagdalag mga kamatuoran ngadto sa hukmanan atubangan sa mga kadagkoan sa lungsod nga putli ang ilang anak. "
                         },
                         {
                             "verse": 16,
-                            "text": "Ug ang amahan sa batan-on nga babaye magaingon sa mga anciano: Akong gihatag ang akong anak nga babaye niining tawohana aron maasawa, ug siya nagadumot kaniya;"
+                            "text": "Unya ang amahan moingon, ‘Akong gipaasawa niining lalakiha ang akong anak, apan karon moingon siya nga wala siya mahigugma kaniya."
                         },
                         {
                             "verse": 17,
-                            "text": "Ug, ania karon, siya nagabutang-butang kaniya ug mga maka-uulaw nga mga butang nga nagaingon: Wala ko hikaplagi sa imong anak nga babaye ang ilhanan sa pagkaulay; apan ania ang mga timaan sa pagkaulay sa akong anak nga babaye. Ug pagabuklaron nila ang bisti sa atubangan sa mga anciano sa lungsod:"
+                            "text": "Unya gipakaulawan niya siya ug gibutangbutangan nga dili na ulay. Apan ania ang mga kamatuoran nga ulay ang akong anak!’ Unya ilang bukharon sa atubangan sa kadagkoan sa lungsod ang panapton nga gihigdaan sa gabii sa kasal nga may mansa sa dugo. "
                         },
                         {
                             "verse": 18,
-                            "text": "Unya ang mga anciano sa lungsod magakuha sa lalake ug ilang pagacastigohon siya."
+                            "text": "Busa kinahanglang dakpon ang maong bana sa mga kadagkoan sa lungsod ug latoson "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug ilang pagamultahan siya sa usa ka gatus ka book nga salapi, ug igahatag nila sa amahan sa batan-on nga babaye, kay gibutyag niya ang dautan nga dungog sa ulay sa Israel: ug iyang pagadawaton siya nga asawa, ug dili niya isikway siya sa tanan nga mga adlaw niya."
+                            "text": "ug multahan pa gayod siyag 100 ka salapi nga plata ug ihatag kini ngadto sa amahan sa babaye tungod sa iyang pagpakaulaw sa usa ka ulay nga Israelita. Unya magpabilin siya nga asawa sa maong lalaki ug samtang buhi siya, dili mahimong bulagan niya kining maong babayhana."
                         },
                         {
                             "verse": 20,
-                            "text": "Apan kong kini matuod nga wala siya makakaplag sa timaan sa pagkaulay sa batan-on nga babaye;"
+                            "text": "“Apan kon matuod ang pasangil nga dili ulay ang maong babaye, "
                         },
                         {
                             "verse": 21,
-                            "text": "Unya pagadad-on nila ang batan-on nga babaye ngadto sa pultahan sa balay sa iyang amahan, ug magalabay kaniya sa mga bato hangtud sa kamatayon ang mga tawo sa iyang lungsod, kay nagbuhat siya ug mangil-ad sa Israel nga nagapakighilawas siya sa balay sa iyang amahan: mao kini ang pagkuha mo sa dautan gikan sa taliwala mo."
+                            "text": "kinahanglan nga dad-on siya ngadto sa pultahan sa balay sa iyang amahan ug ipabato sa mga kalalakin-an sa lungsod hangtod nga mamatay siya kay gipakaulawan man niya ang Israel pinaagi sa pagpakighilawas sa wala pa siya maminyo ug nagpuyo pa tipon sa iyang ginikanan. Sa ingon malimpyohan ninyo sa daotan ang inyong katilingban."
                         },
                         {
                             "verse": 22,
-                            "text": "Kong may tawo nga hidakpan nga mihigda ipon sa usa ka babaye nga minyo sa usa ka bana, silang duruha mangamatay, ang lalake nga mihigda ipon sa babaye, ug ang babaye: mao kini ang pagkuha mo sa dautan gikan sa Israel:"
+                            "text": "“Kon ang usa ka tawo makighilawas sa babayeng minyo na, siya ug ang babaye kinahanglang patyon aron malimpyohan ninyo ang Israel sa maong daotang buhat."
                         },
                         {
                             "verse": 23,
-                            "text": "Kong adunay batan-on nga babayeng ulay nga kaslononsa usa ka pamanhonon, ug ang usa ka lalake makahibalag kaniya sa lungsod, ug mohigda ipon kaniya;"
+                            "text": "“Kon sa usa ka siyudad ang usa ka tawo makakitag babayeng ulay nga kaslonon sa laing lalaki ug unya gipakighilawasan niya ang maong babaye, "
                         },
                         {
                             "verse": 24,
-                            "text": "Nan pagadad-on ninyo silang duruha sa pultahan niadtong lungsora, ug pagalabayon ninyo sila sa mga bato hangtud sa kamatayon; ang batan-on nga babaye kay wala siya magsinggit nga diha man siya sa lungsod, ug ang lalake kay nagpakaulaw siya sa asawa sa iyang isigkatawo: mao kini ang pagkuha mo sa dautan gikan sa taliwala mo."
+                            "text": "kinahanglan nga dad-on ninyo silang duha didto sa ganghaan sa siyudad ug batoon ninyo sila hangtod nga sila mamatay. Kinahanglang batoon ang maong batan-ong babaye kay bisag diha siya sa siyudad, wala man siya mosinggit sa pagpakitabang ug ang lalaki kinahanglang batoon kay gipanamastamasan man niya ang babaye nga kaslonon ngadto sa laing lalaki. Sa ingon nga paagi, mahinloan ninyo ang inyong lungsod sa maong daotang buhat."
                         },
                         {
                             "verse": 25,
-                            "text": "Apan kong ang tawo makakaplag didto sa kapatagan ug usa ka batan-on nga babaye nga kaslonon, ug ang tawo magalugos kaniya, ug mohigda ipon kaniya; niini ang lalake lamang ang mamatay kay mihigda siya ipon kaniya:"
+                            "text": "“Apan kon ang batan-ong babayeng kaslonon lugoson didto sa hilit, ang lalaki lamay patya. "
                         },
                         {
                             "verse": 26,
-                            "text": "Apan sa batan-on nga babaye wala ka ing pagabuhaton: walay sayup ang batan-on nga babaye nga angay sa kamatayon: kay ingon nga may tawo nga magatindog batok sa iyang isigkatawo, ug magapatay kaniya, mao usab kini sama niana."
+                            "text": "Ayaw ninyo hilabti ang batan-ong babaye kay wala siya makasala. Ang balaod bahin niini sama ra sa balaod bahin sa usa ka tawo nga makapatay ug laing tawo."
                         },
                         {
                             "verse": 27,
-                            "text": "Kay iyang hingkaplagan siya sa kapatagan, ug misinggit ang batan-on nga babaye nga kaslonon ug walay bisan kinsa nga nakatabang kaniya."
+                            "text": "Gilugos niining tawhana ang babaye nga kaslonon didto sa hilit nga dapit ug bisag unsaon pagsinggit sa batan-ong babaye nga kaslonon aron pagpakitabang, walay makatabang kaniya tungod kay hilit man kadtong dapita."
                         },
                         {
                             "verse": 28,
-                            "text": "Kong may tawo nga makakaplag ug batan-on nga babaye nga ulay, nga dili kaslonon, ug magkupot kaniya, ug mohigda ipon kaniya, ug hingkaplagan sila,"
+                            "text": "“Kon lugoson ang usa ka babayeng ulay nga dili kaslonon ug may makakita kanila, "
                         },
                         {
                             "verse": 29,
-                            "text": "Nan ang lalake nga mihigda ipon kaniya magahatag sa amahan sa batan-on nga babaye ug kalim-an ka book nga salapi, ug siya mahimong asawa niya kay iyang gipakaulawan siya; dili niya isalikway siya sa tanan niya nga mga adlaw."
+                            "text": "kinahanglang mohatag ang lalaki ug 50 ka salapi nga plata ngadto sa amahan sa babaye. Kay gipanamastamasan man niya ang kadungganan sa maong batan-ong babaye, kinahanglan nga pangasaw-on niya siya ug dili gayod siya makabulag sa babaye sa tibuok niyang kinabuhi."
                         },
                         {
                             "verse": 30,
-                            "text": "Ang tawo dili magakuha sa asawa sa iyang amahan, ug dili usab magabukas sa tampi sa iyang amahan."
+                            "text": "“Dili mahimo nga mangasawa o makighilawas ang usa ka tawo sa asawa sa iyang amahan, kay kini magpakaulaw sa iyang amahan."
                         }
                     ]
                 },
@@ -22909,103 +22909,103 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang nasamaran sa itlog kun naputlan sa kinatawo dili magasulod sa katilingban ni Jehova."
+                            "text": "“Ang tawong kinapon o naputlan sa iyang kinatawo kinahanglang dili ninyo paapilon sa katawhan sa Ginoo."
                         },
                         {
                             "verse": 2,
-                            "text": "Ang anak sa dili kinasal dili magasulod sa katilingban ni Jehova: bisan hangtud sa ikapulo ka kaliwatan dili sila magasulod sa katilingban ni Jehova."
+                            "text": "“Kinahanglan hinginlan gikan sa katawhan sa Ginoo ang anak sa dili kinasal bisan ang mga kaliwat niya hangtod sa ikanapulo ka kaliwatan."
                         },
                         {
                             "verse": 3,
-                            "text": "Ang Ammonihanon, bisan ang Moabihanon dili makasulod sa katilingban ni Jehova; bisan hangtud sa ikapulo nga kaliwatan dili usab sila makasulod sa katilingban ni Jehova nga sa walay katapusan:"
+                            "text": "“Ayaw usab paapila sa katawhan sa Ginoo ang mga Amonihanon o ang mga Moabihanon bisan hangtod sa ikanapulong kaliwatan "
                         },
                         {
                             "verse": 4,
-                            "text": "Kay sila nanagtagbo kaninyo nga walay tinapay ug tubig sa dalan, sa paggikan ninyo sa Egipto, ug kay nagsuhol sila batok kanimo kang Balaam, anak nga lalake ni Beor sa Petor sa Mesopotamia, aron siya nga magapanunglo kanimo."
+                            "text": "kay wala man kamo nila hatagig pagkaon ug tubig sa dihang nagpanaw kamo gikan sa Ehipto. Gisuholan hinuon nila si Balaam nga anak ni Beor nga taga-Peor sa Mesopotamia sa pagtunglo kaninyo. "
                         },
                         {
                             "verse": 5,
-                            "text": "Apan si Jehova nga imong Dios dili buot magapatalinghug kang Balaam, kondili gibalhin ni Jehova nga imong Dios ang tunglo sa pagkapanalangin alang kanimo, kay si Jehova nga imong Dios nahagugma kanimo."
+                            "text": "Apan wala patalinghogi sa Ginoo nga inyong Dios si Balaam ug gihimo hinuon niyang panalangin ang mga tunglo ni Balaam kay gihigugma man kamo niya. "
                         },
                         {
                             "verse": 6,
-                            "text": "Dili mo pagtinguhaon ang ilang pakigdait bisan ang ilang kaayohan sa tanan mong mga adlaw nga sa walay katapusan."
+                            "text": "Ayaw kamo pagbuhat ug bisan unsa nga makaayo o makapauswag kanila."
                         },
                         {
                             "verse": 7,
-                            "text": "Dili ka magdumot sa Idumeahanon, kay siya imong igsoon: dili ka magdumot sa Egiptohanon, kay nagdumuloong ka sa iyang yuta."
+                            "text": "“Ayaw ninyo likayi ang taga-Edomea kay inyo silang kadugo ingon man ang taga-Ehipto kay nakapuyo man kamo didto. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ang mga anak nga mangatawo kanila sa ikatolo ka kaliwatan makasulod sa katilingban ni Jehova."
+                            "text": "Ang ilang mga kaliwat gikan sa ikatulo ka kaliwatan makasulod sa inyong panagtigom."
                         },
                         {
                             "verse": 9,
-                            "text": "Sa moadto ka sa kapatagan batok sa imong mga kaaway, maglikay ka sa tanang dautan nga butang."
+                            "text": "“Kon atua kamo sa kampo panahon sa gubat, likayi ninyo ang bisan unsa nga hugaw. "
                         },
                         {
                             "verse": 10,
-                            "text": "Kong adunay adunay bisan kinsa nga dili mahinlo tungod sa nahitabo kaniya sa gabii, nan mopahawa siya sa campo, siya dili magasulod sa campo."
+                            "text": "Kon may usa kaninyo nga gigulaan ug binhi sa panahon sa iyang pagkatulog, kinahanglan nga mogawas siya sa kampo ug dili mobalik "
                         },
                         {
                             "verse": 11,
-                            "text": "Apan sa moabut na ang kahaponon magahugas siya sa tubig, ug kong mosalup na ang adlaw mosulod siya sa campo."
+                            "text": "hangtod sa sunod nga hapon human siya makaligo. Unya inigsalop sa adlaw makasulod na siya sa kampo."
                         },
                         {
                             "verse": 12,
-                            "text": "Magabaton ka ug usa ka dapit usab nga gawas sa campo, ug moadto ka didto sa gawas."
+                            "text": "“Paggahin kamog dapit gawas sa kampo nga butangan sa inyong hugaw. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug magabaton ka ug dosdos uban sa imong mga hinagiban, ug mamao nga kong magalingkod ikaw didto sa gawas, magakalot ka kaniya, ug unya mobalik ikaw ug magatabon sa nagagikan kanimo:"
+                            "text": "Kon malibang kamo, pagkubkob kamo sa yuta pinaagi sa usa ka kahoy o sa inyong hinagiban ug inigkahuman ninyog kalibang taboni kinig yuta "
                         },
                         {
                             "verse": 14,
-                            "text": "Kay si Jehova nga imong Dios magalakaw sa taliwala sa imong campo aron sa pagluwas kanimo, ug aron sa pagtugyan nganha kanimo sa imong mga kaaway: aron sa ingon niana ang imong campo mabalaan aron dili siya makakita ug mahugaw nga butang kanimo, ug motalikod kanimo."
+                            "text": "kay ang Ginoo nga inyong Dios mosuroy man sa inyong kampo aron pagluwas kaninyo ug pagtugyan sa inyong kaaway nganha kaninyo. Busa kinahanglang limpyo ang inyong kampo aron dili siya makakitag hugaw ug biyaan kamo niya."
                         },
                         {
                             "verse": 15,
-                            "text": "Dili mo pag-iuli sa iyang agalon ang ulipon nga mikalagiw nganha kanimo gikan sa iyang agalon:"
+                            "text": "“Ayaw papaulia sa iyang agalon ang usa ka ulipon nga milayas ug midangop kaninyo. "
                         },
                         {
                             "verse": 16,
-                            "text": "Magapuyo siya uban kanimo sa imong taliwala, sa dapit nga pagapilion niya sa usa sa imong mga ganghaan, diin siya mahimuot sa pagpuyo, dili mo siya pagdaugdaugon."
+                            "text": "Papuy-a siya sa imong yuta bisag diing lungsora nga nagustohan niya. Ayaw siyag daugdaoga."
                         },
                         {
                             "verse": 17,
-                            "text": "Walay bisan kinsa nga magbigaon sa mga anak nga babaye sa Israel, walay bisan kinsa nga magsodomanhon sa mga anak nga lalake sa Israel."
+                            "text": "“Kinahanglang walay Israelita, babaye siya o lalaki, nga magbaligya sa ilang dungog didto sa templo sa mga diosdios. "
                         },
                         {
                             "verse": 18,
-                            "text": "Dili ka magdala ug suhol sa bigaon, bisan suhol sa iro, ngadto sa balay ni Jehova nga imong Dios tungod sa bisan unsa nga panaad; kay bisan kining duha dulumtanan alang kang Jehova nga imong Dios."
+                            "text": "Ug ayaw gayod ninyo gamita ang salapi nga abang sa babaye ug sa lalaki nga nagbaligya sa ilang dungog aron ibayad sa imong panaad sa Ginoo nga inyong Dios. Gikasilagan kini sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 19,
-                            "text": "Dili ka magpahulam nga may patubo sa imong igsoon; patubo sa salapi; bisan patubo sa makaon, bisan patubo sa bisan unsang butanga nga papahulaman nga may patubo."
+                            "text": "“Ayaw patuboi ang salapi, pagkaon o bisan unsa nga bayloon sa imong isigka-Israelita. "
                         },
                         {
                             "verse": 20,
-                            "text": "Sa dumuloong makapahulam ka nga may patubo, apan sa imong igsoon dili ka magpahulam nga may patubo, aron magapanalangin kanimo si Jehova nga imong Dios sa tanan nga bulohaton sa imong mga kamot, sa ibabaw sa yuta nga imong pagaadtoan sa pagpanag-iya niini."
+                            "text": "Mahimong patuboan ninyo ang nabaylo sa usa ka langyaw apan ayaw patuboi ang inyong gipahulaman sa inyong isigka-Israelita aron panalanginan sa Ginoo nga inyong Dios ang tanan ninyong buhaton didto sa nasod nga sa dili madugay mapanag-iya na ninyo."
                         },
                         {
                             "verse": 21,
-                            "text": "Sa diha nga magapanaad ka ug saad kang Jehova nga imong Dios, dili ka maglangan sa pagbayad niana; kay sa pagkamatuod gayud si Jehova nga imong Dios magapaningil niini kanimo; ug mahimo kining sala nimo."
+                            "text": "“Kon may gipanaad kamo sa Ginoo nga inyong Dios, kinahanglang inyo kining tumanon kay paninglon kini sa Ginoo ug sala ang dili pagtuman niini. "
                         },
                         {
                             "verse": 22,
-                            "text": "Apan kong magapugong ka sa panaad dili kini mahimong sala nimo."
+                            "text": "Apan kon dili kamo manaad, dili kamo makasala."
                         },
                         {
                             "verse": 23,
-                            "text": "Ang ginapamulong sa imong mga ngabil matngonan mo ug buhaton; ingon sa imong gisaad kang Jehova nga imong Dios, usa ka halad sa kinabubut-on, nga imong gisaad pinaagi sa imong baba."
+                            "text": "Tumana gayod ang inyong mga panaad sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 24,
-                            "text": "Sa magasulod ka sa kaparrasan sa imong isigkatawo, nan makakaon ka ug mga parras hangtud sa pagkatagbaw sa imong tinguha; apan dili ka magbutang bisan unsa sa imong panudlanan."
+                            "text": "“Kon moadto ka sa parasan sa imong isigkatawo, makahimo ka pagkaon ug paras kutob sa imong gusto apan ayaw pagdala ngadto sa inyo. "
                         },
                         {
                             "verse": 25,
-                            "text": "Sa duha nga mosulod ka sa anihon sa imong isigkatawo, makakutlo ka ug mga uhay sa imong kamot; apan dili ka magagamit ug galab sa anihon sa imong isigkatawo."
+                            "text": "Kon moadto ka sa uma sa trigo sa imong isigkatawo, makahimo ka pagpangutlo pinaagi sa kamot apan ayaw gamitig sanggot."
                         }
                     ]
                 },
@@ -23014,91 +23014,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Sa diha nga ang tawo magapili ug asawa ug mangasawa kaniya, siya dili moayon kaniya tungod kay nakakaplag siya kaniya ug butang nga dili maputli, magasulat siya kaniya ug sulat sa pagpakigbulag, ug igahatag niya sa iyang kamot, ug pagapagulaon niya siya sa iyang balay."
+                            "text": "“Kon ang usa ka lalaki mangasawa ug unya dili na gusto ang lalaki sa babaye kay may hipalgan man ang lalaki nga wala niya higustohi bahin sa babaye, maghimo siya ug sulat sa pakigbulag ug ihatag niya kini sa babaye ug papahawaon niya ang babaye sa iyang balay. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug sa mahigula na siya sa iyang balay, makalakaw siya ug mahimong asawa sa lain nga lalake."
+                            "text": "Kon ang maong babaye maasawa sa laing lalaki "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug kong ang ulahi nga bana masilag kaniya, ug magasulat kaniya ug sulat sa pagpakigbulag, ug igahatag niya kini sa iyang kamot, ug iyang pagapagulaon siya sa iyang balay; o kong mamatay ang ulahi nga lalake nga mikuha kaniya aron maiyang asawa,"
+                            "text": "ug ang iyang ikaduhang bana wala nay gusto kaniya, sulatan niya ang babaye ug sulat sa pakigbulag ug hinginlan niya siya. O kon mamatay ang ikaduhang bana, "
                         },
                         {
                             "verse": 4,
-                            "text": "Ang iyang unang bana nga nagpagula kaniya dili magkuha kaniya pag-usab aron nga kini maasawa niya, sa human na siya mahugawi; kay kini dulumtanan sa atubangan ni Jehova; ug dili mo hatagan ug higayon sa pagpakasala ang yuta nga gihatag kanimo ni Jehova nga imong Dios sa pagkapanulondon."
+                            "text": "dili siya mahimong pangasaw-on pag-usab sa unang bana niya kay gipahimuslan na man siyag lain. Ang pagbuhat sa ingon ngil-ad sa atubangan sa Ginoo ug kinahanglan nga dili ninyo hugawan ang yuta nga ihatag kaninyo sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 5,
-                            "text": "Sa diha nga nagapili ang tawo ug bag-ong asawa, dili siya magaadto sa pagpanggubat, dili usab siya hatagan ug gahum sa bisan unsang bulohaton: magapuyo siya sa iyang balay nga walay katungdanan sa usa ka tuig, ug maglipay sa iyang asawa nga iyang gipili."
+                            "text": "“Kon bag-o pang minyo ang usa ka lalaki, kinahanglang dili siya tawgon sa pagkasundalo o pag-alagad sa gobyerno. Hatagan siyag kagawasan sulod sa usa ka tuig aron makahigayon pagtipon sa iyang asawa ug paglipay uban kaniya."
                         },
                         {
                             "verse": 6,
-                            "text": "Walay tawo nga magaprenda sa galingan, bisan sa ligsanan sa galingan: kay kini maoy pagprenda sa kinabuhi."
+                            "text": "“Ayaw kuhaa ang usa ka galingan ingon nga garantiya kay sama ra nga ang panginabuhi sa iyang banay maoy imong gikuha ingon nga garantiya."
                         },
                         {
                             "verse": 7,
-                            "text": "Kong may tawo nga hikaplagan nga mangawat sa bisan kinsa sa iyang igsoon sa mga anak sa Israel, ug pagapatigayonon niya siya ingon nga ulipon, kun iyang igabaligya siya; ang maong kawatan mamatay, niini nga paagi pagkuhaon mo ang dautan sa taliwala mo."
+                            "text": "“Kon may hisakpan nga nanagit sa iyang isigka-Israelita aron iyang ulipnon o ibaligya, ang nagdagit kinahanglang patyon. Sa ingon mawagtang ang daotan gikan sa inyong katilingban."
                         },
                         {
                             "verse": 8,
-                            "text": "Magmatngon ka sa sakit sa sanla, nga pagapanid-an mo sa pagkasingkamut gayud, ug pagabuhaton mo ingon sa tanan nga igatudlo kaninyo sa mga sacerdote nga Levihanon magmatngon kamo sa pagbuhat sumala sa akong gisugo kanila."
+                            "text": "“Pagbantay pag-ayo sa bisan unsang timailhan sa sanla ug tumana gayod ang gipabuhat sa mga pari nga sakop sa banay ni Levi sumala sa akong mando. "
                         },
                         {
                             "verse": 9,
-                            "text": "Hinumduman mo ang gibuhat ni Jehova nga imong Dios kang Miriam sa dalan sa tapus na kamo mipahawa sa Egipto."
+                            "text": "Hinumdomi ang gihimo sa Ginoo nga inyong Dios ngadto kang Miriam sa inyong pagpanaw gikan sa Ehipto."
                         },
                         {
                             "verse": 10,
-                            "text": "Sa diha nga magapahulam ka sa imong isigkatawo sa bisan unsang paagi sa paghulam, dili ka magsulod sa iyang balay sa pagkuha kaniya ug prenda."
+                            "text": "“Kon magpahulam kag bisan unsa sa imong isigka-Israelita, ayaw pagdayon sa iyang balay aron pagkuha sa garantiya."
                         },
                         {
                             "verse": 11,
-                            "text": "Maghulat ka sa gawas, ug ang tawo nga imong pahulamon magadala sa prenda kanimo ngadto sa gawas."
+                            "text": "Paghulat sa gawas ug siya ray pakuhaa niini. "
                         },
                         {
                             "verse": 12,
-                            "text": "Ug kong kining tawohana kabus dili ka magkatulog uban sa iyang prenda."
+                            "text": "Kon kabos siya ug sinina ang iyang gigarantiya kanimo, ayaw kini tagoi sa imong balay sa tibuok gabii. "
                         },
                         {
                             "verse": 13,
-                            "text": "Kinahanglan gayud nga igauli mo kaniya ang prenda sa dili pa mosalop ang adlaw, aron matulog siya sa iyang bisti, ug magapanalangin kanimo: ug kini mamao ang pagkamatarung alang kanimo sa atubangan ni Jehova nga imong Dios."
+                            "text": "Iuli kini kaniya sa dili pa mosalop ang adlaw aron magamit niya kini pagkatulog ug pasalamatan ka niya. Unya magpasalamat siya ug ang Ginoo nga imong Dios mahimuot kanimo."
                         },
                         {
                             "verse": 14,
-                            "text": "Dili mo pagdaugdaugon ang mamomoo nga kabus ug adunay kinahanglan, bisan siya usa sa imong mga igsoon, bisan sa mga dumuloong nga anaa sa imong yuta sulod sa imong mga ganghaan:"
+                            "text": "“Ayaw bintahai ang kabos ug timawa nga trabahador, Israelita man siya o langyaw nga nagpuyo sa usa sa inyong mga lungsod. "
                         },
                         {
                             "verse": 15,
-                            "text": "Sa iyang adlaw magahatag ka kaniya sa iyang suhol, ug dili pagapasalopan sa adlaw kini (kay siya kabus, ug ang iyang kasingkasing nagatinguha alang sa iyang kinabuhi); kay tingali unya magatu-aw siya batok kanimo kang Jehova, mahimong sala kini kanimo."
+                            "text": "Hatagi siya sa iyang inadlawng suhol sa dili pa mosalop ang adlaw kay gikinahanglan kaayo niya kini tungod kay kabos man siya. Kon dili mo kini buhaton, motuaw siya sa Ginoo batok kanimo ug ilhon ka unya nga sad-an."
                         },
                         {
                             "verse": 16,
-                            "text": "Ang mga amahan dili pagapatyon tungod sa mga anak, ni ang mga anak pagapatyon tungod sa mga amahan; ang tagsatagsa pagapatyon tungod sa iyang kaugalingong sala."
+                            "text": "“Kinahanglang dili patyon ang amahan tungod sa sala sa iyang anak o ang anak tungod sa sala sa iyang amahan. Patyon lamang ang tawo tungod sa iyang kaugalingong sala."
                         },
                         {
                             "verse": 17,
-                            "text": "Dili mo balit-aron ang katarungan nga angay sa lumalangyaw, kun sa mga ilo; dili ka usab magdawat sa bisti sa balo nga babaye ingon nga prenda:"
+                            "text": "“Ayaw hikawi sa hustisya ang usa ka dumuduong ug ilo. Ayaw kuhaa ang bisti sa usa ka biyuda ingon nga garantiya."
                         },
                         {
                             "verse": 18,
-                            "text": "Apan hinumduman mo nga naulipon ka didto sa Egipto, ug gikan didto gibawi ka ni Jehova nga imong Dios; busa nagasugo ako kanimo sa pagbuhat niini."
+                            "text": "Hinumdomi nga naulipon kamo didto sa Ehipto ug giluwas kamo sa Ginoo nga inyong Dios busa gisugo ko kamo sa pagbuhat niini."
                         },
                         {
                             "verse": 19,
-                            "text": "Sa diha nga magaani ka sa imong mga uhay sa imong uma, ug nahikalimot ka sa usa ka bugkos nga uhay didto sa uma dili ka magbalik sa pagkuha niana; kini iya sa dumulong, sa ilo, ug sa balo nga babaye; aron pagapanalanginan ka ni Jehova nga imong Dios sa tanan nga bulohaton sa imong mga kamot."
+                            "text": "“Kon makabiya kamog usa ka bugkos nga trigo didto sa uma inigpangani ninyo, ayaw na kinig balika. Ihatag na lamang kini sa mga langyaw, sa mga ilo ug mga biyuda aron panalanginan kamo sa Ginoo nga inyong Dios sa tanan ninyong buhaton. "
                         },
                         {
                             "verse": 20,
-                            "text": "Sa diha nga magauyog ka sa imong mga oliva dili mo paghagdawan ang mga sanga pag-usab: kini alang na sa dumuloong, sa ilo, ug sa balo nga babaye."
+                            "text": "Kon mangani kamo sa inyong olibo, ayaw na kini panghagdawi. Ihatag na lamang sa mga langyaw, sa mga ilo ug sa mga biyuda ang nasalin. "
                         },
                         {
                             "verse": 21,
-                            "text": "Sa diha nga magapamupo ka sa mga bunga sa imong parrasan dili mo paghagdawan pag-usab; kini alang sa dumuloong, sa ilo, ug sa balo nga babaye."
+                            "text": "Kon mamupo na kamo sa inyong ubas, ayaw na kini hagdawi. Ihatag na lamang ang nahisalin ngadto sa mga langyaw, sa mga ilo ug sa mga biyuda. "
                         },
                         {
                             "verse": 22,
-                            "text": "Ug pagahinumduman mo nga naulipon ka sa yuta didto sa Egipto: busa ginasugo ko ikaw nga buhaton mo kini."
+                            "text": "Hinumdomi nga kamo naulipon didto sa Ehipto busa gisugo ko kamo sa pagbuhat niini."
                         }
                     ]
                 },
@@ -23107,79 +23107,79 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kong adunay paglalis sa taliwala sa mga tawo, ug mangadto sila sa paghukom, ug mga maghuhukom magahukom kanila, pagabuhian nila ang matarung, ug pagahukman nila sa silot ang dautan."
+                            "text": "“Kon adunay kaso nga husayon sa hukmanan, hukmi ninyo kon kinsay nasayop ug kinsay husto. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug mahitabo nga kong ang dautang tawo angay nga pagahampakon, nga ang maghuhukom magapaubo kaniya ug iyang ipahampak siya sa iyang atubangan, sumala sa iyang pagkadautan, sa pila ka isip."
+                            "text": "Kon ang sad-an angay latoson, pakulobon siya sa maghuhukom diha sa iyang atubangan ug ipalatigo siya sa gidaghanon nga angay sa iyang sala. "
                         },
                         {
                             "verse": 3,
-                            "text": "Iyang pagalatuson siya ug kap-atan ka hampak, dili siya magapalabaw niini; tingali kong siya magahampak nga kapin niini, unya ang imong igsoon madautan nga pagatan-awon sa atubangan mo."
+                            "text": "Apan ang labing daghan kutob ra gayod sa 40 ka latos. Kon ipalatos siyag labaw niini, maulawan siya."
                         },
                         {
                             "verse": 4,
-                            "text": "Dili mo pagbutangan ug busal ang baba sa vaca kong magagiuk kini sa trigo."
+                            "text": "“Ayaw sap-ungi ang baba sa baka samtang naggiok kini."
                         },
                         {
                             "verse": 5,
-                            "text": "Kong ang mga managsoon magatingub sa pagpuyo, ug mamatay ang usa kanila, ug walay anak, ang asawa sa namatay dili makapamana sa gawas sa lalake nga dumuloong: ang igsoon sa iyang bana moadto kaniya ug mangasawa kaniya, ug magabuhat siya sa katungdanan ingon nga igsoon sa bana niya."
+                            "text": "“Kon magtipon pagpuyo ang duha ka igsoong lalaki ug unya mamatay ang usa kanila nga walay anak, kinahanglan nga dili magminyo ang biyuda niya ngadto sa laing tawo nga dili sakop sa panimalay. Ang igsoon sa iyang bana kinahanglang maoy mangasawa kaniya. Katungdanan kini sa igsoon sa usa ka bana nga namatay. "
                         },
                         {
                             "verse": 6,
-                            "text": "Ug mahitabo nga ang panganay nga lalake nga igapanganak niya, magabangon sa ngalan sa iyang igsoon nga namatay, aron ang ngalan niini dili mapala sa Israel."
+                            "text": "Ang kamagulangang anak nga lalaki nga matawo maoy modala sa ngalan sa namatay nga igsoon aron dili mahanaw ang iyang ngalan sa Israel. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug kong ang tawo dili buot magadawat sa asawa sa iyang igsoon, unya moadto ang asawa sa iyang igsoon sa pultahan ngadto sa mga anciano, ug magaingon siya: Ang igsoon nga lalake sa akong bana dili buot magabangon pag-usab alang sa iyang igsoon ug ngalan sa Israel; siya dili buot magpakigkaubanan kanako."
+                            "text": "Kon magdumili siya sa pagpangasawa sa biyuda sa iyang igsoon, mahimong modangop ang biyuda ngadto sa hukmanan tungod kay nagdumili man ang maong tawo sa pagbangon sa ngalan sa iyang igsoon nga namatay. "
                         },
                         {
                             "verse": 8,
-                            "text": "Unya ang mga anciano sa iyang lungsod magapaanha kaniya, ug magapakigsulti kaniya: ug kong siya motingog ug moingon: Ako dili buot magadawat kaniya."
+                            "text": "Unya ipatawag siya ug pakigsultihan sa mga kadagkoan sa siyudad. Kon moingon siya nga dili siya gusto nga mangasawa sa biyuda,"
                         },
                         {
                             "verse": 9,
-                            "text": "Nan moduol kaniya ang asawa sa iyang igsoon sa atubangan sa mga anciano, ug magabadbad sa iyang sapin sa iyang tiil, ug magaluwa sa iyang nawong ug mosulti ug magaingon: Mao kini ang pagabuhaton sa tawo nga dili magatukod sa balay sa iyang igsoon nga lalake."
+                            "text": "moduol kaniya ang biyuda atubangan sa mga pangulo. Kuhaon sa biyuda ang sandalyas sa igsoon sa iyang namatayng bana ug unya lud-an niya ang nawong sa maong lalaki ug moingon, ‘Mao kini ang himoon ngadto sa lalaki nga magdumili sa pagbangon sa ngalan sa iyang igsoon.’ "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug ang iyang ngalan pagahinganlan sa Israel: Ang balay sa binadbaran sa sapin."
+                            "text": "Nganlan ang banay sa maong tawo, ‘Ang banay sa tawo nga gihuboan ug sandalyas.’"
                         },
                         {
                             "verse": 11,
-                            "text": "Sa diha nga manag-away ang mga tawo sa usa ug usa, ug moabut ang asawa sa usa aron sa pagluwas sa iyang bana gikan sa kamot sa magasamad kaniya, ug igakuot niya ang iyang kamot, ug iyang pagakuhaon siya pinaagi sa mga butang tinago;"
+                            "text": "“Kon may duha ka lalaki nga mag-away ug ang asawa sa usa kanila motabang sa iyang bana ug gunitan niya ang itlog sa kaaway sa iyang bana, "
                         },
                         {
                             "verse": 12,
-                            "text": "Unya pagaputlon mo ang iyang kamot: ang imong mata dili magakalooy kaniya."
+                            "text": "putla ang iyang kamot sa walay kukaluoy."
                         },
                         {
                             "verse": 13,
-                            "text": "Dili ka magbaton diha sa imong puntil sa nagakalainlain nga timbang, dagku ug gagmay."
+                            "text": "“Ayaw paggamit ug timbangan nga dili husto "
                         },
                         {
                             "verse": 14,
-                            "text": "Dili ka magbaton diha sa imong balay sa taksanan nga nagkalainlain, dagku ug gagmay."
+                            "text": "ug ayaw paggamit ug dili hustong sukdanan. "
                         },
                         {
                             "verse": 15,
-                            "text": "Magabaton ka ug timbangan nga hingpit ug matarung: magabaton ka ug taksanan nga hingpit ug matarung: aron pahalugwayan ang imong mga adlaw sa yuta nga ginahatag kanimo ni Jehova nga imong Dios."
+                            "text": "Ang husto gayong sukdanan ug timbangan mao lamay gamita aron mabuhi kamog dugay didto sa yuta nga ihatag kaninyo sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 16,
-                            "text": "Kadtong tanan nga magabuhat nianang mga butanga, bisan kinsa nga magabuhat ug dili matarung, maoy usa ka dulumtanan alang kang Jehova nga imong Dios."
+                            "text": "Gikasilagan sa Ginoo ang mga tawo nga manlimbong."
                         },
                         {
                             "verse": 17,
-                            "text": "Hinumduman mo ang gibuhat ni Amalec kanimo sa dalan, sa paggikan ninyo sa Egipto:"
+                            "text": "“Hinumdomi ang gibuhat kaninyo sa mga Amalekanhon sa nagpanaw kamo gikan sa Ehipto. "
                         },
                         {
                             "verse": 18,
-                            "text": "Nga siya misugat kanimo sa dalan, ug naglaglag sa ulahi nga panon sa mga sundalo, sa tanan nga mga mahuyang sa ulahi nimo, sa diha nga gikapuyan ka ug gibudlay; ug wala siya mahadlok sa Dios."
+                            "text": "Gilipot kamo nila sa dihang gipangapoy ug nangaluya na kamo pag-ayo ug gipamatay ang tanan nga nanglimbasog nga nagsunod kaninyo. "
                         },
                         {
                             "verse": 19,
-                            "text": "Busa mahitabo, sa diha nga si Jehova nga imong Dios makahatag na kanimo sa kapahulayan gikan sa imong mga kaaway nga nagalibut, sa yuta nga gihatag kanimo ni Jehova nga imong Dios sa pagkapanulondon aron magapanag-iya niini, nga pagapalaon mo ang handumanan ni Amalec gikan sa ilalum sa langit: dili ka mahikalimot."
+                            "text": "Busa kon hatagan na kamo sa Ginoo nga inyong Dios ug kalinaw didto sa yuta nga ihatag niya kaninyo, puoha ninyo ang mga Amalekanhon aron dili na gyod sila mahinumdoman pa. Ayaw gayod kini kalimti!"
                         }
                     ]
                 },
@@ -23188,79 +23188,79 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug mahitabo, sa diha nga makasulod ka na sa yuta nga gihatag kanimo ni Jehova nga imong Dios sa pagkapanulondon, ug magapanag-iya niini ug magapuyo niana:"
+                            "text": "“Kon adto na kamo sa yuta nga gihatag kaninyo sa Ginoo nga inyong Dios ug makapuyo na kamo didto, "
                         },
                         {
                             "verse": 2,
-                            "text": "Nga magakuha ka sa una sa tanan nga mga bunga sa yuta, nga imong makuha nga gihatag kanimo ni Jehova nga imong Dios, ug igabutang mo kini sa usa ka bukag, ug moadto ka sa dapit nga pagapilion ni Jehova nga imong Dios, aron pagapapuy-on niya didto ang iyang ngalan."
+                            "text": "dad-a ang tanang unang mga abot ninyo nga sinulod ug basket ngadto sa dapit nga alampoanan nga pilion sa Ginoo nga inyong Dios. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug umadto ka sa sacerdote nga masacerdote niadtong mga adlawa, ug magaingon ka kaniya: Magasugid karon ako kang Jehova nga imong Dios, nga misulod ako sa yuta nga gipanumpa ni Jehova sa atong mga amahan nga igahatag kanato:"
+                            "text": "Adtoa ninyo ang pari nga maoy nagdumala nianang higayona ug ingna siya, ‘Ipahayag ko karon sa Ginoo nga ania na ako sa yuta nga gisaad sa Ginoo sa atong katigulangan nga ihatag niya kanato.’"
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ang sacerdote magakuha sa bukag gikan sa imong kamot, ug igabutang kini sa atubangan sa halaran ni Jehova nga imong Dios."
+                            "text": "“Unya kuhaon sa pari ang basket nga gisudlan sa unang abot ug ibutang niya kini atubangan sa halaran sa Ginoo. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug magatubag ka ug magaingon sa atubangan ni Jehova nga imong Dios: Usa ka Siriahanon nga andam sa pagkawala mao ang akong amahan, ug milugsong siya ngadto sa Egipto, ug mipuyo didto, diriyut lamang ug didto nahimong usa ka nasud, daku, kusgan ug daghan:"
+                            "text": "Ug kini maoy inyong isulti sa atubangan sa Ginoo: ‘Ang akong katigulangan taga-Aramea ug naglatagaw siya. Miadto siya sa Ehipto ug mipuyo didto sa diyutay pa ang iyang katawhan. Ug didto misanay siya ug nahimong gamhanan. "
                         },
                         {
                             "verse": 6,
-                            "text": "Ug ang mga Egiptohanon nanagbuhat ug dautan kanamo, ug nagsakit kanamo, ug nagbutang sa ibabaw kanamo sa mapait nga pagkaulipon:"
+                            "text": "Gidaugdaog kami pag-ayo sa mga Ehiptohanon, gipakaulawan ug giulipon. "
                         },
                         {
                             "verse": 7,
-                            "text": "Ug mitu-aw kami kang Jehova, ang Dios sa among mga amahan; ug nagpatalinghug si Jehova sa among tingog, ug nakakita sa among kalisud, ug sa among kahago ug sa pagdaugdaug kanamo:"
+                            "text": "Nagpakitabang kami sa Ginoo, ang Dios sa among katigulangan ug gidungog niya ang among mga pag-ampo ug nakita niya ang pagdaugdaog ug pagpakaulaw kanamo. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ug gikuha kami ni Jehova gikan sa Egipto nga adunay kamot nga kusgan, ug sa bukton nga tinuy-od ug may dakung pagkamakalilisang, ug may mga ilhanan, ug may mga katingalahan;"
+                            "text": "Gikuha kami sa Ginoo ginamit ang iyang gahom ug makalilisang nga mga buhat, mga ilhanan ug mga milagro "
                         },
                         {
                             "verse": 9,
-                            "text": "Ug kami gidala niya niining dapita, ug naghatag kanamo niining yutaa, yuta nga nagapaagay sa gatas ug dugos."
+                            "text": "ug gidala kami niya niining dapita ug gihatag kanamo kining tabunok nga yuta. "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug karon, tan-awa, nagdala ako sa una nga bunga sa yuta nga gihatag mo kanako, oh Jehova. Ug igabutang mo kini sa atubangan ni Jehova nga imong Dios, ug magasimba ka sa atubangan ni Jehova nga imong Dios:"
+                            "text": "Busa gidala ko kining unang abot nga gihatag mo kanako, O Ginoo.’ “Unya ibutang kini sa atubangan sa Ginoo ug simbaha siya. "
                         },
                         {
                             "verse": 11,
-                            "text": "Ug magakalipay ka sa tanan nga kaayohan nga gihatag kanimo ni Jehova nga imong Dios, ug sa imong balay; ikaw, ug ang Levihanon, ug ang dumuloong nga anaa sa taliwala nimo."
+                            "text": "Sa ingon, maglipay kamo ug ang mga Levita ingon man ang mga langyaw nga nagpuyo tipon kaninyo tungod sa tanang maayong butang nga gihatag sa Ginoo kaninyo ug sa inyong panimalay."
                         },
                         {
                             "verse": 12,
-                            "text": "Sa mahuman mo ang paghatag sa ikapulo sa tanan nga ikapulo sa imong mga bunga sa ikatolo ka tuig, nga mao ang tuig sa ikapulo, unya igahatag mo usab sa Levihanon, sa dumuloong, sa ilo, ug sa balo nga babaye, aron sila magakaon sa sulod sa imong mga ganghaan, ug mangabusog sila;"
+                            "text": "“Sa matag ikatulong tuig nga mao ang tuig nga ihatag mo ang ikapulo sa tanan mong abot ngadto sa mga Levita ug sa mga langyaw nga nagpuyo tipon kaninyo ingon man sa mga ilo ug mga biyuda aron aduna silay makaon, "
                         },
                         {
                             "verse": 13,
-                            "text": "Unya magaingon ka sa atubangan ni Jehova nga imong Dios: Gipagawas ko sa akong balay ang mga ginapakabalaan nga mga butang, ug ingon man usab gihatag ko sila sa Levihanon, ug sa dumuloong, ug sa ilo, ug sa babaye nga balo, sumala sa tanan mong mga sugo nga imong gisugo kanako; wala ako maglapas sa imong mga sugo, wala usab ako mahikalimot kanila."
+                            "text": "isulti atubangan sa Ginoo nga inyong Dios kining mosunod, ‘Gihatag ko na sa mga Levita ug sa mga langyaw ingon man sa mga ilo ug sa mga biyuda ang balaang bahin sumala sa imong gisugo kanako. Wala ako mosupil o malimot sa imong kasugoan. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ako wala makakaon niini sa akong pagbangutan, wala ko usab kini isalikway, sanglit mahugaw, wala ko usab ihatag alang sa minatay: nagpatalinghug ako sa tingog ni Jehova nga akong Dios, nagbuhat ako sumala sa tanan nga gisugo mo kanako."
+                            "text": "Wala ako mokaon sa ikapulo samtang nagbangotan ako, wala maghatag niini samtang hugaw ako o naghalad niini ngadto sa mga patay. Nagmatinumanon ako sa Ginoo nga akong Dios. "
                         },
                         {
                             "verse": 15,
-                            "text": "Tumambo ka gikan sa imong balaang, puloy-anan gikan sa langit, ug panalanginan mo ang imong katawohan nga Israel, ug ang yuta nga imong gihatag kanamo, ingon nga imong gipanumpa sa among mga amahan, yuta nga nagapaagay sa gatas ug dugos."
+                            "text": "Busa tan-awa ako gikan sa imong balaang puloy-anan sa langit ug panalangini intawon ang imong katawhan, ang Israel, ingon man ang maayo ug tabunok nga yuta nga imong gihatag kanamo sumala sa imong gisaad sa among katigulangan.’"
                         },
                         {
                             "verse": 16,
-                            "text": "Si Jehova nga imong Dios nagasugo kanimo niining adlawa sa pagbuhat sa kabalaoran ug mga tulomanon; busa singkamutan mo ang pagbantay ug pagbuhat niini sa bug-os mo nga kasingkasing ug sa bug-os mo nga kalag."
+                            "text": "“Niining adlawa gisugo kamo sa Ginoo nga inyong Dios sa pagtuman niining tanang mga balaod sa bug-os ninyong kasingkasing ug kalag. "
                         },
                         {
                             "verse": 17,
-                            "text": "Gipamatud-an mo si Jehova niining adlawa nga Dios, ug magalakaw ka sa iyang mga dalan, ug magabantay sa iyang kabalaoran, ug sa iyang mga sugo, ug sa iyang mga tulomanon, ug magapatalinghug sa iyang tingog:"
+                            "text": "Gipahayag ninyo karon nga ang Ginoo mao ang inyong Dios ug nga magkinabuhi kamo sumala sa iyang kabubut-on ug tumanon ninyo ang iyang mga sugo. "
                         },
                         {
                             "verse": 18,
-                            "text": "Ug si Jehova nagpamatuod niining adlawa nga ikaw mao ang katawohan alang kaniya, ingon sa iyang saad kanimo, ug nga magbantay ka sa tanan nga mga sugo niya;"
+                            "text": "Karong adlawa usab miingon ang Ginoo nga kamo iyang katawhan sumala sa gisaad niya kaninyo ug nga kamo magtuman sa tanan niyang mga sugo. "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug sa pagbutang kanimo nga ibabaw sa tanan nga mga nasud nga iyang gibuhat, sa pagdayeg, ug sa ngalan, ug sa kadungganan; ug nga ikaw mahimong balaan nga katawohan kang Jehova nga imong Dios, ingon sa iyang giingon kanimo."
+                            "text": "Himoon kamo niyang labaw sa tanang nasod alang sa iyang dungog ug himaya, usa ka balaang katawhan nga iya sa Ginoo nga inyong Dios, sumala sa iyang gisaad.”"
                         }
                     ]
                 },
@@ -23269,43 +23269,43 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug si Moises ug ang mga anciano sa Israel nagsugo sa katawohan, nga nagaingon: Bantayan ninyo ang tanang mga sugo nga akong ginatudlo kaninyo niining adlawa."
+                            "text": "Si Moises, uban ang kadagkoan sa Israel, miingon sa katawhan, “Tumana ninyo ang tanang balaod nga gihatag ko kaninyo niining adlawa. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug mahitabo, nga sa adlaw nga motabok kamo sa Jordan padulong sa yuta nga gihatag kanimo ni Jehova nga imong Dios, magapatindog ka ug mga bato nga dagku, nga pagabuliton mo sila sa apog."
+                            "text": "Ug sa adlaw nga molabang kamo sa Suba sa Jordan ngadto sa yuta nga gihatag kaninyo sa Ginoo nga inyong Dios, pagtapok ug dagkong mga bato ug bulita kinig apog. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug igasulat mo kanila ang tanang mga pulong niini nga Kasugoan, sa makatabok na kamo; aron sa pagsulod sa yuta nga gihatag kaninyo ni Jehova nga imong Dios, yuta nga nagapaagay sa gatas ug dugos, ingon sa saad kanimo ni Jehova nga Dios sa imong mga amahan."
+                            "text": "Isulat niini ang kasugoan aron makasulod kamo sa tabunok nga yuta sumala sa gisaad kaninyo sa Ginoo nga Dios sa inyong katigulangan. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug mahitabo sa diha nga makatabok na kamo sa Jordan, nga pagapatindogon ninyo kining bato nga akong ginasugo kaninyo niining adlawa, sa bukid sa Ebal, ug pagabuliton mo sila sa apog."
+                            "text": "Sa dihang nakalabang na sila sa Suba sa Jordan, tapoka kining mga bato didto sa Bukid sa Ebal ug bulita kinig apog. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug didto magabuhat ka ug halaran alang kang Jehova nga imong Dios, halaran nga bato: dili ka magbakyaw ug galamiton nga puthaw sa ibabaw nila:"
+                            "text": "Ug didto paghimog halaran nga bato alang sa Ginoo nga inyong Dios. Ayaw paggamit ug ginamiton nga puthaw sa inyong pagtukod niini."
                         },
                         {
                             "verse": 6,
-                            "text": "Sa mga bato nga tibook pagabuhaton mo ang halaran ni Jehova nga imong Dios, ug magahalad ka sa ibabaw niya ug halad-nga-sinunog kang Jehova nga imong Dios:"
+                            "text": "Tukora ang maong halaran alang sa Ginoo nga inyong Dios ginamit ang dili sinapsapang mga bato ug sa ibabaw niini paghalad ug halad nga sunogon alang sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug magahalad ka ug mga halad-sa-pakigdait, ug magakaon ka didto; ug magakalipay ka sa atubangan ni Jehova nga imong Dios."
+                            "text": "Ug paghalad kamo ug mga halad sa pakigdait ug kan-a kini didto ug paglipay kamo sa atubangan sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug igasulat mo sa mga bato ang tanan nga mga pulong niini nga Kasugoan nga labing matin-aw."
+                            "text": "Klaroha gayod pagsulat diha sa mga bato ang tanang sugo sa Dios.”"
                         },
                         {
                             "verse": 9,
-                            "text": "Ug si Moises, ug ang mga sacerdote nga mga Levihanon, nagsulti sa tibook nga Israel, nga nagaingon: Maghilum ka, ug magpatalinghug, Oh Israel: niining adlawa mahimo ka nga katawohan ni Jehova nga imong Dios."
+                            "text": "Unya si Moises ug ang mga pari nga sakop sa banay ni Levi miingon sa tibuok Israel, “Pamati, katawhan sa Israel: Niining adlawa nahimo kamong katawhan sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 10,
-                            "text": "Busa magapatalinghug ka sa tingog ni Jehova nga imong Dios, ug magatuman ka sa iyang mga sugo ug sa iyang kabalaoran, nga akong ginasugo kanimo niining adlawa."
+                            "text": "Busa pamatia ug tumana ang iyang mga sugo nga gihatag ko karon kaninyo.”"
                         },
                         {
                             "verse": 11,
@@ -23313,63 +23313,63 @@ const myBibleData = {
                         },
                         {
                             "verse": 12,
-                            "text": "Kini sila magapuyo sa ibabaw sa bukid sa Gerizim aron sa pagpanalangin sa katawohan sa human na makatabok kamo sa Jordan: si Simeon, ug si Levi, ug si Juda, ug si Issachar, ug si Jose, ug si Benjamin."
+                            "text": "“Sa dihang makatabok na kamo sa Suba sa Jordan, ang mga banay ni Simeon, ni Levi, ni Juda, ni Isacar, ni Jose ug ni Benjamin mobarog sa Bukid sa Gerisim aron sa pagpanalangin sa katawhan. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug kini sila magatindog sa ibabaw sa bukid sa Ebal alang sa pagtunglo: si Ruben, si Gad, ug si Aser, ug si Zabulon, si Dan ug si Nephtali."
+                            "text": "Didto sa Bukid sa Ebal, mobarog ang mosunod nga mga banay kon isulti na ang mga tunglo: banay ni Ruben, ni Gad, ni Aser, ni Zabulon, ni Dan ug ni Neftali. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug magasulti ang mga Levihanon, ug magaingon sila sa tanan nga tawo sa Israel sa hataas nga tingog:"
+                            "text": "Sa kusog nga tingog isangyaw kini sa mga Levita ngadto sa tanang Israelita:"
                         },
                         {
                             "verse": 15,
-                            "text": "Tinunglo ang tawo nga magabuhat ug larawan nga linilok kun tinunaw, butang nga dulumtanan alang kang Jehova, ang buhat sa kamot sa malalangon, ug nga igabutang kini sa tago! Ug ang tibook nga katawohan magatubag ug magaingon: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga maghimog diosdios gikan sa kahoy, bato o metal ug mosimba niini sa tago. Gikasilagan kini sa Ginoo.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 16,
-                            "text": "Tinunglo ang dili magatahud sa iyang amahan kun sa iyang inahan! Ug magaingon ang tibook katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga magpakaulaw sa iyang amahan o inahan.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 17,
-                            "text": "Tinunglo ang magabalhin sa utlanan sa iyang isigkatawo! Ug magaingon ang tibook katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga magbalhin sa utlanan sa yuta sa iyang isigka-Israelita.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 18,
-                            "text": "Tinunglo ang magapasalaag sa buta sa dalan! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga magpasalaag sa usa ka buta ngadto sa dili hustong dalan.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 19,
-                            "text": "Tinunglo ang magabalit-ad sa katul-iran nga angay sa dumuloong, sa ilo, ug sa balo nga babaye! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo kon hikawan niya sa hustisya ang usa ka langyaw, ilo o biyuda.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 20,
-                            "text": "Tinunglo ang magahigda ipon sa asawa sa iyang amahan; kay nagbukas siya sa tampi sa iyang amahan! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga makighilawas sa asawa sa iyang amahan kay gipakaulawan man niya ang iyang amahan.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 21,
-                            "text": "Tinunglo ang motipon paghigda sa bisan unsa nga mananap! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga makighilawas sa bisan unsang mananap.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 22,
-                            "text": "Tinunglo ang motipon paghigda sa iyang igsoon nga babaye, anak nga babaye sa iyang amahan, kun anak nga babaye sa iyang inahan. Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga makighilawas sa iyang igsoong babaye o sa babaye nga igsoon sa amahan o sa inahan lamang.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 23,
-                            "text": "Tinunglo ang motipon paghigda sa iyang ugangan nga babaye! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga makighilawas sa iyang ugangang babaye.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 24,
-                            "text": "Tinunglo ang magasamad sa iyang isigkatawo sa tago gayud! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga mopatay sa iyang isigkatawo sa tago.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 25,
-                            "text": "Tinunglo ang magadawat ug hiphip aron sa pagpatay sa usa ka tawo nga walay sala! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga mosugot nga suholan aron pagpatay sa dili sad-an.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         },
                         {
                             "verse": 26,
-                            "text": "Tinunglo ang dili magauyon sa mga pulong niini nga Kasugoan aron sa pagtuman kanila! Ug magaingon ang tibook nga katawohan: Hinaut unta!"
+                            "text": "“‘Tinunglo ang tawo nga dili motuman niining tanan.’ “Ang tanang katawhan moingon, ‘Amen.’"
                         }
                     ]
                 },
@@ -23378,275 +23378,275 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug mahitabo nga kong magapatalinghug ka sa masingkamuton gayud sa tingog ni Jehova nga imong Dios, sa pagbantay sa pagbuhat sa tanan nga mga sugo niya nga ginasugo ko kanimo niining adlawa, nga si Jehova nga imong Dios magabayaw kanimo ibabaw sa tanan nga mga nasud sa yuta:"
+                            "text": "“Kon tahoron ninyo ang Ginoo nga inyong Dios ug tumanon ang tanan niyang mga sugo nga gihatag ko kaninyo niining adlawa, himoon kamo niya nga labaw sa tanang kanasoran sa tibuok kalibotan."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug kining tanang mga panalangin moabut kanimo ug modangat kanimo kong patalinghugan mo ang tingog ni Jehova nga imong Dios."
+                            "text": "Kon tahoron ninyo siya, maangkon ninyo ang tanang panalangin."
                         },
                         {
                             "verse": 3,
-                            "text": "Mabulahan ikaw dinhi sa lungsod, ug mabulahan ikaw sa kaumahan."
+                            "text": "“Panalanginan niya ang inyong kalungsoran ug kaumahan."
                         },
                         {
                             "verse": 4,
-                            "text": "Mabulahan ang bunga sa imong lawas, ug ang bunga sa imong yuta, ug ang bunga sa imong mga mananap, ang abut sa imong mga vaca, ug ang mga nati sa imong panon sa mga carnero."
+                            "text": "“Panalanginan kamo sa Ginoo ug daghang mga anak, daghang kahayopan ug daghang abot sa yuta."
                         },
                         {
                             "verse": 5,
-                            "text": "Mabulahan ang imong alat ug ang imong dolang nga masahan."
+                            "text": "“Panalanginan niya ang inyong mga abot ug mga pagkaon."
                         },
                         {
                             "verse": 6,
-                            "text": "Mabulahan ka sa imong pagsulod, ug mabulahan ka sa imong paggula."
+                            "text": "“Panalanginan kamo niya sa tanan ninyong buhaton."
                         },
                         {
                             "verse": 7,
-                            "text": "Igapalaglag ni Jehova sa imong atubangan ang imong mga kaaway nga magatindog batok kanimo: manggula sila batok kanimo sa usa ka dalan, sa pito ka dalan mokalagiw sila gikan kanimo."
+                            "text": "“Itugyan sa Ginoo kaninyo ang inyong mga kaaway. Maghiusa sila pagsulong kaninyo apan managan sila nga magkatibulaag."
                         },
                         {
                             "verse": 8,
-                            "text": "Igapadala ni Jehova ang panalangin kanimo sa imong mga dapa, ug sa tanan nga pagabutangan mo sa imong kamot; ug siya magapanalangin kanimo sa yuta nga ginahatag kanimo ni Jehova nga imong Dios."
+                            "text": "“Pun-on sa Ginoo nga inyong Dios ang inyong mga kamalig ug panalanginan niya ang tanan ninyong buhaton. Panalanginan kamo niya didto sa yuta nga gihatag niya kaninyo."
                         },
                         {
                             "verse": 9,
-                            "text": "Magapalig-on kanimo si Jehova aron mahimo ka nga katawohan nga balaan alang kaniya, ingon sa gipanumpa niya kanimo, kong pagabantayan mo ang mga sugo ni Jehova nga imong Dios, ug magalakaw ka sa iyang mga dalan."
+                            "text": "“Sumala sa gisaad sa Ginoo, himoon kamo niya nga iyang balaang katawhan kon tumanon ninyo ang iyang mga sugo. "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug ang tanan nga mga katawohan sa yuta makakita nga ikaw ginatawag tungod sa ngalan ni Jehova; ug sila mangahadlok kanimo."
+                            "text": "Ang tanang katawhan sa kalibotan makakita nga iya kamo sa Ginoo ug mahadlok sila kaninyo. "
                         },
                         {
                             "verse": 11,
-                            "text": "Ug si Jehova magapadaghan uyamut kanimo sa mga butang nga maayo, sa bunga sa imong lawas, ug sa bunga sa imong kahayupan, ug sa mga bunga sa imong yuta, sa kayutaan nga gipanumpa ni Jehova sa imong mga amahan nga igahatag niya kanimo."
+                            "text": "Ug maghingapin ang mga kaayohan nga ihatag niya kaninyo. Makabaton kamog daghang mga anak, mosanay ang inyong kahayopan ug modaghan ang abot sa yuta nga gisaad niya sa inyong katigulangan nga ihatag niya kaninyo."
                         },
                         {
                             "verse": 12,
-                            "text": "Pagabuksan ni Jehova alang kanimo ang iyang bililhong tipiganan ang mga langit, aron sa paghatag ug ulan alang sa imong yuta sa panahon niini, ug aron sa pagpanalangin sa tanan nga buhat sa imong kamot; ug magapahulam ka sa daghan nga mga nasud, ug dili ka manghulam."
+                            "text": "Gikan sa iyang tigomanag bahandi nga mao ang langit, paulanan sa Ginoo ang inyong yuta sa panahon sa ting-ulan ug panalanginan niya ang tanan ninyong buhaton. Magpahulam kamo sa kanasoran apan kamo dili manghulam kanila. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug si Jehova magahimo kanimo nga ulo, ug dili ang ikog; ug ikaw maibabaw lamang, ug ikaw dili mailalum; kong ikaw magapatalinghug sa mga sugo ni Jehova nga imong Dios, nga ginasugo ko kanimo niining adlawa, aron pagabantayan ug pagatumanon sila,"
+                            "text": "Himoon sa Ginoo nga kamo mag-una ug dili maulahi, mousbaw ug dili mokunhod kon tumanon ninyo ang iyang mga sugo nga gihatag ko kaninyo niining adlawa. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug dili ka motipas gikan sa tanan nga mga pulong nga ginasugo ko kaninyo niining adlawa, ngadto sa too ni sa wala, aron sa pagsunod sa ulahi sa lain nga mga dios aron sa pag-alagad kanila."
+                            "text": "Ayaw kamo pagsupil kaniya o pagsimba sa mga diosdios."
                         },
                         {
                             "verse": 15,
-                            "text": "Apan mahitabo nga kong ikaw dili magapatalinghug sa tingog ni Jehova nga imong Dios, sa pagbantay sa pagbuhat sa tanan niyang mga sugo ug sa iyang kabalaoran, nga akong ginasugo kaninyo niining adlawa, nga kining tanan nga mga panunglo moabut kanimo ug modangat kanimo."
+                            "text": "“Apan kon dili ninyo tahoron ang Ginoo nga inyong Dios ug dili tumanon ang iyang mga sugo nga gihatag ko karon kaninyo, mahiagom kamo niining tanang tunglo:"
                         },
                         {
                             "verse": 16,
-                            "text": "Matinunglo ikaw didto sa lungsod, ug matinunglo ikaw didto sa kaumahan:"
+                            "text": "“Tunglohon ang inyong kalungsoran ug kaumahan."
                         },
                         {
                             "verse": 17,
-                            "text": "Matinunglo ang imong alat ug ang imong dolang nga masahan."
+                            "text": "“Tunglohon ang inyong mga abot ug mga pagkaon."
                         },
                         {
                             "verse": 18,
-                            "text": "Matinunglo ang bunga sa imong lawas, ug ang bunga sa imong yuta, ug ang nati sa imong mga vaca, ug ang mga nati sa panon sa imong mga carnero;"
+                            "text": "“Tunglohon ang inyong mga anak, ang abot sa yuta ug ang inyong kahayopan."
                         },
                         {
                             "verse": 19,
-                            "text": "Matinunglo ikaw sa imong pagsulod, ug matinunglo ikaw sa imong paggula."
+                            "text": "“Tunglohon kamo sa tanan ninyong buhaton."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug igapadala ni Jehova batok kanimo ang panunglo, ang kalisud ug ang pagbadlong, sa tanan nga pagabuhaton sa imong kamot, hangtud nga malaglag ikaw, ug hangtud nga mawala ka sa madali; tungod sa pagkadautan sa imong mga buhat, nga tungod niana ako gibiyaan mo."
+                            "text": "“Pahamtangan kamo sa Ginoo ug mga tunglo, kaguliyang ug kapakyasan sa tanan ninyong paningkamot hangtod nga mangamatay kamo ug sa kalit mahanaw tungod sa daotan ninyong mga buhat ug sa pagsalikway ninyo kaniya. "
                         },
                         {
                             "verse": 21,
-                            "text": "Si Jehova magahimo nga magapabilin kanimo ang kamatay hangtud nga malaglag ka sa yuta nga imong pagaadtoan aron sa pagpanag-iya niini."
+                            "text": "Ang Ginoo magpadala kaninyog kamatay hangtod nga mapuo kamo didto sa yuta nga inyo karong adtoan ug panag-iyahon."
                         },
                         {
                             "verse": 22,
-                            "text": "Si Jehova magahampak kanimo sa tisis, ug sa hilanat, ug sa hubag, ug sa kainit nga daw kalayo, ug sa espada, ug sa kaguol nga hinanali, ug sakit sa mga tanum, ug magalutos sila kanimo, hangtud nga mawala ka."
+                            "text": "Kastigohon kamo sa Ginoo pinaagi sa grabing sakit, hilanat, hubaghubag ug sa grabing kainit ug hulaw ug sakit sa mga tanom. Motakboy kini kaninyo hangtod nga mapuo kamo. "
                         },
                         {
                             "verse": 23,
-                            "text": "Ug ang imong langit nga anaa sa ibabaw sa imong ulo, mahimo nga tumbaga, ug ang yuta nga anaa sa ilalum mo mahimo nga puthaw."
+                            "text": "Dili na mohatag kaninyog ulan ang langit ug ang yuta mogahi sama sa puthaw. "
                         },
                         {
                             "verse": 24,
-                            "text": "Pagahimoon ni Jehova ang ulan sa imong yuta nga abug ug abo: gikan sa langit moulan kini sa ibabaw mo hangtud nga malaglag ka."
+                            "text": "Imbis tubig ang ihatag sa Ginoo kaninyo ingon nga ulan, abog hinuon. Mahulog kini kaninyo gikan sa langit hangtod mangamatay kamo."
                         },
                         {
                             "verse": 25,
-                            "text": "Igapahampak ka ni Jehova sa atubangan sa imong mga kaaway; batok kanila mogula ka sa usa ka dalan, ug gikan kanila mokalagiw ikaw sa pito ka dalan; ug igatugpo-tugpo ka sa taliwala sa tanan nga mga gingharian sa yuta."
+                            "text": "“Itugyan kamo sa Ginoo ngadto sa inyong mga kaaway. Maghiusa kamo pagsulong kanila apan managan kamo nga magkatibulaag. Ang tanang gingharian sa kalibotan malisang sa inyong dangatan."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug ang imong minatay mahimong kalan-on sa tanang mga langgam sa mga langit, ug sa mga mananap sa yuta; ug walay bisan kinsa nga magahadlok kanila."
+                            "text": "Ang inyong patayng lawas kan-on sa mga langgam ug sa mga mananap ug wala nay moabog kanila."
                         },
                         {
                             "verse": 27,
-                            "text": "Si Jehova magahampak kanimo sa mga sakit sa Egipto, ug sa mga hubag ug sa mga nuka, ug sa makatol, nga dili ka gayud maayo."
+                            "text": "Ipahamtang sa Ginoo kaninyo ang mga hubag nga nahiagoman sa mga Ehiptohanon ingon man sa kabahong, mga nukanuka ug kaskaro nga dili gayod maayo. "
                         },
                         {
                             "verse": 28,
-                            "text": "Si Jehova magahampak kanimo sa pagkabuang, ug sa pagkabuta, ug sa pagkakugang sa kasingkasing;"
+                            "text": "Buangon, butaan ug libogon kamo sa Ginoo. "
                         },
                         {
                             "verse": 29,
-                            "text": "Ug mahisukarap ikaw sa udtong tutuk, ingon sa buta nga mahisukarap sa mangitngit, ug dili ka magauswag sa imong mga dalan: ug pagadaugdaugon ug pagakawatan ka lamang sa kanunay, ug walay bisan kinsa nga magaluwas kanimo."
+                            "text": "Magsukarap kamo sa udtong tutok sama sa buta ug dili kamo molampos bisan unsay inyong buhaton. Daugdaogon kamo ug tulison kanunay ug walay motabang kaninyo."
                         },
                         {
                             "verse": 30,
-                            "text": "Magapangasawa ka, ug lain nga lalake ang motipon sa paghigda kaniya: Magabuhat ka ug balay, ug dili ka makapuyo niini: magatanum ka, ug parrasan ug dili ka makapahimulos sa iyang bunga."
+                            "text": "“Mangasawa kamo apan lain ang magpahimulos kaniya. Magtukod kamog balay apan dili kamo makapuyo niini. Magtanom kamog mga paras apan dili kamo makapahimulos sa bunga niini."
                         },
                         {
                             "verse": 31,
-                            "text": "Ang imong vaca pagapatyon sa atubangan sa imong mga mata, ug ikaw dili makakaon niini: ang imong asno pagailogon sa atubangan mo, ug kini dili igauli kanimo: ang imong mga carnero igahatag ngadto sa imong mga carnero igahatag ngadto sa imong mga kaaway, ug ikaw walay bisan kinsa nga magaluwas kanimo."
+                            "text": "Ihawon ang inyong baka diha sa inyong atubangan apan dili kamo makakaon niini. Kuhaon ang inyong mga asno ug dili na kini iuli. Itugyan ngadto sa inyong mga kaaway ang inyong karnero ug walay motabang kaninyo."
                         },
                         {
                             "verse": 32,
-                            "text": "Ang imong mga anak nga lalake ug ang imong mga anak nga babaye igatugyan ngadto sa usa ka lain nga katawohan; ug ang imong mga mata magatan-aw, ug mangaluya tungod sa paghandum kanila sa tibook nga adlaw: ug mawalay bisan unsa sa gahum sa imong kamot."
+                            "text": "Bihagon ang inyong mga anak ug ibaligya ngadto sa mga langyaw. Samtang magtan-aw kamo mawili kamo pag-ayo kanila apan wala kamoy mahimo. "
                         },
                         {
                             "verse": 33,
-                            "text": "Ang bunga sa imong yuta, ug ang tanan mong buhat pagakan-on sa nasud nga wala mo hiilhi; ug ikaw pagasakiton lamang ug pagayatakan sa kanunay;"
+                            "text": "Usa ka nasod nga wala ninyo hiilhi maoy mokaon sa abot sa yuta nga inyong giuma. Daugdaogon kamo ug paantuson sa tibuok ninyong kinabuhi "
                         },
                         {
                             "verse": 34,
-                            "text": "Sa ingon niana mabuang ka tungod sa talan-awon nga makita mo sa imong mga mata."
+                            "text": "ug inigkakita ninyo niining tanan, mabuang kamo."
                         },
                         {
                             "verse": 35,
-                            "text": "Pagasamaran ikaw ni Jehova diha sa imong mga tuhod, ug sa mga paa, sa usa ka dautan nga hubag, nga dili mo arang mamaayo; sukad sa lapalapa sa imong tiil hangtud sa imong alimpolo."
+                            "text": "Pahubagan kamo sa Ginoo diha sa inyong tuhod ug bitiis ug maputos kamog hubag gikan sa ulo ngadto sa tiil ug dili kamo mamaayo niini."
                         },
                         {
                             "verse": 36,
-                            "text": "Si Jehova magadala kanimo, ug sa imong hari nga imong igabutang sa ibabaw mo, ngadto sa nasud nga wala mo hiilhi, ikaw, bisan ang imong mga amahan; ug didto magaalagad ka sa lain nga mga dios, sa kahoy ug sa bato."
+                            "text": "“Ipabihag kamo sa Ginoo ingon man ang hari nga inyong gipili nga magmando kaninyo ngadto sa usa ka nasod nga wala ninyo ug sa inyong katigulangan hiilhi ug didto magsimba kamo sa mga diosdios nga kahoy ug bato. "
                         },
                         {
                             "verse": 37,
-                            "text": "Ug ikaw mahimo nga makapatingala, usa ka sanglitanan, ug usa ka pagya sa tanan nga mga katawohan, diin pagadad-on ikaw ni Jehova."
+                            "text": "Mahadlok ug matingala sila sa mahitabo kaninyo ug kataw-an kamo nila."
                         },
                         {
                             "verse": 38,
-                            "text": "Magadala ka ug daghan nga binhi ngadto sa uma, ug magatigum ka ug diyutay; kay ang dulon magaut-ut niini."
+                            "text": "“Daghan ang inyong ipugas apan diyutay lamang ang inyong maani kay hutdon kinig kaon sa dulon. "
                         },
                         {
                             "verse": 39,
-                            "text": "Magatanum ka sa mga parrasan ug magagalam ka niini, apan dili ka makainum sa vino, ni makapupo sa parras; kay ang ulod magakaon kanila."
+                            "text": "Mananom kamog mga paras, alimahan ninyo kini, apan wala kamoy mapupo nga ubas o mainom nga bino kay kan-on man kini sa mga ulod. "
                         },
                         {
                             "verse": 40,
-                            "text": "Magabaton ka ug mga kahoy nga oliva sa tanan mo nga mga utlanan, apan dili ka magadihog sa imong kaugalingon sa lana, kay ang imong oliva magatagak sa iyang bunga."
+                            "text": "Magtanom kamog daghang olibo apan wala kamoy lana nga makuha kay mangatagak man ang mga bunga niini. "
                         },
                         {
                             "verse": 41,
-                            "text": "Manganak ka ug mga anak nga lalake ug mga anak nga babaye, apan sila dili maimo kay mangabihag sila."
+                            "text": "Makabaton kamog mga anak apan pamihagon sila. "
                         },
                         {
                             "verse": 42,
-                            "text": "Ang tanan mo nga kakahoyan ug ang bunga sa imong yuta pagapanagiyahon sa dulon."
+                            "text": "Ang mga dulon maoy magpahimulos sa inyong kakahoyan ug sa mga abot sa inyong uma."
                         },
                         {
                             "verse": 43,
-                            "text": "Ang dumuloong nga anaa sa imong taliwala magauswag sa ibabaw mo nga magakataas, ug ikaw magakaanam ug us-os."
+                            "text": "“Ang mga langyaw nga nagpuyo uban kaninyo mag-anam ug uswag samtang kamo mag-anam ug us-os. "
                         },
                         {
                             "verse": 44,
-                            "text": "Siya magapahulam kanimo, ug ikaw dili makapahulam kaniya: siya mahimong ulo, ug ikaw mahimong ikog."
+                            "text": "May salapi sila nga ikapahulam kaninyo apan wala kamoy ikapahulam kanila. Silay maghari kaninyo."
                         },
                         {
                             "verse": 45,
-                            "text": "Ug kining tanang mga panunglo moabut kanimo, ug magalutos kanimo, ug modangat kanimo, hangtud nga ikaw malaglag; tungod kay wala ka magpatalinghug sa tingog ni Jehova nga imong Dios, sa pagbantay sa iyang mga sugo, ug sa iyang kabalaoran, nga iyang gisugo kanimo:"
+                            "text": "“Mahitabo kaninyo kining tanang tunglo. Mogukod kini kaninyo hangtod nga mangamatay kamo kay wala man kamo motuman sa tanang mga sugo sa Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 46,
-                            "text": "Ug alang kanimo mahimo sila nga timaan ug kahibulongan, ug sa imong kaliwatan nga walay katapusan."
+                            "text": "Mahitabo kini kaninyo ug sa inyong kaliwat ingon nga ilhanan sa nagpadayon nga silot sa Dios."
                         },
                         {
                             "verse": 47,
-                            "text": "Tungod kay wala ka mag-alagad kang Jehova nga imong Dios uban sa kalipay, ug uban sa kahinangup sa kasingkasing, tungod sa kadagaya sa tanan nga mga butang;"
+                            "text": "Gipanalanginan kamo pag-ayo sa Ginoo apan wala ninyo ikalipay ang pag-alagad kaniya. "
                         },
                         {
                             "verse": 48,
-                            "text": "Busa magaalagad ka sa imong mga kaaway nga ipadala ni Jehova batok kanimo, sa kagutom, ug sa kauhaw, ug sa kahubo, ug sa pagkakulang sa tanan nga mga butang: ug siya magabutang ug yugo nga puthaw sa imong liog, hangtud nga ikaw malaglag niya."
+                            "text": "Busa itugyan kamo niya ngadto sa inyong mga kaaway ug mag-alagad kamo kanila. Gutomon kamo ug uhawon, mahimong hubo ug wala gayoy mahimo. Sangonan sa Ginoo ug yugong puthaw ang inyong liog hangtod nga mapuo kamo. "
                         },
                         {
                             "verse": 49,
-                            "text": "Magadala si Jehova batok kanimo ug nasud gikan sa halayo, gikan sa kinatumyan sa yuta, nga magalupad ingon sa agila, usa ka nasud kansang sinultihan dili mo masabut;"
+                            "text": "Gikan sa layong dapit ang Ginoo magpadalag usa ka nasod nga makig-away kaninyo. Dili ninyo masabtan ang ilang pinulongan ug mosakdap sila kaninyo sama sa agila. "
                         },
                         {
                             "verse": 50,
-                            "text": "Usa ka nasud nga mapintas ug nawong, nga walay tahud sa tigulang, dili usab magapakita ug kalooy sa batan-on."
+                            "text": "Bangis sila ug walay kaluoy bisan sa mga tigulang ug kabataan. "
                         },
                         {
                             "verse": 51,
-                            "text": "Ug magakaon sa bunga sa imong kahayupan, ug sa bunga sa imong yuta, hangtud nga malaglag ka; ug dili ka pagabinlan niya ug trigo, bag-ong vino, kun lana, bisan sa abut sa imong mga vaca, bisan sa nati sa mga panon sa imong mga carnero, hangtud nga ikaw malaglag nila."
+                            "text": "Hudton nila ang inyong kahayopan ug mga tanom ug mangamatay kamo sa gutom. Hutdon nilag kuha ang inyong abot nga kalan-on, bino o lana ug walay mahibilin sa inyong kahayopan hangtod nga mangamatay kamo."
                         },
                         {
                             "verse": 52,
-                            "text": "Ug sila magalikos kanimo sa tanan mong mga ganghaan, hangtud nga mapukan ang imong mga hatag-as ug ginapalig-on nga mga kuta nga imong ginasaligan sa tibook mo nga yuta: ug sila magalikos kanimo sa tanan mong mga ganghaan sa tibook mong yuta, nga gihatag kanimo ni Jehova nga imong Dios."
+                            "text": "Palibutan nila ang tanan ninyong kalungsoran sa tibuok nasod nga gihatag kaninyo sa Ginoo nga inyong Dios hangtod nga malumpag ang habog nga mga kota nga inyong gisaligan."
                         },
                         {
                             "verse": 53,
-                            "text": "Ug magakaon ka sa bunga sa imong kaugalingong lawas, sa unod sa imong mga anak nga lalake, ug sa imong mga anak nga babaye, nga gihatag kanimo ni Jehova nga imong Dios, sa panahon sa paglikos kanimo ug sa kalisud nga igapaguol kanimo sa imong mga kaaway."
+                            "text": "“Kon palibutan na kamo sa inyong mga kaaway, kan-on ninyo tungod sa kagutom bisan gani ang inyong mga anak nga gihatag kaninyo sa Ginoo nga inyong Dios. "
                         },
                         {
                             "verse": 54,
-                            "text": "Ang tawo nga malomo kaninyo, ug ang labing mahuyang, ang iyang mata magamangil-ad alang sa iyang igsoon, ug alang sa asawa sa iyang dughan, ug alang sa mahabilin sa iyang mga anak nga mahabilin kaniya;"
+                            "text": "Ang tawo nga maluluy-on ug dato dili na gani mohatag ug pagkaon bisan sa iyang igsoon, asawa ug mga anak nga nahibilin. "
                         },
                         {
                             "verse": 55,
-                            "text": "Aron siya dili magahatag sa usa kanila sa unod sa iyang mga anak nga iyang pagakan-on, kay walay nahabilin kaniya, sa panahon sa pag-atang, ug sa kaguol nga igaguol kanimo sa imong kaaway sa tanan mo nga mga ganghaan."
+                            "text": "Dili siya makigbahin kang bisan kinsa kanila sa unod sa iyang mga anak nga iyang kan-on kay mahadlok siya nga wala unyay masalin kaniya samtang nagpadayon paglibot sa inyong kalungsoran ang inyong mga kaaway. "
                         },
                         {
                             "verse": 56,
-                            "text": "Ang malomo ug ang maluya nga babaye sa taliwala ninyo, nga dili gayud motunob sa lapalapa sa iyang tiil sa ibabaw sa yuta tungod sa pagkalomo ug pagkaluya, ang iyang mata magamangil-ad alang sa bana sa iyang dughan, ug alang sa iyang anak nga lalake, ug alang sa iyang anak nga babaye,"
+                            "text": "Ang babaye nga maluluy-on ug dato nga dili gani molakaw nga magtiniil, mohikaw sa minahal niyang bana ingon man sa iyang mga anak "
                         },
                         {
                             "verse": 57,
-                            "text": "Ug alang sa iyang bata nga nagagula sa taliwala sa iyang mga tiil, ug alang sa iyang mga anak nga igaanak niya; kay sila pagakan-on niya sa tago tungod sa pagkakulang sa tanang mga butang, sa paglikos kanimo ug sa kaguol nga ipaguol kanimo sa imong kaaway sa imong mga ganghaan."
+                            "text": "sa inunlan nga migula kaniya. Taliwala sa iyang kawad-on, kan-on niya sa hilom ang inunlan ug ang bata samtang palibutan kamo ug ang tanan ninyong kalungsoran sa inyong mga kaaway."
                         },
                         {
                             "verse": 58,
-                            "text": "Kong ikaw dili magbantay sa pagbuhat sa tanan nga mga pulong niini nga Kasugoan nga nahasulat niini nga basahon, nga pagakahadlokan mo kining ngalan nga mahimayaon ug makalilisang nga ngalan, SI JEHOVA NGA IMONG DIOS;"
+                            "text": "“Kon dili ninyo tumanon ang tanang balaod nga nahisulat niining basahona ug dili ninyo tahoron ang halangdon ug gikahadlokan nga ngalan ni Yahweh nga inyong Dios,"
                         },
                         {
                             "verse": 59,
-                            "text": "Unya pagahimoon ni Jehova nga makapatingala gayud ang imong mga kamatay, ug ang mga kamatay sa imong kaliwatan, bisan pa ang mga kamatay nga dagku, ug mga tagdugay nga molungtad, ug mga sakit nga dautan ug mga tagdugay."
+                            "text": "pahamtangan kamo niya ingon man ang inyong mga kaliwat sa grabi ug talagsaong mga alantuson inubanan sa grabing sakit nga molungtad ug dugay. "
                         },
                         {
                             "verse": 60,
-                            "text": "Ug iyang pagapabalikon kanimo ang tanan nga mga sakit sa Egipto, nga imong gikahadlokan; ug sila motakboy kanimo."
+                            "text": "Pahamtangan kamo pag-usab sa Ginoo sa mga sakit nga inyong gikahadlokan ug nahiagoman didto sa Ehipto ug dili gayod kamo mangaayo. "
                         },
                         {
                             "verse": 61,
-                            "text": "Ingon man usab ang tanan nga sakit, ug ang tanan nga kaguol, nga wala mahasulat sa basahon niini nga Kasugoan, igapadala sila ni Jehova kanimo, hangtud nga malaglag ikaw."
+                            "text": "Pahamtangan pa gayod kamo sa Ginoo sa tanang matang sa sakit nga wala hisgoti sa basahon sa balaod hangtod nga mapuo kamo. "
                         },
                         {
                             "verse": 62,
-                            "text": "Ug magapabilin kamo nga diyutay ang gidaghanon, samtang kaniadto sama kamo sa mga bitoon sa langit sa gidaghanon; tungod kay wala ka magtuman sa tingog ni Jehova nga imong Dios."
+                            "text": "Bisag ingon kamo kadaghan sa mga bituon sa langit, diyutay lamang ang mahibilin kaninyo kay wala man ninyo patalinghogi ang Ginoo nga inyong Dios."
                         },
                         {
                             "verse": 63,
-                            "text": "Ug mahitabo nga ingon nga si Jehova nalipay tungod kaninyo sa pagbuhat kaninyo ug kaayohan, ug sa pagpadaghan kaninyo, mao usab nga malipay si Jehova kaninyo sa pagpalumpag kaninyo, ug sa paglaglag kaninyo: ug pagalukahon kamo gikan sa ibabaw sa yuta, nga inyong pagaadtoan sa pagpanag-iya niini."
+                            "text": "Sama nga kaniadto gikalipay sa Ginoo ang pagpanalangin ug pagpadaghan kaninyo, ikalipay usab niya ang pagguba ug pagpatay kaninyo. Bihagon kamo gikan sa nasod nga inyo karong adtoan ug panag-iyahon."
                         },
                         {
                             "verse": 64,
-                            "text": "Ug si Jehova magapatlaag kanimo sa taliwala sa tanang mga katawohan, gikan sa usa ka tumoy sa yuta ngadto sa usa usab ka tumoy sa yuta: ug didto magaalagad ka sa lain nga mga dios nga wala mo hiilhi, ikaw, bisan ang imong mga amahan, bisan kahoy ug bato."
+                            "text": "“Patibulaagon kamo sa Ginoo ngadto sa tanang suok sa tanang kanasoran ug didto magsimba kamo sa mga diosdios nga kahoy ug bato—mga diosdios nga wala simbaha ninyo o sa inyong katigulangan. "
                         },
                         {
                             "verse": 65,
-                            "text": "Ug sa taliwala niining maong mga nasud dili ka makakaplag ug kasayon, ug didto dili makakaplagan, ang kapahulayan sa lapalapa sa imong tiil: apan didto pagahatagan ka ni Jehova ug kasingkasing nga mahadlokon, ug pagluya sa mga mata, ug pagkahunos sa kalag:"
+                            "text": "Dili kamo magmalinawon didto. Maglatagaw kamo, kanunay lamang mabalaka ug kawad-ag paglaom. "
                         },
                         {
                             "verse": 66,
-                            "text": "Ug ang imong kinabuhi magabitay sa pagduhaduha sa atubangan mo; ug mahadlok ikaw sa gabii ug sa adlaw, ug ikaw walay katinoan sa imong kinabuhi."
+                            "text": "Walay kasigurohan ang inyong kaugmaon. Mahadlok kamo adlaw ug gabii ug ang inyong kinabuhi kanunay nga mamiligro. "
                         },
                         {
                             "verse": 67,
-                            "text": "Sa pagkabuntag magaingon ka: Maayo unta kong mahapon na! Ug sa hapon magaingon ka: Maayo unta kong mabuntag na! tungod sa kalisang sa imong kasingkasing nga imong kahadlokan, ug tungod sa talan-awon nga makita mo sa imong mga mata."
+                            "text": "Tungod sa kahadlok nga inyong bation ug sa mga talan-awon nga inyong makita, moingon kamo sa pagkabuntag, ‘Maayo unta kon gabii pa karon’ ug inigkagabii moingon kamo ‘Maayo unta kon buntag pa karon.’ "
                         },
                         {
                             "verse": 68,
-                            "text": "Ug pagapabalikon ka ni Jehova ngadto sa Egipto sa sakayan, pinaagi sa dalan nga giingon ko kanimo: Dili na gayud nimo kini makita pag-usab; ug didto magabaligya kamo sa inyong kaugalingon ngadto sa inyong mga kaaway ingon nga mga ulipon nga lalake ug mga ulipon nga babaye, ug walay tawo nga magapalit kaninyo."
+                            "text": "Pinaagi sa usa ka barko dad-on kamo sa Ginoo balik sa Ehipto bisan pag nagsaad siya kaninyo nga dili na niya kamo pabalikon didto. Didto ibaligya ninyo ang inyong kaugalingon ingon nga mga ulipon ngadto sa inyong mga kaaway apan walay mopalit kaninyo.”"
                         }
                     ]
                 },
@@ -23655,119 +23655,119 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kini mao ang mga pulong sa tugon nga gisugo ni Jehova kang Moises aron himoon uban sa mga anak sa Israel didto sa yuta sa Moab, labut pa sa tugon nga iyang gihimo uban kanila didto sa Horeb."
+                            "text": "Mao kini ang giingon sa kasabotan nga gisugo sa Ginoo nga himoon ni Moises sa katawhan sa Israel didto sa Moab. Dugang kini sa kasabotan nga iyang gihimo uban kanila didto sa Bukid sa Sinai."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug nagtawag si Moises sa tibook nga Israel, ug miingon kanila: Kamo nanagpakakita sa tanan nga gibuhat ni Jehova sa atubangan sa inyong mga mata sa yuta sa Egipto kang Faraon, ug sa tanan niya nga mga ulipon, ug sa tibook nga yuta niya;"
+                            "text": "Gipatawag ni Moises ang tanang Israelita ug giingnan niya sila, “Kamo mismo nakakita sa gibuhat sa Ginoo kang Paraon didto sa Ehipto ug sa tanan niyang opisyal ug sa tibuok niyang nasod."
                         },
                         {
                             "verse": 3,
-                            "text": "Ang mga dagku nga pagsulay nga hingkit-an sa imong mga mata, ang mga timaan, ug kadtong dagkung mga katingalahan:"
+                            "text": "Nasaksihan ninyo ang makalilisang nga pagsulay ug mga timailhan ug milagro nga iyang gihimo."
                         },
                         {
                             "verse": 4,
-                            "text": "Apan si Jehova wala maghatag kaninyo ug kasingkasing sa pagsabut, ug mga mata aron sa pagtan-aw, ug mga igdulungog sa pagpatalinghug, hangtud karong adlawa."
+                            "text": "Apan hangtod karon ang Ginoo wala mohatag kaninyog pangisip, mata o dalunggan nga makatukib niining tanan. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug gidala ko kamo sulod sa kap-atan ka tuig sa kamingawan: ang inyong mga bisti wala mangadaan sa ibabaw ninyo, ug ang imong sapin wala mangadaan sa imong tiil."
+                            "text": "Gigiyahan kamo sa Ginoo didto sa kamingawan sulod sa 40 ka tuig ug wala mangagisi ang inyong bisti o mangadaot ang inyong mga sandalyas ug wala maunsa ang inyong mga tiil. "
                         },
                         {
                             "verse": 6,
-                            "text": "Wala kamo makakaon ug tinapay, wala usab kamo makainum ug vino kun ilimnon nga maisug, aron manghibalo kamo nga ako mao si Jehova nga inyong Dios."
+                            "text": "Didto wala kamo makakaog pan o makainom ug bino apan gihatagan kamo sa Ginoo sa inyong gikinahanglan aron masayod kamo nga siya mao ang inyong Dios."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug sa ming-abut kamo niining dapita, si Sihon nga hari sa Hesbon, ug si Og nga hari sa Basan, minggula batok kanato sa pagpakig-away, ug gisamaran ta sila:"
+                            "text": "Sa pag-abot ninyo dinhi, nakig-away kanato si Sihon nga hari sa Hesbon ug si Og nga hari sa Basan apan gibuntog nato sila. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ug gikuha nato ang yuta nila, ug gihatag nato kini sa pagkapanulondon kang Ruben, ug kang Gad, ug sa katunga nga banay ni Manases."
+                            "text": "Nailog nato ang ilang yuta ug gihatag ngadto sa mga banay ni Ruben, ni Gad ug sa katunga sa banay ni Manases. "
                         },
                         {
                             "verse": 9,
-                            "text": "Busa pagabantayan ninyo ang mga pulong niini nga tugon, ug buhaton ninyo sila, aron mouswag kamo sa tanan nga pagabuhaton ninyo."
+                            "text": "Tumana gayod ang gimbut-an niining maong kasabotan aron molampos kamo sa tanan ninyong paningkamot."
                         },
                         {
                             "verse": 10,
-                            "text": "Kamong tanan nagatindog niining adlawa sa atubangan ni Jehova nga inyong Dios; ang inyong mga pangulo, ang inyong mga banay, ang inyong mga anciano, ug ang inyong mga punoan, bisan pa ang tanan nga mga lalake sa Israel,"
+                            "text": "“Karon, atubangan sa Ginoo nga inyong Dios nagtindog kamong tanan: ang inyong mga pangulo sa banay, ang inyong kadagkoan ug mga opisyal ug ang tanang mga Israelita, mga lalaki,"
                         },
                         {
                             "verse": 11,
-                            "text": "Ang inyong mga bata, ang inyong mga asawa, ug ang imong mga dumuloong nga nagapuyo sa taliwala sa imong campo, sukad sa magpuputol sa imong sugnod hangtud sa magkukuha sa imong mga tubig;"
+                            "text": "mga babaye ug mga kabataan uban sa mga langyaw nga nagpuyo tipon kaninyo ug nag-alagad kaninyo. "
                         },
                         {
                             "verse": 12,
-                            "text": "Aron ikaw mosulod sa tugon ni Jehova nga imong Dios, ug sa panumpa niya, nga gibuhat ni Jehova nga imong Dios uban kanimo niining adlawa;"
+                            "text": "Ania kamo karon dinhi aron sa pagdawat sa kasabotan nga himoon sa Ginoo uban kaninyo niining adlawa. "
                         },
                         {
                             "verse": 13,
-                            "text": "Aron nga siya magapalig-on kanimo niining adlawa ingon nga usa ka katawohan alang sa iyang kaugalingon, ug aron siya mamao ang Dios nimo sumala sa iyang pagsulti kanimo, ug ingon nga siya nanumpa sa imong mga amahan, kang Abraham, kang Isaac ug kang Jacob."
+                            "text": "Maoy tuyo niya ang paghimo kaninyo nga iyang katawhan ug nga siya mahimo nga inyong Dios sumala sa gisaad niya kaninyo ug sa inyong katigulangan nga si Abraham, si Isaac ug si Jacob. "
                         },
                         {
                             "verse": 14,
-                            "text": "Dili kay uban kaninyo lamang nagahimo ako niini nga tugon ug niini nga panumpa,"
+                            "text": "Dili lamang kay kamo ray iyang gipakigsabotan "
                         },
                         {
                             "verse": 15,
-                            "text": "Apan uban kaniya nga ania nagatambong karon uban kanato sa atubangan ni Jehova nga atong Dios, ug ingon man sa mga wala dinhi karon uban kanato niining adlawa,"
+                            "text": "kondili lakip niadtong wala pa dinhi uban kanato niining adlawa atubangan sa Ginoo nga atong Dios."
                         },
                         {
                             "verse": 16,
-                            "text": "(Kay kamo nanghibalo kong unsa ang pagpuyo nato sa yuta sa Egipto, ug kong unsa ang giagian nato sa taliwala sa mga nasud nga inyong giagian;"
+                            "text": "“Nasayod kamo sa atong kahimtang didto sa Ehipto ug kon giunsa nato paglatas sa kayutaan sa ubang kanasoran. "
                         },
                         {
                             "verse": 17,
-                            "text": "Ug inyong nakita ang ilang mga kahugawan, ug ang ilang mga larawan, kahoy ug bato, salapi ug bulawan, nga anaa uban kanila);"
+                            "text": "Nakita ninyo ang mga butang nga angay isalikway, ang ilang mga diosdios nga kahoy ug bato, plata ug bulawan. "
                         },
                         {
                             "verse": 18,
-                            "text": "Tingali unya sa taliwala ninyo adunay lalake, kun babaye, kun panimalay, kun banay, kinsang kasingkasing motalikod gikan kang Jehova nga atong Dios, aron sa pag-adto sa pag-alagad sa mga dios niadtong mga nasud; tingali unya kaninyo adunay gamot nga makahilo, ug ajenjo;"
+                            "text": "Pagmatngon kamo nga walay usa kaninyo nga mobiya sa pag-alagad sa Ginoo nga atong Dios ug mag-alagad hinuon sa mga diosdios sa ubang kanasoran kay tingali unyag may usa kaninyo nga mahisama sa gamot nga mahimong tanom nga pait ug makahilo. "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug mahitabo, nga sa makadungog siya sa mga pulong niini nga panunglo, siya sa iyang kaugalingon magapanalangin sa iyang kaugalingon sulod sa iyang kasingkasing nga magaingon: Makabaton ako ug pakigdait, bisan ako nagalakaw sa katig-a sa akong kasingkasing, aron sa paglaglag sa nagaumog uban sa uga."
+                            "text": "Ug inigkabati niya sa mga gimbut-an ug mga tulomanon sa kasabotan dili siya angay moingon nga walay kadaot nga mahitabo kaniya bisan pag magpadayon siya sa iyang pagkagahig ulo kay makadaot kini sa tanang tawo, maayo ug daotan. "
                         },
                         {
                             "verse": 20,
-                            "text": "Si Jehova dili magapasaylo kaniya, hinonoa ang kapungot ni Jehova ug ang iyang abugho magautbo batok sa maong tawo, ug ang tanan nga panunglo nga gisulat niini nga basahon magatungtong sa ibabaw niya, ug pagapalaon ni Jehova ang iyang ngalan gikan sa ilalum sa langit."
+                            "text": "Dili gayod mopasaylo kaniya ang Ginoo. Mosilaob hinuon ang iyang kasuko batok nianang tawhana ug mahiagom siya sa tanang tunglo nga nahisulat niining basahona. Papason gayod sa Ginoo ang ngalan sa maong tawo."
                         },
                         {
                             "verse": 21,
-                            "text": "Ug pagapinigon siya ni Jehova ngadto sa dautan gikan sa tanan nga mga banay sa Israel sumala sa tanan nga pagpanunglo niini nga tugon nga gisulat niini nga basahon sa Kasugoan."
+                            "text": "Hinginlan siya sa Ginoo gikan sa tanang banay sa Israel ug kastigohon sa tanang tunglo diha sa kasabotan nga nahisulat niining basahona."
                         },
                         {
                             "verse": 22,
-                            "text": "Ug ang kaliwatan nga umaabut, ang inyong mga anak nga mosunod sa ulahi ninyo, ug ang dumuloong nga moabut gikan sa halayo nga mga yuta, magaingon: Sa diha nga makakita sila sa mga kagul-anan niining yutaa, ug sa mga sakit nila nga gipadala ni Jehova kanila;"
+                            "text": "“Ang inyong mga kaliwat ug ang mga langyaw nga gikan sa halayong dapit makakita sa mga katalagman ug mga balatian nga ipahamtang sa Ginoo kaninyo. "
                         },
                         {
                             "verse": 23,
-                            "text": "Ug nga ang tibook nga yuta niini azufre, ug asin, ug nagadilaab, nga wala pagpugasi, wala usab magapamunga, wala usab magaturok niini, bisan unsa nga balili, sama sa pagkalaglag sa Sodoma ug sa Gomorra, sa Adma ug sa Seboim, nga gilaglag ni Jehova sa iyang kapungot, ug sa iyang kaligutgut):"
+                            "text": "Ang inyong yuta mawad-an sa katambok ug malukop sa asupre ug asin. Wala gayoy tanom nga motubo didto bisan gani ang mga sagbot. Mahisama kini sa Sodoma ug Gomora, sa Adma ug sa Zeboim nga gilaglag sa Ginoo tungod sa hilabihan niyang kasuko. "
                         },
                         {
                             "verse": 24,
-                            "text": "Bisan ang tanan nga nasud magaingon: Nganong gibuhat kini ni Jehova niining yutaa? Unsa ang kahulogan sa hilabihan ka kainit niini nga kapungot?"
+                            "text": "Unya mangutana ang tanang kanasoran, ‘Nganong gihimo man kini sa Ginoo sa ilang yuta? Unsay hinungdan nga nasuko man siya pag-ayo?’"
                         },
                         {
                             "verse": 25,
-                            "text": "Unya motubag ang mga tawo: Tungod kay gibiyaan nila ang tugon ni Jehova, ang Dios sa ilang mga amahan, nga gibuhat niya uban kanila sa pagkuha niya kanila gikan sa yuta sa Egipto;"
+                            "text": "Mao kini ang ilang itubag, ‘Kay gisalikway man nila ang kasabotan nga gihimo sa Ginoo, ang Dios sa ilang katigulangan, uban kanila sa dihang gikuha niya sila sa Ehipto."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug nangadto sila ug nanag-alagad sa lain nga mga dios, ug nanagsimba kanila; mga dios nga wala nila hiilhi, ug nga wala niya ihatag kanila:"
+                            "text": "Nagsimba ug nag-alagad sila sa ubang mga dios nga wala ipasimba kanila sa Ginoo. "
                         },
                         {
                             "verse": 27,
-                            "text": "Busa misilaub ang kapungot ni Jehova batok niining yutaa, aron sa pagdala sa ibabaw niini sa tanan nga mga panunglo nga nahasulat niini nga basahon;"
+                            "text": "Busa misilaob ang kasuko sa Ginoo sa iyang katawhan ug gipahiagom sila sa tanang tunglo nga nahisulat niining basahona. "
                         },
                         {
                             "verse": 28,
-                            "text": "Ug sa kasuko, ug sa kapungot, ug sa dakung kaligutgut, giluka sila ni Jehova sa ilang yuta; ug iyang gitambog sila sa lain nga yuta, ingon niining adlawa."
+                            "text": "Sa hilabihan niyang kasuko gihinginlan niya sila gikan sa ilang nasod ug giabog ngadto sa laing nasod diin atua sila karon.’"
                         },
                         {
                             "verse": 29,
-                            "text": "Ang mga butang nga tinago iya ni Jehova nga atong Dios; apan ang mga butang nga ginapahayag mao ang ato ug sa atong mga anak nga sa gihapon, aron nga pagatumanon ta ang tanan nga mga pulong niini nga Kasugoan."
+                            "text": "“Adunay mga tinago ang Ginoo nga atong Dios nga wala niya ipadayag. Apan gipadayag niya ang iyang Balaod ug angay kining sundon nato ug sa atong mga kaliwat hangtod sa kahangtoran."
                         }
                     ]
                 },
@@ -23776,83 +23776,83 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug mahitabo nga sa diha nga moabut kanimo kining tanan nga mga butang, ang panalangin ug ang panunglo nga gibutang ko sa atubangan mo, mahinumdum ka kanila sa taliwala sa tanan nga nasud diin giabog ikaw ni Jehova nga imong Dios,"
+                            "text": "“Unya sa panahon nga mahitabo na kaninyo kining mga panalangin ug mga tunglo nga akong giingon kaninyo, mahinumdoman ninyo ang akong pagpapili kaninyo kon adto na kamo sa mga nasod diin kamo patibulaagon sa Ginoo nga inyong Dios. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug magabalik ka kang Jehova nga imong Dios, ug magatuman ka sa iyang tingog ingon sa tanan nga ginasugo ko kanimo niining adlawa, ikaw ug ang imong mga anak, sa bug-os mo nga kasingkasing, ug sa bug-os mo nga kalag;"
+                            "text": "Kon mobalik kamo ug ang inyong mga kaliwat ngadto sa Ginoo nga inyong Dios ug tumanon ninyo sa tibuok ninyong kasingkasing ug kalag ang tanan nga gisugo ko kaninyo niining adlawa, "
                         },
                         {
                             "verse": 3,
-                            "text": "Nga unya si Jehova nga imong Dios, magapabalik kanimo gikan sa imong pagkabihag, ug malooy kanimo, ug magausab siya sa pagtigum kanimo gikan sa tanan nga mga katawohan diin ikaw patlaaga ni Jehova nga imong Dios."
+                            "text": "iuli niya ang inyong mga bahandi ug kaluy-an kamo niya ug unya panguhaon kamo niya gikan sa mga nasod diin kamo patibulaaga. "
                         },
                         {
                             "verse": 4,
-                            "text": "Kong may bisan kinsa sa imong mga sinalikway makadangat hangtud sa mga kinatumyan nga dapit sa langit, gikan didto pagatigumon ka ni Jehova nga imong Dios, ug gikan didto pagakuhaon ka niya:"
+                            "text": "Bisan pag adto kamo ilabay sa kinalayoang suok sa kalibotan, kuhaon kamo sa Ginoo nga inyong Dios "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug pagapabalikon ka ni Jehova nga imong Dios ngadto sa yuta nga gipanunod sa imong mga amahan, ug magapanag-iya ka niana; ug siya magabuhat ug maayo kanimo, ug magapadaghan kanimo labaw pa kay sa imong mga amahan."
+                            "text": "ug dad-on ngadto sa yuta sa inyong mga katigulangan aron manag-iya kamo niini. Himoon kamo niya nga mas mauswagon ug mas daghan kay sa inyong mga katigulangan. "
                         },
                         {
                             "verse": 6,
-                            "text": "Ug pagacircuncidahon ni Jehova nga imong Dios ang imong kasingkasing, ug ang kasingkasing sa imong kaliwatan, aron sa paghigugma kang Jehova nga imong Dios sa bug-os mong kasingkasing, ug sa bug-os mo nga kalag, aron mabuhi ka."
+                            "text": "Bag-ohon niya ang kasingkasing ninyo ug sa inyong mga kaliwat aron higugmaon ninyo siya sa bug-os ninyong kasingkasing ug kalag aron kamo mabuhi."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug igabutang ni Jehova nga imong Dios kining tanan nga mga panunglo sa ibabaw sa imong mga kaaway, ug sa ibabaw sa tanan nga nagadumot kanimo, nga nanaglutos kanimo."
+                            "text": "Ipahamtang niya kining tanang tunglo ngadto sa inyong mga kaaway nga naglutos kaninyo. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ug magabalik ka ug magasugot sa tingog ni Jehova, ug magabuhat sa tanan niyang mga sugo nga akong ginasugo kanimo niining adlawa."
+                            "text": "Ug alagaran na usab ninyo ang Ginoo ug buhaton unya ninyo ang gisugo ko karon kaninyo."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug si Jehova nga imong Dios magapadagaya sa tanan nga buhat sa imong mga kamot, sa bunga sa imong lawas, sa bunga sa imong kahayupan, ug sa bunga sa imong yuta, nga sa imong kaayohan: kay si Jehova magabalik sa pagkalipay kanimo nga sa kaayohan, sama sa iyang pagkalipay ibabaw sa imong mga amahan;"
+                            "text": "Himoon kamong mauswagon sa Ginoo sa tanan ninyong paningkamot. Mosanay kamo ug ang inyong kahayopan ug modaghan ang inyong abot. Ikalipay niya ang paghimo kaninyong mauswagon ingon nga gikalipay niya ang pagpauswag sa inyong mga katigulangan "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug kong magapatalinghug ka sa tingog ni Jehova nga imong Dios, aron sa pagbantay sa iyang mga sugo, ug sa iyang kabalaoran nga nahasulat niini nga basahon sa Kasugoan; kong ikaw magabalik kang Jehova nga imong Dios, sa bug-os mong kasingkasing, ug sa bug-os mo nga kalag."
+                            "text": "kon patalinghogan ninyo siya ug tumanon ninyo ang mga sugo nga nahisulat niining basahona ug kon mobalik kamo sa Ginoo nga inyong Dios sa kinasingkasing gayod."
                         },
                         {
                             "verse": 11,
-                            "text": "Kay kining sugoa, nga ginasugo ko kanimo niining adlawa, dili kini makuli kanimo, dili usab halayo:"
+                            "text": "“Dili lisod ang gihatag ko kaninyong sugo karong adlawa."
                         },
                         {
                             "verse": 12,
-                            "text": "Wala kini sa langit, aron magaingon ka: Kinsa ba ang mosaka alang kanato sa langit, ug magadala niini dinhi kanato, ug magapatalinghug kanato niini, aron nga atong pagatumanon kini?"
+                            "text": "Wala kini didto sa langit busa dili kamo makaingon, ‘Kinsa may moadto sa langit aron pagkuha niini alang kanato aron kita makadungog ug makatuman niini?’"
                         },
                         {
                             "verse": 13,
-                            "text": "Ug wala kini sa tabok sa dagat aron nga magaingon ka: Kinsa ba ang motabok alang kanato sa dagat, ug magadala niini dinhi kanato, ug magapapatalinghug niini kanato aron atong pagatumanon?"
+                            "text": "Wala usab kini didto sa tabok sa lawod nga moingon kamo, ‘Kinsa may motabok aron pagkuha niini aron makadungog kita ug makatuman niini?’ "
                         },
                         {
                             "verse": 14,
-                            "text": "Apan haduol gayud kanimo ang pulong, sa imong baba, ug sa imong kasingkasing, aron tumanon mo siya."
+                            "text": "Duol ra kaayo kini kaninyo. Anaa ra kini sa inyong baba ug kasingkasing busa makatuman kamo niini."
                         },
                         {
                             "verse": 15,
-                            "text": "Tan-awa, gibutang ko karon sa atubangan mo ang kinabuhi ug ang kaayohan, ang kamatayon ug ang kadautan;"
+                            "text": "“Karong adlawa pagpili kamo niini: kinabuhi ba ug kauswagan o kamatayon ba ug katalagman? "
                         },
                         {
                             "verse": 16,
-                            "text": "Niana nagasugo ako kanimo niining adlawa nga higugmaon mo si Jehova nga imong Dios, nga magalakaw ka sa iyang mga dalan, ug magabantay sa iyang mga sugo, ug sa iyang kabalaoran, ug sa iyang mga tulomanon, aron mabuhi ka ug modaghan, ug nga si Jehova nga imong Dios magapanalangin kanimo sa yuta nga pagasudlan mo aron sa pagpanag-iya niini."
+                            "text": "Kon tumanon ninyo ang mga sugo sa Ginoo nga inyong Dios nga gihatag ko kaninyo karong adlawa nga mao ang paghigugma sa Ginoo nga inyong Dios, ang pagsunod sa iyang kabubut-on ug pagbantay sa tanan niyang mga sugo, mahimo kamong lig-on ug modaghan pag-ayo ug panalanginan kamo niya sa yuta nga inyong gipadulngan aron mainyo kini. "
                         },
                         {
                             "verse": 17,
-                            "text": "Apan kong ang imong kasingkasing mobulag, ug dili ka magapatalinghug, kondili mahisalaag, ug magasimba sa lain nga mga dios, ug magaalagad kanila;"
+                            "text": "Apan kon inyong isalikway ang akong mga sugo ug madani kamo sa pagsimba ug pag-alagad sa laing mga dios, "
                         },
                         {
                             "verse": 18,
-                            "text": "Gipamatuod ko karon kanimo, nga sa pagkamatuod mangahanaw kamo: dili ninyo pagalugwayan ang inyong mga adlaw sa ibabaw sa yuta nga imong pagaadtoan tabok sa Jordan sa pagpanag-iya kaniya."
+                            "text": "sultihan ko kamo karon nga mangamatay gayod kamo. Mubo lamang ang inyong kinabuhi sa yuta nga inyong panag-iyahon iniglabang ninyo sa Jordan. "
                         },
                         {
                             "verse": 19,
-                            "text": "Gisangpit ko ang langit ug yuta sa pagsaksi batok kaninyo niining adlawa, nga gibutang ko sa imong atubangan ang kinabuhi ug ang kamatayon, ang panalangin ug ang tunglo: busa pilia ang kinabuhi, aron mabuhi ikaw, ikaw ug ang imong kaliwatan;"
+                            "text": "Gihimo kong saksi karon ang langit ug ang yuta nga kamo gipapili ko sa kinabuhi o kamatayon, sa panalangin o katalagman. Busa pilia ninyo ang kinabuhi aron kamo ug ang inyong mga kaliwatan molungtad."
                         },
                         {
                             "verse": 20,
-                            "text": "Sa paghigugma kang Jehova nga imong Dios; sa pagsugot sa iyang tingog, ug sa pagtaput kaniya; kay siya mao ang imong kinabuhi, ug ang gitas-on sa imong mga adlaw; aron nga magapuyo ka sa ibabaw sa yuta nga gipanumpa ni Jehova sa imong mga amahan, kang Abraham, kang Isaac ug kang Jacob aron ihatag kanila."
+                            "text": "Higugmaa ang Ginoo nga inyong Dios, alagari siya ug ayaw kamo pagbulag kaniya. Kini makahatag unya kaninyog kusog ug taas nga kinabuhi inigpuyo ninyo sa yuta nga gisaad niya sa inyong katigulangan nga si Abraham, si Isaac ug si Jacob.”"
                         }
                     ]
                 },
@@ -23861,123 +23861,123 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug miadto si Moises, ug misulti niining mga pulonga sa tanan nga Israel."
+                            "text": "Mipadayon si Moises pagsulti sa tanang Israelita. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug miingon siya kanila: Sa panuigon nga usa ka gatus ug kaluhaan ka tuig ako niining adlawa; dili na ako arang makagula bisan makasulod: ug si Jehova nag-ingon kanako: Dili ka makatabok niining Jordan."
+                            "text": "Miingon siya, “120 na ka tuig ang akong edad ug dili na ako makapangulo kaninyo. Giingnan ako sa Ginoo, ‘Dili ka makalabang sa Suba sa Jordan.’"
                         },
                         {
                             "verse": 3,
-                            "text": "Si Jehova nga imong Dios, siya magauna kanimo, siya magalaglag ni ini nga mga nasud gikan sa atubangan mo, ug sila pagaagawan mo: si Josue mao ang magalakaw sa unahan mo sumala sa gipamulong ni Jehova."
+                            "text": "Ang Ginoo mismo ang mag-una kaninyo sa paglabang niini. Laglagon niya kining mga nasora samtang nagpadulong kamo kanila ug inyo silang ilogan sa ilang mga kabtangan. Si Josue maoy mangulo kaninyo sumala sa giingon sa Ginoo. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug pagabuhaton ni Jehova kanila ingon sa gibuhat niya kang Sihon, ug kang Og, mga hari sa mga Amorehanon, ug sa yuta nila sa mga gilaglag niya."
+                            "text": "Ingon nga gilaglag sa Ginoo si Sihon ug si Og nga mga haring Amorihanon ug ang ilang mga yuta, laglagon usab niya kining mga nasora. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug igatugyan sila ni Jehova sa atubangan ninyo, ug buhaton ninyo kanila ingon sa tanan nga sugo nga gisugo ko kaninyo."
+                            "text": "Itugyan niya sila kaninyo ug buhaton ninyo kanila ang akong gisugo kaninyo. "
                         },
                         {
                             "verse": 6,
-                            "text": "Magmakusganon kamo ug magmadasigon kamo; dili kamo malisang kanila, ug dili kamo mahadlok kanila: kay si Jehova nga imong Dios mao ang magauban kanimo; dili ka pasagdan niya, ni pagabiyaan ikaw niya."
+                            "text": "Pagmalig-on kamo ug pagmaisogon. Ayaw ninyo sila kahadloki kay ubanan kamo sa Ginoo nga inyong Dios. Dili kamo niya pakyason o biyaan.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Ug mitawag si Moises kang Josue, ug miingon kaniya sa atubangan sa tibook nga Israel: Magmakusganon ka, ug magmadasigon ka: kay ikaw maoy mosulod uban niining katawohan sa yuta nga gipanumpa ni Jehova sa ilang mga amahan aron igahatag kanila, ug ikaw magapapanunod kanila."
+                            "text": "Unya gipatawag ni Moises si Josue ug giingnan niya atubangan sa tanang Israelita, “Pagmalig-on ug pagmaisogon inigpangulo mo niining katawhan ngadto sa yuta nga gisaad sa Ginoo nga ihatag niya sa inyong mga katigulangan. Tabangi sila sa pagpanag-iya niini."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug si Jehova mao ang magauna kanimo; siya magauban kanimo, ikaw dili niya pasagdan, ni pagabiyaan ka niya: dili ka mahadlok, dili ka magmaluya."
+                            "text": "Tultolan ug ubanan ka sa Ginoo. Dili ka niya biyaan o talikdan busa ayaw kahadlok.”"
                         },
                         {
                             "verse": 9,
-                            "text": "Ug gisulat ni Moises kini nga Kasugoan, ug gihatag niya sa mga sacerdote, mga anak ni Levi nga nanagdala sa arca sa tugon ni Jehova, ug sa tanan nga mga anciano sa Israel."
+                            "text": "Gisulat ni Moises kining balaora ug gitugyan ngadto sa mga pari nga Levita nga maoy tigdala sa Sudlanan sa Kasabotan ug sa mga pangulo sa Israel. "
                         },
                         {
                             "verse": 10,
-                            "text": "Ug si Moises nagsugo kanila nga nagaingon: Sa tapus sa matag-pito ka tuig, sa panahong tinudlo sa tuig sa pagpasaylo, sa fiesta sa mga tabernaculo,"
+                            "text": "Gipakanaog niya kining sugoa, “Tapos sa pito ka tuig nga maoy tuig sa pagpapas sa mga utang sa pag-abot sa Kasaulogan sa mga Balongbalong nga maoy"
                         },
                         {
                             "verse": 11,
-                            "text": "Sa moduol ang tibook nga Israel sa pagpangatubang sa atubangan ni Jehova nga imong Dios sa dapit nga iyang pagapilion, pagabasahon mo kini nga Kasugoan sa atubangan sa tibook nga Israel sa mga igdulungog nila."
+                            "text": "panahon nga ang tibuok Israel moduol aron pagsimba sa Ginoo nga inyong Dios didto sa dapit nga ampoanan, basaha ninyog kusog kining balaora atubangan sa tanang mga Israelita."
                         },
                         {
                             "verse": 12,
-                            "text": "Pagatigumon mo ang katawohan, ang mga lalake ug ang mga babaye, ug ang mga bata ug ang imong dumuloong nga anaa sa sulod sa imong mga ganghaan, aron nga managpatalinghug sila, ug managtoo sila, ug mangahadlok kang Jehova nga inyong Dios, ug magbantay sa pagbuhat sa tanan nga mga pulong niini nga Kasugoan;"
+                            "text": "Pundoka ang mga tawo: mga lalaki, mga babaye ug kabataan ug ang mga langyaw nga nagpuyo tipon kaninyo aron sila makabati niini ug makakat-on sa pagtahod sa Ginoo nga inyong Dios ug tumanon nila pag-ayo ang tibuok balaod. "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug nga ang ilang mga anak, nga wala mahibalo, managpatalinghug, ug managtoon sa pagkahadlok kang Jehova nga inyong Dios, sa tanan nga adlaw nga magapuyo kamo sa ibabaw sa yuta, nga inyong pagaadtoan sa tabok sa Jordan, aron sa pagpanag-iya niini."
+                            "text": "Sa maong paagi, ang ilang mga kaliwat makakat-on sa pagkahadlok sa Ginoo nga inyong Dios samtang kamo magpuyo sa yuta nga panag-iyahon ninyo tabok sa Jordan.”"
                         },
                         {
                             "verse": 14,
-                            "text": "Ug si Jehova miingon kang Moises: Ania karon, nagakahaduol na ang imong mga adlaw nga ikaw mamatay: tawgon mo si Josue, ug mangadto kamo sa tabernaculo nga tigumanan aron ako magahatag kaniya sa katungdanan. Ug nangadto sila si Moises ug si Josue, ug mingpakita sila sa tabernaculo sa mga tigumanan."
+                            "text": "Giingnan sa Ginoo si Moises, “Sa dili madugay mamatay ka. Busa ipatawag si Josue ug pangadto kamo sa Tolda nga Tagboanan aron didto tudloan ko siya sa iyang buhaton.” Gituman kini ni Moises ug ni Josue "
                         },
                         {
                             "verse": 15,
-                            "text": "Ug mitungha si Jehova didto sa Balong-Balong, pinaagi sa haligi nga panganod: ug ang haligi nga panganod nagpahaluna sa ibabaw sa pultahan sa Balong-Balong."
+                            "text": "ug mipakita ang Ginoo sulod sa Tolda nga daw haligi nga panganod nga diha sa pultahan."
                         },
                         {
                             "verse": 16,
-                            "text": "Ug si Jehova miingon kang Moises: Ania karon, ikaw matulog uban sa imong mga amahan; ug kini nga katawohan motindog, ug makighilawas sunod sa lain nga mga dios sa yuta, nga ilang pagaadtoan sa pagpuyo sa taliwala nila, ug sila mobiya kanako, ug magabungkag sa akong tugon nga gibuhat ko uban kanila."
+                            "text": "Miingon ang Ginoo kang Moises, “Inigkamatay nimo, mosimba kining mga tawhana sa mga diosdios nga gisimba sa mga tawo nga inyong adtoan. Isalikway ako nila ug ilang lapason ang kasabotan nga gihimo ko uban kanila. "
                         },
                         {
                             "verse": 17,
-                            "text": "Unya ang akong kapungot magadilaab batok kanila niadtong adlawa, ug ako mobiya kanila, ug pagatagoon ko ang akong nawong kanila, ug pagaut-uton sila, ug daghan nga kadautan ug mga kagul-anan ang moabut kanila; nga magaingon sila niadtong adlawa: Wala ba hikaplagi kanato kining mga kadautana kay wala ang atong Dios sa taliwala nato?"
+                            "text": "Unya mosilaob ang akong kasuko kanila ug laglagon ko sila. Biyaan ko sila ug dili ko sila ilhon nga akong katawhan. Mahiagom silag mga dagkong kasamok ug kalisdanan. Unya moingon sila, ‘Nahiagom kita niining mga kasamok kay wala na man kita ubani sa Dios.’ "
                         },
                         {
                             "verse": 18,
-                            "text": "Ug pagatagoon ko sa pagkamatuod gayud ang akong nawong niadtong adlawa, tungod sa dautan nga ilang pagabuhaton, tungod kay mibalik sila sa laing mga dios."
+                            "text": "Ug dili ko na unya sila tabangan tungod sa ilang pagkadaotan ug pagsimba sa ubang mga dios. "
                         },
                         {
                             "verse": 19,
-                            "text": "Busa karon isulat ninyo kini nga alawiton alang kaninyo, ug itudlo mo sa mga anak sa Israel: ibutang mo kini sa ilang mga baba, aron kini nga alawiton mahimong saksi nako batok sa mga anak sa Israel."
+                            "text": "Karon, isulat kining awita ug itudlo kini sa katawhan sa Israel aron kini mahimong akong saksi batok kanila."
                         },
                         {
                             "verse": 20,
-                            "text": "Kay sa ako nang mapasulod sila sa yuta nga gipanumpa ko sa ilang mga amahan, nga nagapaagay sa gatas ug dugos, ug sa makakaon na sila ug mabusog, ug manambok; unya managbalik sila sa lain nga mga dios, ug magaalagad kanila, ug magatamay kanako, ug magabungkag sa akong tugon."
+                            "text": "Pasudlon ko sila nianang tabunok nga yuta sumala sa gisaad ko sa ilang mga katigulangan. Mangaon sila, mabusog ug manambok apan unya alagaran nila ang ubang mga dios. Yubiton ako nila ug ilang isalikway ang akong kasabotan. "
                         },
                         {
                             "verse": 21,
-                            "text": "Ug mahatabo nga sa moabut kanila ang daghang mga kadautan ug mga kagul-anan, kining alawiton magapamatuod sa ilang atubangan ingon nga saksi; kay dili pagahikalimtan kini sa baba sa ilang kaliwatan: kay ako nahibalo sa ilang hunahuna nga ilang batonan niining adlawa, sa wala pa sila madala nako ngadto sa yuta nga gipanumpa ko."
+                            "text": "Inigkahiagom nilag mga dagkong kasamok ug kagul-anan, mahimong saksi kining alawitona batok kanila kay dili malimot pag-awit niini ang ilang mga kaliwatan. Nasayod ako sa ilang gihunahuna karon bisag wala ko pa sila dad-a ngadto sa yuta nga gisaad ko kanila.”"
                         },
                         {
                             "verse": 22,
-                            "text": "Busa gisulat ni Moises kini nga alawiton niadto nga adlawa, ug iyang gitudlo sa mga anak sa Israel."
+                            "text": "Niadtong adlawa gisulat ni Moises ang awit ug gitudloan niya niini ang mga Israelita."
                         },
                         {
                             "verse": 23,
-                            "text": "Ug mihatag siya ug katungdanan kang Josue nga anak nga lalake ni Nun, ug miingon: Magmakusganon ka, ug magmadasigon, kay ikaw magadala sa mga anak sa Israel sa yuta nga gipanumpa ko kanila, ug ako magauban kanimo."
+                            "text": "Gisultihan sa Ginoo si Josue nga anak ni Nun, “Pagmalig-on ug pagmaisogon kay ikaw ang modala sa mga Israelita ngadto sa yuta nga akong gisaad kanila. Ubanan ko ikaw.”"
                         },
                         {
                             "verse": 24,
-                            "text": "Ug nahitabo sa pagkahuman ni Moises pagsulat sa mga pulong niini nga Kasugoan sa usa ka basahon, hangtud kini nahuman,"
+                            "text": "Human masulat ni Moises ang kinatibuk-an gayod niining balaora diha sa usa ka basahon, "
                         },
                         {
                             "verse": 25,
-                            "text": "Nga misugo si Moises sa mga Levihanon nga nanagdala sa arca sa tugon ni Jehova, nga nagaingon:"
+                            "text": "gihatagan niyag mga pahimangno ang mga Levita nga maoy nagdala sa Sudlanan sa Kasabotan sa Ginoo ug miingon siya, "
                         },
                         {
                             "verse": 26,
-                            "text": "Kuhaa ninyo kini nga basahon sa Kasugoan, ug kini ibutang ninyo sa kiliran sa arca sa tugon ni Jehova nga inyong Dios, aron kini adto didto alang sa pagkasaksi batok kanimo;"
+                            "text": "“Dad-a kining maong basahon sa Balaod ug ipahiluna kini tupad sa Sudlanan sa Kasabotan sa Ginoo nga inyong Dios ingon nga saksi batok kaninyo. "
                         },
                         {
                             "verse": 27,
-                            "text": "Kay naila ko ang imong pagsuki, ug ang imong kagahi ug liog: ania karon, samtang nga ako buhi pa uban kaninyo karong adlawa, nagamasukihon kamo batok kang Jehova; ug unsa ka labi pa gayud niini sa human sa akong kamatayon?"
+                            "text": "Nasayod ako sa inyong pagkamasupilon ug pagkagahig ulo. Kay gihagit ninyo ang Ginoo bisag ania pa gani ako uban kaninyo. Unsa pa kaha kon ako patay na! "
                         },
                         {
                             "verse": 28,
-                            "text": "Tiguma alang kanako ang tanan nga mga anciano sa inyong mga punoan, aron igasulti ko sa ilang mga igdulungog kining mga pulonga, ug sangpiton ang langit ug yuta sa pagsaksi batok kanila."
+                            "text": "Pundoka sa atubangan nako ang tanan ninyong kadagkoan ug mga opisyal aron sultihan ko sila sa kasugoan ug himoon kong saksi ang langit ug ang yuta batok kaninyo. "
                         },
                         {
                             "verse": 29,
-                            "text": "Kay nahibalo ako nga sa human sa akong kamatayon magahugaw kamo sa hilabihan gayud sa inyong kaugalingon, ug magapahalayo kamo sa dalan nga akong gisugo kaninyo; ug moabut kaninyo ang dautan sa ulahi nga mga adlaw, tungod kay magabuhat kamo ug dautan sa mga mata ni Jehova, sa pagpasuko kaniya tungod sa buhat sa inyong mga kamot."
+                            "text": "Nasayod ako nga tapos ako mamatay, magpakasala kamo ug dili na kamo motuman sa akong gisugo kaninyo. Sa kataposan, moabot kaninyo ang kadaot kay inyo mang isalikway ang Ginoo ug inyong hagiton ang iyang kasuko pinaagi sa inyong pagbuhat sa iyang gidili.”"
                         },
                         {
                             "verse": 30,
-                            "text": "Ug gisulti ni Moises sa mga igdulungog sa tanan nga katilingban sa Israel ang mga pulong niini nga alawiton, hangtud nga nahuman sila."
+                            "text": "Unya gisulti ni Moises ang tibuok awit samtang namati niini ang katawhan sa Israel."
                         }
                     ]
                 },
@@ -23986,211 +23986,211 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Magpatalinghug kamo, mga langit, ug magasulti ako: Ug papatalinghuga ang yuta sa mga pulong sa akong baba."
+                            "text": "“Pamati, O langit, kay mosulti ako; patalinghogi, O yuta, ang akong mga pulong."
                         },
                         {
                             "verse": 2,
-                            "text": "Magatolo ingon sa ulan ang akong pagtolon-an; Magadaligdig ingon sa yamog ang akong pagsulti, Ingon sa talisik sa ibabaw sa linghud nga bunglayon, Ug ingon sa mga alindahaw sa ibabaw sa balili:"
+                            "text": "Mahulog unta daw ulan ang akong pagtulon-an; patuloa ang mga pulong ko daw yamog ug taligsik diha sa lunhawng kasagbotan."
                         },
                         {
                             "verse": 3,
-                            "text": "Kay igamantala ko ang ngalan ni Jehova. Pakadakuon ninyo ang atong Dios."
+                            "text": "Isangyaw ko ang ngalan sa Ginoo ug pasidunggi ninyo ang atong Dios!"
                         },
                         {
                             "verse": 4,
-                            "text": "Ang Bato ang iyang buhat hingpit man; Kay ang tanan niya nga mga dalan mga matul-id: Dios sa pagkamatinumanon, ug walay kasal-anan: Siya matarung ug matul-id."
+                            "text": "“Siya ang Bato kansang buhat hingpit kay matarong man ang tanang paagi niya. Siya ang Dios nga matinumanon, putli ug matarong."
                         },
                         {
                             "verse": 5,
-                            "text": "Sila nagpakigsandurot nga mahugaw kanila; dili sila iyang mga anak, kini ilang buling; Sila usa ka kaliwatan nga baliko ug mangil-ad."
+                            "text": "Nagbudhi kamo kaniya ug wala na kamo isipang mga anak niya tungod sa inyong kadaotan, hiwi ug balikong kaliwatan."
                         },
                         {
                             "verse": 6,
-                            "text": "Mao ba kini ang igabayad ninyo kang Jehova, Oh katawohan nga buang ug burong? Dili ba mao siya ang imong amahan nga nagpalit kanimo? Siya ang nagbuhat kanimo, ug siya ang nagpalig-on kanimo."
+                            "text": "Mao ba kini ang inyong ibalos sa Ginoo, O katawhan nga buangbuang ug hungog? Dili ba siya man ang inyong amahan nga nagbuhat ug naglig-on kaninyo?"
                         },
                         {
                             "verse": 7,
-                            "text": "Hinumduman mo ang mga adlaw sa kanhi, Palandunga ninyo ang mga tuig sa daghang kaliwatan; Pangutana sa imong amahan, ug siya magapahayag kanimo; Sa imong mga anciano, ug sila mag-ingon kanimo."
+                            "text": "“Hinumdomi ang inyong kagahapon ug ang taas nga sugilanon sa inyong kaliwatan. Pangutan-a ang inyong katigulangan mahitungod niini; sultihan usab kamo niini sa inyong kadagkoan."
                         },
                         {
                             "verse": 8,
-                            "text": "Sa gihatag sa Hataas Uyamut sa mga nasud ang ilang panulondon, Sa pagbahinbahin niya sa mga anak sa mga tawo, Gibutang niya ang mga utlanan sa mga katawohan, Sumala sa gidaghanon sa mga anak sa Israel."
+                            "text": "Sa dihang gibahinbahin sa Labing Halangdong Dios ang yuta ngadto sa kanasoran ug dihang gilainlain niya ang katawhan, gibutangan niya kinig mga utlanan sumala sa gidaghanon sa mga anak sa Dios."
                         },
                         {
                             "verse": 9,
-                            "text": "Kay ang bahin ni Jehova mao ang iyang katawohan; Si Jacob mao ang pahat sa iyang panulondon."
+                            "text": "Apan gigahin sa Ginoo ang iyang katawhan alang sa iyang kaugalingon. Si Jacob maoy iyang silbing bahin."
                         },
                         {
                             "verse": 10,
-                            "text": "Iyang hikaplagan siya didto sa yuta sa kamingawan, Ug sa haw-ang kamingawan nga makalilisang; Siya nagalibut kanila sa libut, siya nagamatuto kaniya. Iyang gibantayan siya ingon sa kalimutaw sa iyang mata."
+                            "text": "“Hikaplagan niya si Jacob didto sa kamingawan diin naghaguros ang hangin; gipanalipdan niya si Jacob ug giamuma pag-ayo, sama sa pag-amoma niya sa iyang kaugalingon."
                         },
                         {
                             "verse": 11,
-                            "text": "Ingon sa agila nga nagapukaw sa iyang salag, Nga nagalupadlupad sa ibabaw sa iyang mga kuyabog, Ginabuklad niya ang iyang mga pako, iyang ginakuha sila. Iyang gidala sila sa ibabaw sa iyang mga pako."
+                            "text": "Ingon sa agila aw agila nga nagtudlo sa iyang mga piso paglupad ug nagbukhad sa iyang mga pako aron pagsagakay sa iyang mga piso. Ang Ginoo nanalipod sa Israel aron dili siya mahulog. nagapukaw sa iyang salag, Nga nagalupadlupad sa ibabaw sa iyang mga kuyabog, Ginabuklad niya ang iyang mga pako, iyang ginakuha sila. Iyang gidala sila sa ibabaw sa iyang mga pako."
                         },
                         {
                             "verse": 12,
-                            "text": "Si Jehova lamang ang nagmando kaniya, Ug wala kaniya ing lain nga dios."
+                            "text": "Ang Ginoo ray naggiya sa iyang katawhan; walay laing dios nga miuban kanila."
                         },
                         {
                             "verse": 13,
-                            "text": "Iyang gipasakay siya sa ibabaw sa mga kinatas-an sa yuta, Ug mikaon siya sa mga bunga sa kapatagan; Ug gibuhat niya nga magasuyop siya ug dugos gikan sa bato nga dagku, Ug gikan sa magahi nga santikan;"
+                            "text": "“Gipalatas niya sila sa kabukiran ug gipakaon sa abot sa kaumahan. Sila gipainom niyag dugos gikan sa mga pangpang ug ang ilang mga kahoyng olibo milambo sa batoon nga yuta."
                         },
                         {
                             "verse": 14,
-                            "text": "Mantequilla sa mga panon sa vaca ug gatas gikan sa mga carnero; Nga adunay tambok sa mga nating carnero, Ug mga lakeng carnero sa kaliwatan sa Basan, ug mga kanding, Uban sa labing fino nga trigo; Ug sa duga sa parras ginainum mo ang vino,"
+                            "text": "May keso sila ug gatas, may tambok silang mga karnero, ug mga baka ug kanding gikan sa Basan. May trigo usab sila, ug ang ilang giinom bino nga labing maayo."
                         },
                         {
                             "verse": 15,
-                            "text": "Apan misupang si Jeshurum, ug nanindak: Mitambok ka, misupang ka, mitago ka; Unya mibiya siya sa Dios nga nagbuhat kaniya, Ug gitamay niya ang Bato sa iyang kaluwasan."
+                            "text": "“Nanambok ang katawhan sa Israel apan mirebelde; nanambok sila ug midako. Unya gisalikway nila ang Dios nga nagbuhat kanila; ug giyubit ang Bato nga nagluwas kanila."
                         },
                         {
                             "verse": 16,
-                            "text": "Nagpaabugho sila kaniya tungod sa lain nga mga dios; Nagpasuko sila kaniya sa mga dulumtanan."
+                            "text": "Gipasilaob nila ang iyang pangabubho pinaagi sa pagsimba sa laing mga dios ug gihagit nila ang iyang kasuko pinaagi sa mga buhat nga ngil-ad."
                         },
                         {
                             "verse": 17,
-                            "text": "Nanaghalad sila sa mga yawa, nga dili man Dios Sa mga dios nga wala nila hiilhi, Sa mga bag-ong dios nga miabut sa dili pa dugay, Nga wala kahadloki sa inyong mga amahan."
+                            "text": "Naghalad silag mga mananap ngadto sa mga demonyo nga dili dios, ngadto sa mga diosdios nga wala nila simbaha kaniadto, mga diosdios nga bag-ong hikaplagan nga wala alagari sa inyong katigulangan."
                         },
                         {
                             "verse": 18,
-                            "text": "Sa Bato nga nagbuhat kanimo nahikalimot ka; Ug nahikalimot ka sa Dios nga naghatag kanimo sa pagkatawo."
+                            "text": "Nalimot sila sa Bato nga nagpakatawo kanila, ug wala nila hinumdomi ang Dios nga naghatag kanilag kinabuhi."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug si Jehova nakakita niini ug napungot kanila, Tungod sa kasuko sa iyang mga anak nga lalake ug sa iyang mga anak nga babaye."
+                            "text": "“Nakita kini sa Ginoo ug tungod sa iyang kasuko gisalikway niya ang iyang mga anak."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug miingon siya: Pagatagoon ko gikan kanila ang akong nawong, Pagatan-awon ko kong unsa ang ilang kaulahian: Kay sila maoy kaliwatan nga masukihon kaayo, Mga anak nga walay pagkamatinumanon."
+                            "text": "Ug miingon siya, ‘Talikdan ko sila, ug tan-awon kog unsay modangat kanila kay sila mga daotang kaliwat, mga anak nga mabudhion."
                         },
                         {
                             "verse": 21,
-                            "text": "Sila nanagpaabugho kanako tungod sa dili Dios; Nanagpasuko sila kanako tungod sa ilang mga parayeg; Ug dasigon ko sila sa pagpangabugho niadtong dili katawohan, Sa mga nasud nga buangbuang pagapasuk-on ko sila."
+                            "text": "Giaghat nila ang akong kasuko kay ila mang gisimba ang laing dios; misilaob ang akong kasuko tungod sa ilang mga diosdios. Busa himoon ko nga mapungot usab sila inigpili ko sa mga tawo nga dili pa nasod; hagiton ko ang ilang kasuko pinaagi sa usa ka nasod nga buangbuang."
                         },
                         {
                             "verse": 22,
-                            "text": "Kay may kalayo nga magadilaab sa akong kapungot, Ug magadilaab hangtud sa kahiladman sa Sheol; Ug magalamoy sa yuta ug sa iyang mga bunga. Ug pagasunogon ang mga patukoranan sa mga bukid"
+                            "text": "Nakahaling ug kalayo ang akong kasuko; mosunog kini hangtod sa kinahiladman sa Seol. Gisunog niini ang kalibotan ug ang iyang abot ug ang mga patukoranan sa mga kabukiran."
                         },
                         {
                             "verse": 23,
-                            "text": "Ako magapundok ug mga kadautan sa ibabaw nila; Igabutang ko kanila ang akong mga udyong."
+                            "text": "“‘Pahiagomon ko silag mga katalagman; ihurot kog pana ang akong mga udyong kanila."
                         },
                         {
                             "verse": 24,
-                            "text": "Pagaut-uton sila sa gutom, ug pagalamyon sila sa nagadilaab nga kainit Ug sa mapait nga pagkalaglag; Ug ang mga ngipon sa mga mananap igapadala ko kanila. Uban ang kalala sa mga butang nga nagakamang sa yuta."
+                            "text": "Unya kon sila maluya na sa gutom ug sa hilanat, ug himalatyon na tungod sa makalilisang nga sakit, ipatukob ko sila sa bangis nga mga mananap ug sa mga lala nga bitin."
                         },
                         {
                             "verse": 25,
-                            "text": "Sa gawas magalaglag ang espada, Ug sa mga sulod anaa ang kalisang, Magalaglag sa ulitawo ingon man sa dalaga, Sa nagasuso ingon usab sa tawo nga tigulang:"
+                            "text": "Mangamatay pinaagi sa espada ang anaa sa hawan ug ang atua sa mga lawak mangamatay tungod sa kalisang— ang mga batan-ong lalaki ug babaye, mga masuso ug mga tigulang."
                         },
                         {
                             "verse": 26,
-                            "text": "Miingon ako: Pagatibulaagon ko sila hangtud sa halayo: Pagapahunogon ko sa taliwala sa mga tawo ang handumanan nila."
+                            "text": "Nakahukom ako sa pagpatibulaag kanila ngadto sa layong mga dapit hangtod nga mapuo silang tanan."
                         },
                         {
                             "verse": 27,
-                            "text": "Kong dili pa lamang ako mahadlok sa kaligutgut sa kaaway. Tingali unya ang ilang mga kabatok magahukom sa sayop, Tingali unya ug magaingon sila; Ang atong kamot hataas, Ug si Jehova wala magbuhat niining tanan."
+                            "text": "Apan nabalaka ako nga saypon kini pagsabot sa akong mga kaaway ug moingon sila, “Kami ang nakadaog! ug dili ang Ginoo maoy naghimo niini!”’"
                         },
                         {
                             "verse": 28,
-                            "text": "Kay sila usa ka nasud nga nawad-an sa mga pagtambag, Ug wala kanila ang salabutan."
+                            "text": "“Sila usa ka nasod nga dili magpatambag ug dili makasabot."
                         },
                         {
                             "verse": 29,
-                            "text": "Oh makinaadmanon unta sila, nga mahibaloan nila kini, Ug nga palandungon nila ang ilang kaulahian!"
+                            "text": "Kon maalamon pa sila, masabtan unta nila kini; masabtan unta nila ang mahitabo kanila sa ulahing mga adlaw."
                         },
                         {
                             "verse": 30,
-                            "text": "Unsaon sa usa paglutos sa usa ka libo, Ug sa duruha pagpakalagiw sa napulo ka libo, Gawas kong ang ilang Bato nagabaligya kanila, Ug si Jehova nagtugyan kanila?"
+                            "text": "Unsaon man sa usa ka tawo pagbuntog sa usa ka libo, o sa duha ka tawo pagbuntog sa napulo ka libo, kon ang ilang kaaway wala pa itugyan kanila sa ilang Bato nga mao ang Ginoo?"
                         },
                         {
                             "verse": 31,
-                            "text": "Kay ang ilang bato dili ingon sa atong Bato, Ug niini ang atong mga kaaway sa ilang kaugalingon mao ang mga maghuhukom."
+                            "text": "Ang ilang bato dili sama sa atong Bato; bisan gani sila nga atong mga kaaway nasayod man niini."
                         },
                         {
                             "verse": 32,
-                            "text": "Kay ang ilang parras, parras sa Sodoma, Ug sa mga kaumahan sa Gomorrah: Ang ilang mga parras, mga parras nga makahilo. Ang ilang mga binulig, mga mapait."
+                            "text": "Kay ang ilang paras gikan sa Sodoma ug Gomora; makahilo ug pait ang mga bunga niini."
                         },
                         {
                             "verse": 33,
-                            "text": "Ang ilang vino hilo man sa mga dragon, Ug hilo nga mabangis sa mga malala nga sawa."
+                            "text": "Sama sa lala sa bitin ang ilang bino."
                         },
                         {
                             "verse": 34,
-                            "text": "Kay wala ko ba kini tipigi kanako, Nga pinatikan sa taliwala sa akong mga bahandi?"
+                            "text": "“Dili ba gitipigan ko man kining tanan didto sa akong tipiganan?"
                         },
                         {
                             "verse": 35,
-                            "text": "Ako ang panimalus, ug bayad, Sa panahon nga ang ilang tiil mahadalin-as: Kay ang adlaw sa ilang kagul-anan haduol na, Ug ang mga butang nga mahitabo kanila magadali,"
+                            "text": "Akoa ang katungod sa pagpanimalos ug pagsilot kay hapit na moabot ang panahon nga madakin-as sila ug mahiagom sa katalagman, ug malaglag sila sa kalit lamang."
                         },
                         {
                             "verse": 36,
-                            "text": "Kay si Jehova magahukom sa iyang katawohan, Ug magabasul sa iyang kaugalingon tungod sa iyang mga ulipon, Sa makita niya nga ang ilang kusog nawala, Ug walay mahibilin, bisan binilanggo kun atua sa gawas."
+                            "text": "Kay ang Ginoo mohukom dapig sa iyang katawhan, ug kaluy-an niya ang iyang mga alagad inigkasayod niya nga wala na silay kusog ug wala nay mahibilin kanila, ulipon ug dili ulipon."
                         },
                         {
                             "verse": 37,
-                            "text": "Ug magaingon siya: Hain man ang ilang mga dios, Ang bato nga ilang ginadangpan;"
+                            "text": "Unya mangutana ang Ginoo sa iyang katawhan, ‘Hain na man ang ilang mga diosdios, ang bato nga ilang dangpanan"
                         },
                         {
                             "verse": 38,
-                            "text": "Nga nagkaon sa tambok sa ilang mga halad, Ug miinum sa vino sa ilang halad-nga-ilimnon? Patindoga sila ug patabanga kaninyo, Mamahimo unta sila nga inyong panalipod."
+                            "text": "nga mikaon sa tambok sa ilang mga halad, sa mga mananap nga gihalad ug miinom sa bino nga ilang gihalad? Patabanga sila kaninyo ug himoa sila nga inyong panalipod."
                         },
                         {
                             "verse": 39,
-                            "text": "Tan-awa ninyo, karon nga Ako, Ako mao, Walay dios uban kanako: Ako magapatay, ug ako magapabuhi, Ako magasamad ug ako magaayo. Ug walay arang mamaluwas gawas sa akong kamot."
+                            "text": "“‘Karon ilha ninyo nga ako ray tinuod nga Dios; wala nay lain gawas kanako. Ako mopatay ug mohatag ug kinabuhi; mosamad ako ug moayo usab niini. Walay makailog kang bisan kinsa gikan sa akong gahom."
                         },
                         {
                             "verse": 40,
-                            "text": "Kay pagabayawon ko ang akong kamot ngadto sa langit, Ug magaingon: Ingon nga ako mabuhi nga sa walay katapusan,"
+                            "text": "Bayawon ko ang akong kamot ngadto sa langit ug ipanumpa ko, ingon nga ako buhi hangtod sa hangtod,"
                         },
                         {
                             "verse": 41,
-                            "text": "Kong pagabairon ko ang akong masulaw nga espada, Ug ang akong kamot magakupot sa paghukom; Ako magapakanaug sa pagpanimalus sa akong mga kaaway, Ug magabayad ako sa mga nagadumot kanako:"
+                            "text": "nga sa dihang mabaid ko na ang akong espada, gamiton ko kini sa pagsilot. Panimaslan ko ang akong mga kaaway ug ang nagdumot kanako."
                         },
                         {
                             "verse": 42,
-                            "text": "Pagahubgon ko sa dugo ang akong mga udyong, Ug ang akong espada magalamoy ug unod: Sa dugo sa mga patay ug sa mga bihag, Gikan sa ulo sa mga magamando sa kaaway."
+                            "text": "Paimnon kog dugo ang akong mga udyong ug palamyon kog unod ang akong espada, lakip niini ang dugo sa gipamatay ug sa mga gipamihag nga tag-as ug buhok.’"
                         },
                         {
                             "verse": 43,
-                            "text": "Magakalipay kamo, oh mga nasud, uban sa iyang katawohan: Kay siya magapanimalus sa dugo sa iyang mga ulipon, Ug igapakanaug niya ang pagpanimalus sa iyang mga kabatok, Ug magapala sa sala sa iyang yuta, alang sa iyang katawohan."
+                            "text": "“Dayga ninyo, O mga nasod, ang iyang katawhan, kay manimalos gayod siya sa kamatayon sa iyang mga alagad; panimaslan niya ang iyang mga kaaway. Hugasan niya sa sala ang yuta nga puy-an sa iyang katawhan.”"
                         },
                         {
                             "verse": 44,
-                            "text": "Ug miduol si Moises, ug gisulti niya ang tanan nga mga pulong niini nga alawiton sa igdulungog sa katawohan, siya ug si Hoshea ang anak nga lalake ni Nun."
+                            "text": "Si Moises ug si Josue nga anak ni Nun misulti niining awita aron makabati niini ang katawhan sa Israel."
                         },
                         {
                             "verse": 45,
-                            "text": "Ug nahuman ni Moises ang pagsulti niining tanan nga mga pulong sa tibook Israel;"
+                            "text": "Human sa pakigpulong ni Moises ngadto sa katawhan sa Israel, "
                         },
                         {
                             "verse": 46,
-                            "text": "Ug miingon siya kanila: Ibutang ninyo ang inyong kasingkasing sa tanan nga mga pulong nga ginapamatuod ko kaninyo niining adlawa nga igasugo ninyo sa inyong mga anak nga pagasingkamutan nila sa pagbuhat, bisan ang tanan nga mga pulong niini nga Kasugoan;"
+                            "text": "miingon siya kanila, “Itisok sa inyong kasingkasing ang tanan nga gisulti ko kaninyo niining adlawa. Ipatuman kini sa inyong mga anak aron ilang matngonan pag-ayo ang tanan nga giingon niining balaod. "
                         },
                         {
                             "verse": 47,
-                            "text": "Kay kini dili butang nga walay pulos alang kaninyo; kay kini mao ang inyong kinabuhi, ug tungod niining butanga pagalugwayan ninyo ang inyong mga adlaw sa ibabaw sa yuta nga inyong pagaadtoan diin motabok kamo sa Jordan aron sa pagpanag-iya niini."
+                            "text": "Dili kini butang nga katiawtiawan kay mao kini ang tibuok ninyong kinabuhi. Kon tumanon ninyo kini, magpuyo kamog dugay didto sa yuta nga inyong panag-iyahon tabok sa Jordan.”"
                         },
                         {
                             "verse": 48,
-                            "text": "Ug misulti si Jehova kang Moises niadtong adlawa, nga nagaingon;"
+                            "text": "Niana gayong adlawa, giingnan sa Ginoo si Moises,"
                         },
                         {
                             "verse": 49,
-                            "text": "Tumungas ka niining bukira sa Abarim, sa bukid sa Nebo, nga anaa sa yuta sa Moab, nga anaa sa atbang sa Jerico; ug tan-awa ang yuta sa Canaan, nga akong gihatag aron mapanag-iya sa mga anak sa Israel;"
+                            "text": "“Tungas niining bukid sa Abarim, ang bukid sa Nebo nga anaa sa Moab atbang sa siyudad sa Jerico. Unya lantawa ang yuta sa Canaan nga buot kong ihatag sa mga Israelita. "
                         },
                         {
                             "verse": 50,
-                            "text": "Ug mamatay ka sa bukid nga diin ikaw motungas, ug igaipon ka sa imong katawohan, ingon nga namatay si Aaron nga imong igsoon nga lalake sa Hor, ug giipon sa iyang katawohan."
+                            "text": "Adto ka mamatay sa bukid nga imong tungason sama kang Aaron nga imong igsoon nga namatay sa Bukid sa Hor "
                         },
                         {
                             "verse": 51,
-                            "text": "Kay minglapas kamo batok kanako sa taliwala sa mga anak sa Israel sa mga tubig sa Meriba sa Cades, didto sa kamingawan sa Zin, kay ako wala ninyo pagbalaana sa taliwala sa mga anak sa Israel."
+                            "text": "tungod kay wala man ninyo tumana ang akong sugo ug wala ninyo ako tahora taliwala sa mga Israelita duol sa katubigan sa Meribat Cades, sa Kamingawan sa Zin. "
                         },
                         {
                             "verse": 52,
-                            "text": "Kay makita mo ang yuta sa atubangan mo; apan dili ka makasulod didto sa yuta nga gihatag ko sa mga anak sa Israel."
+                            "text": "Makalantaw ka sa yuta apan dili ka makasulod niining yutaa nga ihatag ko sa mga Israelita.”"
                         }
                     ]
                 },
@@ -24199,119 +24199,119 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug mao kini ang panalangin nga gipanalangin ni Moises, ang tawo sa Dios, sa mga anak sa Israel sa wala pa siya mamatay."
+                            "text": "Sa hapit na mamatay si Moises, ang tawo nga pinili sa Dios, gipanalanginan niya ang mga Israelita. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug siya miingon: Si Jehova miabut gikan sa Sinai, Ug gikan sa Seir siya mitindog diha kanila; Misilaw siya gikan sa bukid sa Paran, Ug mianhi siya gikan sa napulo ka libo ka mga balaan: Sa iyang kamot nga too diha ang masiga nga Kasugoan alang kanila."
+                            "text": "Siya miingon, “Mianhi ang Ginoo gikan sa Sinai, gikan sa Edomea daw kaadlawon ug gikan sa Bukid sa Paran daw banagbanag. Mianhi siya kinuyogan sa linibo ka mga anghel ug sa tuo niyang kamot nagbitbit siyag kalayo nga nagdilaab."
                         },
                         {
                             "verse": 3,
-                            "text": "Sa pagkamatuod gayud, gihigugma niya ang katawohan; Ang tanan niya nga balaan anaa sa imong kamot: Ug sila minglingkod sa imong mga tiilan; Managdawat ang tagsatagsa sa imong mga pulong;"
+                            "text": "Iyang gihigugma pag-ayo ang iyang katawhan ug ubos sila sa iyang pagmando, ang tanan gihalad ngadto kaniya. Nagsunod kami kanimo sumala sa imong balaod"
                         },
                         {
                             "verse": 4,
-                            "text": "Kasugoan ang gisugo kanato ni Moises, x Usa ka panulondon alang sa katilingban ni Jacob."
+                            "text": "nga gihatag mo kanamo pinaagi kang Moises ingon nga panulondon sa mga anak ni Jacob."
                         },
                         {
                             "verse": 5,
-                            "text": "Ug siya hari sa Jesurun, Sa pagkatigum sa mga pangulo sa katawohan, Ang tanang mga banay sa Israel nanagtigum."
+                            "text": "Nahimong hari sa Jesurun ang Ginoo sa dihang nagtigom ang mga kadagkoan ug ang tanang banay sa Israel.”"
                         },
                         {
                             "verse": 6,
-                            "text": "Himoa nga mabuhi unta si Ruben ug dili mamatay; Ug dili unta magkadiyut ang iyang mga lalake."
+                            "text": "Si Moises miingon mahitungod sa banay ni Ruben: “Molungtad unta si Ruben ug dili mamatay bisag diyutay ra sila.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Ug kini mao ang panalangin kang Juda, ug siya miingon: Patalinghugi, oh Jehova, ang tingog ni Juda. Ug dad-on mo siya sa iyang katawohan: Kauban sa iyang mga kamot nagpakigbisug siya alang sa iyang kaugalingon; Ug ikaw mahimong tabang batok sa iyang kaaway."
+                            "text": "Mahitungod kang Juda, si Moises miingon: “Pamatia, Ginoo, ang tingog ni Juda ug patipona siya sa imong katawhan. Panalipdi siya sa imong mga kamot ug tabangi siya batok sa kaaway niya.”"
                         },
                         {
                             "verse": 8,
-                            "text": "Ug mahitungod kang Levi miingon siya; Ang imong Thummim ug ang imong Urim uban sa imong balaanon. Nga imong gisulayan didto sa Massa, Nga imong gipakig-away didto sa mga tubig sa Meriba:"
+                            "text": "Mahitungod kang Levi, siya miingon: “Ihatag kang Levi ang imong Tumim, ug ihatag ang Urim sa imong matinud-anong alagad kay nasulayan mo siya didto sa Masa, ug gibadlong mo siya duol sa katubigan sa Meriba."
                         },
                         {
                             "verse": 9,
-                            "text": "Ang nag-ingon mahitungod sa iyang amahan ug sa iyang inahan, Wala gayud ako makakita kaniya; Wala usab siya makaila sa iyang mga igsoon, Wala usab siya makaila sa iyang kaugalingong mga anak: Tungod kay sila nagbantay sa imong pulong, Ug nagatuman sila sa imong tugon."
+                            "text": "Wala niya tagda ang iyang amahan ug inahan ug wala niya ilha ang iyang mga igsoon ug ang kaugalingon niyang mga anak, apan gituman niya ang imong sugo ug gitamod niya pag-ayo ang imong kasabotan."
                         },
                         {
                             "verse": 10,
-                            "text": "Sila magatudlo sa imong mga tulomanon kang Jacob, Ug sa imong Kasugoan sa Israel Magabutang sila ug incienso sa atubangan mo, Ug tibook nga halad-nga-sinunog sa ibabaw sa halaran mo."
+                            "text": "Tudloan sa mga Levita ang mga kaliwat ni Jacob sa imong mga tulomanon; ug ang Israel sa imong balaod, ug ihalad nila kanimo ang mga insenso ug ang tibuok halad nga ilang gisunog."
                         },
                         {
                             "verse": 11,
-                            "text": "Panalangini, Oh Jehova, ang iyang katigayonan, Ug dawata ang buhat sa iyang mga kamot. Samari ang mga hawak niadtong manindog batok kaniya, Ug sa nanagdumot kaniya aron nga dili na sila managtindog."
+                            "text": "Panalangini, O Ginoo, ang iyang kabtangan ug dawata ang iyang binuhatan. Laglaga sila nga misupak ug nagdumot kaniya aron dili na sila makabangon.”"
                         },
                         {
                             "verse": 12,
-                            "text": "Mahitungod kang Benjamin miingon siya: Ang hinigugma ni Jehova magapuyo nga walay kabilinggan sa haduol niya: Iyang pagasalipdan siya sulod sa tibook adlaw, Ug sa taliwala sa iyang mga abaga magapuyo siya."
+                            "text": "Mahitungod kang Benjamin, miingon siya: “Si Benjamin gihigugma sa Ginoo, nagpuyo siya nga layo sa kadaot diha sa iyang presensya. Gipanalipdan siya kanunay sa Ginoo nga anaa magpuyo sa kabungtoran niya.”"
                         },
                         {
                             "verse": 13,
-                            "text": "Ug mahitungod kang Jose miingon siya: Pagabulahanon ni Jehova ang iyang yuta. Tungod sa mga butang nga mahal sa mga langit, tungod sa yamog. Ug tungod sa kahiladman nga sa ilalum nagapahulay,"
+                            "text": "Ug mahitungoMahitungod kang Jose, miingon siya: “Panalanginan unta sa Ginoo ang yuta ni Jose, sa mga bililhong panalangin gikan sa langit, sa yamog, sa mga lalom nga tubig nga anaa sa ilalom sa yuta.d kang Jose miingon siya: Pagabulahanon ni Jehova ang iyang yuta. Tungod sa mga butang nga mahal sa mga langit, tungod sa yamog. Ug tungod sa kahiladman nga sa ilalum nagapahulay,"
                         },
                         {
                             "verse": 14,
-                            "text": "Ug tungod sa mga butang nga bililhon sa mga bunga sa adlaw, Ug tungod sa mga butang nga bililhon sa pagtubo sa bulan,"
+                            "text": "Pabungahon unta niyag daghan ang mga tanom sa iyang kaumahan matag bulan."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug tungod sa dagkung butang sa mga kabukiran nga karaan, Ug tungod sa mga butang nga bililhon sa mga bungtod nga walay katapusan,"
+                            "text": "Hatagan usab unta si Jose ug daghang abot gikan sa kabukiran ug kabungtoran"
                         },
                         {
                             "verse": 16,
-                            "text": "Ug tungod sa mga butang nga bililhon sa yuta ug sa iyang pagkapuno, Ug sa sa maayong kabubut-on sa nanagpuyo sa sapinit. Himoa nga ang panalangin moabut sa ibabaw sa ulo ni Jose, Ug sa ibabaw sa alimpolo sa linain sa iyang mga igsoon."
+                            "text": "ug uban pang abot sa yuta. Kining maong panalangin gikan kaniya nga nagsulti gikan sa sampinit nga nagdilaab. Modagaya unta sa ulo ni Jose ug modagayday sa iyang agtang kining bililhong mga gasa kay gipili man siya nga labaw sa tanan niyang igsoon."
                         },
                         {
                             "verse": 17,
-                            "text": "Ang kahalangdon iya ingon sa panganay sa iyang mga vaca; Ug ang iyang mga sungay, mga sungay sa vaca nga ihalas: Uban niini igatulod niya ang katawohan nga tanan hangtud sa mga kinatumyan sa yuta: Ug kini sila mao ang napulo ka libo ni Ephraim, Ug kini sila mao ang mga linibo ni Manases."
+                            "text": "Kusgan si Jose sama sa panganay nga torong baka ug may sungay sama sa ihalas nga baka; sungay nga maoy iyang isungag sa ubang mga nasod ug sa tanang suok sa kalibotan. Ingon niini ang libo ka libo nga katawhan sa Efraim ug ang linibo nga katawhan sa Manases.”"
                         },
                         {
                             "verse": 18,
-                            "text": "Ug mahitungod kang Zabulon miingon siya: Maglipay ka, Zabulon, sa imong paggula: Ug ikaw Issachar, sa imong mga balong-balong."
+                            "text": "Mahitungod kang Zabulon ug kang Isacar, miingon siya: “Paglipay, Zabulon, sa imong mga pagpanaw ug paglipay, Isacar, diha sa imong mga tolda."
                         },
                         {
                             "verse": 19,
-                            "text": "Pagatawgon nila ang katawohan ngadto sa bukid; Didto magahalad sila ug mga halad sa pagkamatarung; Tungod kay pagasuyopon nila ang kadagaya sa mga dagat, Ug ang mga bahandi nga tinago sa baybayon."
+                            "text": "Ilang dapiton ang mga nasod sa pag-adto sa ilang kabukiran diin ihalad nila ang mga tukma nga halad. Kuhaon nila ang daghang bahandi sa kadagatan ug ang tinagong bahandi sa kabaybayonan.”"
                         },
                         {
                             "verse": 20,
-                            "text": "Ug mahitungod kang Gad miingon siya: Bulahan ang nagapadaku kang Gad, Nga ingon sa leon nga baye nagapuyo siya, Ug magagilis siya sa butkon, oo, sa alimpolo sa ulo."
+                            "text": "Ania ang giingon ni Moises mahitungod kang Gad: “Dalaygon siya nga naghatag kang Gad ug dakong yuta. Sama sa liyon, mohupo siya ug laksion niya ang ulo ug bukton sa iyang gitukob."
                         },
                         {
                             "verse": 21,
-                            "text": "Ug siya nagtagana sa bahin nga nahauna alang sa iyang kaugalingon, Kay didto usa ka bahin gitagana alang sa magbubuhat sa kasugoan; Ug mianhi siya uban sa mga pangulo sa katawohan; Gibuhat niya ang pagkamatarung ni Jehova, Ug ang iyang tulomanon uban sa Israel."
+                            "text": "Gipili niya alang sa iyang kaugalingon ang labing maayong bahin sa yuta nga gigahin unta alang sa pangulo sa kasundalohan. Miadto siya sa mga pangulo sa katawhan ug inabagan sa Israel gituman niya ang mga sugo ug gimbut-an ang Ginoo.”"
                         },
                         {
                             "verse": 22,
-                            "text": "Ug mahitungod kang Dan miingon siya: Si Dan, anak sa leon: Nga magalukso sukad sa Basan."
+                            "text": "Mahitungod kang Dan, miingon siya: “Si Dan sama sa itoy nga liyon; milukso siya gikan sa Basan.”"
                         },
                         {
                             "verse": 23,
-                            "text": "Ug mahitungod kang Nephtali miingon siya: Oh Nephtali, nabusog sa pagpalangga, Ug puno sa panalangin ni Jehova, Magtag-iya ka sa kasadpan ug habagatan,"
+                            "text": "Mao kini ang iyang gisulti bahin kang Neftali: “Hatagan ka sa tanan mong gikinahanglan; panalanginan ka pag-ayo sa Ginoo ug panag-iyahon mo ang Lanaw sa Galilea ug ang habagatan niini.”"
                         },
                         {
                             "verse": 24,
-                            "text": "Ug mahitungod kang Aser miingon siya: Pagabulahanon si Aser sa mga anak; Himoa nga kahimut-an siya sa iyang mga igsoon. Ug ipahumod niya sa lana ang iyang tiil."
+                            "text": "Kini ang gisulti niya bahin kang Aser: “Panalanginan unta si Aser labaw sa iyang mga igsoon ug panggaon unta siya nila ug ituslob ang iyang mga tiil sa lana."
                         },
                         {
                             "verse": 25,
-                            "text": "Puthaw ug tumbaga ang imong salipdanan; Ug ingon sa imong mga adlaw mamao ang imong kusog."
+                            "text": "Ang mga trangka sa imong ganghaan hinimo unta sa puthaw ug sa bronsi ug magdugang unta ang imong kusog nunot sa imong kagulangon.”"
                         },
                         {
                             "verse": 26,
-                            "text": "Walay lain nga ingon sa Dios, Oh Jeshurun, Nga nagatungtong sa ibabaw sa mga langit alang sa imong tabang, Ug sa iyang pagpadaku sa ibabaw sa mga langit."
+                            "text": "Walay dios sama sa imong Dios nga motadlas sa langit aron pagtabang kanimo, O Israel, kay siya mahimayaon man ug gamhanan."
                         },
                         {
                             "verse": 27,
-                            "text": "Ang walay katapusan nga Dios mao ang imong puloy-anan nga dapit, Ug dinhi sa ilalum ang mga bukton nga walay katapusan Ug siya magasikway sa imong kaaway sa atubangan mo, Ug miingon: Laglagon mo sila,"
+                            "text": "Ang Dios nga walay sinugdan ug kataposan maoy imong puloy-anan; lig-onon ka niya sa iyang gamhanang mga bukton. Gihinginlan niya ang imong mga kaaway, ug nagmando siya nga patyon sila."
                         },
                         {
                             "verse": 28,
-                            "text": "Ug ang Israel magapuyo nga walay kabilinggan, Tuburan ni Jacob lamang. Sa yuta sa trigo ug bag-ong vino Sa pagkamatuod ang iyang mga langit magahulog ug yamog."
+                            "text": "Busa nagpuyo nga layo sa kadaot ang Israel, ug ang mga kaliwat ni Jacob nagpuyo nga malinawon sa yuta nga daghag abot nga kalan-on ug bino, nga gibisibisan sa yamog gikan sa langit."
                         },
                         {
                             "verse": 29,
-                            "text": "Bulahan ikaw, oh Israel. Kinsa ba ang ingon kanimo, katawohan nga giluwas ni Jehova, Ang taming sa imong panabang, Ug ang espada sa imong pagkahalangdon! Ug ang imong mga kaaway magapailalum kanimo. Ug ikaw magatunob sa ilang hataas nga mga dapit."
+                            "text": "Walay sama kanimo ka malipayon, O Israel! Katawhan ka nga giluwas sa Ginoo! Sama sa taming manalipod siya kanimo, ug siya ang hait mong espada. Mahadlok unta kanimo ang imong mga kaaway ug tunobtunoban unta nimo ang ilang mga halaran."
                         }
                     ]
                 },
@@ -24320,51 +24320,51 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug si Moises mitungas gikan sa mga kapatagan sa Moab ngadto sa bukid sa Nebo paingon sa kinatumyan sa Pisga, nga atbang sa Jerico Ug gipakita kaniya ni Jehova ang tibook nga yuta sa Galaad hangtud sa Dan,"
+                            "text": "Gikan sa kapatagan sa Moab mitungas si Moises sa Bukid sa Nebo, sa kinatumyan sa Bukid sa Pisga nga atbang sa Jerico. Unya gipakita siya sa Ginoo sa tibuok yuta—gikan sa Gilead hangtod sa Dan, "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang tibook Nephtali, ug ang yuta sa Ephraim ug sa Manases, ug ang tibook nga yuta sa Juda hangtud sa dagat sa kanawayan."
+                            "text": "ang tibuok Neftali, ang yuta sa Efraim ug Manases; ang tibuok yuta sa Juda ngadto sa Dagat sa Mediteraneo, "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug ang Habagatan, ug ang Kapatagan sa walog sa Jerico, ang lungsod sa mga palma ngadto sa Zoar"
+                            "text": "ang Negeb, ang walog sa Jerico nga mao ang siyudad sa mga palmera hangtod sa Zoar. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug miingon kaniya si Jehova: Kini mao ang yuta nga gipanumpa ko kang Abraham, kang Isaac, ug kang Jacob, sa pag-ingon: Sa imong kaliwat kini igahatag ko. Gipatan-aw ko ikaw sa imong mga mata, apan dili ka makadangat didto."
+                            "text": "Miingon kaniya ang Ginoo, “Mao kini ang yuta nga gisaad ko kang Abraham, kang Isaac ug kang Jacob nga akong ihatag sa ilang mga kaliwat. Gipakita ko kini kanimo apan dili ka makaadto didto.”"
                         },
                         {
                             "verse": 5,
-                            "text": "Busa si Moises, ang alagad ni Jehova namatay didto sa yuta sa Moab, sumala sa pulong ni Jehova."
+                            "text": "Busa namatay didto sa Moab si Moises nga alagad sa Ginoo, sumala gayod sa giingon sa Ginoo ug"
                         },
                         {
                             "verse": 6,
-                            "text": "Ug iyang gilubong siya sa walog sa yuta sa Moab, atbang sa Beth-peor; apan walay tawo nga nanghibalo sa iyang lubnganan hangtud niining adlawa."
+                            "text": "gilubong niya si Moises didto sa usa ka walog sa Moab atbang sa lungsod sa Betpeor. Apan hangtod karon walay nasayod sa tukmang dapit diin siya ilubong."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug si Moises may panuigon nga usa ka gatus ug kaluhaan ka tuig sa pagkamatay niya. Ang iyang mga mata wala gayud mongitngit, ug ang iyang kusog wala usab magluya."
+                            "text": "Sa pagkamatay ni Moises 120 na ang iyang edad. Abtik ug lig-on pa siya ug maayo pag mata. "
                         },
                         {
                             "verse": 8,
-                            "text": "Ug nanagpanghilak ang mga anak sa Israel tungod kang Moises didto sa mga kapatagan sa Moab sulod sa katloan ka adlaw mao nga ang mga adlaw sa paghilak sa pagbangutan kang Moises natapus,"
+                            "text": "Nagbangotan ang mga Israelita alang kaniya didto sa kapatagan sa Moab sulod sa usa ka bulan."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug si Josue, nga anak ni Nun, nahupngan sa espiritu sa kaalam kay si Moises nagtapion sa iyang mga kamot sa ibabaw niya, ug ang mga anak sa Israel nanagpatalinghug kaniya ug nanagbuhat sila ingon sa gisugo ni Jehova kang Moises."
+                            "text": "Si Josue, ang anak ni Nun, napuno sa espiritu sa kaalam kay gitapion man ni Moises ang iyang kamot ngadto kang Josue. Busa mituman ang mga Israelita kang Josue ug gibuhat nila ang mga mando nga gihatag sa Ginoo kanila pinaagi kang Moises."
                         },
                         {
                             "verse": 10,
-                            "text": "Ug wala na gayud ing mitindog nga manalagna sa Israel ingon kang Moises, nga naila ni Jehova sa nawong ug nawong,"
+                            "text": "Sukad masukad walay propeta sa Israel nga sama kang Moises nga suod kaayo sa Ginoo."
                         },
                         {
                             "verse": 11,
-                            "text": "Sa tanan nga mga ilhanan ug mga katingalahan nga gipadala kaniya ni Jehova sa pagbuhat sa yuta sa Egipto, kang Faraon, ug sa tanan niya nga mga sulogoon, ug sa tibook niya nga yuta,"
+                            "text": "Gisugo siya sa Ginoo sa paghimo sa mga timailhan ug mga milagro didto sa Ehipto batok kang Paraon ug sa tanan niyang opisyal ug sa tibuok nasod."
                         },
                         {
                             "verse": 12,
-                            "text": "Ug sa tanang kamot nga gamhanan, ug sa tibook nga dakung kalisang, nga gibuhat ni Moises sa mga mata sa tibook nga Israel."
+                            "text": "Gibuhat usab niya ang nagkalainlaing kahibulongan ug makalilisang nga mga butang pinaagi sa talagsaong gahom nga nasaksihan sa tibuok Israel."
                         }
                     ]
                 }
@@ -73887,67 +73887,67 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ania na ako sa akong tanaman, igsoon ko nga babaye, pangasaw-onon ko: Natigum ko na ang akong mirra uban ang akong balsamo; Nakaon ko na ang akong udlan uban ang akong dugos; Nainum ko na ang akong vino uban ang akong gatas. Pangaon kamo, Oh kahigalaan; Uminum ka, oo, daghana pag-inum, Oh hinigugma."
+                            "text": "Ania ako sa akong tanaman, hinigugma kong pangasaw-onon. Nanguha akog mira ug balsamo; nagkaon akog dugos ug nag-inom akog bino ug gatas. Ang mga Babaye Pangaon ug panginom kamo, kamong mga naghigugmaay, hangtod nga mahubog kamo sa gugma! Ang Babaye"
                         },
                         {
                             "verse": 2,
-                            "text": "Ako nahikatulog, apan ang akong kasingkasing nagmata: Ang nagatoktok mao ang tingog sa akong hinigugma nga nagaingon: Ablihi ako, igsoon ko nga babaye, hinigugma ko, salampati ko, ulay ko; Kay ang akong ulo napuno sa yamog, Ang akong mga buhok sa mga tinulo sa kagabhion."
+                            "text": "Natulog ako apan nagmata ang akong kasingkasing. Nagdamgo ako nga nagtuktok sa pultahan ang akong hinigugma. Ang Lalaki Pasudla ako, minahal ug matahom kong salampati. Nabasa sa yamog ang akong ulo ug nag-umog ang akong buhok. Ang Babaye"
                         },
                         {
                             "verse": 3,
-                            "text": "Nahukas ko ang akong saput; unsaon ko man kini pagsul-ob? Nahugasan ko na ang akong mga tiil: unsaon ko paghugaw niini?"
+                            "text": "Naghubo na ako; isul-ob ko ba pagbalik ang akong bisti? Nanghimasa na ako; maghugawhugaw na ba usab ako?"
                         },
                         {
                             "verse": 4,
-                            "text": "Ang akong hinigugma mikuot sa iyang kamot diha sa buho sa pultahan, Ug natandog ang akong kasingkasing alang kaniya."
+                            "text": "Gibutang sa akong hinigugma ang iyang kamot sa pultahan, naghinamhinam na gayod ako nga anaa na siya sa duol."
                         },
                         {
                             "verse": 5,
-                            "text": "Ako mibangon sa pag-abli alang sa akong hinigugma; Ug ang akong mga kamot nagtulo sa mirra, Ug ang akong mga tudlo sa mirra nga tubig, Ibabaw sa mga kalaptan nga trangka."
+                            "text": "Andam na ako pagpasulod kaniya. Nadigo na sa mira ang akong mga kamot ingon man ang akong mga tudlo sa dihang gikuptan ko ang sira."
                         },
                         {
                             "verse": 6,
-                            "text": "Ako miabli alang sa akong hinigugma; Apan ang akong hinigugma mipahawa na ug milakaw. Ang akong kalag mibiya kanako sa diha nga siya misulti; Gipangita ko siya apan siya wala ko hikaplagi: Gitawag ko siya apan siya wala magtubag kanako."
+                            "text": "Giablihan ko ang pultahan apan wala na diay siya. Buot kong mamati sa iyang mga pulong. Gipangita ko siya apan wala ko hikaplagi; gitawag ko siya apan walay mitubag kanako."
                         },
                         {
                             "verse": 7,
-                            "text": "Ang mga magbalantay nga nanagsuroy sa ciudad nakakita kanako; Ila ako nga gipuspusan, ila ako nga gisamaran: Ang magbalantay sa mga paril nagkuha sa ngo pandong gikan kanako."
+                            "text": "Unya gikatagbo ko ang mga guwardiya nga nagpatrolya sa siyudad; gikulata nila ako ug nabun-og ako; gigisi pa gayod nila ang akong kupo."
                         },
                         {
                             "verse": 8,
-                            "text": "Isugo ko kaninyo, Oh mga anak nga babaye sa Jerusalem, Kong hikaplagan ninyo ang akong hinigugma, Nga inyo siya nga suginlan, nga ako nasakit gumikan sa gugma."
+                            "text": "Saari ako, mga babaye sa Jerusalem, nga kon hikaplagan ninyo ang akong hinigugma, ingna siya nga gihidlaw na ako kaniya."
                         },
                         {
                             "verse": 9,
-                            "text": "Unsay paglabaw sa imong hinigugma kay sa lain nga hinigugma, Oh ikaw nga labing maanyag sa mga kababayen-an? Unsay paglabaw sa imong hinigugma kay sa lain nga hinigugma, Nga nagsugo ka kanamo sa ingon niana?"
+                            "text": "O labing matahom sa mga babaye, unsa bay anaa sa imong hinigugma nga wala sa uban? Labihan ba gayod siya ka guwapo nga pasaaron mo man kami?"
                         },
                         {
                             "verse": 10,
-                            "text": "Ang akong hinigugma maputi ug mapulapula, Ang labaw sa taliwala sa napulo ka libo."
+                            "text": "Guwapo ug kusgan ang hinigugma ko; walay sama kniya sa napulo ka libo."
                         },
                         {
                             "verse": 11,
-                            "text": "Ang iyang ulo ingon sa labing lunsay nga bulawan Ang iyang buhok dasok, ug maitum ingon sa uwak."
+                            "text": "Ang iyang ulo sama sa lunsayng bulawan; kulongon ang iyang buhok ug itom sama sa uwak; mas bililhon pa kini kay sa bulawan."
                         },
                         {
                             "verse": 12,
-                            "text": "Ang iyang mga mata sama sa mga salampati daplin sa mga tubig sa kasapaan, Hinugasan sa gatas, ug maayo nga pagkahaluna."
+                            "text": "Ang iyang mga mata ingon katahom sa salampati diha sa nagdagayday nga sapa, sa mga salampati nga gidigo sa gatas ug nagbarog daplin sa sapa."
                         },
                         {
                             "verse": 13,
-                            "text": "Ang iyang mga aping ingon sa usa ka tugkanan sa igpapahumot, Ingon sa mga pangpang sa mga hilamon nga mahumot; Ang iyang mga ngabil ingon sa mga lirio, nagatulo sa mirra nga tubigon."
+                            "text": "Ang iyang mga aping sama katahom sa usa ka tanaman nga nalukop sa mga tanom nga mahumot. Ang iyang ngabil sama sa mga lirio nga nag-agos sa duga sa mira."
                         },
                         {
                             "verse": 14,
-                            "text": "Ang iyang mga kamot ingon sa mga singsing nga bulawan binatohan ug berilo. Ang iyang lawas ingon ug binuhat sa marfil nga maputi binutangan ug mga zafiro."
+                            "text": "Maayong pagkaporma ang iyang mga kamot, ug may mga singsing siya nga gidayandayanan ug mga batong mahalon. Ang iyang lawas sama sa hamis nga ibori nga gidayandayanan ug mga sapiro."
                         },
                         {
                             "verse": 15,
-                            "text": "Ang iyang mga paa ingon sa mga haligi nga marmol, pinahiluna sa mga ugbokanan nga bulawan nga lunsay: Ang iyang panagway sama sa Libano, maanindot uyamut ingon sa mga cedro."
+                            "text": "Ang iyang mga paa sama sa mga haligi nga alabastro nga gipasukad sa mga tungtonganan nga bulawan. Ambongan siyang tan-awon sama sa Bukid sa Lebanon diin anaa ang maanindot nga mga sipres."
                         },
                         {
                             "verse": 16,
-                            "text": "Ang iyang baba matam-is uyamut; Oo, sa ngatanan hiligugmaon siya. Kini mao ang akong hinigugma, ug mao kini ang akong higala, Oh mga anak nga babaye sa Jerusalem."
+                            "text": "Laming hagkan ang iyang baba, makalipay gayod siya kanako. Ingon niini ang akong hinigugma, mga babaye sa Jerusalem."
                         }
                     ]
                 },
@@ -73956,55 +73956,55 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Diin ba padulong ang imong hinigugma, Oh ikaw labing maanyag sa mga kababayen-an? Hain ba padulong ang imong hinigugma, Aron nga kami mangita kaniya uban kanimo?"
+                            "text": "Labing guwapa sa tanang babaye, hain ba paingon ang imong hinigugma? Tabangan ka namo pagpangita kaniya."
                         },
                         {
                             "verse": 2,
-                            "text": "Ang akong hinigugma miadto sa iyang tanaman, Ngadto sa tugkanan sa mga igpapahumot, Aron sa pagkaon sulod sa mga tanaman, ug sa pagkuha ug mga lirio."
+                            "text": "Ang akong hinigugma miadto sa iyang tanaman, diin atua ang mga kahoyng balsamo. Nagpasibsib siya sa iyang kahayopan didto sa tanaman, ug nanguha siyag lirio."
                         },
                         {
                             "verse": 3,
-                            "text": "Ako iya man sa akong hinigugma, ug ang akong hinigugma ako: Siya nagapasibsib sa iyang panon sa mga carnero diha sa kaliriohan."
+                            "text": "Akoa ang hinigugma ko, ug ako iya usab; gipasibsib niya ang iyang kahayopan diha sa mga lirio."
                         },
                         {
                             "verse": 4,
-                            "text": "Maanyag man ikaw, Oh hinigugma ko, ingon sa Tirsa, Matahum ingon sa Jerusalem, Makalilisang ingon sa usa ka panon sa kasundalohan uban sa mga bandila."
+                            "text": "Hinigugma ko, sama ka katahom sa Jerusalem, sama ka kaanindot sa siyudad sa Tirza, ug sama kamadanihon nga tan-awon niining duha ka siyudad."
                         },
                         {
                             "verse": 5,
-                            "text": "Ilingiw ang imong mga mata gikan kanako, Kay sila nakadaug kanako. Ang imong buhok ingon sa usa ka panon sa mga kanding, Nga nanglubog ubay sa banghilig sa Galaad."
+                            "text": "Ilingiw kanako ang imong mga mata, kay mabihag ako niini. Ang imong buhok nagsayaw sama sa panon sa mga kanding, nga nagluksolukso paglugsong sa kabungtoran sa Gilead."
                         },
                         {
                             "verse": 6,
-                            "text": "Ang imong mga ngipon sama sa usa ka panon sa mga carnero nga baye, Nga nanungas gikan sa hulogasan; Nga ang tanan nanganak ug kaluha, Ug walay namatyan kanila."
+                            "text": "Ang imong ngipon sama kaputi sa panon sa mga karnero nga bag-o pang nadigo. Walay usa kanila nga nakulang; silang tanan maayo gayong pagkaparis."
                         },
                         {
                             "verse": 7,
-                            "text": "Ang imong mga tampihak sama sa usa ka book nga granada. Sa luyo sa imong pandong."
+                            "text": "Ang imong mga aping daw duha ka pikas sa prutas nga granada luyo sa imong pandong."
                         },
                         {
                             "verse": 8,
-                            "text": "Anaay kan-uman ka reina, ug kawaloan ka mga puyo-puyo, Ug mga ulay nga dili maisip."
+                            "text": "Makabaton ang hari ug 60 ka rayna, ug 80 ka puyopuyo ug mga babayeng batan-on nga dili maihap."
                         },
                         {
                             "verse": 9,
-                            "text": "Ang akong salampati, ang akong ulay, usa lamang; Siya lamang usa ra gikan sa iyang inahan; Siya mao ang pinili niya niadtong nanganak kaniya. Ang mga anak nga babaye nakakita kaniya, ug nagtawag kaniya nga bulahan; Oo, ang mga reina ug ang mga puyo-puyo, ug sila nanagdayeg kaniya."
+                            "text": "Apan usa ray akong hinigugma ug sama siya katahom sa salampati. Bugtong siyang anak ug maoy pinangga sa iyang inahan. Mitan-aw kaniya ang tanang babaye ug midayeg kaniya; giawitan siyag mga pagdayeg sa mga rayna ug mga puyopuyo."
                         },
                         {
                             "verse": 10,
-                            "text": "Kinsa ba kana siya nga nagalantaw sama sa kabuntagon Matahum ingon sa bulan, Matin-aw ingon sa adlaw, Makalilisang ingon sa usa ka panon sa kasundalohan inubanan sa bandila."
+                            "text": "Kinsa ba kining samag panagway sa kaadlawon? Sama siya katahom, kasanag ug kahayag sa adlaw o sa bulan."
                         },
                         {
                             "verse": 11,
-                            "text": "Ako miadto sa tanaman sa mga almendras, Sa pagtan-aw sa mga tanum sa walog, Sa pagtan-aw kong namulak na ba ang parras, ug namutot na ba ang granada."
+                            "text": "Milugsong ako agi sa mga kahoyng almendra aron pagtan-aw sa mga linghod nga tanom didto sa walog, ug sa bag-ong dahon sa paras ug sa mga bulak sa mga kahoyng granada."
                         },
                         {
                             "verse": 12,
-                            "text": "Sa wala ko pa hibaloi, ang akong kalag mipahaluna kanako Sa taliwala sa mga carro sa akong harianong lungsod."
+                            "text": "Nagkurog ako; gidasig mo ako sa paghigugma sama sa kutsero nga nagmaniho sa karwahi paingon sa gubat."
                         },
                         {
                             "verse": 13,
-                            "text": "Pauli, pauli, Oh Sulamitanhon; Pauli, pauli, aron kami makasud-ong kanimo. Ngano nga motan-aw kamo sa Sulamitanhon, Ingon sa sayaw sa Mahanaim?"
+                            "text": "Sayaw, sayaw, babaye sa Sulam. Pasud-onga kami kanimo samtang ikaw mosayaw. Nganong gusto man kamo nga mosud-ong kanako samtang mosayaw ako taliwala sa laray sa mga nanan-aw?"
                         }
                     ]
                 },
@@ -74013,55 +74013,55 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Pagkatahum sa imong mga tiil diha sa mga sapin, Oh anak nga babaye sa usa ka principe! Ang imong mga malison nga paa sama sa mga mutya, Ang buhat sa mga kamot sa usa ka batid nga mamumuhat."
+                            "text": "Matahom ka nga pagkababaye! Pagkatahom sa imong mga tiil nga sinandalyasan; ang porma sa imong mga paa sama sa linalik sa usa ka magkukulit."
                         },
                         {
                             "verse": 2,
-                            "text": "Ang imong lawas sama sa usa ka malingin nga copa, Diin wala makulang ang vino nga sinaktan: Ang imong hawak sama sa usa ka pundok nga trigo. Nga binaliksan ug mga lirio"
+                            "text": "Ang imong pusod sama sa panaksan nga kanunay may sulod nga mahumot nga bino. Ang imong hawak daw binugkos nga trigo nga gilikosan ug mga lirio."
                         },
                         {
                             "verse": 3,
-                            "text": "Ang imong duha ka mga dughan sama sa duha ka mga nati nga lagsaw, Nga kaluha sa usa ka lagsaw nga baye."
+                            "text": "Sama sa kaluhang lagsaw ang mga bugdo sa imong dughan."
                         },
                         {
                             "verse": 4,
-                            "text": "Ang imong liog sama sa usa ka torre nga marfil; Ang imong mga mata sama sa mga danawan sa Hesbon, Tupad sa ganghaan sa Batrabbim; Ang imong ilong sama sa torre sa Libano Nga nagalantaw ngadto sa Damasco."
+                            "text": "Ang imong liog sama sa tore nga ibori. Ang imong mga mata sama sa mga lim-aw sa siyudad sa Hesbon duol sa ganghaan nianang dakong siyudad. Sama katahom ang imong ilong sa tore sa Lebanon nga nag-atubang sa Damasco."
                         },
                         {
                             "verse": 5,
-                            "text": "Ang imong ulo sa ibabaw nimo sama sa Carmelo, Ug ang buhok sa imong ulo ingon sa purpura; Ang hari nahimong binihag sa mga kulong niana."
+                            "text": "Ang imong ulo sama sa Bukid sa Carmel. Ang buhok mong sinapid sama katahom sa labing pinong panapton nga bulok-tapol; ang katahom niini makabihag sa usa ka hari."
                         },
                         {
                             "verse": 6,
-                            "text": "Pagkamaanyag ug pagkamatam-is nimo, Oh hinigugma, alang sa kalipayan?"
+                            "text": "Pagkatahom mo, hinigugma ko; pagkatam-is sa kalipay nga imong gihatag kanako."
                         },
                         {
                             "verse": 7,
-                            "text": "Kining imong barug sama sa usa ka kahoy nga palma, Ug ang imong mga dughan sama sa iyang mga bulig."
+                            "text": "Sama ka kaanindot sa palmera ug ang imong dughan sama sa pungpong sa mga bunga niini."
                         },
                         {
                             "verse": 8,
-                            "text": "Ako miingon: Mosaka ako sa kahoy nga palma, Mokupot ako sa mga sanga niana: Himoa ang imong mga dughan maingon sa mga pongpong sa parras, Ug ang kahumot sa imong gininhawa sama sa mga mansanas."
+                            "text": "Sak-on ko ang palmera ug pupuon ko ang bunga niini. Alang kanako ang imong mga suso sama sa mga pungpong sa ubas, ug ang imong gininhawa sama kahumot sa mansanas;"
                         },
                         {
                             "verse": 9,
-                            "text": "Ug ang imong baba sama sa vino nga labing maayo, Nga nagadaligdig pag-ayo alang sa akong hinigugma, Nagaagay-ay sa mga ngabil niadtong nanagkatulog."
+                            "text": "ang imong mga halok sama kalami sa labing maayong bino. Ang Babaye Busa padagaydaya ang bino sa mga ngabil ug ngipon sa akong hinigugma."
                         },
                         {
                             "verse": 10,
-                            "text": "Ako iya man sa akong hinigugma; Ug ang iyang tinguha paingon kanako."
+                            "text": "Iya ako sa akong hinigugma ug gimahal niya ako."
                         },
                         {
                             "verse": 11,
-                            "text": "Umari ka, hinigugma ko, mangadto kita sa uma; Mamuyo kita sa kabalangayan."
+                            "text": "Kuyog kanako, hinigugma ko, manuroy kita sa kaumahan ug mangatulog didto sa kaparasan."
                         },
                         {
                             "verse": 12,
-                            "text": "Sumayo kita pagbangon ngadto sa kaparrasan; Tan-awon ta kong namutot na ba ang parras, Ug ang iyang piyoos mibuklad, Ug ang mga granada namulak: Didto ihatag ko kanimo ang akong gugma."
+                            "text": "Mamangon kita pagsayo ug manan-aw sa mga paras kon nagsugod na ba kinig panalingsing, ug namukhad na ba ang mga bulak ug namulak na ba ang mga granada. Didto itugyan ko kanimo ang akong gugma."
                         },
                         {
                             "verse": 13,
-                            "text": "Ang mga mandragora nagahatag sa ilang kahumot, Ug sa atong mga pultahan anaa ang tanang nagakalainlaing bililhong bunga, bag-o ug daan, Nga akong gidapa alang kanimo, Oh hinigugma ko."
+                            "text": "Mahanggap mo ang alimyon sa mga mandragora, ug ang tanang maanindot nga prutas anaa sa atong pultahan. Minahal ko, gitagana ko kanimo ang daan ug ang bag-ong kalipay."
                         }
                     ]
                 },
@@ -74070,59 +74070,59 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Oh nga ikaw unta mahisama sa akong igsoon nga lalake, Nga nagsuso sa dughan sa akong inahan? Sa diha nga hikit-an ko ikaw sa gawas, halokan ko ikaw; Oo, ug walay bisan kinsa mobiaybiay kanako."
+                            "text": "Maayo pa unta kon ikaw akong igsoong lalaki, ug ang inahan ko maoy nagmatuto kanimo. Sa ingon, kon hitagboan ko ikaw sa dalan, kahagkan ko ikaw ug walay tawong manumbaling."
                         },
                         {
                             "verse": 2,
-                            "text": "Mandoan ko ikaw, ug dad-on ko ikaw sa balay sa akong inahan, Nga magatudlo kanako; Paimnon ko ikaw sa sinimbugan nga vino, Gikan sa duga sa akong granada."
+                            "text": "Dad-on ko ikaw sa balay sa akong inahan, diin makatudlo ka kanako sa gugma; hatagan ko ikaw ug mahumot nga bino nga hinimo gikan sa kahoyng granada."
                         },
                         {
                             "verse": 3,
-                            "text": "Ang iyang kamot nga wala paunlanan sa akong ulo, Ug ang iyang kamot nga too magagakos kanako."
+                            "text": "Kaunlanan ko ang wala mong kamot, samtang maghapohap kanako ang tuo mong kamot."
                         },
                         {
                             "verse": 4,
-                            "text": "Isugo ko kaninyo, Oh mga anak nga babaye sa Jerusalem, Aron dili ninyo lihokon ni pukawon ang akong hinigugma, Hangtud nga siya mahimuot."
+                            "text": "Saari ako, mga babaye sa Jerusalem, nga dili ninyo tugawon ang among paghigugmaay."
                         },
                         {
                             "verse": 5,
-                            "text": "Kinsa ba kini nga miabut gikan sa kamingawan, Nga nagapauraray sa iyang hinigugma? Sa ilalum sa kahoy nga mansana gipukaw ko ikaw: Didto ang imong inahan gisakitan sa pag-anak kanimo, Didto nagpahimugso siya kanimo, ang nanganak kanimo,"
+                            "text": "Kinsa ba kining nagpaingon nganhi gikan sa kamingawan, nga nakig-agbay sa iyang hinigugma?"
                         },
                         {
                             "verse": 6,
-                            "text": "Himoa ako nga ingon sa usa ka patik sa imong kasingkasing; Ingon sa usa ka patik sa imong bukton: Kay ang gugma kusganon sama sa kamatayon; Ang pangabugho mabangis ingon sa Sheol; Ang mga pangidlap niana mao gayud ang pangidlap sa kalayo, Ang siga gayud ni Jehova."
+                            "text": "Ako ra gayod ang higugmaa; ako ra gayoy gaksa. Ang gugma sama kagamhanan sa kamatayon, ug ang kainit sa maong pagbati sama sa lubnganan. Mosilaob kini daw kalayo ug ang kapintas niini mougdaw sa bisan unsa."
                         },
                         {
                             "verse": 7,
-                            "text": "Ang daghang mga tubig dili makapalong sa gugma, Ni ang mga baha makalumos niini; Kong ang usa ka tawo magahatag sa tanan niyang mga butang sa iyang balay alang sa gugma, Siya pagatamayon gayud."
+                            "text": "Dili kini mapalong bisag unsa kadaghan sa tubig nga ibubo niini, bisan pag bul-og sa baha. Ug kon may tawong mopalit ug gugma pinaagi sa salapi, mga yam-id lamang ang iyang madawat."
                         },
                         {
                             "verse": 8,
-                            "text": "Kami adunay usa ka igsoong babaye nga diyutay, Ug siya wala pay mga dughan: Unsa ang among buhaton alang sa among igsoon nga babaye Sa adlaw nga siya pagasultihan?"
+                            "text": "May igsoon kaming babaye nga bata pa ug gamay pa siyag suso. Unsa may among buhaton alang kaniya kon may batan-on nga mangulitawo kaniya?"
                         },
                         {
                             "verse": 9,
-                            "text": "Kong siya usa man ka paril, Tukoron namo sa ibabaw niya ang usa ka diyutay nga torre nga salapi: Kong siya usa man ka ganghaan, Among salipdan siya sa mga tabla nga cedro."
+                            "text": "Kon kota pa siya, panalipdan namo siyag tore nga plata; kon ganghaan pa siya, panalipdan namo siyag tabla nga sidro."
                         },
                         {
                             "verse": 10,
-                            "text": "Ako maoy usa ka paril, ug ang akong mga dughan sama sa mga torre niana: Unya ako sa iyang mata ingon sa usa nga nakakaplag ug pakigdait."
+                            "text": "Kota ako ug ang akong mga suso maoy tore niini. Unya uban sa akong hinigugma nakaplagan ko ang kalipay ug kalinaw."
                         },
                         {
                             "verse": 11,
-                            "text": "Si Salomon may usa ka parrasan sa Baal-hamon; Ang parrasan iyang gibilin sa mga magbalantay, Ang tagsatagsa kinahanglan maghatag alang sa bunga niana, ug usa ka libo ka book nga salapi."
+                            "text": "May parasan si Solomon didto sa Baal Hamon. Gipaatiman niya kini sa mga mag-uuma; ang matag usa kanila nag-abang niinig usa ka libo ka salapi."
                         },
                         {
                             "verse": 12,
-                            "text": "Ang akong parrasan, nga ako gayud, ania sa akong atubangan: Ikaw, Oh Salomon, magadawat ug usa ka libo, Ug kadtong magbalantay sa mga bunga niana ila ang duha ka gatus."
+                            "text": "Alang kang Solomon ang usa ka libo ka salapi ug ang mga mag-uuma makabahin ug duha ka gatos. May kaugalingon akong parasan!"
                         },
                         {
                             "verse": 13,
-                            "text": "Ikaw nga nagapuyo sa mga tanaman, Ang mga kauban nagapamati sa imong tingog: Padungga ako niana."
+                            "text": "Hinigugma ko, namati kanato ang akong mga kauban. Gikan sa tanaman, padungga ako sa imong tingog."
                         },
                         {
                             "verse": 14,
-                            "text": "Pagdali, hinigugma ko, Ug magpakasama ka sa usa ka lagsaw nga lake kun sa usa ka batan-ong osa Sa ibabaw sa kabukiran sa igpapahumot."
+                            "text": "Duol kanako, hinigugma ko, duol kanako sama sa lagsaw nga anaa sa kabukiran diin nanubo ang mga tanom nga mahumot."
                         }
                     ]
                 }
@@ -74136,127 +74136,127 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang panan-awon ni Isaias ang anak nga lalake ni Amoz, nga iyang nakita mahatungod sa Juda ug sa Jerusalem, sa mga adlaw ni Uzzias, Jotham, Achaz, ug Ezechias, nga mga hari sa Juda."
+                            "text": "Mao kini ang mensahe nga gipadayag sa Dios kang Isaias nga anak ni Amos bahin sa Juda ug sa Jerusalem sa mga panahon nila ni Uzias, ni Jotam, ni Ahaz ug ni Ezequias nga mga hari sa Juda."
                         },
                         {
                             "verse": 2,
-                            "text": "Pamati, Oh mga langit, ug patalinghugi, Oh yuta; kay si Jehova nagsulti; Ako nag-alima ug nagmatuto sa mga anak, ug sila nanukol batok kanako."
+                            "text": "Pamati, O kalangitan, ug patalinghog, O yuta, kay nagsulti ang Ginoo, “Giatiman ug gipatubo ko ang akong mga anak, apan misukol sila kanako."
                         },
                         {
                             "verse": 3,
-                            "text": "Ang vaca nakaila sa iyang tag-iya, ug ang asno sa pasungan sa iyang agalon; apan ang Israel wala makaila sa iyang Ginoo, ang akong katawohan walay pagtulotimbang."
+                            "text": "Ang baka nakaila sa iyang tag-iya ug ang asno nahibalo sa pasungan sa iyang agalon, apan ang Israel nga akong katawhan wala makasabot ug wala makaila kanako.”"
                         },
                         {
                             "verse": 4,
-                            "text": "Ah, makasasala nga nasud, usa ka katawohan nga natugob sa kasal-anan, usa ka kaliwat sa mga mamumuhat sa dautan, mga anak nga nagapatigayon sa kangil-ad! sila mingbiya kang Jehova, gitamay nila ang Balaan sa Israel, sila nanagpahalayo ug nanagpanibug."
+                            "text": "Alaot ka, O nasod nga makasasala, katawhan nga malapason kaayo ug daotan, kaliwat nga mga tikasan! Gisalikway ninyo ang Ginoo, ang balaang Dios sa Israel, ug mitalikod kamo kaniya."
                         },
                         {
                             "verse": 5,
-                            "text": "Ngano ba gayud nga buot kamo nga pagahampakon pa aron lamang gayud magalabi kamo sa pagsukol? ang tibook nga ulo nagamasakiton, ug ang tibook nga kasingkasing nagakaluya."
+                            "text": "Nganong magpadayon man kamo pagsukol kanako? Gusto ba kamo nga dugangan ang inyong silot? Israel, nalukop na ug samad ang imong ulo, ug ang imong kasingkasing lakip ang imong hunahuna luya na kaayo."
                         },
                         {
                             "verse": 6,
-                            "text": "Gikan sa lapalapa sa tiil bisan hangtud sa ulo walay maayo diha niana: apan mga samad, ug mga pangos, ug bag-ong mga labod: kini wala pa mangaalim, ni mabaatan, ni mahidhiran sa lana."
+                            "text": "Gikan sa lapalapa ngadto sa ulo, wala gayoy gisayloan, pulos pangos, bun-og ug nagdugo nga mga samad; wala kini hugasi, o tambali, o hidhirig lana."
                         },
                         {
                             "verse": 7,
-                            "text": "Ang inyong yuta nahimong kamingawan; ang inyong mga kalungsoran nasunog sa kalayo: sa inyong kaumahan, ang mga dumuloong naglamoy niana sa atubangan ninyo, ug nahimong kamingawan ingon nga linumpag sa mga lumalangyaw."
+                            "text": "Biniyaan na ang inyong nasod, gisunog ang inyong mga siyudad samtang kamo nagtan-aw; giamong-amongan sa mga langyaw ang inyong kaumahan ug nangagun-ob ang tanan."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug ang anak nga babaye sa Sion nahibilin sama sa usa ka payag sa sulod sa usa ka parrasan, sama sa usa ka payag sa usa ka tanaman sa mga pepino, ingon nga usa ka ciudad nga linibutan."
+                            "text": "Ang Jerusalem mao na lamang ang nahibilin, sama ka huyang sa usa ka payag-bantayanan diha sa kaparasan, sama sa silonganan diha sa tanaman sa mga pipino, sama sa siyudad nga gilibotan sa mga kaaway."
                         },
                         {
                             "verse": 9,
-                            "text": "Kong wala pa si Jehova sa mga panon magbilin alang kanato ug madiyutay nga salin, mahimo unta kita nga sama sa Sodoma. mahimo unta kita nga sama sa Gomorra."
+                            "text": "Kon ang Ginoo nga Labing Gamhanan wala pa magbilin ug pipila kanato, sama na unta kita sa Sodoma ug Gomora."
                         },
                         {
                             "verse": 10,
-                            "text": "Pamatia ninyo ang pulong ni Jehova, kamo nga mga punoan sa Sodoma; patalinghugi ninyo ang Kasugoan sa among Dios, kamo nga katawohan sa Gomorra."
+                            "text": "Kamong mga pangulo ug katawhan sa Jerusalem nga walay kalainan sa mga taga-Sodoma ug Gomora: Pamatia ninyo ang pulong sa Ginoo ug patalinghogi ang iyang mga gitudlo kaninyo."
                         },
                         {
                             "verse": 11,
-                            "text": "Magaunsa man kanako ang gidaghanon sa inyong mga paghalad? miingon si Jehova: nakabaton na ako ug igo sa mga halad-nga-sinunog sa mga carnero, ug sa tambok sa linalugan nga mga mananap; ug ako dili mahimuot sa dugo sa mga lakeng vaca, kun sa mga nating carnero, kun sa mga kanding nga lake."
+                            "text": "Nag-ingon ang Ginoo, “Walay bili alang kanako ang daghan ninyong mga halad; gipul-an na ako sa mga halad nga mga karnero nga inyong gisunog ug sa mga tambok sa mga mananap; wala ako mahimuot sa dugo sa torong baka o sa nating karnero o sa mga laking kanding."
                         },
                         {
                             "verse": 12,
-                            "text": "Sa diha nga kamo manganhi aron sa pagpakita sa atubangan ko, kinsay nagkinahanglan niini gikan sa inyong mga kamot, aron tumban ang akong mga hawanan?"
+                            "text": "Kinsay nagsugo kaninyo sa pagdala niining tanan inigsimba ninyo kanako? Kinsay nagsugo kaninyo sa pagtunobtunob sa hawanan sa akong Templo!"
                         },
                         {
                             "verse": 13,
-                            "text": "Ayaw na pagdala ug mga halad nga kawang lamang; ang incienso maoy usa ka dulumtanan alang kanako: ang bag-ong bulan ug ang adlaw nga igpapahulay, ang pagtawag sa mga pagkatigum, ako dili na makaantus uban sa kasal-anan ug sa mga maligdong nga pagtigum."
+                            "text": "Ayaw na kamo pagdala sa mga halad nga walay kapuslanan. Wala akoy gusto sa insenso; dili na ako makaagwanta sa inyong pagsaulog sa Bag-ong Bulan ug sa Adlawng Igpapahulay tungod sa inyong mga sala ug sa inyong pagsimba."
                         },
                         {
                             "verse": 14,
-                            "text": "Ang inyong bag-ong mga bulan ug ang inyong tinudlo nga mga fiesta gikaligutgutan sa akong kalag; kana sila usa ka kasamok alang kanako; ako gikapuyan na sa pagdala kanila."
+                            "text": "Ang inyong mga kasaulogan sa Bag-ong Bulan ug ang naandan nga mga kasaulogan ngil-ad na alang kanako; gisamokan ako ug gipul-an na niini."
                         },
                         {
                             "verse": 15,
-                            "text": "Sa diha nga bayawon ninyo ang inyong mga kamot, tagoon ko ang akong mga mata gikan kaninyo; oo, sa diha nga kamo magahimo ug daghang mga pag-ampo, ako dili mani-mati; ang inyong mga kamot nangapuno sa dugo."
+                            "text": "“Sa dihang ibayaw ninyo ang inyong mga kamot, dili ako motan-aw kaninyo; dili ako mamati bisan pag kapila kamo mag-ampo, kay naduhig sa dugo ang inyong mga kamot."
                         },
                         {
                             "verse": 16,
-                            "text": "Panghunaw kamo, panglinis kamo; ibutang sa halayo ang inyong dautang mga buhat gikan sa atubangan sa akong mga mata; hunong na sa pagbuhat sa dautan;"
+                            "text": "Panghugas kamo ug hinloi ninyo ang inyong kaugalingon; hunong na sa pagbuhat ug daotan sa akong atubangan,"
                         },
                         {
                             "verse": 17,
-                            "text": "Pagtoon sa pagbuhat sa maayo; pangitaa ang justicia, tabangi ang dinaugdaug, hukmi sa matarung ang mga ilo, labani ang balo nga babaye."
+                            "text": "ug buhata ang maayo; patunhaya ang hustisya ug tabangi ang gidaugdaog; panalipdi ang mga ilo ug labani ang mga biyuda.”"
                         },
                         {
                             "verse": 18,
-                            "text": "Umari kamo karon, ug usahan ta paghusay, nag-ingon si Jehova; bisan pa ang inyong mga sala mapula, sila pagapution ingon sa nieve; bisan pa sila lubos mapula, sila mahimong sama sa maputing balhibo sa carnero."
+                            "text": "Nag-ingon ang Ginoo, “Ngari kamo ug maghusay kita. Bisag unsa ka pula ang inyong sala, maputi kini kaayo; bisan pa kinig dagtom-pula, maputi kini sama sa balhibo sa karnero."
                         },
                         {
                             "verse": 19,
-                            "text": "Kong kamo mobuot ug magmasinugtanon, ang maayo sa yuta inyong pagakan-on:"
+                            "text": "Kon andam kamong magmasinugtanon, makakaon kamo sa mga maayong abot sa yuta;"
                         },
                         {
                             "verse": 20,
-                            "text": "Apan kong kamo magdumili ug mosukol, lamyon kamo pinaagi sa espada; kay ang baba ni Jehova namulong niini."
+                            "text": "apan kon mosukol kamo ug dili mopatuo, patyon kamo pinaagi sa espada. Ako, ang Ginoo, maoy nagsulti niini.”"
                         },
                         {
                             "verse": 21,
-                            "text": "Naunsa ang ciudad nga matinumanon nahimo man nga bigaon! siya nga kaniadto napuno sa justicia! ang pagkamatarung maoy nagpuyo diha kaniya, apan karon ang mga mamumuno na."
+                            "text": "Ang siyudad nga kanhi buotan sama na sa usa ka babayeng nagbaligya sa iyang dungog; kaniadto diha kaniya ang hustisya ug nagpuyo kaniya ang pagkamatarong apan karon mga mamumuno na."
                         },
                         {
                             "verse": 22,
-                            "text": "Ang imong salapi nahimong taya, ang imong vino sinimbugan ug tubig."
+                            "text": "Kaniadto sama ka sa plata apan karon wala ka nay kapuslanan. Kaniadto sama ka sa maayong bino apan karon sinambogan nag tubig."
                         },
                         {
                             "verse": 23,
-                            "text": "Ang imong mga principe mga masinuklanon, ug mga kauban sa mga kawatan; ang tagsatagsa nahigugma sa mga hiphip, ug nagatinguha sa mga balus: wala nila pagahatagi ug justicia ang mga ilo, ni ang mga sumbong sa balo nga babaye modangat kanila."
+                            "text": "Masupilon ang imong mga pangulo ug kaabin sa mga kawatan. Gusto silag suborno ug nangitag mga hiphip. Wala nila panalipdi ang mga ilo ug wala nila tabangi ang mga biyuda."
                         },
                         {
                             "verse": 24,
-                            "text": "Tungod niini nagaingon ang Ginoo: Si Jehova sa mga panon, ang Bugtong nga Makagagahum sa Israel: Ah, magapakighusay ako sa akong mga kabatok, ug manimalus ako sa akong mga kaaway;"
+                            "text": "Busa ang Ginoo nga Labing Gamhanan, ang Gamhanang Dios sa Israel, miingon, “Ipahungaw ko ang akong kasuko nganha kaninyo nga akong mga kaaway ug panimaslan ko gayod kamo."
                         },
                         {
                             "verse": 25,
-                            "text": "Ug akong ibalik ang akong kamot diha kanimo, ug pagahinloan ko pag-ayo ang imong taya, ug pagahugasan ko ang tanan mong tambakolong;"
+                            "text": "Kastigohon ko kamo ug himoong lunsay ug puro sama sa pagtunaw sa plata aron mawagtang ang tanan ninyong hugaw ug sagol."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug igauli ko ang imong mga maghuhukom sama sa una, ug ang imong mga magtatambag ingon sa sinugdan: sa tapus niana ikaw pagatawgon, Ang ciudad sa pagkamatarung, usa ka lungsod nga matinumanon."
+                            "text": "Ug sama kaniadto, hatagan ko kamog matarong nga mga maghuhukom ug mga magtatambag. Unya tawgon ka na usab nga matarong ug matinud-anon nga siyudad.”"
                         },
                         {
                             "verse": 27,
-                            "text": "Ang Sion pagatubson uban sa justicia, ug ang iyang mga kinabig uban sa pagkamatarung."
+                            "text": "Kay matarong man ang Ginoo; luwason niya ang Sion ug ang tanan nga maghinulsol."
                         },
                         {
                             "verse": 28,
-                            "text": "Apan ang paglaglag sa mga malinapason ug sa mga makasasala magakauban, ug kadto sila nga managbiya kang Jehova pagaut-uton."
+                            "text": "Apan pamatyon sa Ginoo ang mga masupilon ug makasasala ug puohon ang motalikod kaniya."
                         },
                         {
                             "verse": 29,
-                            "text": "Kay sila mangaulaw sa mga kahoy nga encina nga inyong gitinguha, ug mangalibog kamo tungod sa mga tanaman nga inyong ginapili."
+                            "text": "Mangaulaw unya kamo tungod sa mga kahoy nga inyong gipakabalaan ug manlipaghong tungod sa mga sagradong tanaman nga inyong gipalabi."
                         },
                         {
                             "verse": 30,
-                            "text": "Kay kamo mahasama sa usa ka kahoy nga encina kinsang dahon malaya, ug sama sa usa ka tanaman nga walay tubig."
+                            "text": "Kay mahisama man kamo sa kahoy kansang mga dahon nangalaya ug sa usa ka tanaman nga wala bisibisi."
                         },
                         {
                             "verse": 31,
-                            "text": "Ug ang kusgan mahasama sa gumon, ug ang iyang buhat sama sa usa ka aligato, ug silang duha mangasunog, ug walay makapalong kanila."
+                            "text": "Ug ang mga kusgan mahisama sa kahoyng gabok nga dali kaayong masunog; malaglag sila sa kaugalingon nilang binuhatan ug walay makapahunong niini."
                         }
                     ]
                 },
@@ -74265,91 +74265,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang pulong nga nakita ni Isaias anak nga lalake ni Amoz, mahatungod sa Juda ug Jerusalem."
+                            "text": "Kini mao ang mensahe nga gihatag sa Dios kang Isaias nga anak ni Amos bahin sa Juda ug sa Jerusalem:"
                         },
                         {
                             "verse": 2,
-                            "text": "Ug mahinabo sa ulahing mga adlaw nga ang bukid sa balay ni Jehova pagatukoron sa ibabaw sa tumoy sa kabukiran, ug igatuboy ibabaw sa mga bungtod; ug ang tanang mga nasud magaganayan ngadto kaniya."
+                            "text": "Sa umaabot nga mga adlaw ang bukid diin nahimutang ang Templo mahimong labing habog sa tanan; molabaw kini sa kabungtoran. Daghang kanasoran ang mag-ambahan sa pag-adto didto"
                         },
                         {
                             "verse": 3,
-                            "text": "Ug ang daghang mga katawohan mangadto ug manag-ingon: Umari kamo, ug manungas kita sa bukid ni Jehova, ngadto sa balay sa Dios ni Jacob; ug kita pagatudloan niya sa iyang mga dalan, ug manlakat kita sa iyang mga alagianan: kay gikan sa Sion mogula ang kasugoan, ug ang pulong ni Jehova gikan sa Jerusalem."
+                            "text": "ug ang ilang katawhan moingon, “Manungas kita sa bukid sa Ginoo, ngadto sa Templo sa Dios ni Jacob, aron tultolan kita niya sa iyang mga dalan ug maglakat kita subay sa iyang agianan.” Kay gikan sa Sion mogula ang balaod ug sa Jerusalem makigsulti ang Ginoo ngadto sa iyang katawhan."
                         },
                         {
                             "verse": 4,
-                            "text": "Ug siya magahukom sa taliwala sa mga nasud, ug magapahimangno sa daghang mga katawohan; ug ang ilang mga espada, ilang himoon nga mga punta sa daro, ug ang ilang mga bangkaw himoon nga mga galab; usa ka nasud dili mobakyaw sa espada batok sa usa nasud, ug dili na gayud makakat-on sila mahitungod sa gubat."
+                            "text": "Husayon niya ang kanasoran ug hukman ang daghang katawhan; ang ilang mga espada himoon nilang punta sa daro ug himoong galab ang ilang mga bangkaw; unya dili na mag-away ang kanasoran o magbansay pa alang sa pagpakiggubat."
                         },
                         {
                             "verse": 5,
-                            "text": "Oh balay ni Jacob, umari kamo, ug manlakaw kita sa kahayag ni Jehova."
+                            "text": "O mga kaliwat ni Jacob, ngari, manlakaw kita subay sa kahayag sa Ginoo."
                         },
                         {
                             "verse": 6,
-                            "text": "Kay imong gibiyaan ang imong katawohan ang balay ni Jacob, kay napuno sila sa mga balasan nga gikan sa silangan, ug mga molomanalagna sama sa Filistehanon ug magahiusa uban sa mga anak sa mga lumalangyaw."
+                            "text": "O Dios, gisalikway mo ang imong katawhan, ang mga kaliwat ni Jacob, kay daghan na ang mga naghimog salamangka gikan sa sidlakan ug sa Filistia, ug gisunod nila ang mga buhat sa mga langyaw."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug ang ilang yuta napuno sa salapi ug bulawan, ni may katapusan ang ilang mga bahandi; ang ilang yuta usab napuno sa mga kabayo, ni may katapusan ang ilang mga carro."
+                            "text": "Daghang plata ug bulawan ang ilang yuta ug naghingapin ang ilang bahandi; daghan silag mga kabayo ug dili maihap ang ilang mga karwahi."
                         },
                         {
                             "verse": 8,
-                            "text": "Ang ilang yuta usab napuno sa mga larawan; ilang ginasimba ang buhat sa ilang kaugalingong mga kamot, kadtong hinimo sa kaugalingon nilang mga tudlo."
+                            "text": "Nalukop sa mga diosdios ang ilang yuta, ug nagsimba sila sa mga binuhat sa ilang mga kamot."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug ang tawo nga dautan ginayukboan, ug ang tawo nga daku ginapaubos: sa ingon niana ayaw sila pagpasayloa."
+                            "text": "Silang tanan maulawan gayod; ayaw sila pasayloa, O Ginoo."
                         },
                         {
                             "verse": 10,
-                            "text": "Sumulod ka sa bato, ug tumago ka diha sa abug, gikan sa kalisang kang Jehova, ug gikan sa himaya sa iyang pagkahalangdon."
+                            "text": "Pasalipod sa mga bato ug tago sa yuta aron paglikay sa kasuko sa Ginoo, sa iyang gahom ug sa iyang himaya."
                         },
                         {
                             "verse": 11,
-                            "text": "Ang mapahitas-ong panan-aw sa tawo igapaubos, ug ang kagarbo sa katawohan igapaubos, ug si Jehova lamang maoy igatuboy niadtong adlawa."
+                            "text": "Niadto unyang adlawa, ang garbo ug ang pagkamapahitas-on sa tawo putlon, ug ang Ginoo lamang maoy pasidunggan."
                         },
                         {
                             "verse": 12,
-                            "text": "Kay may adlaw ra ni Jehova sa mga panon batok sa tanang palabilabihon ug mapahitas-on, batok sa tanang tinuboy; ug kini pagapaubson;"
+                            "text": "Kay may adlaw nga gitagana ang Ginoo nga Labing Gamhanan aron pagsilot sa tanang mga mapahitas-on, sa tanang gamhanan ug halangdon."
                         },
                         {
                             "verse": 13,
-                            "text": "Ug batok sa tanang mga cedro sa Libano, nga hatag-as ug malabong, ug batok sa tanang mga kahoyng encina sa Basan,"
+                            "text": "Putlon niya ang tag-as nga mga sidro sa Lebanon ug ang tanang tugas sa Basan,"
                         },
                         {
                             "verse": 14,
-                            "text": "Ug batok sa tanang hatag-as nga mga bukid, ug batok sa tanang mga bungtod nga tinuboy,"
+                            "text": "ingon man ang tanang habog nga kabukiran ug kabungtoran;"
                         },
                         {
                             "verse": 15,
-                            "text": "Ug batok sa tagsatagsa ka hatag-as nga torre, ug batok sa tagsatagsa ka kuta nga malig-on;"
+                            "text": "ang tanang habog nga tore ug ang tanang kota nga lig-on."
                         },
                         {
                             "verse": 16,
-                            "text": "Ug batok sa tanang mga sakayan sa Tarsis, ug batok sa tanang matahum nga mga larawan sa hunahuna."
+                            "text": "Tundagon niya ang dagko ug maanindot nga mga barko sa Tarsis"
                         },
                         {
                             "verse": 17,
-                            "text": "Ug ang pagkamapahitas-on sa tawo pagabawogon, ug ang kagarbo sa mga tawo pagapaubson; ug si Jehova lamang igatuboy niadtong adlawa."
+                            "text": "ug ipaubos ang mapahitas-on ug kuhaan sa dungog ang mga garboso; niadto unyang adlawa ang Ginoo lamang maoy pasidunggan."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug ang mga larawan mangawagtang gayud sa hingpit."
+                            "text": "Ang mga diosdios hingpit nga mahanaw."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug ang mga tawo manulod sa mga langub sa mga bato, ug ngadto sa mga lungib sa yuta, gikan sa kalisang kang Jehova, ug gikan sa himaya sa iyang pagkahalangdon, sa diha nga siya motindog aron sa pag-uyog pag-ayo sa yuta."
+                            "text": "Ug ang katawhan manulod sa mga lungib diha sa mga pangpang ug sa mga lungag sa yuta, aron paglikay sa kasuko sa Ginoo ug sa iyang gahom ug himaya inig-anhi niya aron pagsilot sa kalibotan."
                         },
                         {
                             "verse": 20,
-                            "text": "Niadtong adlawa igasalikway sa mga tawo ang ilang mga larawan nga salapi, ug ang ilang mga larawan nga bulawan, nga gibuhat aron simbahon nila, igasalibay ngadto sa mga ilaga ug sa mga kabug:"
+                            "text": "Niadto unyang adlawa ilabay sa katawhan ngadto sa mga ilaga ug sa mga kabog ang ilang mga diosdios nga plata ug bulawan."
                         },
                         {
                             "verse": 21,
-                            "text": "Aron igasulod sa mga langub sa ligating, ug ngadto sa mga gansanggansangon nga mga bato, gikan sa kalisang kang Jehova, ug gikan sa himaya sa iyang pagkahalangdon, sa diha nga siya motindog aron sa pag-uyog pag-ayo sa yuta."
+                            "text": "Manulod sila sa lungib diha sa mga bato, ug mangatkat sila sa mga pangpang aron paglikay sa kasuko sa Ginoo ug sa iyang gahom ug himaya, inig-anhi niya aron pagsilot sa kalibotan."
                         },
                         {
                             "verse": 22,
-                            "text": "Biyai ninyo ang tawo, kansang gininhawa anaa lamang sa iyang ilong; kay sa unsa man nga paagi siya pagatagdon?"
+                            "text": "Ayaw saligi ang tawo kay mubo ra siyag kinabuhi; unsa bay bili niya?"
                         }
                     ]
                 },
@@ -74358,107 +74358,107 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kay, ania karon, ang Ginoo, si Jehova sa mga panon, nagakuha gikan sa Jerusalem ug gikan sa Juda sa kalig-on ug sungkod, sa tanang kalig-on sa tinapay, ug sa tanang kalig-on sa tubig;"
+                            "text": "Tan-awa kon unsaon sa Ginoo, ang Ginoo nga Labing Gamhanan, pagkuha gikan sa Jerusalem ug Juda ang tanang gisaligan sa katawhan lakip ang ilang pagkaon ug tubig."
                         },
                         {
                             "verse": 2,
-                            "text": "Ang tawo nga kusgan, ug ang tawo sa panggubatan; ang maghuhukom, ug ang manalagna, ug ang magtatag-an nga bakakon, ug ang anciano;"
+                            "text": "Kuhaon usab niya ang mga bayani, mga sundalo, ang mga maghuhukom ug mga propeta, ang mga mananagna ug mga kadagkoan,"
                         },
                         {
                             "verse": 3,
-                            "text": "Ang pangulo sa kalim-an, ug ang halangdon nga tawo, ug ang magtatambag, ug ang batid nga magmumugna, ug ang batid nga maglalamat."
+                            "text": "ang mga kapitan sa kasundalohan ug ang mga pangulo sa katawhan, ang mga magtatambag ug ang mga hanas nga salamangkero ug ang batid sa paglamat."
                         },
                         {
                             "verse": 4,
-                            "text": "Ug igabutang ko ang mga bata nga maoy ilang mga principe, ug ang mga masuso maoy magahari kanila."
+                            "text": "Himoon sa Ginoo nga ang mga batang wala pay kabuot maoy magmando ug maoy maghari kanila."
                         },
                         {
                             "verse": 5,
-                            "text": "Ug ang katawohan pagadaugdaugon ang tagsatagsa pagadaugdaugon sa lain, ug tagsatagsa pagadaugdaugon sa iyang silingan: ang bata magapalabi batok sa tigulang, ug ang tawong bastus batok sa mga halangdon."
+                            "text": "Mag-unay sila pag-away; ang mga batan-on mosupil sa mga tigulang, ug pasipad-an sa mga uyamot ang mga tawong dungganan."
                         },
                         {
                             "verse": 6,
-                            "text": "Sa diha nga ang usa ka tawo mokupot sa iyang igsoon diha sa balay sa iyang amahan, nga magaingon: Ikaw nagasaput man, busa ikaw himoon namong pangulo, ug pasagdi nga kining kadautan mahulog sa imong kamot;"
+                            "text": "Niadto unyang adlawa ang usa ka tawo pilion sa iyang kabanay ug ingnon, “Kay ikaw ra may adunay arang-arang ug bisti, himoon ka namong pangulo ug harii kining banay nga nabungkag na.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Niadtong adlawa ipatugbaw niya ang iyang tingog nga magaingon: Dili ako buot mahimo nga mananambal; kay sa akong balay walay tinapay ni saput: dili ninyo buhaton ako nga pangulo sa katawohan."
+                            "text": "Apan moingon siya, “Dili ako gusto nga himoong pangulo kay wala gani gikaon o gibisti ang akong pamilya.”"
                         },
                         {
                             "verse": 8,
-                            "text": "Kay ang Jerusalem nalumpag na, ug ang Juda napukan na; kay ang ilang dila ug ang ilang mga buhat batok kang Jehova, sa pagsuko sa mga mata sa iyang himaya."
+                            "text": "Napukan ang Jerusalem ingon man ang Juda ug sa dayag giinsulto nila siya."
                         },
                         {
                             "verse": 9,
-                            "text": "Ang panagway sa ilang nawong nagasaksi batok kanila; ug ilang ipasundayag ang ilang sala sama sa Sodoma, wala nila taboni kini. Alaut sa ilang kalag! kay nagabuhat sila ug dautan sa ilang kaugalingon."
+                            "text": "Ang ilang pagpaburpabor mosaksi batok kanila; sama sa Sodoma, nagpakasala sila sa walay tagotago. Alaot sila! Malaglag sila ug sila mismo ang nakaingon niini."
                         },
                         {
                             "verse": 10,
-                            "text": "Managsulti kamo mahitungod sa matarung, nga mamaayo alang kaniya; kay ilang pagakan-on ang bunga sa ilang mga buhat."
+                            "text": "Sultihi ang mga matarong nga mamaayo ra unya ang ilang pagkabutang, kay makatagamtam sila sa bunga sa ilang gihagoan."
                         },
                         {
                             "verse": 11,
-                            "text": "Alaut sa dautan! kay ang kadautan anha kaniya; kay unsay nabuhat sa iyang mga kamot maoy pagabuhaton kaniya."
+                            "text": "Apan alaot ang mga daotan! Dili maayo ang ilang dangatan kay buhaton usab nganha kanila ang ilang nabuhat."
                         },
                         {
                             "verse": 12,
-                            "text": "Mahatungod sa akong katawohan, ang mga bata maoy ilang maglulupig, ug ang mga babaye maoy magahari sa ibabaw kanila. Oh katawohan ko, sila nga mga nanagmando kanimo, maoy nagapasayup kanimo, ug nagabungkag sa dalan sa imong mga alagianan."
+                            "text": "Gidaugdaog ang akong katawhan sa mga tigpatanto ug salapi ug gilimbongan sila sa ilang nautangan. O katawhan ko, gipasalaag kamo sa inyong mga pangulo, ug wala kamo masayod asa kamo paingon."
                         },
                         {
                             "verse": 13,
-                            "text": "Si Jehova nagatindog aron sa pagpakigbisog, ug nagabarog aron sa paghukom sa katawohan."
+                            "text": "Andam na ang Ginoo sa paghusay ug pagsilot sa iyang katawhan."
                         },
                         {
                             "verse": 14,
-                            "text": "Si Jehova magahukom sa mga anciano sa iyang katawohan, ug sa mga principe niini: Kamo mao ang naglamoy sa parrasan; ang inagaw gikan sa mga kabus anaa sa inyong mga balay:"
+                            "text": "Gihukman niya ang mga kadagkoan ug mga pangulo sa iyang katawhan: “Kamo maoy milamoy sa parasan; anaa sa inyong mga balay ang inyong mga giilog gikan sa mga kabos."
                         },
                         {
                             "verse": 15,
-                            "text": "Unsay ipasabut ninyo nga inyong gidugmok man ang akong katawohan, ug gigaling ang nawong sa mga kabus? nagaingon ang Ginoo, si Jenova sa mga panon."
+                            "text": "Nganong gidaugdaog man ninyo ang akong katawhan ug gilisudlisod ang mga kabos?” nag-ingon ang Ginoong Dios nga Labing Gamhanan."
                         },
                         {
                             "verse": 16,
-                            "text": "Laput pa si Jehova miingon: Tungod kay ang mga anak nga babaye sa Sion mga palabilabihon, ug manlakaw nga inubanan sa pinatikig nga mga liog ug mga mata nga malimbongon, manlakaw ug managkiay-kiay sa ilang paglakaw, ug managpapagakpak sa ilang mga tiil;"
+                            "text": "Miingon ang Ginoo: “Tungod kay mapahitas-on man ang kababayen-an sa Sion ug molakaw nga pinatikig ang liog ug matintalon ang ilang tinan-awan, nagkiaykiay sa ilang paglakaw ug nagkagilkil ang mga adorno sa ilang mga tiil,"
                         },
                         {
                             "verse": 17,
-                            "text": "Tungod niini pagapanitan sa Ginoo ang alimpulos sa ulo sa mga anak nga babaye sa Sion, ug huboan ni Jehova ang ilang mga tinago nga mga dapit."
+                            "text": "butangan ko ug mga nuka ang ilang mga ulo; upawan sila ug ipakita ang ilang mga tinagoang bahin.”"
                         },
                         {
                             "verse": 18,
-                            "text": "Niadtong adlawa pagakuhaon sa Ginoo ang katahum sa bukala sa ilang mga tiil, ug ang mga pandong, ug ang pikas nga mga bulan-bulan;"
+                            "text": "Niadto unyang adlawa kuhaon sa Ginoo ang matahom nga adorno sa ilang mga tiil, mga pugong sa buhok, mga sudlay,"
                         },
                         {
                             "verse": 19,
-                            "text": "Ang mga ariyos, ug ang pulceras, ug ang mga bufanda;"
+                            "text": "mga ariyos, mga pulseras, mga pandong, "
                         },
                         {
                             "verse": 20,
-                            "text": "Ang mga kalo nga panapton, ug ang ligas, ug ang mga laso sa ulo, ug ang mga kahon-kahon sa pahumot, ug mga anting-anting;"
+                            "text": "mga purong, mga adorno sa mga bukton ug hawak, mga sudlanan sa pahumot, mga anting-anting, "
                         },
                         {
                             "verse": 21,
-                            "text": "Ang mga singsing, ug ang mga pahiyas sa ilong;"
+                            "text": "mga singsing sa kamot ug sa ilong,"
                         },
                         {
                             "verse": 22,
-                            "text": "Ang mga saput nga igsusul-ob alang sa mga fiesta, ug ang manteletas, ug ang mga panolon, ug mga puntil;"
+                            "text": "mga bisti alang sa pista, mga hapin, mga kupo, mga puntil, "
                         },
                         {
                             "verse": 23,
-                            "text": "Ang mga salamin, ug ang mga fino nga lino, ug ang mga turbante, ug ang mga velo."
+                            "text": "ang sihag nga panapton, ang bisting lino, ang mga bandana ug mga bilo."
                         },
                         {
                             "verse": 24,
-                            "text": "Ug mahinabo, nga sa kahumot moilis ang kabaho; ug sa bakus moilis ang usa ka pisi; ug sa buhok nga dasok moilis ang kaupaw; ug sa usa ka kupo, moilis ang usa ka bisti nga sako: ang paso moilis sa katahum."
+                            "text": "Inay humot sila, mabaho hinuon; pisi ang ilang gamiton inay bakos, imbis nga maayong pagkasudlay ang ilang buhok, maupaw hinuon; inay bisting mahalon, nagbisti na hinuog sako; imbis katahom, anaa hinuon ang kaulawan."
                         },
                         {
                             "verse": 25,
-                            "text": "Ang imong mga tawo mangapukan pinaagi sa espada, ug ang imong tawo nga kusgan mangapukan sa gubat."
+                            "text": "Ang inyong mga lalaki mangamatay sa espada ug ang inyong mga tawong isog mamatay sa gubat."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug ang iyang mga ganghaan managbakho ug managminatay; ug siya mahimong biniyaan ug magalingkod sa ibabaw sa yuta."
+                            "text": "Ang mga ganghaan sa siyudad magbangotan ug maghilak ug ang siyudad mismo mahisama sa usa ka babaye nga giamong-amongan ug nagyaka na lang sa yuta."
                         }
                     ]
                 },
@@ -74467,27 +74467,27 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug ang pito ka babaye mopugong sa usa ka lalake niadtong adlawa, nga magaingon: Magakaon kami sa among kaugalingong tinapay, ug magasul-ob sa among kaugalingong bisti: hinganli lamang kami sa imong ngalan; kuhaon mo kanamo ang among kaulawan."
+                            "text": "Niadto unyang adlawa pito ka babaye ang mag-ilog sa usa ka lalaki ug moingon, “Kami maoy mangitag among pagkaon ug bisti basta pangasaw-a lang kami aron dili na kami mag-antos sa kaulawan tungod kay wala maminyo.”"
                         },
                         {
                             "verse": 2,
-                            "text": "Niadtong adlawa ang sanga ni Jehova mahimong matahum ug mahimayaon, ug ang bunga sa yuta mahimong halangdon uyamut ug madanihon alang kanila nga naluwas gikan sa Israel."
+                            "text": "Niadto unyang adlawa ang sanga nga gipatubo sa Ginoo mahimong matahom ug mahimayaon ug ang abot sa yuta maoy mahimong garbo ug dungog sa mga nahibilin nga katawhan sa Israel. "
                         },
                         {
                             "verse": 3,
-                            "text": "Ug mahinabo nga kadtong mabiyaan didto sa Sion, ug kadtong mahibilin sa Jerusalem, pagatawgon nga balaan, bisan ang tagsatagsa nga mahasulat uban sa mga buhi didto sa Jerusalem;"
+                            "text": "Ug ang mahibilin sa Sion ug makalahutay diha sa Jerusalem tawgon nga balaan ang tanan nga nalista nga maluwas,"
                         },
                         {
                             "verse": 4,
-                            "text": "Sa diha nga mahugasan na sa Ginoo ang kahugawan sa mga anak nga babaye sa Sion, ug malinisan na ang dugo sa Jerusalem gikan sa taliwala niini, pinaagi sa espiritu sa justicia, ug pinaagi sa espiritu sa kainit."
+                            "text": "sa dihang mahugasan na sa Ginoo ang kahugaw sa kababayen-an sa Sion ug mahinlo na ang mansa sa dugo nga naula didto sa Jerusalem pinaagi sa pagsilot niini. "
                         },
                         {
                             "verse": 5,
-                            "text": "Ug buhaton ni Jehova sa ibabaw sa tibook nga puloy-anan sa bukid sa Sion, ug sa ibabaw sa iyang tigumanan, ang usa ka panganod ug aso sa maadlaw, ug ang kasidlak sa masigang kalayo sa magabii; kay sa ibabaw sa tibook himaya igabuklad ang usa ka tabon."
+                            "text": "Unya ang Ginoo magpadalag panganod panahon sa adlaw ibabaw sa Bukid sa Sion ug sa katawhan nga nagtigom diha sa maong dapit. Sa gabii maghimo siyag aso ug nagdilaab nga kalayo ug ang iyang himaya mahimong panalipod sa siyudad. "
                         },
                         {
                             "verse": 6,
-                            "text": "Ug adunay usa ka balongbalong nga mahimong landong sa maadlaw tungod sa kainit, ug mahimong usa ka dalangpanan ug usa ka salipdanan gikan sa bagyo ug gikan sa ulan."
+                            "text": "Mahimo kining pasilonganan panahon sa adlaw ug tagoanan ug salipdanan kon magbagyo ug mag-ulan."
                         }
                     ]
                 },
@@ -74496,123 +74496,123 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Paawita ako alang sa akong hinigugma ug usa ka alawiton sa akong hinigugma mahatungod sa iyang kaparrasan. Ang akong hinigugma may usa ka kaparrasan sa usa ka bungtod nga manggibungahon kaayo:"
+                            "text": "Tugoti nga awitan ko ang akong higala ug awit sa gugma mahitungod sa iyang parasan: Ang akong higala may parasan kaniadto didto sa tabunok kaayo nga bungtod."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug iyang gikalotan ug gikuhaan sa mga bato, ug kini gitamnan niya sa labing pinili nga parras, ug gitukoran ug usa ka torre sa taliwala niini, ug gipaangayan usab sa usa ka pug-anan: ug iyang ginapaabut nga magabunga unta, ug mingbunga hinoon sa parras nga ihalas."
+                            "text": "Gibugwal niya kini, gihawanan sa mga bato ug gitamnan niyag labing maayong paras; unya nagtukod siyag tore nga bantayanan diha sa taliwala niini, ug gibutangan pa gayod niya kinig pigsanan sa ubas. Nagpaabot siya nga mamunga kinig tam-is nga ubas apan aslom hinuon ang bunga niini."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug karon, Oh mga pumupuyo sa Jerusalem ug mga tawo sa Juda, hukmi ninyo, ginapangamuyo ko kaninyo, ako ug ang akong kaparrasan."
+                            "text": "Busa miingon siya, “O mga lumolupyo sa Jerusalem ug katawhan sa Juda, hukmi ako ninyo ug ang akong parasan."
                         },
                         {
                             "verse": 4,
-                            "text": "Unsa pay arang buhaton ko sa akong kaparrasan, nga wala nako buhata? Sa nagpaabut ako nga kini mamunga unta ug parras, ngano nga mamunga man kini ug parras nga ihalas?"
+                            "text": "Unsa pa man diay ang angay kong buhaton sa akong parasan nga wala pa nako mahimo? Nagpaabot ako nga mamunga kinig tam-is apan aslom hinuon ang bunga niini."
                         },
                         {
                             "verse": 5,
-                            "text": "Ug karon sultihan ko ikaw kong unsay buhaton ko sa akong kaparrasan: kuhaon ko ang alad niini, ug kini pagaut-uton; bungkagon ko ang kuta niini, ug kini pagatamakan."
+                            "text": "“Karon sultihan ko kamo kon unsay buhaton ko sa akong parasan. Kuhaon ko ang koral niini ug lumpagon ko ang paril niini, aron pangaonon kini ug tamaktamakan sa mga mananap."
                         },
                         {
                             "verse": 6,
-                            "text": "Ug kini pasagdan ko nga biniyaan; ug kini dili na pagakapnan ni pagagabangon; apan manurok ang mga sampinit ug mga tunok: ug sugoon ko usab ang mga dag-um nga dili na sila magpaulan ug ulan sa ibabaw niini."
+                            "text": "Pasagdan ko na lang kini; dili ko na pul-ongan ang mga sanga o habukan ang punoan niini, ug manubo libot niini ang mga tunokong sagbot; unya mandoan ko ang panganod nga dili na kini paulanan.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Kay ang kaparrasan ni Jehova sa mga panon mao man ang balay sa Israel, ug ang mga tawo sa Juda mao ang iyang tanum nga makapahimuot: ug siya nagpaabut sa justicia, apan, ania karon, ang pagdaugdaug; nagpaabut sa pagkamatarung, apan, ania karon, ang usa ka pagtu-aw."
+                            "text": "Ang parasan sa Ginoo nga Labing Gamhanan mao ang Israel, ug ang katawhan sa Juda mao ang iyang pinanggang tanom; nangita siyag hustisya apan ang nakaplagan niya mao ang pinatyanay. Nangita siyag katarong apan ang nakaplagan niya hilak sa kaguol!"
                         },
                         {
                             "verse": 8,
-                            "text": "Alaut kanila nga mga managsumpay sa balay ug balay, nga mga nanag-ipon sa uma ngadto sa uma, hangtud nga wala nay dapit, ug kamo pagapapuy-on nga mag-inusara sa taliwala sa yuta!"
+                            "text": "Alaot kamong mangilog ug mga balay ug kaumahan hangtod nga mainyo ang tanan ug wala nay laing magtikawtikaw sa nasod."
                         },
                         {
                             "verse": 9,
-                            "text": "Sa akong mga igdulungog nagaingon si Jehova sa mga panon: Sa pagkamatuod, daghanang mga balay nga pagabiyaan, bisan pa mga dagku ug matahum, walay pumupuyo."
+                            "text": "Nakadungog ako nga miingon ang Ginoo nga Labing Gamhanan: “Daghang balay ang mahimong biniyaan. Wala na unyay magtikawtikaw sa dagko ug matahom nga mga balay."
                         },
                         {
                             "verse": 10,
-                            "text": "Kay upat ka hectarea nga kaparrasan magahatag usa ka bato, ug usa ka homer nga binhi magahatag lamang ug usa ka ephah."
+                            "text": "Kay ang napulo ka hektarya nga parasan moani lamang ug lima ka galon nga bino ug ang napulo ka gantang nga binhi moani lamang ug usa ka gantang.”"
                         },
                         {
                             "verse": 11,
-                            "text": "Alaut niadtong mosayo pagbangon sa kabuntagon, aron sila managhubog sa maisug nga mga ilimnon, alaut niadtong managtukaw sa tibook kagabhion hangtud sila manginit sa vino."
+                            "text": "Alaot kamong mosayo pagbangon sa buntag aron makainom sa isog nga ilimnon, ug kamong magtukaw sa lalom nga kagabhion hangtod mangahubog."
                         },
                         {
                             "verse": 12,
-                            "text": "Ug ang alpa ug ang sista, pandereta ug ang mga flauta, ug ang vino anaa sa ilang mga kombira; apan sila wala managtagad sa buhat ni Jehova, ni managpalandong sila sa ginahimo sa iyang mga kamot."
+                            "text": "Sa inyong mga kombira anaa ang lira ug alpa, tambor, plawta, ingon man ang bino; apan wala ninyo panumbalinga ang mga buhat sa Ginoo, ug wala ninyo tan-awa ang iyang mga gihimo."
                         },
                         {
                             "verse": 13,
-                            "text": "Busa ang akong katawohan ginabihag tungod sa kaalam; ug ang ilang halangdong mga tawo nangamatay sa gutom, ug ang ilang panon sa katawohan gipangmad-an tungod sa kauhaw."
+                            "text": "Busa tungod sa inyong pagdumili sa pagsabot, nabihag kamo; ang tinamod ninyong mga tawo nangamatay sa gutom ug ang katawhan nag-antos sa labihang kauhaw."
                         },
                         {
                             "verse": 14,
-                            "text": "Busa gipadaku sa Sheol ang iyang tinguha, ug ginganga ang iyang baba sa dili masukod; ug ang ilang himaya, ug ang ilang panon sa katawohan. ug ang ilang pagkamapahitas-on, ug siya nga magakalipay sa taliwala kanila, manaug sa sulod niini."
+                            "text": "Busa naghinamhinam ang Seol nga molamoy ug minganga kini pag-ayo; lamyon niini ang mga pangulo sa Jerusalem ug ang mga lumolupyo  ug ang naghudyaka nga katawhan niini."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug ang dautang tawo ginapabuktot ug ang dakung tawo ginapaubos, ug ang mga mata sa mga halangdon ginapaubos:"
+                            "text": "Ang tanan maulawan ug ang garbo sa mapahitas-on putlon."
                         },
                         {
                             "verse": 16,
-                            "text": "Apan si Jehova sa mga panon ginatuboy diha sa justicia, ug ang Dios, ang Balaan ginabalaan diha sa pagkamatarung."
+                            "text": "Apan ang Ginoo nga Labing Gamhanan pasidunggan tungod sa iyang hukom, ug ipaila sa Balaan nga Dios ang iyang pagkabalaan pinaagi sa iyang hustisya."
                         },
                         {
                             "verse": 17,
-                            "text": "Unya ang mga nating carnero magasibsib ingon sa anaa sa ilang pasibsibanan, ug ang mga biniyaan nga dapit sa mga matambok pagakan-on sa mga libud-suroy."
+                            "text": "Unya ang mga nating karnero ug ang mga nating kanding manibsib diha sa nagun-ob nga mga siyudad."
                         },
                         {
                             "verse": 18,
-                            "text": "Alaut niadtong mga managguyod sa kadautan pinaagi sa mga pisi sa kabakakan, ug sa sala ingon sa pisi nga gihigut sa carromata;"
+                            "text": "Alaot kamong naulipon sa sala"
                         },
                         {
                             "verse": 19,
-                            "text": "Nga nagaingon: Paabtika siya, padalia siya nianang iyang buhat, aron among makita kini; ug paduola ug paanhia ang pagtambag sa Baalan sa Israel, aron among hisayran!"
+                            "text": "ug moingon, “Ipahuman pagdali sa Ginoo ang iyang laraw aron ato kining makita; ipatuman ang tuyo sa Balaang Dios sa Israel aron makita nato ang iyang plano.”"
                         },
                         {
                             "verse": 20,
-                            "text": "Alaut kanila nga nagangalan sa dautan nga maayo, ug sa maayo nga dautan; nga nagabutang sa kangitngit nga ilis sa kahayag, ug sa kahayag nga ilis sa kangitngit; ug nagabutang sa mapait nga ilis sa matam-is, ug sa matam-is nga ilis sa mapait!"
+                            "text": "Alaot kamong nagtawag sa daotan nga maayo ug sa maayo nga daotan, ug naghimo sa kangitngit nga kahayag ug sa kahayag nga kangitngit, ug naghimo sa pait nga tam-is ug sa tam-is nga pait!"
                         },
                         {
                             "verse": 21,
-                            "text": "Alaut niadtong mga maalam diha sa ilang kaugalingong mga mata, ug mga buotan diha sa ilang kaugalingong pagtan-aw!"
+                            "text": "Alaot kamong nag-isip sa inyong kaugalingon nga mga maalamon ug nagtuo nga kamo abtik."
                         },
                         {
                             "verse": 22,
-                            "text": "Alaut niadtong makusog nga moinum sa vino, ug mga tawo nga kusganon sa pagsakot sa maisug nga ilimnon;"
+                            "text": "Alaot kamong mga hawod sa inom ug dili mosibog kon hagitog inom,"
                         },
                         {
                             "verse": 23,
-                            "text": "Nga nagapakamatarung sa dautan tungod sa hiphip, ug nagakuha sa pagkamatarung sa tawong matarung gikan kaniya!"
+                            "text": "ug kamong nagbuhi sa mga sad-an tungod sa suborno, ug naghikaw sa mga inosente sa ilang katungod!"
                         },
                         {
                             "verse": 24,
-                            "text": "Busa ingon nga ang dila sa kalayo magalamoy sa dagami, ug ingon nga ang mamala nga balili mapulpog diha sa siga, tungod niini ang ilang gamot maingon sa madunot, ug ang ilang putot mawagtang ingon sa abug: tungod kay ilang gisalikway ang Kasugoan ni Jehova sa mga panon, ug gitamay ang pulong sa Balaan sa Israel."
+                            "text": "Busa ingon nga sunogon sa kalayo ang dagami ug lamyon sa siga ang laya nga sagbot, ang inyong gamot madunot ug mahanaw lamang ang inyong bulak sama sa abog, kay gisalikway man ninyo ang balaod sa Ginoo nga Labing Gamhanan, ug gitamay ang pulong sa Balaang Dios sa Israel."
                         },
                         {
                             "verse": 25,
-                            "text": "Busa ang kasuko ni Jehova misilaub batok sa iyang katawohan, ug iyang gibakyaw ang iyang kamot batok kanila, ug gilaglag sila; ug ang mga bukid nanagkurog, ug ang ilang mga minatay ingon sa sagbut sa taliwala sa mga dalan. Tungod niining tanan ang iyang kasilag wala mapalong, hinonoa ang iyang kamot iya pang ginabakyaw."
+                            "text": "Busa nahaling ang kasuko sa Ginoo batok sa iyang katawhan, ug gibakyaw niya ang iyang kamot aron sa pagsilot kanila. Nauyog ang kabukiran, ug ang ilang mga minatay nahibilin sama sa mga sagbot nga anaa taliwala sa kadalanan. Apan bisan pa niining tanan, dili gihapon mapuypoy ang kasuko sa Ginoo, ug bakyawon gihapon niya ang iyang kamot."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug magapatindog siya ug bandila ngadto sa mga nasud gikan sa halayo, ug pagataghoyan sila gikan sa kinatumyan sa yuta; ug ania karon, sila manganhi sa madali gayud."
+                            "text": "Maghatag siyag usa ka ilhanan alang sa usa ka layong nasod, ug taghoyan niya kini gikan sa kinasuokang bahin sa kalibotan ug moduol kini sa labing madali."
                         },
                         {
                             "verse": 27,
-                            "text": "Kanila walay pagakapuyan ni mahipangdol sa taliwala kanila, walay magaduka ni mahikatulog; ni maluag ang bakus sa ilang mga hawak, ni mabugto ang liston sa ilang mga sapin:"
+                            "text": "Wala kanilay kapuyan o madagma; walay magduka o matulog ug dili nila luagan ang ilang mga bakos, ug walay mabugto nga higot sa sandalyas."
                         },
                         {
                             "verse": 28,
-                            "text": "Kang kinsang mga udyong mahait, ug ang tanan nilang mga panamangabawog; ang mga kuko sa ilang mga kabayo pagaisipon nga santik, ug ang ilang mga ligid ingon sa usa ka alimpulos:"
+                            "text": "Talinis ang ilang mga udyong ug gibingat ang ilang pana; ang kuko sa ilang mga kabayo sama sa bato nga lag-it, ug ang mga ligid sa ilang mga karwahi sama sa alimpulos."
                         },
                         {
                             "verse": 29,
-                            "text": "Ug ang ilang pagngulob mahasama sa leon nga baye, sila managngulob sama sa mga leon nga itoy; oo, sila managngulob, ug manakop sa ilang tukbonon, ug ikalagiw nila kini sa gawas nga walay makagawas ug walay bisan kinsa nga makaluwas."
+                            "text": "Sama sa liyon ug sa nating liyon ang ilang pagngulob; mongulob sila ug dakpon ang ilang tukbonon; dad-on nila kini sa layo ug wala nay makaluwas niini."
                         },
                         {
                             "verse": 30,
-                            "text": "Ug sila managngulob batok kanila niadtong adlawa sama sa dinaguok sa dagat: ug kong adunay usa nga molantaw sa yuta, ania karon, ang kangitngit ug kasub-anan; ug ang kahayag ginangitngitan tungod sa mga panganod niini."
+                            "text": "Inig-abot niadtong adlawa, nguloban nila ang Israel sama sa dinahunog sa dagat. Ug kon ang usa ka tawo motan-aw sa yuta, makita niya ang kangitngit ug kasub-anan, ug ang kahayag mongitngit tungod sa mga dag-om."
                         }
                     ]
                 },
@@ -74621,55 +74621,55 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Sa tuig sa pagkamatay ni hari Uzzias, nakita ko ang Ginoo nga nagalingkod sa usa ka trono, hataas ug tinuboy; ug ang iyang mga saput nakapuno sa templo."
+                            "text": "Sa tuig nga namatay si Hari Uzias, nakita ko ang Ginoo nga naglingkod sa usa ka trono, habog ug mahimayaon, ug ang iyang bisti milukop sa Templo."
                         },
                         {
                             "verse": 2,
-                            "text": "Sa ibabaw kaniya diha ang mga serafines: ang tagsatagsa may unom ka mga pako; sa duruha gitabonan ang iyang nawong, ug sa duruha gitabonan ang iyang mga tiil, ug sa duruha siya milupad."
+                            "text": "Sa ibabaw niya nagbarog ang mga serapin. May unom ka pako ang matag usa kanila; gitabonan nila ang ilang nawong sa duha nila ka pako ug ang ilang tiil sa lain nilang duha ka pako samtang ang lain pang duha ka pako gigamit nila sa paglupad."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug ang usa misinggit sa usa, ug miingon: Balaan, balaan, balaan, si Jehova sa mga panon: ang tibook nga yuta napuno sa iyang himaya."
+                            "text": "Miingon sila sa usag-usa: “Balaan, balaan, balaan ang Ginoo nga Labing Gamhanan; nalukop ang tibuok yuta sa iyang himaya.”"
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ang mga patukoranan sa mga pultahan nangurog sa iyang tingog nga nagasingit, ug ang balay napuno sa aso."
+                            "text": "Ug ang mga sukaranan sa Templo natay-og tungod sa kagahob sa ilang tingog ug napuno sa aso ang Templo. "
                         },
                         {
                             "verse": 5,
-                            "text": "Unya miingon ako: Alaut man ako! kay patay na ako; tungod kay ako usa ka tawo nga mahugay ug mga ngabil, ug ako nagapuyo sa taliwala sa mga tawo nga mahugaw ug mga ngabil: kay ang akong mga mata nakakita sa Hari, si Jehova sa mga panon ang akong mga mata nakakita sa Hari, si Jehova sa mga panon."
+                            "text": "Ug miingon ako, “Pagkaalaot ko! Wala akoy paglaom kay daotan ang mga pulong nga mogula sa akong mga ngabil ug nagpuyo ako taliwala sa katawhan kansang mga pulong daotan. Apan nakita ko ang Hari, ang Ginoo nga Labing Gamhanan!”"
                         },
                         {
                             "verse": 6,
-                            "text": "Ug unya ang usa sa mga serafin milupad nganhi kanako, nga may usa ka baga nga carbon diha sa iyang kamot nga iyang gikuha pinaagi sa mga kumpit gikan sa halaran:"
+                            "text": "Unya milupad padulong kanako ang usa sa mga serapin nga nagdalag baga nga gikuha niya pinaagig kumpit gikan sa halaran."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug uban niini iyang gihikap ang akong baba, ug miingon: Anaa, kini nakatandog sa mong mga ngabil; ug ang imong pagkadautan ginakuha na, ug ang imong sala ginapasaylo."
+                            "text": "Gipadapat niya kini sa akong ngabil ug miingon siya, “Nakatandog kini sa imong ngabil busa wala ka nay sala; gipasaylo ka na.”"
                         },
                         {
                             "verse": 8,
-                            "text": "Ug nadungog ko ang tingog sa Ginoo, nga nagaingon: Kinsa man ang akong ipadala, ug kinsay moadto alang kanamo? Unya miingon ako: Ania ako; paadtoa ako."
+                            "text": "Unya nabati ko ang tingog sa Ginoo nga nag-ingon, “Kinsa may akong ipadala ug kinsa man ang moadto alang kanamo?” Busa miingon ako, “Ania ako. Ipadala ako.”"
                         },
                         {
                             "verse": 9,
-                            "text": "Ug siya miingon: Lakaw ug sultihi kining katawohan: Kamo nakadungog gayud, apan wala makasabut; ug nakakita gayud, kamo apan wala makasabut."
+                            "text": "Ug miingon siya, “Lakaw ug sultihi kining mga tawhana: ‘Bisan unsaon ninyog pamati, dili kamo makasabot. Bisan unsaon ninyog tan-aw, dili kamo makaalinggat unsay nahitabo.’"
                         },
                         {
                             "verse": 10,
-                            "text": "Himoa nga motambok ang kasingkasing niining katawohan, ug pabug-aton mo ang ilang mga igdulungog, ug piyongon mo ang ilang mga mata; tingali unya nga makakita sila uban sa ilang mga mata, ug makadungog uban sa ilang mga igdulungog, ug makasabut sila uban sa ilang kasingkasing, ug mangakabig, ug mamaayo sila."
+                            "text": "Pagahia ang mga kasingkasing niining mga tawhana; himoa silang bungol ug buta aron dili na sila makadungog o makakita o makasabot kay tingalig mobalik sila kanako ug mamaayo.”"
                         },
                         {
                             "verse": 11,
-                            "text": "Unya miingon ako: Ginoo, hangtud anus-a? Ug siya mitubag: Hangtud nga ang mga ciudad makamingawan nga mawad-an sa molupyo, ug ang mga kabalayan mawalay tawo, ug ang yuta mabiniyaan sa hingpit,"
+                            "text": "Ug unya miingon ako, “Hangtod kanus-a, O Ginoo?” Ug miingon siya, “Hangtod magun-ob ang mga siyudad ug wala nay mga tawo nga mopuyo sa kabalayan ug madaot ang tibuok nasod;"
                         },
                         {
                             "verse": 12,
-                            "text": "Ug gipahilayo ni Jehova ang mga katawohan, ug ang mga dapit nga biniyaan modaghan sa tiwala sa yuta."
+                            "text": "ug hinginlan ko ang mga tawo ug madaghan na ang mga dapit nga wala nay magpuyo sulod sa tibuok nasod."
                         },
                         {
                             "verse": 13,
-                            "text": "Ug kong ugaling aduna pay ikapulo ka bahin niini, kini pagaut-uton usab, apan ingon sa usa ka kahoy nga encina ug terebinto nga mahibilin ang tuod kong sila pagaputlon, maingon man ang balaan nga binhi mao man ang tuod niini."
+                            "text": "Ug bisag mahibilin ang ikapulo ka bahin niini, sunogon kini pag-usab sama sa usa ka kahoy nga tuod na lamay nagpabilin kon putlon na kini. (Ang tuod nagrepresentar sa bag-ong kinabuhi sa katawhan sa Dios.)"
                         }
                     ]
                 },
@@ -74678,103 +74678,103 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug nahitabo sa mga adlaw ni Achaz, ang anak nga lalake ni Jotham, ang anak nga lalake ni Uzzias, ang hari sa Juda, nga si Rezin ang hari sa Siria, ug si Peca ang anak nga lalake ni Remalias, hari sa Israel, nangadto sa Jerusalem aron sa pagpakiggubat batok kaniya, apan sila wala makadaug batok kaniya."
+                            "text": "Sa panahon nga si Ahaz nga anak ni Jotam ug apo ni Uzias maoy naghari sa Juda, misulong sa Jerusalem si Rezin nga hari sa Siria ug si Peka nga anak ni Remalias nga hari sa Israel apan wala nila mabuntog ang Jerusalem. "
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang balay ni David gisuginlan nga ang Siria nakigsagabay kang Ephraim. Ug ang iyang kasingkasing mikurog, ug ang kasingkasing sa iyang katawohan ingon sa mga kakahoyan sa lasang nga mokurog uban sa hangin."
+                            "text": "Sa pagkabalita sa hari sa Juda nga ang kasundalohan sa Siria misulod sa Israel, nalisang siya ug ang iyang katawhan ug nangurog sila sama sa kakahoyan sa lasang nga gihuros sa hangin."
                         },
                         {
                             "verse": 3,
-                            "text": "Unya miingon si Jehova kang Isaias: Lumakaw ka karon aron sa pagtagbo kang Achaz, ikaw, ug si Searjasub nga imong anak, sa tumoy sa kanal sa linaw nga sa taas, sa alagianan sa yuta sa maglalaba;"
+                            "text": "Ug miingon ang Ginoo kang Isaias, “Lakaw, uban sa imong anak nga si Shearjashub ug sugata si Ahaz didto tumoy sa kanal sa tubig sa ibabaw nga linaw duol sa dalan paingon sa uma nga ginganlag Uma sa Maglalaba. "
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ingnon mo siya: Pagbantay ug paghilum; ayaw kahadlok, ni paluyahon mo ang imong kasingkasing, tungod niining duruha ka mga ikog sa nagaaso nga pabilo, tungod sa mabangis nga kasuko ni Rezin hari sa Siria, ug sa anak ni Remalias."
+                            "text": "Ingna si Ahaz, ‘Pagbantay ug ayaw kahadlok sa kasuko ni Hari Rezin ug ni Hari Peka kay sila sama lamang sa aso sa duha ka agipo nga nagkapalong na.’"
                         },
                         {
                             "verse": 5,
-                            "text": "Tungod kay ang Siria, ang Ephraim ug ang anak ni Remalias nagatinguha ug dautan batok kanimo nga nag-ingon:"
+                            "text": "Naglarawg mangil-ad batok kanimo ang Siria ug ang Israel. Nag-ingon sila,"
                         },
                         {
                             "verse": 6,
-                            "text": "Manungas kita batok sa Juda, ug atong samokon kini, ug ato kining bungkagon alang kanato, ug ibutang ta ang usa ka hari sa taliwala niini; ang anak ni Tabeel;"
+                            "text": " ‘Sulongon ta ang Juda, lisangon ta kini ug buntogon aron maato ug paharion ta didto ang anak ni Tabeel.’ "
                         },
                         {
                             "verse": 7,
-                            "text": "Mao kini ang giingon sa Ginoo nga si Jehova: Kini dili motindog, ni mahinabo."
+                            "text": "Tungod niini nag-ingon ang Ginoong Dios: “Dili gayod kini mahitabo."
                         },
                         {
                             "verse": 8,
-                            "text": "Kay ang ulo sa Siria mao ang Damasco, ug ang ulo sa Damasco mao si Rezin; ug sulod sa kan-uman ug lima ka tuig ang Ephraim mabungkag, aron kini dili mamahimong usa ka katawohan:"
+                            "text": "Kay ang Siria sama ra ka huyang sa Damasco nga iyang ulohang siyudad, ug ang Damasco sama ra ka huyang ni Rezin. Mahitungod sa Israel, 65 ka tuig gikan karon mabungkag kini ug dili na mahimong nasod."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug ang ulo sa Ephraim mao ang Samaria, ug ang ulo sa Samaria mao ang anak ni Remalias. Kong kamo dili motoo, sa pagkatinuod kamo dili mamalig-on."
+                            "text": "Ang Israel sama ra ka huyang sa iyang ulohang siyudad nga mao ang Samaria, ug ang Samaria sama ra ka huyang kang Hari Peka. Kon dili ka motuo, dili ka gayod molungtad.”"
                         },
                         {
                             "verse": 10,
-                            "text": "Ug si Jehova misulti pag-usab kang Achaz nga nagaingon;"
+                            "text": "Misulti pag-usab ang Ginoo kang Ahaz,"
                         },
                         {
                             "verse": 11,
-                            "text": "Pangayo ug timaan kang Jehova nga imong Dios; pangayo niini bisan sa kahiladman kun sa ibabaw sa kahitas-an."
+                            "text": "“Pangayog timailhan sa Ginoo nga imong Dios bisag kini adto sa kinahiladman sa Seol o sa kinatumyan sa langit.”"
                         },
                         {
                             "verse": 12,
-                            "text": "Apan si Achaz miingon: Dili ako mangayo, ni manulay ako kang Jehova."
+                            "text": "Apan miingon si Ahaz, “Dili ako mangayo ug dili ko sulayan ang Ginoo.” "
                         },
                         {
                             "verse": 13,
-                            "text": "Ug siya miingon: Panimati kamo karon, Oh balay ni David: Diyutay ra bang butang kaninyo ang pagsamok sa mga tawo, aron inyong pagasamokon ang Dios usab?"
+                            "text": "Ug miingon si Isaias, “Pamati, O mga kaliwat ni David! Dili pa ba igo ang inyong pagsulay sa pasensiya sa tawo nga inyo na man usab nga sulayan ang pasensiya sa Dios? "
                         },
                         {
                             "verse": 14,
-                            "text": "Busa ang Ginoo gayud maoy mohatag kaninyo ug usa ka timaan: ania karon, ang usa ka ulay manamkon, ug magaanak ug usa ka anak nga lalake, ug pagatawgon ang iyang ngalan Emmanuel."
+                            "text": "Busa ang Ginoo gayod maoy mohatag kaninyog timaan ug kini mao ang usa ka batan-ong dalaga nga manamkon ug manganak ug usa ka batang lalaki ug nganlan siyag Immanuel."
                         },
                         {
                             "verse": 15,
-                            "text": "Mantequilla ug dugos maoy iyang pagakan-on hangtud sa iyang pagkahibalo sa pagsalikway sa dautan, ug sa pagpili sa maayo."
+                            "text": "Sa panahon nga maantigo na siyang moila sa maayo ug sa daotan ang iyang pagkaon gatas ug dugos."
                         },
                         {
                             "verse": 16,
-                            "text": "Kay sa dili pa ang bata makakat-on sa pagsalikway sa dautan, ug sa pagpili sa maayo, ang yuta kansang duruha ka mga hari imong gikasilagan pagabiyaan."
+                            "text": "Sa panahon nga maantigo na siyang moila sa maayo ug sa daotan ang iyang pagkaon gatas ug dugos. "
                         },
                         {
                             "verse": 17,
-                            "text": "Si Jehova magadala sa ibabaw kanimo, ug sa ibabaw sa imong katawohan, ug sa ibabaw sa balay sa imong amahan, sa mga adlaw nga wala pa mahinabo, gikan niadtong adlawa sa pagbulag sa Ephraim gikan sa Juda, bisan ang hari sa Asiria."
+                            "text": "“Padad-an ka sa Ginoo ug mga kalisdanan nga wala mo pa mahiagomi sukad pa sa adlaw nga ang Israel mibulag sa Juda. Ipatagamtam kini sa Ginoo kanimo pinaagi sa hari sa Asiria."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug nahitabo niadtong adlawa nga sitsitan ni Jehova ang langaw nga anaa sa kinatumyang dapit sa mga suba sa Egipto, ug ang putyokan nga anaa sa yuta sa Asiria."
+                            "text": "“Niadtong adlawa taghoyan lamang sa Ginoo ang mga Ehiptohanon ug moanhi sila daw mga langaw gikan sa Suba sa Nilo. Ang mga taga-Asiria moanhi usab daw mga ligwan "
                         },
                         {
                             "verse": 19,
-                            "text": "Ug sila manganhi, ug silang tanan managpuyo sa mga walog nga biniyaan, ug diha sa mga pangas sa kapangpangan, ug ibabaw sa tanang mga tunok nga alad, ug ibabaw sa tanang pasibsibanan."
+                            "text": "ug mopuyo diha sa habog nga mga pangpang ug diha sa mga lungag sa mga bato ug magpuyo usab sila sa mga sampinit ug diha sa tanang mga sibsibanan."
                         },
                         {
                             "verse": 20,
-                            "text": "Niadtong adlawa pagaagilan sa Ginoo sa ig-alagil nga inabangan ang mga bahin sa Suba, bisan ilakip ang hari sa Asiria, ang ulo ug ang buhok sa mga tiil; ug ang bungot usab pagaut-uton niini."
+                            "text": "ug mopuyo diha sa habog nga mga pangpang ug diha sa mga lungag sa mga bato ug magpuyo usab sila sa mga sampinit ug diha sa tanang mga sibsibanan."
                         },
                         {
                             "verse": 21,
-                            "text": "Ug mahitabo niadtong adlawa, nga may usa ka tawo nga magaalima sa usa ka nating vaca, ug duruha ka carnero."
+                            "text": "“Niadtong adlawa bisan lamang ang magbuhig bayeng baka ug duha ka buok karnero "
                         },
                         {
                             "verse": 22,
-                            "text": "Ug mahitabo nga tungod sa pagkadaghan sa gatas nga ilang ihatag nga siya magakaon ug mantequilla: kay ang tagsatagsa nga mahibilin sa taliwala sa yuta magakaon sa mantequilla ug dugos"
+                            "text": "dili gayod kabsag gatas. Kay ang tanang tawo nga mahibilin sa nasod may keso ug dugos man nga makaon."
                         },
                         {
                             "verse": 23,
-                            "text": "Ug mahitabo niadtong adlawa, nga sa tagsatagsa ka dapit, nga dihay usa ka libo ka mga balagon nga nagbili ug usa ka libo ka book nga salapi, motubo ang sampinit ug tunok."
+                            "text": "“Niadtong adlawa mahimo lamang kasampinitan ang dapit nga kaniadto gitamnan ug linibo ka paras nga mobilig 12 ka kilo nga plata. "
                         },
                         {
                             "verse": 24,
-                            "text": "Uban ang mga udyong ug pana may usa nga moanha, tungod kay ang tibook yuta mahimong kasampinitan ug katunokan."
+                            "text": "Tungod kay wala na may laing manurok kondili mga sampinit ug mga tunok, mao na lay mangadto didto ang mga mangangayam. "
                         },
                         {
                             "verse": 25,
-                            "text": "Ug sa tanang mga bungtod nga kinalutan sa sarol, dili ka makaanha diha sa kahadlok tungod sa mga sampinit ug tunok; kondili kini aron kapadad-an sa vaca nga toro, ug aron pagatumban sa mga carnero."
+                            "text": "Ang tanang mga bungtod nga kaniadto kanunay nga gibugwal, mapuno na sa mga sampinit ug tunok. Mga baka ug karnero na lang ang magsuroysuroy sa tibuok yuta ug mahadlok na kamong moadto didto.”"
                         }
                     ]
                 },
@@ -74783,91 +74783,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug si Jehova miingon kanako; Kumuha ka ug usa ka dakung panit nga sulatanan, ug sulati ang ibabaw niana sa dagang sa usa ka tawo: Alang kang Maher-salal-hash-baz;"
+                            "text": "Unya giingnan ako sa Ginoo, “Pagkuhag usa ka dakong papan ug kuliti niining mosunod nga mga pulong, ‘Iya kini ni Mahersalalhasbas.’”"
                         },
                         {
                             "verse": 2,
-                            "text": "Ug akong kuhaon alang kanako ang mga saksi nga matinumanon aron sa pagtimaan, si Urias ang sacerdote, ug si Zacarias ang anak nga lalake ni Jeberechias."
+                            "text": "Bahin niini nagkuha akog mga saksi nga mao sila si Urias nga pari ug si Zacarias nga anak ni Jeberequias."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug ako nakigtipon sa manalagna nga babaye; ug siya nanamkon, ug nanganak sa usa ka bata nga lalake. Unya miingon si Jehova kanako: Tawgon mo ang iyang ngalan, Maher-salal-hash-baz."
+                            "text": "Ug nakighilawas ako sa akong asawa ug nanamkon siya ug nanganak ug batang lalaki. Unya miingon kanako ang Ginoo, “Nganli siyag Mahersalalhasbas "
                         },
                         {
                             "verse": 4,
-                            "text": "Kay sa dili pa ang bata makakat-on pagtawag: Amahan ko, ug, Inahan ko, ang mga bahandi sa Damasco ug ang inagaw sa Samaria pagakuhaon sa atubangan sa hari sa Asiria."
+                            "text": "kay sa dili pa ang bata makalitok ug ‘papa’ o ‘mama,’ sakmiton sa hari sa Asiria ang bahandi sa Damasco ug sa Samaria.”"
                         },
                         {
                             "verse": 5,
-                            "text": "Ug si Jehova misulti pa kanako pag-usab, nga nagaingon:"
+                            "text": "Gisultihan na usab ako sa Ginoo: "
                         },
                         {
                             "verse": 6,
-                            "text": "Sanglit nga gisalikway niining katawohan ang mga tubig sa Siloe nga nagaagay sa mahinay, ug nagakalipay kang Rezin ug sa anak ni Remalias;"
+                            "text": "“Tungod kay gisalikway man niining mga tawhana ang mga tubig sa Siloe nga nagdagayday ug kay nahadlok man sila kang Hari Rezin ug kang Hari Peka,"
                         },
                         {
                             "verse": 7,
-                            "text": "Busa karon, tan-awa, ang Ginoo magadala ibabaw kanila sa mga tubig sa Suba, mabaskug ug daghan, bisan ang hari sa Asiria ug ang tibook niyang himaya: ug kini mosalanap sa tanan niyang mga kanal, ug moawas sa tanan niyang kadaplinan;"
+                            "text": "ipaataki ko sa hari sa Asiria ug sa iyang kasundalohan ang Juda. Mosulong sila sama sa bul-og sa tubig sa Eufrates nga moawas sa kadaplinan niini."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug kini mobanlas ngadto sa Juda; kini mosalanap pa ug molabay; ug motubo hangtud sa liog; ug ang pagbuklad sa iyang mga pako molukop sa gilapdon sa imong yuta, Oh Emmanuel."
+                            "text": "Unya mopadayon kini pagbul-og sa tibuok Juda ug mosanap hangtod nga ma-tagaliog ang iyang giladmon ug matabonan ang tanan.” Ang Dios uban kanato! Ang binuklad niyang mga pako nanalipod sa nasod."
                         },
                         {
                             "verse": 9,
-                            "text": "Managsaba kamo, Oh mga katawohan, ug managkatibulaag kamo; ug patalinghug kamong tanan nga atua sa halayong mga yuta: managsul-ob kamo, ug managkatibulaag kamo."
+                            "text": "Panagtigom kamo, O mga katawhan, ug pagsubo kamo; pamati ug pangandam kamong anaa sa layong kayutaan."
                         },
                         {
                             "verse": 10,
-                            "text": "Panagsabut kamo, ug kini mahimong walay sangputanan; isulti ang pulong ug kini walay kapuslanan: kay ang Dios ania nagauban kanato."
+                            "text": "Pagsabotsabot kamo apan kawang lamang kini, sulti bisag unsa apan dili kini magpulos kay ania uban kanamo ang Dios."
                         },
                         {
                             "verse": 11,
-                            "text": "Kay mao kini ang giingon ni Jehova kanako uban sa kamot nga malig-on, ug gitudloan ako sa dili paglakat sa dalan niining katawohan, sa pag-ingon:"
+                            "text": "Pinaagi sa iyang gahom gipasidan-an ako sa Ginoo sa dili pagsundog sa buhat niining mga tawhana ug kini mao ang iyang gisulti kanako: "
                         },
                         {
                             "verse": 12,
-                            "text": "Ayaw kamo pag-ingon: Usa ka pagsukol, mahatungod sa tanan nga igaingon niining katawohan: Usa ka pagsukol; ni mahadlok kamo sa ilang kahadlok, ni mahikugang kamo niini."
+                            "text": "“Ayaw pagpakig-abin kanila sa ilang laraw ug ayaw kahadloki ang ilang gikahadlokan. "
                         },
                         {
                             "verse": 13,
-                            "text": "Si Jehova sa mga panon, siya maoy inyong pagabalaanon; ug pasagdi nga siya maoy inyong kahadlokan, ug siya maoy inyong kalisangan."
+                            "text": "Apan ako, ang Ginoo nga Labing Gamhanan, maoy angay mong kahadlokan kay ako balaan man. "
                         },
                         {
                             "verse": 14,
-                            "text": "Ug siya maoy mahimong balaang puloy-anan; ugaling mao ang bato sa pagkapangdol ug mao ang bato sa pagkadugmok sa duruha ka mga balay sa Israel, maoy usa ka lit-ag ug usa ka balag-ong alang sa mga molupyo sa Jerusalem."
+                            "text": "Ako ang imong dalangpanan ug ang bato nga kapandulan sa mga banay sa Israel ug sa Juda, usa ka lit-ag alang sa Jerusalem. "
                         },
                         {
                             "verse": 15,
-                            "text": "Ug daghan ang manghipangdol niini, ug manghidugmo, ug mangapiang, ug hibalag-ongan, ug panghidakpan."
+                            "text": "Daghan ang mapandol, matumba ug magupok. Malit-ag sila ug hidakpan.”"
                         },
                         {
                             "verse": 16,
-                            "text": "Hugpongon mo ang kamatuoran, patiki ang Kasugoan sa taliwala sa akong mga tinon-an."
+                            "text": "Tipigi ang mensahe sa Dios ug silyohi ang pagtulon-an diha sa akong mga tinun-an. "
                         },
                         {
                             "verse": 17,
-                            "text": "Ug hulaton ko si Jehova, nga nagatago sa iyang nawong gikan sa balay ni Jacob, ug pangitaon ko siya."
+                            "text": "Misalig ug milaom ako sa Ginoo nga wala mahimuot sa iyang katawhan."
                         },
                         {
                             "verse": 18,
-                            "text": "Ania karon, ako ug ang mga anak nga gihatag ni Jehova kanako mao ang mga timaan ug ang mga katingalahan diha sa Israel gikan kang Jehova sa mga panon, nga nagapuyo sa bukid sa Sion."
+                            "text": "Ania ako kauban sa mga anak nga gihatag sa Ginoo kanako. Ang Ginoo nga Labing Gamhanan nga nagpuyo sa Bukid sa Sion nagpadala kanamo ingon nga mga buhing mensahe ngadto sa katawhan sa Israel."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug sa dila nga sila manag-ingon kaninyo: Mangadto kamo niadtong mga espiritista ug mga salamangkiro, nga managpiyak ug managyagubyub: dili ba unta mangadto ang katawohan sa pagpangita sa ilang Dios? tungod sa mga buhi pangitaon ba nila ang mga patay?"
+                            "text": "Apan ang katawhan mosulti kaninyo sa pagpangayo ug mga mensahe gikan sa mga nagpunayg yamyam nga manalagna ug mga tigpakisayod sa mga espiritu. Moingon sila, “Ang mga tawo mangayo gayod ug mga mensahe gikan sa mga espiritu ug magpakisayod sa mga patay alang sa mga buhi.”"
                         },
                         {
                             "verse": 20,
-                            "text": "Ngadto sa Kasugoan ug sa pagpamatuod! kong sila dili managsulti sumala niining pulonga, sa pagkamatuod walay kabuntagon alang kanila."
+                            "text": "Kinahanglan tubagon ninyo sila, “Pamati sa gitudlo sa Ginoo kaninyo! Ayaw kamo pamati sa mga tigkonsulta sa mga patay kay ang ilang isulti dili makaayo kaninyo.”"
                         },
                         {
                             "verse": 21,
-                            "text": "Ug sila moagi latas niini, nga pagasakiton sa hilabihan ug pagagutmon; ug mahitabo nga, kong sila pagagutmon, nga sila mabalaka sa ilang kaugalingon, ug manunglo tungod sa ilang hari ug tungod sa ilang Dios, ug igahangad nila ang ilang mga nawong sa itaas:"
+                            "text": "Ang katawhan maglatagaw nga subo ug gutom ug tungod sa ilang kagutom, masuko sila ug mohangad sa langit ug tunglohon nila ang ilang hari ug ang ilang Dios."
                         },
                         {
                             "verse": 22,
-                            "text": "Ug sila motan-aw sa yuta, ug, ania karon, ang kasakit ug kangitngit, ang kadulom sa pagpanghupaw; ug ngadto sa mabaga nga kangitngit pagaabugon sila."
+                            "text": "Bisag asa sila motan-aw, kaguol ug kangitngit lamang ang ilang makita ug ibanlod sila ngadto sa naglugitom nga kangitngitan. Apan dili na batiog kasubo ang nag-antos kaniadto."
                         }
                     ]
                 },
@@ -74876,87 +74876,87 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Apan wala na unya ing kangitngit kaniya nga diha sa kasakit. Sa unang panahon iyang gipakaulawan ang yuta sa Zabulon ug ang yuta sa Nephtali; apan sa ulahing panahon iyang gihimo kini nga mahimayaon, tungod sa alagianan sa dagat, unahan sa Jordan, Galilea sa mga nasud."
+                            "text": "Sa miaging panahon gipakaulawan niya ang Zabulon ug ang Neftali apan sa umaabot nga mga adlaw himoon niyang nindot ang mga dapit nga duol sa dagat, ang yuta unahan sa Jordan, ang Galilea nga gipuy-an sa mga langyaw."
                         },
                         {
                             "verse": 2,
-                            "text": "Ang katawohan nga naglakaw sa kangitngitan nakakita ug usa ka dakung kahayag: sila nga nagpuyo sa yuta sa landong sa kamatayon, misidlak sa ibabaw nila ang kahayag."
+                            "text": "Ang katawhan nga kaniadto naglakaw sa kangitngit nakakitag dakong kahayag; ang nagpuyo sa mangiob nga dapit gisidlakan na sa kahayag."
                         },
                         {
                             "verse": 3,
-                            "text": "Imong gipadaghan ang nasud, imong gipatubo ang ilang kalipay: sila nagakalipay sa imong atubangan sumala sa kalipay sa pag-ani, ingon sa mga tawo nga nanagkalipay sa ilang pagbahin sa inagaw."
+                            "text": "Gipadaghan mo ang lumolupyo sa nasod, O Ginoo; gidugangan mo ang ilang kalipay; nagmaya sila diha sa imong atubangan,sama sa pagmaya sa mga tawo inigkating-ani, ug sa mga tawo inigbahinbahin nila sa ilang mga inilog."
                         },
                         {
                             "verse": 4,
-                            "text": "Kay ingon kaniadto sa adlaw sa Madian gibali mo ang yugo sa iyang palas-anon, ug ang yayongan sa iyang abaga, ang sungkod sa iyang manlulupig."
+                            "text": "Sama sa nahitabo sa Midian, gigupok mo ang yugo nga gisangon kanila, ug ang karga nga ilang gipas-an ug ang bunal sa nagdaugdaog kanila."
                         },
                         {
                             "verse": 5,
-                            "text": "Kay ang tibook hinagiban sa tawo nga sangkap sa hinagiban didto sa kagubut, ug ang mga saput nga gilimisan sa dugo, pagasunogon, nga igasugnod sa kalayo."
+                            "text": "Sunogon daw sugnod ang tanang sapatos sa mga sundalo nga nagpaingon sa gubat, ingon man ang tanang sapot nga natumog sa dugo."
                         },
                         {
                             "verse": 6,
-                            "text": "Kay alang kanato ang usa ka bata natawo, alang kanato ang usa ka anak nga lalake gihatag; ug ang kagamhanan igatungtong sa iyang abaga: ug ang iyang ngalan pagatawgon Kahibulongan, Magtatambag, Dios nga Makagagahum, Amahan nga walay Katapusan, Principe sa Pakigdait."
+                            "text": "Natawo alang kanato ang usa ka bata; gihatag kanato ang usa ka anak nga lalaki, ug siya ang magmando sa tanan ug nganlan siyag “Maalamong Magtatambag,” “Dios nga Gamhanan,” “Amahan Hangtod sa Kahangtoran,” “Prinsipe sa Pakigdait.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Sa kauswagan sa iyang kagamhanan ug sa pakigdait walay katapusan, ibabaw sa trono ni David, ug sa ibabaw sa iyang gingharian, aron sa pagtukod niini, ug sa pagtuboy niini nga may justicia ug pagkamatarung sukad karon bisan hangtud sa walay katapusan. Ang kakugi ni Jehova sa mga panon maoy magahimo niini."
+                            "text": "Walay kataposan ang pag-uswag sa iyang pagmando, ug molungtad ang kalinaw diha sa trono ni David ug sa gingharian niini; lig-onon niya kini ug palungtaron subay sa hustisya ug sa katarong, sukad karon hangtod sa kahangtoran. Himoon gayod kini sa Ginoo nga Labing Gamhanan."
                         },
                         {
                             "verse": 8,
-                            "text": "Ang Ginoo nakapadala ug usa ka pulong kang Jacob, ug kini misanag ibabaw sa Israel."
+                            "text": "Gihukman sa Ginoo ang mga kaliwat ni Jacob, ang gingharian sa Israel."
                         },
                         {
                             "verse": 9,
-                            "text": "Ug ang tibook katawohan masayud, bisan ang Ephraim ug ang pumoluyo sa Samaria, nga magaingon sa pagpagarbo ug sa kasingkasing:"
+                            "text": "Masayran kini sa tanang mga tawo, sa Efraim ug sa Samaria— nga tungod sa ilang pagkamapahitas-on, nag-ingon:"
                         },
                         {
                             "verse": 10,
-                            "text": "Ang mga ladrillo mangatumpag, apan magatukod kami uban sa bato nga tiniltilan; ang mga sicomoro gipamutol, apan pagabutangan namo ug mga cedro ang ilang dapit."
+                            "text": "“Nangatumpag ang mga balay nga tisa, apan pabarogon namo ang mga balay nga bato. Gipangguba ang mga busaog nga sikomoro, apan pulihan namo kini sa labing maayong sidro.”"
                         },
                         {
                             "verse": 11,
-                            "text": "Busa pagapadag-on ni Jehova ang mga kaaway ni Rezin batok kaniya, ug pagapaabtikon ang iyang mga kaaway,"
+                            "text": "Busa giandam sa Ginoo ang ilang mga kaaway:"
                         },
                         {
                             "verse": 12,
-                            "text": "Ang Sirianhon sa atubangan, ug ang mga Filistehanon sa likod; ug ilang pagalamyon ang Israel sa baba nga magabanganga. Mahitungod niining tanan ang iyang kasuko wala mapala, kondili gibakyaw hinoon ang iyang kamot sa gihapon."
+                            "text": "Sa sidlakan ang taga-Siria, ug sa kasadpan ang mga Filistihanon maoy molamoy sa Israel. Apan bisan pa niining tanan, wala mapuypoy ang iyang kasuko ug gibakyaw pa gihapon niya ang iyang kamot."
                         },
                         {
                             "verse": 13,
-                            "text": "Bisan pa niana ang katawohan wala makabig niadtong midagmal kanila, ni mangita sila kang Jehova sa mga panon."
+                            "text": "Ang katawhan sa Israel wala maghinulsol. Bisag gikastigo na sila sa Ginoo nga Labing Gamhanan, wala gihapon sila mobalik kaniya."
                         },
                         {
                             "verse": 14,
-                            "text": "Tungod niini pagaputlon ni Jehova gikan sa Israel ang ulo ug ikog, ang sanga sa palma ug kawayan, sa usa lamang ka adlaw."
+                            "text": "Silotan sa Ginoo ang katawhan sa Israel sulod lamang sa usa ka adlaw: ulo ug ikog, sangang dagko ug gagmay, pamutlon niya silang tanan."
                         },
                         {
                             "verse": 15,
-                            "text": "Ang anciano ug ang tawo nga halangdon, siya mao ang ulo; ug ang manalagna nga nagatudlo sa kabakakan, siya mao ang ikog."
+                            "text": "Ang mga kadagkoan ug halangdong mga tawo mao ang ulo, ug ang ikog mao ang propetang bakakon;"
                         },
                         {
                             "verse": 16,
-                            "text": "Kay sila nga nanagmando niining katawohan maoy nanagpasalaag kanila; ug sila nga minandoan nila gipanaglaglag."
+                            "text": "kay gipatibulaag man sa mga pangulo ang katawhan, ug gilamoy nila ang ilang gipangulohan."
                         },
                         {
                             "verse": 17,
-                            "text": "Tungod niini ang Ginoo dili malipay sa ilang mga batan-on nga lalake, ni malooy siya sa ilang mga ilo ug mga balo; kay ang tanan mahugaw ug mamumuhat sa dautan, ug ang tagsatagsa ka baba nagasulti sa binuang. Mahitungod niining tanan ang iyang kasuko wala mapala, kondili gibakyaw hinoon ang iyang kamot sa gihapon."
+                            "text": "Busa wala mahimuot ang Ginoo sa ilang mga batan-on, ug wala siyay kaluoy sa ilang mga ilo ug mga biyuda, kay ang tanan daotan man ug wala motuo sa Dios, ug silang tanan nagsultig binuang. Tungod niini wala gihapon mapuypoy ang iyang kasuko ug gibakyaw pa niya ang iyang kamot."
                         },
                         {
                             "verse": 18,
-                            "text": "Kay ang kadautan nagadilaab ingon sa kalayo; kini nagalamoy sa mga sampinit ug mga tunok; oo, kini nagapasiga sa mga sagbot sa kalasangan, ug sila nagalukot padulong sa itaas sa usa ka haligi nga aso."
+                            "text": "Kay sama sa kalayo makasunog ang pagkadaotan, ug ut-oton niini ang mga sampinit ug mga tunok; sunogon niini ang kakahoyan sa lasang, ug unya mosulbong kini sa itaas daw haligi nga aso."
                         },
                         {
                             "verse": 19,
-                            "text": "Ang yuta nasunog tungod sa kaligutgut ni Jehova sa mga panon; ug ang katawohan nahimong ingon sa sugnod sa kalayo: walay tawo nga magapagawas sa iyang igsoon."
+                            "text": "Kay nasuko man ang Ginoo nga Labing Gamhanan, nasunog ang yuta ug nahimong sugnod sa kalayo ang katawhan; walay moluwas sa iyang isigkatawo."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug ang usa moagaw diha sa dapit sa toong kamot, ug pagagutomon; ug siya mokaon diha sa wala nga kamot, ug sila dili mangabusog; sila mokaon ang tagsatagsa sa unod sa iyang kaugalingon bukton:"
+                            "text": "Sakmiton ug lamyon nila ang tanang pagkaon nga ilang makaplagan, apan dili gayod sila mangabusog; kan-on pa gani nila bisan ang ilang mga anak."
                         },
                         {
                             "verse": 21,
-                            "text": "Si Manases, mosubad kang Ephraim; ug si Ephraim, kang Manases, ug silang duruha managtipon batok kang Juda. Mahitungod niining tanan ang iyang kasuko wala mapala, kondili gibakyaw hinoon ang iyang kamot sa gihapon."
+                            "text": "Ang katawhan sa Manases ug ang katawhan sa Efraim nag-unay pag-away, ug sila naghiusa batok sa Juda. Bisan pa niining tanan wala gayod mapuypoy ang kasuko sa Ginoo ug gibakyaw gihapon niya ang iyang kamot."
                         }
                     ]
                 },
@@ -74965,139 +74965,139 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Alaut kanila nga nanagsugo sa dili matarung nga mga sugo, ug sa mga magsusulat nga nagasulat sa mga butang nga balit-ad;"
+                            "text": "Alaot kamong naghimog mga hiwi nga balaod nga nagdaugdaog sa akong katawhan,"
                         },
                         {
                             "verse": 2,
-                            "text": "Aron sa paghikaw sa hangul gikan sa justicia, ug sa pag-agaw gikan sa mga kabus sa akong katawohan sa ilang katungod, aron ang mga balo mahimo nga ilang inagaw, ug aron ang ilo mahimo nila nga ilang tukbonon!"
+                            "text": "ug naghikaw ug hustisya sa mga timawa, aron sakmitan ninyo ang mga biyuda ug ang mga ilo sa ilang kabtangan."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug unsa may inyong pagabuhaton sulod sa adlaw sa pagdu-aw, ug sulod sa kalaglagan nga umalabut gikan sa halayo? kang kinsa man kamo modangup aron kamo tabangan? ug asa man ninyo biyai ang inyong himaya?"
+                            "text": "Unsa may buhaton ninyo sa adlaw nga ipakanaog sa Dios ang silot? Unsa may buhaton ninyo inig-abot sa bagyo nga gikan sa layo? Kinsa may dangpan ninyo aron kamo katabangan? Ug asa man ninyo tagoi ang inyong bahandi?"
                         },
                         {
                             "verse": 4,
-                            "text": "Sila motikuko lamang ilalum sa yugo sa mga binilanggo, ug mangapukan ilalum sa yugo sa mga patay. Mahitungod niining tanan ang iyang kasuko wala mapala, kondili gibakyaw pa hinoon ang iyang kamot sa gihapon."
+                            "text": "Wala kamoy laing mahimo gawas sa pagsuot sa taliwala sa mga binilanggo, o mamatay tipon sa mga tawong gipatay. Apan bisan pa niini wala pa mapuypoy ang kasuko sa Ginoo; gibakyaw gihapon niya ang iyang kamot."
                         },
                         {
                             "verse": 5,
-                            "text": "Ho Asiriahanon, ang baras sa akong kasuko, ang sungkod nga sa kang kansang kamot anaa ang akong kaligutgut!"
+                            "text": "Ang Ginoo miingon, “Ang alaot nga Asiria mao ang bunal nga akong gamiton sa pagsilot sa akong gikasuk-an."
                         },
                         {
                             "verse": 6,
-                            "text": "Paadtoon ko siya batok sa usa ka nasud nga malaw-ayon, ug batok sa katawohan sa akong kaligutgut pagahatagan ko siya ug sugo, aron sa pagkuha sa inagaw, ug aron sa pagkuha sa tukbonon, ug aron sila pagatumban sama sa lapok sa mga dalan."
+                            "text": "Ipasulong ko sa Asiria ang nasod nga wala moila kanako, mga tawo nga nakapasuko kanako; sugoon ko siya sa pagsakmit sa kabtangan ug pagyatakyatak sa katawhan daw lapok sa kadalanan.”"
                         },
                         {
                             "verse": 7,
-                            "text": "Apan siya wala magtinguha sa ingon; ni maghunahuna ang iyang kasingkasing sa ingon; kondili anaa sa iyang kasingkasing ang paglumpag, ug ang paglaglag sa mga nasud nga dili diyutay."
+                            "text": "Apan may daotang laraw ang hari sa Asiria; maoy tuyo niya ang paglaglag ug pagpuo sa daghang kanasoran;"
                         },
                         {
                             "verse": 8,
-                            "text": "Kay siya nagaingon: Dili ba mga hari ang tanan nga mga principe ko?"
+                            "text": "kay nag-ingon man siya, “Dili ba mga hari man ang tanang mga opisyal sa akong kasundalohan?"
                         },
                         {
                             "verse": 9,
-                            "text": "Dili ba ang Calno sama sa Carchemis? dili ba ang Hamath sama sa Arphad? dili ba ang Samaria sama sa Damasco?"
+                            "text": "Dili ba nailog ko man ang siyudad sa Calno ug sa Carkemis? Ug dili ba nailog ko man usab ang mga siyudad sa Hamat ug Arfad ingon man ang Samaria ug Damasco?"
                         },
                         {
                             "verse": 10,
-                            "text": "Ingon nga ang akong kamot nakakaplag sa mga gingharian sa mga dios-dios kansang mga larawan nga linilok minglabaw niadtong atua sa Jerusalem ug sa Samaria;"
+                            "text": "Gisilotan ko man gani ang mga gingharian nga mas daghan pag diosdios kay sa Jerusalem ug sa Samaria,"
                         },
                         {
                             "verse": 11,
-                            "text": "Dili ba ako, ang ingon sa gibuhat ko sa Samaria ug sa iyang mga dios-dios, pagabuhaton ko usab sa Jerusalem ug sa iyang mga dios-dios?"
+                            "text": "unya dili ko ba diay mabuhat ngadto sa Jerusalem ug sa mga diosdios niini ang akong gibuhat sa Samaria ug sa iyang mga diosdios?”"
                         },
                         {
                             "verse": 12,
-                            "text": "Sa maong pagkaagi mahitabo, nga, sa mabuhat sa Ginoo ang tibook niyang buhat ibabaw sa bukid sa Sion ug sa Jerusalem, silotan ko ang bunga sa magahi nga kasingkasing sa Asiria, ug ang himaya sa iyang mapahitas-on nga mga pagpanan-aw."
+                            "text": "Inigkahuman sa Ginoo sa tanan niyang buhat didto sa Bukid sa Sion ug sa Jerusalem, silotan niya ang pagkamapahitas-on sa hari sa Asiria ug ang iyang pagpasigarbo."
                         },
                         {
                             "verse": 13,
-                            "text": "Kay siya miingon: Tungod sa kusog sa akong kamot nahimo nako kini, ug tungod sa akong kaalam; kay ako adunay pagsabut: ug akong nakuha ang mga utlanan sa mga katawohan, ug natulis nako ang ilang mga bahandi, ug sama sa usa ka lalake nga maisug gipakamang ko sila nga nanaglingkod sa mga trono:"
+                            "text": "Kay miingon man ang hari sa Asiria: “Ang kusog sa akong kamot ingon man ang akong kaalam maoy naghimo niini, giilog ko ang mga nasod ug gisakmit ko ang ilang mga katigayonan; sama sa usa ka torong baka gilumpag ko ang ilang mga trono ug gipalukapa ko ang naglingkod niini."
                         },
                         {
                             "verse": 14,
-                            "text": "Ug hingkaplagan sa akong kamot ingon sa usa ka salag ang mga bahandi sa mga katawohan; ug sama sa usa nga nagahipos sa mga itlog nga biniyaan, gihipos ko ang tanang yuta: ug walay usa nga mikapakapa, kun mibuka sa baba, kun mipiyak."
+                            "text": "Nakaplagan ko ang bahandi sa katawhan; sama kini sa mga itlog nga anaa sa salag. Ug sama sa mga tawo nga nanguha sa mga itlog nga gipamiyaan na, gipanguha ko ang mga bahandi sa tibuok kalibotan, ug walay kuyabog didto nga mikapakapa o minganga o mipiyak.”"
                         },
                         {
                             "verse": 15,
-                            "text": "Makapangandak ba ang wasay sa iyang kaugalingon batok niadtong nagagamit kaniya nga nagaputol uban niini? Ang gabas makapadaku ba sa iyang kaugalingon batok niadtong nagasalsal kaniya? Daw ingon sa usa ka baras nga buot mosalsal kanila nga maoy nagaalsa kaniya, daw ingon sa usa ka sungkod nga buot moalsa sa tawo nga dili man kahoy."
+                            "text": "Apan ang Ginoo miingon, “Manghambog ba ang wasay nga labaw kini kay sa tawo nga naggamit niini? O magpagarbo ba ang gabas batok sa tawo nga naggamit niini? Ang lipak ba maoy mobunal sa naggamit niini? O ang sungkod ba hinuon ang moalsa sa tawo nga nagsungkod niini?”"
                         },
                         {
                             "verse": 16,
-                            "text": "Tungod niini ang Ginoo, nga si Jehova sa mga panon, magapadala ug kaniwang sa iyang mga matambok; ug ubos sa iyang himaya anaay modilaab nga sama sa kasiga sa kalayo."
+                            "text": "Busa ang Ginoo, ang Ginoo nga Labing Gamhanan, magpadalag sakit aron pagsilot sa mga maayog lawas; diha kanila magdilaab kanunay ang kalayo."
                         },
                         {
                             "verse": 17,
-                            "text": "Ug ang suga sa Israel mamahimong kalayo, ug ang iyang Balaan mahimong usa ka siga; ug kini mosunog ug magalamoy sa iyang mga tunok ug sa iyang mga sampinit sulod sa usa ka adlaw."
+                            "text": "Mahimong kalayo ang kahayag sa Israel, mahimong siga ang Balaang Dios. Mosunog kini ug moagiw sa mga tunok ug sampinit sulod sa usa ka adlaw lamang."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug iyang pagaut-uton ang himaya sa iyang kalasangan, ug ang sa iyang mabungaon nga baul, silang duruha ang kalag ug ang lawas: ug maingon sa usa ka magdadala sa bandila nga gipugdaw."
+                            "text": "Wagtangon sa Ginoo ang katahom sa kalasangan ug sa yuta nga daghag abot; wala gayod siyay ibilin, ug ang mahitabo sama unya sa tawong masakiton nga nag-anam ug kaniwang."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug ang mahabilin sa mga kahoy sa iyang kalasangan nihit lamang, sa ingon masulat lamang sa usa ka bata."
+                            "text": "Pipila na lang ka kahoy ang mahibilin sa iyang lasang ug mahimo lag iphon sa usa ka bata."
                         },
                         {
                             "verse": 20,
-                            "text": "Ug mahitabo niadtong adlawa, nga ang mahabilin sa Israel, ug sila nga nanagpakagawas sa balay ni Jacob, dili na mosandig kaniya nga nagdagmal kanila, kondili mosandig hinoon kang Jehova, ang Balaan sa Israel, sa pagkamatuod."
+                            "text": "Niadtong adlawa ang mahibilin sa katawhan sa Israel dili na mosalig sa mga nasod nga naglaglag kanila kondili mosalig sila sa Ginoo, ang Balaang Dios sa Israel, sa kinasingkasing gayod. "
                         },
                         {
                             "verse": 21,
-                            "text": "May usa ka salin nga magabalik, nga mao ang nahabilin ni Jacob, ngadto sa Dios nga makagagahum."
+                            "text": "Mobalik ang nahibilin nga kaliwat ni Jacob ngadto sa makagagahom nga Dios. "
                         },
                         {
                             "verse": 22,
-                            "text": "Kay bisan ang imong katawohan Israel, maingon sa balas sa dagat, usa ka salin lamang ang mahiuli: ang usa ka paglaglag gilagal na, nga magaawas sa pagkamatarung."
+                            "text": "Kay bisag ang katawhan sa Israel sama kadaghan sa balas sa dagat, diyutay lamang kanila ang mahibilin. Gitakda na ang makatarunganon nga kalaglagan nga angay sa ilang pagkadaotan."
                         },
                         {
                             "verse": 23,
-                            "text": "Kay ang usa ka hingpit nga katapusan, ug kana ginatagal na, hinoon sa Ginoo, nga si Jehova sa mga panon, sa taliwala sa tibook nga yuta."
+                            "text": "Kay ang Ginoong Dios nga Labing Gamhanan, maoy mopahamtang niini sumala sa iyang hukom nga gipahibalo na sa tibuok kalibotan."
                         },
                         {
                             "verse": 24,
-                            "text": "Busa mao kini ang giingon sa Ginoo, nga si Jehova sa mga panon: Oh katawohan ko nga nagapuyo sa Sion, ayaw kahadlok sa Asirianhon, bisan pa siya magabunal kanimo sa usa ka baras, ug pagabakyawon niya ang iyang sungkod batok kanimo, sumala sa batasan sa Egipto."
+                            "text": "Busa nag-ingon ang Ginoong Dios nga Labing Gamhanan, “O katawhan ko nga nagpuyo sa Sion, ayaw kahadlok sa taga-Asiria bisag daugdaogon kamo nila sama sa gibuhat sa mga Ehiptohanon kaninyo. "
                         },
                         {
                             "verse": 25,
-                            "text": "Kay sa dili madugay, ug ang kasilag batok kanimo mamatuman, ug ang akong kasuko igapatumong sa iyang pagkagun-ob."
+                            "text": "Kay sa dili madugay mapuypoy na ang akong kasuko kaninyo ug ang akong kapungot ako nang itumong sa mga taga-Asiria."
                         },
                         {
                             "verse": 26,
-                            "text": "Ug si Jehova sa mga panon magapalihok sa usa ka latigo batok kaniya, ingon sa pagpamatay didto sa Madian duol sa bato sa Horeb: ug ang iyang baras iyang ibakyaw sa ibabaw sa dagat, ug iya kini nga igabakyaw sama sa batasan sa Egipto."
+                            "text": "Ug kastigohon ko sila sama sa gibuhat ko sa taga-Midian didto sa bato sa Oreb ug bakyawon ko ang akong bunal ibabaw sa dagat sama sa gibuhat ko didto sa Ehipto. "
                         },
                         {
                             "verse": 27,
-                            "text": "Ug mahitabo niadtong adlawa, nga ang iyang palas-anon makuha gikan sa imong abaga, ug ang iyang yugo gikan sa imong liog, ug ang yugo pagabalion pinaagi sa pagkatambok."
+                            "text": "Inig-abot niadtong panahona, luwason ko kamo gikan sa gahom sa Asiria ug tangtangon ko ang yugo nga ilang gisangon sa inyong abaga.”"
                         },
                         {
                             "verse": 28,
-                            "text": "Siya miabut sa Ajad, siya miagi sa Migron; didto sa Michmas gipundok niya ang iyang kasangkapan;"
+                            "text": "Mitungas ang mga kaaway gikan sa Rimnon ug miadto sa Ai; miagi sila sa Migron ug gitipigan nila ang ilang kabtangan didto sa Micmas"
                         },
                         {
                             "verse": 29,
-                            "text": "Sila mingtabok na sa alagianan; sila anaa nanagpuyo sa Geba; ang Rama mikurog; ang Gabaa ni Saulo mikalagiw."
+                            "text": "tapos nila malatas ang walog, namahulay sila sa pagkagabii didto sa Geba; nangahadlok ang mga taga-Rama ug nangagiw ang katawhan sa Gibeah, ang lungsod ni Saul."
                         },
                         {
                             "verse": 30,
-                            "text": "Suminggit ka sa makusug sa imong tingog, Oh anak ni Galim! Panimati, Oh Lais! Oh ikaw alaut nga Anathoth!"
+                            "text": "Tuaw, O katawhan sa Galim! Pamati, O katawhan sa Laisa! Tubag, O katawhan sa Anatot."
                         },
                         {
                             "verse": 31,
-                            "text": "Madmena maoy katawohan nga kagiw; ang mga molupyo sa Gebim nangalagiw aron maluwas."
+                            "text": "Mikagiw ang mga lumolupyo sa Madmena ug sa Gebim aron paglikay sa kadaot."
                         },
                         {
                             "verse": 32,
-                            "text": "Niini gayud nga adlawa siya mohunong didto sa Nob: ginauyog niya ang iyang kamot diha sa bukid sa anak nga babaye sa Sion, ang bungtod sa Jerusalem."
+                            "text": "Karong adlawa anaa mohunong ang mga kaaway sa lungsod sa Nob, ug iwarawara nila ang ilang kumo batok sa bungtod sa Sion, ang siyudad sa Jerusalem."
                         },
                         {
                             "verse": 33,
-                            "text": "Ania karon, ang Ginoo, si Jehova sa mga panon, pamutlan niya ang mga sanga uban sa gahum nga makalilisang: ug ang kahabog sa tindog pagapul-ongon, ug ang hatag-as pagapaub-son."
+                            "text": "Moanhi ang Ginoo, ang Ginoo nga Labing Gamhanan, ug bunggoon niya ang mga sanga sa kakahoyan pinaagi sa makalilisang niyang gahom; mangabunggo ug mangapukan gayod ang mga kahoyng habog."
                         },
                         {
                             "verse": 34,
-                            "text": "Ug iyang pagaputlon ang masiut nga kakahoyan sa kalasangan pinaagi sa puthaw, ug ang Libano mahulog pinaagi sa kamot nga makagagahum."
+                            "text": "Pamutlon niya sa wasay ang bagang kakahoyan sa kalasangan, ug mangapukan ang labing maayong kahoy sa Lebanon."
                         }
                     ]
                 },
@@ -75106,67 +75106,67 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug may mogula nga usa ka, saha gikan sa punoan ni Isai, ug mobunga ang usa ka sanga gikan sa iyang mga gamot."
+                            "text": "Ang harianong kaliwatan ni David nahisama sa usa ka kahoy nga giputol. Apan sama nga ang tuod manalingsing, motungha usab ang usa ka bag-ong hari gikan sa kaliwatan ni David."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang Espiritu ni Jehova mopuyo sa ibabaw kaniya, ang espiritu sa kaalam ug sa pagsabut, ang espiritu sa pagtambag ug kagahum, ang espiritu sa kahibalo ug sa kahadlok kang Jehova."
+                            "text": "Ang Espiritu sa Ginoo maanaa kaniya ug mohatag kaniyag kaalam ug kahibalo ug katakos sa pagmando sa iyang katawhan. Mahibaw-an niya ang kabubut-on sa Ginoo ug magbaton siyag kahadlok ug pagtahod kaniya"
                         },
                         {
                             "verse": 3,
-                            "text": "Ug ang iyang kalipay anaa sa kahadlok kang Jehova; ug siya dili magahukom sumala sa panan-aw sa iyang mga mata, ni mosaway siya sumala sa mabati sa iyang mga igdulungog;"
+                            "text": "ug malipay siya sa pagsugot kaniya. Dili siya maghukom sumala sa iyang makita o pinasikad sa iyang madungog."
                         },
                         {
                             "verse": 4,
-                            "text": "Kondili uban ang justicia magahukom siya sa mga kabus, ug pakanaugan niya sa hukom uban ang katul-id kadtong mga mapainubsanon sa yuta: ug pagahampakon niya ang yuta sa baras sa iyang baba; ug pinaagi sa gininhawa sa iyang mga ngabil pagapatyon niya ang tawong dautan."
+                            "text": "Hukman hinuon niya sa katarong ang mga kabos, ug hatagan niya sa hustisya ang mga walay ikapanalipod sa ilang kaugalingon. Pinaagi sa iyang sugo, silotan ang katawhan ug mamatay ang mga tawong daotan."
                         },
                         {
                             "verse": 5,
-                            "text": "Ug ang pagkamatarung mao ang bakus sa iyang hawak, ug ang pagkamatinumanon mao ang bakus sa iyang lawas."
+                            "text": "Mandoan niya ang iyang katawhan pinasubay sa hustisya ug katarong."
                         },
                         {
                             "verse": 6,
-                            "text": "Ug ang lobo mopuyo uban sa nating carnero, ug ang leopardo mohigda uban sa nating kanding; ug ang nating vaca ug ang nating leon ug ang linaming nga mananap manag-ipon sila; ug ang usa ka bata nga gamay maoy magamando kanila."
+                            "text": "Magtipon na pagpuyo ang lobo ug ang nating karnero, ang nating kanding ug ang liyopardo, ang liyon ug ang nating baka, ug gamayng bata ang maggiya kanila."
                         },
                         {
                             "verse": 7,
-                            "text": "Ug ang vaca ug ang oso managsibsib; ug ang ilang mga nati manag-ipon sa paglubog; ug ang leon mosibsib sa kompay sama sa torong vaca."
+                            "text": "Maghigalaay ang baka ug ang oso ug magdulog ang ilang mga anak; ang liyon magkaon na lag dagami sama sa baka."
                         },
                         {
                             "verse": 8,
-                            "text": "Ug ang mga bata nga masuso magadula sa lungag sa sawa, ug ang bata nga linutas mokuot sa langub sa halas nga bahion."
+                            "text": "Ang batang masuso magdula diha sa pinuy-anan sa halas nga malala, ug ang batang linutas mokuot sa lungib sa bitin."
                         },
                         {
                             "verse": 9,
-                            "text": "Dili nila pagadauton ni pagagub-on ang tibook ko nga bukid nga balaan; kay ang yuta mapuno sa kahibalo kang Jehova, ingon sa mga tubig nga nagatabon sa dagat."
+                            "text": "Dili na sila magpinatyanay didto sa balaang bukid sa Dios, kay ang kahibalo sa Ginoo molukop man sa tibuok kalibotan sama sa tubig sa kadagatan."
                         },
                         {
                             "verse": 10,
-                            "text": "Ug mahitabo niadtong adlawa, nga ang gamot ni Isai, nga nagatindog ingon nga usa ka bandila sa mga katawohan, kaniya mangita ang mga nasud; ug ang iyang dapit nga pagapahulayan mahimong mahimayaon."
+                            "text": "Niadto unyang panahona ang hari nga kaliwat ni David mahimong ilhanan alang sa tanang katawhan. Ang kanasoran modangop kaniya ug mapuno sa himaya ang iyang puloy-anan."
                         },
                         {
                             "verse": 11,
-                            "text": "Ug mahitabo niadtong adlawa, nga igadapion pag-usab sa Ginoo ang iyang kamot sa ikaduha aron sa pagbawi sa salin sa iyang katawohan, nga mahabilin pa, gikan sa Asiria, ug gikan sa Egipto, ug gikan sa Parthia, ug gikan sa Etiopia, ug gikan sa Persia, ug gikan sa Caldea, ug gikan sa Amath, ug gikan sa mga pulo sa dagat."
+                            "text": "Niadto unyang panahona gamiton na usab sa Ginoo ang iyang gahom aron pagtigom sa nahibilin niyang katawhan nga atua sa Asiria, sa Ehipto, sa Patros, sa Etiopia, sa Elam, sa Babilonia, sa Hamat ug sa mga pulo."
                         },
                         {
                             "verse": 12,
-                            "text": "Ug siya magatindog ug usa ka bandila alang sa mga nasud, ug magapatigum sa hininginlan gikan sa Israel, ug pagatigumon ang nangapatlaag gikan sa Juda gikan sa upat ka kasuokan sa yuta."
+                            "text": "Iisa niya ang usa ka bandila aron masayod ang kanasoran nga tigumon niya ang mga sinalikway nga katawhan sa Israel ug ang nagkatibulaag nga katawhan sa Juda gikan sa upat ka suok sa kalibotan."
                         },
                         {
                             "verse": 13,
-                            "text": "Ang kasina usab sa Ephraim mawala, ug sila nga nanagsamok kang Juda pagalaglagon: ang Ephraim dili na masina sa Juda, ug ang Juda dili magasamok kang Ephraim."
+                            "text": "Dili na masina ang Israel ug mangamatay kadtong magsamok sa Juda. Dili na masina ang Israel sa Juda ug dili na samukon sa Juda ang Israel."
                         },
                         {
                             "verse": 14,
-                            "text": "Ug sila manghugpa sa abaga sa mga Filistehanon didto sa kasaladpan; managhiusa sila sa pagpangagaw sa mga butang sa mga anak sa silangan: ilang igatuy-od ang ilang kamot sa Edom ug sa Moab; ug ang mga anak sa Ammon managtahud kanila."
+                            "text": "Sulongon hinuon nila ang Filistia didto sa kasadpan, ug ilang buntogon ang katawhan sa sidlakan. Mailog nila ang Moab ug ang Edomea, ug mag-alagad kanila ang katawhan sa Ammon."
                         },
                         {
                             "verse": 15,
-                            "text": "Ug sa hingpit pagalaglagon ni Jehova ang dila sa dagat sa Egipto; ug uban ang iyang hangin nga makamala igabakyaw niya ang iyang kamot ibabaw sa Suba, ug kini pagabulagon niya sa pito ka mga sapa, ug palatason niya ang mga tawo nga mala ang mga tiil."
+                            "text": "Pahubason sa Ginoo ang dagat sa Ehipto pinaagi sa init nga hangin, magbilin lamang siyag pito ka sapa, aron makatabok nga maglakaw ang katawhan."
                         },
                         {
                             "verse": 16,
-                            "text": "Ug adunay dalan nga halapad alang sa salin sa iyang katawohan, nga mopabilin, gikan sa Asiria; ingon nga dihay salin sa Israel sa adlaw sa iyang paggula gikan sa yuta sa Eqipto."
+                            "text": "Mag-andam siyag lapad nga dalan nga agian sa nahibilin niyang katawhan gikan sa Asiria, sama nga may giagian ang katawhan sa Israel sa ilang pagbiya sa Ehipto."
                         }
                     ]
                 },
@@ -75175,27 +75175,27 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ug niadtong adlawa ikaw magaingon: Pagapasalamatan ko ikaw, Oh Jehova; kay bisan ikaw nasuko kanako, ang imong kasuko gikuha mo, ug ako gilipay mo."
+                            "text": "Niadto unyang panahona ang katawhan mag-awit: “Pasalamatan ko ikaw, O Ginoo, kay bisan ug nasuko ka kanako kaniadto karon nahupay na kini ug gilipay mo ako."
                         },
                         {
                             "verse": 2,
-                            "text": "Ania karon, ang Dios mao ang akong kaluwasan; ako masalig, ug dili mahadlok: kay si Jehova, bisan si Jehova, mao ang akong kusog ug ang akong alawiton; ug siya nahimong kaluwasan ko."
+                            "text": "Ang Dios maoy nagluwas kanako busa mosalig ako kaniya ug dili mahadlok, kay ang Ginoong Dios mao may akong kusog ug panalipod ug siya ang akong manluluwas."
                         },
                         {
                             "verse": 3,
-                            "text": "Busa uban ang kalipay kamo managtimba ug tubig gikan sa mga atabay sa kaluwasan."
+                            "text": "Uban sa kalipay magkalos ako sa mga atabay sa kaluwasan.”"
                         },
                         {
                             "verse": 4,
-                            "text": "Ug niadtong adlawa kamo magaingon: Pasalamati si Jehova, sangpita ang iyang ngalan, ipahayag ang iyang mga buhat sa taliwala sa mga katawohan, pahibalo nga ang iyang ngalan ginabayaw."
+                            "text": "Ug niadto unyang adlawa ang katawhan moingon: “Pasalamati ninyo ang Ginoo; sangpita ang iyang ngalan; imantala ang iyang mga nahimo ngadto sa kanasoran, ug isangyaw nga halangdon ang iyang ngalan."
                         },
                         {
                             "verse": 5,
-                            "text": "Manag-awit kamo kang Jehova; kay siya nakabuhat ug mga butang maayo uyamut: isangyaw kini sa tibook nga yuta."
+                            "text": "Pag-awit ug mga pagdayeg sa Ginoo, kay kahibulongan ang iyang mga buhat; imantala kini sa tibuok kalibotan."
                         },
                         {
                             "verse": 6,
-                            "text": "Suminggit ka ug tumiyabaw, ikaw pumoluyo sa Sion; kay daku ang Balaan sa Israel sa imong kinataliwad-an."
+                            "text": "Singgit ug pag-awit tungod sa kalipay, O kamong katawhan sa Sion, kay gamhanan ang Balaang Dios sa Israel nga anaa sa inyong taliwala.”"
                         }
                     ]
                 },
@@ -75204,91 +75204,91 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang palas-anon sa Babilonia, nga nakita ni Isaias ang anak nga lalake ni Amoz."
+                            "text": "Mao kini ang mensahe sa Dios bahin sa Babilonia nga nadawat ni Isaias nga anak ni Amos."
                         },
                         {
                             "verse": 2,
-                            "text": "Magpatindog kamo ug usa ka bandila ibabaw sa usa ka hubo nga bukid, ipatugbaw ninyo ang tingog kanila, ikamay ang kamot, aron sila mangadto sa mga ganghaan sa mga halangdon."
+                            "text": "Didto sa usa ka bungtod nga hawan kaayo, iisa ang usa ka bandila ug singgit ug kusog ngadto sa mga sundalo; sinyasi sila sa imong kamot aron pagsulong sa garbosong siyudad."
                         },
                         {
                             "verse": 3,
-                            "text": "Gisugo ko ang akong mga binalaan, oo, gitawag ko ang akong mga tawong gamhanan alang sa akong kasuko, bisan ang akong mga mahimayaon sa pagpagarbo."
+                            "text": "Gimandoan ko na ang akong mga piniling sundalo, mga tawong andam sa pagpahamtang sa akong kasuko."
                         },
                         {
                             "verse": 4,
-                            "text": "Ang kagahub sa usa ka panon sa katawohan diha sa kabukiran, ingon sa usa ka dakung katawohan! usa ka kagahub nga magubuton sa mga gingharian sa mga nasud nga nanagkatigum pagtingub! Si Jehova sa mga panon nagapundok sa kasundalohan alang sa panggubatan."
+                            "text": "Pamatia ang kaguliyang sa daw daghang katawhan didto sa mga bukid! Pamatia ang kaguliyang sa mga gingharian ug sa mga nasod nga nagkatigom! Ang Ginoo nga Labing Gamhanan nagtigom ug kasundalohan alang sa usa ka gubat."
                         },
                         {
                             "verse": 5,
-                            "text": "Sila nagagikan sa usa ka halayo nga dapit, gikan sa kinatumyan sa langit, bisan si Jehova, ug ang mga hinagiban sa iyang kalagut, aron sa paglaglag sa tibook nga yuta."
+                            "text": "Gikan sila sa mga nasod nga layo kaayo; kini sila mao ang kasangkapan sa Ginoo sa pagpahamtang sa iyang kasuko aron paggun-ob sa tibuok kalibotan."
                         },
                         {
                             "verse": 6,
-                            "text": "Managdangoyngoy kamo; kay ang adlaw ni Jehova haduol na; kini moabut ingon nga paglaglag nga gikan sa Makagagahum."
+                            "text": "Tiyabaw, kay duol na ang adlaw sa Ginoo, adlaw nga ipahamtang niya ang kalaglagan."
                         },
                         {
                             "verse": 7,
-                            "text": "Busa ang tanang mga kamot magamaluya, ug ang tagsatagsa ka kasingkasing sa tawo matunaw:"
+                            "text": "Busa kawad-ag umoy ang tanang kamot ug malisang ang tanang katawhan,"
                         },
                         {
                             "verse": 8,
-                            "text": "Ug sila mangalisang; pagadakpon sila sa mga kasakit ug mga kasub-anan; sila mobati ug kaul-ul ingon sa usa ka babaye nga magaanak: sila managtan-aw sa usa ug ang usa nga mahibulong; ang ilang mga nawong mangahimong mga nawong sa siga."
+                            "text": "ug mangaluya sila. Bation nila ang hilabihang kasakit sama sa bation sa babayeng nagbati. Magtinan-away sila nga pulos nalisang ug mamula ang ilang nawong sa kaulaw."
                         },
                         {
                             "verse": 9,
-                            "text": "Ania karon, ang adlaw ni Jehova nagasingabut na, mabangis, uban ang kaligutgut ug mapintas nga kasuko; aron sa paghimo sa yuta nga makamingawan, ug aron sa paglaglag sa mga makasasala nga mapanas gikan niini."
+                            "text": "Moabot gayod ang adlaw sa Ginoo, pintas ug inubanan sa hilabihang kapungot aron paggun-ob sa kalibotan ug paglaglag sa mga makasasala."
                         },
                         {
                             "verse": 10,
-                            "text": "Kay ang mga bitoon sa langit ug ang mga tapok sa bitoon niini dili mohatag sa ilang kahayag; ang adlaw magangitngit sa iyang pagsubang, ug ang bulan dili mohatag sa iyang dan-ag."
+                            "text": "Kay ang mga kabituonan sa langit dili na modan-ag; mosubang ang adlaw nga magdagtom ug dili usab mohayag ang bulan."
                         },
                         {
                             "verse": 11,
-                            "text": "Ug pagasilotan ko ang kalibutan tungod sa ilang pagkadautan, ug ang mga tawong dautan tungod sa ilang kasal-anan: ug pahunongon ko ang pagkamapahitas-on sa mga palabilabihon, ug pagapaubson ko ang pagkamapahitas-on sa mga tawong makalilisang."
+                            "text": "Silotan ko ang kalibotan tungod sa kadaotan niini, ingon man ang mga daotan tungod sa ilang kalapasan. Taposon ko ang garbo sa mga mapahitas-on, ug putlon ko ang pagkamapahitas-on sa mga walay kaluoy."
                         },
                         {
                             "verse": 12,
-                            "text": "Pagahimoon ko ang usa ka tawo nga labing mahal pa kay sa bulawan nga ulay, bisan ang usa ka tawo molabaw pa kay sa bulawan nga lunsay sa Ophir."
+                            "text": "Himoon ko ang tawo nga mas nihit kay sa lunsayng bulawan sa Ofir."
                         },
                         {
                             "verse": 13,
-                            "text": "Tungod niini pakurogon ko ang kalangitan, ug ang yuta matay-og gikan sa iyang dapit, sa kaligutgut ni Jehova sa mga panon, ug sa adlaw sa iyang mapintas nga kasuko."
+                            "text": "Uyogon ko ang kalangitan, ug matay-og ang kalibotan sa nahimutangan niini tungod sa akong kapungot inigpahamtang ko sa akong kabangis."
                         },
                         {
                             "verse": 14,
-                            "text": "Ug mahitabo, nga ingon sa lagsaw nga gilanat, ug ingon sa carnero nga walay nagahipos, silang tagsatagsa mobalik sa iyang katawohan, ug ang tagsatagsa ka tawo mokalagiw ngadto sa iyang kaugalingong yuta."
+                            "text": "Ang mga langyaw managan balik sa ilang mga nasod, sama sa mga giayam nga lagsaw o sa mga karnero nga walay magbalantay."
                         },
                         {
                             "verse": 15,
-                            "text": "Ang tagsatagsa nga hipalgan pagapalapsan; ug ang tagsatagsa nga hisakpan kanila mapukan pinaagi sa espada."
+                            "text": "Kadtong hidakpan patyon pinaagi sa espada."
                         },
                         {
                             "verse": 16,
-                            "text": "Ang ilang mga bata usab pagadugmokon sa atubangan sa ilang mga mata; ang ilang kabalayan pagatulison, ug ang ilang mga asawa pagalugoson."
+                            "text": "Ilambus ang ilang mga masuso hangtod mamatay samtang magtan-aw sila; tulison ang ilang kabalayan ug panglugoson ang ilang mga asawa."
                         },
                         {
                             "verse": 17,
-                            "text": "Ania karon, pagapaalsahon ko ang mga Medos batok kanila, nga dili motagad ug salapi; ug mahatungod sa bulawan, sila dili magakalipay niini."
+                            "text": "Ipasulong ko ang taga-Babilonia sa taga-Media nga wala mahangol sa plata ug sa bulawan."
                         },
                         {
                             "verse": 18,
-                            "text": "Ug ang ilang mga pana modugmok sa ilang mga batan-ong lalake; ug sila walay kalooy sa bunga sa tagoangkan; ang ilang mga mata dili mopagawas sa mga kabataan."
+                            "text": "Pamatyon ang ilang mga batan-ong lalaki pinaagi sa pana; wala silay kaluoy sa gagmayng kabataan."
                         },
                         {
                             "verse": 19,
-                            "text": "Ug ang Babilonia, ang himaya sa mga gingharian, ang katahum nga maoy garbo sa mga Caldeanhon, mahimong ingon sa Sodoma ug Gomorra sa paglumpag sa Dios niini."
+                            "text": "Ang Babilonia, ang labing matahom sa mga gingharian ug garbo sa nga Caldeanhon, mahisama sa Sodoma ug sa Gomora inigkastigo na sa Dios kanila."
                         },
                         {
                             "verse": 20,
-                            "text": "Kini dili na gayud pagatawoan, ni pagapuy-an pa gikan sa usa ka kaliwatan hangtud sa usa ka kaliwatan: ni motaod pa ang mga Arabiahanon sa balong-balong didto; ni mopahigda didto ang mga magbalantay sa carnero sa ilang mga panon."
+                            "text": "Wala nay mopuyo niini hangtod sa kahangtoran. Wala na unyay taga-Arabia nga magtukod sa iyang tolda didto, ug wala nay mga magbalantay sa mga karnero nga adto didto mopapahulay sa ilang mga hayop."
                         },
                         {
                             "verse": 21,
-                            "text": "Apan ang ihalas nga mga mananap sa kamingawan mao ang mohigda didto; ug ang ilang mga kabalayan mangapuno sa makalolooy nga mga binuhat; ug managpuyo didto ang mga avestruz, ug ang mga kanding ihalas managlukso didto."
+                            "text": "Ang mamuyo didto mao na ang mga mananap nga ihalas ug ang kabalayan mapuno sa saba nga mga mananap. Adto na didto puyo ang abistros ug magduladula didto ang mga ihalas nga kanding."
                         },
                         {
                             "verse": 22,
-                            "text": "Ug ang mga lobo manag-uwang sulod sa ilang mga castillo, ug ang mga mananap nga mapintas sa maanindot nga palacio: ug ang iyang panahon haduol nang moabut, ug ang iyang mga adlaw dili na pagalugwayan."
+                            "text": "Didto sa mga tore ug palasyo mao nay mamuyo ang mga irong ihalas  Duol na ang kataposan sa Babilonia ug moabot kini sa walay langan."
                         }
                     ]
                 },
@@ -75297,131 +75297,132 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Kay malooy si Jehova kang Jacob, ug pagapilion pa niya ang Israel, ug igapahaluna sila sa ilang kaugalingong yuta: ug ang lumalangyaw makigtipon uban kanila, ug sila motipon sa balay ni Jacob."
+                            "text": "Ipakita pag-usab sa Ginoo ang iyang kaluoy sa iyang katawhan, ang Israel, ug pilion gihapon niya sila nga iyang kaugalingon. Ipahiluna niya sila sa ilang kaugalingong yuta ug ang mga langyaw motipon kanila pagpuyo."
                         },
                         {
                             "verse": 2,
-                            "text": "Ug ang mga katawohan mokuha kanila, ug modala kanila ngadto sa ilang dapit; ug ang balay sa Israel manag-iya kanila sa yuta ni Jehova ingon nga mga sulogoong lalake ug mga sulogoong babaye: ug sila pagadad-on nila nga binihag kay ila man sila nga mga binihag; ug sila magaagalon sa mga malupigon kanila."
+                            "text": "Kuhaon sila sa katawhan sa ubang kanasoran ug dad-on balik sa ilang yuta ug himoong ulipon sa katawhan sa Israel ang mga kanasoran didto sa yuta sa Ginoo. Sila na usab ang mobihag sa nagbihag kanila ug maghari sa nagdaugdaog kanila."
                         },
                         {
                             "verse": 3,
-                            "text": "Ug mahitabo sa adlaw nga si Jehova mohatag kanimo ug pahulay gikan sa imong kasubo, ug gikan sa imong kaguol, ug gikan sa mabug-at nga pag-alagad diin ikaw gipaalagad,"
+                            "text": "Sa dihang papahulayon na sa Ginoo ang katawhan sa Israel gikan sa ilang mga pag-antos, sa kasamok ug sa pinugos nga trabaho, "
                         },
                         {
                             "verse": 4,
-                            "text": "Nga imong gamiton kining sambingay batok sa hari sa Babilonia, ug moingon: Giunsa paghunong sa malupigon! ang bulawanong ciudad mihunong!"
+                            "text": "biaybiayon nila ang hari sa Babilonia niining mosunod nga mga pulong: “Natapos na gayod ang imong pagkamadaugdaogon ug ang imong kabangis!"
                         },
                         {
                             "verse": 5,
-                            "text": "Gibali ni Jehova ang sungkod sa dautan, ang baras sa mga punoan;"
+                            "text": "Gikuha sa Ginoo ang gahom sa mga daotang magmamando,"
                         },
                         {
                             "verse": 6,
-                            "text": "Nga sa kaligutgut maoy gihampak sa mga katawohan sa pagbunal nga makanunayon, nga sa kasuko nagdumala sa mga nasud, uban ang paglutos nga walay makapugong."
+                            "text": "nga sa kabangis nagdaugdaog sa kanasoran, ug walay hunong nga naglutos sa mga katawhan nga ilang naulipon."
                         },
                         {
                             "verse": 7,
-                            "text": "Ang tibook yuta nagapahulay ug nahilum: sila minghugyaw sa pag-awit."
+                            "text": "Nakapahulay ug nagmalinawon na ang tibuok kalibotan ug nag-awit ang katawhan."
                         },
                         {
                             "verse": 8,
-                            "text": "Oo, ang mga kahoy nga haya nanghimuot kanimo, ug ang mga cedro sa Libano nga nagaingon: Sukad nga ikaw napukan wala nay magpuputol sa kahoy nga mitungha batok kanamo."
+                            "text": "Nagmaya nga nagtan-aw kanimo ang mga kahoyng sipre ug ang mga sidro sa Lebanon.Miingon sila, ‘Sukad ka mapukan wala nay mianhi pagpamutol kanamo.’"
                         },
                         {
                             "verse": 9,
-                            "text": "Ang Sheol gikan sa kahiladman gilihok alang kanimo aron sa pagtagbo kanimo sa imong pag-anhi; gipukaw ang mga minatay alang kanimo, bisan ang tanang pangulo sa yuta; gipatindog gikan sa ilang mga trono ang tanang mga hari sa mga nasud."
+                            "text": "“Ang Seol nangandam na sa pagtagbo sa hari sa Babilonia; gipukaw niya ang mga kalag, ang tanang kadagkoan sa kalibotan lakip ang mga hari sa kanasoran."
                         },
                         {
                             "verse": 10,
-                            "text": "Silang tanan manubag ug manag-ingon kanimo: Naluya ba usab ikaw ingon kanamo? nahimo ba ikaw nga sama kanamo?"
+                            "text": "Silang tanan moingon unya kanimo: ‘Karon managsama na gayod kita nga wala nay gahom."
                         },
                         {
                             "verse": 11,
-                            "text": "Ang imong kabantug gidala ngadto sa Sheol ug ang kasaba sa imong mga viola: ang ulod gibuklad sa ilalum nimo, ug ang mga ulod magatabon kanimo."
+                            "text": "Gitambog na sa Seol ang imong garbo ug ang honi sa imong mga alpa; ang mga ulod maoy imong habol ug hapin sa imong higdaanan.’"
                         },
                         {
                             "verse": 12,
-                            "text": "Naunsa ang pagkahulog mo gikan sa langit, Oh kabugason, anak sa kabuntagon! naunsa ang pagkalumpag mo ngadto sa yuta, nga ikaw man unta ang nagalumpag sa mga nasud!"
+                            "text": "“Unsang pagkahitaboa nga nahulog ka man gikan sa langit, O hari sa Babilonia, ang mahayag nga kabugason? Unsang pagkahitaboa nga napukan ka man nga unta daghan mang nasod ang gibuntog nimo?"
                         },
                         {
                             "verse": 13,
-                            "text": "Ug ikaw miingon diha sa imong sa kasingkasing: Ako mokayab ngadto sa langit, ituboy ko ang akong trono sa ibabaw sa mga bitoon sa Dios; ug ako magalingkod sa bukid nga tigumanan, sa kinatumyang mga dapit sa amihanan;"
+                            "text": "Miingon ka man gud sa imong hunahuna, ‘Mosaka ako sa langit, ibabaw pa sa kabituonan ug adto ko didto ipahimutang ang akong trono; molingkod ako sa bukid nga tigomanan nga atua sa layong amihanan."
                         },
                         {
                             "verse": 14,
-                            "text": "Mokayab ako sa ibabaw sa mga kahitas-an sa mga panganod; himoon ko nga ang akong kaugalingon mahasama sa Hataas Uyamut."
+                            "text": "Mosaka ako ibabaw sa kapanganoran ug makigsama ako sa Labing Gamhanang Dios.’"
                         },
                         {
                             "verse": 15,
-                            "text": "Silabon ikaw pagadad-on ngadto sa Sheol, sa kinahiladmang mga dapit sa langub."
+                            "text": "Apan gitambog ka hinuon sa Seol, sa kinahiladman sa Bung-aw"
                         },
                         {
                             "verse": 16,
-                            "text": "Sila nga managpakakita kanimo managtutok kanimo ug managsusi kanimo nga manag-ingon: Kini ba ang tawo nga nakapakurog sa yuta, nga nagauyog sa mga gingharian;"
+                            "text": "ug ang makakita kanimo motutok kanimo sa dakong kahibulong ug moingon, ‘Mao ba kini siya ang gikalisangan sa tibuok kalibotan ug nakapakurog sa mga gingharian?"
                         },
                         {
                             "verse": 17,
-                            "text": "Nga maoy naghimo sa kalibutan nga ingon sa usa ka kamingawan, ug nakalaglag sa mga ciudad niini; nga wala magpapauli sa iyang mga binilanggo sa ilang pinuy-anan?"
+                            "text": "Mao ba kini siya ang migun-ob sa mga siyudad ug naghimo sa kalibotan nga daw diserto ug dili mobuhi sa iyang mga binilanggo?’"
                         },
                         {
                             "verse": 18,
-                            "text": "Ang tanang mga hari sa mga nasud, silang tanan, nanagkatulog sa himaya, ang tagsatagsa sa iyang kaugalingong balay."
+                            "text": "Ang tanang hari sa kalibotan dungganan nga nagbuy-od sa ilang lubnganan;"
                         },
                         {
                             "verse": 19,
-                            "text": "Apan ikaw ginasalibay ngadto sa gawas sa imong lubnganan sama sa usa ka sanga nga ginakasilagan, sinul-oban sa saput sa mga patay, nga gipalapsan sa espada, nga manaug sa kabatoan sa gahong; ingon sa usa ka minatay nga ginatumban."
+                            "text": "apan ikaw, gitambog ug wala ilubong, daw batang patay nga naahat pagkatawo, uban sa nangamatay pinaagi sa espada ngadto sa kabatoan sa Bung-aw, sama sa patay nga gitunobtunoban na."
                         },
                         {
                             "verse": 20,
-                            "text": "Ikaw dili igaipon kanila sa paglubong, tungod kay imong gilaglag ang imong yuta, imong gipamatay ang imong katawohan; ang kaliwatan sa mga mamumuhat sa dautan dili na gayud pagahisgutan sa walay katapusan."
+                            "text": "Dili ka itipon kanilag lubong, kay dako ka mag nahimong kadaot sa imong nasod, ug daghan kag napatay sa imong katawhan. Matapos na unta ang daotang nimong kaliwat."
                         },
                         {
                             "verse": 21,
-                            "text": "Hikayon ninyo ang pagpatay sa iyang mga anak tungod sa kasal-anan sa ilang mga amahan, aron sila dili manindog ug makaangkon sa yuta, ug pun-on ang nawong sa kalibutan sa mga ciudad."
+                            "text": "Pangandam kay pamatyon na ang imong mga anak tungod sa kalapasan ninyong mga ginikanan, kay tingali unyag mosanay sila ug manag-iya sa yuta ug lukpon nila pagtukod ug mga siyudad ang tibuok kalibotan.”"
                         },
                         {
                             "verse": 22,
-                            "text": "Ug ako motindog batok kanila, nag-ingon si Jehova sa mga panon, ug putlon ko gikan sa Babilonia ang ngalan ug salin, ug ang anak ug ang anak sa anak, nagaingon si Jehova."
+                            "text": "“Atakihon ko ang Babilonia ug gun-obon ko kini ug walay mga kaliwat o salin nga magpabiling buhi,” nag-ingon ang Ginoo nga Labing Gamhanan."
                         },
                         {
                             "verse": 23,
-                            "text": "Pagahimoon ko usab nga ang baboy nga tunokon maoy manag-iya niini, ug sa mga linaw sa tubig: ug kini pagasilhigan ko sa silhig sa kalaglagan, nagaingon si Jehova sa mga panon."
+                            "text": "“Himoon kong kalapokan ang Babilonia ug mga mingok na lamay magpuyo niini, unya silhigon ko ang tanang katawhan,” nag-ingon ang Ginoo nga Labing Gamhanan."
                         },
                         {
                             "verse": 24,
-                            "text": "Si Jehova sa mga panon nanumpa nga nagaingon: Sa pagkamatuod ingon sa akong nahunahuna, ingon niana ang mahitabo: ug ingon sa akong gitinguha, mao man ang mamatuman:"
+                            "text": "Nanumpa ang Ginoo nga Labing Gamhanan, “Ang akong gilaraw mahitabo gayod, ug ang akong pagbuot matuman usab."
                         },
                         {
                             "verse": 25,
-                            "text": "Nga pagagub-on ko ang Asiriahanon sa akong yuta, ug sa ibabaw sa akong kabukiran pagatumban ko siya: unya ang iyang yugo matangtang kanila ug ang iyang palas-anon makuha gikan sa ilang mga abaga."
+                            "text": "Dinhi sa akong yuta, patyon ko ang mga taga-Asiria, ug dinhi sa akong kabukiran, tunobtunoban ko sila. Dili na nila ulipnon ang mga Israelita o papas-anon pag bug-at."
                         },
                         {
                             "verse": 26,
-                            "text": "Kini mao ang tuyo nga ginatinguha sa ibabaw sa tibook yuta; ug kini mao ang kamot nga ginabakyaw ngadto sa ibabaw sa tanang mga nasud."
+                            "text": "Mao kini ang akong katuyoan alang sa tibuok kalibotan, ug bakyawon ko ang akong kamot ibabaw sa tanang kanasoran.”"
                         },
                         {
                             "verse": 27,
-                            "text": "Kay si Jehova sa mga panon maoy nagbuot ug kinsay makapapakyas niini? ug ang iyang kamot ginatuy-od na, ug kinsay makapahuyhoy niini?"
+                            "text": "Kay kabubut-on man kini sa Ginoo nga Labing Gamhanan, walay bisan kinsa nga makababag niini, o may makapugong sa kamot nga iyang gibakyaw."
                         },
                         {
                             "verse": 28,
-                            "text": "Sa tuig sa pagkamatay ni hari Achaz diha kini nga palas-anon."
+                            "text": "Sa tuig nga maoy pagkamatay ni Hari Ahaz, nag-ingon ang Dios:"
                         },
                         {
                             "verse": 29,
-                            "text": "Ayaw pagkalipay, Oh Filistia ang tibook nga imo, tungod kay ang baras nga mihampak kanimo naputol na; kay gikan sa gamot sa bitin mogula ang halas nga bahion, ug ang iyang bunga mao ang usa ka masiga nga pak-an nga bitin."
+                            "text": "“Mga Filistihanon, ayaw kamo pagmaya nga nabali ang bunal nga nagkastigo kaninyo, kay ang bitin manganak ug halas nga malala, ug kini manganak usab ug serpenting pak-an."
                         },
                         {
                             "verse": 30,
-                            "text": "Ug ang panganay sa mga kabus makakaon, ug ang mga hangul mohigda sa walay kabilinggan; ug pagapatyon ko sa gutom ang imong gamot, ug ang imong salin pagaihawon."
+                            "text": "Ang panganay sa tawong kabos mabusog ug matulog nga malinawon ang timawa; apan patyon ko pinaagi sa gutom ang imong kaliwat, ug ang mahibilin patyon ko pinaagi sa espada."
                         },
                         {
                             "verse": 31,
-                            "text": "Mag-uwang ka, Oh ganghaan; suminggit ka, Oh ciudad; ikaw matunaw na, Oh Filistia, ang tibook nga imo: kay adunay aso nga mogula gikan sa amihanan, ug walay bisan usa nga mahibilin sa iyang mga laray."
+                            "text": "“Hilak, O ganghaan! Singgit, O siyudad! Pangatunaw kamong tanan sa kahadlok, O mga Filistihanon! Kay may aso nga motungha gikan sa amihanan ug wala gayoy talawan kanila.”"
+
                         },
                         {
                             "verse": 32,
-                            "text": "Busa unsa man unyay itubag niya sa mga sinugo sa nasud? Nga gitukod ni Jehova ang Sion, ug kaniya ang ginasakit sa iyang katawohan anha modangup."
+                            "text": "Unsa may among itubag sa mga sinugo sa Filistia? Sultihan namo sila, “Ang Ginoo maoy nagtukod sa Sion ug dangpanan kini sa mga nag-antos niyang katawhan.”"
                         }
                     ]
                 },
@@ -75430,39 +75431,39 @@ const myBibleData = {
                     "verses": [
                         {
                             "verse": 1,
-                            "text": "Ang palas-anon sa Moab. Kay sa usa ka gabii ang Ar sa Moab gilaglag; ug gipapas; kay sa usa ka gabii ang Kir sa Moab gilaglag ug gipapas."
+                            "text": "Mao kini ang mensahe bahin sa Moab: Sa usa lamang ka gabii ang mga siyudad sa Ar ug Kir nagun-ob ug nalumpag."
                         },
                         {
                             "verse": 2,
-                            "text": "Sila nanungas ngadto sa Bayith ug sa Dibon, ngadto sa hatag-as nga mga dapit, aron sa pagbakho: ang Moab nagaminatay mahatungod sa Nebo, ug mahatungod sa Medeba; sa tanan nilang mga ulo adunay kaupawon, ug tanang bungot giagilan."
+                            "text": "Ang katawhan sa Dibon mitungas ngadto sa halaran didto sa kabungtoran aron paghilak. Nagbangotan ang Moab alang sa mga siyudad sa Nebo ug sa Medeba. Giupawan nila ang ilang ulo ug gibarbasan ang ilang nawong."
                         },
                         {
                             "verse": 3,
-                            "text": "Sa ilang kadalanan nanagsul-ob sila ug sako; sa atop sa ilang mga balay, ug sa ilang halapad nga mga dapit, ang tagsatagsa nagaminatay, nagadangoyngoy sa hilabihan."
+                            "text": "Didto sa kadalanan nagbisti silag sako, ug didto sa atop sa kabalayan ug sa mga plasa naghilak ug nagbangotan sila."
                         },
                         {
                             "verse": 4,
-                            "text": "Ug ang Hesbon nagatu-aw ug ang Eleale; ang ilang tingog nadungog bisan pa hangtud sa Jahas: busa ang mga tawo sa Moab nga adunay hinagiban nanagtiabaw sa makusog; ang iyang kalag nagakurog sa sulod niya."
+                            "text": "Mitiyabaw usab ang katawhan sa Hesbon ug sa Eleale; mabati ang ilang tingog bisan sa Jahas; busa nangurog ug naniyabaw ang kasundalohan sa Moab."
                         },
                         {
                             "verse": 5,
-                            "text": "Ang akong kasingkasing nagatu-aw mahatungod sa Moab; ang iyang mga halangdon nangalagiw ngadto sa Zoar, ingon sa dumalaga nga vaca nga totolo ka tuig ang kagulangon: kay haduol sa tungasan sa Luhith sila mingtungas nga nagahilak; kay sa alagianan sa Horonaim sila nagahimo ug usa ka pagtu-aw sa kalaglagan."
+                            "text": "Naluoy ako sa Moab; nangagiw ang iyang katawhan ngadto sa Zoar ug sa Eglat Selekia. Sa bakilid sa Luhit nanungas sila nga naghilak; sa dalan paingon sa Horonaim naniyabaw sila tungod sa kalisang."
                         },
                         {
                             "verse": 6,
-                            "text": "Kay ang mga tubig sa Nimrim mahimong biniyaan; kay ang balili malaya, ang linghod nga balili malawos, walay butang nga lunhaw."
+                            "text": "Nanghubas ang mga sapa sa Nimrim ug nangalaya ang mga sagbot; ang pinugas wala makaturok ug walay tanom nga nagpabiling lunhaw."
                         },
                         {
                             "verse": 7,
-                            "text": "Busa ang kadagaya nga ilang nakab-ut, ug kadtong ilang natigum, ilang pagadad-on ngadto sa sapa sa mga tangbo."
+                            "text": "Busa gidala sa katawhan ang ilang mga bahandi ug bisan unsa nga ilang natigom tabok sa Sapa sa Zered."
                         },
                         {
                             "verse": 8,
-                            "text": "Kay ang pagtu-aw moabut nga magalibut sa mga utlanan sa Moab; ang pagminatay niini moabut hangtud sa Eglaim, ug ang pagminatay niini hangtud sa Beer-elim."
+                            "text": "Ang singgit sa pagpakitabang milanog sa kayutaan sa Moab hangtod sa Eglaim ug sa Beer-Elim."
                         },
                         {
                             "verse": 9,
-                            "text": "Kay ang mga tubig sa Dimon nangapuno sa dugo; kay dugangan ko pa ang kadautan sa Dimon, usa ka leon sa ibabaw nila nga makakalagiw sa Moab, ug ibabaw sa salin sa yuta."
+                            "text": "Nalukop sa dugo ang suba sa Dibon, apan pahiagomon ko ang Dibon ug labaw pa niini; ipatukob ko sa liyon ang tanan nga mahibilin sa Moab."
                         }
                     ]
                 },
