@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard Control | BCM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+        
+        body { 
+            margin: 0; 
+            padding: 20px; 
+            font-family: 'Outfit', sans-serif; 
+            background: #0f1219; 
+            color: #f7f3eb; 
+        }
+        
+        .dashboard-box { 
+            max-width: 750px; 
+            margin: 0 auto; 
+            background: #161b26; 
+            padding: 25px; 
+            border-radius: 15px; 
+            border: 2px solid #d4af37; 
+            box-shadow: 0 0 40px rgba(0,0,0,0.6); 
+            display: none; 
+            box-sizing: border-box;
+        }
+        
+        h1 { 
+            color: #ffd700; 
+            margin-top: 0; 
+            text-transform: uppercase; 
+            font-size: 1.4rem; 
+            border-bottom: 1px dashed rgba(212,175,55,0.3); 
+            padding-bottom: 15px; 
+            text-align: center;
+        }
+        
+        h3 { 
+            color: #ffd700; 
+            font-size: 1.1rem; 
+            margin-top: 25px; 
+            text-transform: uppercase; 
+        }
+        
+        /* RESPONSIVE FORM GRID */
+        .form-section { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 12px; 
+            margin-bottom: 30px; 
+            margin-top: 15px; 
+        }
+        
+        input { 
+            width: 100%; 
+            padding: 12px; 
+            border-radius: 8px; 
+            border: 1px solid rgba(212, 175, 55, 0.3); 
+            background: #0f1219; 
+            color: white; 
+            font-family: 'Outfit'; 
+            font-size: 1rem; 
+            box-sizing: border-box;
+        }
+        input:focus { border-color: #ffd700; outline: none; }
+        
+        .add-btn { 
+            width: 100%; 
+            background: linear-gradient(135deg, #d4af37 0%, #aa851c 100%); 
+            color: #120c05; 
+            border: none; 
+            padding: 14px; 
+            font-weight: bold; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            font-family: 'Outfit'; 
+            text-transform: uppercase; 
+            transition: 0.2s; 
+            font-size: 1rem;
+        }
+        .add-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 10px rgba(212, 175, 55, 0.2); }
+        
+        /* TABLE CONTAINER ALANG SA LAPTOP */
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 15px; 
+            background: rgba(0,0,0,0.2); 
+            border-radius: 8px; 
+            overflow: hidden; 
+        }
+        
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        th { background: rgba(212, 175, 55, 0.08); color: #ffd700; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.5px; }
+        
+        .status-badge { padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; display: inline-block; }
+        .status-active { background: rgba(0, 255, 100, 0.12); color: #00ff64; border: 1px solid rgba(0, 255, 100, 0.2); }
+        .status-inactive { background: rgba(255, 0, 50, 0.12); color: #ff0032; border: 1px solid rgba(255, 0, 50, 0.2); }
+        
+        .action-btn { padding: 6px 14px; border-radius: 6px; border: none; font-weight: bold; cursor: pointer; font-family: 'Outfit'; font-size: 0.85rem; transition: 0.2s; width: 100%; max-width: 120px; text-align: center; }
+        .deactivate-btn { background: rgba(255, 69, 0, 0.15); color: #ff4500; border: 1px solid #ff4500; }
+        .deactivate-btn:hover { background: #ff4500; color: white; }
+        .activate-btn { background: rgba(0, 170, 255, 0.15); color: #00aaff; border: 1px solid #00aaff; }
+        .activate-btn:hover { background: #00aaff; color: white; }
+        
+        .back-portal { display: block; text-align: center; margin-top: 30px; color: #ffd700; text-decoration: none; font-weight: bold; transition: 0.2s; }
+        .back-portal:hover { text-shadow: 0 0 10px #ffd700; }
+
+        /* 📱 🔒 SMARTPHONE RESPONSIVE RESPONSIVE QUERY BLOCK */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .dashboard-box { padding: 15px; }
+            h1 { font-size: 1.2rem; }
+            
+            /* Isira ang karaan nga table rows, himoon natong cards */
+            table, thead, tbody, th, td, tr { display: block; width: 100%; box-sizing: border-box; }
+            thead { display: none; } /* Tagoan ang th headers sa laptop */
+            
+            tr { 
+                background: rgba(255, 255, 255, 0.02); 
+                margin-bottom: 15px; 
+                border: 1px solid rgba(212, 175, 55, 0.2); 
+                border-radius: 10px; 
+                padding: 10px;
+            }
+            
+            td { 
+                text-align: right; 
+                padding: 8px 5px; 
+                border-bottom: 1px solid rgba(255,255,255,0.03); 
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 0.95rem;
+            }
+            td::before { 
+                content: attr(data-label); 
+                font-weight: 600; 
+                color: #ffd700; 
+                text-transform: uppercase; 
+                font-size: 0.8rem;
+                text-align: left;
+            }
+            td:last-child { border-bottom: none; justify-content: center; padding-top: 12px; }
+            .action-btn { max-width: 100%; }
+        }
+
+        /* 💻 TABLET & LAPTOP SETUP */
+        @media (min-width: 601px) {
+            .form-section { flex-direction: row; }
+            h1 { font-size: 1.6rem; text-align: left; }
+            .action-btn { width: auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-box" id="adminGate" style="display:block; max-width:420px; text-align:center; margin-top:15vh;">
+        <h1>🔐 Admin Control</h1>
+        <p style="color:#dfd3c3;">Kini usa ka Sagrado nga Dapit. Ibutang ang Admin Master Key:</p>
+        <input type="password" id="adminKeyInput" placeholder="Admin Master Key" autocomplete="off" style="font-size:16px;">
+        <button class="add-btn" style="margin-top:12px; width:100%;" onclick="submitAdminKey()">MOSULOD</button>
+        <p id="adminGateMsg" style="color:#ff6b6b; min-height:1.2em; margin:12px 0 0;"></p>
+        <a href="index.html" class="back-portal">⬅️ Balik sa Main Portal</a>
+    </div>
+
+    <div class="dashboard-box" id="mainDashboard">
+        <h1>👑 Admin Control Room (Mga Piniyalang Lider)</h1>
+        
+        <h3>➕ Pag-add og Bag-ong Lider:</h3>
+        <div class="form-section">
+            <input type="text" id="newName" placeholder="Pangalan sa Lider">
+            <input type="text" id="newCode" placeholder="Code Number (Password)">
+            <button class="add-btn" onclick="addNewLeader()">I-proklamang Lider</button>
+        </div>
+        
+        <h3>📋 Kasamtangang Listahan sa mga Lider:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pangalan</th>
+                    <th>Code No.</th>
+                    <th>Status</th>
+                    <th>Aksyon sa Trono</th>
+                </tr>
+            </thead>
+            <tbody id="leadersTableBody">
+                <!-- Data loads here dynamically -->
+            </tbody>
+        </table>
+        
+        <a href="index.html" class="back-portal">⬅️ Balik sa Main Portal</a>
+        <a href="#" class="back-portal" onclick="adminLogout(); return false;">🚪 Log Out sa Admin</a>
+    </div>
+
+    <div id="resetBox" style="display:none; position:fixed; inset:0; background:rgba(6,8,12,0.9); z-index:50; align-items:center; justify-content:center; padding:20px; box-sizing:border-box;">
+        <div class="dashboard-box" style="display:block; max-width:380px; width:100%; text-align:center;">
+            <h1 style="font-size:1.1rem;">🔑 I-reset ang Code</h1>
+            <p id="resetWho" style="color:#dfd3c3;"></p>
+            <input type="text" id="resetCodeInput" placeholder="Bag-ong Code (labing menos 4)" autocomplete="off" style="font-size:16px;">
+            <button class="add-btn" style="margin-top:12px; width:100%;" onclick="confirmReset()">I-SAVE</button>
+            <a href="#" class="back-portal" onclick="closeReset(); return false;">⬅️ Kansela</a>
+        </div>
+    </div>
+
+    <script>
+        var adminKey = '';
+        var leaders = [];
+
+        function esc(t) { return String(t).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+        async function api(action, extra) {
+            var r = await fetch('/api/admin', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(Object.assign({ key: adminKey, action: action }, extra || {}))
+            });
+            var d = {};
+            try { d = await r.json(); } catch (e) {}
+            d._status = r.status;
+            return d;
+        }
+
+        function showGateMsg(t) { document.getElementById('adminGateMsg').textContent = t || ''; }
+
+        async function tryUnlock(key, silent) {
+            adminKey = key;
+            try {
+                var d = await api('list');
+                if (d.ok) {
+                    leaders = d.leaders;
+                    try { sessionStorage.setItem('adminKey', key); } catch (e) {}
+                    document.getElementById('adminGate').style.display = 'none';
+                    document.getElementById('mainDashboard').style.display = 'block';
+                    loadLeaders();
+                    return true;
+                }
+                if (!silent) showGateMsg(d.error || "Wala makasulod. Sulayi pag-usab.");
+            } catch (e) {
+                if (!silent) showGateMsg("Walay koneksyon sa server. Siguroha nga naay internet.");
+            }
+            try { sessionStorage.removeItem('adminKey'); } catch (e) {}
+            return false;
+        }
+
+        async function submitAdminKey() {
+            var inp = document.getElementById('adminKeyInput');
+            var v = inp.value.trim();
+            if (!v) { showGateMsg("Ibutang ang Admin Master Key."); return; }
+            showGateMsg("Gi-check...");
+            var ok = await tryUnlock(v, false);
+            if (!ok) { inp.value = ''; inp.focus(); }
+        }
+
+        function adminLogout() {
+            try { sessionStorage.removeItem('adminKey'); } catch (e) {}
+            window.location.href = "index.html";
+        }
+
+        window.addEventListener('DOMContentLoaded', function() {
+            var inp = document.getElementById('adminKeyInput');
+            inp.addEventListener('keydown', function(e) { if (e.key === 'Enter') submitAdminKey(); });
+            var saved = null;
+            try { saved = sessionStorage.getItem('adminKey'); } catch (e) {}
+            if (saved) { tryUnlock(saved, true).then(function(ok){ if (!ok) inp.focus(); }); } else { inp.focus(); }
+        });
+
+        function loadLeaders() {
+            var tbody = document.getElementById('leadersTableBody');
+            tbody.innerHTML = '';
+            leaders.forEach(function(leader, index) {
+                var tr = document.createElement('tr');
+                var statusHTML = leader.active
+                    ? '<span class="status-badge status-active">Nag-alagad (Active)</span>'
+                    : '<span class="status-badge status-inactive">Nibitiw (Removed)</span>';
+                var actionButton = leader.active
+                    ? `<button class="action-btn deactivate-btn" onclick="toggleStatus(${index})">❌ I-remove</button>`
+                    : `<button class="action-btn activate-btn" onclick="toggleStatus(${index})">🛡️ I-balik</button>`;
+                tr.innerHTML = `
+                    <td data-label="Pangalan"><strong>${esc(leader.name)}</strong></td>
+                    <td data-label="Code No."><code>${esc(leader.code)}</code></td>
+                    <td data-label="Status">${statusHTML}</td>
+                    <td>${actionButton} <button class="action-btn activate-btn" onclick="resetCode(${index})">🔑 I-reset ang Code</button></td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function run(action, extra, okMsg) {
+            try {
+                var d = await api(action, extra);
+                if (!d.ok) { alert(d.error || "Wala na-save. Sulayi pag-usab."); return false; }
+                leaders = d.leaders;
+                loadLeaders();
+                if (okMsg) alert(okMsg);
+                return true;
+            } catch (e) { alert("Walay koneksyon sa server. Siguroha nga naay internet."); return false; }
+        }
+
+        async function addNewLeader() {
+            var nameIn = document.getElementById('newName').value.trim();
+            var codeIn = document.getElementById('newCode').value.trim();
+            if (nameIn === "" || codeIn === "") { alert("Palihug isulat ang pangalan ug code!"); return; }
+            var ok = await run('add', { name: nameIn, code: codeIn }, "Praise God! Malampuson nga na-add si " + nameIn + " isip piniyalang lider.");
+            if (ok) { document.getElementById('newName').value = ''; document.getElementById('newCode').value = ''; }
+        }
+
+        function toggleStatus(index) {
+            run('toggle', { name: leaders[index].name });
+        }
+
+        var resetIndex = -1;
+        function resetCode(index) {
+            resetIndex = index;
+            document.getElementById('resetWho').textContent = "Para kang " + leaders[index].name;
+            document.getElementById('resetCodeInput').value = '';
+            document.getElementById('resetBox').style.display = 'flex';
+            document.getElementById('resetCodeInput').focus();
+        }
+        function closeReset() { document.getElementById('resetBox').style.display = 'none'; resetIndex = -1; }
+        async function confirmReset() {
+            if (resetIndex < 0) return;
+            var l = leaders[resetIndex];
+            var c = document.getElementById('resetCodeInput').value.trim();
+            var ok = await run('setcode', { name: l.name, code: c }, "Nabag-o na ang code ni " + l.name + ".");
+            if (ok) closeReset();
+        }
+    </script>
+</body>
+</html>

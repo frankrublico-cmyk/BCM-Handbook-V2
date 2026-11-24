@@ -505,6 +505,20 @@
 
     <button class="logout-btn" onclick="portalLogOut()">🚪 Log Out sa Trono</button>
 
+    <!-- CHANGE CODE MODAL -->
+    <div id="changeCodeOverlay" style="display:none; position:fixed; inset:0; z-index:10000; background:rgba(6,8,12,0.95); align-items:center; justify-content:center;">
+        <div class="login-card">
+            <h2 style="font-size:1.3rem;">🔄 CHANGE CODE NO.</h2>
+            <div class="input-group"><label>Username</label><input type="text" id="ccUser" placeholder="Imong ngalan"></div>
+            <div class="input-group"><label>Karaang Code</label><input type="password" id="ccOld" placeholder="Karaang Code No."></div>
+            <div class="input-group"><label>Bag-ong Code</label><input type="password" id="ccNew" placeholder="Bag-ong Code No."></div>
+            <div class="input-group"><label>Balika ang Bag-ong Code</label><input type="password" id="ccNew2" placeholder="Balika ang bag-ong Code"></div>
+            <div id="ccMsg" style="min-height:1.2em; margin-bottom:8px; font-family:'Outfit',sans-serif; color:#ff6b6b;"></div>
+            <button class="login-btn" onclick="submitChangeCode()">I-SAVE ANG BAG-ONG CODE</button>
+            <div style="margin-top:18px; font-family:'Outfit',sans-serif;"><a href="#" onclick="closeChangeCode(); return false;" style="color:rgba(255,255,255,0.6); text-decoration:none;">⬅️ Balik</a></div>
+        </div>
+    </div>
+
     <!-- SECURITY BARRIER OVERLAY -->
     <div id="loginOverlay">
         <div class="login-card">
@@ -514,7 +528,7 @@
             <div class="input-group"><label>Access Code</label><input type="password" id="portalCode" placeholder="Ibutang ang imong Code No."></div>
             <button class="login-btn" onclick="checkPortalAccess()">MOSULOD SA TRONO</button>
             <div style="margin-top:25px; font-size:0.9rem; font-family: 'Outfit', sans-serif;">
-                <a href="#" onclick="changePassword()" style="color:#ffd700; text-decoration:none; font-weight:600;">🔄 Change Code No.</a><br><br>
+                <a href="#" onclick="changePassword(); return false;" style="color:#ffd700; text-decoration:none; font-weight:600;">🔄 Change Code No.</a><br><br>
                 <a href="admin_dashboard.html" style="color:rgba(255,255,255,0.4); text-decoration:none;">🔐 Admin Dashboard Control</a>
             </div>
         </div>
@@ -578,27 +592,50 @@
             });
         });
 
-        var defaultLeaders = [
-            { name: "Pastor Frank", code: "7777", active: true }, { name: "Jenelyn", code: "1403", active: true },
-            { name: "Argie", code: "4444", active: true }, { name: "Rosemarie", code: "0001", active: true },
-            { name: "Pastor Jessie", code: "0002", active: true }, { name: "Julibeth", code: "0003", active: true },
-            { name: "Abraham", code: "0004", active: true }, { name: "John Jersey", code: "0005", active: true },
-            { name: "Faith", code: "3333", active: true }, { name: "Aga", code: "0006", active: true },
-            { name: "Jenefer", code: "0007", active: true }, { name: "Roland", code: "0008", active: true },
-            { name: "Raymund", code: "0009", active: true }, { name: "Lilibeth", code: "0010", active: true },
-            { name: "Leader", code: "0000", active: true }, { name: "Disciple", code: "0011", active: true },
-            { name: "Vince Elijah", code: "1234", active: true }
-        ];
-        
-        if (localStorage.getItem('leadersListFinal') === null) { localStorage.setItem('leadersListFinal', JSON.stringify(defaultLeaders)); }
+        async function callApi(path, payload) {
+            var r = await fetch(path, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(payload) });
+            var d = {};
+            try { d = await r.json(); } catch (e) {}
+            return d;
+        }
 
-        function checkPortalAccess() { 
+        async function checkPortalAccess() {
             var user = document.getElementById('portalUser').value.trim();
             var code = document.getElementById('portalCode').value.trim();
-            var list = JSON.parse(localStorage.getItem('leadersListFinal'));
-            var match = list.find(l => l.name.toLowerCase() === user.toLowerCase() && l.code === code);
-            if(match) { document.getElementById('loginOverlay').style.display = 'none'; sessionStorage.setItem('portalApproved', 'true'); }
-            else { alert("Sayop ang Username o Code!"); }
+            if (!user || !code) { alert("Ibutang ang Username ug Code!"); return; }
+            try {
+                var d = await callApi('/api/login', { name: user, code: code });
+                if (d.ok) {
+                    document.getElementById('loginOverlay').style.display = 'none';
+                    try { sessionStorage.setItem('portalApproved', 'true'); } catch (e) {}
+                } else { alert(d.error || "Sayop ang Username o Code!"); }
+            } catch (e) { alert("Walay koneksyon sa server. Siguroha nga naay internet."); }
+        }
+
+        function changePassword() {
+            ['ccOld','ccNew','ccNew2','ccMsg'].forEach(function(id){ var e=document.getElementById(id); if(e){ e.value=''; e.textContent=''; } });
+            document.getElementById('ccUser').value = document.getElementById('portalUser').value.trim();
+            document.getElementById('changeCodeOverlay').style.display = 'flex';
+        }
+        function closeChangeCode() { document.getElementById('changeCodeOverlay').style.display = 'none'; }
+        async function submitChangeCode() {
+            var msg = document.getElementById('ccMsg');
+            var user = document.getElementById('ccUser').value.trim();
+            var oldC = document.getElementById('ccOld').value.trim();
+            var newC = document.getElementById('ccNew').value.trim();
+            var new2 = document.getElementById('ccNew2').value.trim();
+            if (!user || !oldC || !newC || !new2) { msg.textContent = "Palihug pun-a ang tanang field."; return; }
+            if (newC !== new2) { msg.textContent = "Dili parehas ang duha ka bag-ong code."; return; }
+            if (newC === oldC) { msg.textContent = "Ang bag-ong code kinahanglan lahi sa karaan."; return; }
+            msg.textContent = "Gi-save...";
+            try {
+                var d = await callApi('/api/change-code', { name: user, oldCode: oldC, newCode: newC });
+                if (!d.ok) { msg.textContent = d.error || "Wala na-save. Sulayi pag-usab."; return; }
+                closeChangeCode();
+                document.getElementById('portalUser').value = d.name || user;
+                document.getElementById('portalCode').value = '';
+                alert("Praise God! Malampuson nga nabag-o ang imong Code No. Gamita na ang bag-ong code.");
+            } catch (e) { msg.textContent = "Walay koneksyon sa server. Siguroha nga naay internet."; }
         }
 
         function portalLogOut() { sessionStorage.removeItem('portalApproved'); window.location.reload(); }
